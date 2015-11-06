@@ -35,7 +35,7 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bounces": true,
+    "bounces": false,
     "canUpdateUI": true,
     "children": [],
     "clipBounds": true,

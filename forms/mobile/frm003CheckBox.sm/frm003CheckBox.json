@@ -29,7 +29,8 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexCheckBoxes"
+        "flexCheckBoxes",
+        "flexScrollCheckboxBackground"
     ],
     "containerWeight": 100,
     "containerweight": 100,
