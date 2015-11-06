@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -59,10 +56,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "8e08f16f209c4d99b4e5ea6acad1f4dc",
-    "left": {
-        "type": "string",
-        "value": "15dp"
-    },
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -88,10 +82,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 4,
     "zindex": 4
 }

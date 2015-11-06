@@ -39,10 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "lblTitleTermsConditions",
     "info": null,
     "ipad": {
@@ -59,10 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "0ffe1403cbee4f9f827afdb2e4480b9b",
-    "left": {
-        "type": "string",
-        "value": "25dp"
-    },
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -83,18 +77,12 @@
     "text": "Terms & Conditions:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "top": "45dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "170dp"
-    },
+    "width": "170dp",
     "wrapping": 2
 }

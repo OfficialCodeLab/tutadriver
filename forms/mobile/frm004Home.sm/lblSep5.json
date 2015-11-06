@@ -32,10 +32,7 @@
         "value": "80%"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "1dp"
-    },
+    "bottom": "1dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -43,10 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "2dp"
-    },
+    "height": "2dp",
     "id": "lblSep5",
     "info": null,
     "ipad": {
@@ -79,19 +73,13 @@
     "parent": "flexMenuOptions",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "number",
-        "value": "0"
-    },
+    "right": 0,
     "skin": "s0d5787b643448ccbba26ed8320e2eaf",
     "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "wrapping": 2
 }

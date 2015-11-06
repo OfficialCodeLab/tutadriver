@@ -1,0 +1,16 @@
+{
+	"AS_Button_02aaf7487baf41d785473753fcca241d": {
+		"id": "AS_Button_02aaf7487baf41d785473753fcca241d",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM___f7caa898e4ea4da4a7ff9443e641790c",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmAboutTuta",
+				"formKUID": "8314a49ee56c441d97220d7980e1c0a2",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

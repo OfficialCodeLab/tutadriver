@@ -31,10 +31,7 @@
         "type": "string",
         "value": "100%"
     },
-    "bottom": {
-        "type": "number",
-        "value": "0"
-    },
+    "bottom": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -46,19 +43,13 @@
     "enabled": false,
     "focusSkin": "sc14dfa778384d27897c8d3bcc2e5fa3",
     "focusskin": "sc14dfa778384d27897c8d3bcc2e5fa3",
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "btnLegal",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "5735333ec5174ef79db90771c5f12aa7",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -83,10 +74,7 @@
     "text": "Legal",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 2,
     "zindex": 2
 }

@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -23,41 +23,40 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "magnifiericon.png",
+    "_src_": "backarrow.png",
     "_width_": {
         "type": "string",
-        "value": "35dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "30%",
+    "centerY": "50%",
     "centery": {
         "type": "string",
-        "value": "30%"
+        "value": "50%"
     },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frm004Home",
+        "formID": "frmAboutTuta",
         "ispercent": true,
         "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "35dp",
-    "id": "imgBookings",
+    "height": "30dp",
+    "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "f3c8987e2bb7434d98ee2dad031254bd",
-    "left": "5dp",
+    "kuid": "49c3d31a2f304956881eec8bd64aea88",
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -71,16 +70,19 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
-    "pf": "frm004Home",
+    "parent": "flexHeader",
+    "pf": "frmAboutTuta",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "magnifiericon.png",
+    "src": "backarrow.png",
     "srcType": 1,
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "35dp",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "30dp",
+    "zIndex": 4,
+    "zindex": 4
 }

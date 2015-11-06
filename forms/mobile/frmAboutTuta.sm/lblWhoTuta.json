@@ -40,7 +40,7 @@
     "contentalignment": 4,
     "enabled": false,
     "height": "175dp",
-    "id": "lblTermsConditionsText",
+    "id": "lblWhoTuta",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9f9e5f34a80a449f8df405192e65121d",
+    "kuid": "822ab94c8c7d4f00b851af2355b193ca",
     "left": "25dp",
     "margin": [
         1,
@@ -70,8 +70,8 @@
         0,
         0
     ],
-    "parent": "flexScrollLegalText",
-    "pf": "frmTermsConditions",
+    "parent": "flexscrollAboutTuta",
+    "pf": "frmAboutTuta",
     "render": true,
     "skin": "sbbffa74347d4e9890f6c35f53ec0a27",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

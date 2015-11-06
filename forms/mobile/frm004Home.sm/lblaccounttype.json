@@ -60,10 +60,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "f30c26e5a61f435989d2df5aafe92892",
-    "left": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "left": "70dp",
     "margin": [
         1,
         1,

@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "safd8e44f64b4a9e8b1e82d456430028",
-    "_text_": "Disclaimer",
+    "_text_": "Disclaimers:",
     "_top_": {
         "type": "string",
         "value": "514dp"
@@ -39,10 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "lblDisclaimer",
     "info": null,
     "ipad": {
@@ -58,11 +55,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "63d1d6f1923a4371aaf3492e5039225e",
-    "left": {
-        "type": "string",
-        "value": "25dp"
-    },
+    "kuid": "3ecd0eed1ce841c0bd6db3730a352645",
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -76,23 +70,17 @@
         0,
         0
     ],
-    "parent": "flexScrollLegalText",
-    "pf": "frmTermsConditions",
+    "parent": "flexscrollAboutTuta",
+    "pf": "frmAboutTuta",
     "render": true,
     "skin": "safd8e44f64b4a9e8b1e82d456430028",
-    "text": "Disclaimer",
+    "text": "Disclaimers:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "514dp"
-    },
+    "top": "514dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "width": "100dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

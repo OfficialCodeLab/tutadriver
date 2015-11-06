@@ -53,10 +53,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "flexTopMenu",
     "info": null,
     "isVisible": true,
@@ -64,10 +61,7 @@
     "kuid": "ac34f76cd06546cb9b01507ccae583e5",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -91,20 +85,14 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0%"
-    },
+    "top": "0%",
     "vizProps": {
         "lock": false
     },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 2,
     "zindex": 2
 }

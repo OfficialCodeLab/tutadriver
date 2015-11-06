@@ -43,10 +43,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "49dp"
-    },
+    "height": "49dp",
     "id": "btnMessages",
     "info": null,
     "isVisible": true,
@@ -70,10 +67,7 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "9dp"
-    },
+    "right": "9dp",
     "skin": "s37c5209ed1a4c08803df5600dfa8077",
     "text": "",
     "vizProps": {
@@ -81,10 +75,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "width": "60dp",
     "zIndex": 4,
     "zindex": 4
 }

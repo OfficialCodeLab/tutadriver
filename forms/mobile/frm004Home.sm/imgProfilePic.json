@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "height": "70dp",
     "id": "imgProfilePic",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -59,10 +56,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "dac026ab77d540c9a22df1ffab4b61d0",
-    "left": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "left": "5dp",
     "margin": [
         0,
         0,
@@ -85,8 +79,5 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "60dp"
-    }
+    "width": "60dp"
 }

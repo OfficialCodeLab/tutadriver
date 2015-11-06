@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "19dp"
-    },
+    "height": "19dp",
     "id": "lblMessageCount",
     "info": null,
     "ipad": {
@@ -76,20 +73,14 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "4%"
-    },
+    "right": "4%",
     "skin": "sbc8b1c33d944a2e9a52a65507029ab0",
     "text": "3",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "19dp"
-    },
+    "width": "19dp",
     "wrapping": 2,
     "zIndex": 4,
     "zindex": 4
