@@ -24,7 +24,7 @@
         },
         "needAppMenu": false,
         "outTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
         },
         "psp": {
             "windowSoftInputMode": 2
@@ -80,7 +80,7 @@
         },
         "needAppMenu": false,
         "outTransitionConfig": {
-            "transitionDirection": "fromRight",
+            "transitionDirection": "none",
             "transitionEffect": "none"
         },
         "psp": {

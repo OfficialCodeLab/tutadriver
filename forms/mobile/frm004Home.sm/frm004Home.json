@@ -18,7 +18,7 @@
     "allboxes": [],
     "android": {
         "inTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 2
         },
         "outTransitionConfig": {
             "formAnimation": 3
@@ -67,8 +67,8 @@
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
         "inTransitionConfig": {
-            "transitionDirection": "fromRight",
-            "transitionEffect": "transitionMoveIn"
+            "transitionDirection": "fromLeft",
+            "transitionEffect": "none"
         },
         "outTransitionConfig": {
             "transitionDirection": "fromRight",
