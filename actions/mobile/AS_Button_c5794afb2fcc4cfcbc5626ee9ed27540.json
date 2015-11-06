@@ -2,6 +2,15 @@
 	"AS_Button_c5794afb2fcc4cfcbc5626ee9ed27540": {
 		"id": "AS_Button_c5794afb2fcc4cfcbc5626ee9ed27540",
 		"type": "ACTION_SEQUENCE",
-		"actions": []
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM___a32f898dbc534d7bb9892f687b707786",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmTripHistory",
+				"formKUID": "379a4cc3c036469f8efbed077c3b8d23",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
 	}
 }

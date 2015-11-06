@@ -28,10 +28,7 @@
         "value": "preferred"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "17%"
-    },
+    "bottom": "17%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {

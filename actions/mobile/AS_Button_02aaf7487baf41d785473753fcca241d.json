@@ -8,7 +8,7 @@
 				"type": "NAVIGATE_TO_FORM",
 				"formId": "frmAboutTuta",
 				"formKUID": "8314a49ee56c441d97220d7980e1c0a2",
-				"parentId": null,
+				"parentId": "",
 				"callbackType": null
 			}
 		]

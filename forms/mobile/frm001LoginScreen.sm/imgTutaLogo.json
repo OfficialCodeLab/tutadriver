@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "tutalogo.png",
+    "_src_": "tutaloginlogo.png",
     "_top_": {
         "type": "string",
         "value": "23%"
@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30%"
-    },
+    "height": "30%",
     "id": "imgTutaLogo",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -60,10 +57,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "7b01c1479189410a8e8b542bc300c005",
-    "left": {
-        "type": "number",
-        "value": "0"
-    },
+    "left": 0,
     "margin": [
         0,
         0,
@@ -81,12 +75,9 @@
     "pf": "frm001LoginScreen",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "tutalogo.png",
+    "src": "tutaloginlogo.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "23%"
-    },
+    "top": "23%",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5

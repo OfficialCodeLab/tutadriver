@@ -26,8 +26,6 @@
     },
     "bounces": false,
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexLoginMain"

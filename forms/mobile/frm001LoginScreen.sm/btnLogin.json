@@ -27,10 +27,7 @@
         "type": "string",
         "value": "90%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "25%"
-    },
+    "bottom": "25%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -47,10 +44,7 @@
     "enabled": false,
     "focusSkin": "s5008291b1ea423fb2cc070817e79cd8",
     "focusskin": "s5008291b1ea423fb2cc070817e79cd8",
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "btnLogin",
     "info": null,
     "isVisible": true,
@@ -78,10 +72,7 @@
     "text": "Login",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "zIndex": 1,
     "zindex": 1
 }
