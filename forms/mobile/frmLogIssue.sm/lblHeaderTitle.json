@@ -18,7 +18,7 @@
         0
     ],
     "_skin_": "s99c8bd9212f449f9592b9f0921d5576",
-    "_text_": "Help",
+    "_text_": "Help12345",
     "_top_": {
         "type": "string",
         "value": "100dp"
@@ -74,7 +74,7 @@
     "pf": "frmLogIssue",
     "render": true,
     "skin": "s99c8bd9212f449f9592b9f0921d5576",
-    "text": "Help",
+    "text": "Help12345",
     "toolTip": "",
     "tooltip": "",
     "top": "100dp",
