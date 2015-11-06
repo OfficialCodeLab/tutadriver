@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "85dp"
     },
     "_left_": {
         "type": "string",
@@ -21,12 +25,7 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -34,28 +33,32 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "0dp",
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "lblTitle",
-        "btnBack",
-        "imgBackArrow",
-        "imgHeadBG",
-        "imgCalendar"
+        "imgPortait",
+        "lblTitleFare",
+        "lblEstimateFare",
+        "imgPickUp",
+        "lblPickUp",
+        "Label0b811dda512c543",
+        "Image05fe667e46d1e40"
     ],
     "clipBounds": true,
     "clipbounds": true,
+    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "150dp",
-    "id": "flexHeader",
+    "height": "85dp",
+    "id": "flexBookingInfo",
     "info": null,
+    "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "5b86570aa8614ad8bc2156699e016675",
+    "kuid": "900d6afdbc8047f9bdb040e14b32dbf7",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -73,18 +76,19 @@
         0,
         0
     ],
-    "parent": "frmBookingsMain",
+    "parent": "flexRow",
     "percent": true,
-    "pf": "frmBookingsMain",
+    "pf": "bookingTemp",
     "render": true,
-    "skin": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
+    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%"
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
 }

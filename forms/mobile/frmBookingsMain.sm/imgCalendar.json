@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "height": "70dp",
     "id": "imgCalendar",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -78,17 +75,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "calendaricon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "top": "20dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "width": "70dp",
     "zIndex": 2,
     "zindex": 2
 }

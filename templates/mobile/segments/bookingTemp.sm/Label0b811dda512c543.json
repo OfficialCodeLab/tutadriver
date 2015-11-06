@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
-        "value": "115dp"
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -21,30 +22,27 @@
         0,
         0
     ],
-    "_skin_": "sed038fce4cf485485ac85ab6d72dc91",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
+    "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
+    "_text_": "DROP:",
     "_width_": {
         "type": "string",
-        "value": "112dp"
+        "value": "45dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerY": "30dp",
+    "centery": {
+        "type": "string",
+        "value": "30dp"
+    },
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "25dp"
-    },
-    "id": "lblDate",
+    "height": "15dp",
+    "id": "Label0b811dda512c543",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,7 +50,6 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
@@ -60,11 +57,8 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c6f1bde0c64041859700509b87ff4fc4",
-    "left": {
-        "type": "string",
-        "value": "115dp"
-    },
+    "kuid": "0d1958247b054d75984d62618bda517a",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -78,23 +72,16 @@
         0,
         0
     ],
-    "parent": "flexRow",
+    "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "sed038fce4cf485485ac85ab6d72dc91",
-    "text": "",
+    "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
+    "text": "DROP:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "10%"
-    },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "112dp"
-    },
+    "width": "45dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
-        "value": "115dp"
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -21,30 +22,27 @@
         0,
         0
     ],
-    "_skin_": "s9f346d6ff7143e7bf2b2aea0b7f1578",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "40%"
-    },
+    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
+    "_text_": "PICKUP:",
     "_width_": {
         "type": "string",
-        "value": "200dp"
+        "value": "50dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerY": "10dp",
+    "centery": {
+        "type": "string",
+        "value": "10dp"
+    },
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "25dp"
-    },
-    "id": "lblAddress",
+    "height": "15dp",
+    "id": "lblPickUp",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,7 +50,6 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
@@ -60,11 +57,8 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "cefe024937574e85be341959bd1956b0",
-    "left": {
-        "type": "string",
-        "value": "115dp"
-    },
+    "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -78,23 +72,19 @@
         0,
         0
     ],
-    "parent": "flexRow",
+    "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s9f346d6ff7143e7bf2b2aea0b7f1578",
-    "text": "",
+    "skin": "s12881baa1934f5ead5369e3b05ed53f",
+    "text": "PICKUP:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "40%"
+    "vizProps": {
+        "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "200dp"
-    },
+    "width": "50dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

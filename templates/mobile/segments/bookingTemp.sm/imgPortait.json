@@ -1,14 +1,19 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
         "type": "string",
-        "value": "152dp"
+        "value": "100dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "-6dp"
     },
     "_margin_": [
         0,
@@ -23,40 +28,38 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bookingsbg.png",
+    "_src_": "profilepicbooking.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "-6dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100.00%"
+        "value": "100dp"
     },
     "base64": null,
+    "bottom": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmBookingsMain",
-        "ispercent": true,
-        "platform": "android",
-        "templateType": "forms",
+        "platform": "iphone",
+        "templateType": "segments",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "152dp",
-    "id": "imgHeadBG",
-    "imageScaleMode": 2,
-    "imagescalemode": 2,
+    "height": "100dp",
+    "id": "imgPortait",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
+    "isSegmentChild": false,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "d87e6e37f26d4c059bf929c2adb755e9",
-    "left": "0dp",
+    "kuid": "f187499a87ee4c0a904efbc6158e31f8",
+    "left": "-6dp",
     "margin": [
         0,
         0,
@@ -70,17 +73,18 @@
         0,
         0
     ],
-    "parent": "flexHeader",
-    "pf": "frmBookingsMain",
+    "parent": "flexBookingInfo",
+    "pf": "bookingTemp",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bookingsbg.png",
+    "src": "profilepicbooking.png",
     "srcType": 1,
-    "top": "0dp",
+    "top": "-6dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100.00%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "100dp"
 }
