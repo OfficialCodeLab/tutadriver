@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "12dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "94dp"
+        "value": "135dp"
     },
     "_margin_": [
         1,
@@ -22,18 +22,22 @@
         0,
         0
     ],
-    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
-    "_text_": "PICKUP:",
+    "_skin_": "s278944496664a80b69fdabd82f2beff",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "39dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "33dp"
+        "value": "1dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "10dp",
+    "centerY": 20,
     "centery": {
-        "type": "string",
-        "value": "10dp"
+        "type": "number",
+        "value": "20"
     },
     "containerId": true,
     "containerWeight": 100,
@@ -41,8 +45,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "12dp",
-    "id": "lblPickUp",
+    "height": "30dp",
+    "id": "lblUpOffLine",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,8 +61,8 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-    "left": "94dp",
+    "kuid": "11a2cea6a1ae41cb8f019af8937cadc9",
+    "left": "135dp",
     "margin": [
         1,
         1,
@@ -75,17 +79,18 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s12881baa1934f5ead5369e3b05ed53f",
-    "text": "PICKUP:",
+    "skin": "s278944496664a80b69fdabd82f2beff",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
+    "top": "39dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "33dp",
+    "width": "1dp",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 5,
+    "zindex": 5
 }

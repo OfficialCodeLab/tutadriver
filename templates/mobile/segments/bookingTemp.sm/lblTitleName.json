@@ -2,9 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "15dp"
+        "value": "12dp"
     },
     "_left_": {
         "type": "string",
@@ -22,27 +26,23 @@
         0,
         0
     ],
-    "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
-    "_text_": "DROP:",
+    "_skin_": "s8776daa4ad54e9cbc4ca2e5520b267f",
+    "_text_": "ROBERT",
     "_width_": {
         "type": "string",
         "value": "45dp"
     },
     "_wrapping_": 2,
+    "bottom": "20dp",
     "canUpdateUI": true,
-    "centerY": "30dp",
-    "centery": {
-        "type": "string",
-        "value": "30dp"
-    },
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "15dp",
-    "id": "Label0b811dda512c543",
+    "height": "12dp",
+    "id": "lblTitleName",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,7 +57,7 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "0d1958247b054d75984d62618bda517a",
+    "kuid": "5c15d67867874603b46e2034c769394b",
     "left": "100dp",
     "margin": [
         1,
@@ -75,8 +75,8 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
-    "text": "DROP:",
+    "skin": "s8776daa4ad54e9cbc4ca2e5520b267f",
+    "text": "ROBERT",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",

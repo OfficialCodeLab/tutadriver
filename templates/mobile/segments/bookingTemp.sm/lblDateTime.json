@@ -2,13 +2,17 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
     "_height_": {
         "type": "string",
         "value": "12dp"
     },
     "_left_": {
         "type": "string",
-        "value": "94dp"
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -22,19 +26,15 @@
         0,
         0
     ],
-    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
-    "_text_": "PICKUP:",
+    "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "_text_": "20/10/2015, 2:00 pm",
     "_width_": {
         "type": "string",
-        "value": "33dp"
+        "value": "80dp"
     },
     "_wrapping_": 2,
+    "bottom": "5dp",
     "canUpdateUI": true,
-    "centerY": "10dp",
-    "centery": {
-        "type": "string",
-        "value": "10dp"
-    },
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
@@ -42,7 +42,7 @@
     "contentalignment": 4,
     "enabled": false,
     "height": "12dp",
-    "id": "lblPickUp",
+    "id": "lblDateTime",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,8 +57,8 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-    "left": "94dp",
+    "kuid": "d171a8389def48618ed5c6dbc8e2f1a4",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -75,17 +75,14 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s12881baa1934f5ead5369e3b05ed53f",
-    "text": "PICKUP:",
+    "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "text": "20/10/2015, 2:00 pm",
     "toolTip": "",
     "tooltip": "",
-    "vizProps": {
-        "lock": true
-    },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "33dp",
+    "width": "80dp",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 7,
+    "zindex": 7
 }
