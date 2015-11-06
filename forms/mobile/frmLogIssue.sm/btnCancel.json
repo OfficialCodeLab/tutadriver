@@ -1,4 +1,5 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
@@ -8,6 +9,10 @@
     "_height_": {
         "type": "string",
         "value": "65dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -21,19 +26,14 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
-    "_skin_": "se8e6944419447b582d34790e97dbd1a",
-    "_text_": "Submit",
+    "_skin_": "s8991fb0c6d04e99aad1999f0b3a6cd1",
+    "_text_": "Cancel",
     "_width_": {
         "type": "string",
         "value": "47%"
     },
     "bottom": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
@@ -41,14 +41,15 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sb2c9ae255b84860aae1be730da62586",
-    "focusskin": "sb2c9ae255b84860aae1be730da62586",
+    "focusSkin": "s1042735ba1245f082e9559bc6284656",
+    "focusskin": "s1042735ba1245f082e9559bc6284656",
     "height": "65dp",
-    "id": "btnSubmitIssue",
+    "id": "btnCancel",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7613a66ad8034ff395c5d6cf932ea2cc",
+    "kuid": "f9ebe036e2c9431da0047e77cf26212f",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -56,8 +57,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
-    "onclick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
+    "onClick": "AS_Button_385c27364eb144da8d641c7dcf595ceb",
+    "onclick": "AS_Button_385c27364eb144da8d641c7dcf595ceb",
     "padding": [
         0,
         0,
@@ -67,12 +68,11 @@
     "parent": "flexLogIssue",
     "pf": "frmLogIssue",
     "render": true,
-    "right": "0dp",
-    "skin": "se8e6944419447b582d34790e97dbd1a",
-    "text": "Submit",
+    "skin": "s8991fb0c6d04e99aad1999f0b3a6cd1",
+    "text": "Cancel",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "47%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

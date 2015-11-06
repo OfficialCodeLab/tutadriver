@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "number",
-        "value": "0"
+        "value": "85"
     },
     "_height_": {
         "type": "string",
-        "value": "534dp"
+        "value": "450dp"
     },
     "_left_": {
         "type": "string",
@@ -34,7 +34,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
+    "bottom": 85,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -51,7 +51,9 @@
         "btnEditIssue",
         "imgEditIssue",
         "btnSubmitIssue",
-        "txtareaEditIssue"
+        "txtareaEditIssue",
+        "btnCancel",
+        "lblButtonSep"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -60,7 +62,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "534dp",
+    "height": "450dp",
     "id": "flexLogIssue",
     "info": null,
     "isVisible": true,
@@ -92,6 +94,9 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "vizProps": {
+        "lock": false
+    },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
