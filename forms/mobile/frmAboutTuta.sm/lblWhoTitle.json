@@ -3,7 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -17,19 +21,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "s0d5787b643448ccbba26ed8320e2eaf",
-    "_text_": "",
+    "_skin_": "s7fee09454004e0bb966c8b9687cfd2d",
+    "_text_": "Who are we:",
     "_top_": {
         "type": "string",
-        "value": "60%"
+        "value": "45dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "170dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -39,8 +39,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
-    "id": "lblSep3",
+    "height": "30dp",
+    "id": "lblWhoTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "dbf0eec3dac84bbab3e7bf7f0026fe69",
+    "kuid": "b56d031ff99f4363bde600f8039ab8b7",
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -69,17 +70,19 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
-    "pf": "frm004Home",
+    "parent": "flexscrollAboutTuta",
+    "pf": "frmAboutTuta",
     "render": true,
-    "right": 0,
-    "skin": "s0d5787b643448ccbba26ed8320e2eaf",
-    "text": "",
+    "skin": "s7fee09454004e0bb966c8b9687cfd2d",
+    "text": "Who are we:",
     "toolTip": "",
     "tooltip": "",
-    "top": "60%",
+    "top": "45dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80%",
+    "width": "170dp",
     "wrapping": 2
 }

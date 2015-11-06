@@ -42,19 +42,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "55dp"
-    },
+    "height": "55dp",
     "id": "btnTestingPickup",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "0d8f95b9360a491a9b8d354d9aff96a5",
-    "left": {
-        "type": "string",
-        "value": "158dp"
-    },
+    "left": "158dp",
     "margin": [
         6,
         6,
@@ -75,16 +69,10 @@
     "render": true,
     "skin": "s5ce1a0635f6414e8b952db33f9c34d2",
     "text": "Click to show a pickup request",
-    "top": {
-        "type": "string",
-        "value": "83dp"
-    },
+    "top": "83dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "180dp"
-    },
+    "width": "180dp",
     "zIndex": 2,
     "zindex": 2
 }

@@ -56,10 +56,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "imgTutaLogo",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -68,10 +65,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "ea1b0900ac1b473fb7b904e565616071",
-    "left": {
-        "type": "string",
-        "value": "141dp"
-    },
+    "left": "141dp",
     "margin": [
         0,
         0,
@@ -91,17 +85,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "onlytutalogo.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "10%"
-    },
+    "top": "10%",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "width": "35dp",
     "zIndex": 2,
     "zindex": 2
 }

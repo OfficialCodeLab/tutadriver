@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "27dp"
-    },
+    "height": "27dp",
     "id": "imgBurgerClose",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -77,20 +74,14 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "right": "20dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "burgericon.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

@@ -47,10 +47,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnCloseMenu",
     "info": null,
     "isVisible": false,
@@ -74,22 +71,13 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "number",
-        "value": "0"
-    },
+    "right": 0,
     "skin": "s54452dee2a24065b8101942b4658b9a",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "18dp"
-    },
+    "top": "18dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20%"
-    },
+    "width": "20%",
     "zIndex": 1,
     "zindex": 1
 }

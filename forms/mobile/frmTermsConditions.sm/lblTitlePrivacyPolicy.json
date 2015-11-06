@@ -39,10 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "lblTitlePrivacyPolicy",
     "info": null,
     "ipad": {
@@ -59,10 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "b23e2d971d6f45199db8493deec522f2",
-    "left": {
-        "type": "string",
-        "value": "25dp"
-    },
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -83,16 +77,10 @@
     "text": "Privacy Policy:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "280dp"
-    },
+    "top": "280dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "width": "100dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "23dp"
-    },
+    "height": "23dp",
     "id": "imgMessages",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -75,20 +72,14 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "6%"
-    },
+    "right": "6%",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "envelope.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "33dp"
-    },
+    "width": "33dp",
     "zIndex": 4,
     "zindex": 4
 }

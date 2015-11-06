@@ -43,19 +43,13 @@
     "enabled": false,
     "focusSkin": "s4fdf06726f24f8cbce3f5140a2997ff",
     "focusskin": "s4fdf06726f24f8cbce3f5140a2997ff",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnMenu",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "e5b2b57f81834d10a1d8551e13a1e2dc",
-    "left": {
-        "type": "number",
-        "value": "0"
-    },
+    "left": 0,
     "margin": [
         6,
         6,
@@ -78,10 +72,7 @@
     "text": "",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "width": "60dp",
     "zIndex": 2,
     "zindex": 2
 }

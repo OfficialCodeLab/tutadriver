@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "40dp"
     },
     "_margin_": [
         1,
@@ -17,30 +17,32 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "s0d5787b643448ccbba26ed8320e2eaf",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "60%"
-    },
+    "_skin_": "s960e6578f804f5da79a501f48a76771",
+    "_text_": "ABOUT TUTA",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "200dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": "2dp",
-    "id": "lblSep3",
+    "height": "40dp",
+    "id": "lblHeaderTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +57,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "dbf0eec3dac84bbab3e7bf7f0026fe69",
+    "kuid": "07d927b9357e4cac8ef963000b6415b2",
     "margin": [
         1,
         1,
@@ -69,17 +71,17 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
-    "pf": "frm004Home",
+    "parent": "flexHeader",
+    "pf": "frmAboutTuta",
     "render": true,
-    "right": 0,
-    "skin": "s0d5787b643448ccbba26ed8320e2eaf",
-    "text": "",
+    "skin": "s960e6578f804f5da79a501f48a76771",
+    "text": "ABOUT TUTA",
     "toolTip": "",
     "tooltip": "",
-    "top": "60%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80%",
-    "wrapping": 2
+    "width": "200dp",
+    "wrapping": 2,
+    "zIndex": 4,
+    "zindex": 4
 }

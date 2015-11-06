@@ -1,4 +1,5 @@
 {
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -17,10 +18,9 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
         "flexHeader",
-        "flexScrollLegalText"
+        "flexscrollAboutTuta"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -38,7 +38,7 @@
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
-    "id": "frmTermsConditions",
+    "id": "frmAboutTuta",
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
@@ -49,7 +49,6 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -72,7 +71,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "75f7fa6fb1224739b44e6321a3f6f73f",
+    "kuid": "8314a49ee56c441d97220d7980e1c0a2",
     "layoutType": 2,
     "layouttype": 2,
     "margin": [
@@ -95,7 +94,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "android",
-    "prevDevice": "iPhone3",
+    "prevDevice": "iPhone6",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
@@ -135,7 +134,7 @@
         "containerWeight": 0,
         "containerweight": 0,
         "enabled": false,
-        "id": "frmTermsConditions_titleBar",
+        "id": "frmAboutTuta_titleBar",
         "ide_buttonClosureLeftSideView": "",
         "ide_buttonClosureRightSideView": "",
         "ide_titleClosureLeftSideView": "",

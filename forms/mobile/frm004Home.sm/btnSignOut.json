@@ -43,11 +43,9 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s9c655338c0d4f58913e025ae8101d9b",
     "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
-    "height": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "height": "45dp",
     "id": "btnSignOut",
     "info": null,
     "isVisible": true,
@@ -71,22 +69,13 @@
     "parent": "flexMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "right": "5dp",
     "skin": "s7fa9b9abd4a40e1ad36e3f1c1389300",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "3dp"
-    },
+    "top": "3dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "146dp"
-    },
+    "width": "146dp",
     "zIndex": 2,
     "zindex": 2
 }

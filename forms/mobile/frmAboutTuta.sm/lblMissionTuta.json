@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "sbbffa74347d4e9890f6c35f53ec0a27",
+    "_skin_": "s647b605460d4ba2b71a0c6948663f83",
     "_text_": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "_top_": {
         "type": "string",
-        "value": "80dp"
+        "value": "315dp"
     },
     "_width_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "contentalignment": 4,
     "enabled": false,
     "height": "175dp",
-    "id": "lblTermsConditionsText",
+    "id": "lblMissionTuta",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9f9e5f34a80a449f8df405192e65121d",
+    "kuid": "5b98a93d8086400fa00d4f0b39a882e0",
     "left": "25dp",
     "margin": [
         1,
@@ -70,17 +70,14 @@
         0,
         0
     ],
-    "parent": "flexScrollLegalText",
-    "pf": "frmTermsConditions",
+    "parent": "flexscrollAboutTuta",
+    "pf": "frmAboutTuta",
     "render": true,
-    "skin": "sbbffa74347d4e9890f6c35f53ec0a27",
+    "skin": "s647b605460d4ba2b71a0c6948663f83",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "toolTip": "",
     "tooltip": "",
-    "top": "80dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "315dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",

@@ -46,10 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "imgSignOut",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -75,24 +72,15 @@
     "parent": "flexMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "13dp"
-    },
+    "right": "13dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "lockicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "10dp"
-    },
+    "top": "10dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

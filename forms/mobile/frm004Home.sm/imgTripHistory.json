@@ -51,10 +51,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "imgTripHistory",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -64,10 +61,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "3313480d0ce1401ba12eb4f820941949",
-    "left": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "left": "5dp",
     "margin": [
         0,
         0,
@@ -87,17 +81,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "mapicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "216dp"
-    },
+    "top": "216dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "width": "35dp",
     "zIndex": 4,
     "zindex": 4
 }

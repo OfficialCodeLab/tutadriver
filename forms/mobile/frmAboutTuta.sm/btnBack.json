@@ -52,7 +52,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "98d97235d9c54f55b6996d647656eada",
+    "kuid": "693951658a4d471d888d9ff83bb32ec1",
     "left": "10dp",
     "margin": [
         6,
@@ -61,8 +61,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_347b53cea78e4f49b3aa71b5a0e7870d",
-    "onclick": "AS_Button_347b53cea78e4f49b3aa71b5a0e7870d",
+    "onClick": "AS_Button_a1baa8fa14fc4f0d85bb406fcab058ca",
+    "onclick": "AS_Button_a1baa8fa14fc4f0d85bb406fcab058ca",
     "padding": [
         0,
         0,
@@ -70,7 +70,7 @@
         0
     ],
     "parent": "flexHeader",
-    "pf": "frmTermsConditions",
+    "pf": "frmAboutTuta",
     "render": true,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",

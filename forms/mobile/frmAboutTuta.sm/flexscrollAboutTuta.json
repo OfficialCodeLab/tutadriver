@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "290dp"
+        "value": "850dp"
     },
     "_left_": {
         "type": "string",
@@ -21,10 +21,10 @@
         0,
         0
     ],
-    "_skin_": "sf020406fdb3414f95ce77b159f712e0",
+    "_skin_": "s147d3f503e642c98aff2a07b24d4fd5",
     "_top_": {
         "type": "string",
-        "value": "184dp"
+        "value": "60dp"
     },
     "_width_": {
         "type": "string",
@@ -35,25 +35,16 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bounces": false,
+    "bounces": true,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblSep1",
-        "lblSep2",
-        "lblSep3",
-        "lblSep4",
-        "lblSep5",
-        "imgMessageOption",
-        "imgBookings",
-        "imgHelp",
-        "imgTripHistory",
-        "imgAbout",
-        "btnBooking",
-        "btnMessage",
-        "btnHelp",
-        "btnTripHistory",
-        "btnAboutMenu"
+        "lblWhoTitle",
+        "lblWhoTuta",
+        "lblMissionTitle",
+        "lblMissionTuta",
+        "lblDisclaimer",
+        "lblDisclaimers"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -66,14 +57,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "290dp",
+    "height": "850dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
-    "id": "flexMenuOptions",
+    "id": "flexscrollAboutTuta",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "e445b3853d89468595fcd60086ad8d4a",
+    "kuid": "afacb0bd76f44fb79f78f857416567a4",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -93,18 +84,18 @@
     ],
     "pagingEnabled": false,
     "pagingenabled": false,
-    "parent": "flexMenu",
+    "parent": "frmAboutTuta",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "frmAboutTuta",
     "render": true,
     "scrollDirection": 1,
     "scrolldirection": 1,
-    "skin": "sf020406fdb3414f95ce77b159f712e0",
+    "skin": "s147d3f503e642c98aff2a07b24d4fd5",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "184dp",
+    "top": "60dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -113,6 +104,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }

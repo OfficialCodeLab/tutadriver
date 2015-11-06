@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "imgEditProfile",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -76,20 +73,14 @@
     "parent": "flexMenuProfile",
     "pf": "frm004Home",
     "render": true,
-    "right": {
-        "type": "number",
-        "value": "5"
-    },
+    "right": 5,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "penicon.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "width": "20dp",
     "zIndex": 1,
     "zindex": 1
 }

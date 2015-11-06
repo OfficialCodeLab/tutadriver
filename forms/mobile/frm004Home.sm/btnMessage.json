@@ -43,20 +43,15 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s9c655338c0d4f58913e025ae8101d9b",
     "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnMessage",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "38ae6e2748f24f6482326a5c864968a9",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -79,16 +74,10 @@
     "render": true,
     "skin": "sd10a7e1748b4a8db5e41ec39b826328",
     "text": "Messages",
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 9,
     "zindex": 9
 }

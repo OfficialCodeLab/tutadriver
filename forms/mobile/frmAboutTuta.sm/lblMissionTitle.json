@@ -3,7 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -17,19 +21,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "s0d5787b643448ccbba26ed8320e2eaf",
-    "_text_": "",
+    "_skin_": "s37f353b3e9241b499ab4588da4fa52b",
+    "_text_": "Mission:",
     "_top_": {
         "type": "string",
-        "value": "60%"
+        "value": "280dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -39,8 +39,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
-    "id": "lblSep3",
+    "height": "30dp",
+    "id": "lblMissionTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "dbf0eec3dac84bbab3e7bf7f0026fe69",
+    "kuid": "11a940778ddf40f7aea61b925e7d6ee2",
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -69,17 +70,18 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
-    "pf": "frm004Home",
+    "parent": "flexscrollAboutTuta",
+    "pf": "frmAboutTuta",
     "render": true,
-    "right": 0,
-    "skin": "s0d5787b643448ccbba26ed8320e2eaf",
-    "text": "",
+    "skin": "s37f353b3e9241b499ab4588da4fa52b",
+    "text": "Mission:",
     "toolTip": "",
     "tooltip": "",
-    "top": "60%",
+    "top": "280dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80%",
-    "wrapping": 2
+    "width": "100dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
 }
