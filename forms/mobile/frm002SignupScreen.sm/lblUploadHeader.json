@@ -44,10 +44,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "85dp"
-    },
+    "height": "85dp",
     "id": "lblUploadHeader",
     "info": null,
     "ipad": {
@@ -64,10 +61,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "92f52166df1c4c639388eea7d2640a66",
-    "left": {
-        "type": "string",
-        "value": "10%"
-    },
+    "left": "10%",
     "margin": [
         1,
         1,
@@ -88,16 +82,10 @@
     "text": "To complete your profile as a Cab Driver. You will need to supply a Taxi association number and document as proof of certification and driver license.",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "top": "5dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "85%"
-    },
+    "width": "85%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

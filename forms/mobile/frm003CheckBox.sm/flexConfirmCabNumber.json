@@ -53,10 +53,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "340dp"
-    },
+    "height": "340dp",
     "id": "flexConfirmCabNumber",
     "info": null,
     "isVisible": true,
@@ -64,10 +61,7 @@
     "kuid": "7f5483402c8049aeb0737c5f6e2fbba6",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "100%"
-    },
+    "left": "100%",
     "margin": [
         0,
         0,
@@ -86,26 +80,17 @@
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "right": "0dp",
     "skin": "s01abdef0da34e959640b35e62311677",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "180dp"
-    },
+    "top": "180dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "zIndex": 1,
     "zindex": 1
 }

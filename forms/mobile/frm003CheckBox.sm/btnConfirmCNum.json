@@ -27,10 +27,7 @@
         "type": "string",
         "value": "65%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "5%"
-    },
+    "bottom": "5%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -47,10 +44,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnConfirmCNum",
     "info": null,
     "isVisible": true,
@@ -76,10 +70,7 @@
     "text": "Confirm",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "65%"
-    },
+    "width": "65%",
     "zIndex": 1,
     "zindex": 1
 }

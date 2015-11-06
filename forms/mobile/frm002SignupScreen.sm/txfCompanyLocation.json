@@ -51,20 +51,14 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "txfCompanyLocation",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "a913550bba234d548cc1d3f1de9eda04",
-    "left": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "left": "45dp",
     "margin": [
         0,
         0,
@@ -90,10 +84,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "19dp"
-    },
+    "top": "19dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
@@ -101,10 +92,7 @@
     },
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "260dp"
-    },
+    "width": "260dp",
     "zIndex": 1,
     "zindex": 1
 }

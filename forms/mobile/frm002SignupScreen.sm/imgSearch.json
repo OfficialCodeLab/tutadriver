@@ -41,15 +41,12 @@
         "channel": "mobile",
         "formID": "frm002SignupScreen",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "imgSearch",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -74,27 +71,18 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "3dp"
-    },
+    "right": "3dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "searchicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "6.50%"
-    },
+    "top": "6.50%",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 1,
     "zindex": 1
 }

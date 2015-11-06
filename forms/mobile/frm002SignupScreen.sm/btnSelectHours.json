@@ -42,10 +42,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "38dp"
-    },
+    "height": "38dp",
     "id": "btnSelectHours",
     "info": null,
     "isVisible": true,
@@ -67,22 +64,13 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "right": {
-        "type": "number",
-        "value": "0"
-    },
+    "right": 0,
     "skin": "s16ec485a10143c5b1a72126cf526604",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "30%"
-    },
+    "top": "30%",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "width": "45dp",
     "zIndex": 1,
     "zindex": 1
 }

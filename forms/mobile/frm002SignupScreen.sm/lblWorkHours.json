@@ -39,10 +39,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "lblWorkHours",
     "info": null,
     "ipad": {
@@ -59,10 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "f7b5edbf9b234078a30cbe68919f3024",
-    "left": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "left": "45dp",
     "margin": [
         1,
         1,
@@ -83,19 +77,13 @@
     "text": "Work hours 6:00am - 20:00pm",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "32.50%"
-    },
+    "top": "32.50%",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "250dp"
-    },
+    "width": "250dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

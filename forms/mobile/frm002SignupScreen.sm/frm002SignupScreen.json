@@ -13,14 +13,14 @@
         0,
         0
     ],
-    "_skin_": "s9083cdb16964e68816458976e0e7bf3",
+    "_skin_": "s7ea0c02a02546a8a29b8722e7996b21",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
         "inTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
         },
         "needAppMenu": false,
         "outTransitionConfig": {
@@ -31,8 +31,6 @@
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexSignupMain",
@@ -48,7 +46,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS4",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -77,7 +75,7 @@
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
         "inTransitionConfig": {
-            "transitionDirection": "fromRight",
+            "transitionDirection": "none",
             "transitionEffect": "none"
         },
         "needAppMenu": false,
@@ -137,14 +135,14 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
-    "prevDevice": "iPhone3",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "GalaxyS4",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
-    "skin": "s9083cdb16964e68816458976e0e7bf3",
+    "shellCSS": "iOS_iPhone6",
+    "skin": "s7ea0c02a02546a8a29b8722e7996b21",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

@@ -41,10 +41,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "lblHeader2B",
     "info": null,
     "ipad": {
@@ -83,10 +80,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80dp"
-    },
+    "width": "80dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

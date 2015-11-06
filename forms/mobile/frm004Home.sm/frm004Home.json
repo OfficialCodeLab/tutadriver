@@ -16,6 +16,14 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "android": {
+        "inTransitionConfig": {
+            "formAnimation": 3
+        },
+        "outTransitionConfig": {
+            "formAnimation": 3
+        }
+    },
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -41,10 +49,16 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "frm004Home",
+    "inTransitionConfig": {
+        "formAnimation": 2
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formAnimation": 2
+    },
     "ipad": {
         "psp": {
             "inputAccessoryViewType": 4
@@ -52,6 +66,14 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "transitionMoveIn"
+        },
+        "outTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "transitionMoveIn"
+        },
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -87,6 +109,12 @@
     "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formAnimation": 2
+    },
+    "outtransitionconfig": {
+        "formAnimation": 2
+    },
     "padding": [
         0,
         0,
@@ -108,6 +136,14 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "outTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -189,5 +225,17 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
+        "outTransitionConfig": {
+            "outTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
 }

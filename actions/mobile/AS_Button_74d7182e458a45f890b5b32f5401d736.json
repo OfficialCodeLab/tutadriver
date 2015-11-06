@@ -1,0 +1,64 @@
+{
+	"AS_Button_74d7182e458a45f890b5b32f5401d736": {
+		"id": "AS_Button_74d7182e458a45f890b5b32f5401d736",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "___onClick_331f0754e28b4ea0ab489187f9be3263",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm002SignupScreen",
+				"widgetId": "flexSignupNext",
+				"itemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
+				"widgetKUID": "8067a00993024e969695f64dab14b74b",
+				"animationObject": {
+					"left": "100%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____91e6511fe20444688a0f223d85c1ca1d",
+				"animationId": "MOVE_ACTION____d4e9f11cb4d244deb1a9d81e36e6e860",
+				"displayAnimationId": "MOVE_ACTION____d4e9f11cb4d244deb1a9d81e36e6e860",
+				"forkedPlatform": "all",
+				"callbackType": null
+			},
+			{
+				"id": "___onClick_a81d4b6f6fd2436fb174b1a68e6b2941",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm002SignupScreen",
+				"widgetId": "flexSignupMain",
+				"itemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
+				"widgetKUID": "b22c753806084d29b43490c01a6a8512",
+				"animationObject": {
+					"left": "0%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____d4e9f11cb4d244deb1a9d81e36e6e860",
+				"animationId": "MOVE_ACTION____91e6511fe20444688a0f223d85c1ca1d",
+				"displayAnimationId": "MOVE_ACTION____91e6511fe20444688a0f223d85c1ca1d",
+				"forkedPlatform": "all",
+				"callbackType": null
+			}
+		]
+	}
+}

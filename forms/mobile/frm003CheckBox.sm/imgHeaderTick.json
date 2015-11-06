@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "80dp"
-    },
+    "height": "80dp",
     "id": "imgHeaderTick",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -78,17 +75,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "tickicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "top": "5dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "150dp",
     "zIndex": 1,
     "zindex": 1
 }

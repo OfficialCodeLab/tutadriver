@@ -8,7 +8,7 @@
 				"type": "NAVIGATE_TO_FORM",
 				"formId": "frmTripHistory",
 				"formKUID": "379a4cc3c036469f8efbed077c3b8d23",
-				"parentId": null,
+				"parentId": "",
 				"callbackType": null
 			}
 		]

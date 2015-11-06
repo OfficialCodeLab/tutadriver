@@ -80,16 +80,10 @@
     "text": "Checklist",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "top": "100dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "150dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

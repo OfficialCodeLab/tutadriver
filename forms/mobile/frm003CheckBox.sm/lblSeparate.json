@@ -41,10 +41,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "2dp"
-    },
+    "height": "2dp",
     "id": "lblSeparate",
     "info": null,
     "ipad": {
@@ -83,10 +80,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

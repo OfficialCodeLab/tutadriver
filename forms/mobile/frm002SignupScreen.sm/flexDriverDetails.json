@@ -65,10 +65,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "250dp"
-    },
+    "height": "250dp",
     "id": "flexDriverDetails",
     "info": null,
     "isVisible": true,
@@ -76,10 +73,7 @@
     "kuid": "a5a1e986d04d4e78be1394984b1cba8b",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -103,17 +97,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

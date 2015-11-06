@@ -31,10 +31,7 @@
         "type": "string",
         "value": "49dp"
     },
-    "bottom": {
-        "type": "string",
-        "value": "23%"
-    },
+    "bottom": "23%",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -46,19 +43,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "49dp"
-    },
+    "height": "49dp",
     "id": "btnCheckAgree",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "059a2cf6e8784613aabda3eb96d9243a",
-    "left": {
-        "type": "string",
-        "value": "1.50%"
-    },
+    "left": "1.50%",
     "margin": [
         6,
         6,
@@ -84,10 +75,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "49dp"
-    },
+    "width": "49dp",
     "zIndex": 1,
     "zindex": 1
 }

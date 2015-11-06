@@ -39,10 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "3dp"
-    },
+    "height": "3dp",
     "id": "lblSep2",
     "info": null,
     "ipad": {
@@ -59,10 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "9fda661b12bc40a3b2ba700a07d130b4",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         1,
         1,
@@ -83,18 +77,12 @@
     "text": "Label",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "50%"
-    },
+    "top": "50%",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "wrapping": 2
 }

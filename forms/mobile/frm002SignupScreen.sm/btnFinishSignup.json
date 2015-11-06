@@ -31,10 +31,7 @@
         "type": "string",
         "value": "90%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "13.50%"
-    },
+    "bottom": "13.50%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -51,19 +48,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnFinishSignup",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "f7acd9956a8342f2b4d95f767f37449a",
-    "left": {
-        "type": "string",
-        "value": "7.50%"
-    },
+    "left": "7.50%",
     "margin": [
         6,
         6,
@@ -89,10 +80,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "zIndex": 2,
     "zindex": 2
 }

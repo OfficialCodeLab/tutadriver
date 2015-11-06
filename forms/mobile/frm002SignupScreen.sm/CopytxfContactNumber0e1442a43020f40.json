@@ -53,20 +53,14 @@
     "enabled": false,
     "focusSkin": "se09a9d4172a4959984391757723b3a2",
     "focusskin": "se09a9d4172a4959984391757723b3a2",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "CopytxfContactNumber0e1442a43020f40",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "57f3515b2adc42fb994d9d045dd29391",
-    "left": {
-        "type": "string",
-        "value": "0.00%"
-    },
+    "left": "0.00%",
     "margin": [
         0,
         0,
@@ -94,16 +88,10 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "409dp"
-    },
+    "top": "409dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%"
 }

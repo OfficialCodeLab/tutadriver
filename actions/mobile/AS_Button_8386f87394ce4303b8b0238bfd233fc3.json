@@ -12,7 +12,7 @@
 				"itemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
 				"widgetKUID": "b22c753806084d29b43490c01a6a8512",
 				"animationObject": {
-					"left": "100%",
+					"left": "-100%",
 					"anchorPoint": {},
 					"stepConfig": {
 						"timingFunction": "kony.anim.EASE"

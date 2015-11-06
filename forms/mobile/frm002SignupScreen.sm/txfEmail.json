@@ -53,20 +53,14 @@
     "enabled": false,
     "focusSkin": "se9597eb8463440ba121ef7aad9616c9",
     "focusskin": "se9597eb8463440ba121ef7aad9616c9",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "txfEmail",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "e4b0718076b14f0f9c5d18b495af99c8",
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -94,16 +88,10 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "top": "50dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%"
 }

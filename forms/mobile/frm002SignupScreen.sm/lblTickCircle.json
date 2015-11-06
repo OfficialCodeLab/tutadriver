@@ -32,10 +32,7 @@
         "value": "30dp"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "24.60%"
-    },
+    "bottom": "24.60%",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -43,10 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "lblTickCircle",
     "info": null,
     "ipad": {
@@ -63,10 +57,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "d92893feec2e41b095a64b64d1692092",
-    "left": {
-        "type": "string",
-        "value": "15dp"
-    },
+    "left": "15dp",
     "margin": [
         1,
         1,
@@ -92,10 +83,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

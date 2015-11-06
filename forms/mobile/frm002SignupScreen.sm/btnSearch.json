@@ -42,10 +42,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "38dp"
-    },
+    "height": "38dp",
     "id": "btnSearch",
     "info": null,
     "isVisible": true,
@@ -67,22 +64,13 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "right": "0dp",
     "skin": "sd4823be9e634400829b57c1a28a3665",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "5%"
-    },
+    "top": "5%",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "width": "45dp",
     "zIndex": 1,
     "zindex": 1
 }

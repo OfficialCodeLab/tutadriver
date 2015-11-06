@@ -43,10 +43,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnNextSignup",
     "info": null,
     "isVisible": true,
@@ -72,16 +69,10 @@
     "render": true,
     "skin": "s4f172f639e147329bdc6dd165d301f4",
     "text": "Next",
-    "top": {
-        "type": "string",
-        "value": "463dp"
-    },
+    "top": "463dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "zIndex": 1,
     "zindex": 1
 }

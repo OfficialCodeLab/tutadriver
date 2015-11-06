@@ -27,10 +27,7 @@
         "type": "string",
         "value": "95%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "6%"
-    },
+    "bottom": "6%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -47,10 +44,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "btnUploadDocs",
     "info": null,
     "isVisible": true,
@@ -78,10 +72,7 @@
     "text": "Upload your documentation",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "95%"
-    },
+    "width": "95%",
     "zIndex": 1,
     "zindex": 1
 }

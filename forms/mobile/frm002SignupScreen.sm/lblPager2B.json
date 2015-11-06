@@ -32,10 +32,7 @@
         "value": "20dp"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "9%"
-    },
+    "bottom": "9%",
     "canUpdateUI": true,
     "centerX": "55%",
     "centerx": {
@@ -48,10 +45,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "lblPager2B",
     "info": null,
     "ipad": {
@@ -68,10 +62,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "d74a16d4c9914329aa46434e9735671b",
-    "left": {
-        "type": "string",
-        "value": "184dp"
-    },
+    "left": "184dp",
     "margin": [
         1,
         1,
@@ -94,10 +85,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "width": "20dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

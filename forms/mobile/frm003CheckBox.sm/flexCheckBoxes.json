@@ -51,10 +51,7 @@
     "enablescrolling": true,
     "focusSkin": "s42d042eb08349a3bc143e353b340bd2",
     "focusskin": "s42d042eb08349a3bc143e353b340bd2",
-    "height": {
-        "type": "string",
-        "value": "610dp"
-    },
+    "height": "610dp",
     "id": "flexCheckBoxes",
     "info": null,
     "isVisible": true,
@@ -62,10 +59,7 @@
     "kuid": "d3f98e7fc0ac4baa9d456fe45215062c",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -89,17 +83,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

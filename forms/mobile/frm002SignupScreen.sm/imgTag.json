@@ -41,15 +41,12 @@
         "channel": "mobile",
         "formID": "frm002SignupScreen",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "imgTag",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -58,10 +55,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "8077f87ba4cc46ec837c5a8e514d0706",
-    "left": {
-        "type": "string",
-        "value": "27dp"
-    },
+    "left": "27dp",
     "margin": [
         0,
         0,
@@ -81,20 +75,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "tagicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "55%"
-    },
+    "top": "55%",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "width": "100dp",
     "zIndex": 1,
     "zindex": 1
 }

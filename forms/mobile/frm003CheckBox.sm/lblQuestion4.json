@@ -59,10 +59,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "390ba4fbeb5f455bab9e05c515e27250",
-    "left": {
-        "type": "string",
-        "value": "25%"
-    },
+    "left": "25%",
     "margin": [
         1,
         1,
@@ -83,16 +80,10 @@
     "text": "Question 4",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "55%"
-    },
+    "top": "55%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "150dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

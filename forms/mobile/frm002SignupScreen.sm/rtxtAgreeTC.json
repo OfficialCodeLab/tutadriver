@@ -39,19 +39,13 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "rtxtAgreeTC",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "a06c1655da224445aba1854e92121c0f",
-    "left": {
-        "type": "string",
-        "value": "55dp"
-    },
+    "left": "55dp",
     "margin": [
         0,
         0,
@@ -71,17 +65,11 @@
     "skin": "s971319dda75466ca51ee408ceac6a16",
     "text": "By checking this tick box you are agreeing to the terms and conditions of Tuta.",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "420dp"
-    },
+    "top": "420dp",
     "wType": "RichText",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "250dp"
-    },
+    "width": "250dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

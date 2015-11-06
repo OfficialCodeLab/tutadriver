@@ -27,8 +27,6 @@
     },
     "bounces": true,
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexCheckBoxes"

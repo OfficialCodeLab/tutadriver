@@ -62,7 +62,8 @@
         "imgProfileIcon",
         "imgEnvelope",
         "imgPhone",
-        "imgLock"
+        "imgLock",
+        "btnPager2"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -75,10 +76,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "610dp"
-    },
+    "height": "610dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "scrollSignupBottom",
@@ -88,10 +86,7 @@
     "kuid": "0a5ad18cdff14624bb9bfec09579260c",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -119,10 +114,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "116dp"
-    },
+    "top": "116dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -130,10 +122,7 @@
     "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 9,
     "zindex": 9
 }

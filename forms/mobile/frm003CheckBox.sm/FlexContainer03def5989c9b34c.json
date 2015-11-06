@@ -68,10 +68,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "60%"
-    },
+    "height": "60%",
     "id": "FlexContainer03def5989c9b34c",
     "info": null,
     "isVisible": true,
@@ -79,10 +76,7 @@
     "kuid": "c17076ef461e4cceae0a6ded68256fb3",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -106,17 +100,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "top": "150dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100.00%"
-    },
+    "width": "100.00%",
     "zIndex": 1,
     "zindex": 1
 }

@@ -53,20 +53,14 @@
     "enabled": false,
     "focusSkin": "sebba30ccd404794890b3ef39d245c68",
     "focusskin": "sebba30ccd404794890b3ef39d245c68",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "txfContactNumber",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "f924ba28b1bc44f39cf6fb8bcf4bdacf",
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -94,16 +88,10 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "top": "100dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%"
 }

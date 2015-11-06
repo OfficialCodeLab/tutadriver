@@ -44,10 +44,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "lblCabDetails",
     "info": null,
     "ipad": {
@@ -64,10 +61,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "b45abc5c83de42e3b2b80a6435a0d841",
-    "left": {
-        "type": "string",
-        "value": "155dp"
-    },
+    "left": "155dp",
     "margin": [
         1,
         1,
@@ -88,16 +82,10 @@
     "text": "Cab Details",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "307dp"
-    },
+    "top": "307dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

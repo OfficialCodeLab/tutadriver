@@ -47,7 +47,8 @@
         "imgTick",
         "lblTickCircle",
         "btnFinishSignup",
-        "rtxtAgreeTC"
+        "rtxtAgreeTC",
+        "btnPager1"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -60,10 +61,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "610dp"
-    },
+    "height": "610dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "scrollSignupBottomB",
@@ -73,10 +71,7 @@
     "kuid": "6e3dad86dd3f4cb1b9f0a151a158c82d",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0%"
-    },
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -104,10 +99,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "116dp"
-    },
+    "top": "116dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -115,10 +107,7 @@
     "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

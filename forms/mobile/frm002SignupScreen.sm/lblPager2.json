@@ -28,10 +28,7 @@
         "value": "20dp"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "9%"
-    },
+    "bottom": "9%",
     "canUpdateUI": true,
     "centerX": "55%",
     "centerx": {
@@ -44,10 +41,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "lblPager2",
     "info": null,
     "ipad": {
@@ -86,10 +80,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "width": "20dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

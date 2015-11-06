@@ -51,20 +51,14 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "txtfCabNumber",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "5d5f41362eb44e57be685ce71cd52af0",
-    "left": {
-        "type": "string",
-        "value": "10%"
-    },
+    "left": "10%",
     "margin": [
         0,
         0,
@@ -90,18 +84,12 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "85%"
-    },
+    "top": "85%",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90dp"
-    },
+    "width": "90dp",
     "zIndex": 1,
     "zindex": 1
 }

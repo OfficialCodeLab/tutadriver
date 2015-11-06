@@ -42,19 +42,13 @@
     "enabled": false,
     "focusSkin": "sdb7a7317adb4f46804f071d67d7b462",
     "focusskin": "sdb7a7317adb4f46804f071d67d7b462",
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "btnCheck2",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "91ae00714bdc4f2cb6fe275edc8e6769",
-    "left": {
-        "type": "string",
-        "value": "10%"
-    },
+    "left": "10%",
     "margin": [
         6,
         6,
@@ -75,16 +69,10 @@
     "render": true,
     "skin": "se808b6c051a4d988923ad084e21b20e",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "25%"
-    },
+    "top": "25%",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

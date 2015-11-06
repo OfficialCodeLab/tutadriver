@@ -53,20 +53,14 @@
     "enabled": false,
     "focusSkin": "s13320c9fed24a0c993fb689a3a0f15c",
     "focusskin": "s13320c9fed24a0c993fb689a3a0f15c",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "txfName",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "efcad26f31e14e3d96ce329bee4ae7e8",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -94,16 +88,10 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%"
 }

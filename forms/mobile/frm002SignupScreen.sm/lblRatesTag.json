@@ -39,10 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "lblRatesTag",
     "info": null,
     "ipad": {
@@ -59,10 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "77a5159f3c2a47e281d6117b727f72f9",
-    "left": {
-        "type": "string",
-        "value": "57dp"
-    },
+    "left": "57dp",
     "margin": [
         1,
         1,
@@ -83,10 +77,7 @@
     "text": "Rates",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "56.50%"
-    },
+    "top": "56.50%",
     "vizProps": {
         "lock": true
     },

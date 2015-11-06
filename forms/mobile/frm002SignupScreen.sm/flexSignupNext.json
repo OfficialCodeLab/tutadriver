@@ -47,10 +47,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "700dp"
-    },
+    "height": "700dp",
     "id": "flexSignupNext",
     "info": null,
     "isVisible": true,
@@ -58,10 +55,7 @@
     "kuid": "8067a00993024e969695f64dab14b74b",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "100%"
-    },
+    "left": "100%",
     "margin": [
         0,
         0,
@@ -85,20 +79,14 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0%"
-    },
+    "top": "0%",
     "vizProps": {
         "lock": false
     },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }
