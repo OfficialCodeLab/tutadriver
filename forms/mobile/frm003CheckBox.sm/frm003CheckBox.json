@@ -42,7 +42,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "iPhone6Plus",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -111,7 +111,7 @@
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "iOS_iPhone6Plus",
     "skin": "s12f2bd195a24ce0b54173e26de99548",
     "snapGridSize": 10,
     "snapToGrid": true,

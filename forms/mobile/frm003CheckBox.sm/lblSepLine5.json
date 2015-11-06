@@ -25,7 +25,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "80%"
+        "value": "81.50%"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "80%",
+    "top": "81.50%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100%",
