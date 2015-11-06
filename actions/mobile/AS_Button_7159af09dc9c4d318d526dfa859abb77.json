@@ -28,6 +28,7 @@
 				"parentAnimation": "MOVE_ACTION____4c395077ab1543d9911fbbd358635f5f",
 				"animationId": "MOVE_ACTION____3c920095b46644ee99b1bae39e85407e",
 				"displayAnimationId": "MOVE_ACTION____3c920095b46644ee99b1bae39e85407e",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			},
@@ -56,6 +57,7 @@
 				"parentAnimation": "MOVE_ACTION____3c920095b46644ee99b1bae39e85407e",
 				"animationId": "MOVE_ACTION____4c395077ab1543d9911fbbd358635f5f",
 				"displayAnimationId": "MOVE_ACTION____4c395077ab1543d9911fbbd358635f5f",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			}
