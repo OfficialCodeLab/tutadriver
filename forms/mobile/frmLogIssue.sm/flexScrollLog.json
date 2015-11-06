@@ -52,10 +52,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "563dp"
-    },
+    "height": "563dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "flexScrollLog",
@@ -65,10 +62,7 @@
     "kuid": "07fb77d616004db08783f461a4e1f046",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -96,10 +90,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "214dp"
-    },
+    "top": "214dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -107,10 +98,7 @@
     "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 3,
     "zindex": 3
 }

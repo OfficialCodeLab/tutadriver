@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "lblHeaderTitle",
     "info": null,
     "ipad": {
@@ -80,16 +77,10 @@
     "text": "Help",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "top": "100dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "150dp",
     "wrapping": 2,
     "zIndex": 4,
     "zindex": 4

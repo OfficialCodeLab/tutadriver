@@ -48,7 +48,9 @@
     "contentalignment": 5,
     "context": {
         "channel": "mobile",
-        "formID": "BasicWidgets1",
+        "formID": "frmLogIssue",
+        "ispercent": true,
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -59,10 +61,7 @@
     "enabled": false,
     "groupCells": false,
     "groupcells": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "lbxQuery",
     "info": null,
     "iphone": {
@@ -74,10 +73,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "9c9e5fb87ee94ec5ae3a0c145922970c",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -148,10 +144,7 @@
     "tickedImage": "circleselecton.png",
     "tickedimage": "circleselecton.png",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "top": "150dp",
     "untickedImage": "circleselectoff.png",
     "untickedimage": "circleselectoff.png",
     "viewConfig": {
@@ -168,10 +161,7 @@
     "viewtype": 0,
     "wType": "ListBox",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

@@ -46,10 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "imgEditIssue",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -74,24 +71,15 @@
     "parent": "flexLogIssue",
     "pf": "frmLogIssue",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "12%"
-    },
+    "right": "12%",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "editicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "230dp"
-    },
+    "top": "230dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "width": "20dp",
     "zIndex": 1,
     "zindex": 1
 }

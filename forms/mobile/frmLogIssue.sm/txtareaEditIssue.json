@@ -59,10 +59,7 @@
     "contentAlignment": 1,
     "contentalignment": 1,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "120dp"
-    },
+    "height": "120dp",
     "id": "txtareaEditIssue",
     "info": null,
     "iphone": {
@@ -73,6 +70,7 @@
     "isVisible": true,
     "isvisible": true,
     "keyBoardStyle": "A",
+    "keyboardActionLabel": "",
     "keyboardactionlabel": "",
     "keyboardstyle": "A",
     "keyboardtype": "A",
@@ -99,6 +97,7 @@
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
+    "showCloseButton": false,
     "showProgressIndicator": false,
     "showclosebutton": false,
     "showoprogressindicator": true,
@@ -108,18 +107,12 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "220dp"
-    },
+    "top": "220dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextArea",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "zIndex": 2,
     "zindex": 2
 }

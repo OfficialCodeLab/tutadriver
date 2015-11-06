@@ -42,10 +42,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnEditIssue",
     "info": null,
     "isVisible": true,
@@ -67,22 +64,13 @@
     "parent": "flexLogIssue",
     "pf": "frmLogIssue",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "right": "5dp",
     "skin": "s2a16ae966ea4c42a0e9ef28a242b5af",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "220dp"
-    },
+    "top": "220dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "width": "50dp",
     "zIndex": 1,
     "zindex": 1
 }

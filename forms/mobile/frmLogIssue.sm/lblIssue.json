@@ -44,10 +44,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "lblIssue",
     "info": null,
     "ipad": {
@@ -64,10 +61,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "79c9da0851404950a27f850d96f9e22c",
-    "left": {
-        "type": "string",
-        "value": "139dp"
-    },
+    "left": "139dp",
     "margin": [
         1,
         1,
@@ -88,16 +82,10 @@
     "text": "How can we help you?",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "225dp"
-    },
+    "top": "225dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "200dp"
-    },
+    "width": "200dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

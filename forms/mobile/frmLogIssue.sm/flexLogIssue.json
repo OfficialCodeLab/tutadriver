@@ -34,10 +34,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": {
-        "type": "number",
-        "value": "0"
-    },
+    "bottom": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -63,10 +60,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "534dp"
-    },
+    "height": "534dp",
     "id": "flexLogIssue",
     "info": null,
     "isVisible": true,
@@ -74,10 +68,7 @@
     "kuid": "3759b9e42b444538b64d9ea47e2626d0",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -104,10 +95,7 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 4,
     "zindex": 4
 }

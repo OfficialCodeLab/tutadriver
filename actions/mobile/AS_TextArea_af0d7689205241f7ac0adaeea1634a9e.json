@@ -14,6 +14,7 @@
 				"itemKUID": "f699726240744a3496bae67c219f51b4",
 				"widgetKUID": "79c9da0851404950a27f850d96f9e22c",
 				"isSkinProperty": false,
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			}

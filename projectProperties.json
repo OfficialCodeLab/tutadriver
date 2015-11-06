@@ -1,1 +1,179 @@
-{"@class":"com.kony.gen.appprops.KVizAppProps","APPLICATION_THEME":"default","accountCloudGuid":"b08f36f0-bacf-4157-b3b6-52c54556f965","appaddrkey":"","appidkey":"Project01d3667530","appmenu":{"desktop":{"data":[{"icon":{"default":"option1.png"},"id":"appmenuitemid1","kuid":"f28fa7d576e549cbbc1d71258a44a162","title":"Item 1"},{"icon":{"default":"option2.png"},"id":"appmenuitemid2","kuid":"a80efdc02c04445fb024a53a2b796d82","title":"Item 2"},{"icon":{"default":"option3.png"},"id":"appmenuitemid3","kuid":"13118e23d12149f7b190f315ce4b22a4","title":"Item 3"},{"icon":{"default":"option4.png"},"id":"appmenuitemid4","kuid":"bbab7106f320443bb83b627800455ce5","title":"Item 4"}]},"focusSkin":null,"focusskin":null,"mobile":{"data":[{"icon":{"default":"option1.png"},"id":"appmenuitemid1","kuid":"8f2e4f87df7542bfa35e99a7075553a7","title":"Item 1"},{"icon":{"default":"option2.png"},"id":"appmenuitemid2","kuid":"ee03788118d0485ebb0f9f6ee79aba7f","title":"Item 2"},{"icon":{"default":"option3.png"},"id":"appmenuitemid3","kuid":"dc7177dc061b4585891c5e5f83282967","title":"Item 3"},{"icon":{"default":"option4.png"},"id":"appmenuitemid4","kuid":"abb4d72df0b3490c85723473a07e02ab","title":"Item 4"}]},"osPlatform":"","osVersion":"iOS7","skin":null,"tablet":{"data":[{"icon":{"default":"option1.png"},"id":"appmenuitemid1","kuid":"a2160cea859442ecbc83360ff0348906","title":"Item 1"},{"icon":{"default":"option2.png"},"id":"appmenuitemid2","kuid":"410715772e5c43059e07ade71e83cb06","title":"Item 2"},{"icon":{"default":"option3.png"},"id":"appmenuitemid3","kuid":"35cc729365d24d61b47b2d5fb1ee7814","title":"Item 3"},{"icon":{"default":"option4.png"},"id":"appmenuitemid4","kuid":"3141c68570a749c1a0d75856028f0533","title":"Item 4"}]},"wType":"Appmenu"},"appnamekey":"tutadriver","apppackagekey":"","appversionkey":"1.0.0","build":"debug","createdVizVersion":"2.5.2.2","createdgaversion":"6.5.0","currentgaversion":"6.5.0","defaulttheme":"defaultTheme","desktopwebaligenmentoption":"Left","desktopwebbasefontsize":"16","desktopwebwidthoption":"percentage","ipadlandscapemodekey":"portrait","isNewAppWithRespectToAndroidPackageName":"","konyVizVersion":"2.5.2.2","mwaddrkey":"","mwhttpsportkey":"","mwportkey":"","project.type":"js","projectCloudGuid":"195b979c-8839-4f07-b766-a074a0264d79","project_version":"sprint21","prototype":{"createdBy":"Ryan Sloane","createdById":"b08f36f0-bacf-4157-b3b6-52c54556f965","createdOn":"2015-10-26T08:56:40.113Z","resourceId":"fd9320d1-d3d3-4c23-8a11-9a87169f96f3","shareGuid":"TH9DH"},"startupformkey":"frm001LoginScreen","supportedorientations":["portrait"],"vendornamekey":"KonyLabs","wap_android240_fontsize":"10","wap_android320_fontsize":"12","wap_android360_fontsize":"13","wap_android400_fontsize":"14","wap_android440_fontsize":"15","wap_android480_fontsize":"16","wap_android640_fontsize":"19","wap_bb240_fontsize":"12","wap_bb320_fontsize":"15","wap_bb360_fontsize":"13","wap_bb400_fontsize":"14","wap_bb440_fontsize":"15","wap_bb480_fontsize":"17","wap_ip_fontsize":"12","wap_spaandroidtab_fontsize":"17","wap_spaandroidtabhdpi_fontsize":"16","wap_spaandroidtabldpi_fontsize":"17","wap_spaandroidtabmdpi_fontsize":"14","wap_spaandroidtabxhdpi_fontsize":"18","wap_spaipad_fontsize":"17","wap_spawindowstab_fontsize":"17","wap_winphone320_fontsize":"12","wap_winphone480_fontsize":"12","winmobileguidkey":""}
+{
+    "@class": "com.kony.gen.appprops.KVizAppProps",
+    "APPLICATION_THEME": "default",
+    "accountCloudGuid": "b08f36f0-bacf-4157-b3b6-52c54556f965",
+    "appaddrkey": "",
+    "appidkey": "Project01d3667530",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "f28fa7d576e549cbbc1d71258a44a162",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a80efdc02c04445fb024a53a2b796d82",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "13118e23d12149f7b190f315ce4b22a4",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "bbab7106f320443bb83b627800455ce5",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "8f2e4f87df7542bfa35e99a7075553a7",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "ee03788118d0485ebb0f9f6ee79aba7f",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "dc7177dc061b4585891c5e5f83282967",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "abb4d72df0b3490c85723473a07e02ab",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "a2160cea859442ecbc83360ff0348906",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "410715772e5c43059e07ade71e83cb06",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "35cc729365d24d61b47b2d5fb1ee7814",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "3141c68570a749c1a0d75856028f0533",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
+    "appnamekey": "tutadriver",
+    "apppackagekey": "",
+    "appversionkey": "1.0.0",
+    "build": "debug",
+    "createdVizVersion": "2.5.2.2",
+    "createdgaversion": "6.5.0",
+    "currentgaversion": "6.5.0",
+    "defaulttheme": "defaultTheme",
+    "desktopwebaligenmentoption": "Left",
+    "desktopwebbasefontsize": "16",
+    "desktopwebwidthoption": "percentage",
+    "ipadlandscapemodekey": "portrait",
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "konyVizVersion": "2.5.2.2",
+    "mwaddrkey": "",
+    "mwhttpsportkey": "",
+    "mwportkey": "",
+    "project.type": "js",
+    "projectCloudGuid": "195b979c-8839-4f07-b766-a074a0264d79",
+    "project_version": "sprint21",
+    "prototype": {
+        "createdBy": "Ryan Sloane",
+        "createdById": "b08f36f0-bacf-4157-b3b6-52c54556f965",
+        "createdOn": "2015-10-26T08:56:40.113Z",
+        "resourceId": "fd9320d1-d3d3-4c23-8a11-9a87169f96f3",
+        "shareGuid": "TH9DH"
+    },
+    "startupformkey": "frm001LoginScreen",
+    "supportedorientations": [
+        "portrait"
+    ],
+    "vendornamekey": "KonyLabs",
+    "wap_android240_fontsize": "10",
+    "wap_android320_fontsize": "12",
+    "wap_android360_fontsize": "13",
+    "wap_android400_fontsize": "14",
+    "wap_android440_fontsize": "15",
+    "wap_android480_fontsize": "16",
+    "wap_android640_fontsize": "19",
+    "wap_bb240_fontsize": "12",
+    "wap_bb320_fontsize": "15",
+    "wap_bb360_fontsize": "13",
+    "wap_bb400_fontsize": "14",
+    "wap_bb440_fontsize": "15",
+    "wap_bb480_fontsize": "17",
+    "wap_ip_fontsize": "12",
+    "wap_spaandroidtab_fontsize": "17",
+    "wap_spaandroidtabhdpi_fontsize": "16",
+    "wap_spaandroidtabldpi_fontsize": "17",
+    "wap_spaandroidtabmdpi_fontsize": "14",
+    "wap_spaandroidtabxhdpi_fontsize": "18",
+    "wap_spaipad_fontsize": "17",
+    "wap_spawindowstab_fontsize": "17",
+    "wap_winphone320_fontsize": "12",
+    "wap_winphone480_fontsize": "12",
+    "winmobileguidkey": ""
+}

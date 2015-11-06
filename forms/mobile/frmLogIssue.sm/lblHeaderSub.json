@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "lblHeaderSub",
     "info": null,
     "ipad": {
@@ -80,16 +77,10 @@
     "text": "Simply contact our Support Team for all the answers",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "160dp"
-    },
+    "top": "160dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "220dp"
-    },
+    "width": "220dp",
     "wrapping": 2,
     "zIndex": 4,
     "zindex": 4

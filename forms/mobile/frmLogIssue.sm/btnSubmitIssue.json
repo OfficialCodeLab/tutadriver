@@ -42,19 +42,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnSubmitIssue",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "7613a66ad8034ff395c5d6cf932ea2cc",
-    "left": {
-        "type": "string",
-        "value": "12.50%"
-    },
+    "left": "12.50%",
     "margin": [
         6,
         6,
@@ -75,16 +69,10 @@
     "render": true,
     "skin": "se8e6944419447b582d34790e97dbd1a",
     "text": "Submit",
-    "top": {
-        "type": "string",
-        "value": "450dp"
-    },
+    "top": "450dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "zIndex": 1,
     "zindex": 1
 }

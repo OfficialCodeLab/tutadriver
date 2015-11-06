@@ -8,7 +8,7 @@
 				"type": "NAVIGATE_TO_FORM",
 				"formId": "frmLogIssue",
 				"formKUID": "f699726240744a3496bae67c219f51b4",
-				"parentId": null,
+				"parentId": "",
 				"callbackType": null
 			}
 		]
