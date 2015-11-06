@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "170dp"
     },
     "_margin_": [
         0,
@@ -24,11 +24,8 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblBooking",
-        "lblDate",
-        "lblTime",
-        "lblAddress",
-        "lblCustomerName"
+        "imgMap",
+        "flexBookingInfo"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -38,10 +35,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "height": "170dp",
     "id": "flexRow",
     "info": null,
     "isSegmentChild": false,

@@ -46,10 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "200%"
-    },
+    "height": "200%",
     "id": "imgBookingListBG",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -57,10 +54,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "72a28af3c13e43948470aa5e203f43c8",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -80,20 +74,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "bookinglistbg.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "top": "150dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

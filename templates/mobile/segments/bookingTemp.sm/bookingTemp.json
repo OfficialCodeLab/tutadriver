@@ -1,4 +1,5 @@
 {
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -17,8 +18,6 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexRow"
@@ -31,7 +30,7 @@
     "contentSizeHeight": 0,
     "contentSizeWidth": 0,
     "currentLocale": null,
-    "device": "GalaxyS4",
+    "device": "iPhone3",
     "displayOrientation": 3,
     "displayorientation": 3,
     "enabled": false,
@@ -76,13 +75,13 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
+    "shellCSS": "iOS_iPhone3",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "title": null,
     "titleBar": true,
