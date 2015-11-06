@@ -1,13 +1,8 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0%"
+        "value": "70dp"
     },
     "_margin_": [
         0,
@@ -21,39 +16,35 @@
         0,
         0
     ],
-    "_skin_": "sfe7e8ba50c14cdab1163fe7449d2266",
-    "_top_": {
-        "type": "string",
-        "value": "0%"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "100%"
-    },
+    "_render_": true,
+    "_skin_": "s27092e1036a4d34bb04f89ff65ac94e",
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "channel": "mobile",
     "children": [
-        "flexTripHeader",
-        "flexTripContent"
+        "lblTripNumber",
+        "lblDate"
     ],
     "clipBounds": true,
     "clipbounds": true,
+    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexTripHistoryMain",
+    "height": "70dp",
+    "id": "flexTripHistoryMainRow",
     "info": null,
+    "isSegmentChild": false,
+    "isTemplate": true,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "92d382ec7d1341f3a9ad1a5ca8c93220",
+    "kuid": "ecccdd7cc14249d7a28fe7dcc0d89221",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
     "margin": [
         0,
         0,
@@ -68,20 +59,16 @@
         0,
         0
     ],
-    "parent": "frmTripHistory",
+    "parent": "tempTripHistoryMain",
     "percent": true,
-    "pf": "frmTripHistory",
+    "pf": "tempTripHistoryMain",
     "render": true,
-    "skin": "sfe7e8ba50c14cdab1163fe7449d2266",
+    "skin": "s27092e1036a4d34bb04f89ff65ac94e",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
-    "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
