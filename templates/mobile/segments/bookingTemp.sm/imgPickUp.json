@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "12dp"
     },
     "_left_": {
         "type": "string",
-        "value": "145dp"
+        "value": "130dp"
     },
     "_margin_": [
         0,
@@ -27,26 +27,26 @@
     "_src_": "pickupicon.png",
     "_width_": {
         "type": "string",
-        "value": "20dp"
+        "value": "12dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": 10,
+    "centerY": "10dp",
     "centery": {
-        "type": "number",
-        "value": "10"
+        "type": "string",
+        "value": "10dp"
     },
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "segments",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "20dp",
+    "height": "12dp",
     "id": "imgPickUp",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -56,7 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "f37a5482258341b79dd2ced3939efa49",
-    "left": "145dp",
+    "left": "130dp",
     "margin": [
         0,
         0,
@@ -82,7 +82,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "20dp",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "12dp",
+    "zIndex": 6,
+    "zindex": 6
 }

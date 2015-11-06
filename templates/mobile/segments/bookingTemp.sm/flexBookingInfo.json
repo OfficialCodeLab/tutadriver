@@ -41,8 +41,13 @@
         "lblEstimateFare",
         "imgPickUp",
         "lblPickUp",
-        "Label0b811dda512c543",
-        "Image05fe667e46d1e40"
+        "lblDropOff",
+        "imgDropOff",
+        "lblUpOffLine",
+        "lblPickUpLocation",
+        "lblDropOffLocation",
+        "lblTitleName",
+        "lblDateTime"
     ],
     "clipBounds": true,
     "clipbounds": true,
