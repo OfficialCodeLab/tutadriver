@@ -38,11 +38,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s4fdf06726f24f8cbce3f5140a2997ff"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s4fdf06726f24f8cbce3f5140a2997ff",
-    "focusskin": "s4fdf06726f24f8cbce3f5140a2997ff",
     "height": "50dp",
     "id": "btnMenu",
     "info": null,
