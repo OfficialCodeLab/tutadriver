@@ -38,8 +38,8 @@
     "channel": "mobile",
     "children": [
         "btnContinue",
-        "FlexContainer0196cb30b6bc749",
-        "FlexContainer03def5989c9b34c",
+        "flexCheckboxHeader",
+        "flexCheckboxQuestions",
         "flexConfirmCabNumber"
     ],
     "clipBounds": true,
