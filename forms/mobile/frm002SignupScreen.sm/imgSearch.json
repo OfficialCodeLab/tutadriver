@@ -1,0 +1,100 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "searchicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm002SignupScreen",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "id": "imgSearch",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "04ff9a29a03a4d208424bf93c75f6b1f",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexDriverDetails",
+    "pf": "frm002SignupScreen",
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "searchicon.png",
+    "srcType": 1,
+    "top": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

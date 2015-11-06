@@ -1,0 +1,88 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s16ec485a10143c5b1a72126cf526604",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "id": "btnSelectHours",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "6786d9a4cea840988adcc34c25a6b56f",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexDriverDetails",
+    "pf": "frm002SignupScreen",
+    "render": true,
+    "right": {
+        "type": "number",
+        "value": "0"
+    },
+    "skin": "s16ec485a10143c5b1a72126cf526604",
+    "text": "",
+    "top": {
+        "type": "string",
+        "value": "30%"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

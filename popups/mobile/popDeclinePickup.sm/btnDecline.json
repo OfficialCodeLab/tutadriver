@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "_margin_": [
+        1,
+        6,
+        1,
+        6
+    ],
+    "_padding_": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "_skin_": "s297e6abcbf945f78b2a91f48554a7c8",
+    "_text_": "Yes decline",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 50,
+    "containerweight": 50,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "id": "btnDecline",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "822936357d50463f913053ff105f71d7",
+    "margin": [
+        1,
+        6,
+        1,
+        6
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_1f498d4dea414ddeb4b8a3fe5342afa2",
+    "onclick": "AS_Button_1f498d4dea414ddeb4b8a3fe5342afa2",
+    "paddInPixel": [
+        20.32,
+        20.32,
+        20.32,
+        20.32
+    ],
+    "padding": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "HBox07c6534fcab2c42",
+    "pf": "popDeclinePickup",
+    "render": true,
+    "skin": "s297e6abcbf945f78b2a91f48554a7c8",
+    "text": "Yes decline",
+    "wType": "Button",
+    "widgetAlignment": 5
+}

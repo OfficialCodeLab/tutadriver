@@ -1,0 +1,98 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "lockicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm004Home",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "id": "imgSignOut",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "e132bf9c2dc04c0389bd05405bd54f25",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMenu",
+    "pf": "frm004Home",
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "lockicon.png",
+    "srcType": 1,
+    "top": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "zIndex": 2,
+    "zindex": 2
+}

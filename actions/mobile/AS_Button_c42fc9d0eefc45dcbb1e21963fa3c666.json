@@ -1,0 +1,16 @@
+{
+	"AS_Button_c42fc9d0eefc45dcbb1e21963fa3c666": {
+		"id": "AS_Button_c42fc9d0eefc45dcbb1e21963fa3c666",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "DISMISS_POPUP___b8446ddedfbd44279ffed61f22c2e219",
+				"type": "DISMISS_POPUP",
+				"popupId": "popupIssueLogged",
+				"popupKUID": "14e3b7b2206644fc86dd17fdacfb2e49",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

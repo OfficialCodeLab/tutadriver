@@ -1,0 +1,102 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblHeaderTitle",
+        "btnBack",
+        "imgBackArrow",
+        "imgHeadBG",
+        "imgCalendar"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "id": "flexHeader",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "cb359b1edbe34c52adab8d55956329c1",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmBooking",
+    "percent": true,
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    }
+}

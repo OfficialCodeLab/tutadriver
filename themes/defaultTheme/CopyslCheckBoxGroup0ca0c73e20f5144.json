@@ -1,0 +1,16 @@
+{
+    "background_color": "ffffff00",
+    "bg_type": "one",
+    "border_color": "333233ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "ffffffff",
+    "font_name": "Helvetica",
+    "font_size": 130,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "isDefaultSkin": false,
+    "kuid": "s46f49f81fa8471fa40bfa4a5dc7c723",
+    "wType": "CheckBoxGroup"
+}

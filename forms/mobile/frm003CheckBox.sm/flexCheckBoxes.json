@@ -1,0 +1,105 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "610dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sac96ce804ee4e23b8e344ac679a774d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "btnContinue",
+        "FlexContainer0196cb30b6bc749",
+        "FlexContainer03def5989c9b34c",
+        "flexConfirmCabNumber"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "focusSkin": "s42d042eb08349a3bc143e353b340bd2",
+    "focusskin": "s42d042eb08349a3bc143e353b340bd2",
+    "height": {
+        "type": "string",
+        "value": "610dp"
+    },
+    "id": "flexCheckBoxes",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "d3f98e7fc0ac4baa9d456fe45215062c",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": {
+        "type": "string",
+        "value": "0%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frm003CheckBox",
+    "percent": true,
+    "pf": "frm003CheckBox",
+    "render": true,
+    "skin": "sac96ce804ee4e23b8e344ac679a774d",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

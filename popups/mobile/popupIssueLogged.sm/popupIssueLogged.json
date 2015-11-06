@@ -1,0 +1,98 @@
+{
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s60f616f12d644a99910f3c692334bfd",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblIssueLogged",
+        "btnOkay"
+    ],
+    "containerWeight": 80,
+    "containerweight": 80,
+    "contentOffsetX": 0,
+    "contentOffsetY": 0,
+    "contentSizeHeight": 0,
+    "contentSizeWidth": 0,
+    "currentLocale": null,
+    "desktopweb": {
+        "psp": {
+            "titleBarConfig": {
+                "closeIcon": "close.png",
+                "maxIcon": "max.png",
+                "minIcon": "min.png"
+            }
+        }
+    },
+    "device": "GalaxyS4",
+    "displayOrientation": 3,
+    "displayorientation": 3,
+    "enabled": false,
+    "enabledForIdleTimeout": false,
+    "enabledforidletimeout": false,
+    "id": "popupIssueLogged",
+    "info": null,
+    "initdone": false,
+    "inputAccessoryViewType": 4,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "invokedProperty": "footers",
+    "isModal": false,
+    "isVisible": true,
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "14e3b7b2206644fc86dd17fdacfb2e49",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Popup",
+    "needappmenu": true,
+    "orientation": 1,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "percent": true,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "render": true,
+    "retainScrollPosition": false,
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS4",
+    "skin": "s60f616f12d644a99910f3c692334bfd",
+    "text": "",
+    "title": null,
+    "titleBar": true,
+    "titlebar": true,
+    "transparencyBehindThePopup": 100,
+    "transparencybehindthepopup": 100,
+    "wType": "Popup",
+    "widgetAlignment": 5
+}

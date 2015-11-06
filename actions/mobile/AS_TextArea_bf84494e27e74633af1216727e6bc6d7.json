@@ -1,0 +1,22 @@
+{
+	"AS_TextArea_bf84494e27e74633af1216727e6bc6d7": {
+		"id": "AS_TextArea_bf84494e27e74633af1216727e6bc6d7",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___7e63da970305498793ffad3b09e7bfe5",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmLogIssue",
+				"widgetId": "lblIssue",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "f699726240744a3496bae67c219f51b4",
+				"widgetKUID": "79c9da0851404950a27f850d96f9e22c",
+				"isSkinProperty": false,
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

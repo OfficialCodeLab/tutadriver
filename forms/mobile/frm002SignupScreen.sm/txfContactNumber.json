@@ -1,0 +1,109 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s026360184534280819e362c5b80ece1",
+    "_text_": "Contact Number",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autoCapitalize": "none",
+    "autoComplete": false,
+    "autoCorrect": false,
+    "autoFilter": false,
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerHeight": "",
+    "containerHeightMode": 1,
+    "containerWeight": 100,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "focusSkin": "sebba30ccd404794890b3ef39d245c68",
+    "focusskin": "sebba30ccd404794890b3ef39d245c68",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "txfContactNumber",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "f924ba28b1bc44f39cf6fb8bcf4bdacf",
+    "left": {
+        "type": "string",
+        "value": "0%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "scrollSignupBottom",
+    "pf": "frm002SignupScreen",
+    "placeholder": "",
+    "placeholderSkin": "s2e3d616d7934dc6afd4489f0482e45e",
+    "placeholderskin": "s2e3d616d7934dc6afd4489f0482e45e",
+    "render": true,
+    "secureTextEntry": false,
+    "securetextentry": false,
+    "skin": "s026360184534280819e362c5b80ece1",
+    "text": "Contact Number",
+    "textInputMode": "A",
+    "textinputmode": "A",
+    "toolTip": "",
+    "top": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "viewType": "default",
+    "viewtype": "default",
+    "wType": "TextField",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    }
+}

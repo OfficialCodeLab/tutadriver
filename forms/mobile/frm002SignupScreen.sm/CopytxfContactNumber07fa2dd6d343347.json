@@ -1,0 +1,109 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.02%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s026360184534280819e362c5b80ece1",
+    "_text_": "Company Name",
+    "_top_": {
+        "type": "string",
+        "value": "357dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autoCapitalize": "none",
+    "autoComplete": false,
+    "autoCorrect": false,
+    "autoFilter": false,
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerHeight": "",
+    "containerHeightMode": 1,
+    "containerWeight": 100,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "focusSkin": "s26f20e8f4ce4d2f8d09127cafa12ea4",
+    "focusskin": "s26f20e8f4ce4d2f8d09127cafa12ea4",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "CopytxfContactNumber07fa2dd6d343347",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "f740510fd30149de984935c58ee56d70",
+    "left": {
+        "type": "string",
+        "value": "0.02%"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "scrollSignupBottom",
+    "pf": "frm002SignupScreen",
+    "placeholder": "",
+    "placeholderSkin": "s24f305cca3f40d79f5d8e515efd2175",
+    "placeholderskin": "s24f305cca3f40d79f5d8e515efd2175",
+    "render": true,
+    "secureTextEntry": false,
+    "securetextentry": false,
+    "skin": "s026360184534280819e362c5b80ece1",
+    "text": "Company Name",
+    "textInputMode": "A",
+    "textinputmode": "A",
+    "toolTip": "",
+    "top": {
+        "type": "string",
+        "value": "357dp"
+    },
+    "viewType": "default",
+    "viewtype": "default",
+    "wType": "TextField",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    }
+}

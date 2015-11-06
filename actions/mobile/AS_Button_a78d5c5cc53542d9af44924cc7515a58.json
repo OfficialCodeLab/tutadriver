@@ -1,0 +1,72 @@
+{
+	"AS_Button_a78d5c5cc53542d9af44924cc7515a58": {
+		"id": "AS_Button_a78d5c5cc53542d9af44924cc7515a58",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "IF_CONDITION__fef15df2329e46e9ad44a718d67895ec",
+				"type": "IF_CONDITION",
+				"conditions": [
+					{
+						"leftValueType": "widgetprop",
+						"leftValue": "frm003CheckBox.flexCheckBoxes.FlexContainer03def5989c9b34c.imgTick3.isVisible",
+						"operator": "===",
+						"rightValueType": "value",
+						"rightValue": "false",
+						"leftItemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
+						"leftWidgetKUID": "ab26d12ff24e4fb2a435c422f2495586"
+					}
+				],
+				"parentId": null,
+				"callbackType": null,
+				"criteria": "all"
+			},
+			{
+				"id": "ELSE_CONDITION__e8fbee059f724a399de465f9089c3c3e",
+				"type": "ELSE_CONDITION",
+				"conditions": [
+					{
+						"leftValueType": "widgetprop",
+						"leftValue": "",
+						"operator": "===",
+						"rightValueType": "widgetprop",
+						"rightValue": ""
+					}
+				],
+				"parentId": null,
+				"callbackType": null,
+				"criteria": "all"
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___f7f0bc5232ad4166b1d87bf5739139a6",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm003CheckBox",
+				"widgetId": "imgTick3",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
+				"widgetKUID": "ab26d12ff24e4fb2a435c422f2495586",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": "ELSE_CONDITION__e8fbee059f724a399de465f9089c3c3e",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___43ed14e426ee4e5490d9a9e73ec5d52e",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm003CheckBox",
+				"widgetId": "imgTick3",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
+				"widgetKUID": "ab26d12ff24e4fb2a435c422f2495586",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": "IF_CONDITION__fef15df2329e46e9ad44a718d67895ec",
+				"callbackType": null
+			}
+		]
+	}
+}

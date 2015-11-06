@@ -1,0 +1,104 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "134dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4ce1c21391e4da2a840e5af0d028f07",
+    "_text_": "Jarred Crowley",
+    "_top_": {
+        "type": "string",
+        "value": "230dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "height": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "id": "lblCustomerName",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "e3c34092c76c428786bb2a73737a38b7",
+    "left": {
+        "type": "string",
+        "value": "134dp"
+    },
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmPickupRequest",
+    "pf": "frmPickupRequest",
+    "render": true,
+    "skin": "s4ce1c21391e4da2a840e5af0d028f07",
+    "text": "Jarred Crowley",
+    "toolTip": "",
+    "tooltip": "",
+    "top": {
+        "type": "string",
+        "value": "230dp"
+    },
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "wrapping": 2,
+    "zIndex": 2,
+    "zindex": 2
+}

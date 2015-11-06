@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se8e6944419447b582d34790e97dbd1a",
+    "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "450dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "btnSubmitIssue",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "7613a66ad8034ff395c5d6cf932ea2cc",
+    "left": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
+    "onclick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexLogIssue",
+    "pf": "frmLogIssue",
+    "render": true,
+    "skin": "se8e6944419447b582d34790e97dbd1a",
+    "text": "Submit",
+    "top": {
+        "type": "string",
+        "value": "450dp"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "80%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

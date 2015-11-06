@@ -1,0 +1,55 @@
+{
+    "DNDConfig": null,
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_text_": "OK",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "id": "btnOkay",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "f5e1f33dd71a448fa0ddef79aa92dbd4",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_c42fc9d0eefc45dcbb1e21963fa3c666",
+    "onclick": "AS_Button_c42fc9d0eefc45dcbb1e21963fa3c666",
+    "padding": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "parent": "popupIssueLogged",
+    "pf": "popupIssueLogged",
+    "render": true,
+    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "text": "OK",
+    "wType": "Button",
+    "widgetAlignment": 5
+}

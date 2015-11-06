@@ -1,0 +1,66 @@
+{
+	"AS_Button_441860abc9ed40709f2d8064e41c9699": {
+		"id": "AS_Button_441860abc9ed40709f2d8064e41c9699",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "MOVE_ACTION____d3c4a3322910449aadc9b646140f99cb",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm001LoginScreen",
+				"widgetId": "flexLoginMain",
+				"itemKUID": "3682d40e81394724899742a8a4343d25",
+				"widgetKUID": "a7d6c372b4f34d23a335b924ee152c21",
+				"animationObject": {
+					"left": "-100%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "100"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____2cc122bb0a544e3e954b327855500223",
+				"animationId": "MOVE_ACTION____d3c4a3322910449aadc9b646140f99cb",
+				"displayAnimationId": "MOVE_ACTION____d3c4a3322910449aadc9b646140f99cb",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "MOVE_ACTION____2cc122bb0a544e3e954b327855500223",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm001LoginScreen",
+				"widgetId": "__missing_id__",
+				"itemKUID": "3682d40e81394724899742a8a4343d25",
+				"widgetKUID": "6961054cfb384e6e9f92608c0fcb487e",
+				"animationObject": {
+					"left": "0%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "100"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____d3c4a3322910449aadc9b646140f99cb",
+				"animationId": "MOVE_ACTION____2cc122bb0a544e3e954b327855500223",
+				"displayAnimationId": "MOVE_ACTION____2cc122bb0a544e3e954b327855500223",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

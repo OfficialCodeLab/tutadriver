@@ -1,0 +1,72 @@
+{
+	"AS_Button_c2c4fddf02744489afa1f5d24fd9278b": {
+		"id": "AS_Button_c2c4fddf02744489afa1f5d24fd9278b",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "IF_CONDITION__eec20d4ff3224609a06be90bc7672118",
+				"type": "IF_CONDITION",
+				"conditions": [
+					{
+						"leftValueType": "widgetprop",
+						"leftValue": "frm002SignupScreen.flexSignupNext.scrollSignupBottomB.imgTick.isVisible",
+						"operator": "===",
+						"rightValueType": "value",
+						"rightValue": "false",
+						"leftItemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
+						"leftWidgetKUID": "be8bb24ac31d4d0e888b22beb55cbe69"
+					}
+				],
+				"parentId": null,
+				"callbackType": null,
+				"criteria": "all"
+			},
+			{
+				"id": "ELSE_CONDITION__acf8599454c5412a92fd573da0f1a089",
+				"type": "ELSE_CONDITION",
+				"conditions": [
+					{
+						"leftValueType": "widgetprop",
+						"leftValue": "",
+						"operator": "===",
+						"rightValueType": "widgetprop",
+						"rightValue": ""
+					}
+				],
+				"parentId": null,
+				"callbackType": null,
+				"criteria": "all"
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___722c193baa0d4355b468c9baf0c9b0d2",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm002SignupScreen",
+				"widgetId": "scrollSignupBottomB",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
+				"widgetKUID": "6e3dad86dd3f4cb1b9f0a151a158c82d",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": "ELSE_CONDITION__acf8599454c5412a92fd573da0f1a089",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___c15200213b6242a995e8ee4087bb1a26",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm002SignupScreen",
+				"widgetId": "imgTick",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "340001e8bb604c009f4bb8e2c0f0b6a5",
+				"widgetKUID": "be8bb24ac31d4d0e888b22beb55cbe69",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": "IF_CONDITION__eec20d4ff3224609a06be90bc7672118",
+				"callbackType": null
+			}
+		]
+	}
+}

@@ -1,0 +1,107 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "menumessageicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "46dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "centerY": "10%",
+    "centery": {
+        "type": "string",
+        "value": "10%"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm004Home",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "id": "imgMessageOption",
+    "imageScaleMode": 0,
+    "imageWhenFailed": "menumessageicon.png",
+    "imageWhileDownloading": "menumessageicon.png",
+    "imagescalemode": 0,
+    "imagewhenfailed": "menumessageicon.png",
+    "imagewhiledownloading": "menumessageicon.png",
+    "info": null,
+    "invokedProperty": "imageWhenFailed",
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "d4ff39656ecc413689b0a0f86e5be4b6",
+    "left": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMenuOptions",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "menumessageicon.png",
+    "srcType": 1,
+    "top": {
+        "type": "string",
+        "value": "46dp"
+    },
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "zIndex": 5,
+    "zindex": 5
+}

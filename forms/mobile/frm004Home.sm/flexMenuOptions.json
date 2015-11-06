@@ -1,0 +1,130 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "290dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf020406fdb3414f95ce77b159f712e0",
+    "_top_": {
+        "type": "string",
+        "value": "184dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowHorizontalBounce": true,
+    "allowVerticalBounce": true,
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblSep1",
+        "lblSep2",
+        "lblSep3",
+        "lblSep4",
+        "lblSep5",
+        "imgMessageOption",
+        "imgBookings",
+        "imgHelp",
+        "imgTripHistory",
+        "imgAbout",
+        "btnBooking",
+        "btnMessage",
+        "btnHelp",
+        "btnTripHistory",
+        "btnAboutMenu"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "decelerat": false,
+    "decelerating": false,
+    "dragg": false,
+    "dragging": false,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": {
+        "type": "string",
+        "value": "290dp"
+    },
+    "horizontalScrollIndicator": true,
+    "horizontalscrollindicator": true,
+    "id": "flexMenuOptions",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "e445b3853d89468595fcd60086ad8d4a",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexScrollContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pagingEnabled": false,
+    "pagingenabled": false,
+    "parent": "flexMenu",
+    "percent": true,
+    "pf": "frm004Home",
+    "render": true,
+    "scrollDirection": 1,
+    "scrolldirection": 1,
+    "skin": "sf020406fdb3414f95ce77b159f712e0",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": {
+        "type": "string",
+        "value": "184dp"
+    },
+    "track": false,
+    "tracking": false,
+    "verticalScrollIndicator": true,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 2,
+    "zindex": 2
+}

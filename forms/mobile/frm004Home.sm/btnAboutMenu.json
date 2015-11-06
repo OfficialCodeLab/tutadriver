@@ -1,0 +1,92 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        23,
+        3,
+        0,
+        0
+    ],
+    "_skin_": "s86830807022475691f96d275780ea3a",
+    "_text_": "About Tuta",
+    "_top_": {
+        "type": "string",
+        "value": "235dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "btnAboutMenu",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "bad7d29a27aa4cac925ea2c584e070ec",
+    "left": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        23,
+        3,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "flexMenuOptions",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s86830807022475691f96d275780ea3a",
+    "text": "About Tuta",
+    "top": {
+        "type": "string",
+        "value": "235dp"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 10,
+    "zindex": 10
+}

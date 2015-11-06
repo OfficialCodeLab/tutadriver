@@ -1,0 +1,16 @@
+{
+	"AS_Button_11dc4669c9de4649a2131d8d9eeda2c1": {
+		"id": "AS_Button_11dc4669c9de4649a2131d8d9eeda2c1",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "DISPLAY_POPUP___0c5c1aa5b63748cfb2d1002e0ce014f2",
+				"type": "DISPLAY_POPUP",
+				"popupId": "popDeclinePickup",
+				"popupKUID": "ce2794a6eff3493ab52c7adae89ea245",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

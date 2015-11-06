@@ -1,0 +1,15 @@
+{
+	"AS_TextArea_a2c9ce0621fd423b8587451c58afa131": {
+		"id": "AS_TextArea_a2c9ce0621fd423b8587451c58afa131",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__8d549f31fa264c8d87fa3d0f625f8ce3",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "if (frmLogIssue.txtareaEditIssue.text === null) {\n  frmLogIssue.lblIssue.isVisible = true;\n}",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

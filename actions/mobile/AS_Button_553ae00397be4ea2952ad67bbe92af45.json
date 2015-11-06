@@ -1,0 +1,16 @@
+{
+	"AS_Button_553ae00397be4ea2952ad67bbe92af45": {
+		"id": "AS_Button_553ae00397be4ea2952ad67bbe92af45",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM___f8afa7f1b8fa40498235814657f4c245",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frm003CheckBox",
+				"formKUID": "b33c3c527b8d4d9492073d4091a32f4d",
+				"parentId": "",
+				"callbackType": null
+			}
+		]
+	}
+}

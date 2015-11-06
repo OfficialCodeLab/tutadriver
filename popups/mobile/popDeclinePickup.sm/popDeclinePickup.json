@@ -1,0 +1,100 @@
+{
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf7eb38f717e4921804a0e1ba578df82",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblMessage",
+        "lineSep",
+        "hboxCustomerDistance",
+        "HBox07c6534fcab2c42"
+    ],
+    "containerWeight": 80,
+    "containerweight": 80,
+    "contentOffsetX": 0,
+    "contentOffsetY": 0,
+    "contentSizeHeight": 0,
+    "contentSizeWidth": 0,
+    "currentLocale": null,
+    "desktopweb": {
+        "psp": {
+            "titleBarConfig": {
+                "closeIcon": "close.png",
+                "maxIcon": "max.png",
+                "minIcon": "min.png"
+            }
+        }
+    },
+    "device": "iPhone6",
+    "displayOrientation": 3,
+    "displayorientation": 3,
+    "enabled": false,
+    "enabledForIdleTimeout": false,
+    "enabledforidletimeout": false,
+    "id": "popDeclinePickup",
+    "info": null,
+    "initdone": false,
+    "inputAccessoryViewType": 4,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "invokedProperty": "footers",
+    "isModal": false,
+    "isVisible": true,
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "ce2794a6eff3493ab52c7adae89ea245",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Popup",
+    "needappmenu": true,
+    "orientation": 1,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "percent": true,
+    "platform": "iphone",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "render": true,
+    "retainScrollPosition": false,
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone6",
+    "skin": "sf7eb38f717e4921804a0e1ba578df82",
+    "text": "",
+    "title": null,
+    "titleBar": true,
+    "titlebar": true,
+    "transparencyBehindThePopup": 100,
+    "transparencybehindthepopup": 100,
+    "wType": "Popup",
+    "widgetAlignment": 5
+}

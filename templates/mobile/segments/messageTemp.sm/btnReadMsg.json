@@ -1,0 +1,92 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s22100b044ad43149731b43d9cf0c802",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerId": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "sa8f118bfc844082a0bfc2db047c8cd4",
+    "focusskin": "sa8f118bfc844082a0bfc2db047c8cd4",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "btnReadMsg",
+    "info": null,
+    "isSegmentChild": false,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "5c519c159701482d88ae87a6eeb0624b",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_c13e3a0ddd9c4274bba6da0176bda353",
+    "onclick": "AS_Button_c13e3a0ddd9c4274bba6da0176bda353",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMessage",
+    "pf": "messageTemp",
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "skin": "s22100b044ad43149731b43d9cf0c802",
+    "text": "",
+    "top": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "zIndex": 2,
+    "zindex": 2
+}

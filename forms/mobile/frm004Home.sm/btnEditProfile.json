@@ -1,0 +1,87 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s64ecf69e2ac4b0e9891c75747d04fef",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
+    "height": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "id": "btnEditProfile",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "e040be0e7d454461a1caaf1171652d56",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMenuProfile",
+    "pf": "frm004Home",
+    "render": true,
+    "right": {
+        "type": "number",
+        "value": "0"
+    },
+    "skin": "s64ecf69e2ac4b0e9891c75747d04fef",
+    "text": "",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

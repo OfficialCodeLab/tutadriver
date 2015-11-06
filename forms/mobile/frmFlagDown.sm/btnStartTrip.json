@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        10,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s4a7c581b6f14d9ea992cccc1e0fbbba",
+    "_text_": "Start Trip",
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "bottom": {
+        "type": "string",
+        "value": "3%"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": {
+        "type": "string",
+        "value": "7%"
+    },
+    "id": "btnStartTrip",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "ca7f93f757364c84a22e2bf31d723761",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        10,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "frmFlagDown",
+    "pf": "frmFlagDown",
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "5%"
+    },
+    "skin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
+    "text": "Start Trip",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "45%"
+    },
+    "zIndex": 2,
+    "zindex": 2
+}

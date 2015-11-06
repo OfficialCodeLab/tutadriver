@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "saaf01011e5b4855bdfe9427590aee71",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s2523b41ba1b4e8d86e8270339c80035",
+    "focusskin": "s2523b41ba1b4e8d86e8270339c80035",
+    "height": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "id": "btnCheck3",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "c15edc94704b4e0694e75dced68b6205",
+    "left": {
+        "type": "string",
+        "value": "10%"
+    },
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_a78d5c5cc53542d9af44924cc7515a58",
+    "onclick": "AS_Button_a78d5c5cc53542d9af44924cc7515a58",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "FlexContainer03def5989c9b34c",
+    "pf": "frm003CheckBox",
+    "render": true,
+    "skin": "saaf01011e5b4855bdfe9427590aee71",
+    "text": "",
+    "top": {
+        "type": "string",
+        "value": "40%"
+    },
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "zIndex": 2,
+    "zindex": 2
+}

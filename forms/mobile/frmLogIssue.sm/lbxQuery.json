@@ -1,0 +1,177 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        38,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Query Topic",
+    "_skin_": "s507394d6e844811bf0a2583db73febd",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.AndroidListBoxProperty",
+        "psp": {
+            "placeholder": "Query Topic",
+            "placeholderSkin": "sb9490089529430bab45fc579d551a44",
+            "popupIcon": "helpicon.png",
+            "popupTitle": "Query Topic"
+        }
+    },
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "BasicWidgets1",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dimension": 18,
+    "disabledSkins": {},
+    "dropDownImage": "dropdownarrowsm.png",
+    "dropdownimage": "dropdownarrowsm.png",
+    "enabled": false,
+    "groupCells": false,
+    "groupcells": false,
+    "height": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "id": "lbxQuery",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.IPhoneListBoxProperty",
+        "psp": {
+            "placeholder": "Query Topic"
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "9c9e5fb87ee94ec5ae3a0c145922970c",
+    "left": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterData": [
+        [
+            "lb1",
+            "Type 1"
+        ],
+        [
+            "lb2",
+            "Type 2"
+        ],
+        [
+            "lb3",
+            "Type 3"
+        ]
+    ],
+    "masterdata": [
+        [
+            "lb1",
+            "Type 1"
+        ],
+        [
+            "lb2",
+            "Type 2"
+        ],
+        [
+            "lb3",
+            "Type 3"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "padding": [
+        38,
+        0,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "flexLogIssue",
+    "pf": "frmLogIssue",
+    "placeholder": "Query Topic",
+    "popupIcon": "helpicon.png",
+    "popupTitle": "Query Topic",
+    "popupicon": "helpicon.png",
+    "popuptitle": "Query Topic",
+    "render": true,
+    "selectedKey": "lb1",
+    "selectedKeyValue": [
+        "lb1",
+        "Type 1"
+    ],
+    "selectedKeyValues": null,
+    "selectedKeys": null,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Type 1"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "skin": "s507394d6e844811bf0a2583db73febd",
+    "tickedImage": "circleselecton.png",
+    "tickedimage": "circleselecton.png",
+    "toolTip": "",
+    "top": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "untickedImage": "circleselectoff.png",
+    "untickedimage": "circleselectoff.png",
+    "viewConfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewType": 0,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "100%"
+    },
+    "zIndex": 1,
+    "zindex": 1
+}

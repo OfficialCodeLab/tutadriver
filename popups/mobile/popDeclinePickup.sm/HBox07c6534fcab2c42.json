@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "sd2bca4b57514cfabcf8947f0767ad3e",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "btnDecline",
+        "btnCancel"
+    ],
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contextmenu": null,
+    "enabled": false,
+    "id": "HBox07c6534fcab2c42",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "11210a96384443eeb11afdab47b9ee61",
+    "layoutType": 0,
+    "layouttype": 0,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Box",
+    "orientation": 1,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "popDeclinePickup",
+    "percent": true,
+    "pf": "popDeclinePickup",
+    "position": 3,
+    "render": true,
+    "resize": true,
+    "skin": "sd2bca4b57514cfabcf8947f0767ad3e",
+    "templateType": "forms",
+    "wType": "HBox",
+    "widgetAlignment": 1,
+    "widgetalignment": 1
+}

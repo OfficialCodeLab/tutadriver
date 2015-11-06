@@ -1,0 +1,46 @@
+{
+	"AS_Button_364a7ca3b02741ceb70d68c4c47b405e": {
+		"id": "AS_Button_364a7ca3b02741ceb70d68c4c47b405e",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "___onClick_e98884b715c24bb5bf7075a4f5303184",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm004Home",
+				"widgetId": "flexMenu",
+				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"widgetKUID": "bfde5e3bb1054398992ea1ecfa9c3a40",
+				"animationObject": {
+					"left": "0px",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____5eba0aedd6bc4b6cbad5c0f2add6c172",
+				"displayAnimationId": "MOVE_ACTION____5eba0aedd6bc4b6cbad5c0f2add6c172",
+				"forkedPlatform": "all",
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY____5b41b754dada43678f0b3dbc25370c8f",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"propertyName": null,
+				"propertyValue": null,
+				"itemKUID": false,
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"callbackType": null
+			}
+		]
+	}
+}

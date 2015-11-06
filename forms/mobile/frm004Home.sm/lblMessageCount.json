@@ -1,0 +1,96 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "sbc8b1c33d944a2e9a52a65507029ab0",
+    "_text_": "3",
+    "_width_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerY": "65%",
+    "centery": {
+        "type": "string",
+        "value": "65%"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "height": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "id": "lblMessageCount",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "120d4140edcf41668ac0f2e780e95c2c",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexTopMenu",
+    "pf": "frm004Home",
+    "render": true,
+    "right": {
+        "type": "string",
+        "value": "4%"
+    },
+    "skin": "sbc8b1c33d944a2e9a52a65507029ab0",
+    "text": "3",
+    "toolTip": "",
+    "tooltip": "",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "wrapping": 2,
+    "zIndex": 4,
+    "zindex": 4
+}
