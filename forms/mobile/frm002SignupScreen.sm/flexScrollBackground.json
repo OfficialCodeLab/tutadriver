@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "700dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,8 +21,7 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s3153a43d6e34c2ab28d65eb1471f92d",
+    "_skin_": "sd4e7dd0404843538b160d83a77e9189",
     "_top_": {
         "type": "string",
         "value": "0%"
@@ -32,27 +31,32 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "allowHorizontalBounce": true,
+    "allowVerticalBounce": true,
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "flexHeaderRed",
-        "scrollSignupBottom"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "enableScrolling": true,
+    "decelerat": false,
+    "decelerating": false,
+    "dragg": false,
+    "dragging": false,
+    "enableScrolling": false,
     "enabled": false,
-    "enablescrolling": true,
-    "height": "700dp",
-    "id": "flexSignupMain",
+    "enablescrolling": false,
+    "height": "100%",
+    "horizontalScrollIndicator": true,
+    "horizontalscrollindicator": true,
+    "id": "flexScrollBackground",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "b22c753806084d29b43490c01a6a8512",
+    "kuid": "6e3222657c4944f2a6681b5670c7ac08",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0%",
@@ -62,7 +66,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexContainer",
+    "name": "kony.ui.FlexScrollContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -70,23 +74,28 @@
         0,
         0
     ],
+    "pagingEnabled": false,
+    "pagingenabled": false,
     "parent": "frm002SignupScreen",
     "percent": true,
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "s3153a43d6e34c2ab28d65eb1471f92d",
+    "scrollDirection": 1,
+    "scrolldirection": 1,
+    "skin": "sd4e7dd0404843538b160d83a77e9189",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
     "top": "0%",
-    "vizProps": {
-        "lock": true
-    },
-    "wType": "FlexContainer",
+    "track": false,
+    "tracking": false,
+    "verticalScrollIndicator": true,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 3,
-    "zindex": 3
+    "zIndex": 1,
+    "zindex": 1
 }
