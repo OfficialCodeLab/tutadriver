@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "height": "20dp",
     "id": "lblVia",
     "info": null,
     "ipad": {
@@ -80,16 +77,10 @@
     "text": "VIA:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "350dp"
-    },
+    "top": "350dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "width": "50dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

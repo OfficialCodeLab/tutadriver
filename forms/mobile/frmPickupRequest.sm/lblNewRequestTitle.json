@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "70dp"
-    },
+    "height": "70dp",
     "id": "lblNewRequestTitle",
     "info": null,
     "ipad": {
@@ -80,19 +77,13 @@
     "text": "You have received a new pickup request.",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "130dp"
-    },
+    "top": "130dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

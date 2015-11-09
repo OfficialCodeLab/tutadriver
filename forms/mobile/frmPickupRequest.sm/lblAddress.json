@@ -59,10 +59,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "024f487bb5da42ecafbca53d370d5888",
-    "left": {
-        "type": "string",
-        "value": "104dp"
-    },
+    "left": "104dp",
     "margin": [
         1,
         1,
@@ -83,10 +80,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "269dp"
-    },
+    "top": "269dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": {

@@ -32,10 +32,7 @@
         "value": "60dp"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "22%"
-    },
+    "bottom": "22%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -48,10 +45,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "lblEtaTitle",
     "info": null,
     "ipad": {
@@ -88,19 +82,13 @@
     "text": "ETA:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "400dp"
-    },
+    "top": "400dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "width": "60dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

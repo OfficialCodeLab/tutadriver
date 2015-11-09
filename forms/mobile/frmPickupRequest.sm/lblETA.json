@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "lblETA",
     "info": null,
     "ipad": {
@@ -80,19 +77,13 @@
     "text": "7 min",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "440dp"
-    },
+    "top": "440dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "width": "100dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

@@ -32,10 +32,7 @@
         "value": "90%"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "35%"
-    },
+    "bottom": "35%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -48,10 +45,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "2dp"
-    },
+    "height": "2dp",
     "id": "lblSep2",
     "info": null,
     "ipad": {
@@ -88,18 +82,12 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "number",
-        "value": "395"
-    },
+    "top": 395,
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "wrapping": 2
 }

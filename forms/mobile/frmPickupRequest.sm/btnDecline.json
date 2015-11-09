@@ -35,10 +35,7 @@
         "type": "string",
         "value": "45%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "-130dp"
-    },
+    "bottom": "-130dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -50,19 +47,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "height": "45dp",
     "id": "btnDecline",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "36c6e4f9ac674f1f9f8211f32b03bc40",
-    "left": {
-        "type": "string",
-        "value": "5%"
-    },
+    "left": "5%",
     "margin": [
         6,
         6,
@@ -85,19 +76,13 @@
     "render": true,
     "skin": "s0a9493b6cbb414a8e86a7de9464c3f3",
     "text": "Decline",
-    "top": {
-        "type": "string",
-        "value": "500dp"
-    },
+    "top": "500dp",
     "vizProps": {
         "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45%"
-    },
+    "width": "45%",
     "zIndex": 2,
     "zindex": 2
 }

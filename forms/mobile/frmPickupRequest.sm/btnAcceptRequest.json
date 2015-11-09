@@ -35,10 +35,7 @@
         "type": "string",
         "value": "45%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "1dp"
-    },
+    "bottom": "1dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -50,10 +47,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "height": "45dp",
     "id": "btnAcceptRequest",
     "info": null,
     "isVisible": true,
@@ -79,25 +73,16 @@
     "parent": "frmPickupRequest",
     "pf": "frmPickupRequest",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "5%"
-    },
+    "right": "5%",
     "skin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
     "text": "Accept",
-    "top": {
-        "type": "string",
-        "value": "500dp"
-    },
+    "top": "500dp",
     "vizProps": {
         "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45%"
-    },
+    "width": "45%",
     "zIndex": 2,
     "zindex": 2
 }

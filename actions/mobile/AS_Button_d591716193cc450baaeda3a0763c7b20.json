@@ -28,6 +28,7 @@
 				"parentAnimation": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
 				"animationId": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
 				"displayAnimationId": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			},
@@ -56,6 +57,7 @@
 				"parentAnimation": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
 				"animationId": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
 				"displayAnimationId": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			},
@@ -70,6 +72,7 @@
 				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
 				"widgetKUID": "1c5344df18784445aa929468a8b7dc2c",
 				"isSkinProperty": false,
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			},
@@ -84,6 +87,7 @@
 				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
 				"widgetKUID": "8a7298b501d24747bc826de61e469736",
 				"isSkinProperty": false,
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			}

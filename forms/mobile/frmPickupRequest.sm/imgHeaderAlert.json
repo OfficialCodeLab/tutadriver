@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "80dp"
-    },
+    "height": "80dp",
     "id": "imgHeaderAlert",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -78,20 +75,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "alertballicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "top": "50dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "width": "100dp",
     "zIndex": 1,
     "zindex": 1
 }

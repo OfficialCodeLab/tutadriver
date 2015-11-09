@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "90dp"
-    },
+    "height": "90dp",
     "id": "lblPickupLocation",
     "info": null,
     "ipad": {
@@ -80,16 +77,10 @@
     "text": "38 Macbeth street Witkoppen,Fourways Johannesburg, 2192",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "265dp"
-    },
+    "top": "265dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "230dp"
-    },
+    "width": "230dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

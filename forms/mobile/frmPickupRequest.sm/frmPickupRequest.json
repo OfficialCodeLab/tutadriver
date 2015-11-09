@@ -18,13 +18,14 @@
     "allboxes": [],
     "android": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "formAnimation": 10
+        },
         "psp": {
             "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "imgHeaderAlert",
@@ -58,10 +59,16 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "frmPickupRequest",
+    "inTransitionConfig": {
+        "formAnimation": 10
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formAnimation": 10
+    },
     "ipad": {
         "psp": {
             "inputAccessoryViewType": 4
@@ -69,6 +76,10 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "transitionDirection": "fromTop",
+            "transitionEffect": "none"
+        },
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -125,6 +136,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -206,5 +222,12 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
 }

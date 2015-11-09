@@ -64,10 +64,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "099b5cfba9e24c12bf610470b25322fa",
-    "left": {
-        "type": "string",
-        "value": "139dp"
-    },
+    "left": "139dp",
     "margin": [
         1,
         1,
@@ -88,16 +85,10 @@
     "text": "21 Woodlands drive",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "370dp"
-    },
+    "top": "370dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2
