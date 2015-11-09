@@ -20,6 +20,7 @@
         "inTransitionConfig": {
             "formAnimation": 2
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
             "formAnimation": 0
         }
@@ -42,7 +43,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS4",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -70,6 +71,7 @@
             "transitionDirection": "fromLeft",
             "transitionEffect": "none"
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
             "transitionDirection": "none",
             "transitionEffect": "none"
@@ -89,10 +91,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -124,13 +126,13 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
-    "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "iPhone3",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
+    "shellCSS": "iOS_iPhone6",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
@@ -143,6 +145,18 @@
         "outTransitionConfig": {
             "formTransition": "none"
         }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
     },
     "title": null,
     "titleBar": true,
@@ -162,7 +176,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -217,7 +231,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -232,6 +246,7 @@
             "transitionMode": "none",
             "transitionSpeed": 0
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
             "outTransition": "none",
             "transitionMode": "none",

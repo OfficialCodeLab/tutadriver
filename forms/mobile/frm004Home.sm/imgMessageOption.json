@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_src_": "menumessageicon.png",
     "_top_": {
         "type": "string",
-        "value": "46dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -34,10 +34,10 @@
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "10%",
+    "centerY": "57%",
     "centery": {
         "type": "string",
-        "value": "10%"
+        "value": "57%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -45,8 +45,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frm004Home",
-        "ispercent": true,
-        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -64,8 +62,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "d4ff39656ecc413689b0a0f86e5be4b6",
-    "left": "5dp",
+    "kuid": "76e8de3513cf404aae4ad230a7c97276",
+    "left": "10dp",
     "margin": [
         0,
         0,
@@ -79,13 +77,13 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnMessages",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "menumessageicon.png",
     "srcType": 1,
-    "top": "46dp",
+    "top": "10dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

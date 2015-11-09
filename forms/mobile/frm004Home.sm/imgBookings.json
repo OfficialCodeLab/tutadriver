@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -30,10 +30,10 @@
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "30%",
+    "centerY": "57%",
     "centery": {
         "type": "string",
-        "value": "30%"
+        "value": "57%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -41,8 +41,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frm004Home",
-        "ispercent": true,
-        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -54,10 +52,9 @@
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "f3c8987e2bb7434d98ee2dad031254bd",
-    "left": "5dp",
+    "kuid": "35c36d9550474104955de9664b0a0bf5",
+    "left": "10dp",
     "margin": [
         0,
         0,
@@ -71,7 +68,7 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnBookings",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
