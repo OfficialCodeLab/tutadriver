@@ -39,7 +39,8 @@
     "children": [
         "btnLogin2",
         "txfEmail",
-        "txfPassword"
+        "txfPassword",
+        "btnForgotPass"
     ],
     "clipBounds": true,
     "clipbounds": true,

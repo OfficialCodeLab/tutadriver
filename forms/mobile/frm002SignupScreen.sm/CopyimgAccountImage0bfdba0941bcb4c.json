@@ -1,0 +1,86 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "csaccounticon.png",
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "centerY": "70dp",
+    "centery": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm002SignupScreen",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "45dp",
+    "id": "CopyimgAccountImage0bfdba0941bcb4c",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "549fae98f9484c58b7264b1ba0e9551e",
+    "left": "5%",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "CopyflexHeader030f40d88838a4f",
+    "pf": "frm002SignupScreen",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "csaccounticon.png",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "45dp",
+    "zIndex": 1,
+    "zindex": 1
+}

@@ -17,7 +17,7 @@
         0,
         0
     ],
-    "_skin_": "s4f172f639e147329bdc6dd165d301f4",
+    "_skin_": "sead72f2f01e422792e30cdc52545aef",
     "_text_": "Next",
     "_top_": {
         "type": "string",
@@ -38,12 +38,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sead72f2f01e422792e30cdc52545aef",
+    "focusskin": "sead72f2f01e422792e30cdc52545aef",
     "height": "50dp",
     "id": "btnNextSignup",
     "info": null,
@@ -68,7 +68,7 @@
     "parent": "scrollSignupBottom",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "s4f172f639e147329bdc6dd165d301f4",
+    "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Next",
     "top": "463dp",
     "wType": "Button",

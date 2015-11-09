@@ -19,21 +19,20 @@
     ],
     "_skin_": "s8f6619a0f674d2990c7e8910edf2009",
     "_text_": "Cab Driver",
-    "_width_": {
+    "_top_": {
         "type": "string",
         "value": "80dp"
     },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerY": "60%",
+    "centerX": "54%",
     "centerx": {
         "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "60%"
+        "value": "54%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -71,16 +70,17 @@
         0,
         0
     ],
-    "parent": "flexHeaderRed",
+    "parent": "flexHeader",
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "s8f6619a0f674d2990c7e8910edf2009",
     "text": "Cab Driver",
     "toolTip": "",
     "tooltip": "",
+    "top": "80dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80dp",
+    "width": "100%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

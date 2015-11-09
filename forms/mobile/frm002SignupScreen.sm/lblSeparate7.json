@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "3dp"
+        "value": "1dp"
     },
     "_left_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "3dp",
+    "height": "1dp",
     "id": "lblSeparate7",
     "info": null,
     "ipad": {

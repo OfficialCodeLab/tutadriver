@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexHeaderRed",
+        "flexHeader",
         "scrollSignupBottom"
     ],
     "clipBounds": true,

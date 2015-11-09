@@ -26,7 +26,7 @@
         0,
         0
     ],
-    "_skin_": "sf8631cfe28d4f53a1c427c3b3eb91b8",
+    "_skin_": "se00d1b39a6b40e991098a7a8a0efb07",
     "_text_": "",
     "_width_": {
         "type": "string",
@@ -41,12 +41,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "se00d1b39a6b40e991098a7a8a0efb07",
+    "focusskin": "se00d1b39a6b40e991098a7a8a0efb07",
     "height": "30dp",
     "id": "btnPager2",
     "info": null,
@@ -72,7 +72,7 @@
     "parent": "scrollSignupBottom",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "sf8631cfe28d4f53a1c427c3b3eb91b8",
+    "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "wType": "Button",
     "widgetAlignment": 5,

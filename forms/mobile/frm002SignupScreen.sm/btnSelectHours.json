@@ -45,8 +45,8 @@
     "height": "38dp",
     "id": "btnSelectHours",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "6786d9a4cea840988adcc34c25a6b56f",
     "margin": [
         6,

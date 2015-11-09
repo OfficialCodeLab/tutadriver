@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "3%"
+        "value": "50dp"
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_margin_": [
         6,
@@ -21,13 +21,13 @@
         0,
         0
     ],
-    "_skin_": "s1b818c1ba2746e99e33a8423a1b04b0",
+    "_skin_": "s50f4867f8964f9199ae84c11fdc2498",
     "_text_": "Login",
     "_width_": {
         "type": "string",
         "value": "90%"
     },
-    "bottom": "3%",
+    "bottom": "50dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -42,9 +42,9 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s5008291b1ea423fb2cc070817e79cd8",
-    "focusskin": "s5008291b1ea423fb2cc070817e79cd8",
-    "height": "60dp",
+    "focusSkin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "focusskin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "height": "50dp",
     "id": "btnLogin2",
     "info": null,
     "isVisible": true,
@@ -68,7 +68,7 @@
     "parent": "flexLoginButtons",
     "pf": "frm001LoginScreen",
     "render": true,
-    "skin": "s1b818c1ba2746e99e33a8423a1b04b0",
+    "skin": "s50f4867f8964f9199ae84c11fdc2498",
     "text": "Login",
     "wType": "Button",
     "widgetAlignment": 5,

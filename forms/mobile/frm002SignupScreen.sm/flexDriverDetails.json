@@ -56,7 +56,8 @@
         "lblWorkHours",
         "txfRate",
         "txfPassW",
-        "lblPassSubtitle"
+        "lblPassSubtitle",
+        "listWorkHours"
     ],
     "clipBounds": true,
     "clipbounds": true,
