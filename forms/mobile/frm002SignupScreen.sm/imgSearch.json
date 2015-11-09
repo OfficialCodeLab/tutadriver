@@ -20,7 +20,7 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "3dp"
+        "value": "10dp"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "searchicon.png",
@@ -71,7 +71,7 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "right": "3dp",
+    "right": "10dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "searchicon.png",
     "srcType": 1,

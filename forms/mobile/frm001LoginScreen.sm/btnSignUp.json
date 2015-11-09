@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "3%"
-    },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_margin_": [
         6,
@@ -21,18 +17,22 @@
         0,
         0
     ],
-    "_skin_": "s8d6ec102f8f429dbeabf52ce9fa3744",
+    "_skin_": "s50f4867f8964f9199ae84c11fdc2498",
     "_text_": "Sign Up",
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "40%"
     },
-    "bottom": "3%",
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "75%",
     "centerx": {
         "type": "string",
         "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "75%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -42,9 +42,9 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s7041911e9e44f27b464b45090041e22",
-    "focusskin": "s7041911e9e44f27b464b45090041e22",
-    "height": "60dp",
+    "focusSkin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "focusskin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "height": "50dp",
     "id": "btnSignUp",
     "info": null,
     "isVisible": true,
@@ -68,11 +68,11 @@
     "parent": "flexMainButtons",
     "pf": "frm001LoginScreen",
     "render": true,
-    "skin": "s8d6ec102f8f429dbeabf52ce9fa3744",
+    "skin": "s50f4867f8964f9199ae84c11fdc2498",
     "text": "Sign Up",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "60%",
+    "width": "40%",
     "zIndex": 1,
     "zindex": 1
 }

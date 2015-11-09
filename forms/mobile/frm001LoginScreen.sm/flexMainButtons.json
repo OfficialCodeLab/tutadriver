@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "35%"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +27,6 @@
     ],
     "_render_": true,
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
-    "_top_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -34,6 +34,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -50,7 +51,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
+    "height": "35%",
     "id": "flexMainButtons",
     "info": null,
     "isVisible": true,
@@ -82,7 +83,6 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

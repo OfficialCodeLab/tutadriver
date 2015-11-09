@@ -31,7 +31,12 @@
     "bottom": "17%",
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "50%",
     "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
         "type": "string",
         "value": "50%"
     },

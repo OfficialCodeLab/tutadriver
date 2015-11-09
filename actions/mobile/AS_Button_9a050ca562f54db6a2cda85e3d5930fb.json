@@ -25,6 +25,7 @@
 					"duration": "250"
 				},
 				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____d1c30ea4569b4afd8a90cf3a09e0ce68",
 				"animationId": "MOVE_ACTION____51c277b05844488d85379f6f83c555df",
 				"displayAnimationId": "MOVE_ACTION____51c277b05844488d85379f6f83c555df",
 				"forkedPlatform": "all",

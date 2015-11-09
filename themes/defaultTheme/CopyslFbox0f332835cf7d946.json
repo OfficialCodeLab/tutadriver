@@ -1,11 +1,11 @@
 {
-    "background_color": "f65c57ff",
-    "bg_type": "one",
-    "border_color": "000000ff",
-    "border_style": "plain",
-    "border_type": 0,
-    "border_width": 0,
-    "isDefaultSkin": false,
-    "kuid": "s41c10d455e043b799cc1b75f95a846a",
-    "wType": "FlexContainer"
+  "background_image": "headerhelp.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s41c10d455e043b799cc1b75f95a846a",
+  "wType": "FlexContainer"
 }

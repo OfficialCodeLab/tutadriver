@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_src_": "phoneicon.png",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "111dp"
     },
     "_width_": {
         "type": "string",
@@ -46,7 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "50dp",
+    "height": "25dp",
     "id": "imgPhone",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -75,7 +75,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "phoneicon.png",
     "srcType": 1,
-    "top": "100dp",
+    "top": "111dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

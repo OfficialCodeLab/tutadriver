@@ -38,7 +38,8 @@
     "channel": "mobile",
     "children": [
         "flexHeaderRed2",
-        "scrollSignupBottomB"
+        "scrollSignupBottomB",
+        "CopyflexHeader030f40d88838a4f"
     ],
     "clipBounds": true,
     "clipbounds": true,

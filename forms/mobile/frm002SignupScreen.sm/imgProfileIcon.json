@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "profileicon.png",
+    "_src_": "personicon.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "16dp"
     },
     "_width_": {
         "type": "string",
@@ -46,16 +46,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "50dp",
+    "height": "25dp",
     "id": "imgProfileIcon",
     "imageScaleMode": 1,
-    "imageWhenFailed": "profileicon.png",
-    "imageWhileDownloading": "profileicon.png",
+    "imageWhenFailed": "search.png",
+    "imageWhileDownloading": "search.png",
     "imagescalemode": 1,
-    "imagewhenfailed": "profileicon.png",
-    "imagewhiledownloading": "profileicon.png",
+    "imagewhenfailed": "search.png",
+    "imagewhiledownloading": "search.png",
     "info": null,
-    "invokedProperty": "imageWhileDownloading",
+    "invokedProperty": "imageWhenFailed",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -78,9 +78,9 @@
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "profileicon.png",
+    "src": "personicon.png",
     "srcType": 1,
-    "top": "0dp",
+    "top": "16dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
