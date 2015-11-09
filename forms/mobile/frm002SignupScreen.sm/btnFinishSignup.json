@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "13.50%"
+        "value": "50dp"
     },
     "_height_": {
         "type": "string",
@@ -25,13 +25,13 @@
         0,
         0
     ],
-    "_skin_": "sfcc64b8c60a4e63984495d57e60142d",
+    "_skin_": "sead72f2f01e422792e30cdc52545aef",
     "_text_": "Next",
     "_width_": {
         "type": "string",
         "value": "90%"
     },
-    "bottom": "13.50%",
+    "bottom": "50dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -43,12 +43,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sead72f2f01e422792e30cdc52545aef",
+    "focusskin": "sead72f2f01e422792e30cdc52545aef",
     "height": "50dp",
     "id": "btnFinishSignup",
     "info": null,
@@ -74,7 +74,7 @@
     "parent": "scrollSignupBottomB",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "sfcc64b8c60a4e63984495d57e60142d",
+    "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Next",
     "vizProps": {
         "lock": true

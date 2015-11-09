@@ -5,13 +5,13 @@
   "border_radius": 50,
   "border_style": "custom",
   "border_type": 0,
-  "border_width": 8,
+  "border_width": 6,
   "font_color": "424242ff",
   "font_name": "Helvetica",
   "font_size": 215,
   "font_style": "normal",
   "font_weight": "normal",
   "isDefaultSkin": false,
-  "kuid": "sa776059f05342a588e774d170378102",
+  "kuid": "sa6da5aa439b424c95da306c26296389",
   "wType": "Label"
 }
