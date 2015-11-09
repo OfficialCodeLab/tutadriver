@@ -33,6 +33,7 @@
 				"start": "Immediately",
 				"animationId": "MOVE_ACTION____eb794e680e834811bd145b1f71c6a9ee",
 				"displayAnimationId": "MOVE_ACTION____eb794e680e834811bd145b1f71c6a9ee",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			}

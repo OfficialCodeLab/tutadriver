@@ -27,6 +27,7 @@
 				"start": "Immediately",
 				"animationId": "MOVE_ACTION____baea246b619f4e9cad7ae1066ec0037c",
 				"displayAnimationId": "MOVE_ACTION____baea246b619f4e9cad7ae1066ec0037c",
+				"forkedPlatform": "all",
 				"parentId": null,
 				"callbackType": null
 			},

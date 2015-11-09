@@ -4,35 +4,6 @@
 		"type": "ACTION_SEQUENCE",
 		"actions": [
 			{
-				"id": "MOVE_ACTION____51c277b05844488d85379f6f83c555df",
-				"type": "MOVE_ACTION",
-				"itemType": "FORM",
-				"itemId": "frm001LoginScreen",
-				"widgetId": "flexMainButtons",
-				"itemKUID": "3682d40e81394724899742a8a4343d25",
-				"widgetKUID": "66408946662e43beac35066f120075a4",
-				"animationObject": {
-					"left": "-100%",
-					"anchorPoint": {},
-					"stepConfig": {
-						"timingFunction": "kony.anim.EASE"
-					}
-				},
-				"config": {
-					"delay": "0",
-					"iterationCount": 1,
-					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
-					"duration": "250"
-				},
-				"start": "Immediately",
-				"parentAnimation": "MOVE_ACTION____d1c30ea4569b4afd8a90cf3a09e0ce68",
-				"animationId": "MOVE_ACTION____51c277b05844488d85379f6f83c555df",
-				"displayAnimationId": "MOVE_ACTION____51c277b05844488d85379f6f83c555df",
-				"forkedPlatform": "all",
-				"parentId": null,
-				"callbackType": null
-			},
-			{
 				"id": "MOVE_ACTION____d1c30ea4569b4afd8a90cf3a09e0ce68",
 				"type": "MOVE_ACTION",
 				"itemType": "FORM",
