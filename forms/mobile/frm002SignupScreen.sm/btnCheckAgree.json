@@ -27,6 +27,10 @@
     ],
     "_skin_": "s5093b40f73449aaa99df2f36c3b8c87",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "420dp"
+    },
     "_width_": {
         "type": "string",
         "value": "49dp"
@@ -70,6 +74,7 @@
     "render": true,
     "skin": "s5093b40f73449aaa99df2f36c3b8c87",
     "text": "",
+    "top": "420dp",
     "vizProps": {
         "lock": true
     },

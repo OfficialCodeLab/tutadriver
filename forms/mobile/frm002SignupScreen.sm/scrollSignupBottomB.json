@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "590dp"
+        "value": "0%"
     },
     "_left_": {
         "type": "string",
@@ -31,11 +31,12 @@
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
-    "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "allowHorizontalBounce": false,
+    "allowVerticalBounce": false,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": false,
+    "bottom": "0%",
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -62,7 +63,6 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "590dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "scrollSignupBottomB",
@@ -93,8 +93,8 @@
     "percent": true,
     "pf": "frm002SignupScreen",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
+    "scrollDirection": 2,
+    "scrolldirection": 2,
     "skin": "sbdda27fd83542a59b6dd43412e3dcad",
     "snapGridSize": 10,
     "snapToGrid": true,

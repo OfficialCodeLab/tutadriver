@@ -9,10 +9,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "7.50%"
-    },
     "_margin_": [
         6,
         6,
@@ -27,6 +23,10 @@
     ],
     "_skin_": "sead72f2f01e422792e30cdc52545aef",
     "_text_": "Next",
+    "_top_": {
+        "type": "string",
+        "value": "500dp"
+    },
     "_width_": {
         "type": "string",
         "value": "90%"
@@ -55,7 +55,6 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "f7acd9956a8342f2b4d95f767f37449a",
-    "left": "7.50%",
     "margin": [
         6,
         6,
@@ -76,6 +75,7 @@
     "render": true,
     "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Next",
+    "top": "500dp",
     "vizProps": {
         "lock": true
     },

@@ -1,10 +1,6 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "50dp"
-    },
     "_height_": {
         "type": "string",
         "value": "20dp"
@@ -23,12 +19,15 @@
     ],
     "_skin_": "sc12cb9042eb4a23ad98124fc78e098a",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "500dp"
+    },
     "_width_": {
         "type": "string",
         "value": "20dp"
     },
     "_wrapping_": 2,
-    "bottom": "50dp",
     "canUpdateUI": true,
     "centerX": "45%",
     "centerx": {
@@ -81,6 +80,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
+    "top": "500dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "20dp",
