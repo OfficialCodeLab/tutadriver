@@ -57,7 +57,7 @@
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "0d7a004fc8c34bb3b64f4eb30ce3b668",
+    "kuid": "53110e2d0f9e4fd292014f133b3b04c6",
     "left": "0dp",
     "margin": [
         0,
@@ -73,7 +73,7 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Your Email Address",
     "render": true,

@@ -27,6 +27,10 @@
     },
     "_skin_": "se8e6944419447b582d34790e97dbd1a",
     "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "390dp"
+    },
     "_width_": {
         "type": "string",
         "value": "47%"
@@ -64,12 +68,13 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
     "right": "0dp",
     "skin": "se8e6944419447b582d34790e97dbd1a",
     "text": "Submit",
+    "top": "390dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "47%",

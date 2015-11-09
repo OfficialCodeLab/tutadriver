@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
-        "type": "string",
-        "value": "563dp"
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
     },
     "_left_": {
         "type": "string",
@@ -21,10 +21,10 @@
         0,
         0
     ],
-    "_skin_": "sf020406fdb3414f95ce77b159f712e0",
+    "_skin_": "s7f0cca6b2c44f9ea510830e08070d2d",
     "_top_": {
         "type": "string",
-        "value": "214dp"
+        "value": "238dp"
     },
     "_width_": {
         "type": "string",
@@ -35,11 +35,27 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
+    "bottom": 0,
     "bounces": true,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexLogIssue"
+        "txtName",
+        "txtEmail",
+        "txtCompanyName",
+        "lbxQuery",
+        "lblSep1",
+        "lblSep2",
+        "lblSep3",
+        "lblSep4",
+        "lblSep5",
+        "lblIssue",
+        "btnEditIssue",
+        "imgEditIssue",
+        "btnSubmitIssue",
+        "txtareaEditIssue",
+        "btnCancel",
+        "lblButtonSep"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -52,7 +68,6 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "563dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "flexScrollLog",
@@ -83,14 +98,14 @@
     "percent": true,
     "pf": "frmLogIssue",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
-    "skin": "sf020406fdb3414f95ce77b159f712e0",
+    "scrollDirection": 2,
+    "scrolldirection": 2,
+    "skin": "s7f0cca6b2c44f9ea510830e08070d2d",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "214dp",
+    "top": "238dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,

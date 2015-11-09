@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "85"
-    },
     "_height_": {
         "type": "string",
-        "value": "450dp"
+        "value": "240dp"
     },
     "_left_": {
         "type": "string",
@@ -25,8 +21,11 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s81b896f72ae48d990a45dc17b703f21",
+    "_skin_": "s6024b56873448f48edd49010c414edc",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -34,26 +33,14 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 85,
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "txtName",
-        "txtEmail",
-        "txtCompanyName",
-        "lbxQuery",
-        "lblSep1",
-        "lblSep2",
-        "lblSep3",
-        "lblSep4",
-        "lblSep5",
-        "lblIssue",
-        "btnEditIssue",
-        "imgEditIssue",
-        "btnSubmitIssue",
-        "txtareaEditIssue",
-        "btnCancel",
-        "lblButtonSep"
+        "imgHeaderIcon",
+        "lblHeaderTitle",
+        "lblHeaderQuestion",
+        "lblHeaderSub",
+        "btnBack",
+        "imgBackArrow"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -62,12 +49,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "450dp",
-    "id": "flexLogIssue",
+    "height": "240dp",
+    "id": "flexLogIssueHeader",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "3759b9e42b444538b64d9ea47e2626d0",
+    "kuid": "c589a46ce3d6402e948a66ebdd30c1dc",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -85,18 +72,16 @@
         0,
         0
     ],
-    "parent": "flexScrollLog",
+    "parent": "frmLogIssue",
     "percent": true,
     "pf": "frmLogIssue",
     "render": true,
-    "skin": "s81b896f72ae48d990a45dc17b703f21",
+    "skin": "s6024b56873448f48edd49010c414edc",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {
-        "lock": false
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

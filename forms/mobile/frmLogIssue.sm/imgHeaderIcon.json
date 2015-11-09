@@ -41,8 +41,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -53,9 +51,8 @@
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "9412587199814e3e9a89792ec2bf857f",
+    "kuid": "724460a788074ac8a2b03e12a30cf601",
     "margin": [
         0,
         0,
@@ -69,7 +66,7 @@
         0,
         0
     ],
-    "parent": "frmLogIssue",
+    "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",

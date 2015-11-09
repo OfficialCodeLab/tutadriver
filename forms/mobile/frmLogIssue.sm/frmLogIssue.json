@@ -22,12 +22,7 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "imgHeaderIcon",
-        "lblHeaderTitle",
-        "lblHeaderQuestion",
-        "lblHeaderSub",
-        "btnBack",
-        "imgBackArrow",
+        "flexLogIssueHeader",
         "flexScrollLog"
     ],
     "containerWeight": 100,
@@ -40,7 +35,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone3",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -104,12 +99,12 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "iPhone5",
+    "prevDevice": "GalaxyS4",
     "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone3",
+    "shellCSS": "iOS_iPhone6",
     "skin": "s178fed2978348bea90a354223323432",
     "snapGridSize": 10,
     "snapToGrid": true,
@@ -162,11 +157,6 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
-        "iphone": {
-            "psp": {
-                "visible": false
-            }
-        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",

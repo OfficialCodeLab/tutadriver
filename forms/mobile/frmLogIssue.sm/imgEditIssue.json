@@ -40,8 +40,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -68,7 +66,7 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
     "right": "12%",

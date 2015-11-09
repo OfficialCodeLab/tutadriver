@@ -91,7 +91,7 @@
         2,
         2
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "",
     "render": true,

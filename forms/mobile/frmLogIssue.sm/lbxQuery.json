@@ -49,8 +49,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -117,7 +115,7 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Query Topic",
     "popupIcon": "helpicon.png",

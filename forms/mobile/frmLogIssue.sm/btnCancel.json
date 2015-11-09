@@ -28,6 +28,10 @@
     ],
     "_skin_": "s8991fb0c6d04e99aad1999f0b3a6cd1",
     "_text_": "Cancel",
+    "_top_": {
+        "type": "number",
+        "value": "390"
+    },
     "_width_": {
         "type": "string",
         "value": "47%"
@@ -65,11 +69,12 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "s8991fb0c6d04e99aad1999f0b3a6cd1",
     "text": "Cancel",
+    "top": 390,
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "47%",

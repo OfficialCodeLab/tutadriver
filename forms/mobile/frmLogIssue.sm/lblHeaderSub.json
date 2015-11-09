@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2a5892d60aa34e6788fc33f096d5a7cb",
+    "kuid": "ef3e47d4c3e542fdbec756904c6ac99d",
     "margin": [
         1,
         1,
@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "frmLogIssue",
+    "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "s37134cba03b458d9a10b4df8dc5d7e0",
