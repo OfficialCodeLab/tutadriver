@@ -23,14 +23,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
-        "flexHeader",
-        "imgBookingListBG",
-        "segBookings",
-        "lblBookingTitle"
+        "flexContent"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -105,7 +100,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "android",
-    "prevDevice": "iPhone6",
+    "prevDevice": "iPhone3",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,

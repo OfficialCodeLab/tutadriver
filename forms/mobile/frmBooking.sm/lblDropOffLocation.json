@@ -2,13 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "12dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "90dp"
     },
     "_margin_": [
         1,
@@ -22,27 +22,25 @@
         0,
         0
     ],
-    "_right_": {
+    "_skin_": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
+    "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
+    "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "35dp"
     },
-    "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
-    "_text_": "R300 - R350",
     "_width_": {
         "type": "string",
-        "value": "53dp"
+        "value": "170dp"
     },
     "_wrapping_": 2,
-    "bottom": "0dp",
     "canUpdateUI": true,
-    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "20dp",
-    "id": "lblEstimateFare",
+    "height": "12dp",
+    "id": "lblDropOffLocation",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,10 +52,10 @@
             "wrapping": 2
         }
     },
-    "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "57c15f6269794772af3cc608203dfbc0",
+    "kuid": "9be00c584c814d4d9e49ae37968ada08",
+    "left": "90dp",
     "margin": [
         1,
         1,
@@ -72,19 +70,19 @@
         0
     ],
     "parent": "flexBookingInfo",
-    "pf": "bookingTemp",
+    "pf": "frmBooking",
     "render": true,
-    "right": "5dp",
-    "skin": "s6c3a26664e940abb4d5beaa6b301cec",
-    "text": "R300 - R350",
+    "skin": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
+    "text": "21 Ebury Ave Bryanston, 2191, South Africa",
     "toolTip": "",
     "tooltip": "",
+    "top": "35dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "53dp",
+    "width": "170dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

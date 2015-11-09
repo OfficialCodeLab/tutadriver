@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -21,24 +21,23 @@
         0,
         0
     ],
-    "_skin_": "s633587129de4c34aeb4fd61e540db91",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerY": 27,
+    "centery": {
+        "type": "number",
+        "value": "27"
+    },
     "children": [
-        "flexBackButton",
-        "lblSep",
-        "lblDateTime",
-        "flexBookingInfo"
+        "btnBack",
+        "imgBackArrow"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -47,12 +46,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "120dp",
-    "id": "flexHeader",
+    "height": "50dp",
+    "id": "flexBackButton",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2742a4f81b664316bde05dc932869251",
+    "kuid": "513f09b61896482f92130cc9a9e3fad5",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -70,20 +69,19 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexHeader",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
-    "skin": "s633587129de4c34aeb4fd61e540db91",
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "50dp",
+    "zIndex": 4,
+    "zindex": 4
 }

@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "15dp"
-    },
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "128dp"
     },
     "_margin_": [
         1,
@@ -21,34 +22,30 @@
         0,
         0
     ],
-    "_skin_": "sd7e97fee7ee44f387b8ea8342279907",
-    "_text_": "YOUR BOOKINGS",
+    "_skin_": "s80f9bec9178471ba7a765e70460e907",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "55dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "string",
-        "value": "15dp"
-    },
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblHeaderTitle",
+    "height": "2dp",
+    "id": "lblSep",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +53,14 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "1e39a785637a4cd488d7135d9daf3ee7",
+    "kuid": "8a15d33390cf431ab5ac50290654ebd2",
+    "left": "128dp",
     "margin": [
         1,
         1,
@@ -80,17 +77,15 @@
     "parent": "flexHeader",
     "pf": "frmBooking",
     "render": true,
-    "skin": "sd7e97fee7ee44f387b8ea8342279907",
-    "text": "YOUR BOOKINGS",
+    "skin": "s80f9bec9178471ba7a765e70460e907",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
+    "top": "55dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "100%",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 4,
+    "zindex": 4
 }

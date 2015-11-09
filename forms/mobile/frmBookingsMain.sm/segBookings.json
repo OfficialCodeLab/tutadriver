@@ -5,51 +5,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -59,51 +59,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -113,51 +113,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -167,51 +167,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -221,51 +221,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -275,51 +275,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -356,11 +356,16 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -370,56 +375,56 @@
         "templateType": "segments",
         "topLevelBox": false
     },
-    "counter": 3,
+    "counter": "05",
     "data": [
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -429,51 +434,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -483,51 +488,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -537,51 +542,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -591,51 +596,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -645,51 +650,51 @@
         {
             "imgDropOff": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "dropofficon.png"
             },
             "imgMap": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "map.png"
             },
             "imgPickUp": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "pickupicon.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "profilepicbooking.png"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "20/10/2015, 2:00 pm"
             },
             "lblDropOff": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "DROP:"
             },
             "lblDropOffLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "21 Ebury Ave Bryanston, 2191, South Africa"
             },
             "lblEstimateFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "R300 - R350"
             },
             "lblPickUp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "PICKUP:"
             },
             "lblPickUpLocation": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "32 Woodlands Drive, 2191, South Africa"
             },
             "lblTitleFare": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ESTIMATED FARE"
             },
             "lblTitleName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": "ROBERT"
             },
             "lblUpOffLine": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -753,7 +758,7 @@
     "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
     "rowSkin": "s4c5b75892504e5eaf21b221c7035c41",
     "rowTemplateId": "6f9b539fc6c3464087fc73a94930b835",
-    "rowcounter": 2,
+    "rowcounter": 5,
     "rowfocusskin": "s3b02543e6f7476fbda219596cb964f5",
     "rowskin": "s4c5b75892504e5eaf21b221c7035c41",
     "rowtemplate": "flexRow",
@@ -823,3851 +828,7 @@
         "lblTitleName": "lblTitleName",
         "lblUpOffLine": "lblUpOffLine"
     },
-    "widgetsData": {
-        "flexBookingInfo": {
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_bottom_": {
-                "type": "string",
-                "value": "0dp"
-            },
-            "_height_": {
-                "type": "string",
-                "value": "85dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "0dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
-            "_width_": {
-                "type": "string",
-                "value": "100%"
-            },
-            "allboxes": [],
-            "autogrowMode": 0,
-            "autogrowmode": 0,
-            "bottom": "0dp",
-            "canUpdateUI": true,
-            "children": [
-                "imgPortait",
-                "lblTitleFare",
-                "lblEstimateFare",
-                "imgPickUp",
-                "lblPickUp",
-                "lblDropOff",
-                "imgDropOff",
-                "lblUpOffLine",
-                "lblPickUpLocation",
-                "lblDropOffLocation",
-                "lblTitleName",
-                "lblDateTime"
-            ],
-            "clipBounds": true,
-            "clipbounds": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "enableScrolling": true,
-            "enabled": false,
-            "enablescrolling": true,
-            "genericProperties": {},
-            "height": "85dp",
-            "id": "flexBookingInfo",
-            "imgDropOff": {
-                "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_base64_": null,
-                "_height_": {
-                    "type": "string",
-                    "value": "11dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "130dp"
-                },
-                "_margin_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "_src_": "dropofficon.png",
-                "_width_": {
-                    "type": "string",
-                    "value": "11dp"
-                },
-                "base64": null,
-                "canUpdateUI": true,
-                "centerY": "35dp",
-                "centery": {
-                    "type": "string",
-                    "value": "35dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "context": {
-                    "channel": "mobile",
-                    "platform": "android",
-                    "templateType": "segments",
-                    "topLevelBox": null
-                },
-                "enabled": false,
-                "genericProperties": {},
-                "height": "11dp",
-                "id": "imgDropOff",
-                "imageScaleMode": 1,
-                "imagescalemode": 1,
-                "info": null,
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "4a20571ff7984746a786a183a3395409",
-                "left": "130dp",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "name": "kony.ui.Image2",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "src": "dropofficon.png",
-                "srcType": 1,
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Image",
-                "widgetAlignment": 5,
-                "widgetalignment": 5,
-                "width": "11dp",
-                "zIndex": 7,
-                "zindex": 7
-            },
-            "imgPickUp": {
-                "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_base64_": null,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "130dp"
-                },
-                "_margin_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "_src_": "pickupicon.png",
-                "_width_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "base64": null,
-                "canUpdateUI": true,
-                "centerY": "10dp",
-                "centery": {
-                    "type": "string",
-                    "value": "10dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "context": {
-                    "channel": "mobile",
-                    "platform": "android",
-                    "templateType": "segments",
-                    "topLevelBox": null
-                },
-                "enabled": false,
-                "genericProperties": {},
-                "height": "12dp",
-                "id": "imgPickUp",
-                "imageScaleMode": 1,
-                "imagescalemode": 1,
-                "info": null,
-                "invokedProperty": "src",
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "f37a5482258341b79dd2ced3939efa49",
-                "left": "130dp",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "name": "kony.ui.Image2",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "src": "pickupicon.png",
-                "srcType": 1,
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Image",
-                "widgetAlignment": 5,
-                "widgetalignment": 5,
-                "width": "12dp",
-                "zIndex": 6,
-                "zindex": 6
-            },
-            "imgPortait": {
-                "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_base64_": null,
-                "_bottom_": {
-                    "type": "number",
-                    "value": "0"
-                },
-                "_height_": {
-                    "type": "string",
-                    "value": "100dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "-6dp"
-                },
-                "_margin_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "_src_": "profilepicbooking.png",
-                "_top_": {
-                    "type": "string",
-                    "value": "-6dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "100dp"
-                },
-                "base64": null,
-                "bottom": 0,
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "context": {
-                    "channel": "mobile",
-                    "platform": "android",
-                    "templateType": "segments",
-                    "topLevelBox": null
-                },
-                "enabled": false,
-                "genericProperties": {},
-                "height": "100dp",
-                "id": "imgPortait",
-                "imageScaleMode": 1,
-                "imagescalemode": 1,
-                "info": null,
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "f187499a87ee4c0a904efbc6158e31f8",
-                "left": "-6dp",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "name": "kony.ui.Image2",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "src": "profilepicbooking.png",
-                "srcType": 1,
-                "top": "-6dp",
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Image",
-                "widgetAlignment": 5,
-                "widgetalignment": 5,
-                "width": "100dp"
-            },
-            "info": null,
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "900d6afdbc8047f9bdb040e14b32dbf7",
-            "layoutType": 2,
-            "layouttype": 2,
-            "lblDateTime": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "144dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-                "_text_": "20/10/2015, 2:00 pm",
-                "_top_": {
-                    "type": "string",
-                    "value": "41dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "80dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "12dp",
-                "id": "lblDateTime",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "d171a8389def48618ed5c6dbc8e2f1a4",
-                "left": "144dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-                "text": "20/10/2015, 2:00 pm",
-                "toolTip": "",
-                "tooltip": "",
-                "top": "41dp",
-                "undoPropsStorage": {},
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "80dp",
-                "wrapping": 2,
-                "zIndex": 7,
-                "zindex": 7
-            },
-            "lblDropOff": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "94dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
-                "_text_": "DROP:",
-                "_width_": {
-                    "type": "string",
-                    "value": "30dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "centerY": "35dp",
-                "centery": {
-                    "type": "string",
-                    "value": "35dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "12dp",
-                "id": "lblDropOff",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "0d1958247b054d75984d62618bda517a",
-                "left": "94dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
-                "text": "DROP:",
-                "toolTip": "",
-                "tooltip": "",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "30dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblDropOffLocation": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "150dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-                "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
-                "_top_": {
-                    "type": "string",
-                    "value": "26dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "170dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "centerY": "35dp",
-                "centery": {
-                    "type": "string",
-                    "value": "35dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "12dp",
-                "id": "lblDropOffLocation",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "d8b9cd3e8ba74f438ecfd23e91277654",
-                "left": "150dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-                "text": "21 Ebury Ave Bryanston, 2191, South Africa",
-                "toolTip": "",
-                "tooltip": "",
-                "top": "26dp",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "170dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblEstimateFare": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_bottom_": {
-                    "type": "string",
-                    "value": "3dp"
-                },
-                "_height_": {
-                    "type": "string",
-                    "value": "13dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_right_": {
-                    "type": "string",
-                    "value": "2dp"
-                },
-                "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
-                "_text_": "R300 - R350",
-                "_top_": {
-                    "type": "string",
-                    "value": "69dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "50dp"
-                },
-                "_wrapping_": 2,
-                "bottom": "3dp",
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 5,
-                "contentalignment": 5,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "13dp",
-                "id": "lblEstimateFare",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "57c15f6269794772af3cc608203dfbc0",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "right": "2dp",
-                "skin": "s6c3a26664e940abb4d5beaa6b301cec",
-                "text": "R300 - R350",
-                "toolTip": "",
-                "tooltip": "",
-                "top": "69dp",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "50dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblPickUp": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "94dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
-                "_text_": "PICKUP:",
-                "_width_": {
-                    "type": "string",
-                    "value": "33dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "centerY": "10dp",
-                "centery": {
-                    "type": "string",
-                    "value": "10dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "12dp",
-                "id": "lblPickUp",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-                "left": "94dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s12881baa1934f5ead5369e3b05ed53f",
-                "text": "PICKUP:",
-                "toolTip": "",
-                "tooltip": "",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "33dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblPickUpLocation": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "12dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "144dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s1ba6827e79744beb0b61169b8832cd9",
-                "_text_": "32 Woodlands Drive, 2191, South Africa",
-                "_width_": {
-                    "type": "string",
-                    "value": "157dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "centerY": "10dp",
-                "centery": {
-                    "type": "string",
-                    "value": "10dp"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "12dp",
-                "id": "lblPickUpLocation",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "57531ea54c8d43d8b4220c8d9e664558",
-                "left": "144dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s1ba6827e79744beb0b61169b8832cd9",
-                "text": "32 Woodlands Drive, 2191, South Africa",
-                "toolTip": "",
-                "tooltip": "",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "157dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblTitleFare": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_bottom_": {
-                    "type": "string",
-                    "value": "3dp"
-                },
-                "_height_": {
-                    "type": "string",
-                    "value": "13dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_right_": {
-                    "type": "string",
-                    "value": "52dp"
-                },
-                "_skin_": "s52df5e9a095420087e546911bb61b97",
-                "_text_": "ESTIMATED FARE",
-                "_width_": {
-                    "type": "string",
-                    "value": "70dp"
-                },
-                "_wrapping_": 2,
-                "bottom": "3dp",
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 5,
-                "contentalignment": 5,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "13dp",
-                "id": "lblTitleFare",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "9847998e81d043de8accb6d32893d00f",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "right": "52dp",
-                "skin": "s52df5e9a095420087e546911bb61b97",
-                "text": "ESTIMATED FARE",
-                "toolTip": "",
-                "tooltip": "",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "70dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblTitleName": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_bottom_": {
-                    "type": "string",
-                    "value": "20dp"
-                },
-                "_height_": {
-                    "type": "string",
-                    "value": "15dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "100dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s8776daa4ad54e9cbc4ca2e5520b267f",
-                "_text_": "ROBERT",
-                "_width_": {
-                    "type": "string",
-                    "value": "45dp"
-                },
-                "_wrapping_": 2,
-                "bottom": "20dp",
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "15dp",
-                "id": "lblTitleName",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "5c15d67867874603b46e2034c769394b",
-                "left": "100dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s8776daa4ad54e9cbc4ca2e5520b267f",
-                "text": "ROBERT",
-                "toolTip": "",
-                "tooltip": "",
-                "undoPropsStorage": {},
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "45dp",
-                "wrapping": 2,
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "lblUpOffLine": {
-                "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_height_": {
-                    "type": "string",
-                    "value": "30dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "135dp"
-                },
-                "_margin_": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s278944496664a80b69fdabd82f2beff",
-                "_text_": "",
-                "_top_": {
-                    "type": "string",
-                    "value": "39dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "1dp"
-                },
-                "_wrapping_": 2,
-                "canUpdateUI": true,
-                "centerY": 20,
-                "centery": {
-                    "type": "number",
-                    "value": "20"
-                },
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "contentAlignment": 4,
-                "contentalignment": 4,
-                "enabled": false,
-                "genericProperties": {
-                    "wrapping": 2
-                },
-                "height": "30dp",
-                "id": "lblUpOffLine",
-                "info": null,
-                "ipad": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "iphone": {
-                    "psp": {
-                        "wrapping": 2
-                    }
-                },
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "11a2cea6a1ae41cb8f019af8937cadc9",
-                "left": "135dp",
-                "margin": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "name": "kony.ui.Label",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexBookingInfo",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s278944496664a80b69fdabd82f2beff",
-                "text": "",
-                "toolTip": "",
-                "tooltip": "",
-                "top": "39dp",
-                "undoPropsStorage": {},
-                "vizProps": {
-                    "lock": true
-                },
-                "wType": "Label",
-                "widgetAlignment": 5,
-                "width": "1dp",
-                "wrapping": 2,
-                "zIndex": 5,
-                "zindex": 5
-            },
-            "left": "0dp",
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.FlexContainer",
-            "orientation": 6,
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexRow",
-            "percent": true,
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
-            "snapGridSize": 10,
-            "snapToGrid": true,
-            "snapgridsize": 10,
-            "snaptogrid": true,
-            "wType": "FlexContainer",
-            "widgetAlignment": 1,
-            "widgetalignment": 1,
-            "width": "100%",
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "flexRow": {
-            "DNDConfig": null,
-            "_height_": {
-                "type": "string",
-                "value": "170dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_render_": true,
-            "_skin_": "s27092e1036a4d34bb04f89ff65ac94e",
-            "allboxes": [],
-            "autogrowMode": 0,
-            "autogrowmode": 0,
-            "canUpdateUI": true,
-            "channel": "mobile",
-            "children": [
-                "imgMap",
-                "flexBookingInfo"
-            ],
-            "clipBounds": true,
-            "clipbounds": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "enableScrolling": true,
-            "enabled": false,
-            "enablescrolling": true,
-            "flexBookingInfo": {
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_bottom_": {
-                    "type": "string",
-                    "value": "0dp"
-                },
-                "_height_": {
-                    "type": "string",
-                    "value": "85dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "0dp"
-                },
-                "_margin_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
-                "_width_": {
-                    "type": "string",
-                    "value": "100%"
-                },
-                "allboxes": [],
-                "autogrowMode": 0,
-                "autogrowmode": 0,
-                "bottom": "0dp",
-                "canUpdateUI": true,
-                "children": [
-                    "imgPortait",
-                    "lblTitleFare",
-                    "lblEstimateFare",
-                    "imgPickUp",
-                    "lblPickUp",
-                    "lblDropOff",
-                    "imgDropOff",
-                    "lblUpOffLine",
-                    "lblPickUpLocation",
-                    "lblDropOffLocation",
-                    "lblTitleName",
-                    "lblDateTime"
-                ],
-                "clipBounds": true,
-                "clipbounds": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "enableScrolling": true,
-                "enabled": false,
-                "enablescrolling": true,
-                "genericProperties": {},
-                "height": "85dp",
-                "id": "flexBookingInfo",
-                "imgDropOff": {
-                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_base64_": null,
-                    "_height_": {
-                        "type": "string",
-                        "value": "11dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "130dp"
-                    },
-                    "_margin_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "_src_": "dropofficon.png",
-                    "_width_": {
-                        "type": "string",
-                        "value": "11dp"
-                    },
-                    "base64": null,
-                    "canUpdateUI": true,
-                    "centerY": "35dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "35dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "context": {
-                        "channel": "mobile",
-                        "platform": "android",
-                        "templateType": "segments",
-                        "topLevelBox": null
-                    },
-                    "enabled": false,
-                    "genericProperties": {},
-                    "height": "11dp",
-                    "id": "imgDropOff",
-                    "imageScaleMode": 1,
-                    "imagescalemode": 1,
-                    "info": null,
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "4a20571ff7984746a786a183a3395409",
-                    "left": "130dp",
-                    "margin": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "name": "kony.ui.Image2",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "src": "dropofficon.png",
-                    "srcType": 1,
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Image",
-                    "widgetAlignment": 5,
-                    "widgetalignment": 5,
-                    "width": "11dp",
-                    "zIndex": 7,
-                    "zindex": 7
-                },
-                "imgPickUp": {
-                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_base64_": null,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "130dp"
-                    },
-                    "_margin_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "_src_": "pickupicon.png",
-                    "_width_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "base64": null,
-                    "canUpdateUI": true,
-                    "centerY": "10dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "10dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "context": {
-                        "channel": "mobile",
-                        "platform": "android",
-                        "templateType": "segments",
-                        "topLevelBox": null
-                    },
-                    "enabled": false,
-                    "genericProperties": {},
-                    "height": "12dp",
-                    "id": "imgPickUp",
-                    "imageScaleMode": 1,
-                    "imagescalemode": 1,
-                    "info": null,
-                    "invokedProperty": "src",
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "f37a5482258341b79dd2ced3939efa49",
-                    "left": "130dp",
-                    "margin": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "name": "kony.ui.Image2",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "src": "pickupicon.png",
-                    "srcType": 1,
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Image",
-                    "widgetAlignment": 5,
-                    "widgetalignment": 5,
-                    "width": "12dp",
-                    "zIndex": 6,
-                    "zindex": 6
-                },
-                "imgPortait": {
-                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_base64_": null,
-                    "_bottom_": {
-                        "type": "number",
-                        "value": "0"
-                    },
-                    "_height_": {
-                        "type": "string",
-                        "value": "100dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "-6dp"
-                    },
-                    "_margin_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "_src_": "profilepicbooking.png",
-                    "_top_": {
-                        "type": "string",
-                        "value": "-6dp"
-                    },
-                    "_width_": {
-                        "type": "string",
-                        "value": "100dp"
-                    },
-                    "base64": null,
-                    "bottom": 0,
-                    "canUpdateUI": true,
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "context": {
-                        "channel": "mobile",
-                        "platform": "android",
-                        "templateType": "segments",
-                        "topLevelBox": null
-                    },
-                    "enabled": false,
-                    "genericProperties": {},
-                    "height": "100dp",
-                    "id": "imgPortait",
-                    "imageScaleMode": 1,
-                    "imagescalemode": 1,
-                    "info": null,
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "f187499a87ee4c0a904efbc6158e31f8",
-                    "left": "-6dp",
-                    "margin": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "name": "kony.ui.Image2",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                    "src": "profilepicbooking.png",
-                    "srcType": 1,
-                    "top": "-6dp",
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Image",
-                    "widgetAlignment": 5,
-                    "widgetalignment": 5,
-                    "width": "100dp"
-                },
-                "info": null,
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "900d6afdbc8047f9bdb040e14b32dbf7",
-                "layoutType": 2,
-                "layouttype": 2,
-                "lblDateTime": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "144dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-                    "_text_": "20/10/2015, 2:00 pm",
-                    "_top_": {
-                        "type": "string",
-                        "value": "41dp"
-                    },
-                    "_width_": {
-                        "type": "string",
-                        "value": "80dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "12dp",
-                    "id": "lblDateTime",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "d171a8389def48618ed5c6dbc8e2f1a4",
-                    "left": "144dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-                    "text": "20/10/2015, 2:00 pm",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "top": "41dp",
-                    "undoPropsStorage": {},
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "80dp",
-                    "wrapping": 2,
-                    "zIndex": 7,
-                    "zindex": 7
-                },
-                "lblDropOff": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "94dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
-                    "_text_": "DROP:",
-                    "_width_": {
-                        "type": "string",
-                        "value": "30dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "centerY": "35dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "35dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "12dp",
-                    "id": "lblDropOff",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "0d1958247b054d75984d62618bda517a",
-                    "left": "94dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
-                    "text": "DROP:",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "30dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblDropOffLocation": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "150dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-                    "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
-                    "_top_": {
-                        "type": "string",
-                        "value": "26dp"
-                    },
-                    "_width_": {
-                        "type": "string",
-                        "value": "170dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "centerY": "35dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "35dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "12dp",
-                    "id": "lblDropOffLocation",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "d8b9cd3e8ba74f438ecfd23e91277654",
-                    "left": "150dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-                    "text": "21 Ebury Ave Bryanston, 2191, South Africa",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "top": "26dp",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "170dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblEstimateFare": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_bottom_": {
-                        "type": "string",
-                        "value": "3dp"
-                    },
-                    "_height_": {
-                        "type": "string",
-                        "value": "13dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_right_": {
-                        "type": "string",
-                        "value": "2dp"
-                    },
-                    "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
-                    "_text_": "R300 - R350",
-                    "_top_": {
-                        "type": "string",
-                        "value": "69dp"
-                    },
-                    "_width_": {
-                        "type": "string",
-                        "value": "50dp"
-                    },
-                    "_wrapping_": 2,
-                    "bottom": "3dp",
-                    "canUpdateUI": true,
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 5,
-                    "contentalignment": 5,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "13dp",
-                    "id": "lblEstimateFare",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "57c15f6269794772af3cc608203dfbc0",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "right": "2dp",
-                    "skin": "s6c3a26664e940abb4d5beaa6b301cec",
-                    "text": "R300 - R350",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "top": "69dp",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "50dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblPickUp": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "94dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
-                    "_text_": "PICKUP:",
-                    "_width_": {
-                        "type": "string",
-                        "value": "33dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "centerY": "10dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "10dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "12dp",
-                    "id": "lblPickUp",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-                    "left": "94dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s12881baa1934f5ead5369e3b05ed53f",
-                    "text": "PICKUP:",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "33dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblPickUpLocation": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "12dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "144dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s1ba6827e79744beb0b61169b8832cd9",
-                    "_text_": "32 Woodlands Drive, 2191, South Africa",
-                    "_width_": {
-                        "type": "string",
-                        "value": "157dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "centerY": "10dp",
-                    "centery": {
-                        "type": "string",
-                        "value": "10dp"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "12dp",
-                    "id": "lblPickUpLocation",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "57531ea54c8d43d8b4220c8d9e664558",
-                    "left": "144dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s1ba6827e79744beb0b61169b8832cd9",
-                    "text": "32 Woodlands Drive, 2191, South Africa",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "157dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblTitleFare": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_bottom_": {
-                        "type": "string",
-                        "value": "3dp"
-                    },
-                    "_height_": {
-                        "type": "string",
-                        "value": "13dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_right_": {
-                        "type": "string",
-                        "value": "52dp"
-                    },
-                    "_skin_": "s52df5e9a095420087e546911bb61b97",
-                    "_text_": "ESTIMATED FARE",
-                    "_width_": {
-                        "type": "string",
-                        "value": "70dp"
-                    },
-                    "_wrapping_": 2,
-                    "bottom": "3dp",
-                    "canUpdateUI": true,
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 5,
-                    "contentalignment": 5,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "13dp",
-                    "id": "lblTitleFare",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "9847998e81d043de8accb6d32893d00f",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "right": "52dp",
-                    "skin": "s52df5e9a095420087e546911bb61b97",
-                    "text": "ESTIMATED FARE",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "70dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblTitleName": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_bottom_": {
-                        "type": "string",
-                        "value": "20dp"
-                    },
-                    "_height_": {
-                        "type": "string",
-                        "value": "15dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "100dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s8776daa4ad54e9cbc4ca2e5520b267f",
-                    "_text_": "ROBERT",
-                    "_width_": {
-                        "type": "string",
-                        "value": "45dp"
-                    },
-                    "_wrapping_": 2,
-                    "bottom": "20dp",
-                    "canUpdateUI": true,
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "15dp",
-                    "id": "lblTitleName",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "5c15d67867874603b46e2034c769394b",
-                    "left": "100dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s8776daa4ad54e9cbc4ca2e5520b267f",
-                    "text": "ROBERT",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "undoPropsStorage": {},
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "45dp",
-                    "wrapping": 2,
-                    "zIndex": 1,
-                    "zindex": 1
-                },
-                "lblUpOffLine": {
-                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
-                    "DNDConfig": null,
-                    "__parentReadjusting__": false,
-                    "_height_": {
-                        "type": "string",
-                        "value": "30dp"
-                    },
-                    "_left_": {
-                        "type": "string",
-                        "value": "135dp"
-                    },
-                    "_margin_": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "_padding_": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "_skin_": "s278944496664a80b69fdabd82f2beff",
-                    "_text_": "",
-                    "_top_": {
-                        "type": "string",
-                        "value": "39dp"
-                    },
-                    "_width_": {
-                        "type": "string",
-                        "value": "1dp"
-                    },
-                    "_wrapping_": 2,
-                    "canUpdateUI": true,
-                    "centerY": 20,
-                    "centery": {
-                        "type": "number",
-                        "value": "20"
-                    },
-                    "containerId": true,
-                    "containerWeight": 100,
-                    "containerweight": 100,
-                    "contentAlignment": 4,
-                    "contentalignment": 4,
-                    "enabled": false,
-                    "genericProperties": {
-                        "wrapping": 2
-                    },
-                    "height": "30dp",
-                    "id": "lblUpOffLine",
-                    "info": null,
-                    "ipad": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "iphone": {
-                        "psp": {
-                            "wrapping": 2
-                        }
-                    },
-                    "isSegmentChild": false,
-                    "isVisible": true,
-                    "isvisible": true,
-                    "kuid": "11a2cea6a1ae41cb8f019af8937cadc9",
-                    "left": "135dp",
-                    "margin": [
-                        1,
-                        1,
-                        1,
-                        1
-                    ],
-                    "name": "kony.ui.Label",
-                    "padding": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "parent": "flexBookingInfo",
-                    "pf": "bookingTemp",
-                    "render": true,
-                    "skin": "s278944496664a80b69fdabd82f2beff",
-                    "text": "",
-                    "toolTip": "",
-                    "tooltip": "",
-                    "top": "39dp",
-                    "undoPropsStorage": {},
-                    "vizProps": {
-                        "lock": true
-                    },
-                    "wType": "Label",
-                    "widgetAlignment": 5,
-                    "width": "1dp",
-                    "wrapping": 2,
-                    "zIndex": 5,
-                    "zindex": 5
-                },
-                "left": "0dp",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "name": "kony.ui.FlexContainer",
-                "orientation": 6,
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexRow",
-                "percent": true,
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
-                "snapGridSize": 10,
-                "snapToGrid": true,
-                "snapgridsize": 10,
-                "snaptogrid": true,
-                "wType": "FlexContainer",
-                "widgetAlignment": 1,
-                "widgetalignment": 1,
-                "width": "100%",
-                "zIndex": 1,
-                "zindex": 1
-            },
-            "height": "170dp",
-            "id": "flexRow",
-            "imgMap": {
-                "@class": "com.kony.gen.viz.model.component.KVizImage2",
-                "DNDConfig": null,
-                "__parentReadjusting__": false,
-                "_base64_": null,
-                "_height_": {
-                    "type": "string",
-                    "value": "85dp"
-                },
-                "_left_": {
-                    "type": "string",
-                    "value": "0dp"
-                },
-                "_margin_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_padding_": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "_src_": "map.png",
-                "_top_": {
-                    "type": "string",
-                    "value": "0dp"
-                },
-                "_width_": {
-                    "type": "string",
-                    "value": "100%"
-                },
-                "base64": null,
-                "canUpdateUI": true,
-                "containerId": true,
-                "containerWeight": 100,
-                "containerweight": 100,
-                "context": {
-                    "channel": "mobile",
-                    "platform": "android",
-                    "templateType": "segments",
-                    "topLevelBox": null
-                },
-                "enabled": false,
-                "genericProperties": {},
-                "height": "85dp",
-                "id": "imgMap",
-                "imageScaleMode": 0,
-                "imagescalemode": 0,
-                "info": null,
-                "isSegmentChild": false,
-                "isVisible": true,
-                "isvisible": true,
-                "kuid": "85e6742e31b1436e91b86f0931e34e3d",
-                "left": "0dp",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "name": "kony.ui.Image2",
-                "padding": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "parent": "flexRow",
-                "pf": "bookingTemp",
-                "render": true,
-                "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-                "src": "map.png",
-                "srcType": 1,
-                "top": "0dp",
-                "wType": "Image",
-                "widgetAlignment": 5,
-                "widgetalignment": 5,
-                "width": "100%"
-            },
-            "info": null,
-            "isSegmentChild": false,
-            "isTemplate": true,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "ecccdd7cc14249d7a28fe7dcc0d89221",
-            "layoutType": 2,
-            "layouttype": 2,
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.FlexContainer",
-            "orientation": 6,
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "bookingTemp",
-            "percent": true,
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s27092e1036a4d34bb04f89ff65ac94e",
-            "snapGridSize": 10,
-            "snapToGrid": true,
-            "snapgridsize": 10,
-            "snaptogrid": true,
-            "wType": "FlexContainer",
-            "widgetAlignment": 1,
-            "widgetalignment": 1
-        },
-        "imgDropOff": {
-            "@class": "com.kony.gen.viz.model.component.KVizImage2",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_base64_": null,
-            "_height_": {
-                "type": "string",
-                "value": "11dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "130dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "_src_": "dropofficon.png",
-            "_width_": {
-                "type": "string",
-                "value": "11dp"
-            },
-            "base64": null,
-            "canUpdateUI": true,
-            "centerY": "35dp",
-            "centery": {
-                "type": "string",
-                "value": "35dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "context": {
-                "channel": "mobile",
-                "platform": "android",
-                "templateType": "segments",
-                "topLevelBox": null
-            },
-            "enabled": false,
-            "genericProperties": {},
-            "height": "11dp",
-            "id": "imgDropOff",
-            "imageScaleMode": 1,
-            "imagescalemode": 1,
-            "info": null,
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "4a20571ff7984746a786a183a3395409",
-            "left": "130dp",
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.Image2",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "src": "dropofficon.png",
-            "srcType": 1,
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Image",
-            "widgetAlignment": 5,
-            "widgetalignment": 5,
-            "width": "11dp",
-            "zIndex": 7,
-            "zindex": 7
-        },
-        "imgMap": {
-            "@class": "com.kony.gen.viz.model.component.KVizImage2",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_base64_": null,
-            "_height_": {
-                "type": "string",
-                "value": "85dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "0dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "_src_": "map.png",
-            "_top_": {
-                "type": "string",
-                "value": "0dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "100%"
-            },
-            "base64": null,
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "context": {
-                "channel": "mobile",
-                "platform": "android",
-                "templateType": "segments",
-                "topLevelBox": null
-            },
-            "enabled": false,
-            "genericProperties": {},
-            "height": "85dp",
-            "id": "imgMap",
-            "imageScaleMode": 0,
-            "imagescalemode": 0,
-            "info": null,
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "85e6742e31b1436e91b86f0931e34e3d",
-            "left": "0dp",
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.Image2",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexRow",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "src": "map.png",
-            "srcType": 1,
-            "top": "0dp",
-            "wType": "Image",
-            "widgetAlignment": 5,
-            "widgetalignment": 5,
-            "width": "100%"
-        },
-        "imgPickUp": {
-            "@class": "com.kony.gen.viz.model.component.KVizImage2",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_base64_": null,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "130dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "_src_": "pickupicon.png",
-            "_width_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "base64": null,
-            "canUpdateUI": true,
-            "centerY": "10dp",
-            "centery": {
-                "type": "string",
-                "value": "10dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "context": {
-                "channel": "mobile",
-                "platform": "android",
-                "templateType": "segments",
-                "topLevelBox": null
-            },
-            "enabled": false,
-            "genericProperties": {},
-            "height": "12dp",
-            "id": "imgPickUp",
-            "imageScaleMode": 1,
-            "imagescalemode": 1,
-            "info": null,
-            "invokedProperty": "src",
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "f37a5482258341b79dd2ced3939efa49",
-            "left": "130dp",
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.Image2",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "src": "pickupicon.png",
-            "srcType": 1,
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Image",
-            "widgetAlignment": 5,
-            "widgetalignment": 5,
-            "width": "12dp",
-            "zIndex": 6,
-            "zindex": 6
-        },
-        "imgPortait": {
-            "@class": "com.kony.gen.viz.model.component.KVizImage2",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_base64_": null,
-            "_bottom_": {
-                "type": "number",
-                "value": "0"
-            },
-            "_height_": {
-                "type": "string",
-                "value": "100dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "-6dp"
-            },
-            "_margin_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "_src_": "profilepicbooking.png",
-            "_top_": {
-                "type": "string",
-                "value": "-6dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "100dp"
-            },
-            "base64": null,
-            "bottom": 0,
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "context": {
-                "channel": "mobile",
-                "platform": "android",
-                "templateType": "segments",
-                "topLevelBox": null
-            },
-            "enabled": false,
-            "genericProperties": {},
-            "height": "100dp",
-            "id": "imgPortait",
-            "imageScaleMode": 1,
-            "imagescalemode": 1,
-            "info": null,
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "f187499a87ee4c0a904efbc6158e31f8",
-            "left": "-6dp",
-            "margin": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "name": "kony.ui.Image2",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-            "src": "profilepicbooking.png",
-            "srcType": 1,
-            "top": "-6dp",
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Image",
-            "widgetAlignment": 5,
-            "widgetalignment": 5,
-            "width": "100dp"
-        },
-        "lblDateTime": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "144dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-            "_text_": "20/10/2015, 2:00 pm",
-            "_top_": {
-                "type": "string",
-                "value": "41dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "80dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "12dp",
-            "id": "lblDateTime",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "d171a8389def48618ed5c6dbc8e2f1a4",
-            "left": "144dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
-            "text": "20/10/2015, 2:00 pm",
-            "toolTip": "",
-            "tooltip": "",
-            "top": "41dp",
-            "undoPropsStorage": {},
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "80dp",
-            "wrapping": 2,
-            "zIndex": 7,
-            "zindex": 7
-        },
-        "lblDropOff": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "94dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
-            "_text_": "DROP:",
-            "_width_": {
-                "type": "string",
-                "value": "30dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "centerY": "35dp",
-            "centery": {
-                "type": "string",
-                "value": "35dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "12dp",
-            "id": "lblDropOff",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "0d1958247b054d75984d62618bda517a",
-            "left": "94dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
-            "text": "DROP:",
-            "toolTip": "",
-            "tooltip": "",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "30dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblDropOffLocation": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "150dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-            "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
-            "_top_": {
-                "type": "string",
-                "value": "26dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "170dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "centerY": "35dp",
-            "centery": {
-                "type": "string",
-                "value": "35dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "12dp",
-            "id": "lblDropOffLocation",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "d8b9cd3e8ba74f438ecfd23e91277654",
-            "left": "150dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
-            "text": "21 Ebury Ave Bryanston, 2191, South Africa",
-            "toolTip": "",
-            "tooltip": "",
-            "top": "26dp",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "170dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblEstimateFare": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_bottom_": {
-                "type": "string",
-                "value": "3dp"
-            },
-            "_height_": {
-                "type": "string",
-                "value": "13dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_right_": {
-                "type": "string",
-                "value": "2dp"
-            },
-            "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
-            "_text_": "R300 - R350",
-            "_top_": {
-                "type": "string",
-                "value": "69dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "50dp"
-            },
-            "_wrapping_": 2,
-            "bottom": "3dp",
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 5,
-            "contentalignment": 5,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "13dp",
-            "id": "lblEstimateFare",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "57c15f6269794772af3cc608203dfbc0",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "right": "2dp",
-            "skin": "s6c3a26664e940abb4d5beaa6b301cec",
-            "text": "R300 - R350",
-            "toolTip": "",
-            "tooltip": "",
-            "top": "69dp",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "50dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblPickUp": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "94dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
-            "_text_": "PICKUP:",
-            "_width_": {
-                "type": "string",
-                "value": "33dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "centerY": "10dp",
-            "centery": {
-                "type": "string",
-                "value": "10dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "12dp",
-            "id": "lblPickUp",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-            "left": "94dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s12881baa1934f5ead5369e3b05ed53f",
-            "text": "PICKUP:",
-            "toolTip": "",
-            "tooltip": "",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "33dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblPickUpLocation": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "12dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "144dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s1ba6827e79744beb0b61169b8832cd9",
-            "_text_": "32 Woodlands Drive, 2191, South Africa",
-            "_width_": {
-                "type": "string",
-                "value": "157dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "centerY": "10dp",
-            "centery": {
-                "type": "string",
-                "value": "10dp"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "12dp",
-            "id": "lblPickUpLocation",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "57531ea54c8d43d8b4220c8d9e664558",
-            "left": "144dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s1ba6827e79744beb0b61169b8832cd9",
-            "text": "32 Woodlands Drive, 2191, South Africa",
-            "toolTip": "",
-            "tooltip": "",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "157dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblTitleFare": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_bottom_": {
-                "type": "string",
-                "value": "3dp"
-            },
-            "_height_": {
-                "type": "string",
-                "value": "13dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_right_": {
-                "type": "string",
-                "value": "52dp"
-            },
-            "_skin_": "s52df5e9a095420087e546911bb61b97",
-            "_text_": "ESTIMATED FARE",
-            "_width_": {
-                "type": "string",
-                "value": "70dp"
-            },
-            "_wrapping_": 2,
-            "bottom": "3dp",
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 5,
-            "contentalignment": 5,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "13dp",
-            "id": "lblTitleFare",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "9847998e81d043de8accb6d32893d00f",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "right": "52dp",
-            "skin": "s52df5e9a095420087e546911bb61b97",
-            "text": "ESTIMATED FARE",
-            "toolTip": "",
-            "tooltip": "",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "70dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblTitleName": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_bottom_": {
-                "type": "string",
-                "value": "20dp"
-            },
-            "_height_": {
-                "type": "string",
-                "value": "15dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "100dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s8776daa4ad54e9cbc4ca2e5520b267f",
-            "_text_": "ROBERT",
-            "_width_": {
-                "type": "string",
-                "value": "45dp"
-            },
-            "_wrapping_": 2,
-            "bottom": "20dp",
-            "canUpdateUI": true,
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "15dp",
-            "id": "lblTitleName",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "5c15d67867874603b46e2034c769394b",
-            "left": "100dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s8776daa4ad54e9cbc4ca2e5520b267f",
-            "text": "ROBERT",
-            "toolTip": "",
-            "tooltip": "",
-            "undoPropsStorage": {},
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "45dp",
-            "wrapping": 2,
-            "zIndex": 1,
-            "zindex": 1
-        },
-        "lblUpOffLine": {
-            "@class": "com.kony.gen.viz.model.component.KVizLabel",
-            "DNDConfig": null,
-            "__parentReadjusting__": false,
-            "_height_": {
-                "type": "string",
-                "value": "30dp"
-            },
-            "_left_": {
-                "type": "string",
-                "value": "135dp"
-            },
-            "_margin_": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "_padding_": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "_skin_": "s278944496664a80b69fdabd82f2beff",
-            "_text_": "",
-            "_top_": {
-                "type": "string",
-                "value": "39dp"
-            },
-            "_width_": {
-                "type": "string",
-                "value": "1dp"
-            },
-            "_wrapping_": 2,
-            "canUpdateUI": true,
-            "centerY": 20,
-            "centery": {
-                "type": "number",
-                "value": "20"
-            },
-            "containerId": true,
-            "containerWeight": 100,
-            "containerweight": 100,
-            "contentAlignment": 4,
-            "contentalignment": 4,
-            "enabled": false,
-            "genericProperties": {
-                "wrapping": 2
-            },
-            "height": "30dp",
-            "id": "lblUpOffLine",
-            "info": null,
-            "ipad": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "iphone": {
-                "psp": {
-                    "wrapping": 2
-                }
-            },
-            "isSegmentChild": false,
-            "isVisible": true,
-            "isvisible": true,
-            "kuid": "11a2cea6a1ae41cb8f019af8937cadc9",
-            "left": "135dp",
-            "margin": [
-                1,
-                1,
-                1,
-                1
-            ],
-            "name": "kony.ui.Label",
-            "padding": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "parent": "flexBookingInfo",
-            "pf": "bookingTemp",
-            "render": true,
-            "skin": "s278944496664a80b69fdabd82f2beff",
-            "text": "",
-            "toolTip": "",
-            "tooltip": "",
-            "top": "39dp",
-            "undoPropsStorage": {},
-            "vizProps": {
-                "lock": true
-            },
-            "wType": "Label",
-            "widgetAlignment": 5,
-            "width": "1dp",
-            "wrapping": 2,
-            "zIndex": 5,
-            "zindex": 5
-        }
-    },
-    "width": "100%",
+    "width": "95%",
     "zIndex": 1,
     "zindex": 1
 }

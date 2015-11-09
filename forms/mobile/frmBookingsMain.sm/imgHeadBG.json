@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bookingsbg.png",
+    "_src_": "bluebg.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -41,15 +41,15 @@
         "channel": "mobile",
         "formID": "frmBookingsMain",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
     "height": "152dp",
     "id": "imgHeadBG",
-    "imageScaleMode": 2,
-    "imagescalemode": 2,
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
@@ -74,7 +74,7 @@
     "pf": "frmBookingsMain",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bookingsbg.png",
+    "src": "bluebg.png",
     "srcType": 1,
     "top": "0dp",
     "wType": "Image",
