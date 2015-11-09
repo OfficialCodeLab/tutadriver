@@ -1,0 +1,16 @@
+{
+	"AS_Button_4414da3f66fe4b0ba00f0344d854705f": {
+		"id": "AS_Button_4414da3f66fe4b0ba00f0344d854705f",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onClick_19b52cdea1d84c1b8c1e6ef09bdbc081",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmPickupRequest",
+				"formKUID": "13125039dcb54c92bff01120deba4fc8",
+				"parentId": "",
+				"callbackType": null
+			}
+		]
+	}
+}

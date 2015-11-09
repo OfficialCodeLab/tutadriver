@@ -5,6 +5,10 @@
         "type": "string",
         "value": "50dp"
     },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
     "_margin_": [
         6,
         6,
@@ -17,19 +21,11 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "s54452dee2a24065b8101942b4658b9a",
+    "_skin_": "s1c2925ffd864ad08c5d2a5c81241823",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "18dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "60dp"
     },
     "canUpdateUI": true,
     "centerY": "50%",
@@ -42,17 +38,19 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s4fdf06726f24f8cbce3f5140a2997ff"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "height": "50dp",
-    "id": "btnCloseMenu",
+    "id": "btnCloseCheeseburger",
     "info": null,
     "isVisible": false,
     "isvisible": false,
-    "kuid": "5f2871e75e85474abc5d9bcc6165b02e",
+    "kuid": "8a7298b501d24747bc826de61e469736",
+    "left": 0,
     "margin": [
         6,
         6,
@@ -60,8 +58,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_7869651b6ec743aca49d95e82604a9e0",
-    "onclick": "AS_Button_7869651b6ec743aca49d95e82604a9e0",
+    "onClick": "AS_Button_136237eb18b244c38c735a70a3688903",
+    "onclick": "AS_Button_136237eb18b244c38c735a70a3688903",
     "padding": [
         0,
         0,
@@ -71,13 +69,11 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": 0,
-    "skin": "s54452dee2a24065b8101942b4658b9a",
+    "skin": "s1c2925ffd864ad08c5d2a5c81241823",
     "text": "",
-    "top": "18dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "20%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "60dp",
+    "zIndex": 2,
+    "zindex": 2
 }

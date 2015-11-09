@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -24,7 +24,7 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "140dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -35,9 +35,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblSep3",
-        "imgHelp",
-        "btnHelp"
+        "btnTestingPickup",
+        "flexTopMenu",
+        "Map04e53202ae5fe49"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -46,15 +46,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "70dp",
-    "id": "flexBtnHelp",
+    "height": "100%",
+    "id": "flexMapScreen",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "8c683ab7c4c54d96855cb54d457f8836",
+    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -69,7 +69,7 @@
         0,
         0
     ],
-    "parent": "flexScrollOptions",
+    "parent": "frm004Home",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
@@ -78,11 +78,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "140dp",
+    "top": "0%",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 3,
-    "zindex": 3
+    "zIndex": 2,
+    "zindex": 2
 }

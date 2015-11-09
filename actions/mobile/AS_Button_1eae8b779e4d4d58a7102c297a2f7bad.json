@@ -1,10 +1,10 @@
 {
-	"AS_Button_7869651b6ec743aca49d95e82604a9e0": {
-		"id": "AS_Button_7869651b6ec743aca49d95e82604a9e0",
+	"AS_Button_1eae8b779e4d4d58a7102c297a2f7bad": {
+		"id": "AS_Button_1eae8b779e4d4d58a7102c297a2f7bad",
 		"type": "ACTION_SEQUENCE",
 		"actions": [
 			{
-				"id": "MOVE_ACTION____2df39867c9e4403fb9b4a462d278f669",
+				"id": "___onClick_df37ce1a44eb4a7eb48a775808c19df0",
 				"type": "MOVE_ACTION",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -28,11 +28,10 @@
 				"animationId": "MOVE_ACTION____2df39867c9e4403fb9b4a462d278f669",
 				"displayAnimationId": "MOVE_ACTION____2df39867c9e4403fb9b4a462d278f669",
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___73ade9375c504a99a4c0fb9b30ec4b3f",
+				"id": "SET_FORM_WIDGET_PROPERTY____c28175a305474d4ab4e11464cbc1ed6a",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -42,11 +41,10 @@
 				"widgetKUID": "5f2871e75e85474abc5d9bcc6165b02e",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___021f5d2aec2644a6a94f80367e604bc2",
+				"id": "SET_FORM_WIDGET_PROPERTY____2fa6131444d8457cad4e63c2de22c2d0",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -56,11 +54,10 @@
 				"widgetKUID": "8615fe5e46aa4fc1a00ab730fd3290a7",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___f924f42498b542469c3201b28c263406",
+				"id": "SET_FORM_WIDGET_PROPERTY____2d93b68705f14d25add84fbf356e417a",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -70,11 +67,10 @@
 				"widgetKUID": "6d272e5d8bb042b6a7440890122c15d9",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___947da9278761492f94b3c697f0a1c59d",
+				"id": "SET_FORM_WIDGET_PROPERTY____6f15b5430a10465bac96909409a8d3ba",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -84,11 +80,10 @@
 				"widgetKUID": "e5b2b57f81834d10a1d8551e13a1e2dc",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___23a6ab3291a14c388f0802c5163f1cf9",
+				"id": "SET_FORM_WIDGET_PROPERTY____4b26d5f371994a1a9a106fca8395cd5d",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -98,11 +93,10 @@
 				"widgetKUID": "ea1b0900ac1b473fb7b904e565616071",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___2482053ebe1d4db78ddbe0267fb56e7a",
+				"id": "SET_FORM_WIDGET_PROPERTY____d465986a7a3e40948eef0b39e6bab0d8",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -112,11 +106,10 @@
 				"widgetKUID": "4ffc5a46a0da4036bd263ce78da9eadf",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___62cf568fce4a4a33b67687bab1ddef80",
+				"id": "SET_FORM_WIDGET_PROPERTY____cd647706840b4488b9e19a8fbfe33411",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -126,11 +119,10 @@
 				"widgetKUID": "877f5ea790aa4d698f10ee085d12bde5",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			},
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___177553b1589641f78849a160cf3abd2d",
+				"id": "SET_FORM_WIDGET_PROPERTY____36e54cad21c54f47874f416d73813910",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
@@ -140,7 +132,6 @@
 				"widgetKUID": "120d4140edcf41668ac0f2e780e95c2c",
 				"isSkinProperty": false,
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			}
 		]

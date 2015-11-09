@@ -28,10 +28,8 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "Map04e53202ae5fe49",
-        "flexTopMenu",
         "flexMenu",
-        "btnTestingPickup"
+        "flexMapScreen"
     ],
     "containerWeight": 100,
     "containerweight": 100,

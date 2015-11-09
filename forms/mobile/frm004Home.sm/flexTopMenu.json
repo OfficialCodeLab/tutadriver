@@ -44,7 +44,7 @@
         "imgMessages",
         "lblMessageCount",
         "imgBurgerClose",
-        "btnCloseMenu"
+        "btnCloseCheeseburger"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -58,7 +58,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ac34f76cd06546cb9b01507ccae583e5",
+    "kuid": "3b86803b4ad1414fa0098ed6bfca44af",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0%",
@@ -76,7 +76,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexMapScreen",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

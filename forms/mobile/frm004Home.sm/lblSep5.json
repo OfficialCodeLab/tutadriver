@@ -54,8 +54,8 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "c003c2c5d29a45b38508420fb3b81777",
     "margin": [
         1,
@@ -81,5 +81,7 @@
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",
-    "wrapping": 2
+    "wrapping": 2,
+    "zIndex": 4,
+    "zindex": 4
 }

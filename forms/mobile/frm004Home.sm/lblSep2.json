@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
+    "height": "1dp",
     "id": "lblSep2",
     "info": null,
     "ipad": {
@@ -82,6 +82,6 @@
     "widgetAlignment": 5,
     "width": "80%",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 4,
+    "zindex": 4
 }

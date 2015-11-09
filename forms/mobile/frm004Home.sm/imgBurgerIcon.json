@@ -55,7 +55,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "6d272e5d8bb042b6a7440890122c15d9",
+    "kuid": "036562c528c744179be97495ad4cf3e5",
     "left": "5%",
     "margin": [
         0,
@@ -64,8 +64,8 @@
         0
     ],
     "name": "kony.ui.Image2",
-    "onDownloadComplete": "AS_Image_6e05c03ec51a466ab818ef04bb62eb6c",
-    "ondownloadcomplete": "AS_Image_6e05c03ec51a466ab818ef04bb62eb6c",
+    "onDownloadComplete": "AS_Image_ef8f35a20340420a8cee5f79260766cf",
+    "ondownloadcomplete": "AS_Image_ef8f35a20340420a8cee5f79260766cf",
     "padding": [
         0,
         0,

@@ -1,0 +1,92 @@
+{
+	"AS_Button_d591716193cc450baaeda3a0763c7b20": {
+		"id": "AS_Button_d591716193cc450baaeda3a0763c7b20",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm004Home",
+				"widgetId": "flexMapScreen",
+				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"widgetKUID": "89cb1575c8d24222ad40521f6b2ac46c",
+				"animationObject": {
+					"left": "80%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
+				"animationId": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
+				"displayAnimationId": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm004Home",
+				"widgetId": "flexMenu",
+				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"widgetKUID": "bfde5e3bb1054398992ea1ecfa9c3a40",
+				"animationObject": {
+					"left": "0%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "250"
+				},
+				"start": "Immediately",
+				"parentAnimation": "MOVE_ACTION____2703867474544fd99aef420ea937317c",
+				"animationId": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
+				"displayAnimationId": "MOVE_ACTION____3b6e1ddbfca841bb9c75212387a82f6d",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___eecba2012e9945939179c10d1935a9d4",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm004Home",
+				"widgetId": "btnMenu",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"widgetKUID": "1c5344df18784445aa929468a8b7dc2c",
+				"isSkinProperty": false,
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___7c6e6a85664748b183718f001c59a67a",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frm004Home",
+				"widgetId": "btnCloseCheeseburger",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"widgetKUID": "8a7298b501d24747bc826de61e469736",
+				"isSkinProperty": false,
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

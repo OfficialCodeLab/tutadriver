@@ -44,7 +44,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "6e6929c6c4764063936809a4a7021211",
+    "kuid": "4d87c6e7a6bf4a9993f4975b6f780ecd",
     "left": "0%",
     "locationData": [
         {
@@ -103,7 +103,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexMapScreen",
     "pf": "frm004Home",
     "provider": "google",
     "render": true,
@@ -116,8 +116,8 @@
     "wType": "Map",
     "widgetAlignment": 5,
     "width": "100%",
-    "zIndex": 2,
-    "zindex": 2,
+    "zIndex": 1,
+    "zindex": 1,
     "zoomLevel": 15,
     "zoomlevel": 15
 }
