@@ -22,7 +22,7 @@
         0
     ],
     "_render_": true,
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "sd11387d04e444278d6e7727cfac58dd",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -75,7 +75,7 @@
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "skin": "sd11387d04e444278d6e7727cfac58dd",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

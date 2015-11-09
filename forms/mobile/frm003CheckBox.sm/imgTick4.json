@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "37dp"
     },
     "_left_": {
         "type": "string",
@@ -23,14 +23,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "tickedbox.png",
+    "_src_": "thintick.png",
     "_top_": {
         "type": "string",
-        "value": "55%"
+        "value": "53%"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "37dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -46,11 +46,12 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "30dp",
+    "height": "37dp",
     "id": "imgTick4",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": false,
     "ispercent": true,
     "isvisible": false,
@@ -73,13 +74,13 @@
     "pf": "frm003CheckBox",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "tickedbox.png",
+    "src": "thintick.png",
     "srcType": 1,
-    "top": "55%",
+    "top": "53%",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "37dp",
+    "zIndex": 2,
+    "zindex": 2
 }

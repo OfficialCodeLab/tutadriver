@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "340dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "100%"
+        "value": "100.00%"
     },
     "_margin_": [
         0,
@@ -29,11 +29,11 @@
     "_skin_": "s01abdef0da34e959640b35e62311677",
     "_top_": {
         "type": "string",
-        "value": "180dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -41,10 +41,11 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblConfirm",
-        "lblSeparate",
-        "txfCabNumber",
-        "btnConfirmCNum"
+        "FlexContainer0ac38a3a6b70546",
+        "Button0b12ed59c0bae42",
+        "CopyButton0a114894d531743",
+        "CopyButton052367993cef144",
+        "CopyButton0ad653d82229249"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -53,7 +54,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "340dp",
+    "height": "100%",
     "id": "flexConfirmCabNumber",
     "info": null,
     "isVisible": true,
@@ -61,7 +62,7 @@
     "kuid": "7f5483402c8049aeb0737c5f6e2fbba6",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "100%",
+    "left": "100.00%",
     "margin": [
         0,
         0,
@@ -86,11 +87,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "180dp",
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "80%",
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }
