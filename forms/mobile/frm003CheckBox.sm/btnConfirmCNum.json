@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "5%"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "_margin_": [
         6,
@@ -21,13 +21,13 @@
         0,
         0
     ],
-    "_skin_": "sea024e539514aedadbe7e1a52ebda98",
-    "_text_": "Confirm",
+    "_skin_": "se00d1b39a6b40e991098a7a8a0efb07",
+    "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "65%"
+        "value": "55%"
     },
-    "bottom": "5%",
+    "bottom": "0dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -42,14 +42,14 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": "50dp",
+    "focusSkin": "se00d1b39a6b40e991098a7a8a0efb07",
+    "focusskin": "se00d1b39a6b40e991098a7a8a0efb07",
+    "height": "70dp",
     "id": "btnConfirmCNum",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "18c321cb038d442b988296162c2b8cd2",
+    "kuid": "e8f2ce9ee311417fb9d79e6679f71033",
     "margin": [
         6,
         6,
@@ -57,22 +57,22 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_e230ce4954644a3b95e41667600f4c31",
-    "onclick": "AS_Button_e230ce4954644a3b95e41667600f4c31",
+    "onClick": "AS_Button_f2cac87d850b48ba9e0556d936553ebd",
+    "onclick": "AS_Button_f2cac87d850b48ba9e0556d936553ebd",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexConfirmCabNumber",
+    "parent": "FlexContainer0ac38a3a6b70546",
     "pf": "frm003CheckBox",
     "render": true,
-    "skin": "sea024e539514aedadbe7e1a52ebda98",
-    "text": "Confirm",
+    "skin": "se00d1b39a6b40e991098a7a8a0efb07",
+    "text": "",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "65%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "55%",
+    "zIndex": 3,
+    "zindex": 3
 }
