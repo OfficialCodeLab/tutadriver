@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -72,7 +72,7 @@
     "kuid": "6e3dad86dd3f4cb1b9f0a151a158c82d",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "100%",
     "margin": [
         0,
         0,
@@ -89,7 +89,7 @@
     ],
     "pagingEnabled": false,
     "pagingenabled": false,
-    "parent": "flexSignupNext",
+    "parent": "frm002SignupScreen",
     "percent": true,
     "pf": "frm002SignupScreen",
     "render": true,

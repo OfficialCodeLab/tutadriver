@@ -41,7 +41,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frm002SignupScreen",
-        "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
@@ -54,7 +53,6 @@
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
     "kuid": "d625563508b94e0fa8bb0a4254884aca",
     "left": "5%",

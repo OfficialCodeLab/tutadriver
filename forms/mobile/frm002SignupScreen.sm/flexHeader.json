@@ -71,7 +71,7 @@
         0,
         0
     ],
-    "parent": "flexSignupMain",
+    "parent": "frm002SignupScreen",
     "percent": true,
     "pf": "frm002SignupScreen",
     "render": true,
