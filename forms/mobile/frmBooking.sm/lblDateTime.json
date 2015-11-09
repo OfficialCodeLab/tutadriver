@@ -1,13 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "150dp"
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -21,15 +18,15 @@
         0,
         0
     ],
-    "_skin_": "s81bc23e5fbb4fcd9b8d05aa747eff5d",
-    "_text_": "Booking 1",
+    "_skin_": "sbf5be3b624842f88499dd38b70a3e62",
+    "_text_": "20 OCT 2015, 2:00 PM",
     "_top_": {
         "type": "string",
-        "value": "162dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "200dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -38,17 +35,13 @@
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblBookingTitle",
+    "height": "25dp",
+    "id": "lblDateTime",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,18 +49,13 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "98969215d01b41aebad0b72aac0d3ae1",
-    "left": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "kuid": "c21fab66509c4386899bbca93900ec85",
     "margin": [
         1,
         1,
@@ -81,24 +69,18 @@
         0,
         0
     ],
-    "parent": "frmBooking",
+    "parent": "flexHeader",
     "pf": "frmBooking",
     "render": true,
-    "skin": "s81bc23e5fbb4fcd9b8d05aa747eff5d",
-    "text": "Booking 1",
+    "skin": "sbf5be3b624842f88499dd38b70a3e62",
+    "text": "20 OCT 2015, 2:00 PM",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "162dp"
-    },
+    "top": "20dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "200dp",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 4,
+    "zindex": 4
 }

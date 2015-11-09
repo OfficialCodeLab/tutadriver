@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -21,10 +25,10 @@
         0,
         0
     ],
-    "_skin_": "s633587129de4c34aeb4fd61e540db91",
+    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "55"
     },
     "_width_": {
         "type": "string",
@@ -33,12 +37,16 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "10dp",
     "canUpdateUI": true,
     "children": [
-        "flexBackButton",
-        "lblSep",
-        "lblDateTime",
-        "flexBookingInfo"
+        "imgPickUp",
+        "lblPickUp",
+        "lblDropOff",
+        "imgDropOff",
+        "lblUpOffLine",
+        "lblPickUpLocation",
+        "lblDropOffLocation"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -47,12 +55,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "120dp",
-    "id": "flexHeader",
+    "height": "60dp",
+    "id": "flexBookingInfo",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2742a4f81b664316bde05dc932869251",
+    "kuid": "ca5455dbe68e495ca97b0c167dad2ee6",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -70,16 +78,16 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexHeader",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
-    "skin": "s633587129de4c34aeb4fd61e540db91",
+    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
+    "top": 55,
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

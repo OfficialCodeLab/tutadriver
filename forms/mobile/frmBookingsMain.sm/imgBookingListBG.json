@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "200%"
+        "value": "150%"
     },
     "_left_": {
         "type": "string",
@@ -41,12 +41,12 @@
         "channel": "mobile",
         "formID": "frmBookingsMain",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "200%",
+    "height": "150%",
     "id": "imgBookingListBG",
     "imageScaleMode": 0,
     "imagescalemode": 0,

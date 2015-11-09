@@ -24,7 +24,7 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "55dp"
+        "value": "62dp"
     },
     "_skin_": "s52df5e9a095420087e546911bb61b97",
     "_text_": "ESTIMATED FARE",
@@ -74,7 +74,7 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "right": "55dp",
+    "right": "62dp",
     "skin": "s52df5e9a095420087e546911bb61b97",
     "text": "ESTIMATED FARE",
     "toolTip": "",

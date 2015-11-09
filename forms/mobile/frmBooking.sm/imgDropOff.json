@@ -1,10 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "11dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "63dp"
     },
     "_margin_": [
         0,
@@ -19,23 +24,17 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "calendaricon.png",
+    "_src_": "dropofficon.png",
     "_top_": {
-        "type": "string",
-        "value": "20dp"
+        "type": "number",
+        "value": "35"
     },
     "_width_": {
         "type": "string",
-        "value": "70dp"
+        "value": "11dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -47,18 +46,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "70dp"
-    },
-    "id": "imgCalendar",
+    "height": "11dp",
+    "id": "imgDropOff",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "4247cd489a4a482192b3c6f059b305c9",
+    "kuid": "e53266d14647435db48ef4206d14c848",
+    "left": "63dp",
     "margin": [
         0,
         0,
@@ -72,23 +69,20 @@
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "flexBookingInfo",
     "pf": "frmBooking",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "calendaricon.png",
+    "src": "dropofficon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "20dp"
+    "top": 35,
+    "vizProps": {
+        "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "70dp"
-    },
-    "zIndex": 2,
-    "zindex": 2
+    "width": "11dp",
+    "zIndex": 7,
+    "zindex": 7
 }
