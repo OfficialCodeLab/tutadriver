@@ -35,7 +35,10 @@
     "channel": "mobile",
     "children": [
         "flexSignupMain",
-        "flexSignupNext"
+        "flexSignupNext",
+        "scrollSignupBottomB",
+        "scrollSignupBottom",
+        "flexHeader"
     ],
     "containerWeight": 100,
     "containerweight": 100,

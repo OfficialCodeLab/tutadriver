@@ -38,7 +38,6 @@
     "channel": "mobile",
     "children": [
         "flexHeaderRed2",
-        "scrollSignupBottomB",
         "CopyflexHeader030f40d88838a4f"
     ],
     "clipBounds": true,
@@ -51,8 +50,8 @@
     "height": "100%",
     "id": "flexSignupNext",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "8067a00993024e969695f64dab14b74b",
     "layoutType": 2,
     "layouttype": 2,

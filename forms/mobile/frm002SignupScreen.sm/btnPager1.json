@@ -57,8 +57,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_0f1b878c42e64af18ff727f666be62df",
-    "onclick": "AS_Button_0f1b878c42e64af18ff727f666be62df",
     "padding": [
         0,
         0,

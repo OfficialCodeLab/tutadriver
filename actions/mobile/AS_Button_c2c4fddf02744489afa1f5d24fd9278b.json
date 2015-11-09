@@ -9,7 +9,7 @@
 				"conditions": [
 					{
 						"leftValueType": "widgetprop",
-						"leftValue": "frm002SignupScreen.flexSignupNext.scrollSignupBottomB.imgTick.isVisible",
+						"leftValue": "frm002SignupScreen.scrollSignupBottomB.imgTick.isVisible",
 						"operator": "===",
 						"rightValueType": "value",
 						"rightValue": "false",

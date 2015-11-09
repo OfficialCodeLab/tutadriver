@@ -36,10 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "channel": "mobile",
-    "children": [
-        "flexHeader",
-        "scrollSignupBottom"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -50,8 +47,8 @@
     "height": "100%",
     "id": "flexSignupMain",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "b22c753806084d29b43490c01a6a8512",
     "layoutType": 2,
     "layouttype": 2,
