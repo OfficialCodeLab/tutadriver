@@ -26,14 +26,14 @@
     "_text_": "PICKUP:",
     "_width_": {
         "type": "string",
-        "value": "33dp"
+        "value": "40dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "10dp",
+    "centerY": "15dp",
     "centery": {
         "type": "string",
-        "value": "10dp"
+        "value": "15dp"
     },
     "containerId": true,
     "containerWeight": 100,
@@ -84,7 +84,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "33dp",
+    "width": "40dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

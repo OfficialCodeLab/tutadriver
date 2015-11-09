@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frmBookingsMain",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -76,6 +76,9 @@
     "src": "calendaricon.png",
     "srcType": 1,
     "top": "20dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

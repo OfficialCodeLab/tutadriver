@@ -361,10 +361,10 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.00%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -720,6 +720,7 @@
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
         "psp": {
+            "bounces": false,
             "indicator": "rowselect"
         }
     },
@@ -736,6 +737,8 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
+    "onRowClick": "AS_Segment_b493c530529e4374990b6bcbd788f85d",
+    "onrowclick": "AS_Segment_b493c530529e4374990b6bcbd788f85d",
     "orientation": 2,
     "padding": [
         0,
@@ -778,14 +781,16 @@
     "selectedindices": null,
     "selecteditems": null,
     "selectedsectionindex": 0,
-    "selectionBehavior": "default",
-    "selectionbehavior": "default",
+    "selectionBehavior": "singleselect",
+    "selectionBehaviorConfig": {},
+    "selectionbehavior": "singleselect",
+    "selectionbehaviorconfig": {},
     "separatorColor": "64646400",
     "separatorRequired": true,
-    "separatorThickness": 1,
+    "separatorThickness": 0,
     "separatorcolor": "64646400",
     "separatorrequired": true,
-    "separatorthickness": 1,
+    "separatorthickness": 0,
     "showScrollbars": false,
     "showscrollbars": false,
     "top": "150dp",

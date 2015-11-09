@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "65dp"
+        "value": "100dp"
     },
     "_margin_": [
         0,
@@ -17,7 +17,7 @@
         0
     ],
     "_render_": true,
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "s977b6b9088f4df09233dda91c6b45f5",
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
@@ -35,10 +35,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "65dp"
-    },
+    "height": "100dp",
     "id": "flexBooking",
     "info": null,
     "isSegmentChild": false,
@@ -66,7 +63,7 @@
     "percent": true,
     "pf": "tempYourBooking",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "skin": "s977b6b9088f4df09233dda91c6b45f5",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

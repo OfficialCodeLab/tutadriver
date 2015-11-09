@@ -16,6 +16,12 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -33,12 +39,14 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone3",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
+    "enableScrolling": true,
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
+    "enablescrolling": true,
     "id": "frmBookingsMain",
     "info": null,
     "initdone": false,
@@ -51,6 +59,7 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -95,18 +104,30 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone6",
-    "prevPlatform": "android",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone3",
+    "shellCSS": "and_GalaxyS4",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -142,6 +163,11 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
+        "iphone": {
+            "psp": {
+                "visible": true
+            }
+        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",
@@ -188,5 +214,10 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "windowSoftInputMode": 2,
+    "windowsoftinputmode": 2,
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

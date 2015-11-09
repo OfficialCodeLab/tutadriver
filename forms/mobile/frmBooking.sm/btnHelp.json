@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s298329b9d6c4b719f02c139899aec59",
+    "_text_": "NEED HELP?",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "bottom": "10dp",
+    "canUpdateUI": true,
+    "centerX": "50.00%",
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "height": "40dp",
+    "id": "btnHelp",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "860bdabe09b4446b8b7c9a6609a1ebb7",
+    "left": "75dp",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_593b0135821c4ff9be7bd22a1b0c62a8",
+    "onclick": "AS_Button_593b0135821c4ff9be7bd22a1b0c62a8",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexContent",
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "s298329b9d6c4b719f02c139899aec59",
+    "text": "NEED HELP?",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "80%",
+    "zIndex": 1,
+    "zindex": 1
+}

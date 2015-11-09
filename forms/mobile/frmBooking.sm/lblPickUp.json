@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
+    "_skin_": "s42769cba989423d9a33d27a0ea7202c",
     "_text_": "PICKUP:",
     "_top_": {
         "type": "string",
@@ -72,7 +72,7 @@
     "parent": "flexBookingInfo",
     "pf": "frmBooking",
     "render": true,
-    "skin": "s12881baa1934f5ead5369e3b05ed53f",
+    "skin": "s42769cba989423d9a33d27a0ea7202c",
     "text": "PICKUP:",
     "toolTip": "",
     "tooltip": "",

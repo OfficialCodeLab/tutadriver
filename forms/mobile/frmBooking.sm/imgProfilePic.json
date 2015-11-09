@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "profilepicbooking.png",
+    "_top_": {
+        "type": "string",
+        "value": "433dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "136dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmBooking",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "145dp",
+    "id": "imgProfilePic",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "2820e6ee24fe4201bb5ca36d09c6f3ab",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexContent",
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "profilepicbooking.png",
+    "srcType": 1,
+    "top": "433dp",
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "136dp",
+    "zIndex": 1,
+    "zindex": 1
+}
