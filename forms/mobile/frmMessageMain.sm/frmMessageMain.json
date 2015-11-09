@@ -18,13 +18,17 @@
     "allboxes": [],
     "android": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "formAnimation": 3
+        },
+        "outTransitionConfig": {
+            "formAnimation": 4
+        },
         "psp": {
             "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexHeader",
@@ -47,10 +51,16 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "frmMessageMain",
+    "inTransitionConfig": {
+        "formAnimation": 3
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formAnimation": 3
+    },
     "ipad": {
         "psp": {
             "inputAccessoryViewType": 4
@@ -58,6 +68,14 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "none"
+        },
+        "outTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "none"
+        },
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -93,6 +111,12 @@
     "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formAnimation": 4
+    },
+    "outtransitionconfig": {
+        "formAnimation": 4
+    },
     "padding": [
         0,
         0,
@@ -114,6 +138,14 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "outTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
     "title": null,
     "titleBar": true,
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
@@ -122,5 +154,17 @@
     "wType": "Form",
     "widgetAlignment": 5,
     "windowSoftInputMode": 2,
-    "windowsoftinputmode": 2
+    "windowsoftinputmode": 2,
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
+        "outTransitionConfig": {
+            "outTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
 }

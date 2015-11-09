@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "imgComposeMessage",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -75,10 +72,7 @@
     "parent": "flexHeader",
     "pf": "frmMessageMain",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "15dp"
-    },
+    "right": "15dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "composemessage.png",
     "srcType": 1,
@@ -88,10 +82,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "width": "40dp",
     "zIndex": 1,
     "zindex": 1
 }

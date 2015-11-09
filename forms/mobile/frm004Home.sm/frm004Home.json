@@ -21,7 +21,7 @@
             "formAnimation": 2
         },
         "outTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
         }
     },
     "canUpdateUI": true,
@@ -71,8 +71,8 @@
             "transitionEffect": "none"
         },
         "outTransitionConfig": {
-            "transitionDirection": "fromRight",
-            "transitionEffect": "transitionMoveIn"
+            "transitionDirection": "none",
+            "transitionEffect": "none"
         },
         "psp": {
             "inputAccessoryViewType": 4,

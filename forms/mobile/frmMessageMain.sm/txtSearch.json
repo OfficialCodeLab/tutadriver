@@ -52,10 +52,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "40dp"
-    },
+    "height": "40dp",
     "id": "txtSearch",
     "info": null,
     "isVisible": true,
@@ -87,18 +84,12 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "top": "5dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "90%"
-    },
+    "width": "90%",
     "zIndex": 1,
     "zindex": 1
 }

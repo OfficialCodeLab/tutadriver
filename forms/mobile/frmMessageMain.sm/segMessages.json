@@ -260,7 +260,7 @@
         "templateType": "segments",
         "topLevelBox": false
     },
-    "counter": 3,
+    "counter": "07",
     "data": [
         {
             "btnReadMsg": {
@@ -479,10 +479,7 @@
     "groupCells": false,
     "groupcells": false,
     "hasSections": false,
-    "height": {
-        "type": "string",
-        "value": "640dp"
-    },
+    "height": "640dp",
     "id": "segMessages",
     "indicator": "none",
     "info": null,
@@ -500,10 +497,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "2d5c8c24320f49db96d7b2c3fc0ef67f",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -537,12 +531,13 @@
     "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
     "rowSkin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowTemplateId": "80ee3c45af264b2a871219b15a066e3b",
-    "rowcounter": 2,
+    "rowcounter": 7,
     "rowfocusskin": "s3b02543e6f7476fbda219596cb964f5",
     "rowskin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowtemplate": "flexMessage",
     "screenLevelWidget": false,
     "screenlevelwidget": false,
+    "scrollingEvents": false,
     "scrollingevents": false,
     "seccounter": 0,
     "sectionHeaderSkin": "s834745f6d204b0896958ba9c03b8ead",
@@ -566,11 +561,7 @@
     "separatorthickness": 1,
     "showScrollbars": false,
     "showscrollbars": false,
-    "skin": "seg2Normal",
-    "top": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "top": "50dp",
     "viewType": "tableview",
     "viewtype": "tableview",
     "wType": "Segment",
@@ -594,10 +585,7 @@
         "lblTextPreview": "lblTextPreview",
         "lblTime": "lblTime"
     },
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }
