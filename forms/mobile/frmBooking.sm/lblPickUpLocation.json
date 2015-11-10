@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s1ba6827e79744beb0b61169b8832cd9",
+    "_skin_": "saff2f245bea4d2ab8f9a327bc0f6da4",
     "_text_": "32 Woodlands Drive, 2191, South Africa",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "12dp"
     },
     "_width_": {
         "type": "string",
-        "value": "157dp"
+        "value": "200dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -72,17 +72,17 @@
     "parent": "flexBookingInfo",
     "pf": "frmBooking",
     "render": true,
-    "skin": "s1ba6827e79744beb0b61169b8832cd9",
+    "skin": "saff2f245bea4d2ab8f9a327bc0f6da4",
     "text": "32 Woodlands Drive, 2191, South Africa",
     "toolTip": "",
     "tooltip": "",
-    "top": "10dp",
+    "top": "12dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "157dp",
+    "width": "200dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

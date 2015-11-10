@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb3c73def8e347d0b1810cf811ea56bc",
+    "_text_": "ROBERT",
+    "_top_": {
+        "type": "string",
+        "value": "573dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "lblCustomerName",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "fc2e90d1ff7745238e1d8e76851f6f64",
+    "left": "28dp",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexContent",
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "sb3c73def8e347d0b1810cf811ea56bc",
+    "text": "ROBERT",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "573dp",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "80dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

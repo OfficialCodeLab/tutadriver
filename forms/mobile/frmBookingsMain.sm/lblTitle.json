@@ -81,6 +81,9 @@
     "text": "YOUR BOOKINGS",
     "toolTip": "",
     "tooltip": "",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Label",
     "widgetAlignment": 5,
     "width": {

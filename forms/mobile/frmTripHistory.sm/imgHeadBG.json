@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bookingsbg.png",
+    "_src_": "bluebg.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -41,7 +41,7 @@
         "channel": "mobile",
         "formID": "frmTripHistory",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -74,7 +74,7 @@
     "pf": "frmTripHistory",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bookingsbg.png",
+    "src": "bluebg.png",
     "srcType": 1,
     "top": "0dp",
     "wType": "Image",

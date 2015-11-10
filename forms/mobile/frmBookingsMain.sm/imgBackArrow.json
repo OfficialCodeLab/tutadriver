@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "22dp"
     },
     "_margin_": [
         0,
@@ -26,11 +26,11 @@
     "_src_": "backarrow.png",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -46,7 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "40dp",
+    "height": "30dp",
     "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -55,7 +55,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "e62928c8694a4c24b60244b3a7b902e8",
-    "left": "15dp",
+    "left": "22dp",
     "margin": [
         0,
         0,
@@ -75,14 +75,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "backarrow.png",
     "srcType": 1,
-    "top": "15dp",
+    "top": "20dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "40dp",
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

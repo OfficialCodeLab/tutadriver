@@ -16,6 +16,12 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -36,9 +42,11 @@
     "device": "iPhone3",
     "displayOrientation": 1,
     "displayorientation": 1,
+    "enableScrolling": true,
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
+    "enablescrolling": true,
     "id": "frmBookingsMain",
     "info": null,
     "initdone": false,
@@ -51,6 +59,7 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -107,6 +116,18 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -188,5 +209,10 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "windowSoftInputMode": 2,
+    "windowsoftinputmode": 2,
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
+    "_skin_": "s0b4330b995d48ee925e195f4a9069e4",
     "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
     "_top_": {
         "type": "string",
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "170dp"
+        "value": "220dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -72,7 +72,7 @@
     "parent": "flexBookingInfo",
     "pf": "frmBooking",
     "render": true,
-    "skin": "s6d9ba4e906f4a22b7a79a8c0fbd5b7d",
+    "skin": "s0b4330b995d48ee925e195f4a9069e4",
     "text": "21 Ebury Ave Bryanston, 2191, South Africa",
     "toolTip": "",
     "tooltip": "",
@@ -82,7 +82,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "170dp",
+    "width": "220dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

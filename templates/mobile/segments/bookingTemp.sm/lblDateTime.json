@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_height_": {
         "type": "string",
@@ -12,7 +12,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "100dp"
+        "value": "97dp"
     },
     "_margin_": [
         1,
@@ -26,20 +26,20 @@
         0,
         0
     ],
-    "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "_skin_": "s37077f12d4e46cb80404c5ea092cc86",
     "_text_": "20/10/2015, 2:00 pm",
     "_width_": {
         "type": "string",
         "value": "80dp"
     },
     "_wrapping_": 2,
-    "bottom": "5dp",
+    "bottom": "10dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 7,
+    "contentalignment": 7,
     "enabled": false,
     "height": "12dp",
     "id": "lblDateTime",
@@ -58,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "d171a8389def48618ed5c6dbc8e2f1a4",
-    "left": "100dp",
+    "left": "97dp",
     "margin": [
         1,
         1,
@@ -75,7 +75,7 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "skin": "s37077f12d4e46cb80404c5ea092cc86",
     "text": "20/10/2015, 2:00 pm",
     "toolTip": "",
     "tooltip": "",

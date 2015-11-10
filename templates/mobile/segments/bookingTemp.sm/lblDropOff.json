@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s3b3a3526c4e4aa9b67d602947db42a9",
+    "_skin_": "s5104b1e594f45cc95ceb88019556de1",
     "_text_": "DROP:",
     "_width_": {
         "type": "string",
@@ -75,7 +75,7 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s3b3a3526c4e4aa9b67d602947db42a9",
+    "skin": "s5104b1e594f45cc95ceb88019556de1",
     "text": "DROP:",
     "toolTip": "",
     "tooltip": "",
