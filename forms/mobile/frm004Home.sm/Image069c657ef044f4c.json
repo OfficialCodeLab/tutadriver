@@ -3,13 +3,17 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "82dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,51 +27,34 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "flagicon.png",
-    "_top_": {
-        "type": "string",
-        "value": "28dp"
-    },
+    "_skin_": "sdbac1e46a214bd488b9ac65551b817b",
+    "_src_": "profilepicbookingnew.png",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "82dp"
     },
     "base64": null,
+    "bottom": 0,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerY": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
         "formID": "frm004Home",
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "Image0fc8a78544a0f46",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "height": "82dp",
+    "id": "Image069c657ef044f4c",
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
     "isvisible": true,
-    "kuid": "60e992c6359348928cf98fbecf57a8aa",
-    "left": "5dp",
+    "kuid": "ddd3b516995649dabeb4e979e5d85349",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -81,20 +68,16 @@
         0,
         0
     ],
-    "parent": "FlexContainer056a06926945746",
+    "parent": "flexDriving",
     "pf": "frm004Home",
     "render": true,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "flagicon.png",
+    "skin": "sdbac1e46a214bd488b9ac65551b817b",
+    "src": "profilepicbookingnew.png",
     "srcType": 1,
-    "top": "28dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "zIndex": 1,
-    "zindex": 1
+    "width": "82dp",
+    "zIndex": 69,
+    "zindex": 69
 }

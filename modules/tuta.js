@@ -11,6 +11,7 @@ function init(){
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
   frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
+  frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
   
   frm002SignupScreen.btnCheckAgree.onClick = function(){
     if((frm002SignupScreen.imgTick.isVisible===false)){
