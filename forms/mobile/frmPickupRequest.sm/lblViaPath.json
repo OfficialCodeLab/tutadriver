@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "139dp"
+        "value": "30dp"
     },
     "_margin_": [
         1,
@@ -25,7 +21,7 @@
     "_text_": "21 Woodlands drive",
     "_top_": {
         "type": "string",
-        "value": "370dp"
+        "value": "170dp"
     },
     "_width_": {
         "type": "string",
@@ -44,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "height": "30dp",
     "id": "lblViaPath",
     "info": null,
     "ipad": {
@@ -63,8 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "099b5cfba9e24c12bf610470b25322fa",
-    "left": "139dp",
+    "kuid": "272977b3488c4069ad5b77b7675cffd9",
     "margin": [
         1,
         1,
@@ -78,14 +70,14 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexRequestInfo",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s8249d86d3a94ddb9b90323b87b73a04",
     "text": "21 Woodlands drive",
     "toolTip": "",
     "tooltip": "",
-    "top": "370dp",
+    "top": "170dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",

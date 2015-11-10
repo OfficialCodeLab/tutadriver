@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "90dp"
+        "value": "70dp"
     },
     "_margin_": [
         6,
@@ -44,12 +44,12 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "90dp",
+    "height": "70dp",
     "id": "btnAcceptRequest",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "d34a762582894a3f8a59ce49b529f9a9",
+    "kuid": "d7d4c223bd904ef7b2478ea5b36215ac",
     "margin": [
         6,
         6,
@@ -57,8 +57,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_aabfa7bedad2480c9b304239175af8c6",
-    "onclick": "AS_Button_aabfa7bedad2480c9b304239175af8c6",
+    "onClick": "AS_Button_039e624e4f7542f68bc0c8abbc289189",
+    "onclick": "AS_Button_039e624e4f7542f68bc0c8abbc289189",
     "padding": [
         0,
         0,
@@ -67,7 +67,7 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "frmPickupRequest",
+    "parent": "flexButtons",
     "pf": "frmPickupRequest",
     "render": true,
     "right": "0%",

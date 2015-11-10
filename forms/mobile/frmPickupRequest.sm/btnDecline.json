@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "90dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -44,12 +44,12 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "90dp",
+    "height": "70dp",
     "id": "btnDecline",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "36c6e4f9ac674f1f9f8211f32b03bc40",
+    "kuid": "db3a144e2cb7464eb992cfaaf48f4105",
     "left": "0%",
     "margin": [
         6,
@@ -58,8 +58,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_11dc4669c9de4649a2131d8d9eeda2c1",
-    "onclick": "AS_Button_11dc4669c9de4649a2131d8d9eeda2c1",
+    "onClick": "AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5",
+    "onclick": "AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5",
     "padding": [
         0,
         0,
@@ -68,7 +68,7 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "frmPickupRequest",
+    "parent": "flexButtons",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s0a9493b6cbb414a8e86a7de9464c3f3",

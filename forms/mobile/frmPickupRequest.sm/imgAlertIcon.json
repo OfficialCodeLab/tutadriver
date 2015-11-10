@@ -22,7 +22,7 @@
     "_src_": "bluealert.png",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
@@ -48,14 +48,14 @@
     },
     "enabled": false,
     "height": "80dp",
-    "id": "imgHeaderAlert",
+    "id": "imgAlertIcon",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "2c5dce2f67084fea8953e457c20ac0fd",
+    "kuid": "e7e6a1c430c7410784361cba123ea4b9",
     "margin": [
         0,
         0,
@@ -69,13 +69,13 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "FlexContainer0bcd9884ce1274e",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "bluealert.png",
     "srcType": 1,
-    "top": "50dp",
+    "top": "30dp",
     "vizProps": {
         "lock": true
     },

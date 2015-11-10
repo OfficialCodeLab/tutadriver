@@ -1,14 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "80dp"
     },
     "_margin_": [
         1,
@@ -22,25 +17,31 @@
         0,
         0
     ],
-    "_skin_": "s93162c709394006b44cd8073b88c2ef",
-    "_text_": "Label",
+    "_skin_": "s4520344818b4e4b9328c5378da86286",
+    "_text_": "You have received a new pickup request.",
     "_top_": {
         "type": "string",
-        "value": "520dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "60%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": "2dp",
-    "id": "Label00354fbc8826541",
+    "height": "80dp",
+    "id": "lblNewAlertTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -48,14 +49,14 @@
         }
     },
     "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "55cf531f0f3b412ab6a32920d4dda64a",
-    "left": "0dp",
+    "kuid": "f894bba5aadd4138bf9119ff1ad84c31",
     "margin": [
         1,
         1,
@@ -69,18 +70,21 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "FlexContainer0bcd9884ce1274e",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s93162c709394006b44cd8073b88c2ef",
-    "text": "Label",
+    "skin": "s4520344818b4e4b9328c5378da86286",
+    "text": "You have received a new pickup request.",
     "toolTip": "",
     "tooltip": "",
-    "top": "520dp",
+    "top": "110dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "100%",
+    "width": "60%",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }

@@ -58,7 +58,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "024f487bb5da42ecafbca53d370d5888",
+    "kuid": "7a221e6a399f4b159472ad19b9726ca7",
     "left": "104dp",
     "margin": [
         1,
@@ -73,7 +73,7 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexRequestInfo",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "sa75b5991dd24916b8d925f8fb48c771",

@@ -21,6 +21,7 @@
         "inTransitionConfig": {
             "formAnimation": 10
         },
+        "needAppMenu": false,
         "psp": {
             "windowSoftInputMode": 2
         }
@@ -28,21 +29,9 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "imgHeaderAlert",
-        "lblNewRequestTitle",
         "lblSep1",
         "lblSep2",
-        "lblEtaTitle",
-        "btnDecline",
-        "btnAcceptRequest",
-        "lblETA",
-        "lblCustomerName",
-        "lblAddress",
-        "lblPickupLocation",
-        "lblVia",
-        "lblViaPath",
-        "Label00354fbc8826541",
-        "Label034a2ef8f41e845"
+        "FlexScrollContainer0f6b7e503490b47"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -82,6 +71,7 @@
             "transitionDirection": "fromTop",
             "transitionEffect": "none"
         },
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -97,10 +87,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -127,7 +117,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "android",
-    "prevDevice": "iPhone3",
+    "prevDevice": "iPhone6Zoomed",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
@@ -142,6 +132,18 @@
         "inTransitionConfig": {
             "formTransition": "none"
         }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
     },
     "title": null,
     "titleBar": true,
@@ -161,7 +163,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -216,7 +218,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -230,6 +232,7 @@
             "inTransition": "none",
             "transitionMode": "none",
             "transitionSpeed": 0
-        }
+        },
+        "needAppMenu": false
     }
 }
