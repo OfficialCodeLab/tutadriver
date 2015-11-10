@@ -21,7 +21,7 @@
     "_text_": "Flag Down",
     "_top_": {
         "type": "string",
-        "value": "17%"
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "Flag Down",
     "toolTip": "",
     "tooltip": "",
-    "top": "17%",
+    "top": "110dp",
     "vizProps": {
         "lock": true
     },

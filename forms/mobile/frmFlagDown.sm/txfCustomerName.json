@@ -22,7 +22,7 @@
     "_text_": "Customer Name",
     "_top_": {
         "type": "string",
-        "value": "32%"
+        "value": "205dp"
     },
     "_width_": {
         "type": "string",
@@ -84,7 +84,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": "32%",
+    "top": "205dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {

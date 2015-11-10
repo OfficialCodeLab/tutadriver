@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "20%"
+        "value": "0%"
     },
     "_height_": {
         "type": "string",
-        "value": "6%"
+        "value": "80%"
     },
     "_margin_": [
         1,
@@ -21,32 +21,33 @@
         0,
         0
     ],
-    "_skin_": "sb32139769304f74ab30d8247a4ad4e9",
-    "_text_": "Estimated trip cost:",
-    "_top_": {
-        "type": "string",
-        "value": "330dp"
-    },
+    "_skin_": "sf1e61a643f2432cbe986f4e6e42339c",
+    "_text_": "Label",
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "1dp"
     },
     "_wrapping_": 2,
-    "bottom": "20%",
+    "bottom": "0%",
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "50%",
     "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
         "type": "string",
         "value": "50%"
     },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "6%",
-    "id": "lblEstimateTitle",
+    "height": "80%",
+    "id": "lblSepVert",
     "info": null,
     "ipad": {
         "psp": {
@@ -61,7 +62,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "53840aa35adb4d488f15be9440369f9c",
+    "kuid": "c7a1553f1f8b4d2a934e76eb451253a3",
     "margin": [
         1,
         1,
@@ -75,21 +76,18 @@
         0,
         0
     ],
-    "parent": "flexScrollFlagDown",
+    "parent": "flexFixedFooter",
     "pf": "frmFlagDown",
     "render": true,
-    "skin": "sb32139769304f74ab30d8247a4ad4e9",
-    "text": "Estimated trip cost:",
+    "skin": "sf1e61a643f2432cbe986f4e6e42339c",
+    "text": "Label",
     "toolTip": "",
     "tooltip": "",
-    "top": "330dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "70%",
-    "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "width": "1dp",
+    "wrapping": 2
 }

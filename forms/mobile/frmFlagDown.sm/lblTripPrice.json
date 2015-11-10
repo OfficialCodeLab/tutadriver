@@ -1,13 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "20%"
-    },
     "_height_": {
-        "type": "string",
-        "value": "6%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -21,32 +18,33 @@
         0,
         0
     ],
-    "_skin_": "sb32139769304f74ab30d8247a4ad4e9",
-    "_text_": "Estimated trip cost:",
+    "_skin_": "sa75b5991dd24916b8d925f8fb48c771",
+    "_text_": "R250 - R275",
     "_top_": {
         "type": "string",
-        "value": "330dp"
+        "value": "368dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "70%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
-    "bottom": "20%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "6%",
-    "id": "lblEstimateTitle",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "lblTripPrice",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,14 +52,13 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "53840aa35adb4d488f15be9440369f9c",
+    "kuid": "1eae72a68d8d448aa3cca77728c812dd",
     "margin": [
         1,
         1,
@@ -78,18 +75,18 @@
     "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
-    "skin": "sb32139769304f74ab30d8247a4ad4e9",
-    "text": "Estimated trip cost:",
+    "skin": "sa75b5991dd24916b8d925f8fb48c771",
+    "text": "R250 - R275",
     "toolTip": "",
     "tooltip": "",
-    "top": "330dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "368dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "70%",
+    "width": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

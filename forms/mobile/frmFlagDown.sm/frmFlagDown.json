@@ -26,7 +26,8 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexScrollFlagDown"
+        "flexScrollFlagDown",
+        "flexFixedFooter"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -102,7 +103,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "iPhone3",
+    "prevDevice": "GalaxyS4",
     "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,

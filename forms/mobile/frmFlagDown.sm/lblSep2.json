@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "30%"
-    },
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -23,12 +19,15 @@
     ],
     "_skin_": "sf1e61a643f2432cbe986f4e6e42339c",
     "_text_": "Label",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
     "_width_": {
         "type": "string",
         "value": "90%"
     },
     "_wrapping_": 2,
-    "bottom": "30%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -41,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
+    "height": "1dp",
     "id": "lblSep2",
     "info": null,
     "ipad": {
@@ -57,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9388d0a4ee1341abb4932efef9fdca57",
+    "kuid": "ecb017e567d44d4c82bafc2b5cc43149",
     "margin": [
         1,
         1,
@@ -71,13 +70,14 @@
         0,
         0
     ],
-    "parent": "flexScrollFlagDown",
+    "parent": "flexFixedFooter",
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sf1e61a643f2432cbe986f4e6e42339c",
     "text": "Label",
     "toolTip": "",
     "tooltip": "",
+    "top": "2%",
     "vizProps": {
         "lock": true
     },

@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "20%"
+        "value": "30%"
     },
     "_height_": {
         "type": "string",
-        "value": "6%"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -21,18 +21,18 @@
         0,
         0
     ],
-    "_skin_": "sb32139769304f74ab30d8247a4ad4e9",
-    "_text_": "Estimated trip cost:",
+    "_skin_": "sf1e61a643f2432cbe986f4e6e42339c",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "330dp"
+        "value": "420dp"
     },
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "90%"
     },
     "_wrapping_": 2,
-    "bottom": "20%",
+    "bottom": "30%",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -42,11 +42,11 @@
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "6%",
-    "id": "lblEstimateTitle",
+    "height": "1dp",
+    "id": "lblSep3",
     "info": null,
     "ipad": {
         "psp": {
@@ -61,7 +61,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "53840aa35adb4d488f15be9440369f9c",
+    "kuid": "d7c82b4d0bad49ddb01ed18f8bdd59cc",
     "margin": [
         1,
         1,
@@ -78,18 +78,16 @@
     "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
-    "skin": "sb32139769304f74ab30d8247a4ad4e9",
-    "text": "Estimated trip cost:",
+    "skin": "sf1e61a643f2432cbe986f4e6e42339c",
+    "text": "Label",
     "toolTip": "",
     "tooltip": "",
-    "top": "330dp",
+    "top": "420dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "70%",
-    "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "width": "90%",
+    "wrapping": 2
 }

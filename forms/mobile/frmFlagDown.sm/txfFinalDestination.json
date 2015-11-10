@@ -22,7 +22,7 @@
     "_text_": "Enter Final Destination",
     "_top_": {
         "type": "string",
-        "value": "39%"
+        "value": "255dp"
     },
     "_width_": {
         "type": "string",
@@ -84,7 +84,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": "39%",
+    "top": "255dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
