@@ -50,7 +50,6 @@ function resetSearch(){
 
 var menuOpen = false;
 function animateMenu(){
-  //frmMap.flexSwipe.setVisibility(false); 
   frm004Home.btnChs.setVisibility(false);  
   if(menuOpen === false){ //OPEN MENU
     frm004Home.imgChsC.setVisibility(false);

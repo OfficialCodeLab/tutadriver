@@ -23,6 +23,9 @@
         "needAppMenu": false,
         "outTransitionConfig": {
             "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,

@@ -1,9 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "80%"
     },
     "_left_": {
         "type": "string",
@@ -21,30 +22,26 @@
         0,
         0
     ],
-    "_skin_": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "_text_": "Logged in as cab driver",
+    "_skin_": "sced5de215cd487992613b518bea9932",
+    "_text_": "",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "2dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "65%",
+    "centerY": "50%",
     "centery": {
         "type": "string",
-        "value": "65%"
+        "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblaccounttype",
+    "height": "80%",
+    "id": "Label092ac236f8b2541",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,14 +49,13 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f30c26e5a61f435989d2df5aafe92892",
+    "kuid": "b1e2eff968fe4dd49774e3af7ddf5388",
     "left": "70dp",
     "margin": [
         1,
@@ -74,20 +70,15 @@
         0,
         0
     ],
-    "parent": "flexMenuProfile",
+    "parent": "FlexContainer056a06926945746",
     "pf": "frm004Home",
     "render": true,
-    "skin": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "text": "Logged in as cab driver",
+    "skin": "sced5de215cd487992613b518bea9932",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "width": "2dp",
+    "wrapping": 2
 }

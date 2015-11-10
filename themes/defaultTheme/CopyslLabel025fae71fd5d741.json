@@ -11,22 +11,22 @@
   "desktopweb": {
     "font_name": "Helvetica"
   },
-  "font_color": "424242ff",
+  "font_color": "36bba7ff",
   "font_name": "",
-  "font_size": 90,
-  "font_style": "italic",
-  "font_weight": "normal",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "bold",
   "ipad": {
     "font_name": "Helvetica"
   },
   "iphone": {
-    "font_name": "HelveticaNeue-Italic"
+    "font_name": "Helvetica-Bold"
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "GenericMonospace"
   },
-  "kuid": "sf939a37d3ee49ef9a97b38ebc2e163a",
+  "kuid": "sffa938ba254485895758dd8a09db825",
   "spaan": {
     "font_name": "Helvetica"
   },
