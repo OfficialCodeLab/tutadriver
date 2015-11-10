@@ -47,7 +47,9 @@
         "txfFinalDestination",
         "lblEstimateTitle",
         "lblTripPrice",
-        "lblSep3"
+        "lblSep3",
+        "imgCustomerNameBackground",
+        "imgDestinationBackground"
     ],
     "clipBounds": true,
     "clipbounds": true,
