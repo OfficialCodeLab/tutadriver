@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "1dp"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
-        "value": "45dp"
+        "value": "90dp"
     },
     "_margin_": [
         6,
@@ -23,31 +23,28 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "5%"
+        "value": "0%"
     },
     "_skin_": "s4a7c581b6f14d9ea992cccc1e0fbbba",
-    "_text_": "Accept",
-    "_top_": {
-        "type": "string",
-        "value": "500dp"
-    },
+    "_text_": "Confirm",
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "47%"
     },
-    "bottom": "1dp",
+    "bottom": "0dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": "45dp",
+    "height": "90dp",
     "id": "btnAcceptRequest",
     "info": null,
     "isVisible": true,
@@ -73,16 +70,15 @@
     "parent": "frmPickupRequest",
     "pf": "frmPickupRequest",
     "render": true,
-    "right": "5%",
+    "right": "0%",
     "skin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
-    "text": "Accept",
-    "top": "500dp",
+    "text": "Confirm",
     "vizProps": {
         "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "45%",
+    "width": "47%",
     "zIndex": 2,
     "zindex": 2
 }

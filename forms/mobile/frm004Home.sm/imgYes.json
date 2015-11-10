@@ -1,10 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "100dp"
     },
     "_margin_": [
         0,
@@ -18,44 +19,40 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bluealert.png",
-    "_top_": {
-        "type": "string",
-        "value": "50dp"
+    "_right_": {
+        "type": "number",
+        "value": "0"
     },
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "tickicon2.png",
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "45%"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
+    "centerY": "50%",
+    "centery": {
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmPickupRequest",
-        "ispercent": true,
-        "platform": "android",
+        "formID": "frm004Home",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "80dp",
-    "id": "imgHeaderAlert",
+    "height": "100dp",
+    "id": "imgYes",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "2c5dce2f67084fea8953e457c20ac0fd",
+    "kuid": "8894b5be722f472caadd9384aff9bdc0",
     "margin": [
         0,
         0,
@@ -69,20 +66,17 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
-    "pf": "frmPickupRequest",
+    "parent": "flexCancelConfirmButtons",
+    "pf": "frm004Home",
     "render": true,
+    "right": 0,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bluealert.png",
+    "src": "tickicon2.png",
     "srcType": 1,
-    "top": "50dp",
-    "vizProps": {
-        "lock": true
-    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100dp",
+    "width": "45%",
     "zIndex": 1,
     "zindex": 1
 }

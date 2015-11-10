@@ -1,10 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "100dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -19,43 +24,35 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bluealert.png",
+    "_src_": "cancelicon.png",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "45%"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmPickupRequest",
-        "ispercent": true,
-        "platform": "android",
+        "formID": "frm004Home",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "80dp",
-    "id": "imgHeaderAlert",
+    "height": "100dp",
+    "id": "imgNo",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "2c5dce2f67084fea8953e457c20ac0fd",
+    "kuid": "d991beb9a2c148b4befd7af7bf2dbebe",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -69,20 +66,17 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
-    "pf": "frmPickupRequest",
+    "parent": "flexCancelConfirmButtons",
+    "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bluealert.png",
+    "src": "cancelicon.png",
     "srcType": 1,
-    "top": "50dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100dp",
+    "width": "45%",
     "zIndex": 1,
     "zindex": 1
 }

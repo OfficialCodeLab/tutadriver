@@ -32,7 +32,8 @@
     "channel": "mobile",
     "children": [
         "flexMenu",
-        "flexMapScreen"
+        "flexMapScreen",
+        "flexAcceptDecline"
     ],
     "containerWeight": 100,
     "containerweight": 100,

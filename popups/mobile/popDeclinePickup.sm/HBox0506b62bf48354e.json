@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_margin_": [
         0,
-        0,
+        9,
         0,
         0
     ],
@@ -15,7 +15,7 @@
     ],
     "_percent_": true,
     "_position_": 3,
-    "_skin_": "sd2bca4b57514cfabcf8947f0767ad3e",
+    "_skin_": "s0667a5aae15439d90c18c218a25b36b",
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
@@ -35,10 +35,12 @@
     "layouttype": 0,
     "margin": [
         0,
-        0,
+        9,
         0,
         0
     ],
+    "marginInPixel": false,
+    "margininpixel": false,
     "name": "kony.ui.Box",
     "orientation": 1,
     "padding": [
@@ -52,7 +54,7 @@
     "pf": "popDeclinePickup",
     "position": 3,
     "render": true,
-    "skin": "sd2bca4b57514cfabcf8947f0767ad3e",
+    "skin": "s0667a5aae15439d90c18c218a25b36b",
     "wType": "HBox",
     "widgetAlignment": 1,
     "widgetalignment": 1

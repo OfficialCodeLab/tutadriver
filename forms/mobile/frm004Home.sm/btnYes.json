@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s9e60e414eda471cb36b6928f110396c",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": "100dp",
+    "id": "btnYes",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "186282e8d6d046eda1acbdd48701e24b",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexCancelConfirmButtons",
+    "pf": "frm004Home",
+    "render": true,
+    "right": 0,
+    "skin": "s9e60e414eda471cb36b6928f110396c",
+    "text": "",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "45%"
+}

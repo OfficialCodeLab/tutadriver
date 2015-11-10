@@ -40,7 +40,9 @@
         "lblAddress",
         "lblPickupLocation",
         "lblVia",
-        "lblViaPath"
+        "lblViaPath",
+        "Label00354fbc8826541",
+        "Label034a2ef8f41e845"
     ],
     "containerWeight": 100,
     "containerweight": 100,

@@ -21,6 +21,7 @@
     "containerweight": 1,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "donotUpdateContainerWeight": false,
     "enabled": false,
     "id": "lblButtonSep",
     "info": null,
@@ -48,7 +49,7 @@
     "name": "kony.ui.Label",
     "paddInPixel": [
         0,
-        86.36,
+        121.92,
         0,
         0
     ],

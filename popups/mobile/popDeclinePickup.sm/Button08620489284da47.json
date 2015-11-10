@@ -13,7 +13,7 @@
         4,
         4
     ],
-    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_skin_": "s8a5d2ac9c7d45708133cc5a1d442f6b",
     "_text_": "Button",
     "canUpdateUI": true,
     "containerWeight": 50,
@@ -52,7 +52,7 @@
     "parent": "HBox0506b62bf48354e",
     "pf": "popDeclinePickup",
     "render": true,
-    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "skin": "s8a5d2ac9c7d45708133cc5a1d442f6b",
     "text": "Button",
     "wType": "Button",
     "widgetAlignment": 5

@@ -1,9 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -17,31 +22,25 @@
         0,
         0
     ],
-    "_skin_": "s4520344818b4e4b9328c5378da86286",
-    "_text_": "You have received a new pickup request.",
+    "_skin_": "s93162c709394006b44cd8073b88c2ef",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "130dp"
+        "value": "520dp"
     },
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "70dp",
-    "id": "lblNewRequestTitle",
+    "height": "2dp",
+    "id": "Label00354fbc8826541",
     "info": null,
     "ipad": {
         "psp": {
@@ -49,14 +48,14 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "59d30fd95cd148cf8a78669680ddda4c",
+    "kuid": "55cf531f0f3b412ab6a32920d4dda64a",
+    "left": "0dp",
     "margin": [
         1,
         1,
@@ -73,18 +72,15 @@
     "parent": "frmPickupRequest",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s4520344818b4e4b9328c5378da86286",
-    "text": "You have received a new pickup request.",
+    "skin": "s93162c709394006b44cd8073b88c2ef",
+    "text": "Label",
     "toolTip": "",
     "tooltip": "",
-    "top": "130dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "520dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "60%",
+    "width": "100%",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }
