@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s85657e1470940b5a01441aea6b0551b",
+    "_skin_": "s35663eace7046f78acabb34cd2902c9",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -34,7 +34,10 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "Image0ffaa40912ddc43",
+        "Label09515cc954b9d4b"
+    ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -43,13 +46,13 @@
     "enabled": false,
     "enablescrolling": true,
     "height": "100%",
-    "id": "flexDarken",
+    "id": "flexFindingDest",
     "info": null,
     "isVisible": false,
     "isvisible": false,
-    "kuid": "9d0dff771d914cb5a7c0e5b452d956ca",
-    "layoutType": 2,
-    "layouttype": 2,
+    "kuid": "0d07f6d156a94ae484ffaf85550f091b",
+    "layoutType": 4,
+    "layouttype": 4,
     "left": "0dp",
     "margin": [
         0,
@@ -65,11 +68,11 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "frm004Home",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "s85657e1470940b5a01441aea6b0551b",
+    "skin": "s35663eace7046f78acabb34cd2902c9",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
@@ -79,6 +82,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 999,
-    "zindex": 999
+    "zIndex": 69,
+    "zindex": 69
 }

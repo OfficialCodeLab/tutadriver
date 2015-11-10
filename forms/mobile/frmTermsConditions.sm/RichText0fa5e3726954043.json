@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4c51cce95a4f98899e342f400f8041",
+    "_text_": "<strong>Terms and Conditions:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.<br><br>\n<strong>Privacy Policy:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.<br><br><strong>Disclaimers:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.",
+    "_top_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 1,
+    "contentalignment": 1,
+    "enabled": false,
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "RichText0fa5e3726954043",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "a25b85d7da7f404e857acb703cee9934",
+    "left": "23dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.RichText",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexScrollLegalText",
+    "pf": "frmTermsConditions",
+    "render": true,
+    "skin": "sc4c51cce95a4f98899e342f400f8041",
+    "text": "<strong>Terms and Conditions:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.<br><br>\n<strong>Privacy Policy:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.<br><br><strong>Disclaimers:</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mollis est. Aenean condimentum, orci nec mattis porta, velit velit tristique risus, at porta mauris arcu in orci. Etiam laoreet dolor nulla, quis sodales lorem vehicula ut. Pellentesque in arcu mauris. Fusce volutpat et enim vitae pellentesque.",
+    "toolTip": "",
+    "top": "45dp",
+    "wType": "RichText",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "90%",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

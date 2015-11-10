@@ -59,7 +59,7 @@
     "focusSkin": "s9af574f0ad84a1b9dc7772d87e9c7de",
     "focusskin": "s9af574f0ad84a1b9dc7772d87e9c7de",
     "height": "35dp",
-    "id": "TextField0943332fec5114d",
+    "id": "txtDest",
     "info": null,
     "iphone": {},
     "isVisible": true,
@@ -81,7 +81,7 @@
         0,
         0
     ],
-    "parent": "flexAddress",
+    "parent": "flexDest",
     "pf": "frm004Home",
     "placeholder": "Click to Set a Destination",
     "placeholderSkin": "s9af574f0ad84a1b9dc7772d87e9c7de",

@@ -5,7 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "160dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "122dp"
     },
     "_margin_": [
         0,
@@ -19,22 +23,27 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "tickicon2.png",
+    "_src_": "tutalogoclear.png",
+    "_top_": {
+        "type": "string",
+        "value": "235dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "160dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
+    "centerX": "50%",
+    "centerY": "40%",
+    "centerx": {
         "type": "string",
         "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "40%"
     },
     "containerWeight": 100,
     "containerweight": 100,
@@ -47,15 +56,17 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "100dp",
-    "id": "imgYes",
+    "height": "160dp",
+    "id": "Image0ffaa40912ddc43",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "8894b5be722f472caadd9384aff9bdc0",
+    "kuid": "0766146a1de04b22b7762fc13f8d4d8c",
+    "left": "122dp",
     "margin": [
         0,
         0,
@@ -69,17 +80,17 @@
         0,
         0
     ],
-    "parent": "flexCancelConfirmButtons",
+    "parent": "flexFindingDest",
     "pf": "frm004Home",
     "render": true,
-    "right": 0,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "tickicon2.png",
+    "src": "tutalogoclear.png",
     "srcType": 1,
+    "top": "235dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "45%",
+    "width": "160dp",
     "zIndex": 1,
     "zindex": 1
 }

@@ -10,6 +10,8 @@ function init(){
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
   frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
+  frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
+  
   frm002SignupScreen.btnCheckAgree.onClick = function(){
     if((frm002SignupScreen.imgTick.isVisible===false)){
       frm002SignupScreen.imgTick.setVisibility(true);
@@ -17,6 +19,22 @@ function init(){
     else {
       frm002SignupScreen.imgTick.setVisibility(false);
     }
+  };
+  
+  frm004Home.txtDest.onDone = function(widget) {
+    if(frm004Home.txtDest.text != null){
+      frm004Home.flexFindingDest.setVisibility(true);
+      //ssa.mobile.alert("Search", "Search Done");
+      selectDest(frm004Home);      
+    }
+  };
+  
+  frm004Home.mapMain.onClick = function(map, location) {
+    frm004Home.flexAddressList.setVisibility(false);
+    frm004Home.flexAddressShadow.setVisibility(false);
+   	//kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
+    //resetSearchBar();
+    searchMode = 0;
   };
 }
 
@@ -46,6 +64,34 @@ function searchTxtChange(){
 function resetSearch(){
 	frmMessageMain.txtSearch.text = "Search";
   	frmMessageMain.imgSearchIcon.isVisible = true;
+}
+
+var searchMode = 0;
+function selectDest(form) {
+  var add = "";
+ // if(searchMode == 0)
+    add = frm004Home.txtDest.text;
+ // else
+   // add = frm004Home.txtPick.text;
+    
+  ssa.location.addressList(add, function(result) {
+    //ssa.mobile.alert("RES", JSON.stringify(result));
+    frm004Home.flexFindingDest.setVisibility(false);
+    if(result.status === "ZERO_RESULTS")
+    {
+      //popNoResults.show();
+      frm004Home.txtDest.text = "";
+      //frm004Home.txtPick.text = "";
+    }
+    else{
+      frm004Home.flexAddressList.setVisibility(true);
+      frm004Home.flexAddressShadow.setVisibility(true);
+      frm004Home.segAddressList.widgetDataMap = { lblAddress : "formatted_address"};  
+      frm004Home.segAddressList.setData(result.results);
+      frm004Home.txtDest.text = "";
+      //frm004Home.txtPick.text = "";
+    }
+  });
 }
 
 var menuOpen = false;

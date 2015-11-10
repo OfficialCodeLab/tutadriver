@@ -41,7 +41,9 @@
         "btnChs",
         "flexDarken",
         "FlexContainer0a815002f68b74c",
-        "flexAddress",
+        "flexDest",
+        "flexDestShadow",
+        "flexAddressList",
         "flexAddressShadow"
     ],
     "clipBounds": true,

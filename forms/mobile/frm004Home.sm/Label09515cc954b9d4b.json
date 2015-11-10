@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -21,26 +22,30 @@
         0,
         0
     ],
-    "_skin_": "s7fee09454004e0bb966c8b9687cfd2d",
-    "_text_": "Terms & Conditions:",
+    "_skin_": "sf2171937149496bbe67b623171f1499",
+    "_text_": "FINDING LOCATION...",
     "_top_": {
         "type": "string",
-        "value": "45dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "170dp"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": "30dp",
-    "id": "lblTitleTermsConditions",
+    "height": "50dp",
+    "id": "Label09515cc954b9d4b",
     "info": null,
     "ipad": {
         "psp": {
@@ -48,15 +53,14 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "0ffe1403cbee4f9f827afdb2e4480b9b",
-    "left": "25dp",
+    "kuid": "cf4b47df820a4fff813fc9d4969f8846",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -70,19 +74,16 @@
         0,
         0
     ],
-    "parent": "flexScrollLegalText",
-    "pf": "frmTermsConditions",
+    "parent": "flexFindingDest",
+    "pf": "frm004Home",
     "render": true,
-    "skin": "s7fee09454004e0bb966c8b9687cfd2d",
-    "text": "Terms & Conditions:",
+    "skin": "sf2171937149496bbe67b623171f1499",
+    "text": "FINDING LOCATION...",
     "toolTip": "",
     "tooltip": "",
-    "top": "45dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "20dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "170dp",
+    "width": "100%",
     "wrapping": 2
 }
