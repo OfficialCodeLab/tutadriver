@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
-        "value": "70dp"
+        "value": "153dp"
     },
     "_margin_": [
         1,
@@ -21,30 +22,30 @@
         0,
         0
     ],
-    "_skin_": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "_text_": "Logged in as cab driver",
+    "_skin_": "sffa938ba254485895758dd8a09db825",
+    "_text_": "SET DESTINATION",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "80%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "65%",
-    "centery": {
+    "centerX": "50%",
+    "centerx": {
         "type": "string",
-        "value": "65%"
+        "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblaccounttype",
+    "height": "25dp",
+    "id": "lblDest",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,15 +53,14 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f30c26e5a61f435989d2df5aafe92892",
-    "left": "70dp",
+    "kuid": "290c5db1b93942c3b07843ac5ff56854",
+    "left": "153dp",
     "margin": [
         1,
         1,
@@ -74,20 +74,18 @@
         0,
         0
     ],
-    "parent": "flexMenuProfile",
+    "parent": "flexAddress",
     "pf": "frm004Home",
     "render": true,
-    "skin": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "text": "Logged in as cab driver",
+    "skin": "sffa938ba254485895758dd8a09db825",
+    "text": "SET DESTINATION",
     "toolTip": "",
     "tooltip": "",
+    "top": "5dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "80%",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 69,
+    "zindex": 69
 }

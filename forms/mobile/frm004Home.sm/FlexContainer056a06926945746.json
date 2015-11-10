@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,25 +24,19 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "72dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnTestingPickup",
-        "flexTopMenu",
-        "mapMain",
-        "btnChs",
-        "flexDarken",
-        "FlexContainer0a815002f68b74c",
-        "flexAddress",
-        "flexAddressShadow"
+        "Label092ac236f8b2541",
+        "Image0fc8a78544a0f46"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -52,14 +46,14 @@
     "enabled": false,
     "enablescrolling": true,
     "height": "100%",
-    "id": "flexMapScreen",
+    "id": "FlexContainer056a06926945746",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
+    "kuid": "2634b2b6756e473782f6d79157401ce6",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -74,7 +68,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "FlexContainer0a815002f68b74c",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
@@ -83,11 +77,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "72dp",
+    "zIndex": 1,
+    "zindex": 1
 }

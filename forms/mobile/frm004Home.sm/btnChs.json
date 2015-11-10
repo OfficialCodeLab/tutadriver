@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "55dp"
     },
     "_left_": {
         "type": "number",
@@ -23,16 +23,15 @@
     ],
     "_skin_": "s1c2925ffd864ad08c5d2a5c81241823",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "20%"
     },
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -44,8 +43,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "50dp",
-    "id": "btnMenu",
+    "height": "55dp",
+    "id": "btnChs",
     "info": null,
     "isVisible": true,
     "isvisible": true,
@@ -58,22 +57,21 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_d591716193cc450baaeda3a0763c7b20",
-    "onclick": "AS_Button_d591716193cc450baaeda3a0763c7b20",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexTopMenu",
+    "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
     "skin": "s1c2925ffd864ad08c5d2a5c81241823",
     "text": "",
+    "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "60dp",
+    "width": "20%",
     "zIndex": 2,
     "zindex": 2
 }

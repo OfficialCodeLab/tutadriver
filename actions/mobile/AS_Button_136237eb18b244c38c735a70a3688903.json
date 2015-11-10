@@ -79,7 +79,7 @@
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frm004Home",
-				"widgetId": "btnMenu",
+				"widgetId": "btnChs",
 				"propertyName": "isVisible",
 				"propertyValue": "true",
 				"itemKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",

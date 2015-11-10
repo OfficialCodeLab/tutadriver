@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "55dp"
     },
     "_left_": {
         "type": "string",
@@ -37,14 +37,13 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "btnMenu",
-        "imgBurgerIcon",
         "imgTutaLogo",
         "btnMessages",
         "imgMessages",
         "lblMessageCount",
         "imgBurgerClose",
-        "btnCloseCheeseburger"
+        "btnCloseCheeseburger",
+        "FlexContainer0af5edb3e79c248"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -53,7 +52,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "50dp",
+    "height": "55dp",
     "id": "flexTopMenu",
     "info": null,
     "isVisible": true,

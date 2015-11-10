@@ -30,6 +30,11 @@
         "type": "string",
         "value": "100%"
     },
+    "android": {
+        "psp": {
+            "showZoomControl": false
+        }
+    },
     "calloutWidth": 80,
     "calloutwidth": 80,
     "canUpdateUI": true,
@@ -40,7 +45,7 @@
     "defaultpinimage": "pinb.png",
     "enabled": false,
     "height": "100%",
-    "id": "Map04e53202ae5fe49",
+    "id": "mapMain",
     "info": null,
     "isVisible": true,
     "isvisible": true,

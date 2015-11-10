@@ -1,14 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "string",
-        "value": "57dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_margin_": [
         0,
@@ -23,18 +24,27 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "arrowsquare.png",
+    "_src_": "flagicon.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "28dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "43dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "base64": null,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -46,19 +56,20 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "57dp",
-    "id": "imgMenuPointer",
-    "imageScaleMode": 0,
-    "imageWhenFailed": "checkredbg.png",
-    "imagescalemode": 0,
-    "imagewhenfailed": "checkredbg.png",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "Image0fc8a78544a0f46",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "imageWhenFailed",
-    "isVisible": false,
+    "invokedProperty": "src",
+    "isVisible": true,
     "ispercent": true,
-    "isvisible": false,
-    "kuid": "af4df12617ff48b4b5b3c45cd4f2f1b3",
-    "left": "0dp",
+    "isvisible": true,
+    "kuid": "60e992c6359348928cf98fbecf57a8aa",
+    "left": "5dp",
     "margin": [
         0,
         0,
@@ -72,17 +83,20 @@
         0,
         0
     ],
-    "parent": "flexMenu",
+    "parent": "FlexContainer056a06926945746",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "arrowsquare.png",
+    "src": "flagicon.png",
     "srcType": 1,
-    "top": "0dp",
+    "top": "28dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "43dp",
-    "zIndex": 2,
-    "zindex": 2
+    "width": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "zIndex": 1,
+    "zindex": 1
 }

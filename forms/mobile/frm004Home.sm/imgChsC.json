@@ -3,12 +3,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "string",
-        "value": "23dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "5%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         0,
@@ -23,14 +19,19 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "burgericon.png",
+    "_src_": "cheeseburgermenuclosed.png",
     "_width_": {
-        "type": "string",
-        "value": "27dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "50%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -47,16 +48,19 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "23dp",
-    "id": "imgBurgerIcon",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "imgChsC",
     "imageScaleMode": 0,
     "imagescalemode": 0,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "036562c528c744179be97495ad4cf3e5",
-    "left": "5%",
+    "kuid": "1903743318394d79976eeec0bee8573b",
     "margin": [
         0,
         0,
@@ -64,24 +68,25 @@
         0
     ],
     "name": "kony.ui.Image2",
-    "onDownloadComplete": "AS_Image_ef8f35a20340420a8cee5f79260766cf",
-    "ondownloadcomplete": "AS_Image_ef8f35a20340420a8cee5f79260766cf",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexTopMenu",
+    "parent": "FlexContainer0af5edb3e79c248",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "burgericon.png",
+    "src": "cheeseburgermenuclosed.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "27dp",
+    "width": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "zIndex": 2,
     "zindex": 2
 }
