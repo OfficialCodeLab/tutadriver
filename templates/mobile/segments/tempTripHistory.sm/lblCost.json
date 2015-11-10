@@ -2,13 +2,9 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "23dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "20dp"
     },
     "_margin_": [
         1,
@@ -24,16 +20,15 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "5dp"
+        "value": "11dp"
     },
-    "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
+    "_skin_": "s70749c682a84a4996b4ecd4a97bd9b3",
     "_text_": "R325,42",
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "70dp"
     },
     "_wrapping_": 2,
-    "bottom": "23dp",
     "canUpdateUI": true,
     "centerY": "50%",
     "centery": {
@@ -43,10 +38,10 @@
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 8,
+    "contentalignment": 8,
     "enabled": false,
-    "height": "25dp",
+    "height": "20dp",
     "id": "lblCost",
     "info": null,
     "ipad": {
@@ -79,8 +74,8 @@
     "parent": "flexTripHistry",
     "pf": "tempTripHistory",
     "render": true,
-    "right": "5dp",
-    "skin": "s6c3a26664e940abb4d5beaa6b301cec",
+    "right": "11dp",
+    "skin": "s70749c682a84a4996b4ecd4a97bd9b3",
     "text": "R325,42",
     "toolTip": "",
     "tooltip": "",
@@ -89,7 +84,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "60dp",
+    "width": "70dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

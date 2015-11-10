@@ -356,7 +356,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "96%"
     },
     "autogrowMode": 0,
     "autogrowmode": 0,
@@ -759,11 +759,11 @@
     "retainSelection": false,
     "retainselection": false,
     "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
-    "rowSkin": "s4c5b75892504e5eaf21b221c7035c41",
+    "rowSkin": "scbf7729ad694c99be2575eafc68c3a3",
     "rowTemplateId": "6f9b539fc6c3464087fc73a94930b835",
     "rowcounter": 5,
     "rowfocusskin": "s3b02543e6f7476fbda219596cb964f5",
-    "rowskin": "s4c5b75892504e5eaf21b221c7035c41",
+    "rowskin": "scbf7729ad694c99be2575eafc68c3a3",
     "rowtemplate": "flexRow",
     "screenLevelWidget": false,
     "screenlevelwidget": false,
@@ -833,7 +833,7 @@
         "lblTitleName": "lblTitleName",
         "lblUpOffLine": "lblUpOffLine"
     },
-    "width": "95%",
+    "width": "96%",
     "zIndex": 1,
     "zindex": 1
 }

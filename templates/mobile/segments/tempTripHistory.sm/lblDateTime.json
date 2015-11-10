@@ -2,17 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "23dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
-        "value": "90dp"
+        "value": "84dp"
     },
     "_margin_": [
         1,
@@ -26,14 +22,13 @@
         0,
         0
     ],
-    "_skin_": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "_skin_": "s144d294d24e4b01a7f2044e312b6c1f",
     "_text_": "20/10/2015, 2:00 pm",
     "_width_": {
         "type": "string",
         "value": "150dp"
     },
     "_wrapping_": 2,
-    "bottom": "23dp",
     "canUpdateUI": true,
     "centerY": "50%",
     "centery": {
@@ -43,10 +38,10 @@
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 7,
+    "contentalignment": 7,
     "enabled": false,
-    "height": "25dp",
+    "height": "20dp",
     "id": "lblDateTime",
     "info": null,
     "ipad": {
@@ -63,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "96ee0143431b49b6921b7456be498d94",
-    "left": "90dp",
+    "left": "84dp",
     "margin": [
         1,
         1,
@@ -80,7 +75,7 @@
     "parent": "flexTripHistry",
     "pf": "tempTripHistory",
     "render": true,
-    "skin": "s7c8aefb21cd4cb6b2ecdc8feaa90ace",
+    "skin": "s144d294d24e4b01a7f2044e312b6c1f",
     "text": "20/10/2015, 2:00 pm",
     "toolTip": "",
     "tooltip": "",

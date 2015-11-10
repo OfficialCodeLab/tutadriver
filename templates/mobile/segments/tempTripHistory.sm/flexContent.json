@@ -24,7 +24,8 @@
     "children": [
         "flexMap",
         "flexTripHistry",
-        "imgPortait"
+        "imgPortait",
+        "flexCustomerRating"
     ],
     "clipBounds": true,
     "clipbounds": true,

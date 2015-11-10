@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "triphistorycar2.png",
+    "_src_": "triphistorycar.png",
     "_top_": {
         "type": "string",
         "value": "20dp"
@@ -74,7 +74,7 @@
     "pf": "frmTripHistory",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "triphistorycar2.png",
+    "src": "triphistorycar.png",
     "srcType": 1,
     "top": "20dp",
     "wType": "Image",

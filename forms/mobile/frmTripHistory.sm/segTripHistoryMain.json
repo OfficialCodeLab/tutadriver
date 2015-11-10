@@ -6,7 +6,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -15,6 +19,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -24,7 +32,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -33,6 +45,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -42,7 +58,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -51,6 +71,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -60,7 +84,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -69,6 +97,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -78,7 +110,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -87,6 +123,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -96,7 +136,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -105,6 +149,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -114,7 +162,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -123,6 +175,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -132,7 +188,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -141,6 +201,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -150,7 +214,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -159,6 +227,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -168,7 +240,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -177,6 +253,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -186,7 +266,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -195,6 +279,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -204,7 +292,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -213,6 +305,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -222,7 +318,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -231,6 +331,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -284,7 +388,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -293,6 +401,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -302,7 +414,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -311,6 +427,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -320,7 +440,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -329,6 +453,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -338,7 +466,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -347,6 +479,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -356,7 +492,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -365,6 +505,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -374,7 +518,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -383,6 +531,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -392,7 +544,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -401,6 +557,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -410,7 +570,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -419,6 +583,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -428,7 +596,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -437,6 +609,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -446,7 +622,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -455,6 +635,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -464,7 +648,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -473,6 +661,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -482,7 +674,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -491,6 +687,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -500,7 +700,11 @@
         {
             "Image04886e9d7c8614b": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "map.png"
+                "src": "map2.png"
+            },
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
             },
             "imgPortait": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -509,6 +713,10 @@
             "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.8"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -589,7 +797,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionBehavior": "default",
     "selectionbehavior": "default",
     "separatorColor": "64646400",
@@ -608,20 +816,26 @@
     "widgetDataMap": {
         "Image04886e9d7c8614b": "Image04886e9d7c8614b",
         "flexContent": "flexContent",
+        "flexCustomerRating": "flexCustomerRating",
         "flexMap": "flexMap",
         "flexTripHistry": "flexTripHistry",
+        "imgCustomerRating": "imgCustomerRating",
         "imgPortait": "imgPortait",
         "lblCost": "lblCost",
+        "lblCustomerRating": "lblCustomerRating",
         "lblDateTime": "lblDateTime"
     },
     "widgetalignment": 5,
     "widgetdatamap": {
         "Image04886e9d7c8614b": "Image04886e9d7c8614b",
         "flexContent": "flexContent",
+        "flexCustomerRating": "flexCustomerRating",
         "flexMap": "flexMap",
         "flexTripHistry": "flexTripHistry",
+        "imgCustomerRating": "imgCustomerRating",
         "imgPortait": "imgPortait",
         "lblCost": "lblCost",
+        "lblCustomerRating": "lblCustomerRating",
         "lblDateTime": "lblDateTime"
     },
     "width": "95%"
