@@ -57,7 +57,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "dc6daafab4d848eca27ee10cabd7331e",
+    "kuid": "53840aa35adb4d488f15be9440369f9c",
     "margin": [
         1,
         1,
@@ -71,7 +71,7 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sb32139769304f74ab30d8247a4ad4e9",

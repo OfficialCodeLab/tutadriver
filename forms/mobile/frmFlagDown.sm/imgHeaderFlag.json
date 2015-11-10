@@ -41,8 +41,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frmFlagDown",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -53,9 +51,8 @@
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "b84d322946f142ec9d9de7992ce7c8ff",
+    "kuid": "d17911eda61046a6bb106440f60f9073",
     "margin": [
         0,
         0,
@@ -69,7 +66,7 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",

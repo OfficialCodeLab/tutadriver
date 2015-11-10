@@ -26,16 +26,7 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblSep1",
-        "lblSep2",
-        "imgHeaderFlag",
-        "lblTitle",
-        "lblDetailsTitle",
-        "txfCustomerName",
-        "txfFinalDestination",
-        "lblEstimateTitle",
-        "btnCancelTrip",
-        "btnStartTrip"
+        "flexScrollFlagDown"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -111,7 +102,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "GalaxyS4",
+    "prevDevice": "iPhone3",
     "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
@@ -169,11 +160,6 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
-        "iphone": {
-            "psp": {
-                "visible": false
-            }
-        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",

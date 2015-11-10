@@ -58,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "8b777f4c096849a684ac27bdbf685f1d",
+    "kuid": "6f4d698295b24ddcab3a970ff8ef93ba",
     "margin": [
         0,
         0,
@@ -73,7 +73,7 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "placeholder": "",
     "render": true,
