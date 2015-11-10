@@ -1,13 +1,8 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "50dp"
     },
     "_margin_": [
         0,
@@ -21,36 +16,32 @@
         0,
         0
     ],
-    "_skin_": "s85657e1470940b5a01441aea6b0551b",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "100%"
-    },
+    "_skin_": "s84dd8c5048f4b99b5cb3ed8877960c3",
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "lblAddress"
+    ],
     "clipBounds": true,
     "clipbounds": true,
+    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexDarken",
+    "height": "50dp",
+    "id": "FlexContainer009615e58132b40",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "9d0dff771d914cb5a7c0e5b452d956ca",
+    "isSegmentChild": false,
+    "isTemplate": true,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "1472c229617e452f970c7097b85ada09",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
     "margin": [
         0,
         0,
@@ -65,20 +56,16 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "addressList",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "addressList",
     "render": true,
-    "skin": "s85657e1470940b5a01441aea6b0551b",
+    "skin": "s84dd8c5048f4b99b5cb3ed8877960c3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
-    "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 999,
-    "zindex": 999
+    "widgetalignment": 1
 }

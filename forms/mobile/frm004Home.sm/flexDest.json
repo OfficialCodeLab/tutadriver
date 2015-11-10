@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "65dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -21,20 +21,24 @@
         0,
         0
     ],
-    "_skin_": "s85657e1470940b5a01441aea6b0551b",
+    "_skin_": "s072101ad5894deeb66d230bff240267",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "75dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "imgSearch",
+        "lblDest",
+        "txtDest"
+    ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -42,15 +46,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexDarken",
+    "height": "65dp",
+    "id": "flexDest",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "9d0dff771d914cb5a7c0e5b452d956ca",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "55e48ab042c9438fb0f2187f50a1e7b4",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "5%",
     "margin": [
         0,
         0,
@@ -69,16 +73,16 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "s85657e1470940b5a01441aea6b0551b",
+    "skin": "s072101ad5894deeb66d230bff240267",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
+    "top": "75dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 999,
-    "zindex": 999
+    "width": "90%",
+    "zIndex": 69,
+    "zindex": 69
 }

@@ -40,9 +40,12 @@
         "mapMain",
         "btnChs",
         "flexDarken",
-        "FlexContainer0a815002f68b74c",
-        "flexAddress",
-        "flexAddressShadow"
+        "flexFooter",
+        "flexDest",
+        "flexDestShadow",
+        "flexAddressList",
+        "flexAddressShadow",
+        "flexDriving"
     ],
     "clipBounds": true,
     "clipbounds": true,

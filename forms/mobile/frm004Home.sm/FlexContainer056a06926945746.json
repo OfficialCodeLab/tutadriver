@@ -68,7 +68,7 @@
         0,
         0
     ],
-    "parent": "FlexContainer0a815002f68b74c",
+    "parent": "flexFooter",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

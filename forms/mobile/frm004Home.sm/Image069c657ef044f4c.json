@@ -3,9 +3,17 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "82dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -19,43 +27,34 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "tickicon2.png",
+    "_skin_": "sdbac1e46a214bd488b9ac65551b817b",
+    "_src_": "profilepicbookingnew.png",
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "82dp"
     },
     "base64": null,
+    "bottom": 0,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
         "formID": "frm004Home",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "100dp",
-    "id": "imgYes",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "height": "82dp",
+    "id": "Image069c657ef044f4c",
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "8894b5be722f472caadd9384aff9bdc0",
+    "kuid": "ddd3b516995649dabeb4e979e5d85349",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -69,17 +68,16 @@
         0,
         0
     ],
-    "parent": "flexCancelConfirmButtons",
+    "parent": "flexDriving",
     "pf": "frm004Home",
     "render": true,
-    "right": 0,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "tickicon2.png",
+    "skin": "sdbac1e46a214bd488b9ac65551b817b",
+    "src": "profilepicbookingnew.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "45%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "82dp",
+    "zIndex": 69,
+    "zindex": 69
 }
