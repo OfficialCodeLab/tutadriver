@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "22%"
+        "value": "35dp"
     },
     "_height_": {
         "type": "string",
@@ -23,16 +23,12 @@
     ],
     "_skin_": "s8bc592b38c64b0482f1baf384504c92",
     "_text_": "ETA:",
-    "_top_": {
-        "type": "string",
-        "value": "400dp"
-    },
     "_width_": {
         "type": "string",
         "value": "60dp"
     },
     "_wrapping_": 2,
-    "bottom": "22%",
+    "bottom": "35dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -61,7 +57,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7ce03c192e0146d28099c824f71205ac",
+    "kuid": "2cdfacea77b64506a7e95b22b7c0c120",
     "margin": [
         1,
         1,
@@ -75,14 +71,13 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexRequestInfo",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s8bc592b38c64b0482f1baf384504c92",
     "text": "ETA:",
     "toolTip": "",
     "tooltip": "",
-    "top": "400dp",
     "vizProps": {
         "lock": true
     },

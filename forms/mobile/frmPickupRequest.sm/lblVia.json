@@ -21,7 +21,7 @@
     "_text_": "VIA:",
     "_top_": {
         "type": "string",
-        "value": "350dp"
+        "value": "145dp"
     },
     "_width_": {
         "type": "string",
@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "0317195b694e46cdb98de8da07fcba28",
+    "kuid": "39fda72c392644ddb1f961959d4fa5b5",
     "margin": [
         1,
         1,
@@ -70,14 +70,14 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexRequestInfo",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "sf235e776cff4ff0b616a17ab3f66b74",
     "text": "VIA:",
     "toolTip": "",
     "tooltip": "",
-    "top": "350dp",
+    "top": "145dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "50dp",

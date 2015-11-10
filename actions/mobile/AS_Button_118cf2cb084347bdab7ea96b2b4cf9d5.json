@@ -1,0 +1,15 @@
+{
+	"AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5": {
+		"id": "AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "DISPLAY_POPUP__onClick_7f6cbf1e51dc4fcb8b90fe04ba379712",
+				"type": "DISPLAY_POPUP",
+				"popupId": "popDeclinePickup",
+				"popupKUID": "ce2794a6eff3493ab52c7adae89ea245",
+				"callbackType": null
+			}
+		]
+	}
+}
