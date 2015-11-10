@@ -75,7 +75,7 @@
         0,
         0
     ],
-    "parent": "CopyflexBackButton02fd5c794525646",
+    "parent": "flexBackButton",
     "pf": "frmTripHistoryInfo",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",

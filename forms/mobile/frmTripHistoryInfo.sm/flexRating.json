@@ -1,17 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "10dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "60dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "35dp"
     },
     "_margin_": [
         0,
@@ -25,28 +17,26 @@
         0,
         0
     ],
-    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
-    "_top_": {
+    "_right_": {
         "type": "number",
-        "value": "55"
+        "value": "5"
+    },
+    "_skin_": "s1c09e4b01ba4e619a21c692a2a5e2b4",
+    "_top_": {
+        "type": "string",
+        "value": "75dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "65dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "10dp",
     "canUpdateUI": true,
     "children": [
-        "CopyimgPickUp0fbecab50215f44",
-        "CopylblPickUp015fff79424064d",
-        "CopylblDropOff0c9228c194d6a48",
-        "CopyimgDropOff04256fa3e2c8349",
-        "CopylblUpOffLine04b3d4459790c48",
-        "CopylblPickUpLocation0000bafb9537149",
-        "CopylblDropOffLocation06230b8c423f84c"
+        "imgRating",
+        "CopylblDriverRating0589b89f4d9544e"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -55,15 +45,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
-    "id": "CopyflexTripHistoryInfo0bba48c6b062d46",
+    "height": "35dp",
+    "id": "flexRating",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f4428c0a159647318c3b87a7648c1dee",
+    "kuid": "6db3e6bc27f24edebdeb05047c182fde",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
     "margin": [
         0,
         0,
@@ -78,20 +67,21 @@
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "flexHistoryDetails",
     "percent": true,
     "pf": "frmTripHistoryInfo",
     "render": true,
-    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "right": 5,
+    "skin": "s1c09e4b01ba4e619a21c692a2a5e2b4",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": 55,
+    "top": "75dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
+    "width": "65dp",
     "zIndex": 1,
     "zindex": 1
 }

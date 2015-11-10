@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "15dp"
     },
     "_margin_": [
         1,
@@ -20,9 +20,9 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "15dp"
+        "value": "1dp"
     },
-    "_skin_": "sa78707872684705bb34c364023fea3f",
+    "_skin_": "s5375c876a35461d839635ccee3eb2b1",
     "_text_": "4.8",
     "_width_": {
         "type": "string",
@@ -41,7 +41,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "30dp",
+    "height": "15dp",
     "id": "lblCustomerRating",
     "info": null,
     "ipad": {
@@ -74,8 +74,8 @@
     "parent": "flexCustomerRating",
     "pf": "tempTripHistory",
     "render": true,
-    "right": "15dp",
-    "skin": "sa78707872684705bb34c364023fea3f",
+    "right": "1dp",
+    "skin": "s5375c876a35461d839635ccee3eb2b1",
     "text": "4.8",
     "toolTip": "",
     "tooltip": "",

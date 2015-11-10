@@ -121,7 +121,7 @@
         "needAppMenu": false
     },
     "title": null,
-    "titleBar": true,
+    "titleBar": false,
     "titleBarModel": {
         "DNDConfig": null,
         "_margin_": [
@@ -155,6 +155,11 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
+        "iphone": {
+            "psp": {
+                "visible": false
+            }
+        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",
@@ -198,7 +203,7 @@
         "widgetAlignment": 5
     },
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "widgetAlignment": 5,

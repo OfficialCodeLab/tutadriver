@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "23dp"
     },
     "_margin_": [
         1,
@@ -18,30 +18,29 @@
         0,
         0
     ],
-    "_skin_": "s723c5adafcb49088763f1f6192ea15a",
-    "_text_": "20 OCT 2015, 2:00 PM",
+    "_right_": {
+        "type": "number",
+        "value": "1"
+    },
+    "_skin_": "saa4ce41c591426488a57396bf1298df",
+    "_text_": "TOTAL FARE",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "200dp"
+        "value": "110dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "25dp",
-    "id": "CopylblDateTime0bcb0356d00a147",
+    "height": "23dp",
+    "id": "lblTotalFare",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +54,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ac19a0a3744b4493a5a4fca8ae16a2fc",
+    "kuid": "9c6c1ce37d254bbda1a376a194a083f5",
     "margin": [
         1,
         1,
@@ -69,18 +68,22 @@
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "flexHistoryDetails",
     "pf": "frmTripHistoryInfo",
     "render": true,
-    "skin": "s723c5adafcb49088763f1f6192ea15a",
-    "text": "20 OCT 2015, 2:00 PM",
+    "right": 1,
+    "skin": "saa4ce41c591426488a57396bf1298df",
+    "text": "TOTAL FARE",
     "toolTip": "",
     "tooltip": "",
-    "top": "20dp",
+    "top": "10dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "200dp",
+    "width": "110dp",
     "wrapping": 2,
-    "zIndex": 4,
-    "zindex": 4
+    "zIndex": 1,
+    "zindex": 1
 }

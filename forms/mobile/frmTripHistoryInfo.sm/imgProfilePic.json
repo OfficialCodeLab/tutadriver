@@ -1,0 +1,90 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "profilepicbooking.png",
+    "_width_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "base64": null,
+    "bottom": "50%",
+    "canUpdateUI": true,
+    "centerY": "500dp",
+    "centery": {
+        "type": "string",
+        "value": "500dp"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmTripHistoryInfo",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "140dp",
+    "id": "imgProfilePic",
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "5d9d6ae6f7b24a6e970d17c6c3ce6693",
+    "left": "5dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexContent",
+    "pf": "frmTripHistoryInfo",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "profilepicbooking.png",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "140dp",
+    "zIndex": 1,
+    "zindex": 1
+}
