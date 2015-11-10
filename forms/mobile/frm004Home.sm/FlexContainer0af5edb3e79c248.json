@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "114dp"
+        "value": "80%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_margin_": [
         0,
@@ -21,27 +21,22 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "sa6ddae4d16e4a66bdb69da678184161",
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "55dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "55dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "imgProfilePic",
-        "profileName",
-        "lblaccounttype",
-        "btnEditProfile",
-        "imgEditProfile"
+        "imgChsC",
+        "imgChsO"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -50,15 +45,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "114dp",
-    "id": "flexMenuProfile",
+    "height": "80%",
+    "id": "FlexContainer0af5edb3e79c248",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ce13569830514efca369e54612b02092",
+    "kuid": "21d47c38fa8c4b849b94f679b6e4cf07",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "5dp",
     "margin": [
         0,
         0,
@@ -73,23 +68,20 @@
         0,
         0
     ],
-    "parent": "flexMenu",
+    "parent": "flexTopMenu",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "sa6ddae4d16e4a66bdb69da678184161",
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "55dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "5dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "55dp",
+    "zIndex": 4,
+    "zindex": 4
 }

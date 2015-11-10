@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "114dp"
+        "value": "35dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "18dp"
     },
     "_margin_": [
         0,
@@ -21,28 +21,20 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "sa6ddae4d16e4a66bdb69da678184161",
+    "_skin_": "sfc8d580218e48d8858d2002dde17c34",
     "_top_": {
         "type": "string",
-        "value": "55dp"
+        "value": "43dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "18dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "imgProfilePic",
-        "profileName",
-        "lblaccounttype",
-        "btnEditProfile",
-        "imgEditProfile"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -50,15 +42,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "114dp",
-    "id": "flexMenuProfile",
+    "height": "35dp",
+    "id": "CopyFlexContainer0c9a659bdbbc249",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ce13569830514efca369e54612b02092",
+    "kuid": "2d04186c572c44dc976b573618cffb94",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "18dp",
     "margin": [
         0,
         0,
@@ -77,19 +69,16 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "sa6ddae4d16e4a66bdb69da678184161",
+    "skin": "sfc8d580218e48d8858d2002dde17c34",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "55dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "43dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "18dp",
+    "zIndex": 3,
+    "zindex": 3
 }

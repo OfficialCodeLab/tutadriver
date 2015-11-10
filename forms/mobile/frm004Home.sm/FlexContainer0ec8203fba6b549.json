@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "114dp"
+        "value": "55dp"
     },
     "_left_": {
         "type": "string",
@@ -21,28 +21,20 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "sa6ddae4d16e4a66bdb69da678184161",
+    "_skin_": "s25558f34f524d658cce01c13146c717",
     "_top_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "55dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "imgProfilePic",
-        "profileName",
-        "lblaccounttype",
-        "btnEditProfile",
-        "imgEditProfile"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -50,12 +42,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "114dp",
-    "id": "flexMenuProfile",
+    "height": "55dp",
+    "id": "FlexContainer0ec8203fba6b549",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ce13569830514efca369e54612b02092",
+    "kuid": "1d3163cc57e84ccd88094f69bffc599b",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -77,19 +69,16 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "sa6ddae4d16e4a66bdb69da678184161",
+    "skin": "s25558f34f524d658cce01c13146c717",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "55dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "55dp",
+    "zIndex": 4,
+    "zindex": 4
 }

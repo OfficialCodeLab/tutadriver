@@ -1,6 +1,6 @@
 function init(){
   frmMessageMain.txtSearch.onTextChange = searchTxtChange;
-  
+  frm004Home.btnChs.onClick = animateMenu;
   
   frm001LoginScreen.btnSignUp.onClick = function () {frm002SignupScreen.show();};
   frm001LoginScreen.btnLogin.onClick = function() {ssa.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
@@ -46,6 +46,35 @@ function searchTxtChange(){
 function resetSearch(){
 	frmMessageMain.txtSearch.text = "Search";
   	frmMessageMain.imgSearchIcon.isVisible = true;
+}
+
+var menuOpen = false;
+function animateMenu(){
+  //frmMap.flexSwipe.setVisibility(false); 
+  frm004Home.btnChs.setVisibility(false);  
+  if(menuOpen === false){ //OPEN MENU
+    frm004Home.imgChsC.setVisibility(false);
+    frm004Home.flexDarken.setVisibility(true);
+    ssa.animate.move(frm004Home.flexMapScreen, 0.3, "0", "80%");
+    ssa.animate.move(frm004Home.flexMenu, 0.3, "0", "0%"); 
+    frm004Home.imgChsO.setVisibility(true);
+    frm004Home["btnChs"]["height"] = "100%";
+    frm004Home.btnChs.setVisibility(true);
+    menuOpen = true;
+    frm004Home.btnChs.setVisibility(true);
+    menuOpen = true;
+  }
+  else //CLOSE MENU
+  {
+    frm004Home.imgChsO.setVisibility(false);
+    frm004Home.flexDarken.setVisibility(false);
+    ssa.animate.move(frm004Home.flexMapScreen, 0.3, "0", "0%");
+    ssa.animate.move(frm004Home.flexMenu, 0.3, "0", "-80%");
+    frm004Home.imgChsC.setVisibility(true);
+    frm004Home["btnChs"]["height"] = "55dp";
+    frm004Home.btnChs.setVisibility(true); 
+    menuOpen = false;
+  }
 }
 
 

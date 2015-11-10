@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "114dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -21,28 +21,20 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "sa6ddae4d16e4a66bdb69da678184161",
+    "_skin_": "sdba13d66a3f4707b0522de3d1637571",
     "_top_": {
         "type": "string",
-        "value": "55dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "20dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "imgProfilePic",
-        "profileName",
-        "lblaccounttype",
-        "btnEditProfile",
-        "imgEditProfile"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -50,15 +42,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "114dp",
-    "id": "flexMenuProfile",
+    "height": "15dp",
+    "id": "FlexContainer0365b7a69656949",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ce13569830514efca369e54612b02092",
+    "kuid": "b719f31419a64cda9203405b68021ee2",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -77,19 +69,16 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "sa6ddae4d16e4a66bdb69da678184161",
+    "skin": "sdba13d66a3f4707b0522de3d1637571",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "55dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "50dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "20dp",
+    "zIndex": 2,
+    "zindex": 2
 }

@@ -37,7 +37,9 @@
     "children": [
         "btnTestingPickup",
         "flexTopMenu",
-        "Map04e53202ae5fe49"
+        "Map04e53202ae5fe49",
+        "btnChs",
+        "flexDarken"
     ],
     "clipBounds": true,
     "clipbounds": true,
