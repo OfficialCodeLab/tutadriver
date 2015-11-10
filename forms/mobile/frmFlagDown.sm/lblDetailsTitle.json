@@ -18,7 +18,7 @@
         0
     ],
     "_skin_": "s860892c01464a3aa7871f3c46318aad",
-    "_text_": "Please enter customer details",
+    "_text_": "Please enter customer details:",
     "_top_": {
         "type": "string",
         "value": "150dp"
@@ -74,7 +74,7 @@
     "pf": "frmFlagDown",
     "render": true,
     "skin": "s860892c01464a3aa7871f3c46318aad",
-    "text": "Please enter customer details",
+    "text": "Please enter customer details:",
     "toolTip": "",
     "tooltip": "",
     "top": "150dp",
