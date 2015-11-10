@@ -52,10 +52,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "6%"
-    },
+    "height": "6%",
     "id": "txfFinalDestination",
     "info": null,
     "isVisible": true,
@@ -87,10 +84,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "39%"
-    },
+    "top": "39%",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
@@ -98,10 +92,7 @@
     },
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "zIndex": 1,
     "zindex": 1
 }

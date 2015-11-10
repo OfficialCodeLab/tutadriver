@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "7%"
-    },
+    "height": "7%",
     "id": "lblTitle",
     "info": null,
     "ipad": {
@@ -80,19 +77,13 @@
     "text": "Flag Down",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "17%"
-    },
+    "top": "17%",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "180dp"
-    },
+    "width": "180dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

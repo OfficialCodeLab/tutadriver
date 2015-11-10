@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "5%"
-    },
+    "height": "5%",
     "id": "lblDetailsTitle",
     "info": null,
     "ipad": {
@@ -80,19 +77,13 @@
     "text": "Please enter customer details",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "25%"
-    },
+    "top": "25%",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

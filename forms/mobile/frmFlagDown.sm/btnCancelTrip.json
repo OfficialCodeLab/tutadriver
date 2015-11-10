@@ -31,10 +31,7 @@
         "type": "string",
         "value": "45%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "3%"
-    },
+    "bottom": "3%",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -46,19 +43,13 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "7%"
-    },
+    "height": "7%",
     "id": "btnCancelTrip",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "cd7e1a27aea84dd4af3bea022798033c",
-    "left": {
-        "type": "string",
-        "value": "5%"
-    },
+    "left": "5%",
     "margin": [
         6,
         6,
@@ -84,10 +75,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45%"
-    },
+    "width": "45%",
     "zIndex": 2,
     "zindex": 2
 }

@@ -40,17 +40,14 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "flexFlagDown",
+        "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "height": "100dp",
     "id": "imgHeaderFlag",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -78,20 +75,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "flagballicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "1%"
-    },
+    "top": "1%",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "number",
-        "value": "100"
-    },
+    "width": 100,
     "zIndex": 1,
     "zindex": 1
 }
