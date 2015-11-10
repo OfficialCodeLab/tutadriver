@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "400dp"
+        "value": "456dp"
     },
     "_left_": {
         "type": "string",
@@ -46,7 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "400dp",
+    "height": "456dp",
     "id": "imgMap",
     "imageScaleMode": 0,
     "imagescalemode": 0,

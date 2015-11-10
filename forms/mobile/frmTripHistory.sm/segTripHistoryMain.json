@@ -22,7 +22,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -48,7 +48,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -74,7 +74,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -100,7 +100,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -126,7 +126,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -152,7 +152,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -178,7 +178,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -204,7 +204,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -230,7 +230,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -256,7 +256,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -282,7 +282,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -308,7 +308,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -334,7 +334,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -404,7 +404,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -430,7 +430,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -456,7 +456,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -482,7 +482,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -508,7 +508,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -534,7 +534,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -560,7 +560,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -586,7 +586,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -612,7 +612,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -638,7 +638,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -664,7 +664,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -690,7 +690,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -716,7 +716,7 @@
             },
             "lblCustomerRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "4.8"
+                "text": "4"
             },
             "lblDateTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -758,6 +758,8 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
+    "onRowClick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
+    "onrowclick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
     "orientation": 2,
     "padding": [
         0,
@@ -797,7 +799,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionBehavior": "default",
     "selectionbehavior": "default",
     "separatorColor": "64646400",

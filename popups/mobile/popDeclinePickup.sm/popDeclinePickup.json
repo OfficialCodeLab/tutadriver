@@ -19,10 +19,10 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblMessage",
-        "lineSep",
-        "hboxCustomerDistance",
-        "HBox07c6534fcab2c42"
+        "imgWarningIcon",
+        "hboxConfirmationMessage",
+        "lblSep",
+        "HBox0506b62bf48354e"
     ],
     "containerWeight": 80,
     "containerweight": 80,
@@ -47,6 +47,9 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "popDeclinePickup",
+    "inTransitionConfig": {
+        "formTransition": "None"
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
@@ -67,8 +70,12 @@
         0
     ],
     "name": "kony.ui.Popup",
+    "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formTransition": "None"
+    },
     "outtransitionconfig": {
         "formTransition": "None"
     },

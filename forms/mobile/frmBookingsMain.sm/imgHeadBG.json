@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "152dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
@@ -41,12 +41,12 @@
         "channel": "mobile",
         "formID": "frmBookingsMain",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "152dp",
+    "height": "150dp",
     "id": "imgHeadBG",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -55,7 +55,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "d87e6e37f26d4c059bf929c2adb755e9",
+    "kuid": "6bd3aa3755f04a24b2d0071d2a811362",
     "left": "0dp",
     "margin": [
         0,

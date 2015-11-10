@@ -69,7 +69,7 @@
         0,
         0
     ],
-    "parent": "CopyflexTripHistoryInfo0bba48c6b062d46",
+    "parent": "flexTripHistoryLocations",
     "pf": "frmTripHistoryInfo",
     "render": true,
     "skin": "s0c3d3c414574b6c8afb8170a1817bbd",

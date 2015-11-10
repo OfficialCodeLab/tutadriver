@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "730dp"
+        "value": "675dp"
     },
     "_left_": {
         "type": "string",
@@ -36,7 +36,11 @@
     "canUpdateUI": true,
     "children": [
         "flexHeader",
-        "imgMap"
+        "imgMap",
+        "flexHistoryDetails",
+        "btnHelp",
+        "imgProfilePic",
+        "lblCustomerName"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -45,7 +49,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "730dp",
+    "height": "675dp",
     "id": "flexContent",
     "info": null,
     "isVisible": true,

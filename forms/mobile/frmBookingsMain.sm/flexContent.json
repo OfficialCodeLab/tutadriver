@@ -1,0 +1,87 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4946781d2b14186a17ac3604cee5a4f",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flexHeader",
+        "segBookings"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": "100%",
+    "id": "flexContent",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "c708f3190f7b4098866dba730d0503a2",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmBookingsMain",
+    "percent": true,
+    "pf": "frmBookingsMain",
+    "render": true,
+    "skin": "s4946781d2b14186a17ac3604cee5a4f",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": "0dp",
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
+}

@@ -1,0 +1,16 @@
+{
+	"AS_Segment_b719060c3be8407b91c34e5207d41421": {
+		"id": "AS_Segment_b719060c3be8407b91c34e5207d41421",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM___9fd874e51b02428bb7f665070dc7ae94",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmTripHistoryInfo",
+				"formKUID": "3d68d04e95424ca88d4c71cc9c5cc4a7",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

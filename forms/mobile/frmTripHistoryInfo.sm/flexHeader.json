@@ -35,10 +35,10 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyflexBackButton02fd5c794525646",
-        "CopylblSep04a9f62de47f344",
-        "CopylblDateTime0bcb0356d00a147",
-        "CopyflexTripHistoryInfo0bba48c6b062d46"
+        "flexBackButton",
+        "lblSep",
+        "lblDateTime",
+        "flexTripHistoryLocations"
     ],
     "clipBounds": true,
     "clipbounds": true,

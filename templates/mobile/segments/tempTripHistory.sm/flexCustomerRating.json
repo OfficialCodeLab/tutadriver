@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "49dp"
+        "value": "35dp"
     },
     "_left_": {
         "type": "string",
@@ -24,11 +24,11 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "59dp"
+        "value": "70dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "75dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -46,7 +46,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "49dp",
+    "height": "35dp",
     "id": "flexCustomerRating",
     "info": null,
     "isSegmentChild": false,
@@ -79,11 +79,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "59dp",
+    "top": "70dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100dp",
+    "width": "75dp",
     "zIndex": 1,
     "zindex": 1
 }

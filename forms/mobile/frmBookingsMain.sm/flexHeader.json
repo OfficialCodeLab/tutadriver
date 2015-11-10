@@ -55,7 +55,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "5b86570aa8614ad8bc2156699e016675",
+    "kuid": "59a542b4e8b84b2bbf44357c6bcea895",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -73,7 +73,7 @@
         0,
         0
     ],
-    "parent": "frmBookingsMain",
+    "parent": "flexContent",
     "percent": true,
     "pf": "frmBookingsMain",
     "render": true,

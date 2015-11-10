@@ -1,6 +1,10 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_data_": [
         {
             "imgDropOff": {
@@ -327,10 +331,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "150%"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "string",
@@ -360,6 +360,7 @@
     },
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": 0,
     "canUpdateUI": true,
     "centerX": "50.00%",
     "centerx": {
@@ -708,7 +709,6 @@
     "groupCells": false,
     "groupcells": false,
     "hasSections": false,
-    "height": "150%",
     "id": "segBookings",
     "indicator": "none",
     "info": null,
@@ -726,7 +726,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9c1db66d06c6481888c0e4bba98f1e90",
+    "kuid": "6376cc417be54becb06daa522afa501c",
     "left": "0dp",
     "margin": [
         0,
@@ -737,8 +737,8 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
-    "onRowClick": "AS_Segment_b493c530529e4374990b6bcbd788f85d",
-    "onrowclick": "AS_Segment_b493c530529e4374990b6bcbd788f85d",
+    "onRowClick": "AS_Segment_11a2835bb1b64d46a0828a8104f710dc",
+    "onrowclick": "AS_Segment_11a2835bb1b64d46a0828a8104f710dc",
     "orientation": 2,
     "padding": [
         0,
@@ -753,7 +753,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "frmBookingsMain",
+    "parent": "flexContent",
     "pf": "frmBookingsMain",
     "render": true,
     "retainSelection": false,
@@ -782,9 +782,7 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionBehavior": "singleselect",
-    "selectionBehaviorConfig": {},
     "selectionbehavior": "singleselect",
-    "selectionbehaviorconfig": {},
     "separatorColor": "64646400",
     "separatorRequired": true,
     "separatorThickness": 0,
