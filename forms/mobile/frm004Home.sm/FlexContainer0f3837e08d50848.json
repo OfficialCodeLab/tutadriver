@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "35dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "102dp"
     },
     "_margin_": [
         0,
@@ -24,28 +24,29 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "575dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "220dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "60%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "60%"
+    },
     "children": [
-        "btnTestingPickup",
-        "flexTopMenu",
-        "mapMain",
-        "btnChs",
-        "flexDarken",
-        "flexFooter",
-        "flexDest",
-        "flexDestShadow",
-        "flexAddressList",
-        "flexAddressShadow",
-        "flexDriverFooter"
+        "Image05c77816c2d6341",
+        "imgSliderball"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -54,15 +55,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexMapScreen",
+    "height": "35dp",
+    "id": "FlexContainer0f3837e08d50848",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
+    "kuid": "0c04edacc05649908c2fe2d6521c13f1",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "102dp",
     "margin": [
         0,
         0,
@@ -77,7 +78,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexSlider",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
@@ -86,11 +87,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
+    "top": "575dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "220dp",
+    "zIndex": 69,
+    "zindex": 69
 }

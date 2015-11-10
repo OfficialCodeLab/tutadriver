@@ -13,6 +13,10 @@ function init(){
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
   
+  setUpSwipes();
+  
+  
+  
   frm002SignupScreen.btnCheckAgree.onClick = function(){
     if((frm002SignupScreen.imgTick.isVisible===false)){
       frm002SignupScreen.imgTick.setVisibility(true);
@@ -93,6 +97,27 @@ function selectDest(form) {
       //frm004Home.txtPick.text = "";
     }
   });
+}
+
+var swipedSlider = 1;
+function setUpSwipes(){
+  var setupTblSwipe = {fingers: 1}
+  
+  frm004Home.flexSlider.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, setupTblSwipe,  function(widget, gestureInformationSwipe) {
+    //ssa.mobile.alert("","" + gestureInformationSwipe.swipeDirection );
+    if(gestureInformationSwipe.swipeDirection == 2) { //RIGHT--->
+      if(swipedSlider === 1){
+        swipedSlider = 0;
+        ssa.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {swipedSlider = 2;});           
+      }
+    }
+    else if (gestureInformationSwipe.swipeDirection == 1){ //<---LEFT
+      if(swipedSlider === 2){
+        swipedSlider = 0;
+        ssa.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp",function() {swipedSlider = 1;});           
+      }        
+      }
+    });
 }
 
 var menuOpen = false;
