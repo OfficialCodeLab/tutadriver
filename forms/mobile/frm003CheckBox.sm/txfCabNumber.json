@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "55dp"
     },
     "autoCapitalize": "none",
     "autoComplete": false,
@@ -38,9 +38,14 @@
     "autofilter": false,
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "65%",
     "centerx": {
         "type": "string",
         "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "65%"
     },
     "channel": "mobile",
     "containerHeight": "",
@@ -52,13 +57,13 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "50dp",
+    "height": "40dp",
     "id": "txfCabNumber",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "4a42bba6097e4522a91b54fd758cbdfa",
+    "kuid": "60b994ffb7e24a90a31380b4c4de371d",
     "margin": [
         0,
         0,
@@ -73,7 +78,7 @@
         0,
         0
     ],
-    "parent": "flexConfirmCabNumber",
+    "parent": "FlexContainer0ac38a3a6b70546",
     "pf": "frm003CheckBox",
     "placeholder": "",
     "render": true,
@@ -89,7 +94,7 @@
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": "50%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "55dp",
+    "zIndex": 2,
+    "zindex": 2
 }

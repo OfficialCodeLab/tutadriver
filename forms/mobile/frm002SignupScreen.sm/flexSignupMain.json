@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "700dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -47,7 +47,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "700dp",
+    "height": "100%",
     "id": "flexSignupMain",
     "info": null,
     "isVisible": true,

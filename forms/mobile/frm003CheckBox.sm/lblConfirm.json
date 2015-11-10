@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "60dp"
     },
     "_margin_": [
         1,
@@ -17,11 +17,11 @@
         0,
         0
     ],
-    "_skin_": "sa75b5991dd24916b8d925f8fb48c771",
-    "_text_": "Please confirm cab number.",
+    "_skin_": "sb6c6661d2fb4297a396ced29cbe1eec",
+    "_text_": "PLEASE CONFIRM CAB NUMBER",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "30%"
     },
     "_width_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "70dp",
+    "height": "60dp",
     "id": "lblConfirm",
     "info": null,
     "ipad": {
@@ -54,9 +54,9 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
-    "kuid": "fdc5895eb1724f73a4978331bff4a371",
+    "isVisible": false,
+    "isvisible": false,
+    "kuid": "611a21eb86944f4a9d3ca42171edd705",
     "margin": [
         1,
         1,
@@ -70,14 +70,14 @@
         0,
         0
     ],
-    "parent": "flexConfirmCabNumber",
+    "parent": "FlexContainer0ac38a3a6b70546",
     "pf": "frm003CheckBox",
     "render": true,
-    "skin": "sa75b5991dd24916b8d925f8fb48c771",
-    "text": "Please confirm cab number.",
+    "skin": "sb6c6661d2fb4297a396ced29cbe1eec",
+    "text": "PLEASE CONFIRM CAB NUMBER",
     "toolTip": "",
     "tooltip": "",
-    "top": "15%",
+    "top": "30%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "200dp",

@@ -1,0 +1,97 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s74443c51b77449c985c7311e6e826cf",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "bottom": "20%",
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "btnConfirmCNum",
+        "txfCabNumber",
+        "FlexContainer031b76259697b44",
+        "CopyLabel0878f7410bc744f",
+        "lblConfirm",
+        "Image0f68a0a48758443",
+        "RichText045bf570ef27f4e"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "id": "FlexContainer0ac38a3a6b70546",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "fd9778b08df1480595812c30c1086db7",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": "2dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexConfirmCabNumber",
+    "percent": true,
+    "pf": "frm003CheckBox",
+    "render": true,
+    "skin": "s74443c51b77449c985c7311e6e826cf",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": "20%",
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "80%",
+    "zIndex": 2,
+    "zindex": 2
+}

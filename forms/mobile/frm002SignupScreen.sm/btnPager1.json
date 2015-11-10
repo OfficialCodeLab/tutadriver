@@ -2,17 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "8%"
-    },
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "39%"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -28,11 +24,14 @@
     ],
     "_skin_": "sf8631cfe28d4f53a1c427c3b3eb91b8",
     "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
-    "bottom": "8%",
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
@@ -44,13 +43,13 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "30dp",
+    "height": "100%",
     "id": "btnPager1",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "1e0e03182d6d4d4294b6cc00b14d20c9",
-    "left": "39%",
+    "kuid": "b0fc98cec1244ee6848dd70eecfffb6a",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -58,22 +57,23 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_74d7182e458a45f890b5b32f5401d736",
-    "onclick": "AS_Button_74d7182e458a45f890b5b32f5401d736",
+    "onClick": "AS_Button_0f1b878c42e64af18ff727f666be62df",
+    "onclick": "AS_Button_0f1b878c42e64af18ff727f666be62df",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "scrollSignupBottomB",
+    "parent": "CopyFlexContainer0ba038d84e6df4b",
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "sf8631cfe28d4f53a1c427c3b3eb91b8",
     "text": "",
+    "top": 0,
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "30dp",
+    "width": "100%",
     "zIndex": 5,
     "zindex": 5
 }

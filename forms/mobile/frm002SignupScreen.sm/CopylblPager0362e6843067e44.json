@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "20dp"
     },
     "_margin_": [
         1,
@@ -17,19 +17,19 @@
         0,
         0
     ],
-    "_skin_": "scb4e99b8d164f7a858379aed7f73edd",
+    "_skin_": "s5d1f9e04583462194928986b816e650",
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "20dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "75%",
     "centerY": "50%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "75%"
     },
     "centery": {
         "type": "string",
@@ -38,11 +38,11 @@
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": "2dp",
-    "id": "lblSeparate",
+    "height": "20dp",
+    "id": "CopylblPager0362e6843067e44",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,7 +57,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9e746cc477184451bfa097abc260fb6e",
+    "kuid": "25c2eb44c5d04ef09406487d0abf34b9",
     "margin": [
         1,
         1,
@@ -71,16 +71,19 @@
         0,
         0
     ],
-    "parent": "flexConfirmCabNumber",
-    "pf": "frm003CheckBox",
+    "paddingInPixel": false,
+    "paddingLocked": true,
+    "paddinginpixel": false,
+    "parent": "FlexContainer0f82717f489ca49",
+    "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "scb4e99b8d164f7a858379aed7f73edd",
+    "skin": "s5d1f9e04583462194928986b816e650",
     "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "90%",
+    "width": "20dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

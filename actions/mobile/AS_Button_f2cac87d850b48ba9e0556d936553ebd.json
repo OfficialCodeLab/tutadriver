@@ -1,0 +1,44 @@
+{
+	"AS_Button_f2cac87d850b48ba9e0556d936553ebd": {
+		"id": "AS_Button_f2cac87d850b48ba9e0556d936553ebd",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "MOVE_ACTION____baea246b619f4e9cad7ae1066ec0037c",
+				"type": "MOVE_ACTION",
+				"itemType": "FORM",
+				"itemId": "frm003CheckBox",
+				"widgetId": "flexConfirmCabNumber",
+				"itemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
+				"widgetKUID": "7f5483402c8049aeb0737c5f6e2fbba6",
+				"animationObject": {
+					"left": "100%",
+					"anchorPoint": {},
+					"stepConfig": {
+						"timingFunction": "kony.anim.EASE"
+					}
+				},
+				"config": {
+					"delay": "0",
+					"iterationCount": 1,
+					"fillMode": "kony.anim.FILL_MODE_FORWARDS",
+					"duration": "0"
+				},
+				"start": "Immediately",
+				"animationId": "MOVE_ACTION____baea246b619f4e9cad7ae1066ec0037c",
+				"displayAnimationId": "MOVE_ACTION____baea246b619f4e9cad7ae1066ec0037c",
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "NAVIGATE_TO_FORM__onClick_85846728a5714a1da0eab28f4ac73d78",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frm004Home",
+				"formKUID": "6fbaedcbc01b499d9bd3e999f64f0d35",
+				"parentId": "",
+				"callbackType": null
+			}
+		]
+	}
+}

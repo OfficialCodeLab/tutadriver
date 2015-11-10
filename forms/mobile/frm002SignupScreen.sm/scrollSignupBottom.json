@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "610dp"
+        "value": "0%"
     },
     "_left_": {
         "type": "string",
@@ -35,6 +35,7 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
+    "bottom": "0%",
     "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
@@ -58,12 +59,13 @@
         "lblSeparate7",
         "btnNextSignup",
         "lblPager1",
+        "CopylblPager0b6b80b8775f640",
         "lblPager2",
         "imgProfileIcon",
         "imgEnvelope",
         "imgPhone",
         "imgLock",
-        "btnPager2"
+        "FlexContainer0f82717f489ca49"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -76,7 +78,6 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "610dp",
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "scrollSignupBottom",

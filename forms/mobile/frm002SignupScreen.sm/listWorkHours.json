@@ -25,7 +25,7 @@
     "_placeholder_": "Work Hours: ",
     "_right_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_skin_": "s016edeff13641358ce0dc11c3fdc911",
     "_top_": {
@@ -120,7 +120,7 @@
     "pf": "frm002SignupScreen",
     "placeholder": "Work Hours: ",
     "render": true,
-    "right": "5dp",
+    "right": "0dp",
     "selectedKey": "lb1",
     "selectedKeyValue": [
         "lb1",
