@@ -3,8 +3,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_margin_": [
         0,
@@ -21,8 +21,8 @@
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "cheeseburgermenuopen.png",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "24dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -48,10 +48,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "height": "30dp",
     "id": "imgChsO",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -83,10 +80,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "24dp",
     "zIndex": 2,
     "zindex": 2
 }

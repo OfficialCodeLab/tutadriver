@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "70dp"
     },
     "_margin_": [
         0,
@@ -24,7 +24,7 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -34,18 +34,14 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "btnTestingPickup",
-        "flexTopMenu",
-        "mapMain",
-        "btnChs",
-        "flexDarken",
-        "flexFooter",
-        "flexDest",
-        "flexDestShadow",
-        "flexAddressList",
-        "flexAddressShadow",
-        "flexDriverFooter"
+        "FlexContainer0f3837e08d50848",
+        "Label0d72c2acc7f9d4e"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -54,15 +50,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexMapScreen",
+    "height": "70dp",
+    "id": "flexSlider",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
+    "kuid": "50cd74ab78eb456890dc50fe97286eb0",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "70dp",
     "margin": [
         0,
         0,
@@ -77,7 +73,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexDriverFooter",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
@@ -86,11 +82,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 69,
+    "zindex": 69
 }
