@@ -15,6 +15,8 @@ function init(){
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
   frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
+  frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
+  frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
   
   frm004Home.btnSignOut.onClick = function () {
     frm001LoginScreen.show();

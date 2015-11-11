@@ -47,12 +47,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s0a9493b6cbb414a8e86a7de9464c3f3",
+    "focusskin": "s0a9493b6cbb414a8e86a7de9464c3f3",
     "height": "60dp",
     "id": "btnCancelTrip",
     "info": null,

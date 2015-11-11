@@ -47,12 +47,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
+    "focusskin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
     "height": "60dp",
     "id": "btnStartTrip",
     "info": null,
