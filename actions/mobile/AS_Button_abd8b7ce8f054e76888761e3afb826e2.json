@@ -6,7 +6,6 @@
 			{
 				"id": "DISPLAY_POPUP___d32a7f07abfa448facdf46ec063e5073",
 				"type": "DISPLAY_POPUP",
-				"popupId": "popMessageSent",
 				"popupKUID": "6d2718c619c4479cb12c6588878db1c0",
 				"parentId": null,
 				"callbackType": null

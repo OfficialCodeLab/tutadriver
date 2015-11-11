@@ -3,8 +3,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_src_": "cscomposemessage.png",
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -47,7 +47,10 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "40dp",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "id": "imgComposeMessage",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -83,7 +86,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "40dp",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "30dp",
+    "zIndex": 20,
+    "zindex": 20
 }

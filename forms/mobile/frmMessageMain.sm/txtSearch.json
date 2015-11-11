@@ -17,9 +17,9 @@
         0,
         0
     ],
-    "_placeholder_": "",
+    "_placeholder_": "Search",
     "_skin_": "sa0419fb5c784dd8a3f4988ea3014f09",
-    "_text_": "Search",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "5dp"
@@ -80,12 +80,14 @@
     ],
     "parent": "flexSearchBar",
     "pf": "frmMessageMain",
-    "placeholder": "",
+    "placeholder": "Search",
+    "placeholderSkin": "sa04af6481104e799a60dcd5c012300c",
+    "placeholderskin": "sa04af6481104e799a60dcd5c012300c",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
     "skin": "sa0419fb5c784dd8a3f4988ea3014f09",
-    "text": "Search",
+    "text": "",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
@@ -95,6 +97,6 @@
     "wType": "TextField",
     "widgetAlignment": 5,
     "width": "90%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 10,
+    "zindex": 10
 }

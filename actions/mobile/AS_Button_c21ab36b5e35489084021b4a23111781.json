@@ -14,7 +14,6 @@
 			{
 				"id": "DISMISS_POPUP__onClick_59f25039ccdd40bc87bd99680a013a80",
 				"type": "DISMISS_POPUP",
-				"popupId": "popMessageSent",
 				"popupKUID": "6d2718c619c4479cb12c6588878db1c0",
 				"callbackType": null
 			}

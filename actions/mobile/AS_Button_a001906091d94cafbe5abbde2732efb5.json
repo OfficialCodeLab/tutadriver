@@ -14,7 +14,6 @@
 			{
 				"id": "DISMISS_POPUP___d4f0413525cd47729b0f48e923cc897c",
 				"type": "DISMISS_POPUP",
-				"popupId": "popMessageSent",
 				"popupKUID": "6d2718c619c4479cb12c6588878db1c0",
 				"parentId": null,
 				"callbackType": null

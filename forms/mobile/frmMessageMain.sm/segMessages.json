@@ -5,6 +5,7 @@
         "type": "number",
         "value": "0"
     },
+    "_bounces_": false,
     "_data_": [
         {
             "btnReadMsg": {
@@ -283,6 +284,7 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "bottom": 0,
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -536,6 +538,10 @@
             }
         }
     ],
+    "disabledSkins": {
+        "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
+        "widgetSkin": "s893bbc90d304b3f8796f70641f85401"
+    },
     "dockSectionHeaders": false,
     "docksectionheaders": false,
     "enabled": false,
@@ -555,7 +561,9 @@
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
         "psp": {
-            "indicator": "rowselect"
+            "bounces": false,
+            "indicator": "rowselect",
+            "progressIndicatorColor": "white"
         }
     },
     "isVisible": true,
@@ -589,14 +597,14 @@
     },
     "parent": "flexScrollMessages",
     "pf": "frmMessageMain",
+    "progressIndicatorColor": "white",
+    "progressindicatorcolor": "white",
     "render": true,
     "retainSelection": true,
     "retainselection": true,
-    "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
     "rowSkin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowTemplateId": "80ee3c45af264b2a871219b15a066e3b",
     "rowcounter": 7,
-    "rowfocusskin": "s3b02543e6f7476fbda219596cb964f5",
     "rowskin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowtemplate": "flexMessage",
     "screenLevelWidget": false,
