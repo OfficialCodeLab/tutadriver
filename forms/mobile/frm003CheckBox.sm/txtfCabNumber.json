@@ -95,6 +95,6 @@
     "wType": "TextField",
     "widgetAlignment": 5,
     "width": "90dp",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 3,
+    "zindex": 3
 }

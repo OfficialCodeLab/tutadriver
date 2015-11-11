@@ -42,7 +42,6 @@
     "context": {
         "channel": "mobile",
         "formID": "frm003CheckBox",
-        "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
@@ -55,7 +54,6 @@
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
     "kuid": "d2af82a04112468090a9a34515aae4b2",
     "margin": [

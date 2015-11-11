@@ -77,7 +77,7 @@
         0,
         0
     ],
-    "parent": "flexCheckBoxes",
+    "parent": "frm003CheckBox",
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
@@ -92,6 +92,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 4,
+    "zindex": 4
 }

@@ -30,7 +30,8 @@
     "channel": "mobile",
     "children": [
         "flexCheckBoxes",
-        "flexScrollCheckboxBackground"
+        "flexScrollCheckboxBackground",
+        "flexConfirmCabNumber"
     ],
     "containerWeight": 100,
     "containerweight": 100,
