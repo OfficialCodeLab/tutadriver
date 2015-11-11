@@ -39,8 +39,7 @@
     "children": [
         "btnContinue",
         "flexCheckboxHeader",
-        "flexCheckboxQuestions",
-        "flexConfirmCabNumber"
+        "flexCheckboxQuestions"
     ],
     "clipBounds": true,
     "clipbounds": true,

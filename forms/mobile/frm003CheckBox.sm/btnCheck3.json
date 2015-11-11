@@ -73,6 +73,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "30dp",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 3,
+    "zindex": 3
 }
