@@ -85,6 +85,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "45%",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 20,
+    "zindex": 20
 }
