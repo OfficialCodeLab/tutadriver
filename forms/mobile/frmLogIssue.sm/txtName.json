@@ -52,6 +52,8 @@
     "contentalignment": 5,
     "disabledSkins": {},
     "enabled": false,
+    "focusSkin": "s13621d9435a41818f04f9b863ae4ea3",
+    "focusskin": "s13621d9435a41818f04f9b863ae4ea3",
     "height": "50dp",
     "id": "txtName",
     "info": null,

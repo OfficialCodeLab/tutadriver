@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -16,7 +16,7 @@
         0
     ],
     "_padding_": [
-        38,
+        10,
         0,
         0,
         0
@@ -41,6 +41,11 @@
         }
     },
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -49,7 +54,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
-        "ispercent": "",
+        "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
@@ -61,7 +66,7 @@
     "enabled": false,
     "groupCells": false,
     "groupcells": false,
-    "height": "50dp",
+    "height": "60dp",
     "id": "lbxQuery",
     "info": null,
     "iphone": {
@@ -110,7 +115,7 @@
     ],
     "name": "kony.ui.ListBox",
     "padding": [
-        38,
+        10,
         0,
         0,
         0

@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "19dp"
     },
     "_margin_": [
         0,
@@ -23,14 +23,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "backarrow.png",
+    "_src_": "csbackarrow.png",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "18dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -54,11 +54,12 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
     "kuid": "ae83e5abde8e429ea5ade065ddceb259",
-    "left": "15dp",
+    "left": "19dp",
     "margin": [
         0,
         0,
@@ -76,19 +77,16 @@
     "pf": "frmLogIssue",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "backarrow.png",
+    "src": "csbackarrow.png",
     "srcType": 1,
-    "top": "15dp",
+    "top": "18dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "40dp",
     "zIndex": 4,
     "zindex": 4
 }

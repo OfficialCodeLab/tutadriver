@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "71dp"
     },
     "canUpdateUI": true,
     "channel": "mobile",
@@ -71,11 +71,11 @@
     "text": "",
     "top": "10dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "55dp",
+    "width": "71dp",
     "zIndex": 4,
     "zindex": 4
 }

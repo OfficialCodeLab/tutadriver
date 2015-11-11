@@ -51,6 +51,8 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
+    "focusSkin": "s4bab077f964441bbf319cc1ed4a9bd8",
+    "focusskin": "s4bab077f964441bbf319cc1ed4a9bd8",
     "height": "50dp",
     "id": "txtEmail",
     "info": null,
@@ -73,6 +75,8 @@
         0,
         0
     ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
     "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Your Email Address",

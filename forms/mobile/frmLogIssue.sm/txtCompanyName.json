@@ -51,6 +51,8 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
+    "focusSkin": "s236ed7bf1e84dba83c223d891394ff5",
+    "focusskin": "s236ed7bf1e84dba83c223d891394ff5",
     "height": "50dp",
     "id": "txtCompanyName",
     "info": null,
