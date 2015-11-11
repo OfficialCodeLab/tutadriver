@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "35dp"
+        "value": "134dp"
     },
     "_height_": {
         "type": "string",
@@ -23,12 +23,16 @@
     ],
     "_skin_": "s8bc592b38c64b0482f1baf384504c92",
     "_text_": "ETA:",
+    "_top_": {
+        "type": "string",
+        "value": "450dp"
+    },
     "_width_": {
         "type": "string",
         "value": "60dp"
     },
     "_wrapping_": 2,
-    "bottom": "35dp",
+    "bottom": "134dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -57,7 +61,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2cdfacea77b64506a7e95b22b7c0c120",
+    "kuid": "03f850b8705a4693bfd639be205c99ba",
     "margin": [
         1,
         1,
@@ -71,15 +75,16 @@
         0,
         0
     ],
-    "parent": "flexRequestInfo",
+    "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s8bc592b38c64b0482f1baf384504c92",
     "text": "ETA:",
     "toolTip": "",
     "tooltip": "",
+    "top": "450dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Label",
     "widgetAlignment": 5,

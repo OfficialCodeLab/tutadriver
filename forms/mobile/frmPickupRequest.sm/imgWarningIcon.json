@@ -1,10 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "50dp"
     },
     "_margin_": [
         0,
@@ -19,14 +20,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bluealert.png",
+    "_src_": "warningicon2.png",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "50dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -35,7 +36,6 @@
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -47,15 +47,15 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "80dp",
-    "id": "imgAlertIcon",
+    "height": "50dp",
+    "id": "imgWarningIcon",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "f5ef4ff4929f4593a1225dcf941ef0f1",
+    "kuid": "6f5b901328974e6e9ea24488faf00699",
     "margin": [
         0,
         0,
@@ -69,20 +69,17 @@
         0,
         0
     ],
-    "parent": "flexRequest",
+    "parent": "flexPopConfirmDecline",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bluealert.png",
+    "src": "warningicon2.png",
     "srcType": 1,
-    "top": "30dp",
-    "vizProps": {
-        "lock": false
-    },
+    "top": "20dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100dp",
+    "width": "50dp",
     "zIndex": 1,
     "zindex": 1
 }

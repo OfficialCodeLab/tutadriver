@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "65dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -18,21 +18,20 @@
         0,
         0
     ],
-    "_skin_": "s731c83e825d4f418f9ff736c2dfa4df",
+    "_skin_": "sa9b2d43738a4ffaac4df431f0aeaf24",
     "_text_": "Label",
+    "_top_": {
+        "type": "string",
+        "value": "190dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "2dp"
+        "value": "180dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "centerX": "50%",
-    "centerY": "50%",
     "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
         "type": "string",
         "value": "50%"
     },
@@ -41,8 +40,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "65dp",
-    "id": "lblSep4",
+    "height": "1dp",
+    "id": "lblPopSep",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,7 +55,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "aaee1be98d5f499cbae5905af37d1fbf",
+    "kuid": "03366fb145004a09803716b94af5654b",
     "margin": [
         1,
         1,
@@ -70,17 +69,18 @@
         0,
         0
     ],
-    "parent": "flexButtons",
+    "parent": "flexPopConfirmDecline",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s731c83e825d4f418f9ff736c2dfa4df",
+    "skin": "sa9b2d43738a4ffaac4df431f0aeaf24",
     "text": "Label",
     "toolTip": "",
     "tooltip": "",
+    "top": "190dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "2dp",
+    "width": "180dp",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }

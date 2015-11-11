@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "59dp"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
         0,
         0
     ],
-    "_skin_": "sacd76ec32e04329a84261fa36b5d918",
+    "_skin_": "s7afdd8ffc334bdebde99e9fa6a3612e",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -33,13 +33,14 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "0dp",
+    "bottom": 0,
     "canUpdateUI": true,
     "children": [
-        "btnDecline",
-        "btnAcceptRequest",
-        "lblSep3",
-        "lblSep4"
+        "btnConfirm",
+        "imgConfirm",
+        "imgCancel",
+        "btnCancel",
+        "lblButtonSep"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -48,12 +49,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
-    "id": "flexButtons",
+    "height": "59dp",
+    "id": "flexConfirmCancelButtons",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "bfb8a34c98354fe7bc1009720eb9c91a",
+    "kuid": "55872850786842039c5465010a5ef8e9",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -71,22 +72,19 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexPopConfirmDecline",
     "percent": true,
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "sacd76ec32e04329a84261fa36b5d918",
+    "skin": "s7afdd8ffc334bdebde99e9fa6a3612e",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {
-        "lock": false
-    },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 3,
-    "zindex": 3
+    "zIndex": 1,
+    "zindex": 1
 }

@@ -1,13 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "104dp"
+        "value": "80%"
     },
     "_margin_": [
         1,
@@ -21,29 +18,31 @@
         0,
         0
     ],
-    "_skin_": "sa75b5991dd24916b8d925f8fb48c771",
+    "_skin_": "s75176e3e42b41fdb0108d08e0d937af",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "269dp"
-    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "2dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblAddress",
+    "height": "80%",
+    "id": "lblButtonSep",
     "info": null,
     "ipad": {
         "psp": {
@@ -51,15 +50,13 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7a221e6a399f4b159472ad19b9726ca7",
-    "left": "104dp",
+    "kuid": "78c5d84d322743d0b8a457b47102ca0c",
     "margin": [
         1,
         1,
@@ -73,21 +70,17 @@
         0,
         0
     ],
-    "parent": "flexRequestInfo",
+    "parent": "flexConfirmCancelButtons",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "sa75b5991dd24916b8d925f8fb48c771",
+    "skin": "s75176e3e42b41fdb0108d08e0d937af",
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "269dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "2dp",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }

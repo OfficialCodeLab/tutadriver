@@ -1,13 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "280dp"
     },
     "_margin_": [
         6,
@@ -22,34 +19,35 @@
         0
     ],
     "_right_": {
-        "type": "string",
-        "value": "50%"
+        "type": "number",
+        "value": "0"
     },
-    "_skin_": "s0a9493b6cbb414a8e86a7de9464c3f3",
-    "_text_": "Cancel",
+    "_skin_": "sdca69bfe1bb405a8fdc19040a43d58c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "125dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "10%"
     },
-    "bottom": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "60dp",
-    "id": "btnDecline",
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": "280dp",
+    "id": "btnRightDismiss",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "52b647baee8d4240ab137eb9c42fe32d",
+    "kuid": "0a6afc029d134ad296b5557647f9c26f",
     "margin": [
         6,
         6,
@@ -57,28 +55,24 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_d81f0d4323584c04aec5fc78705c1e55",
-    "onclick": "AS_Button_d81f0d4323584c04aec5fc78705c1e55",
+    "onClick": "AS_Button_64d700a49e0d4f01800cd1ba8e9009e4",
+    "onclick": "AS_Button_64d700a49e0d4f01800cd1ba8e9009e4",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "paddingInPixel": false,
-    "paddinginpixel": false,
-    "parent": "flexButtons",
+    "parent": "flexConfirmCancel",
     "pf": "frmPickupRequest",
     "render": true,
-    "right": "50%",
-    "skin": "s0a9493b6cbb414a8e86a7de9464c3f3",
-    "text": "Cancel",
-    "vizProps": {
-        "lock": false
-    },
+    "right": 0,
+    "skin": "sdca69bfe1bb405a8fdc19040a43d58c",
+    "text": "",
+    "top": "125dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "50%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "10%",
+    "zIndex": 1,
+    "zindex": 1
 }

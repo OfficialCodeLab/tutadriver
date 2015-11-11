@@ -1,10 +1,10 @@
 {
-	"AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5": {
-		"id": "AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5",
+	"AS_Button_d81f0d4323584c04aec5fc78705c1e55": {
+		"id": "AS_Button_d81f0d4323584c04aec5fc78705c1e55",
 		"type": "ACTION_SEQUENCE",
 		"actions": [
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___ca02d14486f44edc9b189162434072e5",
+				"id": "SET_FORM_WIDGET_PROPERTY____0189725b72044a87aff491d07cac58c9",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frmPickupRequest",
@@ -14,7 +14,7 @@
 				"itemKUID": "13125039dcb54c92bff01120deba4fc8",
 				"widgetKUID": "6c45c683d3994216a1cff2026cdd63c0",
 				"isSkinProperty": false,
-				"parentId": null,
+				"forkedPlatform": "all",
 				"callbackType": null
 			}
 		]
