@@ -42,6 +42,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frm004Home",
+        "ispercent": true,
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -53,6 +54,7 @@
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
+    "ispercent": true,
     "isvisible": true,
     "kuid": "a5e04c539fdc4567b4b756807d6909c3",
     "margin": [
