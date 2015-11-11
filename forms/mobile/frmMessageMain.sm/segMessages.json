@@ -538,10 +538,7 @@
             }
         }
     ],
-    "disabledSkins": {
-        "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
-        "widgetSkin": "s893bbc90d304b3f8796f70641f85401"
-    },
+    "disabledSkins": {},
     "dockSectionHeaders": false,
     "docksectionheaders": false,
     "enabled": false,
@@ -602,9 +599,11 @@
     "render": true,
     "retainSelection": true,
     "retainselection": true,
+    "rowFocusSkin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowSkin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowTemplateId": "80ee3c45af264b2a871219b15a066e3b",
     "rowcounter": 7,
+    "rowfocusskin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowskin": "s9faa6862b3f44e1a7e72286f6876b59",
     "rowtemplate": "flexMessage",
     "screenLevelWidget": false,
@@ -648,6 +647,7 @@
         "lblTextPreview": "lblTextPreview",
         "lblTime": "lblTime"
     },
+    "widgetSkin": "s9faa6862b3f44e1a7e72286f6876b59",
     "widgetalignment": 5,
     "widgetdatamap": {
         "btnReadMsg": "btnReadMsg",
@@ -659,6 +659,7 @@
         "lblTextPreview": "lblTextPreview",
         "lblTime": "lblTime"
     },
+    "widgetskin": "s9faa6862b3f44e1a7e72286f6876b59",
     "width": "100%",
     "zIndex": 1,
     "zindex": 1

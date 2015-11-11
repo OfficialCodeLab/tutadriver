@@ -68,6 +68,9 @@
     },
     "wType": "Button"
   },
+  "iphone": {
+    "isForked": true
+  },
   "isDefaultSkin": false,
   "kiosk": {
     "background_color": "ffffff02",

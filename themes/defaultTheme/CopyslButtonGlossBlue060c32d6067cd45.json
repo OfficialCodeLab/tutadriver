@@ -82,7 +82,8 @@
     "wType": "Button"
   },
   "iphone": {
-    "font_name": "Helvetica-Bold"
+    "font_name": "Helvetica-Bold",
+    "isForked": true
   },
   "isDefaultSkin": false,
   "kiosk": {

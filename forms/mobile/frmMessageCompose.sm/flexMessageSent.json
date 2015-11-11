@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "310dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,45 +21,35 @@
         0,
         0
     ],
-    "_skin_": "s02c8dca74c44d2a90e3fe7989aee4ee",
+    "_skin_": "s0f6092dbbbd420e9e65d0ea8b00503a",
     "_top_": {
         "type": "string",
-        "value": "65dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
-    "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "lblMessage"
+        "FlexContainer08bb2bcff8ac641"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "decelerat": false,
-    "decelerating": false,
-    "dragg": false,
-    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "310dp",
-    "horizontalScrollIndicator": true,
-    "horizontalscrollindicator": true,
-    "id": "flexScrollMessages",
+    "height": "100%",
+    "id": "flexMessageSent",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c821237931354565af02d3ccd81b33b5",
+    "kuid": "86832a4ca5304a7d8a720d3ad279b6c7",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -69,7 +59,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexScrollContainer",
+    "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -77,25 +67,17 @@
         0,
         0
     ],
-    "pagingEnabled": false,
-    "pagingenabled": false,
-    "parent": "frmReadMessage",
+    "parent": "frmMessageCompose",
     "percent": true,
-    "pf": "frmReadMessage",
+    "pf": "frmMessageCompose",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
-    "skin": "s02c8dca74c44d2a90e3fe7989aee4ee",
+    "skin": "s0f6092dbbbd420e9e65d0ea8b00503a",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "65dp",
-    "track": false,
-    "tracking": false,
-    "verticalScrollIndicator": true,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "top": "0dp",
+    "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",

@@ -51,6 +51,13 @@ function init(){
   frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
   frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
   frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
+  frmMessageCompose.btnSend.onClick = function (){
+    frmMessageCompose.txtMessage.text = "";
+    frmMessageCompose.txtSendTo.text = "";
+    frmMessageCompose["flexMessageSent"]["isVisible"] = true;
+    
+  };
+  frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
   frm004Home.btnDemo.onClick = function (){
     //frm004Home.btnDemo.setVisibility(false); 
     //frm004Home["flexDemoShadow"]["isVisible"] = false;
