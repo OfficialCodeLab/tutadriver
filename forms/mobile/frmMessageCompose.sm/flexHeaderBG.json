@@ -47,10 +47,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "flexHeaderBG",
     "info": null,
     "isVisible": true,
@@ -58,10 +55,7 @@
     "kuid": "f1d2bc0ae99b44438577608a28e46f14",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -85,15 +79,9 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%"
 }

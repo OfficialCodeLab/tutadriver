@@ -8,7 +8,7 @@
 				"type": "NAVIGATE_TO_FORM",
 				"formId": "frmPickupRequest",
 				"formKUID": "13125039dcb54c92bff01120deba4fc8",
-				"parentId": null,
+				"parentId": "",
 				"callbackType": null
 			}
 		]

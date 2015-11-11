@@ -42,10 +42,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "btnSend",
     "info": null,
     "isVisible": true,
@@ -69,22 +66,13 @@
     "parent": "flexKeyboard",
     "pf": "frmMessageCompose",
     "render": true,
-    "right": {
-        "type": "number",
-        "value": "0"
-    },
+    "right": 0,
     "skin": "s6f1b747087041bda77c7c30547febc5",
     "text": "Send",
-    "top": {
-        "type": "string",
-        "value": "9dp"
-    },
+    "top": "9dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "20%"
-    },
+    "width": "20%",
     "zIndex": 1,
     "zindex": 1
 }

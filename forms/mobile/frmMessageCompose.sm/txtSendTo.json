@@ -51,20 +51,14 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "txtSendTo",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
     "kuid": "fd12cc5d3c4c4facbaa7e0a16a55fbc1",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -92,18 +86,12 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "top": "60dp",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

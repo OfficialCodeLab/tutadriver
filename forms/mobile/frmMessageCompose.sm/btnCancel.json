@@ -12,10 +12,10 @@
         6
     ],
     "_padding_": [
-        5,
-        2,
         0,
-        1
+        0,
+        0,
+        0
     ],
     "_right_": {
         "type": "string",
@@ -24,8 +24,8 @@
     "_skin_": "s61aaac788a44038a5dd599cea4fd990",
     "_text_": "Cancel",
     "_width_": {
-        "type": "string",
-        "value": "94dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "canUpdateUI": true,
     "centerY": "50%",
@@ -43,10 +43,7 @@
     "enabled": false,
     "focusSkin": "s486fb116c7942f9a41c644d2162160b",
     "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "60dp"
-    },
+    "height": "60dp",
     "id": "btnCancel",
     "info": null,
     "isVisible": true,
@@ -62,27 +59,24 @@
     "onClick": "AS_Button_51d61b4df6134801979ee48f53e78c7d",
     "onclick": "AS_Button_51d61b4df6134801979ee48f53e78c7d",
     "padding": [
-        5,
-        2,
         0,
-        1
+        0,
+        0,
+        0
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
     "parent": "flexHeaderBG",
     "pf": "frmMessageCompose",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "5dp"
-    },
+    "right": "5dp",
     "skin": "s61aaac788a44038a5dd599cea4fd990",
     "text": "Cancel",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": {
-        "type": "string",
-        "value": "94dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "zIndex": 1,
     "zindex": 1
