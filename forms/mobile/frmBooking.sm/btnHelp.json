@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
@@ -12,7 +12,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "75dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -30,15 +30,10 @@
     "_text_": "NEED HELP?",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
-    "bottom": "10dp",
+    "bottom": "0dp",
     "canUpdateUI": true,
-    "centerX": "50.00%",
-    "centerx": {
-        "type": "string",
-        "value": "50.00%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
@@ -54,8 +49,8 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "860bdabe09b4446b8b7c9a6609a1ebb7",
-    "left": "75dp",
+    "kuid": "6c28d1d0103740c9b4b0f4162dfd22f6",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -63,22 +58,22 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_593b0135821c4ff9be7bd22a1b0c62a8",
-    "onclick": "AS_Button_593b0135821c4ff9be7bd22a1b0c62a8",
+    "onClick": "AS_Button_2acd1e9397dd48e9a4f099dc54f958a9",
+    "onclick": "AS_Button_2acd1e9397dd48e9a4f099dc54f958a9",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexScroll",
     "pf": "frmBooking",
     "render": true,
     "skin": "s298329b9d6c4b719f02c139899aec59",
     "text": "NEED HELP?",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "80%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "100%",
+    "zIndex": 3,
+    "zindex": 3
 }

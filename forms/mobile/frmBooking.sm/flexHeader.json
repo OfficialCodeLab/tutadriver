@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
@@ -47,12 +47,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "120dp",
+    "height": "110dp",
     "id": "flexHeader",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2742a4f81b664316bde05dc932869251",
+    "kuid": "c788253d0bb249679ada7bff92255333",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "frmBooking",
     "percent": true,
     "pf": "frmBooking",
     "render": true,

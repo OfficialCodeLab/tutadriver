@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "1dp"
+        "value": "2dp"
     },
     "_left_": {
         "type": "string",
@@ -44,7 +44,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "1dp",
+    "height": "2dp",
     "id": "lblSep",
     "info": null,
     "ipad": {
@@ -59,7 +59,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "8a15d33390cf431ab5ac50290654ebd2",
+    "kuid": "4a7d90215c8d49a5a28abd51c54df35b",
     "left": "128dp",
     "margin": [
         1,

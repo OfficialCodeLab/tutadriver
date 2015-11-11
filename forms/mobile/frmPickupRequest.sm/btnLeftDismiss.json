@@ -26,22 +26,28 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "125dp"
+        "value": "90dp"
     },
     "_width_": {
         "type": "string",
         "value": "10%"
     },
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "height": "280dp",
     "id": "btnLeftDismiss",
     "info": null,
@@ -69,7 +75,7 @@
     "render": true,
     "skin": "se6c7b6408014eba88011229e238e5c2",
     "text": "",
-    "top": "125dp",
+    "top": "90dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "10%",

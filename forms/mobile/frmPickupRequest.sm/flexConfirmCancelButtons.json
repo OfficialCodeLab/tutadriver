@@ -25,7 +25,7 @@
         0,
         0
     ],
-    "_skin_": "s7afdd8ffc334bdebde99e9fa6a3612e",
+    "_skin_": "s60c4960bd7d476e9f65b7a2c46cfad5",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -76,7 +76,7 @@
     "percent": true,
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s7afdd8ffc334bdebde99e9fa6a3612e",
+    "skin": "s60c4960bd7d476e9f65b7a2c46cfad5",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

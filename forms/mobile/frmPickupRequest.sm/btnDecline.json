@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
@@ -31,7 +31,7 @@
         "type": "string",
         "value": "50%"
     },
-    "bottom": 0,
+    "bottom": "0dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
