@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -27,7 +27,7 @@
     "_src_": "warningicon.png",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
@@ -45,18 +45,20 @@
     "context": {
         "channel": "mobile",
         "formID": "frm003CheckBox",
+        "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "50dp",
+    "height": "70dp",
     "id": "Image0f68a0a48758443",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
+    "ispercent": true,
     "isvisible": true,
     "kuid": "434fab7927954a1d805f0cb10dcb2d53",
     "left": "123dp",
@@ -79,7 +81,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "warningicon.png",
     "srcType": 1,
-    "top": "20dp",
+    "top": "50dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
