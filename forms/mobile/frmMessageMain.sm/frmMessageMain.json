@@ -18,13 +18,18 @@
     "allboxes": [],
     "android": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "formAnimation": 3
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "formAnimation": 4
+        },
         "psp": {
             "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexHeader",
@@ -40,17 +45,23 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "frmMessageMain",
+    "inTransitionConfig": {
+        "formAnimation": 3
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formAnimation": 3
+    },
     "ipad": {
         "psp": {
             "inputAccessoryViewType": 4
@@ -58,6 +69,15 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "inTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "none"
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionEffect": "none"
+        },
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -73,10 +93,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -93,6 +113,12 @@
     "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formAnimation": 4
+    },
+    "outtransitionconfig": {
+        "formAnimation": 4
+    },
     "padding": [
         0,
         0,
@@ -102,25 +128,133 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "GalaxyS4",
-    "prevPlatform": "spaan",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "outTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
     "titleBar": true,
+    "titleBarModel": {
+        "DNDConfig": null,
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_skin_": "sa749b19390843459dd43d83142f6045",
+        "_text_": "",
+        "_visible_": false,
+        "buttonClosureLeftSideView": "",
+        "buttonClosureRightSideView": "",
+        "buttonText": "Edit",
+        "buttonclosureleftsideview": "",
+        "buttonclosurerightsideview": "",
+        "buttontext": "Edit",
+        "canUpdateUI": true,
+        "containerWeight": 0,
+        "containerweight": 0,
+        "enabled": false,
+        "id": "frmMessageMain_titleBar",
+        "ide_buttonClosureLeftSideView": "",
+        "ide_buttonClosureRightSideView": "",
+        "ide_titleClosureLeftSideView": "",
+        "ide_titleClosureRightSideView": "",
+        "info": null,
+        "isVisible": true,
+        "isvisible": true,
+        "leftButtonText": "Back",
+        "leftTitle": "Back",
+        "leftbuttontext": "Back",
+        "lefttitle": "Back",
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "name": "kony.ui.TitleBar",
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "prevFormTitle": false,
+        "prevformtitle": false,
+        "render": true,
+        "renderTitleText": true,
+        "rendertitletext": true,
+        "rightTitle": "Edit",
+        "righttitle": "Edit",
+        "skin": "sa749b19390843459dd43d83142f6045",
+        "text": "",
+        "titleBarLeftSideView": "button",
+        "titleBarRightSideView": "button",
+        "titleClosureLeftSideView": "",
+        "titleClosureRightSideView": "",
+        "titlebarleftsideview": "button",
+        "titlebarrightsideview": "button",
+        "titleclosureleftsideview": "",
+        "titleclosurerightsideview": "",
+        "visible": false,
+        "wType": "TitleBar",
+        "widgetAlignment": 5
+    },
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
     "titlebar": true,
     "type": 3,
     "wType": "Form",
     "widgetAlignment": 5,
     "windowSoftInputMode": 2,
-    "windowsoftinputmode": 2
+    "windowsoftinputmode": 2,
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "outTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
 }

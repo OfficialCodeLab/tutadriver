@@ -18,19 +18,16 @@
     "allboxes": [],
     "android": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
+        "needAppMenu": false,
         "psp": {
             "onDeviceMenu": "AS_Form_1e71121151ae4053b2ce62574038e2a0"
         }
     },
     "canUpdateUI": true,
-    "centerX": "",
-    "centerY": "",
     "channel": "mobile",
     "children": [
         "flexHeader",
-        "imgBookingListBG",
-        "segBookings",
-        "lblBookingTitle"
+        "flexScroll"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -42,7 +39,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS4",
+    "device": "GalaxyS2",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -60,6 +57,7 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -75,10 +73,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -105,17 +103,29 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "android",
-    "prevDevice": "iPhone6",
+    "prevDevice": "GalaxyS3",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
+    "shellCSS": "and_GalaxyS2",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -134,7 +144,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -189,7 +199,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -197,5 +207,8 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

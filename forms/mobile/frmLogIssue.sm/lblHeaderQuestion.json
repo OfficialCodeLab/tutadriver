@@ -25,7 +25,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "200dp"
+        "value": "70%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "765cd24c24ee43929aaa81c802797e91",
+    "kuid": "3f6c2130b82d4527a4f28e0e208e2492",
     "margin": [
         1,
         1,
@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "frmLogIssue",
+    "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "s684dd5484c7430eb94abee81c62169e",
@@ -80,7 +80,7 @@
     "top": "135dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "200dp",
+    "width": "70%",
     "wrapping": 2,
     "zIndex": 4,
     "zindex": 4

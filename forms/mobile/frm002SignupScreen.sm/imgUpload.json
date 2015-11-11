@@ -27,7 +27,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "cilpboard.png",
+    "_src_": "cilpboardgreen.png",
     "_width_": {
         "type": "string",
         "value": "40dp"
@@ -52,6 +52,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -74,7 +75,7 @@
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "cilpboard.png",
+    "src": "cilpboardgreen.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,

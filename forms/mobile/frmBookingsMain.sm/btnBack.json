@@ -37,17 +37,18 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "height": "55dp",
     "id": "btnBack",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c95d032f34434b71b2b52d1b5a859a4d",
+    "kuid": "7a915edc463648e0a6088afde7641a7b",
     "left": "10dp",
     "margin": [
         6,
@@ -56,8 +57,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_4697881319584954b6f169421adba8a9",
-    "onclick": "AS_Button_4697881319584954b6f169421adba8a9",
+    "onClick": "AS_Button_0277359297c94ff2b69dee0d719aa1c3",
+    "onclick": "AS_Button_0277359297c94ff2b69dee0d719aa1c3",
     "padding": [
         0,
         0,
@@ -70,6 +71,9 @@
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
     "top": "10dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "55dp",

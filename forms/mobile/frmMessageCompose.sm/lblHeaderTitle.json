@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "45dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -19,7 +19,7 @@
         0,
         0,
         0,
-        1
+        0
     ],
     "_skin_": "sc63d74fc9f24f3f8de3496189b182e2",
     "_text_": "New Messages",
@@ -41,13 +41,10 @@
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 8,
-    "contentalignment": 8,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "height": "60dp",
     "id": "lblHeaderTitle",
     "info": null,
     "ipad": {
@@ -64,10 +61,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "8c9c19025b1d4a1fb99c4ff96b378483",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         1,
         1,
@@ -79,7 +73,7 @@
         0,
         0,
         0,
-        1
+        0
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
@@ -90,15 +84,9 @@
     "text": "New Messages",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "wrapping": 2
 }

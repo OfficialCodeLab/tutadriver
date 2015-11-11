@@ -1,0 +1,99 @@
+{
+  "android": {
+    "background_color": {
+      "angle": 225,
+      "colors": [
+        "0000ff00",
+        "0000ff00",
+        "f0f0f0ff",
+        "f0f0f0ff"
+      ],
+      "cs": [
+        0,
+        50,
+        50,
+        100
+      ],
+      "gradientType": "custom",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "ipad": {
+    "background_color": {
+      "angle": 225,
+      "colors": [
+        "0000ff00",
+        "0000ff00",
+        "f0f0f0ff",
+        "f0f0f0ff"
+      ],
+      "cs": [
+        0,
+        50,
+        50,
+        100
+      ],
+      "gradientType": "custom",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": {
+      "angle": 225,
+      "colors": [
+        "0000ff00",
+        "0000ff00",
+        "f0f0f0ff",
+        "f0f0f0ff"
+      ],
+      "cs": [
+        0,
+        50,
+        50,
+        100
+      ],
+      "gradientType": "custom",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sfd6c20810d442aeabbccffaaaa0d90b",
+  "tabrcandroid": {
+    "background_color": {
+      "angle": 225,
+      "colors": [
+        "0000ff00",
+        "0000ff00",
+        "f0f0f0ff",
+        "f0f0f0ff"
+      ],
+      "cs": [
+        0,
+        50,
+        50,
+        100
+      ],
+      "gradientType": "custom",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "isForked": true
+  },
+  "wType": "FlexContainer"
+}

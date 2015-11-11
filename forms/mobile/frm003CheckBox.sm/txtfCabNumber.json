@@ -26,7 +26,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "85%"
+        "value": "85.50%"
     },
     "_width_": {
         "type": "string",
@@ -51,9 +51,12 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
+    "focusSkin": "s2a8c932d0c747bda59b24940d7ac316",
+    "focusskin": "s2a8c932d0c747bda59b24940d7ac316",
     "height": "35dp",
     "id": "txtfCabNumber",
     "info": null,
+    "iphone": {},
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
@@ -73,9 +76,11 @@
         0,
         0
     ],
-    "parent": "FlexContainer03def5989c9b34c",
+    "parent": "flexCheckboxQuestions",
     "pf": "frm003CheckBox",
     "placeholder": "",
+    "placeholderSkin": "s2a8c932d0c747bda59b24940d7ac316",
+    "placeholderskin": "s2a8c932d0c747bda59b24940d7ac316",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
@@ -84,7 +89,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": "85%",
+    "top": "85.50%",
     "viewType": "default",
     "viewtype": "default",
     "wType": "TextField",

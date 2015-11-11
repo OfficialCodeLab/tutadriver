@@ -3,15 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "-130dp"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
-        "value": "45dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "5%"
+        "value": "60dp"
     },
     "_margin_": [
         6,
@@ -25,44 +21,35 @@
         0,
         0
     ],
-    "_skin_": "s0a9493b6cbb414a8e86a7de9464c3f3",
-    "_text_": "Decline",
-    "_top_": {
+    "_right_": {
         "type": "string",
-        "value": "500dp"
+        "value": "50%"
     },
+    "_skin_": "s0a9493b6cbb414a8e86a7de9464c3f3",
+    "_text_": "Cancel",
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "50%"
     },
-    "bottom": {
-        "type": "string",
-        "value": "-130dp"
-    },
+    "bottom": "0dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "45dp"
-    },
+    "height": "60dp",
     "id": "btnDecline",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "36c6e4f9ac674f1f9f8211f32b03bc40",
-    "left": {
-        "type": "string",
-        "value": "5%"
-    },
+    "kuid": "52b647baee8d4240ab137eb9c42fe32d",
     "margin": [
         6,
         6,
@@ -70,8 +57,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_11dc4669c9de4649a2131d8d9eeda2c1",
-    "onclick": "AS_Button_11dc4669c9de4649a2131d8d9eeda2c1",
+    "onClick": "AS_Button_d81f0d4323584c04aec5fc78705c1e55",
+    "onclick": "AS_Button_d81f0d4323584c04aec5fc78705c1e55",
     "padding": [
         0,
         0,
@@ -80,24 +67,18 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "frmPickupRequest",
+    "parent": "flexButtons",
     "pf": "frmPickupRequest",
     "render": true,
+    "right": "50%",
     "skin": "s0a9493b6cbb414a8e86a7de9464c3f3",
-    "text": "Decline",
-    "top": {
-        "type": "string",
-        "value": "500dp"
-    },
+    "text": "Cancel",
     "vizProps": {
         "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45%"
-    },
+    "width": "50%",
     "zIndex": 2,
     "zindex": 2
 }

@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5bfae5f647b4f408268167aa8fd3c1b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "70%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "70%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "65dp",
+    "id": "CopyLabel046ce245969e24c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "4c36a1650a9c488e8901c63b65c199cd",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "FlexContainer031b76259697b44",
+    "pf": "frm003CheckBox",
+    "render": true,
+    "skin": "s5bfae5f647b4f408268167aa8fd3c1b",
+    "text": "",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "20dp",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "1px",
+    "wrapping": 2,
+    "zIndex": 2,
+    "zindex": 2
+}

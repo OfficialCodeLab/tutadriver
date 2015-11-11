@@ -3,12 +3,12 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
-        "value": "6%"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -26,14 +26,14 @@
     "_src_": "csaccounticon.png",
     "_width_": {
         "type": "string",
-        "value": "11%"
+        "value": "45dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
+    "centerY": "70dp",
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "70dp"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "height": "45dp",
     "id": "imgAccountImage",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -60,7 +57,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "d625563508b94e0fa8bb0a4254884aca",
-    "left": "6%",
+    "left": "5%",
     "margin": [
         0,
         0,
@@ -74,7 +71,7 @@
         0,
         0
     ],
-    "parent": "flexHeaderRed",
+    "parent": "flexHeader",
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
@@ -83,7 +80,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "11%",
+    "width": "45dp",
     "zIndex": 1,
     "zindex": 1
 }

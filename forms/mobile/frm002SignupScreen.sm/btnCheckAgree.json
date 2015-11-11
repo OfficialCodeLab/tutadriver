@@ -27,6 +27,10 @@
     ],
     "_skin_": "s5093b40f73449aaa99df2f36c3b8c87",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "420dp"
+    },
     "_width_": {
         "type": "string",
         "value": "49dp"
@@ -41,8 +45,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s5093b40f73449aaa99df2f36c3b8c87",
+    "focusskin": "s5093b40f73449aaa99df2f36c3b8c87",
     "height": "49dp",
     "id": "btnCheckAgree",
     "info": null,
@@ -70,6 +74,7 @@
     "render": true,
     "skin": "s5093b40f73449aaa99df2f36c3b8c87",
     "text": "",
+    "top": "420dp",
     "vizProps": {
         "lock": true
     },

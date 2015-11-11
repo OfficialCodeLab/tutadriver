@@ -24,17 +24,21 @@
         },
         "needAppMenu": false,
         "outTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
         },
         "psp": {
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
         "flexSignupMain",
-        "flexSignupNext"
+        "flexSignupNext",
+        "scrollSignupBottomB",
+        "scrollSignupBottom",
+        "flexHeader"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -49,9 +53,11 @@
     "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
+    "enableScrolling": false,
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "footer": "frm002SignupScreen_footer",
     "id": "frm002SignupScreen",
     "inTransitionConfig": {
@@ -80,7 +86,7 @@
         },
         "needAppMenu": false,
         "outTransitionConfig": {
-            "transitionDirection": "fromRight",
+            "transitionDirection": "none",
             "transitionEffect": "none"
         },
         "psp": {
@@ -136,7 +142,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "GalaxyS4",
+    "prevDevice": "iPhone3",
     "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,

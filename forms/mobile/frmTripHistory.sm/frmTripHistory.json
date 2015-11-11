@@ -13,7 +13,7 @@
         0,
         0
     ],
-    "_skin_": "s9083cdb16964e68816458976e0e7bf3",
+    "_skin_": "s3a6b0a89eb14338beba59c62407ebd2",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -34,7 +34,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6Plus",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -96,14 +96,14 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "iphone",
-    "prevDevice": "iPhone3",
+    "platform": "android",
+    "prevDevice": "iPhone6Plus",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6Plus",
-    "skin": "s9083cdb16964e68816458976e0e7bf3",
+    "shellCSS": "and_GalaxyS4",
+    "skin": "s3a6b0a89eb14338beba59c62407ebd2",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
@@ -121,7 +121,7 @@
         "needAppMenu": false
     },
     "title": null,
-    "titleBar": true,
+    "titleBar": false,
     "titleBarModel": {
         "DNDConfig": null,
         "_margin_": [
@@ -155,6 +155,11 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
+        "iphone": {
+            "psp": {
+                "visible": false
+            }
+        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",
@@ -198,7 +203,7 @@
         "widgetAlignment": 5
     },
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "widgetAlignment": 5,

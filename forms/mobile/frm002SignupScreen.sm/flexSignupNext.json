@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "700dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -38,7 +38,7 @@
     "channel": "mobile",
     "children": [
         "flexHeaderRed2",
-        "scrollSignupBottomB"
+        "CopyflexHeader030f40d88838a4f"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -47,11 +47,11 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "700dp",
+    "height": "100%",
     "id": "flexSignupNext",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "8067a00993024e969695f64dab14b74b",
     "layoutType": 2,
     "layouttype": 2,
@@ -87,6 +87,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 3,
+    "zindex": 3
 }

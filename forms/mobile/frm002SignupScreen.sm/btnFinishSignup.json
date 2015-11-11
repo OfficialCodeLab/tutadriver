@@ -3,15 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "13.50%"
+        "value": "50dp"
     },
     "_height_": {
         "type": "string",
         "value": "50dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "7.50%"
     },
     "_margin_": [
         6,
@@ -25,13 +21,17 @@
         0,
         0
     ],
-    "_skin_": "sfcc64b8c60a4e63984495d57e60142d",
+    "_skin_": "sead72f2f01e422792e30cdc52545aef",
     "_text_": "Next",
+    "_top_": {
+        "type": "string",
+        "value": "500dp"
+    },
     "_width_": {
         "type": "string",
         "value": "90%"
     },
-    "bottom": "13.50%",
+    "bottom": "50dp",
     "canUpdateUI": true,
     "centerX": "50%",
     "centerx": {
@@ -43,18 +43,18 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "sead72f2f01e422792e30cdc52545aef",
+    "focusskin": "sead72f2f01e422792e30cdc52545aef",
     "height": "50dp",
     "id": "btnFinishSignup",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "f7acd9956a8342f2b4d95f767f37449a",
-    "left": "7.50%",
     "margin": [
         6,
         6,
@@ -62,8 +62,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_7a13210bb3cb40659cc8062a357bd62d",
-    "onclick": "AS_Button_7a13210bb3cb40659cc8062a357bd62d",
     "padding": [
         0,
         0,
@@ -73,8 +71,9 @@
     "parent": "scrollSignupBottomB",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "sfcc64b8c60a4e63984495d57e60142d",
+    "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Next",
+    "top": "500dp",
     "vizProps": {
         "lock": true
     },

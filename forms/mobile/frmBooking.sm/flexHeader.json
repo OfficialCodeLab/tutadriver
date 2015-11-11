@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
@@ -21,8 +21,7 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
+    "_skin_": "s633587129de4c34aeb4fd61e540db91",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -35,13 +34,11 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "lblHeaderTitle",
-        "btnBack",
-        "imgBackArrow",
-        "imgHeadBG",
-        "imgCalendar"
+        "flexBackButton",
+        "lblSep",
+        "lblDateTime",
+        "flexBookingInfo"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -50,21 +47,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "height": "110dp",
     "id": "flexHeader",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "cb359b1edbe34c52adab8d55956329c1",
+    "kuid": "c788253d0bb249679ada7bff92255333",
     "layoutType": 2,
     "layouttype": 2,
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -83,20 +74,16 @@
     "percent": true,
     "pf": "frmBooking",
     "render": true,
-    "skin": "s1a1b9a2c3b44ce9b72aff74d1e08e58",
+    "skin": "s633587129de4c34aeb4fd61e540db91",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    }
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
 }

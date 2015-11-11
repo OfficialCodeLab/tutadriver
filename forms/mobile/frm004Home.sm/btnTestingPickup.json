@@ -37,17 +37,18 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "height": "55dp",
     "id": "btnTestingPickup",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
-    "kuid": "0d8f95b9360a491a9b8d354d9aff96a5",
+    "isVisible": false,
+    "isvisible": false,
+    "kuid": "7b1aea7c9ed740979e46482078109220",
     "left": "158dp",
     "margin": [
         6,
@@ -56,15 +57,15 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_074e84d351204a29b83a1fd27e328fda",
-    "onclick": "AS_Button_074e84d351204a29b83a1fd27e328fda",
+    "onClick": "AS_Button_4414da3f66fe4b0ba00f0344d854705f",
+    "onclick": "AS_Button_4414da3f66fe4b0ba00f0344d854705f",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
     "skin": "s5ce1a0635f6414e8b952db33f9c34d2",

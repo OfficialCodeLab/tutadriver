@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "9%"
+        "value": "10dp"
     },
     "_height_": {
         "type": "string",
@@ -32,7 +32,7 @@
         "value": "20dp"
     },
     "_wrapping_": 2,
-    "bottom": "9%",
+    "bottom": "10dp",
     "canUpdateUI": true,
     "centerX": "55%",
     "centerx": {
@@ -59,8 +59,8 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "d74a16d4c9914329aa46434e9735671b",
     "left": "184dp",
     "margin": [

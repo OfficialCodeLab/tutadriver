@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_height_": {
         "type": "string",
@@ -25,7 +25,7 @@
         0,
         0
     ],
-    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "_skin_": "s3dd3d304e65454888f0ace370dd6f2e",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -33,16 +33,21 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "0dp",
+    "bottom": "10dp",
     "canUpdateUI": true,
     "children": [
         "imgPortait",
-        "lblTitleFare",
         "lblEstimateFare",
+        "lblTitleFare",
         "imgPickUp",
         "lblPickUp",
-        "Label0b811dda512c543",
-        "Image05fe667e46d1e40"
+        "lblDropOff",
+        "imgDropOff",
+        "lblUpOffLine",
+        "lblPickUpLocation",
+        "lblDropOffLocation",
+        "lblTitleName",
+        "lblDateTime"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -80,7 +85,7 @@
     "percent": true,
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "skin": "s3dd3d304e65454888f0ace370dd6f2e",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

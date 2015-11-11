@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s151a57943fb4ad2a1d9686715d3759a",
+    "_text_": "Demo Request",
+    "_top_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "android": {
+        "pressedSkin": "s7b7689e4f18495299bfc87260029c81"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s7b7689e4f18495299bfc87260029c81",
+    "focusskin": "s7b7689e4f18495299bfc87260029c81",
+    "height": "50dp",
+    "id": "Button0a58cc6511a7b4c",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": true
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "a6a300a568d043fb8449c12cef1f310b",
+    "left": "15%",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMapScreen",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s151a57943fb4ad2a1d9686715d3759a",
+    "text": "Demo Request",
+    "top": "75dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "70%",
+    "zIndex": 69,
+    "zindex": 69
+}

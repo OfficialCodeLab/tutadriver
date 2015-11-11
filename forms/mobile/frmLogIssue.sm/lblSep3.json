@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "s6eaac84c7394e90bd48c891bb00546d",

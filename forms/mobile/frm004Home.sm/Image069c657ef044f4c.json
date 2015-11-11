@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "82dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdbac1e46a214bd488b9ac65551b817b",
+    "_src_": "profilepicbookingnew.png",
+    "_width_": {
+        "type": "string",
+        "value": "82dp"
+    },
+    "base64": null,
+    "bottom": 0,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm004Home",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "82dp",
+    "id": "Image069c657ef044f4c",
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "c8dd07377631400f88ed4c2102bbeb08",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexCustomer",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "sdbac1e46a214bd488b9ac65551b817b",
+    "src": "profilepicbookingnew.png",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "82dp",
+    "zIndex": 69,
+    "zindex": 69
+}

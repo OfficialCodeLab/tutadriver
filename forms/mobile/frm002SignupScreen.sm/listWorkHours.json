@@ -1,0 +1,162 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "64dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        2,
+        0
+    ],
+    "_placeholder_": "Work Hours: ",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s016edeff13641358ce0dc11c3fdc911",
+    "_top_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "android": {
+        "psp": {
+            "placeholder": "Work Hours: ",
+            "popupIcon": "clockicon.png",
+            "popupTitle": "Work Hours"
+        }
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm002SignupScreen",
+        "ispercent": true,
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dimension": 18,
+    "disabledSkins": {
+        "focusSkin": "s4987e542f0348f6873d56eaa0a363d2"
+    },
+    "dropDownImage": "dropdownarrowsm.png",
+    "dropdownimage": "dropdownarrowsm.png",
+    "enabled": false,
+    "groupCells": false,
+    "groupcells": false,
+    "height": "40dp",
+    "id": "listWorkHours",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "placeholder": "Work Hours: "
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "8dac2263a35c4c8183a1d3bae57fe726",
+    "left": "64dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterData": [
+        [
+            "lb1",
+            "Work Hours: 6:00am - 20:00pm"
+        ],
+        [
+            "lb2",
+            "Work Hours: 8:00am - 22:00pm"
+        ],
+        [
+            "lb3",
+            "Work Hours: 10:00am - 20:00pm"
+        ]
+    ],
+    "masterdata": [
+        [
+            "lb1",
+            "Work Hours: 6:00am - 20:00pm"
+        ],
+        [
+            "lb2",
+            "Work Hours: 8:00am - 22:00pm"
+        ],
+        [
+            "lb3",
+            "Work Hours: 10:00am - 20:00pm"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "padding": [
+        0,
+        0,
+        2,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "flexDriverDetails",
+    "pf": "frm002SignupScreen",
+    "placeholder": "Work Hours: ",
+    "render": true,
+    "right": "0dp",
+    "selectedKey": "lb1",
+    "selectedKeyValue": [
+        "lb1",
+        "Work Hours: 6:00am - 20:00pm"
+    ],
+    "selectedKeyValues": null,
+    "selectedKeys": null,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Work Hours: 6:00am - 20:00pm"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "skin": "s016edeff13641358ce0dc11c3fdc911",
+    "tickedImage": "circleselecton.png",
+    "tickedimage": "circleselecton.png",
+    "toolTip": "",
+    "top": "75dp",
+    "untickedImage": "circleselectoff.png",
+    "untickedimage": "circleselectoff.png",
+    "viewConfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewType": 0,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "widgetAlignment": 5,
+    "zIndex": 1,
+    "zindex": 1
+}

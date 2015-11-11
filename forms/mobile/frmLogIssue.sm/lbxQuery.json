@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -16,7 +16,7 @@
         0
     ],
     "_padding_": [
-        38,
+        10,
         0,
         0,
         0
@@ -41,6 +41,11 @@
         }
     },
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -61,7 +66,7 @@
     "enabled": false,
     "groupCells": false,
     "groupcells": false,
-    "height": "40dp",
+    "height": "60dp",
     "id": "lbxQuery",
     "info": null,
     "iphone": {
@@ -83,41 +88,41 @@
     "masterData": [
         [
             "lb1",
-            "Type 1"
+            "Query Topic"
         ],
         [
             "lb2",
-            "Type 2"
+            "Query Topic 2"
         ],
         [
             "lb3",
-            "Type 3"
+            "Query Topic 3"
         ]
     ],
     "masterdata": [
         [
             "lb1",
-            "Type 1"
+            "Query Topic"
         ],
         [
             "lb2",
-            "Type 2"
+            "Query Topic 2"
         ],
         [
             "lb3",
-            "Type 3"
+            "Query Topic 3"
         ]
     ],
     "name": "kony.ui.ListBox",
     "padding": [
-        38,
+        10,
         0,
         0,
         0
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Query Topic",
     "popupIcon": "helpicon.png",
@@ -128,7 +133,7 @@
     "selectedKey": "lb1",
     "selectedKeyValue": [
         "lb1",
-        "Type 1"
+        "Query Topic"
     ],
     "selectedKeyValues": null,
     "selectedKeys": null,
@@ -136,7 +141,7 @@
     "selectedkeys": null,
     "selectedkeyvalue": [
         "lb1",
-        "Type 1"
+        "Query Topic"
     ],
     "selectedkeyvalues": null,
     "size": 18,

@@ -1,0 +1,97 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "_top_": {
+        "type": "number",
+        "value": "55"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "bottom": "10dp",
+    "canUpdateUI": true,
+    "children": [
+        "imgPickUp",
+        "lblPickUp",
+        "lblDropOff",
+        "imgDropOff",
+        "lblUpOffLine",
+        "lblPickUpLocation",
+        "lblDropOffLocation"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": "40dp",
+    "id": "flexBookingInfo",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "63f0808098fc4796809a15cac3c707f7",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexHeader",
+    "percent": true,
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": 55,
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
+}

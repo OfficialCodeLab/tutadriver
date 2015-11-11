@@ -68,7 +68,7 @@
         0,
         0
     ],
-    "parent": "flexLogIssue",
+    "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
     "right": "12%",

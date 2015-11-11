@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_text_": "Trip History",
     "_top_": {
         "type": "string",
-        "value": "180dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -45,12 +45,12 @@
     "enabled": false,
     "focusSkin": "s9c655338c0d4f58913e025ae8101d9b",
     "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
-    "height": "50dp",
+    "height": "100%",
     "id": "btnTripHistory",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f1134ce6e720423ba2d7fa9308ed8b30",
+    "kuid": "06a447b7fdbe4563a562bdb6f3c4e4fa",
     "left": "0dp",
     "margin": [
         6,
@@ -59,8 +59,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_c5794afb2fcc4cfcbc5626ee9ed27540",
-    "onclick": "AS_Button_c5794afb2fcc4cfcbc5626ee9ed27540",
+    "onClick": "AS_Button_c35a4bcc767a42f4bffa69f249fb4f7f",
+    "onclick": "AS_Button_c35a4bcc767a42f4bffa69f249fb4f7f",
     "padding": [
         23,
         3,
@@ -69,12 +69,12 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnTripHistory",
     "pf": "frm004Home",
     "render": true,
     "skin": "se002d539f6641269884a955ef179301",
     "text": "Trip History",
-    "top": "180dp",
+    "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "100%",

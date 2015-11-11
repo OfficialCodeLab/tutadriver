@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5efa1faa5984a24887c8d021da9e3bf",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "216dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "2dp",
+    "id": "lblSep",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "d4fcb9d057314967903ee0cdce1d9bc2",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexAcceptDecline",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s5efa1faa5984a24887c8d021da9e3bf",
+    "text": "",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "216dp",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "80%",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

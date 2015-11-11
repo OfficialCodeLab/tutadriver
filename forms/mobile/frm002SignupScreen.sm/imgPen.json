@@ -20,10 +20,10 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "3dp"
+        "value": "10dp"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "penicon.png",
+    "_src_": "editiconmeddark.png",
     "_top_": {
         "type": "string",
         "value": "55%"
@@ -51,6 +51,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -71,9 +72,9 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "right": "3dp",
+    "right": "10dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "penicon.png",
+    "src": "editiconmeddark.png",
     "srcType": 1,
     "top": "55%",
     "vizProps": {

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "6%"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -17,12 +17,12 @@
         0,
         0
     ],
-    "_placeholder_": "",
+    "_placeholder_": "Customer Name",
     "_skin_": "s0f26627b902497ab9cbe2ff74bd7900",
-    "_text_": "Customer Name",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "32%"
+        "value": "205dp"
     },
     "_width_": {
         "type": "string",
@@ -52,16 +52,16 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "6%"
-    },
+    "focusSkin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "focusskin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "height": "40dp",
     "id": "txfCustomerName",
     "info": null,
+    "iphone": {},
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "8b777f4c096849a684ac27bdbf685f1d",
+    "kuid": "6f4d698295b24ddcab3a970ff8ef93ba",
     "margin": [
         0,
         0,
@@ -76,21 +76,20 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
-    "placeholder": "",
+    "placeholder": "Customer Name",
+    "placeholderSkin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "placeholderskin": "s0f26627b902497ab9cbe2ff74bd7900",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
     "skin": "s0f26627b902497ab9cbe2ff74bd7900",
-    "text": "Customer Name",
+    "text": "",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "32%"
-    },
+    "top": "205dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
@@ -98,10 +97,7 @@
     },
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
-    "zIndex": 1,
-    "zindex": 1
+    "width": "80%",
+    "zIndex": 2,
+    "zindex": 2
 }

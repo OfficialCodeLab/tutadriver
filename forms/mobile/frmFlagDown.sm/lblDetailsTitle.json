@@ -18,10 +18,10 @@
         0
     ],
     "_skin_": "s860892c01464a3aa7871f3c46318aad",
-    "_text_": "Please enter customer details",
+    "_text_": "Please enter customer details:",
     "_top_": {
         "type": "string",
-        "value": "25%"
+        "value": "150dp"
     },
     "_width_": {
         "type": "string",
@@ -40,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "5%"
-    },
+    "height": "5%",
     "id": "lblDetailsTitle",
     "info": null,
     "ipad": {
@@ -59,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "a65440b331084af0aa4995383fdee7d5",
+    "kuid": "7e109348dd4040de95232ee66db7d5ca",
     "margin": [
         1,
         1,
@@ -73,26 +70,20 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
     "skin": "s860892c01464a3aa7871f3c46318aad",
-    "text": "Please enter customer details",
+    "text": "Please enter customer details:",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "25%"
-    },
+    "top": "150dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
+    "width": "80%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

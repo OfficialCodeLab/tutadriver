@@ -4,133 +4,341 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 1"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 2"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 3"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 4"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 5"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 6"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 7"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 8"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 9"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 10"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 11"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 12"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 13"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         }
     ],
@@ -156,150 +364,363 @@
         0,
         0
     ],
-    "_rowTemplateId": "tempTripHistoryMain",
+    "_rowTemplateId": "tempTripHistory",
     "_top_": {
         "type": "string",
         "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "counter": "012",
     "data": [
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 1"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 2"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 3"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 4"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 5"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 6"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 7"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 8"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 9"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 10"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 11"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 12"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         },
         {
-            "lblDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "(2013/06/23)"
+            "Image04886e9d7c8614b": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map2.png"
             },
-            "lblTripNumber": {
+            "imgCustomerRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "customerrating.png"
+            },
+            "imgPortait": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "profilepicbooking.png"
+            },
+            "lblCost": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Trip 13"
+                "text": "R325,42"
+            },
+            "lblCustomerRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20/10/2015, 2:00 pm"
             }
         }
     ],
@@ -337,6 +758,8 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
+    "onRowClick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
+    "onrowclick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
     "orientation": 2,
     "padding": [
         0,
@@ -358,11 +781,11 @@
     "retainselection": false,
     "rowFocusSkin": "s3b02543e6f7476fbda219596cb964f5",
     "rowSkin": "se12ab7d50134654aa50d9c1b979b04c",
-    "rowTemplateId": "42bfa25c9e154458945d3b0d7483f35e",
+    "rowTemplateId": "aca634db90964f46bb7947665c01f7cf",
     "rowcounter": 12,
     "rowfocusskin": "s3b02543e6f7476fbda219596cb964f5",
     "rowskin": "se12ab7d50134654aa50d9c1b979b04c",
-    "rowtemplate": "flexTripHistoryMainRow",
+    "rowtemplate": "flexContent",
     "screenLevelWidget": false,
     "screenlevelwidget": false,
     "seccounter": 0,
@@ -376,7 +799,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionBehavior": "default",
     "selectionbehavior": "default",
     "separatorColor": "64646400",
@@ -393,15 +816,29 @@
     "wType": "Segment",
     "widgetAlignment": 5,
     "widgetDataMap": {
-        "flexTripHistoryMainRow": "flexTripHistoryMainRow",
-        "lblDate": "lblDate",
-        "lblTripNumber": "lblTripNumber"
+        "Image04886e9d7c8614b": "Image04886e9d7c8614b",
+        "flexContent": "flexContent",
+        "flexCustomerRating": "flexCustomerRating",
+        "flexMap": "flexMap",
+        "flexTripHistry": "flexTripHistry",
+        "imgCustomerRating": "imgCustomerRating",
+        "imgPortait": "imgPortait",
+        "lblCost": "lblCost",
+        "lblCustomerRating": "lblCustomerRating",
+        "lblDateTime": "lblDateTime"
     },
     "widgetalignment": 5,
     "widgetdatamap": {
-        "flexTripHistoryMainRow": "flexTripHistoryMainRow",
-        "lblDate": "lblDate",
-        "lblTripNumber": "lblTripNumber"
+        "Image04886e9d7c8614b": "Image04886e9d7c8614b",
+        "flexContent": "flexContent",
+        "flexCustomerRating": "flexCustomerRating",
+        "flexMap": "flexMap",
+        "flexTripHistry": "flexTripHistry",
+        "imgCustomerRating": "imgCustomerRating",
+        "imgPortait": "imgPortait",
+        "lblCost": "lblCost",
+        "lblCustomerRating": "lblCustomerRating",
+        "lblDateTime": "lblDateTime"
     },
-    "width": "100%"
+    "width": "95%"
 }

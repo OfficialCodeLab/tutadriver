@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
-        "type": "string",
-        "value": "610dp"
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -31,6 +31,7 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
+    "bottom": 0,
     "bounces": true,
     "canUpdateUI": true,
     "centerX": "50.00%",
@@ -54,10 +55,6 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "610dp"
-    },
     "horizontalScrollIndicator": true,
     "horizontalscrollindicator": true,
     "id": "flexScrollMessages",
@@ -94,10 +91,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": {
-        "type": "string",
-        "value": "68dp"
-    },
+    "top": "68dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -105,10 +99,7 @@
     "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

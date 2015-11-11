@@ -7,9 +7,9 @@
   "border_width": 0,
   "font_color": "424242ff",
   "font_name": "Helvetica",
-  "font_size": 75,
+  "font_size": 115,
   "font_style": "normal",
-  "font_weight": "bold",
+  "font_weight": "normal",
   "isDefaultSkin": false,
   "kuid": "s6c3a26664e940abb4d5beaa6b301cec",
   "wType": "Label"

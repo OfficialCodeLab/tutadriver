@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -45,10 +45,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "80dp"
-    },
+    "height": "100%",
     "id": "imgMessageStatus",
     "imageScaleMode": 0,
     "imageWhenFailed": "unreadbg.png",
@@ -60,10 +57,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "6ff899c0720f4901b94c8581aa2e2e13",
-    "left": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -83,17 +77,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "unreadbg.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "100%"
-    },
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

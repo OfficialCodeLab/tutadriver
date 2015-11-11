@@ -38,8 +38,8 @@
     "channel": "mobile",
     "children": [
         "btnContinue",
-        "FlexContainer0196cb30b6bc749",
-        "FlexContainer03def5989c9b34c",
+        "flexCheckboxHeader",
+        "flexCheckboxQuestions",
         "flexConfirmCabNumber"
     ],
     "clipBounds": true,
@@ -88,6 +88,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 3,
+    "zindex": 3
 }

@@ -38,15 +38,13 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnComposeMessage",
     "info": null,
     "isVisible": true,
@@ -70,10 +68,7 @@
     "parent": "flexHeader",
     "pf": "frmMessageMain",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "10dp"
-    },
+    "right": "10dp",
     "skin": "s4a9a05686ee4568802508a0dad262bb",
     "text": "",
     "vizProps": {
@@ -81,10 +76,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "width": "50dp",
     "zIndex": 1,
     "zindex": 1
 }

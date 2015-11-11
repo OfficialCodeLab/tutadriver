@@ -3,12 +3,12 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "19dp"
     },
     "_margin_": [
         0,
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "backarrow.png",
+    "_src_": "csbackarrow.png",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "18dp"
     },
     "_width_": {
         "type": "string",
@@ -46,16 +46,20 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "40dp",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "293757351eb74f018c1a7a5aaf5bca6f",
-    "left": "15dp",
+    "kuid": "ae83e5abde8e429ea5ade065ddceb259",
+    "left": "19dp",
     "margin": [
         0,
         0,
@@ -69,15 +73,15 @@
         0,
         0
     ],
-    "parent": "frmLogIssue",
+    "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "backarrow.png",
+    "src": "csbackarrow.png",
     "srcType": 1,
-    "top": "15dp",
+    "top": "18dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Image",
     "widgetAlignment": 5,

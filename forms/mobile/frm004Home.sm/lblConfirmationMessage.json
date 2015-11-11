@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf8be9b5c84b4b6bb8f3d7d8e3790067",
+    "_text_": "ARE YOU SURE YOU WANT TO CANCEL THIS JOB?",
+    "_top_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "enabled": false,
+    "height": "70dp",
+    "id": "lblConfirmationMessage",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "93406ca401c442ca9eaeaa73a03ab817",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexAcceptDecline",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "sf8be9b5c84b4b6bb8f3d7d8e3790067",
+    "text": "ARE YOU SURE YOU WANT TO CANCEL THIS JOB?",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "140dp",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "200dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

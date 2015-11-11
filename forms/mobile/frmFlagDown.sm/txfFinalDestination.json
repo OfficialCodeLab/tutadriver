@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "6%"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -17,12 +17,12 @@
         0,
         0
     ],
-    "_placeholder_": "",
+    "_placeholder_": "Enter Final Destination",
     "_skin_": "s52e063f855c417384f0a9e3b9fb1b8e",
-    "_text_": "Enter Final Destination",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "39%"
+        "value": "255dp"
     },
     "_width_": {
         "type": "string",
@@ -52,16 +52,16 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "6%"
-    },
+    "focusSkin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "focusskin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "height": "40dp",
     "id": "txfFinalDestination",
     "info": null,
+    "iphone": {},
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "657e0da826924a979334dc33c791cc6e",
+    "kuid": "9dec9f2b1d754f1a949a4fabfdacdbe7",
     "margin": [
         0,
         0,
@@ -76,21 +76,20 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
-    "placeholder": "",
+    "placeholder": "Enter Final Destination",
+    "placeholderSkin": "s0f26627b902497ab9cbe2ff74bd7900",
+    "placeholderskin": "s0f26627b902497ab9cbe2ff74bd7900",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
     "skin": "s52e063f855c417384f0a9e3b9fb1b8e",
-    "text": "Enter Final Destination",
+    "text": "",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": {
-        "type": "string",
-        "value": "39%"
-    },
+    "top": "255dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
@@ -98,10 +97,7 @@
     },
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "80%"
-    },
-    "zIndex": 1,
-    "zindex": 1
+    "width": "80%",
+    "zIndex": 2,
+    "zindex": 2
 }

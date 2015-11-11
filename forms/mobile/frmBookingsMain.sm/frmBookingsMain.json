@@ -16,12 +16,16 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexHeader",
-        "imgBookingListBG",
-        "segBookings"
+        "flexContent"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -36,9 +40,11 @@
     "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
+    "enableScrolling": true,
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
+    "enablescrolling": true,
     "id": "frmBookingsMain",
     "info": null,
     "initdone": false,
@@ -51,6 +57,7 @@
     },
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -66,10 +73,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -96,8 +103,8 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "android",
-    "prevDevice": "WinMob",
-    "prevPlatform": "winphone8",
+    "prevDevice": "iPhone3",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
@@ -107,6 +114,18 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -125,7 +144,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -180,7 +199,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -188,5 +207,10 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "windowSoftInputMode": 2,
+    "windowsoftinputmode": 2,
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

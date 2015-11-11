@@ -22,7 +22,7 @@
     "_src_": "tickicon.png",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",
@@ -52,6 +52,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -69,13 +70,13 @@
         0,
         0
     ],
-    "parent": "FlexContainer0196cb30b6bc749",
+    "parent": "flexCheckboxHeader",
     "pf": "frm003CheckBox",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "tickicon.png",
     "srcType": 1,
-    "top": "5dp",
+    "top": "15dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

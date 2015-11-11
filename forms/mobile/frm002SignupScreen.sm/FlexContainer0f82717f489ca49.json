@@ -1,0 +1,94 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_top_": {
+        "type": "string",
+        "value": "530dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "bottom": "50dp",
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "CopylblPager01c0a1fd9acb542",
+        "CopylblPager0362e6843067e44",
+        "CopylblPager0502f78daa08a4b",
+        "btnPager2"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": "30dp",
+    "id": "FlexContainer0f82717f489ca49",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "b6fe65fafbb44c7897eee9ade35a858d",
+    "layoutType": 2,
+    "layouttype": 2,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "scrollSignupBottom",
+    "percent": true,
+    "pf": "frm002SignupScreen",
+    "render": true,
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "top": "530dp",
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "80dp",
+    "zIndex": 5,
+    "zindex": 5
+}

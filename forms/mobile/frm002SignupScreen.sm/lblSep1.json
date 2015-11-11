@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "3dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -17,7 +17,7 @@
         0,
         0
     ],
-    "_skin_": "s872c10994f34ae98748ec9c337a4ccb",
+    "_skin_": "s1d19d48bf7e409cb37c3d5b4da83b06",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "3dp",
+    "height": "1dp",
     "id": "lblSep1",
     "info": null,
     "ipad": {
@@ -73,7 +73,7 @@
     "parent": "flexDriverDetails",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "s872c10994f34ae98748ec9c337a4ccb",
+    "skin": "s1d19d48bf7e409cb37c3d5b4da83b06",
     "text": "",
     "toolTip": "",
     "tooltip": "",

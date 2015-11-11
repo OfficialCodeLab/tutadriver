@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizHBox",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        9,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_position_": 3,
+    "_skin_": "s0667a5aae15439d90c18c218a25b36b",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Button08620489284da47",
+        "lblButtonSep"
+    ],
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contextmenu": null,
+    "enabled": false,
+    "id": "HBox0506b62bf48354e",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "2647b172aecc4a7a847a7641c6f05735",
+    "layoutType": 0,
+    "layouttype": 0,
+    "margin": [
+        0,
+        9,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Box",
+    "orientation": 1,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "popDeclinePickup",
+    "percent": true,
+    "pf": "popDeclinePickup",
+    "position": 3,
+    "render": true,
+    "skin": "s0667a5aae15439d90c18c218a25b36b",
+    "wType": "HBox",
+    "widgetAlignment": 1,
+    "widgetalignment": 1
+}

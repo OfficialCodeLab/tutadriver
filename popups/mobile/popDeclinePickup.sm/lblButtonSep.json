@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        24,
+        0,
+        0
+    ],
+    "_skin_": "seaf00d1abcb4af78e3c92b7280f3274",
+    "_text_": "",
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerWeight": 1,
+    "containerweight": 1,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "donotUpdateContainerWeight": false,
+    "enabled": false,
+    "id": "lblButtonSep",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "ffffbbab90f74638bf1dad49ea9a2c5a",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "marginInPixel": false,
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "paddInPixel": [
+        0,
+        121.92,
+        0,
+        0
+    ],
+    "padding": [
+        0,
+        24,
+        0,
+        0
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "HBox0506b62bf48354e",
+    "pf": "popDeclinePickup",
+    "render": true,
+    "skin": "seaf00d1abcb4af78e3c92b7280f3274",
+    "text": "",
+    "toolTip": "",
+    "tooltip": "",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "wrapping": 2
+}

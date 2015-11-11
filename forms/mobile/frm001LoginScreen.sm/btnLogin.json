@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_margin_": [
         6,
@@ -30,9 +30,14 @@
     "bottom": "25%",
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "25%",
     "centerx": {
         "type": "string",
         "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "25%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -42,9 +47,9 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s5008291b1ea423fb2cc070817e79cd8",
-    "focusskin": "s5008291b1ea423fb2cc070817e79cd8",
-    "height": "60dp",
+    "focusSkin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "focusskin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "height": "50dp",
     "id": "btnLogin",
     "info": null,
     "isVisible": true,
@@ -57,8 +62,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_9a050ca562f54db6a2cda85e3d5930fb",
-    "onclick": "AS_Button_9a050ca562f54db6a2cda85e3d5930fb",
     "padding": [
         0,
         0,

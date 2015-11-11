@@ -19,14 +19,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "flagballicon.png",
+    "_src_": "csflagdownicon.png",
     "_top_": {
         "type": "string",
-        "value": "1%"
+        "value": "6dp"
     },
     "_width_": {
-        "type": "number",
-        "value": "100"
+        "type": "ref",
+        "value": "preferred"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -40,25 +40,23 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "flexFlagDown",
+        "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "100dp"
-    },
+    "height": "100dp",
     "id": "imgHeaderFlag",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "b84d322946f142ec9d9de7992ce7c8ff",
+    "kuid": "d17911eda61046a6bb106440f60f9073",
     "margin": [
         0,
         0,
@@ -72,16 +70,13 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "flagballicon.png",
+    "src": "csflagdownicon.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "1%"
-    },
+    "top": "6dp",
     "vizProps": {
         "lock": true
     },
@@ -89,8 +84,8 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": {
-        "type": "number",
-        "value": "100"
+        "type": "ref",
+        "value": "preferred"
     },
     "zIndex": 1,
     "zindex": 1

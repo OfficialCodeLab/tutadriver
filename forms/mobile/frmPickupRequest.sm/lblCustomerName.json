@@ -5,10 +5,6 @@
         "type": "string",
         "value": "35dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "134dp"
-    },
     "_margin_": [
         1,
         1,
@@ -25,7 +21,7 @@
     "_text_": "Jarred Crowley",
     "_top_": {
         "type": "string",
-        "value": "230dp"
+        "value": "238dp"
     },
     "_width_": {
         "type": "string",
@@ -33,10 +29,10 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.00%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -44,10 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "35dp"
-    },
+    "height": "35dp",
     "id": "lblCustomerName",
     "info": null,
     "ipad": {
@@ -63,11 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "e3c34092c76c428786bb2a73737a38b7",
-    "left": {
-        "type": "string",
-        "value": "134dp"
-    },
+    "kuid": "b69fbbd86c904e5f91452de0a4fb3aaf",
     "margin": [
         1,
         1,
@@ -81,23 +70,17 @@
         0,
         0
     ],
-    "parent": "frmPickupRequest",
+    "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s4ce1c21391e4da2a840e5af0d028f07",
     "text": "Jarred Crowley",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "230dp"
-    },
+    "top": "238dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "240dp"
-    },
+    "width": "240dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

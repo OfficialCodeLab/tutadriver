@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "3dp"
+        "value": "10dp"
     },
     "_height_": {
         "type": "string",
@@ -24,26 +24,22 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "6dp"
+        "value": "2dp"
     },
-    "_skin_": "s6c3a26664e940abb4d5beaa6b301cec",
+    "_skin_": "s3bf7241ff7b49a88f1c0aa78c210626",
     "_text_": "R300 - R350",
-    "_top_": {
-        "type": "string",
-        "value": "69dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "65dp"
+        "value": "59dp"
     },
     "_wrapping_": 2,
-    "bottom": "3dp",
+    "bottom": "10dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 8,
+    "contentalignment": 8,
     "enabled": false,
     "height": "13dp",
     "id": "lblEstimateFare",
@@ -78,18 +74,17 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "right": "6dp",
-    "skin": "s6c3a26664e940abb4d5beaa6b301cec",
+    "right": "2dp",
+    "skin": "s3bf7241ff7b49a88f1c0aa78c210626",
     "text": "R300 - R350",
     "toolTip": "",
     "tooltip": "",
-    "top": "69dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "65dp",
+    "width": "59dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

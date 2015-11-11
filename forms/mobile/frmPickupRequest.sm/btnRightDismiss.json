@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "sdca69bfe1bb405a8fdc19040a43d58c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "height": "280dp",
+    "id": "btnRightDismiss",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "0a6afc029d134ad296b5557647f9c26f",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_64d700a49e0d4f01800cd1ba8e9009e4",
+    "onclick": "AS_Button_64d700a49e0d4f01800cd1ba8e9009e4",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexConfirmCancel",
+    "pf": "frmPickupRequest",
+    "render": true,
+    "right": 0,
+    "skin": "sdca69bfe1bb405a8fdc19040a43d58c",
+    "text": "",
+    "top": "125dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "10%",
+    "zIndex": 1,
+    "zindex": 1
+}

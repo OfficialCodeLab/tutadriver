@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "profilepicbooking.png",
+    "_top_": {
+        "type": "string",
+        "value": "425dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmBooking",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "125dp",
+    "id": "imgProfilePic",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "6e1aaa06431b4709b607f416ab143c95",
+    "left": "5dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexScroll",
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "profilepicbooking.png",
+    "srcType": 1,
+    "top": "425dp",
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "130dp",
+    "zIndex": 4,
+    "zindex": 4
+}

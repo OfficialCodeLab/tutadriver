@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frm001LoginScreen",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "14dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sac38577a3dd4777be05781272522371",
+    "_text_": "DROP:",
+    "_top_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "14dp",
+    "id": "lblDropOff",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "5dfb9ce451904999b89cac2498a4bc0b",
+    "left": "15dp",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexBookingInfo",
+    "pf": "frmBooking",
+    "render": true,
+    "skin": "sac38577a3dd4777be05781272522371",
+    "text": "DROP:",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "35dp",
+    "vizProps": {
+        "lock": false
+    },
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "50dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

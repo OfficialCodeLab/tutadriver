@@ -1,0 +1,23 @@
+{
+	"AS_Button_c21ab36b5e35489084021b4a23111781": {
+		"id": "AS_Button_c21ab36b5e35489084021b4a23111781",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onClick_8fc61d784d1143fc8f77e77896f0a8d3",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmMessageMain",
+				"formKUID": "d0065227d5de483e960788205354a969",
+				"parentId": "",
+				"callbackType": null
+			},
+			{
+				"id": "DISMISS_POPUP__onClick_59f25039ccdd40bc87bd99680a013a80",
+				"type": "DISMISS_POPUP",
+				"popupId": "popMessageSent",
+				"popupKUID": "6d2718c619c4479cb12c6588878db1c0",
+				"callbackType": null
+			}
+		]
+	}
+}

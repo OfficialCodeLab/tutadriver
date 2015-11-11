@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "25dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "2%"
+        "value": "9%"
     },
     "_margin_": [
         1,
@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "s1f050b13ff145f4b96581ad9011cebd",
-    "_text_": "",
+    "_text_": "Message Sender",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "30%"
     },
     "_width_": {
         "type": "string",
@@ -41,8 +41,8 @@
     "contentalignment": 4,
     "enabled": false,
     "height": {
-        "type": "string",
-        "value": "25dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "id": "lblFrom",
     "info": null,
@@ -61,10 +61,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "bbf7d9eb17c44165a0bcd732cecf5b85",
-    "left": {
-        "type": "string",
-        "value": "2%"
-    },
+    "left": "9%",
     "margin": [
         1,
         1,
@@ -82,19 +79,13 @@
     "pf": "messageTemp",
     "render": true,
     "skin": "s1f050b13ff145f4b96581ad9011cebd",
-    "text": "",
+    "text": "Message Sender",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "5%"
-    },
+    "top": "30%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "45%"
-    },
+    "width": "45%",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

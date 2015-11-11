@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -24,16 +24,20 @@
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "menuhelpicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
     "_width_": {
         "type": "string",
         "value": "35dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
+    "centerY": "57%",
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "57%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -42,7 +46,7 @@
         "channel": "mobile",
         "formID": "frm004Home",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -56,8 +60,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "13a513bffd88403d8e3e8750583a110b",
-    "left": "5dp",
+    "kuid": "e23aada0f5a64249b189d350f84dd18b",
+    "left": "10dp",
     "margin": [
         0,
         0,
@@ -71,12 +75,13 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnHelp",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "menuhelpicon.png",
     "srcType": 1,
+    "top": "150dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

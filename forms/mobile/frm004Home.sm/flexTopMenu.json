@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "55dp"
     },
     "_left_": {
         "type": "string",
@@ -37,14 +37,13 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "btnMenu",
-        "imgBurgerIcon",
         "imgTutaLogo",
         "btnMessages",
         "imgMessages",
         "lblMessageCount",
         "imgBurgerClose",
-        "btnCloseMenu"
+        "btnCloseCheeseburger",
+        "FlexContainer0af5edb3e79c248"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -53,12 +52,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "50dp",
+    "height": "55dp",
     "id": "flexTopMenu",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ac34f76cd06546cb9b01507ccae583e5",
+    "kuid": "3b86803b4ad1414fa0098ed6bfca44af",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0%",
@@ -76,7 +75,7 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexMapScreen",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

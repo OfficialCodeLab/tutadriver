@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "700dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -36,10 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "channel": "mobile",
-    "children": [
-        "flexHeaderRed",
-        "scrollSignupBottom"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -47,11 +44,11 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "700dp",
+    "height": "100%",
     "id": "flexSignupMain",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "b22c753806084d29b43490c01a6a8512",
     "layoutType": 2,
     "layouttype": 2,
@@ -87,6 +84,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 3,
+    "zindex": 3
 }

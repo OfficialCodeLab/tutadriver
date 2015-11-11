@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "15dp"
+        "value": "12dp"
     },
     "_left_": {
         "type": "string",
-        "value": "100dp"
+        "value": "94dp"
     },
     "_margin_": [
         1,
@@ -22,18 +22,18 @@
         0,
         0
     ],
-    "_skin_": "s12881baa1934f5ead5369e3b05ed53f",
+    "_skin_": "s34a8f845f56473fb914661a2706fb7f",
     "_text_": "PICKUP:",
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "10dp",
+    "centerY": "15dp",
     "centery": {
         "type": "string",
-        "value": "10dp"
+        "value": "15dp"
     },
     "containerId": true,
     "containerWeight": 100,
@@ -41,7 +41,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "15dp",
+    "height": "12dp",
     "id": "lblPickUp",
     "info": null,
     "ipad": {
@@ -58,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "33aad8cd35244f8cb90a2e331b23cc9c",
-    "left": "100dp",
+    "left": "94dp",
     "margin": [
         1,
         1,
@@ -75,7 +75,7 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "skin": "s12881baa1934f5ead5369e3b05ed53f",
+    "skin": "s34a8f845f56473fb914661a2706fb7f",
     "text": "PICKUP:",
     "toolTip": "",
     "tooltip": "",
@@ -84,7 +84,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "50dp",
+    "width": "40dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

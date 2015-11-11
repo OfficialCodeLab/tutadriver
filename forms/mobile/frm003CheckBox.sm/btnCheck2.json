@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "se808b6c051a4d988923ad084e21b20e",
+    "_skin_": "saaf01011e5b4855bdfe9427590aee71",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -40,8 +40,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sdb7a7317adb4f46804f071d67d7b462",
-    "focusskin": "sdb7a7317adb4f46804f071d67d7b462",
+    "focusSkin": "saaf01011e5b4855bdfe9427590aee71",
+    "focusskin": "saaf01011e5b4855bdfe9427590aee71",
     "height": "30dp",
     "id": "btnCheck2",
     "info": null,
@@ -64,10 +64,10 @@
         0,
         0
     ],
-    "parent": "FlexContainer03def5989c9b34c",
+    "parent": "flexCheckboxQuestions",
     "pf": "frm003CheckBox",
     "render": true,
-    "skin": "se808b6c051a4d988923ad084e21b20e",
+    "skin": "saaf01011e5b4855bdfe9427590aee71",
     "text": "",
     "top": "25%",
     "wType": "Button",

@@ -1,18 +1,18 @@
 {
     "DNDConfig": null,
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
-        4,
-        4,
-        4,
-        4
+        7,
+        7,
+        7,
+        7
     ],
-    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_skin_": "se98c454d40349fbb467bd59d82665f3",
     "_text_": "OK",
     "canUpdateUI": true,
     "channel": "mobile",
@@ -20,35 +20,48 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "id": "btnOkay",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "63565ffe289b4f9c9ccd910568b3b389",
+    "kuid": "d365af3c75aa4e238bb4377ebe744eba",
     "margin": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
+    "marginInPixel": false,
+    "marginLocked": false,
+    "margininpixel": false,
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_a001906091d94cafbe5abbde2732efb5",
-    "onclick": "AS_Button_a001906091d94cafbe5abbde2732efb5",
-    "padding": [
-        4,
-        4,
-        4,
-        4
+    "onClick": "AS_Button_c21ab36b5e35489084021b4a23111781",
+    "onclick": "AS_Button_c21ab36b5e35489084021b4a23111781",
+    "paddInPixel": [
+        20.48,
+        20.48,
+        20.48,
+        20.48
     ],
+    "padding": [
+        7,
+        7,
+        7,
+        7
+    ],
+    "paddingInPixel": false,
+    "paddingLocked": true,
+    "paddinginpixel": false,
     "parent": "popMessageSent",
     "pf": "popMessageSent",
     "render": true,
-    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "skin": "se98c454d40349fbb467bd59d82665f3",
     "text": "OK",
     "wType": "Button",
     "widgetAlignment": 5

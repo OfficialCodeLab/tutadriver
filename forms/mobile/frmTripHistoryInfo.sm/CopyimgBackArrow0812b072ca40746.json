@@ -1,0 +1,93 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "backarrow.png",
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "base64": null,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "45%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "45%"
+    },
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmTripHistoryInfo",
+        "ispercent": true,
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "enabled": false,
+    "height": "30dp",
+    "id": "CopyimgBackArrow0812b072ca40746",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "info": null,
+    "isVisible": true,
+    "ispercent": true,
+    "isvisible": true,
+    "kuid": "ad000ba2a286412384a90eed400a3e0d",
+    "left": "15dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexBackButton",
+    "pf": "frmTripHistoryInfo",
+    "render": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "backarrow.png",
+    "srcType": 1,
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "30dp",
+    "zIndex": 4,
+    "zindex": 4
+}

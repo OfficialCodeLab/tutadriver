@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "80%"
+        "value": "81.50%"
     },
     "_width_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
+    "height": "1dp",
     "id": "lblSepLine5",
     "info": null,
     "ipad": {
@@ -70,14 +70,14 @@
         0,
         0
     ],
-    "parent": "FlexContainer03def5989c9b34c",
+    "parent": "flexCheckboxQuestions",
     "pf": "frm003CheckBox",
     "render": true,
     "skin": "s8688a319b754ede9321e8fd7df865f5",
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "80%",
+    "top": "81.50%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100%",

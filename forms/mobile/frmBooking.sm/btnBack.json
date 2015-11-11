@@ -3,11 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "10dp"
+        "value": "100%"
     },
     "_margin_": [
         6,
@@ -23,15 +19,21 @@
     ],
     "_skin_": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "10dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -40,21 +42,14 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": {
-        "type": "string",
-        "value": "55dp"
-    },
+    "focusSkin": "sc653f2738164a98853e8fddfb1f90b5",
+    "focusskin": "sc653f2738164a98853e8fddfb1f90b5",
+    "height": "100%",
     "id": "btnBack",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "848637394e544601bffd2fc6a79ac691",
-    "left": {
-        "type": "string",
-        "value": "10dp"
-    },
+    "kuid": "13cebd0c3f554b6c8b902d3a115c8f42",
     "margin": [
         6,
         6,
@@ -62,29 +57,25 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_659fb05e1e764dfab1b9d0fa34386084",
-    "onclick": "AS_Button_659fb05e1e764dfab1b9d0fa34386084",
+    "onClick": "AS_Button_8406e553f2a747eaa61ec16e2bb56bc0",
+    "onclick": "AS_Button_8406e553f2a747eaa61ec16e2bb56bc0",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "flexBackButton",
     "pf": "frmBooking",
     "render": true,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "10dp"
+    "vizProps": {
+        "lock": true
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "55dp"
-    },
-    "zIndex": 2,
-    "zindex": 2
+    "width": "100%",
+    "zIndex": 4,
+    "zindex": 4
 }

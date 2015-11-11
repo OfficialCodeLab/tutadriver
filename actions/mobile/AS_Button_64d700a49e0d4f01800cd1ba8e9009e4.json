@@ -1,0 +1,23 @@
+{
+	"AS_Button_64d700a49e0d4f01800cd1ba8e9009e4": {
+		"id": "AS_Button_64d700a49e0d4f01800cd1ba8e9009e4",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___017d6fa56000452490848f77233c6e26",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmPickupRequest",
+				"widgetId": "flexConfirmCancel",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "13125039dcb54c92bff01120deba4fc8",
+				"widgetKUID": "6c45c683d3994216a1cff2026cdd63c0",
+				"isSkinProperty": false,
+				"forkedPlatform": "all",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "71dp"
     },
     "canUpdateUI": true,
     "channel": "mobile",
@@ -47,7 +47,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f2ef573113c24fc7aa0959505df153e3",
+    "kuid": "263fa66bb66a4677abbfa3e8c5ec531e",
     "left": "10dp",
     "margin": [
         6,
@@ -56,26 +56,26 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_099a175bf1a7405facc782d5a1c788cc",
-    "onclick": "AS_Button_099a175bf1a7405facc782d5a1c788cc",
+    "onClick": "AS_Button_39b39566c600413e9a3988971c304f96",
+    "onclick": "AS_Button_39b39566c600413e9a3988971c304f96",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "frmLogIssue",
+    "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
     "top": "10dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "55dp",
+    "width": "71dp",
     "zIndex": 4,
     "zindex": 4
 }

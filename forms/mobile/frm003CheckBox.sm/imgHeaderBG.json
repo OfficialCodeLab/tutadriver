@@ -51,8 +51,8 @@
     "imageScaleMode": 0,
     "imagescalemode": 0,
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "b69f3908393c48f68163fba7b54c6641",
     "left": "0dp",
     "margin": [
@@ -68,7 +68,7 @@
         0,
         0
     ],
-    "parent": "FlexContainer0196cb30b6bc749",
+    "parent": "flexCheckboxHeader",
     "pf": "frm003CheckBox",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",

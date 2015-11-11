@@ -45,10 +45,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "lblMessageHeader",
     "info": null,
     "ipad": {
@@ -65,10 +62,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "5a9843f4568f449c8536ecf21462e97d",
-    "left": {
-        "type": "string",
-        "value": "136dp"
-    },
+    "left": "136dp",
     "margin": [
         1,
         1,
@@ -94,10 +88,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "150dp"
-    },
+    "width": "150dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

@@ -38,17 +38,18 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
     "height": "49dp",
     "id": "btnMessages",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "4ffc5a46a0da4036bd263ce78da9eadf",
+    "kuid": "e76041cc9e9a4bd2bf869a21531d73c2",
     "margin": [
         6,
         6,
@@ -56,8 +57,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_28ee92bc5c2e40f0a42f2e9b8c52599a",
-    "onclick": "AS_Button_28ee92bc5c2e40f0a42f2e9b8c52599a",
+    "onClick": "AS_Button_4b97d0a6f288493682ace75aa6645612",
+    "onclick": "AS_Button_4b97d0a6f288493682ace75aa6645612",
     "padding": [
         0,
         0,

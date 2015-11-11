@@ -9,7 +9,7 @@
 				"conditions": [
 					{
 						"leftValueType": "widgetprop",
-						"leftValue": "frm003CheckBox.flexCheckBoxes.FlexContainer03def5989c9b34c.imgTick4.isVisible",
+						"leftValue": "frm003CheckBox.flexCheckBoxes.flexCheckboxQuestions.imgTick4.isVisible",
 						"operator": "===",
 						"rightValueType": "value",
 						"rightValue": "false",

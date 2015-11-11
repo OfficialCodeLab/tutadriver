@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "850dp"
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
@@ -35,16 +35,12 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bounces": true,
+    "bottom": "0dp",
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblTitleTermsConditions",
-        "lblTermsConditionsText",
-        "lblTitlePrivacyPolicy",
-        "lblPrivacyPolicyText",
-        "lblDisclaimerTitle",
-        "lblDisclaimerTuta"
+        "RichText0fa5e3726954043"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -57,9 +53,8 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "850dp",
-    "horizontalScrollIndicator": true,
-    "horizontalscrollindicator": true,
+    "horizontalScrollIndicator": false,
+    "horizontalscrollindicator": false,
     "id": "flexScrollLegalText",
     "info": null,
     "isVisible": true,
@@ -88,8 +83,8 @@
     "percent": true,
     "pf": "frmTermsConditions",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
+    "scrollDirection": 2,
+    "scrolldirection": 2,
     "skin": "s147d3f503e642c98aff2a07b24d4fd5",
     "snapGridSize": 10,
     "snapToGrid": true,

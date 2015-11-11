@@ -46,15 +46,12 @@
         "channel": "mobile",
         "formID": "frmMessageMain",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "height": "30dp",
     "id": "imgSearchIcon",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -64,10 +61,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "2cd4b90496044dee8c041ff5765d1ce9",
-    "left": {
-        "type": "string",
-        "value": "30%"
-    },
+    "left": "30%",
     "margin": [
         0,
         0,
@@ -87,17 +81,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "search.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "top": "20dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

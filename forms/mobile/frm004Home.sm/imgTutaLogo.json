@@ -51,7 +51,7 @@
         "channel": "mobile",
         "formID": "frm004Home",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -64,7 +64,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "ea1b0900ac1b473fb7b904e565616071",
+    "kuid": "db26d60c955c47088dc5ed8aaa3b9c9f",
     "left": "141dp",
     "margin": [
         0,

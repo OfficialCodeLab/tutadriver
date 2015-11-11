@@ -2,9 +2,13 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "17dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
@@ -24,15 +28,12 @@
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "lock.png",
-    "_top_": {
-        "type": "string",
-        "value": "82%"
-    },
     "_width_": {
         "type": "string",
         "value": "25dp"
     },
     "base64": null,
+    "bottom": "17dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -46,7 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "35dp",
+    "height": "25dp",
     "id": "imgSecure",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -75,7 +76,6 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "lock.png",
     "srcType": 1,
-    "top": "82%",
     "vizProps": {
         "lock": true
     },

@@ -1,0 +1,128 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "showZoomControl": false
+        }
+    },
+    "calloutWidth": 80,
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "containerWeight": 100,
+    "containerweight": 100,
+    "defaultPinImage": "pinb.png",
+    "defaultpinimage": "pinb.png",
+    "enabled": false,
+    "height": "100%",
+    "id": "mapMain",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "4d87c6e7a6bf4a9993f4975b6f780ecd",
+    "left": "0%",
+    "locationData": [
+        {
+            "desc": "Phoenix infocity, Gachibowli",
+            "lat": "17.447326",
+            "lon": "78.371358",
+            "name": "KonyLabs(New)"
+        },
+        {
+            "desc": "Mindspace, Hitech City",
+            "lat": "17.441839",
+            "lon": "78.380928",
+            "name": "KonyLabs(Old)"
+        },
+        {
+            "desc": "Jaihind Enclave, Madhapur",
+            "lat": "17.450378",
+            "lon": "78.388398",
+            "name": "My Residence"
+        }
+    ],
+    "locationdata": [
+        {
+            "desc": "Phoenix infocity, Gachibowli",
+            "lat": "17.447326",
+            "lon": "78.371358",
+            "name": "KonyLabs(New)"
+        },
+        {
+            "desc": "Mindspace, Hitech City",
+            "lat": "17.441839",
+            "lon": "78.380928",
+            "name": "KonyLabs(Old)"
+        },
+        {
+            "desc": "Jaihind Enclave, Madhapur",
+            "lat": "17.450378",
+            "lon": "78.388398",
+            "name": "My Residence"
+        }
+    ],
+    "mapSource": "non-native",
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "mode": 1,
+    "name": "kony.ui.Map",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMapScreen",
+    "pf": "frm004Home",
+    "provider": "google",
+    "render": true,
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "top": "0%",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Map",
+    "widgetAlignment": 5,
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1,
+    "zoomLevel": 15,
+    "zoomlevel": 15
+}

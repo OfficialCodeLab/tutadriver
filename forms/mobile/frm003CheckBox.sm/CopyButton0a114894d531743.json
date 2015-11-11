@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6dbb7572ddc49d092a3843f454be50c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s6dbb7572ddc49d092a3843f454be50c",
+    "focusskin": "s6dbb7572ddc49d092a3843f454be50c",
+    "height": "100%",
+    "id": "CopyButton0a114894d531743",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "c31770b1809b47698743f37a5828a1c0",
+    "left": "90%",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "onClick": "AS_Button_3737a0f684bc439f9791a1bd82612f2c",
+    "onclick": "AS_Button_3737a0f684bc439f9791a1bd82612f2c",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexConfirmCabNumber",
+    "pf": "frm003CheckBox",
+    "render": true,
+    "skin": "s6dbb7572ddc49d092a3843f454be50c",
+    "text": "",
+    "top": "0dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "10%",
+    "zIndex": 1,
+    "zindex": 1
+}

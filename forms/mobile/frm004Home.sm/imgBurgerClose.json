@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frm004Home",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -55,7 +55,7 @@
     "isVisible": false,
     "ispercent": true,
     "isvisible": false,
-    "kuid": "8615fe5e46aa4fc1a00ab730fd3290a7",
+    "kuid": "976da96b0af54acd85f784acb05f2a0a",
     "margin": [
         0,
         0,
@@ -63,8 +63,8 @@
         0
     ],
     "name": "kony.ui.Image2",
-    "onDownloadComplete": "AS_Image_2783c5fd61f4453493fff300c8943a26",
-    "ondownloadcomplete": "AS_Image_2783c5fd61f4453493fff300c8943a26",
+    "onDownloadComplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
+    "ondownloadcomplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
     "padding": [
         0,
         0,

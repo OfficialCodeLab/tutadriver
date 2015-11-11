@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "144dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a6d94ac2134faaad953927947d92df",
+    "_text_": "32 Woodlands Drive, 2191, South Africa",
+    "_width_": {
+        "type": "string",
+        "value": "170dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerY": "15dp",
+    "centery": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "containerId": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "12dp",
+    "id": "lblPickUpLocation",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isSegmentChild": false,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "57531ea54c8d43d8b4220c8d9e664558",
+    "left": "144dp",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexBookingInfo",
+    "pf": "bookingTemp",
+    "render": true,
+    "skin": "s2a6d94ac2134faaad953927947d92df",
+    "text": "32 Woodlands Drive, 2191, South Africa",
+    "toolTip": "",
+    "tooltip": "",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "170dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

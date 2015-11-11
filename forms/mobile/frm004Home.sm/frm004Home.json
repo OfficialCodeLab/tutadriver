@@ -18,19 +18,24 @@
     "allboxes": [],
     "android": {
         "inTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
-            "formAnimation": 3
+            "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 2
         }
     },
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "Map04e53202ae5fe49",
-        "flexTopMenu",
         "flexMenu",
-        "btnTestingPickup"
+        "flexMapScreen",
+        "flexAcceptDecline",
+        "flexFindingDest",
+        "flexOverlay1"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -42,7 +47,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS4",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -67,12 +72,13 @@
     "iphone": {
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
         "inTransitionConfig": {
-            "transitionDirection": "fromRight",
-            "transitionEffect": "transitionMoveIn"
+            "transitionDirection": "none",
+            "transitionEffect": "none"
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
-            "transitionDirection": "fromRight",
-            "transitionEffect": "transitionMoveIn"
+            "transitionDirection": "none",
+            "transitionEffect": "none"
         },
         "psp": {
             "inputAccessoryViewType": 4,
@@ -89,10 +95,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -124,13 +130,13 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
-    "prevDevice": "iPhone6",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "GalaxyS4",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
+    "shellCSS": "iOS_iPhone6",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
@@ -143,6 +149,18 @@
         "outTransitionConfig": {
             "formTransition": "none"
         }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
     },
     "title": null,
     "titleBar": true,
@@ -162,7 +180,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -217,7 +235,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -232,6 +250,7 @@
             "transitionMode": "none",
             "transitionSpeed": 0
         },
+        "needAppMenu": false,
         "outTransitionConfig": {
             "outTransition": "none",
             "transitionMode": "none",

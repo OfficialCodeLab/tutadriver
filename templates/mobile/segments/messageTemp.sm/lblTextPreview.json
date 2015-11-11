@@ -6,12 +6,12 @@
         "value": "3"
     },
     "_height_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "2%"
+        "value": "9%"
     },
     "_margin_": [
         1,
@@ -26,16 +26,17 @@
         0
     ],
     "_skin_": "s62a366e7ce44bbca2bba4e6ff2bfaff",
-    "_text_": "",
+    "_text_": "Message Preview Text",
+    "_top_": {
+        "type": "string",
+        "value": "60%"
+    },
     "_width_": {
         "type": "string",
-        "value": "65%"
+        "value": "46.88%"
     },
     "_wrapping_": 2,
-    "bottom": {
-        "type": "number",
-        "value": "3"
-    },
+    "bottom": 3,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerId": true,
@@ -45,8 +46,8 @@
     "contentalignment": 1,
     "enabled": false,
     "height": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "id": "lblTextPreview",
     "info": null,
@@ -65,10 +66,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "0c53a9189cba45eb93471ccee035af3b",
-    "left": {
-        "type": "string",
-        "value": "2%"
-    },
+    "left": "9%",
     "margin": [
         1,
         1,
@@ -86,15 +84,13 @@
     "pf": "messageTemp",
     "render": true,
     "skin": "s62a366e7ce44bbca2bba4e6ff2bfaff",
-    "text": "",
+    "text": "Message Preview Text",
     "toolTip": "",
     "tooltip": "",
+    "top": "60%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "65%"
-    },
+    "width": "46.88%",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

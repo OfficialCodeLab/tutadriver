@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "152dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bookingsbg.png",
+    "_src_": "bluebg.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -46,16 +46,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "152dp",
+    "height": "150dp",
     "id": "imgHeadBG",
-    "imageScaleMode": 2,
-    "imagescalemode": 2,
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "d87e6e37f26d4c059bf929c2adb755e9",
+    "kuid": "6bd3aa3755f04a24b2d0071d2a811362",
     "left": "0dp",
     "margin": [
         0,
@@ -74,9 +74,12 @@
     "pf": "frmBookingsMain",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bookingsbg.png",
+    "src": "bluebg.png",
     "srcType": 1,
     "top": "0dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

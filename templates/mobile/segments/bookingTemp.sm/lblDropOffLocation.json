@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "146dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s00cdf34dd824c83a6aa8870db7ed5b7",
+    "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
+    "_top_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "170dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerY": "35dp",
+    "centery": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "containerId": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "12dp",
+    "id": "lblDropOffLocation",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isSegmentChild": false,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "d8b9cd3e8ba74f438ecfd23e91277654",
+    "left": "146dp",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexBookingInfo",
+    "pf": "bookingTemp",
+    "render": true,
+    "skin": "s00cdf34dd824c83a6aa8870db7ed5b7",
+    "text": "21 Ebury Ave Bryanston, 2191, South Africa",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "26dp",
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "170dp",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

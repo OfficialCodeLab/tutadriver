@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "_text_": "logged in as cab driver",
+    "_text_": "Logged in as cab driver",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -78,7 +78,7 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "sf939a37d3ee49ef9a97b38ebc2e163a",
-    "text": "logged in as cab driver",
+    "text": "Logged in as cab driver",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",

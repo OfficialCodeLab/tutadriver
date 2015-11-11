@@ -55,7 +55,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "e1d964e77eb848d8ab89898f5eddebcd",
+    "kuid": "aabcc7a04a9c4c0d90ddfb1f1dd521cb",
     "margin": [
         0,
         0,
@@ -76,6 +76,9 @@
     "src": "calendaricon.png",
     "srcType": 1,
     "top": "20dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "1dp"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
@@ -32,7 +32,7 @@
         "value": "80%"
     },
     "_wrapping_": 2,
-    "bottom": "1dp",
+    "bottom": "0dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -54,9 +54,9 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
-    "kuid": "94c5dc0c83a34b5d9234c266d937231b",
+    "isVisible": false,
+    "isvisible": false,
+    "kuid": "c003c2c5d29a45b38508420fb3b81777",
     "margin": [
         1,
         1,
@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnAbout",
     "pf": "frm004Home",
     "render": true,
     "right": 0,
@@ -81,5 +81,7 @@
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",
-    "wrapping": 2
+    "wrapping": 2,
+    "zIndex": 4,
+    "zindex": 4
 }

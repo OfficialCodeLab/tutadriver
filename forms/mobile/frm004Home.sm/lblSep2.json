@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -23,15 +27,12 @@
     },
     "_skin_": "s0d5787b643448ccbba26ed8320e2eaf",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "40%"
-    },
     "_width_": {
         "type": "string",
         "value": "80%"
     },
     "_wrapping_": 2,
+    "bottom": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -39,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
+    "height": "1dp",
     "id": "lblSep2",
     "info": null,
     "ipad": {
@@ -55,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "1eb4140dc43b41049069b8fd83c16dfa",
+    "kuid": "61f05325dcab42b0b218e6018e4bc8d6",
     "margin": [
         1,
         1,
@@ -69,7 +70,7 @@
         0,
         0
     ],
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnBookings",
     "pf": "frm004Home",
     "render": true,
     "right": 0,
@@ -77,11 +78,10 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "40%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 4,
+    "zindex": 4
 }

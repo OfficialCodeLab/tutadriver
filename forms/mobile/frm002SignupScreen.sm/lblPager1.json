@@ -1,10 +1,6 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "9%"
-    },
     "_height_": {
         "type": "string",
         "value": "20dp"
@@ -21,14 +17,17 @@
         0,
         0
     ],
-    "_skin_": "s78ee4b111674640bc4bb210e517bdd8",
+    "_skin_": "sc12cb9042eb4a23ad98124fc78e098a",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "500dp"
+    },
     "_width_": {
         "type": "string",
         "value": "20dp"
     },
     "_wrapping_": 2,
-    "bottom": "9%",
     "canUpdateUI": true,
     "centerX": "45%",
     "centerx": {
@@ -55,8 +54,8 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "a94c8004b67948258134b1206460351f",
     "margin": [
         1,
@@ -77,10 +76,11 @@
     "parent": "scrollSignupBottom",
     "pf": "frm002SignupScreen",
     "render": true,
-    "skin": "s78ee4b111674640bc4bb210e517bdd8",
+    "skin": "sc12cb9042eb4a23ad98124fc78e098a",
     "text": "",
     "toolTip": "",
     "tooltip": "",
+    "top": "500dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "20dp",

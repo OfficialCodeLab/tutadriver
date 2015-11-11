@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_text_": "Bookings",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -45,12 +45,12 @@
     "enabled": false,
     "focusSkin": "s9c655338c0d4f58913e025ae8101d9b",
     "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
-    "height": "50dp",
+    "height": "100%",
     "id": "btnBooking",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "a994ad24bed64bcea330a3be3d05759b",
+    "kuid": "237bae064b5f44fba6efb7a477c5e48b",
     "left": "0dp",
     "margin": [
         6,
@@ -59,8 +59,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_7387af3ff4914879bcd33d437f274d40",
-    "onclick": "AS_Button_7387af3ff4914879bcd33d437f274d40",
+    "onClick": "AS_Button_2444fac5dd8a4d50b450a79c3c57eb86",
+    "onclick": "AS_Button_2444fac5dd8a4d50b450a79c3c57eb86",
     "padding": [
         23,
         3,
@@ -69,12 +69,12 @@
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,
-    "parent": "flexMenuOptions",
+    "parent": "flexBtnBookings",
     "pf": "frm004Home",
     "render": true,
     "skin": "s50f08a6ed0845409ba2853b80d1c431",
     "text": "Bookings",
-    "top": "60dp",
+    "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "100%",

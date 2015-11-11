@@ -41,7 +41,7 @@
         "channel": "mobile",
         "formID": "frm004Home",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -54,9 +54,9 @@
     "imagewhenfailed": "checkredbg.png",
     "info": null,
     "invokedProperty": "imageWhenFailed",
-    "isVisible": true,
+    "isVisible": false,
     "ispercent": true,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "af4df12617ff48b4b5b3c45cd4f2f1b3",
     "left": "0dp",
     "margin": [
