@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "Label092ac236f8b2541",
-        "Image0fc8a78544a0f46"
+        "Image0fc8a78544a0f46",
+        "btnFlagDown"
     ],
     "clipBounds": true,
     "clipbounds": true,

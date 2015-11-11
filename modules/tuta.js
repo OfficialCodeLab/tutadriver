@@ -1,3 +1,5 @@
+var currentLocation = "";
+
 function init(){
   frmMessageMain.txtSearch.onTextChange = searchTxtChange;
   frm004Home.btnChs.onClick = animateMenu;
@@ -12,6 +14,16 @@ function init(){
   frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
+  frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
+  
+  frm004Home.btnSignOut.onClick = function () {
+    frm001LoginScreen.show();
+  };
+  
+  frm001LoginScreen.postShow = function (){   
+    ssa.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
+    ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
+  };
   
   setUpSwipes();
   
@@ -41,6 +53,32 @@ function init(){
     //resetSearchBar();
     searchMode = 0;
   };
+  
+  
+  //frmSplash.rtDebug.text = "<span>Loading...<span>";
+  kony.timer.schedule("firstinit", function () {
+
+    //ustuck.init(function(response) {
+      //ssa.mobile.alert("GEOCODE", response);
+      //currentLocation = response.results[0];
+     // kony.timer.schedule("splash", function() {  
+     // }, 2, false);
+	ssa.location.init(function(response){
+      currentLocation = response.results[0];
+      updateMap();
+    });
+    //});
+
+  }, 0.1, false);
+
+
+/*  kony.timer.schedule("init", function () {
+
+    init(function(response) {
+      //ssa.mobile.alert("GEOCODE", response);
+      currentLocation = response.results[0];
+    });
+  }, 4, true);*/
 }
 
 function switchForms(bool){
@@ -118,6 +156,28 @@ function setUpSwipes(){
       }        
       }
     });
+}
+
+function updateMap() {
+  frm004Home.mapMain.zoomLevel = 15;
+  //frmMap.mapMain.locationData
+ // setZoomLevelFromBounds();
+  var pickupicon = "";
+  //if(frm004Home.flexAddress.isVisible == false)
+  	pickupicon = "cabpin0.png";
+    
+    
+  var locationData = [];
+  locationData.push(
+    {lat: "" + currentLocation.geometry.location.lat + "", 
+     lon: "" + currentLocation.geometry.location.lng + "", 
+     name:"Current Location", 
+     desc: currentLocation.formatted_address.replace(/`+/g,""), 
+     image : pickupicon + ""});
+
+  
+
+  frm004Home.mapMain.locationData = locationData;
 }
 
 var menuOpen = false;

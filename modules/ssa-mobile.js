@@ -48,7 +48,7 @@ ssa.mobile.odata.prototype.call = function(collection,data,success,error) {
 
 ssa.mobile.odata.prototype.read = function(collection,success,error) {
   var request = new kony.net.HttpRequest();
-  frmSplash.rtDebug.text = "<span>Initializing SSA Mobile read function...</span>";
+  //frmSplash.rtDebug.text = "<span>Initializing SSA Mobile read function...</span>";
   
   request.timeout = 5000;
   

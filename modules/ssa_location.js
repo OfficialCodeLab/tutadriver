@@ -8,6 +8,22 @@ if (typeof(ssa) === "undefined") {
 
 ssa.location = {};
 
+ssa.location.init = function(callback) {
+  
+  	//frmSplash.rtDebug.text = "<span>Initializing Services...</span>";
+  
+  	// create new service model
+  	model = new ustuck.services();
+
+  	// temporary variables
+  	model.user = {};
+	model.user.location = {};
+  
+  	// initialise model and specify init success function
+  	model.init(this.currentPosition(callback));
+  	//frmSplash.rtDebug.text = "<span>Retrieving Geocode...</span>";
+}
+
 /**
 * Retrieves the current position of the app user
 **/
@@ -15,7 +31,18 @@ ssa.location.currentPosition = function(callback) {
   
 	kony.location.getCurrentPosition(
     	function success(position) {
-          callback(position);
+          //callback(position);
+          
+          var nologinrequired = true;
+          if(kony.store.getItem("user") != null) {
+            model.user = JSON.parse(kony.store.getItem("user"));
+            nologinrequired = true;
+          }
+          //frmsplash action initapp ->frm map show
+          
+          model.user.location = { lat: position.coords.latitude , long: position.coords.longitude, time: position.timestamp };
+		  
+          ssa.location.geoCode(position.coords.latitude,position.coords.longitude,callback);
         },
       
       	function error(errorMsg) {
