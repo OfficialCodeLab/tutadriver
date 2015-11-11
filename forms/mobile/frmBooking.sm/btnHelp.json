@@ -49,7 +49,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "6c28d1d0103740c9b4b0f4162dfd22f6",
+    "kuid": "6feb2b477bff424dad34f72701c38827",
     "left": "0dp",
     "margin": [
         6,
@@ -58,15 +58,15 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_2acd1e9397dd48e9a4f099dc54f958a9",
-    "onclick": "AS_Button_2acd1e9397dd48e9a4f099dc54f958a9",
+    "onClick": "AS_Button_263136979aae42e5983737547d5c1768",
+    "onclick": "AS_Button_263136979aae42e5983737547d5c1768",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexScroll",
+    "parent": "flexContent",
     "pf": "frmBooking",
     "render": true,
     "skin": "s298329b9d6c4b719f02c139899aec59",
@@ -74,6 +74,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "100%",
-    "zIndex": 3,
-    "zindex": 3
+    "zIndex": 5,
+    "zindex": 5
 }

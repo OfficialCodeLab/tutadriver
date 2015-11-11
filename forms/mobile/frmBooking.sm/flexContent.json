@@ -3,11 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "10dp"
-    },
-    "_height_": {
-        "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
@@ -25,10 +21,10 @@
         0,
         0
     ],
-    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "_skin_": "sf25f0b1ac2e4c479842e596840fcd3d",
     "_top_": {
-        "type": "number",
-        "value": "55"
+        "type": "string",
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
@@ -37,16 +33,12 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "10dp",
+    "bottom": "0dp",
     "canUpdateUI": true,
     "children": [
-        "imgPickUp",
-        "lblPickUp",
-        "lblDropOff",
-        "imgDropOff",
-        "lblUpOffLine",
-        "lblPickUpLocation",
-        "lblDropOffLocation"
+        "flexCustomer",
+        "btnHelp",
+        "flexMap"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -55,12 +47,11 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "55dp",
-    "id": "flexBookingInfo",
+    "id": "flexContent",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "63f0808098fc4796809a15cac3c707f7",
+    "kuid": "504f1274fd50419bb8a9096d84c0b3be",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -78,16 +69,16 @@
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "frmBooking",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
-    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "skin": "sf25f0b1ac2e4c479842e596840fcd3d",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": 55,
+    "top": "110dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

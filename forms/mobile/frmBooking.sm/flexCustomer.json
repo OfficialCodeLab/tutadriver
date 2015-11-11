@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "115dp"
+        "value": "141dp"
     },
     "_left_": {
         "type": "string",
@@ -40,7 +40,9 @@
         "lblEstimateTitle",
         "lblCustomerRating",
         "imgCustomerRating",
-        "lblCustomerName"
+        "lblCustomerName",
+        "Label0fa9d8bcfef634a",
+        "imgProfilePic"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -49,12 +51,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "115dp",
+    "height": "141dp",
     "id": "flexCustomer",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "fc571f05a5c541dba57861b12d7639d1",
+    "kuid": "1b80c0986acd41119d3a5a16b9a113a0",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -72,7 +74,7 @@
         0,
         0
     ],
-    "parent": "flexScroll",
+    "parent": "flexContent",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
@@ -88,6 +90,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 4,
+    "zindex": 4
 }

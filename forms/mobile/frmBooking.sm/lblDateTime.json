@@ -22,7 +22,7 @@
     "_text_": "20 OCT 2015, 2:00 PM",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",
@@ -76,7 +76,7 @@
     "text": "20 OCT 2015, 2:00 PM",
     "toolTip": "",
     "tooltip": "",
-    "top": "20dp",
+    "top": "15dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "200dp",

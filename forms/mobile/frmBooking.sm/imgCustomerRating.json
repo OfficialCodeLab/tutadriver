@@ -56,7 +56,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "fd465b003ca64cfea8c91460d3ff31bc",
+    "kuid": "5d49aad715964d60a6a8bd94d314f421",
     "margin": [
         0,
         0,
@@ -81,6 +81,6 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "65dp",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }
