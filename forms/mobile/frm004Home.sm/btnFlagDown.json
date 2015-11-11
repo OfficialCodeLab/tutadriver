@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "100%"
     },
     "_left_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -29,27 +30,25 @@
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
     "focusSkin": "se00d1b39a6b40e991098a7a8a0efb07",
     "focusskin": "se00d1b39a6b40e991098a7a8a0efb07",
-    "height": "55dp",
-    "id": "btnChs",
+    "height": "100%",
+    "id": "btnFlagDown",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "1c5344df18784445aa929468a8b7dc2c",
-    "left": 0,
+    "kuid": "58540d04df2d4d34bb4e22bcc5ec9d8a",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -63,7 +62,7 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "FlexContainer056a06926945746",
     "pf": "frm004Home",
     "render": true,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
@@ -71,7 +70,7 @@
     "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "20%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "100%",
+    "zIndex": 69,
+    "zindex": 69
 }

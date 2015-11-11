@@ -1,3 +1,5 @@
+var currentLocation = "";
+
 function init(){
   frmMessageMain.txtSearch.onTextChange = searchTxtChange;
   frm004Home.btnChs.onClick = animateMenu;
@@ -12,6 +14,7 @@ function init(){
   frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
+  frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
   
   frm004Home.btnSignOut.onClick = function () {
     frm001LoginScreen.show();
@@ -50,6 +53,29 @@ function init(){
     //resetSearchBar();
     searchMode = 0;
   };
+  
+  
+  //frmSplash.rtDebug.text = "<span>Loading...<span>";
+  kony.timer.schedule("firstinit", function () {
+
+    init(function(response) {
+      //ssa.mobile.alert("GEOCODE", response);
+      currentLocation = response.results[0];
+     // kony.timer.schedule("splash", function() {  
+     // }, 2, false);
+
+    });
+
+  }, 0.1, false);
+
+
+  kony.timer.schedule("init", function () {
+
+    init(function(response) {
+      //ssa.mobile.alert("GEOCODE", response);
+      currentLocation = response.results[0];
+    });
+  }, 4, true);
 }
 
 function switchForms(bool){
