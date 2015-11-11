@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s1d19d48bf7e409cb37c3d5b4da83b06",
-    "_text_": "Label",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "99%"
@@ -74,7 +74,7 @@
     "pf": "frm002SignupScreen",
     "render": true,
     "skin": "s1d19d48bf7e409cb37c3d5b4da83b06",
-    "text": "Label",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "top": "99%",

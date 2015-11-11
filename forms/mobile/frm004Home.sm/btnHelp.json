@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s90123d9cb4d4ecea3062c882f0373b7",
+    "_skin_": "se00d1b39a6b40e991098a7a8a0efb07",
     "_text_": "Help",
     "_top_": {
         "type": "string",
@@ -37,14 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s9c655338c0d4f58913e025ae8101d9b",
-    "focusskin": "s9c655338c0d4f58913e025ae8101d9b",
+    "focusSkin": "se00d1b39a6b40e991098a7a8a0efb07",
+    "focusskin": "se00d1b39a6b40e991098a7a8a0efb07",
     "height": "100%",
     "id": "btnHelp",
     "info": null,
@@ -72,7 +70,7 @@
     "parent": "flexBtnHelp",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s90123d9cb4d4ecea3062c882f0373b7",
+    "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Help",
     "top": "0dp",
     "wType": "Button",

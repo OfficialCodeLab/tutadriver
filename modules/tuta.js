@@ -138,12 +138,16 @@ function init(){
 function switchForms(bool){
   if(bool === 1){
     ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "-100%", null);
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "0%", frm002SignupScreen.scrollSignupBottomB.scrollToBeginning());
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "0%", null);    
+    
+    frm002SignupScreen.scrollSignupBottomB.scrollToWidget(frm002SignupScreen.lblTopB);
   }
   else
   {
     ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "100%", null);
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "0%", frm002SignupScreen.scrollSignupBottom.scrollToBeginning());
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "0%", null);
+    
+    frm002SignupScreen.scrollSignupBottom.scrollToWidget(frm002SignupScreen.lblTop);
   }
   
 }
