@@ -1,6 +1,10 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_data_": [
         {
             "btnReadMsg": {
@@ -243,10 +247,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "640dp"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "string",
@@ -282,6 +282,7 @@
     },
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -543,7 +544,6 @@
     "groupCells": false,
     "groupcells": false,
     "hasSections": false,
-    "height": "640dp",
     "id": "segMessages",
     "indicator": "none",
     "info": null,
