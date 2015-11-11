@@ -38,12 +38,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sabe08f42f034cdc995c3876ba71fadf",
+    "focusskin": "sabe08f42f034cdc995c3876ba71fadf",
     "height": "60dp",
     "id": "btnCancel",
     "info": null,
@@ -79,6 +79,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }
