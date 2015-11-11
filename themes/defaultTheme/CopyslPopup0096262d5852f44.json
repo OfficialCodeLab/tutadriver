@@ -1,7 +1,7 @@
 {
-    "background_color": "ffffffff",
-    "bg_type": "one",
-    "isDefaultSkin": false,
-    "kuid": "s60a98474eb944a0b15d54cd8572d160",
-    "wType": "Popup"
+  "background_color": "f4f4f4ff",
+  "bg_type": "one",
+  "isDefaultSkin": false,
+  "kuid": "s60a98474eb944a0b15d54cd8572d160",
+  "wType": "Popup"
 }

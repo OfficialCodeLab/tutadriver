@@ -19,6 +19,7 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
+        "Image05d795535029f48",
         "lblMessageSent",
         "btnOkay"
     ],
@@ -45,6 +46,9 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "popMessageSent",
+    "inTransitionConfig": {
+        "formTransition": "None"
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
@@ -65,8 +69,12 @@
         0
     ],
     "name": "kony.ui.Popup",
+    "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formTransition": "None"
+    },
     "outtransitionconfig": {
         "formTransition": "None"
     },
