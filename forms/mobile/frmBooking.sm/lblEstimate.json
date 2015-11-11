@@ -26,7 +26,7 @@
     "_text_": "R300 - R350",
     "_top_": {
         "type": "string",
-        "value": "35dp"
+        "value": "56dp"
     },
     "_width_": {
         "type": "string",
@@ -54,7 +54,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "15576c986edc480fbb1877923e017f86",
+    "kuid": "0d6585cdf1084887b65c6bbc1f188a89",
     "margin": [
         1,
         1,
@@ -76,12 +76,14 @@
     "text": "R300 - R350",
     "toolTip": "",
     "tooltip": "",
-    "top": "35dp",
+    "top": "56dp",
     "vizProps": {
         "lock": false
     },
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100dp",
-    "wrapping": 2
+    "wrapping": 2,
+    "zIndex": 2,
+    "zindex": 2
 }

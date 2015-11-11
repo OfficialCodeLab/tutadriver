@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "10dp"
+        "value": "6dp"
     },
     "_height_": {
         "type": "string",
-        "value": "12dp"
+        "value": "17dp"
     },
     "_left_": {
         "type": "string",
@@ -30,18 +30,18 @@
     "_text_": "20/10/2015, 2:00 pm",
     "_width_": {
         "type": "string",
-        "value": "80dp"
+        "value": "90dp"
     },
     "_wrapping_": 2,
-    "bottom": "10dp",
+    "bottom": "6dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 7,
-    "contentalignment": 7,
+    "contentAlignment": 8,
+    "contentalignment": 8,
     "enabled": false,
-    "height": "12dp",
+    "height": "17dp",
     "id": "lblDateTime",
     "info": null,
     "ipad": {
@@ -81,7 +81,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80dp",
+    "width": "90dp",
     "wrapping": 2,
     "zIndex": 7,
     "zindex": 7

@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "610dp"
+        "value": "135dp"
     },
     "_left_": {
         "type": "string",
@@ -21,47 +21,35 @@
         0,
         0
     ],
-    "_skin_": "sd6d4cde33954e49a55d1879ffb4da3a",
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "110dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
-    "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
-    "allowverticalbounce": true,
-    "bounces": false,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "bottom": "135dp",
     "canUpdateUI": true,
     "children": [
-        "flexCustomer",
-        "imgPath",
-        "imgProfilePic",
-        "btnHelp"
+        "mapPath"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "decelerat": false,
-    "decelerating": false,
-    "dragg": false,
-    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "610dp",
-    "horizontalScrollIndicator": true,
-    "horizontalscrollindicator": true,
-    "id": "flexScroll",
+    "id": "flexMap",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "969cd1069f9c4ca6a560b5f3b537a315",
+    "kuid": "ea727faddd1c46ecac057f528a28c5d2",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -71,7 +59,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexScrollContainer",
+    "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -79,28 +67,20 @@
         0,
         0
     ],
-    "pagingEnabled": false,
-    "pagingenabled": false,
-    "parent": "frmBooking",
+    "parent": "flexContent",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
-    "scrollDirection": 2,
-    "scrolldirection": 2,
-    "skin": "sd6d4cde33954e49a55d1879ffb4da3a",
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "110dp",
-    "track": false,
-    "tracking": false,
-    "verticalScrollIndicator": true,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "top": "0dp",
+    "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 3,
+    "zindex": 3
 }

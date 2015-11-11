@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "12dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "12dp",
+    "height": "15dp",
     "id": "lblDropOffLocation",
     "info": null,
     "ipad": {
