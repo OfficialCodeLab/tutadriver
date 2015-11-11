@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "108dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd90baee76074dcf82a178cf896c0ea8",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "47dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "1px",
+    "id": "lblTripSep",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "b53c2074cc8643498bd752177e3ceb1d",
+    "left": "108dp",
+    "margin": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "name": "kony.ui.Label",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "FlexContainer0d9ce8db238ba41",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "sd90baee76074dcf82a178cf896c0ea8",
+    "text": "",
+    "toolTip": "",
+    "tooltip": "",
+    "top": "47dp",
+    "wType": "Label",
+    "widgetAlignment": 5,
+    "width": "70%",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
+}

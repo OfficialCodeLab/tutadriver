@@ -1,9 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_height_": {
         "type": "string",
@@ -11,7 +12,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "50%"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -25,42 +26,30 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "3%"
-    },
-    "_skin_": "s4a7c581b6f14d9ea992cccc1e0fbbba",
-    "_text_": "Confirm",
+    "_skin_": "s3cf13503b9f48248cd3b2e215f9bf5d",
+    "_text_": "Submit",
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "100%"
     },
-    "bottom": "0dp",
+    "bottom": 0,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
-    "focusskin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
+    "focusSkin": "se946c3dcca24ac3bdb601ef7f3b39f3",
+    "focusskin": "se946c3dcca24ac3bdb601ef7f3b39f3",
     "height": "60dp",
-    "id": "btnStartTrip",
+    "id": "btnSubmitRating",
     "info": null,
-    "iphone": {},
     "isVisible": true,
     "isvisible": true,
-    "kuid": "98e02c4b882a480b9915b62ac228b4aa",
-    "left": "50%",
+    "kuid": "9b730ab0a11f400298eccadf112d26ee",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -74,17 +63,14 @@
         0,
         0
     ],
-    "paddingInPixel": false,
-    "paddinginpixel": false,
-    "parent": "flexFixedFooter",
-    "pf": "frmFlagDown",
+    "parent": "FlexContainer0d9ce8db238ba41",
+    "pf": "frm004Home",
     "render": true,
-    "right": "3%",
-    "skin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
-    "text": "Confirm",
+    "skin": "s3cf13503b9f48248cd3b2e215f9bf5d",
+    "text": "Submit",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "45%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
 }

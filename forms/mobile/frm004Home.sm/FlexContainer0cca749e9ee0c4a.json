@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "15.20%"
     },
     "_margin_": [
         0,
@@ -21,34 +21,20 @@
         0,
         0
     ],
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "s298121d7f26467a8759a38a2d6e05d7",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "76dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "70%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "btnTestingPickup",
-        "flexTopMenu",
-        "mapMain",
-        "btnChs",
-        "flexDarken",
-        "flexFooter",
-        "flexDest",
-        "flexDestShadow",
-        "flexAddressList",
-        "flexAddressShadow",
-        "flexDriverFooter",
-        "Button0a58cc6511a7b4c",
-        "FlexContainer0cca749e9ee0c4a"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -56,15 +42,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexMapScreen",
+    "height": "50dp",
+    "id": "FlexContainer0cca749e9ee0c4a",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
+    "kuid": "5dfbdb2b34294fa7bbf6955bca467076",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "15.20%",
     "margin": [
         0,
         0,
@@ -79,20 +65,20 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexMapScreen",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "skin": "s298121d7f26467a8759a38a2d6e05d7",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
+    "top": "76dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "70%",
+    "zIndex": 68,
+    "zindex": 68
 }

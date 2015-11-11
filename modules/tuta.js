@@ -1,6 +1,40 @@
 var currentLocation = "";
+var star = [];
+
+var lastStarSelected = 0;
+function onStarSelect(eventobject, x , y) {
+  var nostar = eventobject.id.replace("imgStar","");
+  if(nostar === lastStarSelected && nostar > 1)
+  {
+    nostar--;
+    lastStarSelected = 0;
+  }
+  else
+    lastStarSelected = nostar;
+  
+  for(var i =0; i < nostar; i++) {
+    star[i].src = "starselected.png";
+  }
+  for(var j = nostar; j < 5; j++) {
+    star[j].src = "starunselected.png";
+  }
+}
 
 function init(){
+
+  frm004Home.imgStar1.onTouchStart = onStarSelect;
+  frm004Home.imgStar2.onTouchStart = onStarSelect;
+  frm004Home.imgStar3.onTouchStart = onStarSelect;
+  frm004Home.imgStar4.onTouchStart = onStarSelect;
+  frm004Home.imgStar5.onTouchStart = onStarSelect;
+  star.push(frm004Home.imgStar1);
+  star.push(frm004Home.imgStar2);
+  star.push(frm004Home.imgStar3);
+  star.push(frm004Home.imgStar4);
+  star.push(frm004Home.imgStar5);
+  
+  frm004Home.btnSubmitRating.onClick = function () {frm004Home["flexOverlay1"]["isVisible"] = false;};
+  
   frmMessageMain.txtSearch.onTextChange = searchTxtChange;
   frm004Home.btnChs.onClick = animateMenu;
   
@@ -15,6 +49,8 @@ function init(){
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
   frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
+  frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
+  frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
   
   frm004Home.btnSignOut.onClick = function () {
     frm001LoginScreen.show();

@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0%"
+        "type": "number",
+        "value": "450"
     },
     "_margin_": [
         0,
@@ -21,33 +17,38 @@
         0,
         0
     ],
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
-    "_top_": {
-        "type": "string",
-        "value": "0%"
-    },
+    "_skin_": "s348b5dace1c4559bb521c46fb9d346e",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "btnTestingPickup",
-        "flexTopMenu",
-        "mapMain",
-        "btnChs",
-        "flexDarken",
-        "flexFooter",
-        "flexDest",
-        "flexDestShadow",
-        "flexAddressList",
-        "flexAddressShadow",
-        "flexDriverFooter",
-        "Button0a58cc6511a7b4c",
-        "FlexContainer0cca749e9ee0c4a"
+        "Label038d2249bc08945",
+        "lblTripSep",
+        "CopylblTripSep09d6f4d3c7c744b",
+        "CopylblTripSep0ab58bc69ddc24e",
+        "lblTime",
+        "CopylblTime02eab2cc2a6b14b",
+        "lblCost",
+        "Label0dc121c390cc346",
+        "mapTripSm",
+        "btnSubmitRating",
+        "flexStarRating",
+        "Label0d5c5b96c192b40"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -56,15 +57,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
-    "id": "flexMapScreen",
+    "height": 450,
+    "id": "FlexContainer0d9ce8db238ba41",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "89cb1575c8d24222ad40521f6b2ac46c",
+    "kuid": "1a6ac077971b4905a5d94de7423b038e",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
     "margin": [
         0,
         0,
@@ -79,20 +79,17 @@
         0,
         0
     ],
-    "parent": "frm004Home",
+    "parent": "flexOverlay1",
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "skin": "s348b5dace1c4559bb521c46fb9d346e",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "80%"
 }
