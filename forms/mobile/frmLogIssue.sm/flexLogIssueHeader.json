@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "240dp"
+        "value": "220dp"
     },
     "_left_": {
         "type": "string",
@@ -49,7 +49,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "240dp",
+    "height": "220dp",
     "id": "flexLogIssueHeader",
     "info": null,
     "isVisible": true,

@@ -76,6 +76,8 @@
     "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Your Company Name",
+    "placeholderSkin": "saca4d7b01b5462cb3d82696a8bf8297",
+    "placeholderskin": "saca4d7b01b5462cb3d82696a8bf8297",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,

@@ -40,6 +40,8 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
+        "ispercent": "",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

@@ -17,6 +17,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
     "_skin_": "s37134cba03b458d9a10b4df8dc5d7e0",
     "_text_": "Simply contact our Support Team for all the answers",
     "_top_": {
@@ -25,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "220dp"
+        "value": "70%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -73,6 +77,7 @@
     "parent": "flexLogIssueHeader",
     "pf": "frmLogIssue",
     "render": true,
+    "right": "10%",
     "skin": "s37134cba03b458d9a10b4df8dc5d7e0",
     "text": "Simply contact our Support Team for all the answers",
     "toolTip": "",
@@ -80,7 +85,7 @@
     "top": "160dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "220dp",
+    "width": "70%",
     "wrapping": 2,
     "zIndex": 4,
     "zindex": 4

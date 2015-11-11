@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "s7f0cca6b2c44f9ea510830e08070d2d",
     "_top_": {
         "type": "string",
-        "value": "238dp"
+        "value": "219dp"
     },
     "_width_": {
         "type": "string",
@@ -35,7 +35,7 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bottom": 0,
+    "bottom": "0dp",
     "bounces": true,
     "canUpdateUI": true,
     "channel": "mobile",
@@ -105,7 +105,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "238dp",
+    "top": "219dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,

@@ -76,6 +76,8 @@
     "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "placeholder": "Your Email Address",
+    "placeholderSkin": "s42e968750124726a24733146fa21c15",
+    "placeholderskin": "s42e968750124726a24733146fa21c15",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,

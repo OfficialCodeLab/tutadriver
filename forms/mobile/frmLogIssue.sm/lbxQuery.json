@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -49,6 +49,8 @@
     "context": {
         "channel": "mobile",
         "formID": "frmLogIssue",
+        "ispercent": "",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -59,7 +61,7 @@
     "enabled": false,
     "groupCells": false,
     "groupcells": false,
-    "height": "40dp",
+    "height": "50dp",
     "id": "lbxQuery",
     "info": null,
     "iphone": {
@@ -81,29 +83,29 @@
     "masterData": [
         [
             "lb1",
-            "Type 1"
+            "Query Topic"
         ],
         [
             "lb2",
-            "Type 2"
+            "Query Topic 2"
         ],
         [
             "lb3",
-            "Type 3"
+            "Query Topic 3"
         ]
     ],
     "masterdata": [
         [
             "lb1",
-            "Type 1"
+            "Query Topic"
         ],
         [
             "lb2",
-            "Type 2"
+            "Query Topic 2"
         ],
         [
             "lb3",
-            "Type 3"
+            "Query Topic 3"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -126,7 +128,7 @@
     "selectedKey": "lb1",
     "selectedKeyValue": [
         "lb1",
-        "Type 1"
+        "Query Topic"
     ],
     "selectedKeyValues": null,
     "selectedKeys": null,
@@ -134,7 +136,7 @@
     "selectedkeys": null,
     "selectedkeyvalue": [
         "lb1",
-        "Type 1"
+        "Query Topic"
     ],
     "selectedkeyvalues": null,
     "size": 18,

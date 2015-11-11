@@ -1,16 +1,16 @@
 {
   "background_color": "ffffff00",
   "bg_type": "one",
-  "border_color": "282828ff",
+  "border_color": "454545ff",
   "border_style": "plain",
   "border_type": 0,
-  "border_width": 1,
+  "border_width": 2,
   "font_color": "ffffffff",
   "font_name": "Helvetica",
-  "font_size": 126,
+  "font_size": 140,
   "font_style": "normal",
   "font_weight": "normal",
   "isDefaultSkin": false,
-  "kuid": "s68f81f4ec9249869c5a1cee41798d8f",
-  "wType": "TextField"
+  "kuid": "sb03bd6684dc4e3ba0a71a31465086ac",
+  "wType": "TextArea"
 }
