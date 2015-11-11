@@ -37,12 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s0bf46e3b955414d8ad4f080f78950be",
+    "focusskin": "s0bf46e3b955414d8ad4f080f78950be",
     "height": "55dp",
     "id": "btnBack",
     "info": null,
@@ -77,6 +77,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "55dp",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 20,
+    "zindex": 20
 }
