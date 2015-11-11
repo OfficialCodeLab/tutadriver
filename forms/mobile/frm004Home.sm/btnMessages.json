@@ -38,12 +38,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s37c5209ed1a4c08803df5600dfa8077",
+    "focusskin": "s37c5209ed1a4c08803df5600dfa8077",
     "height": "49dp",
     "id": "btnMessages",
     "info": null,
