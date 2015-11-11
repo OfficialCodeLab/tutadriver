@@ -5,13 +5,6 @@
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
-  "delinkedPltfrms": {
-    "desktop": [],
-    "mobile": [
-      "iphone"
-    ],
-    "tablet": []
-  },
   "desktopweb": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -21,6 +14,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -44,7 +38,7 @@
     "top_right_border_width": 0,
     "wType": "Button"
   },
-  "font_color": "ffffffff",
+  "font_color": "37bda9ff",
   "font_name": "Helvetica",
   "font_size": 148,
   "font_style": "normal",
@@ -56,6 +50,7 @@
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -81,10 +76,11 @@
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "wType": "Button"
   },
-  "kuid": "s2a16ae966ea4c42a0e9ef28a242b5af",
+  "kuid": "s20a833b993f4574be783ea418d294eb",
   "spaandroidtablet": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -94,6 +90,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -126,6 +123,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -158,6 +156,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -188,6 +187,7 @@
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -205,6 +205,7 @@
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
+    "font_color": "37bda9ff",
     "isForked": true,
     "wType": "Button"
   }

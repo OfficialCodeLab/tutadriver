@@ -64,6 +64,8 @@
     "dropDownImage": "dropdownarrowsm.png",
     "dropdownimage": "dropdownarrowsm.png",
     "enabled": false,
+    "focusSkin": "s3158c924e47482b914b6fb92a448a2a",
+    "focusskin": "s3158c924e47482b914b6fb92a448a2a",
     "groupCells": false,
     "groupcells": false,
     "height": "60dp",

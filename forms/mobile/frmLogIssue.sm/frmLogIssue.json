@@ -19,6 +19,7 @@
     "android": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [

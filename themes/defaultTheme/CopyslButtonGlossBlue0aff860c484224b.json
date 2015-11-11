@@ -5,13 +5,6 @@
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
-  "delinkedPltfrms": {
-    "desktop": [],
-    "mobile": [
-      "iphone"
-    ],
-    "tablet": []
-  },
   "desktopweb": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -23,18 +16,19 @@
     "bottom_right_border_width": 0,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -58,18 +52,19 @@
     "border_width": 0,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },
@@ -84,7 +79,7 @@
     "isForked": true,
     "wType": "Button"
   },
-  "kuid": "s2a16ae966ea4c42a0e9ef28a242b5af",
+  "kuid": "s1d35220963642cdac00700f5e1263aa",
   "spaandroidtablet": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -96,18 +91,19 @@
     "bottom_right_border_width": 0,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -128,18 +124,19 @@
     "bottom_right_border_width": 0,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -160,18 +157,19 @@
     "bottom_right_border_width": 0,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -192,8 +190,9 @@
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },

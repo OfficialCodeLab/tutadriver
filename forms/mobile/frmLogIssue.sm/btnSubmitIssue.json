@@ -45,8 +45,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sb2c9ae255b84860aae1be730da62586",
-    "focusskin": "sb2c9ae255b84860aae1be730da62586",
+    "focusSkin": "s20a833b993f4574be783ea418d294eb",
+    "focusskin": "s20a833b993f4574be783ea418d294eb",
     "height": "65dp",
     "id": "btnSubmitIssue",
     "info": null,
@@ -78,6 +78,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "47%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 20,
+    "zindex": 20
 }
