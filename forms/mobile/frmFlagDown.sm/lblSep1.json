@@ -18,7 +18,7 @@
         0
     ],
     "_skin_": "sf047a20fb6a4002a1cd126ddfb2526a",
-    "_text_": "Label",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "190dp"
@@ -74,7 +74,7 @@
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sf047a20fb6a4002a1cd126ddfb2526a",
-    "text": "Label",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "top": "190dp",
