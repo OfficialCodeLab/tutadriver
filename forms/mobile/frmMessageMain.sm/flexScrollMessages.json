@@ -32,7 +32,7 @@
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
     "bottom": 0,
-    "bounces": true,
+    "bounces": false,
     "canUpdateUI": true,
     "centerX": "50.00%",
     "centerx": {
