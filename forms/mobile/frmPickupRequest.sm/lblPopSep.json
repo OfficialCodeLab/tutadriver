@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "1dp"
+        "value": "1px"
     },
     "_margin_": [
         1,
@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "sa9b2d43738a4ffaac4df431f0aeaf24",
-    "_text_": "Label",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "190dp"
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "1dp",
+    "height": "1px",
     "id": "lblPopSep",
     "info": null,
     "ipad": {
@@ -73,7 +73,7 @@
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "sa9b2d43738a4ffaac4df431f0aeaf24",
-    "text": "Label",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "top": "190dp",

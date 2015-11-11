@@ -6,6 +6,10 @@
         "type": "string",
         "value": "59dp"
     },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
     "_margin_": [
         6,
         6,
@@ -18,10 +22,6 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "50%"
-    },
     "_skin_": "s3d217fdda964efa9951038900304b94",
     "_text_": "",
     "_top_": {
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "49%"
     },
     "canUpdateUI": true,
     "containerWeight": 100,
@@ -49,6 +49,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "7b973bbfdc7c4b30b60ff288a6a8f927",
+    "left": 0,
     "margin": [
         6,
         6,
@@ -67,13 +68,12 @@
     "parent": "flexConfirmCancelButtons",
     "pf": "frmPickupRequest",
     "render": true,
-    "right": "50%",
     "skin": "s3d217fdda964efa9951038900304b94",
     "text": "",
     "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "50%",
+    "width": "49%",
     "zIndex": 1,
     "zindex": 1
 }

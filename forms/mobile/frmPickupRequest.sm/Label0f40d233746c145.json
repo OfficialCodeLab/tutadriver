@@ -4,7 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "45dp"
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "131dp"
     },
     "_margin_": [
         1,
@@ -18,11 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s731c83e825d4f418f9ff736c2dfa4df",
+    "_skin_": "sb9c5b2c17274813a4aa218a5bb1ee7e",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "3dp"
+        "value": "1px"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -41,8 +49,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "45dp",
-    "id": "lblSep4",
+    "height": "90%",
+    "id": "Label0f40d233746c145",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,7 +64,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "aaee1be98d5f499cbae5905af37d1fbf",
+    "kuid": "c569e3cbdd62444fa80a26eb54246e13",
+    "left": "131dp",
     "margin": [
         1,
         1,
@@ -70,16 +79,17 @@
         0,
         0
     ],
-    "parent": "flexButtons",
+    "parent": "flexConfirmCancelButtons",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s731c83e825d4f418f9ff736c2dfa4df",
+    "skin": "sb9c5b2c17274813a4aa218a5bb1ee7e",
     "text": "",
     "toolTip": "",
     "tooltip": "",
+    "top": "15dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "3dp",
+    "width": "1px",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

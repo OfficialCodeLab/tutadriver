@@ -51,6 +51,19 @@ function init(){
   frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
   frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
   frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
+  frm004Home.btnDemo.onClick = function (){
+    //frm004Home.btnDemo.setVisibility(false); 
+    //frm004Home["flexDemoShadow"]["isVisible"] = false;
+    frmPickupRequest.show();
+  };
+  
+  frmPickupRequest.btnDecline.onClick = function() {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
+  frmPickupRequest.btnAcceptRequest.onClick = function() {
+    //TODO: START TRIP
+    frm004Home.show();
+  };
+  
+  frmPickupRequest.btnConfirm.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false; frm004Home.show();}
   
   frm004Home.btnSignOut.onClick = function () {
     frm001LoginScreen.show();
@@ -59,6 +72,11 @@ function init(){
   frm001LoginScreen.postShow = function (){   
     ssa.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
     ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
+  };
+  
+  frm002SignupScreen.postShow = function (){   
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0, "116", "0%", null); 
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0, "116", "100%", null); 
   };
   
   setUpSwipes();

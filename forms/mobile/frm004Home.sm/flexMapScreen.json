@@ -46,8 +46,8 @@
         "flexAddressList",
         "flexAddressShadow",
         "flexDriverFooter",
-        "Button0a58cc6511a7b4c",
-        "FlexContainer0cca749e9ee0c4a"
+        "btnDemo",
+        "flexDemoShadow"
     ],
     "clipBounds": true,
     "clipbounds": true,

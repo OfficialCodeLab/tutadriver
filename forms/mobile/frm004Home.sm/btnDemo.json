@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s151a57943fb4ad2a1d9686715d3759a",
-    "_text_": "Demo Request",
+    "_text_": "Pickup Request",
     "_top_": {
         "type": "string",
         "value": "75dp"
@@ -46,7 +46,7 @@
     "focusSkin": "s7b7689e4f18495299bfc87260029c81",
     "focusskin": "s7b7689e4f18495299bfc87260029c81",
     "height": "50dp",
-    "id": "Button0a58cc6511a7b4c",
+    "id": "btnDemo",
     "info": null,
     "iphone": {
         "psp": {
@@ -74,7 +74,7 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "s151a57943fb4ad2a1d9686715d3759a",
-    "text": "Demo Request",
+    "text": "Pickup Request",
     "top": "75dp",
     "wType": "Button",
     "widgetAlignment": 5,
