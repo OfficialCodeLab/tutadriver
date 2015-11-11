@@ -1,10 +1,6 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "24.60%"
-    },
     "_height_": {
         "type": "string",
         "value": "30dp"
@@ -36,7 +32,6 @@
         "value": "30dp"
     },
     "_wrapping_": 2,
-    "bottom": "24.60%",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,

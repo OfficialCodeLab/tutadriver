@@ -2,17 +2,13 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "25.60%"
-    },
     "_height_": {
         "type": "string",
-        "value": "19dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "23dp"
     },
     "_margin_": [
         0,
@@ -30,14 +26,13 @@
     "_src_": "radiotick.png",
     "_top_": {
         "type": "string",
-        "value": "430dp"
+        "value": "432dp"
     },
     "_width_": {
         "type": "string",
-        "value": "19dp"
+        "value": "15dp"
     },
     "base64": null,
-    "bottom": "25.60%",
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -51,7 +46,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "19dp",
+    "height": "15dp",
     "id": "imgTick",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -60,7 +55,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "be8bb24ac31d4d0e888b22beb55cbe69",
-    "left": "20dp",
+    "left": "23dp",
     "margin": [
         0,
         0,
@@ -80,14 +75,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "radiotick.png",
     "srcType": 1,
-    "top": "430dp",
+    "top": "432dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "19dp",
+    "width": "15dp",
     "zIndex": 2,
     "zindex": 2
 }
