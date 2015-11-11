@@ -41,8 +41,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sc3e4bc38af042018d1b5141d1c84582",
-    "focusskin": "sc3e4bc38af042018d1b5141d1c84582",
+    "focusSkin": "s6f1b747087041bda77c7c30547febc5",
+    "focusskin": "s6f1b747087041bda77c7c30547febc5",
     "height": "35dp",
     "id": "btnSend",
     "info": null,
@@ -56,8 +56,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_abd8b7ce8f054e76888761e3afb826e2",
-    "onclick": "AS_Button_abd8b7ce8f054e76888761e3afb826e2",
     "padding": [
         0,
         0,

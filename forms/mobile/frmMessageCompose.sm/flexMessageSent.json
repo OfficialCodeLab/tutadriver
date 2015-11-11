@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "-155"
-    },
     "_height_": {
         "type": "string",
-        "value": "155dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s6f1fdecef5b4ae19a648af175d28f28",
+    "_skin_": "s0f6092dbbbd420e9e65d0ea8b00503a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -33,11 +33,9 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": -155,
     "canUpdateUI": true,
     "children": [
-        "flexCustomer",
-        "flexSlider"
+        "FlexContainer08bb2bcff8ac641"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -46,12 +44,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "155dp",
-    "id": "flexDriverFooter",
+    "height": "100%",
+    "id": "flexMessageSent",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
-    "kuid": "7e1fb99228e94f5ea49b765261d219f6",
+    "isVisible": false,
+    "isvisible": false,
+    "kuid": "86832a4ca5304a7d8a720d3ad279b6c7",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -69,19 +67,20 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "frmMessageCompose",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "frmMessageCompose",
     "render": true,
-    "skin": "s6f1fdecef5b4ae19a648af175d28f28",
+    "skin": "s0f6092dbbbd420e9e65d0ea8b00503a",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 18,
-    "zindex": 18
+    "zIndex": 1,
+    "zindex": 1
 }

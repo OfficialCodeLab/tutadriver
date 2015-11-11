@@ -29,6 +29,7 @@
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [

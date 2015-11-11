@@ -59,10 +59,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "51be0399da1e4e36bc7062dcea2933b8",
-    "left": {
-        "type": "string",
-        "value": "30dp"
-    },
+    "left": "30dp",
     "margin": [
         1,
         1,
@@ -83,10 +80,7 @@
     "text": "This is a preview message being displayed.",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "top": "20dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": {
