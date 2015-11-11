@@ -61,6 +61,11 @@ function init(){
     ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
   };
   
+  frm002SignupScreen.postShow = function (){   
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0, "116", "0%", null); 
+    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0, "116", "100%", null); 
+  };
+  
   setUpSwipes();
   
   

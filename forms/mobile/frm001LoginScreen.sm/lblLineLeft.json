@@ -26,7 +26,7 @@
         0
     ],
     "_skin_": "sedd4d6c87ea49f395e754f2ac1df23a",
-    "_text_": "test",
+    "_text_": "",
     "_width_": {
         "type": "string",
         "value": "30%"
@@ -80,7 +80,7 @@
     "pf": "frm001LoginScreen",
     "render": true,
     "skin": "sedd4d6c87ea49f395e754f2ac1df23a",
-    "text": "test",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
