@@ -7,7 +7,6 @@ ustuck.services = function() {
 
 ustuck.services.prototype.init = function(success) {
   	this.readyFunction = success;
-  	frmSplash.rtDebug.text = "<span>Initializing Services...</span>";
 	this.getServiceTypes();
 }
 

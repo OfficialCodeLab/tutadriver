@@ -58,24 +58,27 @@ function init(){
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
   kony.timer.schedule("firstinit", function () {
 
-    init(function(response) {
+    //ustuck.init(function(response) {
       //ssa.mobile.alert("GEOCODE", response);
-      currentLocation = response.results[0];
+      //currentLocation = response.results[0];
      // kony.timer.schedule("splash", function() {  
      // }, 2, false);
-
+	ssa.location.init(function(response){
+      currentLocation = response.results[0];
+      updateMap();
     });
+    //});
 
   }, 0.1, false);
 
 
-  kony.timer.schedule("init", function () {
+/*  kony.timer.schedule("init", function () {
 
     init(function(response) {
       //ssa.mobile.alert("GEOCODE", response);
       currentLocation = response.results[0];
     });
-  }, 4, true);
+  }, 4, true);*/
 }
 
 function switchForms(bool){
@@ -153,6 +156,28 @@ function setUpSwipes(){
       }        
       }
     });
+}
+
+function updateMap() {
+  frm004Home.mapMain.zoomLevel = 15;
+  //frmMap.mapMain.locationData
+ // setZoomLevelFromBounds();
+  var pickupicon = "";
+  //if(frm004Home.flexAddress.isVisible == false)
+  	pickupicon = "cabpin0.png";
+    
+    
+  var locationData = [];
+  locationData.push(
+    {lat: "" + currentLocation.geometry.location.lat + "", 
+     lon: "" + currentLocation.geometry.location.lng + "", 
+     name:"Current Location", 
+     desc: currentLocation.formatted_address.replace(/`+/g,""), 
+     image : pickupicon + ""});
+
+  
+
+  frm004Home.mapMain.locationData = locationData;
 }
 
 var menuOpen = false;
