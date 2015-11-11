@@ -21,7 +21,7 @@
     "_text_": "21 Woodlands drive",
     "_top_": {
         "type": "string",
-        "value": "170dp"
+        "value": "405dp"
     },
     "_width_": {
         "type": "string",
@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "272977b3488c4069ad5b77b7675cffd9",
+    "kuid": "b34b06411eb049ff8bc17208b21630ee",
     "margin": [
         1,
         1,
@@ -70,14 +70,14 @@
         0,
         0
     ],
-    "parent": "flexRequestInfo",
+    "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s8249d86d3a94ddb9b90323b87b73a04",
     "text": "21 Woodlands drive",
     "toolTip": "",
     "tooltip": "",
-    "top": "170dp",
+    "top": "405dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",

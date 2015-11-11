@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "315dp"
+        "value": "13.11%"
     },
     "_left_": {
         "type": "string",
-        "value": "-6dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,18 +21,22 @@
         0,
         0
     ],
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "sf020406fdb3414f95ce77b159f712e0",
     "_top_": {
         "type": "string",
-        "value": "220dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "allowHorizontalBounce": true,
+    "allowVerticalBounce": true,
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "bottom": "13.11%",
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
         "lblCustomerName",
@@ -40,32 +44,38 @@
         "lblVia",
         "lblViaPath",
         "lblEtaTitle",
-        "lblAddress",
-        "lblETA"
+        "lblETA",
+        "imgAlertIcon",
+        "lblNewAlertTitle"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
+    "decelerat": false,
+    "decelerating": false,
+    "dragg": false,
+    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "315dp",
-    "id": "flexRequestInfo",
+    "horizontalScrollIndicator": true,
+    "horizontalscrollindicator": true,
+    "id": "flexRequest",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ea2eba98dd8b492b80323049003eda7c",
+    "kuid": "de86b61d4f774db6a3a7c96af5326fba",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "-6dp",
+    "left": "0dp",
     "margin": [
         0,
         0,
         0,
         0
     ],
-    "name": "kony.ui.FlexContainer",
+    "name": "kony.ui.FlexScrollContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -73,17 +83,25 @@
         0,
         0
     ],
-    "parent": "FlexScrollContainer0f6b7e503490b47",
+    "pagingEnabled": false,
+    "pagingenabled": false,
+    "parent": "frmPickupRequest",
     "percent": true,
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "scrollDirection": 1,
+    "scrolldirection": 1,
+    "skin": "sf020406fdb3414f95ce77b159f712e0",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "220dp",
-    "wType": "FlexContainer",
+    "top": "0dp",
+    "track": false,
+    "tracking": false,
+    "verticalScrollIndicator": true,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",

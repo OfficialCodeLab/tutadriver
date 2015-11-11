@@ -21,7 +21,7 @@
     "_text_": "Jarred Crowley",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "238dp"
     },
     "_width_": {
         "type": "string",
@@ -29,10 +29,10 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.00%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "4f290a76cb0c44ad958c04511754128d",
+    "kuid": "b69fbbd86c904e5f91452de0a4fb3aaf",
     "margin": [
         1,
         1,
@@ -70,14 +70,14 @@
         0,
         0
     ],
-    "parent": "flexRequestInfo",
+    "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s4ce1c21391e4da2a840e5af0d028f07",
     "text": "Jarred Crowley",
     "toolTip": "",
     "tooltip": "",
-    "top": "15dp",
+    "top": "238dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "240dp",

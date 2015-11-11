@@ -56,7 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f894bba5aadd4138bf9119ff1ad84c31",
+    "kuid": "8e5ab12a11e845b69e43eb6f5da4088d",
     "margin": [
         1,
         1,
@@ -70,7 +70,7 @@
         0,
         0
     ],
-    "parent": "FlexContainer0bcd9884ce1274e",
+    "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s4520344818b4e4b9328c5378da86286",
@@ -79,7 +79,7 @@
     "tooltip": "",
     "top": "110dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Label",
     "widgetAlignment": 5,

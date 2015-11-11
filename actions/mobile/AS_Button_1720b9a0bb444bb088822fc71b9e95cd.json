@@ -1,16 +1,16 @@
 {
-	"AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5": {
-		"id": "AS_Button_118cf2cb084347bdab7ea96b2b4cf9d5",
+	"AS_Button_1720b9a0bb444bb088822fc71b9e95cd": {
+		"id": "AS_Button_1720b9a0bb444bb088822fc71b9e95cd",
 		"type": "ACTION_SEQUENCE",
 		"actions": [
 			{
-				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___ca02d14486f44edc9b189162434072e5",
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled___73142b5d80fd4afea0d20e41ef87f960",
 				"type": "SET_WIDGET_PROPERTY",
 				"itemType": "FORM",
 				"itemId": "frmPickupRequest",
 				"widgetId": "flexConfirmCancel",
 				"propertyName": "isVisible",
-				"propertyValue": "true",
+				"propertyValue": "false",
 				"itemKUID": "13125039dcb54c92bff01120deba4fc8",
 				"widgetKUID": "6c45c683d3994216a1cff2026cdd63c0",
 				"isSkinProperty": false,
