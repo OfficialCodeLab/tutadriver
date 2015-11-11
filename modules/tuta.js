@@ -13,6 +13,15 @@ function init(){
   frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
   frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
   
+  frm004Home.btnSignOut.onClick = function () {
+    frm001LoginScreen.show();
+  };
+  
+  frm001LoginScreen.postShow = function (){   
+    ssa.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
+    ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
+  };
+  
   setUpSwipes();
   
   
