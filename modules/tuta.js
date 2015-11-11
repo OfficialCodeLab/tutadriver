@@ -54,8 +54,7 @@ function init(){
   frmMessageCompose.btnSend.onClick = function (){
     frmMessageCompose.txtMessage.text = "";
     frmMessageCompose.txtSendTo.text = "";
-    frmMessageCompose["flexMessageSent"]["isVisible"] = true;
-    
+    frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
   };
   frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
   frm004Home.btnDemo.onClick = function (){
@@ -63,6 +62,13 @@ function init(){
     //frm004Home["flexDemoShadow"]["isVisible"] = false;
     frmPickupRequest.show();
   };
+  
+  frmPickupRequest.btnTopDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnBottomDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnLeftDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnRightDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnCancel.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  
   
   frmPickupRequest.btnDecline.onClick = function() {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
   frmPickupRequest.btnAcceptRequest.onClick = function() {
