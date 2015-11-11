@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "145dp"
+        "value": "125dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_margin_": [
         0,
@@ -27,11 +27,11 @@
     "_src_": "profilepicbooking.png",
     "_top_": {
         "type": "string",
-        "value": "433dp"
+        "value": "425dp"
     },
     "_width_": {
         "type": "string",
-        "value": "136dp"
+        "value": "130dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -41,12 +41,12 @@
         "channel": "mobile",
         "formID": "frmBooking",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "145dp",
+    "height": "125dp",
     "id": "imgProfilePic",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -54,8 +54,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "2820e6ee24fe4201bb5ca36d09c6f3ab",
-    "left": "0dp",
+    "kuid": "6e1aaa06431b4709b607f416ab143c95",
+    "left": "5dp",
     "margin": [
         0,
         0,
@@ -69,17 +69,17 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexScroll",
     "pf": "frmBooking",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "profilepicbooking.png",
     "srcType": 1,
-    "top": "433dp",
+    "top": "425dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "136dp",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "130dp",
+    "zIndex": 4,
+    "zindex": 4
 }

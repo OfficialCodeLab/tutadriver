@@ -29,11 +29,9 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblSep1",
-        "lblSep2",
+        "flexConfirmCancel",
         "flexRequest",
-        "flexButtons",
-        "flexConfirmCancel"
+        "flexButtons"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -120,7 +118,7 @@
     "percent": true,
     "platform": "iphone",
     "prevDevice": "iPhone6",
-    "prevPlatform": "android",
+    "prevPlatform": "spaip",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,

@@ -47,7 +47,7 @@
         "channel": "mobile",
         "formID": "frmBooking",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -60,7 +60,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "2c9c23c39df949468aebb256543f5e7e",
+    "kuid": "76a3b7bb63974bee9b6b9cf8bb65d663",
     "left": "15dp",
     "margin": [
         0,

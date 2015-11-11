@@ -54,7 +54,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7e6c9b0ccc6c42c4ab72a83ba44c75d2",
+    "kuid": "5dfb9ce451904999b89cac2498a4bc0b",
     "left": "15dp",
     "margin": [
         1,
@@ -78,7 +78,7 @@
     "tooltip": "",
     "top": "35dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Label",
     "widgetAlignment": 5,

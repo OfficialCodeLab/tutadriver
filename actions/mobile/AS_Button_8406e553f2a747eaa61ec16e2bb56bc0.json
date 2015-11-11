@@ -1,0 +1,16 @@
+{
+	"AS_Button_8406e553f2a747eaa61ec16e2bb56bc0": {
+		"id": "AS_Button_8406e553f2a747eaa61ec16e2bb56bc0",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onClick_20514ef6fa434bcc8fe831e332c8309e",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmBookingsMain",
+				"formKUID": "f081167aef364b21acc5adbefa38821e",
+				"parentId": "",
+				"callbackType": null
+			}
+		]
+	}
+}

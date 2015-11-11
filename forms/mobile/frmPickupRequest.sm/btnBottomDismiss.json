@@ -2,9 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "245dp"
+        "value": "90dp"
     },
     "_left_": {
         "type": "string",
@@ -24,25 +28,23 @@
     ],
     "_skin_": "s6f60b02e8564886b52bdce33a722560",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "405dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
+    "bottom": "0dp",
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
+    },
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
-    "height": "245dp",
+    "height": "90dp",
     "id": "btnBottomDismiss",
     "info": null,
     "isVisible": true,
@@ -69,7 +71,6 @@
     "render": true,
     "skin": "s6f60b02e8564886b52bdce33a722560",
     "text": "",
-    "top": "405dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "100%",

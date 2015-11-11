@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "13.11%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -35,8 +35,8 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bottom": "13.11%",
-    "bounces": true,
+    "bottom": "60dp",
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "lblCustomerName",
@@ -46,7 +46,9 @@
         "lblEtaTitle",
         "lblETA",
         "imgAlertIcon",
-        "lblNewAlertTitle"
+        "lblNewAlertTitle",
+        "lblSep1",
+        "lblSep2"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -89,8 +91,8 @@
     "percent": true,
     "pf": "frmPickupRequest",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
+    "scrollDirection": 2,
+    "scrolldirection": 2,
     "skin": "sf020406fdb3414f95ce77b159f712e0",
     "snapGridSize": 10,
     "snapToGrid": true,

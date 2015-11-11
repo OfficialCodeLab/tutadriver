@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "65dp"
+        "value": "45dp"
     },
     "_margin_": [
         1,
@@ -19,10 +19,10 @@
         0
     ],
     "_skin_": "s731c83e825d4f418f9ff736c2dfa4df",
-    "_text_": "Label",
+    "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "2dp"
+        "value": "3dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -41,7 +41,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "65dp",
+    "height": "45dp",
     "id": "lblSep4",
     "info": null,
     "ipad": {
@@ -74,12 +74,12 @@
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s731c83e825d4f418f9ff736c2dfa4df",
-    "text": "Label",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "2dp",
+    "width": "3dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

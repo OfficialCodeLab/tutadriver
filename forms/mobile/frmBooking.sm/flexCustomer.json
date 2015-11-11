@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "40dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "115dp"
     },
     "_left_": {
         "type": "string",
@@ -22,10 +26,6 @@
         0
     ],
     "_skin_": "s45ba798f6cb4c629ee4d0b7432cf121",
-    "_top_": {
-        "type": "string",
-        "value": "473dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -33,12 +33,14 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "40dp",
     "canUpdateUI": true,
     "children": [
         "lblEstimate",
         "lblEstimateTitle",
         "lblCustomerRating",
-        "imgCustomerRating"
+        "imgCustomerRating",
+        "lblCustomerName"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -47,12 +49,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "120dp",
+    "height": "115dp",
     "id": "flexCustomer",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7874fdfab2944460b785a23906f3ba79",
+    "kuid": "fc571f05a5c541dba57861b12d7639d1",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -70,7 +72,7 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexScroll",
     "percent": true,
     "pf": "frmBooking",
     "render": true,
@@ -79,14 +81,13 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "473dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

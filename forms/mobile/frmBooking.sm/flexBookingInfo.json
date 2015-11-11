@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
@@ -55,12 +55,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
+    "height": "40dp",
     "id": "flexBookingInfo",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ca5455dbe68e495ca97b0c167dad2ee6",
+    "kuid": "63f0808098fc4796809a15cac3c707f7",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",

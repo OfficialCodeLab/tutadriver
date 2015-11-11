@@ -41,7 +41,7 @@
         "channel": "mobile",
         "formID": "frmBooking",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -54,7 +54,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "e53266d14647435db48ef4206d14c848",
+    "kuid": "8f8c06c1c8294dfe85423b1587cc6374",
     "left": "63dp",
     "margin": [
         0,
@@ -77,12 +77,12 @@
     "srcType": 1,
     "top": 35,
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "11dp",
-    "zIndex": 7,
-    "zindex": 7
+    "zIndex": 1,
+    "zindex": 1
 }
