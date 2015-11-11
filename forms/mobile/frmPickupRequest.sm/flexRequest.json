@@ -48,7 +48,8 @@
         "imgAlertIcon",
         "lblNewAlertTitle",
         "lblSep1",
-        "lblSep2"
+        "lblSep2",
+        "rtPickupLocation"
     ],
     "clipBounds": true,
     "clipbounds": true,

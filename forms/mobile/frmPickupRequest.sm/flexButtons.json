@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "62dp"
     },
     "_left_": {
         "type": "string",
@@ -38,8 +38,8 @@
     "children": [
         "btnDecline",
         "btnAcceptRequest",
-        "lblSep3",
-        "lblSep4"
+        "Label0bedcc1fc74c340",
+        "CopyLabel0e71c793e03c24e"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -48,7 +48,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
+    "height": "62dp",
     "id": "flexButtons",
     "info": null,
     "isVisible": true,

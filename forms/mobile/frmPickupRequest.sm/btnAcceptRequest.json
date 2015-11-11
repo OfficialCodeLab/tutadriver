@@ -42,12 +42,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sa8ae8bda0994fc48b175cadb6a481bc",
+    "focusskin": "sa8ae8bda0994fc48b175cadb6a481bc",
     "height": "60dp",
     "id": "btnAcceptRequest",
     "info": null,
@@ -62,8 +62,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_1b128c0d13d94f2fae3451748f5bce72",
-    "onclick": "AS_Button_1b128c0d13d94f2fae3451748f5bce72",
     "padding": [
         0,
         0,

@@ -21,7 +21,7 @@
     "_text_": "VIA:",
     "_top_": {
         "type": "string",
-        "value": "388dp"
+        "value": "378dp"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "VIA:",
     "toolTip": "",
     "tooltip": "",
-    "top": "388dp",
+    "top": "378dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "50dp",

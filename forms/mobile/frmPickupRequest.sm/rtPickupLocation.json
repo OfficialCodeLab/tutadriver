@@ -1,15 +1,20 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "87dp"
     },
     "_margin_": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -17,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s8249d86d3a94ddb9b90323b87b73a04",
-    "_text_": "21 Woodlands drive",
+    "_skin_": "s7be7c6d36a94ba29a399f0b71aae73b",
+    "_text_": "38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192",
     "_top_": {
         "type": "string",
-        "value": "400dp"
+        "value": "280dp"
     },
     "_width_": {
         "type": "string",
@@ -34,36 +39,25 @@
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 2,
+    "contentalignment": 2,
     "enabled": false,
-    "height": "30dp",
-    "id": "lblViaPath",
+    "height": "80dp",
+    "id": "rtPickupLocation",
     "info": null,
-    "ipad": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
-    "iphone": {
-        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
-        "psp": {
-            "wrapping": 2
-        }
-    },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "b34b06411eb049ff8bc17208b21630ee",
+    "kuid": "5bd15c6aa58f4824ac024907858a0368",
+    "left": "87dp",
     "margin": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
-    "name": "kony.ui.Label",
+    "name": "kony.ui.RichText",
     "padding": [
         0,
         0,
@@ -73,15 +67,15 @@
     "parent": "flexRequest",
     "pf": "frmPickupRequest",
     "render": true,
-    "skin": "s8249d86d3a94ddb9b90323b87b73a04",
-    "text": "21 Woodlands drive",
+    "skin": "s7be7c6d36a94ba29a399f0b71aae73b",
+    "text": "38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192",
     "toolTip": "",
-    "tooltip": "",
-    "top": "400dp",
-    "wType": "Label",
+    "top": "280dp",
+    "wType": "RichText",
     "widgetAlignment": 5,
+    "widgetalignment": 5,
     "width": "80%",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 5,
+    "zindex": 5
 }

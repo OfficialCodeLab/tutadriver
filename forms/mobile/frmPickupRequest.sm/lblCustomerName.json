@@ -21,7 +21,7 @@
     "_text_": "Jarred Crowley",
     "_top_": {
         "type": "string",
-        "value": "238dp"
+        "value": "228dp"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "Jarred Crowley",
     "toolTip": "",
     "tooltip": "",
-    "top": "238dp",
+    "top": "228dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "240dp",
