@@ -1,0 +1,95 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "450"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s348b5dace1c4559bb521c46fb9d346e",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "Label038d2249bc08945",
+        "lblTripSep",
+        "CopylblTripSep09d6f4d3c7c744b",
+        "CopylblTripSep0ab58bc69ddc24e",
+        "lblTime",
+        "CopylblTime02eab2cc2a6b14b",
+        "lblCost",
+        "Label0dc121c390cc346",
+        "mapTripSm",
+        "btnSubmitRating",
+        "flexStarRating",
+        "Label0d5c5b96c192b40"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "enableScrolling": true,
+    "enabled": false,
+    "enablescrolling": true,
+    "height": 450,
+    "id": "FlexContainer0d9ce8db238ba41",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "1a6ac077971b4905a5d94de7423b038e",
+    "layoutType": 2,
+    "layouttype": 2,
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexOverlay1",
+    "percent": true,
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s348b5dace1c4559bb521c46fb9d346e",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "80%"
+}
