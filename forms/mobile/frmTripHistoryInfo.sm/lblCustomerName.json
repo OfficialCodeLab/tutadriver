@@ -2,6 +2,10 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_height_": {
         "type": "string",
         "value": "20dp"
@@ -24,15 +28,12 @@
     ],
     "_skin_": "s785cd474adf4d23a513bca2ed00f781",
     "_text_": "JAMES",
-    "_top_": {
-        "type": "string",
-        "value": "563dp"
-    },
     "_width_": {
         "type": "string",
         "value": "60dp"
     },
     "_wrapping_": 2,
+    "bottom": "20dp",
     "canUpdateUI": true,
     "centerX": "77dp",
     "centerx": {
@@ -59,7 +60,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "74e1c1f6d27c4071ab00c550a390460a",
+    "kuid": "37efa0ac9e524a21bc3f6c414ad4f710",
     "left": "52dp",
     "margin": [
         1,
@@ -74,18 +75,17 @@
         0,
         0
     ],
-    "parent": "flexContent",
+    "parent": "flexHistoryDetails",
     "pf": "frmTripHistoryInfo",
     "render": true,
     "skin": "s785cd474adf4d23a513bca2ed00f781",
     "text": "JAMES",
     "toolTip": "",
     "tooltip": "",
-    "top": "563dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "60dp",
     "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

@@ -7,8 +7,9 @@
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },
@@ -30,18 +31,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -62,18 +64,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },
@@ -83,18 +86,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },
@@ -118,18 +122,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -151,18 +156,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -184,18 +190,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -217,18 +224,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -250,18 +258,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -283,18 +292,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -316,18 +326,19 @@
     "font_size": 100,
     "isForked": true,
     "shadow": {
-      "br": 2,
+      "br": 0,
       "color": "000000ff",
       "inner": false,
       "nm": 0,
       "x": 0,
-      "y": 2
+      "y": 0
     },
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -345,8 +356,9 @@
     "text_shadow": {
       "br": 0,
       "color": "000000ff",
+      "nm": 0,
       "x": 0,
-      "y": -1
+      "y": 0
     },
     "wType": "Button"
   },

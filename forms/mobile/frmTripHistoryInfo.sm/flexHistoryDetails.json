@@ -1,6 +1,10 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "40dp"
+    },
     "_height_": {
         "type": "string",
         "value": "120dp"
@@ -22,10 +26,6 @@
         0
     ],
     "_skin_": "sf6aa1aa07644295974ebe7247326b7b",
-    "_top_": {
-        "type": "string",
-        "value": "473dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -33,12 +33,14 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "40dp",
     "canUpdateUI": true,
     "children": [
         "flexRating",
         "lblFare",
         "lblTotalFare",
-        "lblDriverRating"
+        "lblDriverRating",
+        "lblCustomerName"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -79,7 +81,6 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "473dp",
     "vizProps": {
         "lock": false
     },
@@ -87,6 +88,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

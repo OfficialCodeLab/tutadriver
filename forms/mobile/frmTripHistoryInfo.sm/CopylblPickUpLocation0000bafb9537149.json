@@ -3,8 +3,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "12dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -39,7 +39,10 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "12dp",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "id": "CopylblPickUpLocation0000bafb9537149",
     "info": null,
     "ipad": {
