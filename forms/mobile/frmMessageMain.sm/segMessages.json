@@ -7,31 +7,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
-            "imgMessageStatus": {
+            "imgEllipse": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "unreadbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "src": "ellipsecs.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -43,21 +21,25 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ellipsecs.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -69,21 +51,55 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ellipsecs.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "unreadbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Message Sender"
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Message Preview Text"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11:45 AM"
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -95,15 +111,15 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
@@ -111,57 +127,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
-            "imgMessageStatus": {
+            "imgEllipse": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "readbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "imgMessageStatus": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "readbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -188,6 +156,70 @@
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -267,31 +299,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
-            "imgMessageStatus": {
+            "imgEllipse": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "unreadbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "src": "ellipsecs.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -303,21 +313,25 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ellipsecs.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -329,21 +343,55 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ellipsecs.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "unreadbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Message Sender"
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Message Preview Text"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11:45 AM"
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -355,15 +403,15 @@
             },
             "lblFrom": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "From: Sender"
+                "text": "Message Sender"
             },
             "lblTextPreview": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "This is a preview message being displayed "
+                "text": "Message Preview Text"
             },
             "lblTime": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12:00 30/10/2015"
+                "text": "11:45 AM"
             }
         },
         {
@@ -371,57 +419,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
-            "imgMessageStatus": {
+            "imgEllipse": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "readbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "imgMessageStatus": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "readbg.png"
-            },
-            "imgRead": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "arrowright.png"
-            },
-            "lblFrom": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTextPreview": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            },
-            "lblTime": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
-            }
-        },
-        {
-            "btnReadMsg": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -448,6 +448,70 @@
             "btnReadMsg": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgMessageStatus": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
+            },
+            "imgRead": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "arrowright.png"
+            },
+            "lblFrom": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTextPreview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "btnReadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgEllipse": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "readbg.png"
             },
             "imgMessageStatus": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
@@ -569,6 +633,7 @@
     "widgetDataMap": {
         "btnReadMsg": "btnReadMsg",
         "flexMessage": "flexMessage",
+        "imgEllipse": "imgEllipse",
         "imgMessageStatus": "imgMessageStatus",
         "imgRead": "imgRead",
         "lblFrom": "lblFrom",
@@ -579,6 +644,7 @@
     "widgetdatamap": {
         "btnReadMsg": "btnReadMsg",
         "flexMessage": "flexMessage",
+        "imgEllipse": "imgEllipse",
         "imgMessageStatus": "imgMessageStatus",
         "imgRead": "imgRead",
         "lblFrom": "lblFrom",

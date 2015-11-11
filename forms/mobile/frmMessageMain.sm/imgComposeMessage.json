@@ -23,7 +23,7 @@
         "value": "15dp"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "composemessage.png",
+    "_src_": "cscomposemessage.png",
     "_width_": {
         "type": "string",
         "value": "40dp"
@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frmMessageMain",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -52,6 +52,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -74,7 +75,7 @@
     "render": true,
     "right": "15dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "composemessage.png",
+    "src": "cscomposemessage.png",
     "srcType": 1,
     "vizProps": {
         "lock": true

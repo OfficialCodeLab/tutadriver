@@ -29,7 +29,8 @@
         "lblTextPreview",
         "imgMessageStatus",
         "btnReadMsg",
-        "imgRead"
+        "imgRead",
+        "imgEllipse"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -39,10 +40,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": {
-        "type": "string",
-        "value": "80dp"
-    },
+    "height": "80dp",
     "id": "flexMessage",
     "info": null,
     "isSegmentChild": false,

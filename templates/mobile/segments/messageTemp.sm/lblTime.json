@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "35dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "50%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -21,15 +17,19 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
     "_skin_": "sb0d33fe1bdb400eb4f783ba67e530d9",
-    "_text_": "",
+    "_text_": "11:48 AM",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "25%"
     },
     "_width_": {
-        "type": "string",
-        "value": "140dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -41,8 +41,8 @@
     "contentalignment": 4,
     "enabled": false,
     "height": {
-        "type": "string",
-        "value": "35dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "id": "lblTime",
     "info": null,
@@ -61,10 +61,6 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "b1fab861b97d4ec9b73a8a356001fddc",
-    "left": {
-        "type": "string",
-        "value": "50%"
-    },
     "margin": [
         1,
         1,
@@ -81,19 +77,17 @@
     "parent": "flexMessage",
     "pf": "messageTemp",
     "render": true,
+    "right": "15%",
     "skin": "sb0d33fe1bdb400eb4f783ba67e530d9",
-    "text": "",
+    "text": "11:48 AM",
     "toolTip": "",
     "tooltip": "",
-    "top": {
-        "type": "string",
-        "value": "2%"
-    },
+    "top": "25%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": {
-        "type": "string",
-        "value": "140dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "wrapping": 2,
     "zIndex": 2,

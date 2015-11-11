@@ -3,8 +3,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         0,
@@ -18,22 +18,27 @@
         0,
         0
     ],
+    "_render_": true,
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "arrowright.png",
-    "_top_": {
-        "type": "string",
-        "value": "25dp"
-    },
     "_width_": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
+    },
+    "android": {
+        "render": true
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerId": true,
     "containerWeight": 100,
@@ -46,14 +51,17 @@
     },
     "enabled": false,
     "height": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "id": "imgRead",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
+    "iphone": {
+        "render": false
+    },
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
@@ -74,23 +82,31 @@
     "parent": "flexMessage",
     "pf": "messageTemp",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "right": "20dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": true
+    },
     "src": "arrowright.png",
     "srcType": 1,
-    "top": {
-        "type": "string",
-        "value": "25dp"
-    },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": {
-        "type": "string",
-        "value": "40dp"
+        "type": "ref",
+        "value": "preferred"
+    },
+    "winphone8": {
+        "render": true
     },
     "zIndex": 2,
     "zindex": 2

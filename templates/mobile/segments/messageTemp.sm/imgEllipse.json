@@ -1,14 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "12dp"
     },
     "_left_": {
         "type": "string",
-        "value": "30%"
+        "value": "11dp"
     },
     "_margin_": [
         0,
@@ -22,15 +23,15 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "search.png",
+    "_skin_": "s4fb14e3e4d44244966fb36d7170b2a3",
+    "_src_": "unreadbg.png",
     "_top_": {
         "type": "string",
         "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "12dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -39,29 +40,27 @@
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
+    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmMessageMain",
-        "ispercent": true,
         "platform": "iphone",
-        "templateType": "forms",
+        "templateType": "segments",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "30dp",
-    "id": "imgSearchIcon",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "height": "12dp",
+    "id": "imgEllipse",
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",
+    "isSegmentChild": false,
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "2cd4b90496044dee8c041ff5765d1ce9",
-    "left": "30%",
+    "kuid": "e61a0281972844d3a15cfa26b738fdb6",
+    "left": "11dp",
     "margin": [
         0,
         0,
@@ -75,17 +74,17 @@
         0,
         0
     ],
-    "parent": "flexSearchBar",
-    "pf": "frmMessageMain",
+    "parent": "flexMessage",
+    "pf": "messageTemp",
     "render": true,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "search.png",
+    "skin": "s4fb14e3e4d44244966fb36d7170b2a3",
+    "src": "unreadbg.png",
     "srcType": 1,
     "top": "20dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
+    "width": "12dp",
     "zIndex": 2,
     "zindex": 2
 }

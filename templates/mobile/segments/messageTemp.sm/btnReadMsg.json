@@ -43,10 +43,7 @@
     "enabled": false,
     "focusSkin": "sa8f118bfc844082a0bfc2db047c8cd4",
     "focusskin": "sa8f118bfc844082a0bfc2db047c8cd4",
-    "height": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "height": "50dp",
     "id": "btnReadMsg",
     "info": null,
     "isSegmentChild": false,
@@ -71,22 +68,13 @@
     "parent": "flexMessage",
     "pf": "messageTemp",
     "render": true,
-    "right": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "right": "0dp",
     "skin": "s22100b044ad43149731b43d9cf0c802",
     "text": "",
-    "top": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "top": "20dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "width": "50dp",
     "zIndex": 2,
     "zindex": 2
 }
