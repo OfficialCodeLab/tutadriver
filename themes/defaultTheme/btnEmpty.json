@@ -10,11 +10,11 @@
     "font_name": "Helvetica",
     "isForked": true,
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "wType": "Button"
   },
@@ -44,11 +44,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -82,11 +82,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "wType": "Button"
   },
@@ -109,11 +109,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "wType": "Button"
   },
@@ -151,11 +151,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -185,11 +185,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -253,11 +253,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -287,11 +287,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -321,11 +321,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -355,11 +355,11 @@
       "y": 0
     },
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "top_left_border_color": "ffffffff",
     "top_left_border_style": "plain",
@@ -380,11 +380,11 @@
     "font_name": "Helvetica",
     "isForked": true,
     "text_shadow": {
-      "br": 1,
+      "br": 0,
       "color": "000000ff",
       "nm": 0,
-      "x": -1,
-      "y": -1
+      "x": 0,
+      "y": 0
     },
     "wType": "Button"
   },

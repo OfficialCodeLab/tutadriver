@@ -3,10 +3,6 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "1dp"
-    },
-    "_left_": {
-        "type": "string",
         "value": "0dp"
     },
     "_margin_": [
@@ -25,7 +21,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "50%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -33,14 +29,19 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerX": "60%",
+    "centerx": {
+        "type": "string",
+        "value": "60%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "1dp",
-    "id": "lblSep2",
+    "height": "0dp",
+    "id": "lblTopB",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,8 +56,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9fda661b12bc40a3b2ba700a07d130b4",
-    "left": "0dp",
+    "kuid": "9300473ac08e489c85a9bdc94d42ae55",
     "margin": [
         1,
         1,
@@ -77,7 +77,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "50%",
+    "top": "0%",
     "vizProps": {
         "lock": true
     },

@@ -37,12 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sf8631cfe28d4f53a1c427c3b3eb91b8",
+    "focusskin": "sf8631cfe28d4f53a1c427c3b3eb91b8",
     "height": "100%",
     "id": "btnPager1",
     "info": null,

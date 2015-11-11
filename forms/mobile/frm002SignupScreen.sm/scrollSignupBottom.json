@@ -65,7 +65,8 @@
         "imgEnvelope",
         "imgPhone",
         "imgLock",
-        "FlexContainer0f82717f489ca49"
+        "FlexContainer0f82717f489ca49",
+        "lblTop"
     ],
     "clipBounds": true,
     "clipbounds": true,

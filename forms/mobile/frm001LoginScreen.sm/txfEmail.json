@@ -21,9 +21,9 @@
         0,
         0
     ],
-    "_placeholder_": "",
+    "_placeholder_": "Email",
     "_skin_": "s9fec7176f094c2aa3f18c81b38d98d8",
-    "_text_": "Email",
+    "_text_": "",
     "_width_": {
         "type": "string",
         "value": "80%"
@@ -81,14 +81,14 @@
     "paddinginpixel": false,
     "parent": "flexLoginButtons",
     "pf": "frm001LoginScreen",
-    "placeholder": "",
+    "placeholder": "Email",
     "placeholderSkin": "s9fec7176f094c2aa3f18c81b38d98d8",
     "placeholderskin": "s9fec7176f094c2aa3f18c81b38d98d8",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
     "skin": "s9fec7176f094c2aa3f18c81b38d98d8",
-    "text": "Email",
+    "text": "",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",

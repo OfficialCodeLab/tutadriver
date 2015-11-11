@@ -2,6 +2,10 @@
   "android": {
     "background_color": "ffffff00",
     "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -59,6 +63,10 @@
   "ipad": {
     "background_color": "ffffff00",
     "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -80,6 +88,10 @@
   "iphone": {
     "background_color": "ffffff00",
     "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -102,9 +114,14 @@
   "kiosk": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "isForked": true
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isForked": true,
+    "wType": "Button"
   },
-  "kuid": "sf8631cfe28d4f53a1c427c3b3eb91b8",
+  "kuid": "s7fa9b9abd4a40e1ad36e3f1c1389300",
   "spaan": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -339,6 +356,10 @@
   "tabrcandroid": {
     "background_color": "ffffff00",
     "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -353,11 +374,21 @@
   "windows8": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "isForked": true
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isForked": true,
+    "wType": "Button"
   },
   "winphone8": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "isForked": true
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isForked": true,
+    "wType": "Button"
   }
 }

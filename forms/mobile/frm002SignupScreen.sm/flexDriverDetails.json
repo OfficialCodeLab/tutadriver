@@ -38,6 +38,7 @@
     "channel": "mobile",
     "children": [
         "lblSep1",
+        "lblTopB",
         "lblSep2",
         "lblSep3",
         "lblSep4",
