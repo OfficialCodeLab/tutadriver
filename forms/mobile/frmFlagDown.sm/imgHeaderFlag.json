@@ -22,7 +22,7 @@
     "_src_": "csflagdownicon.png",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "6dp"
     },
     "_width_": {
         "type": "ref",
@@ -76,7 +76,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "csflagdownicon.png",
     "srcType": 1,
-    "top": "5dp",
+    "top": "6dp",
     "vizProps": {
         "lock": true
     },
