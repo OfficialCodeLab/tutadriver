@@ -47,7 +47,7 @@
         "channel": "mobile",
         "formID": "frmTripHistoryInfo",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

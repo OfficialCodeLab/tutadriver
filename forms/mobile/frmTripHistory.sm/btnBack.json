@@ -31,6 +31,9 @@
         "type": "string",
         "value": "55dp"
     },
+    "android": {
+        "pressedSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764"
+    },
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
@@ -40,8 +43,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "focusskin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "height": "55dp",
     "id": "btnBack",
     "info": null,
@@ -73,6 +76,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "55dp",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 20,
+    "zindex": 20
 }

@@ -39,7 +39,7 @@
         "btnCancelTrip",
         "btnStartTrip",
         "lblSepVert",
-        "lblSep2"
+        "lblSepHorizontal"
     ],
     "clipBounds": true,
     "clipbounds": true,

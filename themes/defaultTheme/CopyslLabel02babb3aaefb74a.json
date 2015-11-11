@@ -13,7 +13,7 @@
   },
   "font_color": "424242ff",
   "font_name": "",
-  "font_size": 100,
+  "font_size": 215,
   "font_style": "normal",
   "font_weight": "bold",
   "ipad": {
@@ -26,7 +26,7 @@
   "kiosk": {
     "font_name": "GenericMonospace"
   },
-  "kuid": "s144d294d24e4b01a7f2044e312b6c1f",
+  "kuid": "sc223565e9834200b398c685e8bbf846",
   "spaan": {
     "font_name": "Helvetica"
   },

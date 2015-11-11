@@ -18,7 +18,7 @@
         0,
         0
     ],
-    "_skin_": "sa75b5991dd24916b8d925f8fb48c771",
+    "_skin_": "sc223565e9834200b398c685e8bbf846",
     "_text_": "R250 - R275",
     "_top_": {
         "type": "string",
@@ -75,7 +75,7 @@
     "parent": "flexScrollFlagDown",
     "pf": "frmFlagDown",
     "render": true,
-    "skin": "sa75b5991dd24916b8d925f8fb48c771",
+    "skin": "sc223565e9834200b398c685e8bbf846",
     "text": "R250 - R275",
     "toolTip": "",
     "tooltip": "",

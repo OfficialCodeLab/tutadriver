@@ -45,8 +45,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sc653f2738164a98853e8fddfb1f90b5",
-    "focusskin": "sc653f2738164a98853e8fddfb1f90b5",
+    "focusSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "focusskin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "height": "45dp",
     "id": "btnBack",
     "info": null,
@@ -81,6 +81,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "40dp",
-    "zIndex": 4,
-    "zindex": 4
+    "zIndex": 20,
+    "zindex": 20
 }

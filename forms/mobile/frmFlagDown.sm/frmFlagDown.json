@@ -23,11 +23,13 @@
             "windowSoftInputMode": 2
         }
     },
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
         "flexScrollFlagDown",
-        "flexFixedFooter"
+        "flexFixedFooter",
+        "FlexContainer0f4595841ada443"
     ],
     "containerWeight": 100,
     "containerweight": 100,

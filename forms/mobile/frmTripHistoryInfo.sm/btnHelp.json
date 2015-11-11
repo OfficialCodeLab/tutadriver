@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
-        "value": "56dp"
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -30,9 +30,9 @@
     "_text_": "NEED HELP?",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
-    "bottom": "10dp",
+    "bottom": "0dp",
     "canUpdateUI": true,
     "centerX": "50.00%",
     "centerx": {
@@ -43,13 +43,13 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "56dp",
+    "focusSkin": "s8a3c3687f4f4876a85c5f25cb12ebe6",
+    "focusskin": "s8a3c3687f4f4876a85c5f25cb12ebe6",
+    "height": "45dp",
     "id": "btnHelp",
     "info": null,
     "isVisible": true,
@@ -78,7 +78,7 @@
     "text": "NEED HELP?",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "80%",
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

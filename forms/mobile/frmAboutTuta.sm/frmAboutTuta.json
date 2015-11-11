@@ -17,6 +17,12 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "allowHorizontalBounce": false,
+    "allowhorizontalbounce": false,
+    "android": {
+        "needAppMenu": false
+    },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "flexHeader",
@@ -49,6 +55,7 @@
         }
     },
     "iphone": {
+        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -64,10 +71,10 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": true
+                "visible": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isVisible": true,
     "isvisible": true,
@@ -105,8 +112,20 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
     "title": null,
-    "titleBar": true,
+    "titleBar": false,
     "titleBarModel": {
         "DNDConfig": null,
         "_margin_": [
@@ -123,7 +142,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": true,
+        "_visible_": false,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -178,13 +197,16 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": true,
+        "visible": false,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "winphone8": {
+        "needAppMenu": false
+    }
 }

@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "12dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "90dp"
+        "value": "85dp"
     },
     "_margin_": [
         1,
@@ -39,7 +39,10 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "12dp",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "id": "CopylblDropOffLocation06230b8c423f84c",
     "info": null,
     "ipad": {
@@ -55,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "915b17ed7da34f528c4253ce7c6730bc",
-    "left": "90dp",
+    "left": "85dp",
     "margin": [
         1,
         1,

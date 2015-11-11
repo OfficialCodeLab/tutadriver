@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
+    "_height_": {
         "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "sd58eec23cef4989b07f6b2478162ead",
+    "_skin_": "s0c2456c17e542a6947784573885ecf8",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,15 +33,8 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "0dp",
     "canUpdateUI": true,
-    "children": [
-        "flexHeader",
-        "flexHistoryDetails",
-        "btnHelp",
-        "imgProfilePic",
-        "Map0e6a8e9b1b59645"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -49,11 +42,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "id": "flexContent",
+    "height": "100%",
+    "id": "FlexContainer0f4595841ada443",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "ba5f0295889f48f0bb3fa4edca76a013",
+    "kuid": "71a718e67b7241b280a7ba92342a10bb",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -71,11 +65,11 @@
         0,
         0
     ],
-    "parent": "frmTripHistoryInfo",
+    "parent": "frmFlagDown",
     "percent": true,
-    "pf": "frmTripHistoryInfo",
+    "pf": "frmFlagDown",
     "render": true,
-    "skin": "sd58eec23cef4989b07f6b2478162ead",
+    "skin": "s0c2456c17e542a6947784573885ecf8",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

@@ -20,6 +20,7 @@
     "android": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "flexTripHistoryMain"
@@ -34,7 +35,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS4",
+    "device": "iPhone6",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -96,13 +97,13 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
-    "prevDevice": "iPhone6Plus",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "GalaxyS4",
+    "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS4",
+    "shellCSS": "iOS_iPhone6",
     "skin": "s3a6b0a89eb14338beba59c62407ebd2",
     "snapGridSize": 10,
     "snapToGrid": true,
@@ -155,11 +156,6 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
-        "iphone": {
-            "psp": {
-                "visible": false
-            }
-        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",

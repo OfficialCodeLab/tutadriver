@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "sf1e61a643f2432cbe986f4e6e42339c",
-    "_text_": "Label",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "420dp"
@@ -79,7 +79,7 @@
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sf1e61a643f2432cbe986f4e6e42339c",
-    "text": "Label",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "top": "420dp",
