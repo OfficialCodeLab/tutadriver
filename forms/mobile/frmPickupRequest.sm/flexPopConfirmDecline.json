@@ -62,7 +62,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "bfa7a5cc45b74c38be8b1e3306db7df7",
+    "kuid": "28424590337a4738b79f0d64efa9b179",
     "layoutType": 2,
     "layouttype": 2,
     "left": "65dp",
@@ -93,5 +93,7 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "80%"
+    "width": "80%",
+    "zIndex": 3,
+    "zindex": 3
 }

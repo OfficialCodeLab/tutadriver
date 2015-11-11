@@ -8,7 +8,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "90dp"
+        "value": "182dp"
     },
     "_left_": {
         "type": "string",
@@ -38,13 +38,13 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "height": "90dp",
+    "focusSkin": "s713fdbe92c144dc9c16fc5d73c5d693",
+    "focusskin": "s713fdbe92c144dc9c16fc5d73c5d693",
+    "height": "182dp",
     "id": "btnBottomDismiss",
     "info": null,
     "isVisible": true,

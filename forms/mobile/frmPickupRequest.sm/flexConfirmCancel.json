@@ -36,11 +36,11 @@
     "bottom": 0,
     "canUpdateUI": true,
     "children": [
-        "flexPopConfirmDecline",
         "btnTopDismiss",
         "btnBottomDismiss",
         "btnLeftDismiss",
-        "btnRightDismiss"
+        "btnRightDismiss",
+        "flexPopConfirmDecline"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -81,6 +81,9 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "top": "0dp",
+    "vizProps": {
+        "hide": false
+    },
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
