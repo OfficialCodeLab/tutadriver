@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "85dp"
+        "value": "30dp"
     },
     "_margin_": [
         1,
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "220dp"
+        "value": "250dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -58,7 +58,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "915b17ed7da34f528c4253ce7c6730bc",
-    "left": "85dp",
+    "left": "30dp",
     "margin": [
         1,
         1,
@@ -85,7 +85,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "220dp",
+    "width": "250dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

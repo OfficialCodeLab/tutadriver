@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "90dp"
     },
     "_margin_": [
         0,
@@ -22,11 +22,11 @@
     "_src_": "csflagdownicon.png",
     "_top_": {
         "type": "string",
-        "value": "6dp"
+        "value": "30dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -42,12 +42,12 @@
         "channel": "mobile",
         "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "100dp",
+    "height": "90dp",
     "id": "imgHeaderFlag",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -76,17 +76,14 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "csflagdownicon.png",
     "srcType": 1,
-    "top": "6dp",
+    "top": "30dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "100dp",
     "zIndex": 1,
     "zindex": 1
 }

@@ -27,7 +27,7 @@
     "_src_": "csflagdowntextbar2.png",
     "_top_": {
         "type": "string",
-        "value": "255dp"
+        "value": "260dp"
     },
     "_width_": {
         "type": "string",
@@ -46,7 +46,7 @@
         "channel": "mobile",
         "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -81,7 +81,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "csflagdowntextbar2.png",
     "srcType": 1,
-    "top": "255dp",
+    "top": "260dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

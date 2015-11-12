@@ -360,18 +360,18 @@
     "_orientation_": 2,
     "_padding_": [
         0,
-        0,
+        4,
         0,
         0
     ],
     "_rowTemplateId": "tempTripHistory",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "96%"
     },
     "android": {
         "psp": {
@@ -768,10 +768,12 @@
     "orientation": 2,
     "padding": [
         0,
-        0,
+        4,
         0,
         0
     ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
     "pageOffDotImage": "pageOffDot.png",
     "pageOnDotImage": "pageOnDot.png",
     "pageoffdotimage": "pageOffDot.png",
@@ -817,7 +819,7 @@
     "separatorthickness": 1,
     "showScrollbars": false,
     "showscrollbars": false,
-    "top": "10dp",
+    "top": "0dp",
     "viewType": "tableview",
     "viewtype": "tableview",
     "wType": "Segment",
@@ -849,5 +851,5 @@
         "lblDateTime": "lblDateTime"
     },
     "widgetskin": "se12ab7d50134654aa50d9c1b979b04c",
-    "width": "95%"
+    "width": "96%"
 }

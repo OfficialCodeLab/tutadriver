@@ -5,11 +5,11 @@
     "_base64_": null,
     "_bottom_": {
         "type": "string",
-        "value": "11dp"
+        "value": "-10dp"
     },
     "_height_": {
         "type": "string",
-        "value": "90dp"
+        "value": "95dp"
     },
     "_left_": {
         "type": "string",
@@ -31,10 +31,10 @@
     "_src_": "profilepicbooking.png",
     "_width_": {
         "type": "string",
-        "value": "85dp"
+        "value": "90dp"
     },
     "base64": null,
-    "bottom": "11dp",
+    "bottom": "-10dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
@@ -46,10 +46,10 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "90dp",
+    "height": "95dp",
     "id": "imgPortait",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "imageScaleMode": 0,
+    "imagescalemode": 0,
     "info": null,
     "isSegmentChild": false,
     "isVisible": true,
@@ -81,5 +81,5 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "85dp"
+    "width": "90dp"
 }

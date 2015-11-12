@@ -1,10 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "152dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -22,40 +21,38 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bluebg.png",
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100.00%"
+        "value": "60dp"
     },
-    "base64": null,
+    "allboxes": [],
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "children": [
+        "btnBack",
+        "imgBackArrow"
+    ],
+    "clipBounds": true,
+    "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "formID": "frmTripHistory",
-        "ispercent": true,
-        "platform": "android",
-        "templateType": "forms",
-        "topLevelBox": null
-    },
+    "enableScrolling": true,
     "enabled": false,
-    "height": "152dp",
-    "id": "imgHeadBG",
-    "imageScaleMode": 2,
-    "imagescalemode": 2,
+    "enablescrolling": true,
+    "height": "60dp",
+    "id": "flexBackButton",
     "info": null,
-    "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "cfaf0ab94c82441fb0f91c56f75e124c",
+    "kuid": "d2246fc20def43e4ba10198e50c0c263",
+    "layoutType": 2,
+    "layouttype": 2,
     "left": "0dp",
     "margin": [
         0,
@@ -63,7 +60,8 @@
         0,
         0
     ],
-    "name": "kony.ui.Image2",
+    "name": "kony.ui.FlexContainer",
+    "orientation": 6,
     "padding": [
         0,
         0,
@@ -71,16 +69,19 @@
         0
     ],
     "parent": "flexTripHeader",
+    "percent": true,
     "pf": "frmTripHistory",
     "render": true,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bluebg.png",
-    "srcType": 1,
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "snapGridSize": 10,
+    "snapToGrid": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
     "top": "0dp",
-    "wType": "Image",
-    "widgetAlignment": 5,
-    "widgetalignment": 5,
-    "width": "100.00%",
-    "zIndex": 1,
-    "zindex": 1
+    "wType": "FlexContainer",
+    "widgetAlignment": 1,
+    "widgetalignment": 1,
+    "width": "60dp",
+    "zIndex": 20,
+    "zindex": 20
 }

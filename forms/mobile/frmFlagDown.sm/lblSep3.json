@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "80%"
     },
     "_wrapping_": 2,
     "bottom": "30%",
@@ -88,6 +88,8 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "90%",
-    "wrapping": 2
+    "width": "80%",
+    "wrapping": 2,
+    "zIndex": 1,
+    "zindex": 1
 }

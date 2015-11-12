@@ -1,6 +1,10 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
         "value": "65dp"
@@ -22,17 +26,14 @@
         0
     ],
     "_skin_": "s06fb04c72fe42a4b7c3a2ea656a7340",
-    "_top_": {
-        "type": "string",
-        "value": "85dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "100.00%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "0dp",
     "canUpdateUI": true,
     "children": [
         "lblCost",
@@ -79,11 +80,10 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "85dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100.00%",
+    "width": "100%",
     "zIndex": 1,
     "zindex": 1
 }

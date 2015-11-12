@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "15dp"
+        "value": "5dp"
     },
     "_height_": {
         "type": "string",
@@ -30,10 +30,10 @@
     "_text_": "YOUR RATING",
     "_width_": {
         "type": "string",
-        "value": "85dp"
+        "value": "100dp"
     },
     "_wrapping_": 2,
-    "bottom": "15dp",
+    "bottom": "5dp",
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
@@ -82,7 +82,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "85dp",
+    "width": "100dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

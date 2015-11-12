@@ -9,7 +9,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "63dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -26,8 +26,8 @@
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "pickupicon.png",
     "_top_": {
-        "type": "number",
-        "value": "10"
+        "type": "string",
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -35,13 +35,18 @@
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "10dp",
+    "centerx": {
+        "type": "string",
+        "value": "10dp"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
         "formID": "frmTripHistoryInfo",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -56,7 +61,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "23e0c3ad6b874de29756ad3c5a966bbd",
-    "left": "63dp",
+    "left": "10dp",
     "margin": [
         0,
         0,
@@ -76,7 +81,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "pickupicon.png",
     "srcType": 1,
-    "top": 10,
+    "top": "10dp",
     "vizProps": {
         "lock": true
     },
@@ -84,6 +89,6 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "12dp",
-    "zIndex": 6,
-    "zindex": 6
+    "zIndex": 2,
+    "zindex": 2
 }

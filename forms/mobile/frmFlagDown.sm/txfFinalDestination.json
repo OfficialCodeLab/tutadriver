@@ -22,7 +22,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "255dp"
+        "value": "260dp"
     },
     "_width_": {
         "type": "string",
@@ -89,7 +89,7 @@
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": "255dp",
+    "top": "260dp",
     "viewType": "default",
     "viewtype": "default",
     "vizProps": {
