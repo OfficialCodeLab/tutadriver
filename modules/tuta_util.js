@@ -8,6 +8,67 @@ if (typeof(tuta) === "undefined") {
 
 tuta.util = {};
 
+
+tuta.util.STATES = {
+  IDLE:0, 
+  TRAWLING:1, 
+  ON_ROUTE_TO_CLEINT:2, 
+  ON_ROUTE_TO_DESTINATION:3
+};
+
+tuta.util.REQUESTS = {
+  PICKUP:0, 
+  FLAG_DOWN:1, 
+  DROP_OFF:2, 
+  VIA:3, 
+  CONTINUE:4,
+  ACTIVE:5
+};
+
+driver_state = tuta.util.STATES.IDLE;
+
+tuta.util.request = function (request){
+  
+  if(driver_state === tuta.util.STATES.IDLE){
+    switch(request){
+      case tuta.util.REQUESTS.DROP_OFF:
+        driver_state = tuta.util.STATES.ON_ROUTE_TO_DESTINATION;
+        break;
+
+      case tuta.util.REQUESTS.VIA:
+        driver_state = tuta.util.STATES.ON_ROUTE_TO_DESTINATION;
+        break;
+
+      case tuta.util.REQUESTS.CONTINUE:
+        driver_state = tuta.util.STATES.ON_ROUTE_TO_DESTINATION;
+        break;
+
+      case tuta.util.REQUESTS.ACTIVE:
+        driver_state = tuta.util.STATES.TRAWLING;
+        break;
+    }
+  }
+  else if (driver_state === tuta.util.STATES.TRAWLING){
+    switch(request){
+      case tuta.util.REQUESTS.PICKUP:
+        driver_state = tuta.util.STATES.ON_ROUTE_TO_CLEINT;
+        break;
+
+      case tuta.util.REQUESTS.FLAG_DOWN:
+        driver_state = tuta.util.STATES.IDLE;
+        break;        
+    }
+  }	
+  else{
+    return;
+  }
+};
+
+tuta.util.idling = function () {
+  driver_state = tuta.util.STATES.IDLE;
+};
+
+
 tuta.util.getType = function (elem) {
   return Object.prototype.toString.call(elem);
 };
