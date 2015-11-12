@@ -25,7 +25,7 @@
     "_text_": "How can we help you?",
     "_top_": {
         "type": "string",
-        "value": "225dp"
+        "value": "240dp"
     },
     "_width_": {
         "type": "string",
@@ -82,7 +82,7 @@
     "text": "How can we help you?",
     "toolTip": "",
     "tooltip": "",
-    "top": "225dp",
+    "top": "240dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "200dp",

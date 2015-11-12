@@ -58,10 +58,10 @@
     "containerweight": 100,
     "contentAlignment": 1,
     "contentalignment": 1,
-    "disabledSkins": {
-        "focusSkin": "sb03bd6684dc4e3ba0a71a31465086ac"
-    },
+    "disabledSkins": {},
     "enabled": false,
+    "focusSkin": "sc0d7d97aa4e4dae9cf1f89c5cfcc1dc",
+    "focusskin": "sc0d7d97aa4e4dae9cf1f89c5cfcc1dc",
     "height": "149dp",
     "id": "txtareaEditIssue",
     "info": null,

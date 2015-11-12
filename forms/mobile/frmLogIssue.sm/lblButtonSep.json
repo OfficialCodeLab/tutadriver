@@ -26,7 +26,7 @@
     "_text_": "",
     "_top_": {
         "type": "number",
-        "value": "395"
+        "value": "388"
     },
     "_width_": {
         "type": "string",
@@ -81,7 +81,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": 395,
+    "top": 388,
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "2dp",
