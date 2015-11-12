@@ -9,7 +9,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "125dp"
+        "value": "118dp"
     },
     "_left_": {
         "type": "string",
@@ -42,12 +42,12 @@
         "channel": "mobile",
         "formID": "frmBooking",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "125dp",
+    "height": "118dp",
     "id": "imgProfilePic",
     "imageScaleMode": 1,
     "imagescalemode": 1,

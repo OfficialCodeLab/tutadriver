@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "180dp"
+        "value": "170dp"
     },
     "_margin_": [
         0,
@@ -35,7 +35,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "180dp",
+    "height": "170dp",
     "id": "flexRow",
     "info": null,
     "isSegmentChild": false,
@@ -51,6 +51,8 @@
         0,
         0
     ],
+    "marginInPixel": false,
+    "margininpixel": false,
     "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [

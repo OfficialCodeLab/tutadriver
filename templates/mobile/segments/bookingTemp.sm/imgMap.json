@@ -40,7 +40,7 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "segments",
         "topLevelBox": null
     },

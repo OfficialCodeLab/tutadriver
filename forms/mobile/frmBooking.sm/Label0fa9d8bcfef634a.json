@@ -8,7 +8,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "107dp"
+        "value": "115dp"
     },
     "_left_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "107dp",
+    "height": "115dp",
     "id": "Label0fa9d8bcfef634a",
     "info": null,
     "ipad": {

@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "10dp"
+        "value": "2dp"
     },
     "_height_": {
         "type": "string",
-        "value": "10dp"
+        "value": "13dp"
     },
     "_margin_": [
         1,
@@ -24,24 +24,24 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "61dp"
+        "value": "71dp"
     },
     "_skin_": "s599be2285dc4fc2b8231384d20268c1",
     "_text_": "ESTIMATED FARE",
     "_width_": {
         "type": "string",
-        "value": "62dp"
+        "value": "69dp"
     },
     "_wrapping_": 2,
-    "bottom": "10dp",
+    "bottom": "2dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 6,
+    "contentalignment": 6,
     "enabled": false,
-    "height": "10dp",
+    "height": "13dp",
     "id": "lblTitleFare",
     "info": null,
     "ipad": {
@@ -74,7 +74,7 @@
     "parent": "flexBookingInfo",
     "pf": "bookingTemp",
     "render": true,
-    "right": "61dp",
+    "right": "71dp",
     "skin": "s599be2285dc4fc2b8231384d20268c1",
     "text": "ESTIMATED FARE",
     "toolTip": "",
@@ -84,7 +84,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "62dp",
+    "width": "69dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

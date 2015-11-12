@@ -345,14 +345,14 @@
     "_orientation_": 2,
     "_padding_": [
         0,
+        1,
         0,
-        0,
-        0
+        5
     ],
     "_rowTemplateId": "bookingTemp",
     "_top_": {
         "type": "string",
-        "value": "150dp"
+        "value": "155dp"
     },
     "_width_": {
         "type": "string",
@@ -747,10 +747,12 @@
     "orientation": 2,
     "padding": [
         0,
+        1,
         0,
-        0,
-        0
+        5
     ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
     "pageOffDotImage": "pageOffDot.png",
     "pageOnDotImage": "pageOnDot.png",
     "pageoffdotimage": "pageOffDot.png",
@@ -796,7 +798,7 @@
     "separatorthickness": 0,
     "showScrollbars": false,
     "showscrollbars": false,
-    "top": "150dp",
+    "top": "155dp",
     "viewType": "tableview",
     "viewtype": "tableview",
     "wType": "Segment",

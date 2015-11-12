@@ -41,7 +41,7 @@
         "channel": "mobile",
         "formID": "frmBookingsMain",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },

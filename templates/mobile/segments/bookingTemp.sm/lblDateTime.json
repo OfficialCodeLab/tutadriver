@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "6dp"
+        "value": "2dp"
     },
     "_height_": {
         "type": "string",
-        "value": "17dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
@@ -33,15 +33,15 @@
         "value": "90dp"
     },
     "_wrapping_": 2,
-    "bottom": "6dp",
+    "bottom": "2dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 8,
-    "contentalignment": 8,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": "17dp",
+    "height": "15dp",
     "id": "lblDateTime",
     "info": null,
     "ipad": {
