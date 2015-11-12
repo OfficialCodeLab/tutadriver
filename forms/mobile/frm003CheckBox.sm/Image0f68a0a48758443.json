@@ -27,7 +27,7 @@
     "_src_": "warningicon.png",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -81,7 +81,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "warningicon.png",
     "srcType": 1,
-    "top": "50dp",
+    "top": "10dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
