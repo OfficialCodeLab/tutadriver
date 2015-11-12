@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "backarrow.png",
+    "_src_": "csbackarrow.png",
     "_width_": {
         "type": "string",
         "value": "30dp"
@@ -52,6 +52,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -74,7 +75,7 @@
     "pf": "frmAboutTuta",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "backarrow.png",
+    "src": "csbackarrow.png",
     "srcType": 1,
     "vizProps": {
         "lock": true

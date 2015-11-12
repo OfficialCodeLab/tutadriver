@@ -26,7 +26,8 @@
     "canUpdateUI": true,
     "children": [
         "flexHeader",
-        "flexscrollAboutTuta"
+        "flexscrollAboutTuta",
+        "flexAboutBackground"
     ],
     "containerWeight": 100,
     "containerweight": 100,
