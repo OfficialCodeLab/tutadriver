@@ -11,7 +11,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "2%"
+        "value": "5.50%"
     },
     "_margin_": [
         1,
@@ -29,7 +29,7 @@
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "27%"
     },
     "_wrapping_": 2,
     "bottom": "18.70%",
@@ -62,7 +62,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "45d0a97a91814df484fcde33686e1453",
-    "left": "2%",
+    "left": "5.50%",
     "margin": [
         1,
         1,
@@ -85,7 +85,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "30%",
+    "width": "27%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

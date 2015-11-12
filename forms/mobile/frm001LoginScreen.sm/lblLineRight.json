@@ -23,13 +23,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "3%"
+        "value": "5.50%"
     },
     "_skin_": "sedd4d6c87ea49f395e754f2ac1df23a",
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "27%"
     },
     "_wrapping_": 2,
     "bottom": "18.70%",
@@ -78,14 +78,14 @@
     "parent": "flexMainButtons",
     "pf": "frm001LoginScreen",
     "render": true,
-    "right": "3%",
+    "right": "5.50%",
     "skin": "sedd4d6c87ea49f395e754f2ac1df23a",
     "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "30%",
+    "width": "27%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

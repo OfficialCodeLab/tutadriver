@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "100dp"
     },
     "_left_": {
         "type": "string",
@@ -26,11 +26,11 @@
     "_text_": "ARE YOU SURE YOU WANT TO CANCEL THIS JOB?",
     "_top_": {
         "type": "string",
-        "value": "113dp"
+        "value": "76dp"
     },
     "_width_": {
         "type": "string",
-        "value": "180dp"
+        "value": "252dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -44,7 +44,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "60dp",
+    "height": "100dp",
     "id": "lblConfirmDeclineMessage",
     "info": null,
     "ipad": {
@@ -81,9 +81,9 @@
     "text": "ARE YOU SURE YOU WANT TO CANCEL THIS JOB?",
     "toolTip": "",
     "tooltip": "",
-    "top": "113dp",
+    "top": "76dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "180dp",
+    "width": "252dp",
     "wrapping": 2
 }
