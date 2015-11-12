@@ -1,8 +1,8 @@
 //Type your code here
-var ssa = new Object();
-ssa.mobile = {};
+var tuta = new Object();
+tuta.mobile = {};
 
-ssa.mobile.alert = function(title, message) {
+tuta.mobile.alert = function(title, message) {
   var basicConf = {message: message ,alertType: constants.
   ALERT_TYPE_INFO,alertTitle: title,yesLabel:"ok",
   noLabel: "no", alertHandler: null};
@@ -14,7 +14,7 @@ ssa.mobile.alert = function(title, message) {
   var infoAlert = kony.ui.Alert(basicConf,pspConf);  
 }
 
-ssa.mobile.odata = function(url,user,password) {
+tuta.mobile.odata = function(url,user,password) {
   this.url = url;
   this.user = user;
   this.password = password;
@@ -22,7 +22,7 @@ ssa.mobile.odata = function(url,user,password) {
   // TODO call service to get $metadata
 }
 
-ssa.mobile.odata.prototype.call = function(collection,data,success,error) {
+tuta.mobile.odata.prototype.call = function(collection,data,success,error) {
   
   var request = new kony.net.HttpRequest();
   
@@ -46,7 +46,7 @@ ssa.mobile.odata.prototype.call = function(collection,data,success,error) {
   request.send(frmData);
 }
 
-ssa.mobile.odata.prototype.read = function(collection,success,error) {
+tuta.mobile.odata.prototype.read = function(collection,success,error) {
   var request = new kony.net.HttpRequest();
   //frmSplash.rtDebug.text = "<span>Initializing SSA Mobile read function...</span>";
   
@@ -69,7 +69,7 @@ ssa.mobile.odata.prototype.read = function(collection,success,error) {
 }
 
 /*
-ssa.mobile.odata.prototype.create = function(collection,data,success,error) {
+tuta.mobile.odata.prototype.create = function(collection,data,success,error) {
   
   var request = new kony.net.HttpRequest();
   
@@ -90,7 +90,7 @@ ssa.mobile.odata.prototype.create = function(collection,data,success,error) {
   request.send(data);
 }
 
-ssa.mobile.odata.prototype.call = function(collection,data,success,error) {
+tuta.mobile.odata.prototype.call = function(collection,data,success,error) {
   
   var request = new kony.net.HttpRequest();
   
@@ -111,7 +111,7 @@ ssa.mobile.odata.prototype.call = function(collection,data,success,error) {
   request.send(data);
 }
 
-ssa.mobile.odata.prototype.update = function(collection,data,success,error) {
+tuta.mobile.odata.prototype.update = function(collection,data,success,error) {
   var request = new kony.net.HttpRequest();
   
   request.timeout = 5000;

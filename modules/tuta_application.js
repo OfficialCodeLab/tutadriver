@@ -1,27 +1,27 @@
 
 /**
- * SSA Mobile namespace
- * @namespace ssa.mobile
+ * TUTA Mobile namespace
+ * @namespace tuta.mobile
  */
-if (typeof(ssa) === "undefined") {
-	ssa = {};
+if (typeof(tuta) === "undefined") {
+	tuta = {};
 }
 
 /**
- * Application instance for SSA apps
+ * Application instance for TUTA apps
  * @param initCallback callback for successful mbaas init
  */
-ssa.application = function(initCallback) {
+tuta.application = function(initCallback) {
 	var self = this;
 	self.client = new kony.sdk();
-	self.client.init(	ssa.config.appKey, 
-						ssa.config.appSecret, 
-						ssa.config.serverUrl,
+	self.client.init(	tuta.config.appKey, 
+						tuta.config.appSecret, 
+						tuta.config.serverUrl,
 						function(success) {
-							kony.print("SSA: App init OK");
+							kony.print("TUTA: App init OK");
       						
 							self.serviceDocument = success;
-							self.identity = self.client.getIdentityService(ssa.config.idService);
+							self.identity = self.client.getIdentityService(tuta.config.idService);
 							
 							if(initCallback !== undefined) {
 								initCallback();
@@ -29,21 +29,21 @@ ssa.application = function(initCallback) {
 						},
 						function(error) {
 							self.defaultError(error);
-							kony.print("SSA: App init failed");
-							kony.print("SSA: " + error);
+							kony.print("TUTA: App init failed");
+							kony.print("TUTA: " + error);
 						} );
 };
 
 /**
- * Application login for SSA apps
+ * Application login for TUTA apps
  * @param user credentials 
  * @param callback for successful mbaas login
  */
-ssa.application.prototype.login = function(user, pass, callback) {
+tuta.application.prototype.login = function(user, pass, callback) {
 	var self = this;
 	if(self.identity === undefined) {
 		if(callback !== undefined) {
-			kony.print("SSA: App not initialized");
+			kony.print("TUTA: App not initialized");
 			callback(null,{ errorcode: 100, errormessage : "App not initialized"});
 		}
 		
@@ -54,12 +54,12 @@ ssa.application.prototype.login = function(user, pass, callback) {
 		function(success) {
 			if(callback !== undefined) {
 				callback();
-				kony.print("SSA: Login success");
+				kony.print("TUTA: Login success");
 			}
 		}, 
 		function(error) {
 			if(callback !== undefined) {
-				kony.print("SSA: Login failure");	
+				kony.print("TUTA: Login failure");	
 				callback(null,{ errorcode: 101, errormessage : "login failed"});
 			}
 		});
@@ -69,7 +69,7 @@ ssa.application.prototype.login = function(user, pass, callback) {
  * Get application service definition
  * @param serviceName 
  */
-ssa.application.prototype.service = function(serviceName) {
+tuta.application.prototype.service = function(serviceName) {
 	return this.client.getIntegrationService(serviceName);
 };
 
@@ -77,11 +77,11 @@ ssa.application.prototype.service = function(serviceName) {
  * Default fallback error for failed initialization
  * @param message error message
  */
-ssa.application.prototype.defaultError = function(message) {
+tuta.application.prototype.defaultError = function(message) {
 	// present something informative here
   	this.alert("ERROR", message);
 };
 
-ssa.application.prototype.alert = function (title,message) {
-  ssa.util.alert(title,message);
+tuta.application.prototype.alert = function (title,message) {
+  tuta.util.alert(title,message);
 };

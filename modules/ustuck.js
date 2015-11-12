@@ -1,8 +1,8 @@
 var ustuck = {};
 
 ustuck.services = function() {
-	//this.odata = new ssa.mobile.odata("http://192.168.2.110:8000/ustuck/services");
-  	this.odata = new ssa.mobile.odata("http://154.0.165.84:8000/ustuck/services");
+	//this.odata = new tuta.mobile.odata("http://192.168.2.110:8000/ustuck/services");
+  	this.odata = new tuta.mobile.odata("http://154.0.165.84:8000/ustuck/services");
 }
 
 ustuck.services.prototype.init = function(success) {
@@ -22,7 +22,7 @@ ustuck.services.prototype.getServiceTypes = function() {
             }
 		},
 		function(e) {
-      		ssa.mobile.alert("Coms Error", "Could connect to services");
+      		tuta.mobile.alert("Coms Error", "Could connect to services");
 		});
 }
 

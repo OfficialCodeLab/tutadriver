@@ -39,7 +39,7 @@ function init(){
   frm004Home.btnChs.onClick = animateMenu;
   
   frm001LoginScreen.btnSignUp.onClick = function () {frm002SignupScreen.show();};
-  frm001LoginScreen.btnLogin.onClick = function() {ssa.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
+  frm001LoginScreen.btnLogin.onClick = function() {tuta.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); tuta.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
   frm001LoginScreen.btnLogin2.onClick = function() {frm003CheckBox.show();};
   
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
@@ -83,13 +83,13 @@ function init(){
   };
   
   frm001LoginScreen.postShow = function (){   
-    ssa.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
-    ssa.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
+    tuta.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
+    tuta.animate.move(frm001LoginScreen.flexLoginButtons, 0, "0%", "100%", null); 
   };
   
   frm002SignupScreen.postShow = function (){   
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0, "116", "0%", null); 
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0, "116", "100%", null); 
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottom, 0, "116", "0%", null); 
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottomB, 0, "116", "100%", null); 
   };
   
   setUpSwipes();
@@ -108,7 +108,7 @@ function init(){
   frm004Home.txtDest.onDone = function(widget) {
     if(frm004Home.txtDest.text != null){
       frm004Home.flexFindingDest.setVisibility(true);
-      //ssa.mobile.alert("Search", "Search Done");
+      //tuta.mobile.alert("Search", "Search Done");
       selectDest(frm004Home);      
     }
   };
@@ -121,16 +121,15 @@ function init(){
     searchMode = 0;
   };
   
-  
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
   kony.timer.schedule("firstinit", function () {
 
     //ustuck.init(function(response) {
-      //ssa.mobile.alert("GEOCODE", response);
+      //tuta.mobile.alert("GEOCODE", response);
       //currentLocation = response.results[0];
      // kony.timer.schedule("splash", function() {  
      // }, 2, false);
-	ssa.location.init(function(response){
+	tuta.location.init(function(response){
       currentLocation = response.results[0];
       updateMap();
     });
@@ -142,7 +141,7 @@ function init(){
 /*  kony.timer.schedule("init", function () {
 
     init(function(response) {
-      //ssa.mobile.alert("GEOCODE", response);
+      //tuta.mobile.alert("GEOCODE", response);
       currentLocation = response.results[0];
     });
   }, 4, true);*/
@@ -150,15 +149,15 @@ function init(){
 
 function switchForms(bool){
   if(bool === 1){
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "-100%", null);
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "0%", null);    
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "-100%", null);
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "0%", null);    
     
     frm002SignupScreen.scrollSignupBottomB.scrollToWidget(frm002SignupScreen.lblTopB);
   }
   else
   {
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "100%", null);
-    ssa.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "0%", null);
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottomB, 0.25, "116", "100%", null);
+    tuta.animate.move(frm002SignupScreen.scrollSignupBottom, 0.25, "116", "0%", null);
     
     frm002SignupScreen.scrollSignupBottom.scrollToWidget(frm002SignupScreen.lblTop);
   }
@@ -188,8 +187,8 @@ function selectDest(form) {
  // else
    // add = frm004Home.txtPick.text;
     
-  ssa.location.addressList(add, function(result) {
-    //ssa.mobile.alert("RES", JSON.stringify(result));
+  tuta.location.addressList(add, function(result) {
+    //tuta.mobile.alert("RES", JSON.stringify(result));
     frm004Home.flexFindingDest.setVisibility(false);
     if(result.status === "ZERO_RESULTS")
     {
@@ -213,17 +212,17 @@ function setUpSwipes(){
   var setupTblSwipe = {fingers: 1}
   
   frm004Home.flexSlider.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, setupTblSwipe,  function(widget, gestureInformationSwipe) {
-    //ssa.mobile.alert("","" + gestureInformationSwipe.swipeDirection );
+    //tuta.mobile.alert("","" + gestureInformationSwipe.swipeDirection );
     if(gestureInformationSwipe.swipeDirection == 2) { //RIGHT--->
       if(swipedSlider === 1){
         swipedSlider = 0;
-        ssa.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {swipedSlider = 2;});           
+        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {swipedSlider = 2;});           
       }
     }
     else if (gestureInformationSwipe.swipeDirection == 1){ //<---LEFT
       if(swipedSlider === 2){
         swipedSlider = 0;
-        ssa.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp",function() {swipedSlider = 1;});           
+        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp",function() {swipedSlider = 1;});           
       }        
       }
     });
@@ -257,8 +256,8 @@ function animateMenu(){
   if(menuOpen === false){ //OPEN MENU
     frm004Home.imgChsC.setVisibility(false);
     frm004Home.flexDarken.setVisibility(true);
-    ssa.animate.move(frm004Home.flexMapScreen, 0.3, "0", "80%");
-    ssa.animate.move(frm004Home.flexMenu, 0.3, "0", "0%"); 
+    tuta.animate.move(frm004Home.flexMapScreen, 0.3, "0", "80%", null);
+    tuta.animate.move(frm004Home.flexMenu, 0.3, "0", "0%", null); 
     frm004Home.imgChsO.setVisibility(true);
     frm004Home["btnChs"]["height"] = "100%";
     frm004Home.btnChs.setVisibility(true);
@@ -270,8 +269,8 @@ function animateMenu(){
   {
     frm004Home.imgChsO.setVisibility(false);
     frm004Home.flexDarken.setVisibility(false);
-    ssa.animate.move(frm004Home.flexMapScreen, 0.3, "0", "0%");
-    ssa.animate.move(frm004Home.flexMenu, 0.3, "0", "-80%");
+    tuta.animate.move(frm004Home.flexMapScreen, 0.3, "0", "0%", null);
+    tuta.animate.move(frm004Home.flexMenu, 0.3, "0", "-80%", null);
     frm004Home.imgChsC.setVisibility(true);
     frm004Home["btnChs"]["height"] = "55dp";
     frm004Home.btnChs.setVisibility(true); 
