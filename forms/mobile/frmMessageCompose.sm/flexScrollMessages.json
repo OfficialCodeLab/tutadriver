@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "50dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "s02c8dca74c44d2a90e3fe7989aee4ee",
     "_top_": {
         "type": "string",
-        "value": "95dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
@@ -35,8 +35,8 @@
     "allowVerticalBounce": true,
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
-    "bottom": "50dp",
-    "bounces": true,
+    "bottom": "80dp",
+    "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [],
@@ -81,14 +81,14 @@
     "percent": true,
     "pf": "frmMessageCompose",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
+    "scrollDirection": 2,
+    "scrolldirection": 2,
     "skin": "s02c8dca74c44d2a90e3fe7989aee4ee",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "95dp",
+    "top": "110dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
@@ -97,6 +97,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

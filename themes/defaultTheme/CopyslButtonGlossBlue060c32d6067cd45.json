@@ -82,7 +82,7 @@
     "wType": "Button"
   },
   "iphone": {
-    "font_name": "Helvetica-Bold",
+    "font_name": "Helvetica",
     "isForked": true
   },
   "isDefaultSkin": false,

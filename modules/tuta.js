@@ -278,9 +278,18 @@ function animateMenu(){
   }
 }
 
+/*
+DRIVER STATES: trawling, on-route to client (ORTC), on-route to dest (ORTD), idle (picking up client or off-duty)
 
+REQUEST TYPES: pickup, flag down, drop-off, via, active, continue
+(notated by **)
 
-
+STATE CHANGES:  trawling - > *pickup* - > ORTC - > idle
+				trawling - > *flag down* - > idle
+                idle - > *drop-off* - > ORTD - > idle
+                idle - > *via* - > ORTD - > idle - > ORTD - > idle
+                idle - > *active* - > trawling
+*/
   
 
 

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
@@ -51,7 +51,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "35dp",
+    "height": "40dp",
     "id": "txtSendTo",
     "info": null,
     "isVisible": true,
@@ -92,6 +92,6 @@
     "wType": "TextField",
     "widgetAlignment": 5,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 5,
+    "zindex": 5
 }
