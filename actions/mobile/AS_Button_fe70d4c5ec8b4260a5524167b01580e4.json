@@ -8,7 +8,7 @@
 				"type": "NAVIGATE_TO_FORM",
 				"formId": "frmMessageRead",
 				"formKUID": "058060801a6f4ca8b7e912a406f387d6",
-				"parentId": null,
+				"parentId": "",
 				"callbackType": null
 			}
 		]
