@@ -8,7 +8,6 @@ if (typeof(tuta) === "undefined") {
 
 tuta.util = {};
 
-
 tuta.util.STATES = {
   IDLE:0, 
   TRAWLING:1, 

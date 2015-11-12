@@ -1,13 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,8 +21,11 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s14a25f98db24fe48a2cf5086245dc89",
+    "_skin_": "s093572853d5478faf96675ef0de8531",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -34,14 +33,8 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "lblInputBG",
-        "txtMessage",
-        "btnSend"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -49,12 +42,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "50dp",
-    "id": "flexKeyboard",
+    "height": "100%",
+    "id": "flexBackground",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "cfd908f1450345f9973ab6b78ed1bcd3",
+    "kuid": "910ac2ee2b2346b5b34f6f97b2a797f2",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -76,15 +69,16 @@
     "percent": true,
     "pf": "frmMessageCompose",
     "render": true,
-    "skin": "s14a25f98db24fe48a2cf5086245dc89",
+    "skin": "s093572853d5478faf96675ef0de8531",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 10,
-    "zindex": 10
+    "zIndex": 1,
+    "zindex": 1
 }

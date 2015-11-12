@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -41,6 +41,11 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerHeight": "",
     "containerHeightMode": 1,
@@ -51,7 +56,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "25dp",
+    "height": "30dp",
     "id": "txtMessage",
     "info": null,
     "isVisible": true,
@@ -90,6 +95,6 @@
     "wType": "TextField",
     "widgetAlignment": 5,
     "width": "75%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 12,
+    "zindex": 12
 }
