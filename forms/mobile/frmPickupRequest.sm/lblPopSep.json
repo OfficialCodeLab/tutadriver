@@ -22,18 +22,23 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "190dp"
+        "value": "60%"
     },
     "_width_": {
         "type": "string",
-        "value": "180dp"
+        "value": "210dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "centerX": "50%",
+    "centerY": "60%",
     "centerx": {
         "type": "string",
         "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "60%"
     },
     "containerWeight": 100,
     "containerweight": 100,
@@ -76,10 +81,10 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "190dp",
+    "top": "60%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "180dp",
+    "width": "210dp",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

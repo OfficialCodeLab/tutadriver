@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "158dp"
     },
     "_left_": {
         "type": "string",
@@ -23,28 +23,28 @@
         0
     ],
     "_skin_": "s7be7c6d36a94ba29a399f0b71aae73b",
-    "_text_": "38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192",
+    "_text_": "<p>38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192</p>\n",
     "_top_": {
         "type": "string",
-        "value": "280dp"
+        "value": "273dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "75.00%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.35%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.35%"
     },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 2,
     "contentalignment": 2,
     "enabled": false,
-    "height": "80dp",
+    "height": "158dp",
     "id": "rtPickupLocation",
     "info": null,
     "isVisible": true,
@@ -68,13 +68,13 @@
     "pf": "frmPickupRequest",
     "render": true,
     "skin": "s7be7c6d36a94ba29a399f0b71aae73b",
-    "text": "38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192",
+    "text": "<p>38 Macbeth street Witkoppen, Fourways, Johannesburg, 2192</p>\n",
     "toolTip": "",
-    "top": "280dp",
+    "top": "273dp",
     "wType": "RichText",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "80%",
+    "width": "75.00%",
     "wrapping": 2,
     "zIndex": 5,
     "zindex": 5
