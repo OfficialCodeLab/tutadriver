@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sac38577a3dd4777be05781272522371",
-    "_text_": "DROP:",
+    "_text_": "DROP",
     "_top_": {
         "type": "string",
         "value": "35dp"
@@ -73,7 +73,7 @@
     "pf": "frmBooking",
     "render": true,
     "skin": "sac38577a3dd4777be05781272522371",
-    "text": "DROP:",
+    "text": "DROP",
     "toolTip": "",
     "tooltip": "",
     "top": "35dp",
