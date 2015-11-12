@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "310dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -21,45 +21,39 @@
         0,
         0
     ],
-    "_skin_": "s02c8dca74c44d2a90e3fe7989aee4ee",
+    "_render_": true,
+    "_skin_": "s4e1a2415c8e4aada226ed3e863d4d67",
     "_top_": {
         "type": "string",
-        "value": "65dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
-    "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "lblMessage"
+        "lblHeaderTitle",
+        "btnBack",
+        "imgBackArrow"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "decelerat": false,
-    "decelerating": false,
-    "dragg": false,
-    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "310dp",
-    "horizontalScrollIndicator": true,
-    "horizontalscrollindicator": true,
-    "id": "flexScrollMessages",
+    "height": "60dp",
+    "id": "flexHeaderBG",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c821237931354565af02d3ccd81b33b5",
+    "kuid": "f1d2bc0ae99b44438577608a28e46f14",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -69,7 +63,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexScrollContainer",
+    "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -77,28 +71,18 @@
         0,
         0
     ],
-    "pagingEnabled": false,
-    "pagingenabled": false,
-    "parent": "frmReadMessage",
+    "parent": "frmMessageRead",
     "percent": true,
-    "pf": "frmReadMessage",
+    "pf": "frmMessageRead",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
-    "skin": "s02c8dca74c44d2a90e3fe7989aee4ee",
+    "skin": "s4e1a2415c8e4aada226ed3e863d4d67",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "65dp",
-    "track": false,
-    "tracking": false,
-    "verticalScrollIndicator": true,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "top": "0dp",
+    "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "100%"
 }

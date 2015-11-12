@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_placeholder_": "",
+    "_skin_": "s850696bd90143f4a86bb6a550ddbb51",
+    "_text_": "This is a test message. Lorum Ipsom dolor sit amet.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autoCapitalize": "none",
+    "autoComplete": false,
+    "autoCorrect": false,
+    "autoFilter": false,
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closeButtonText": "",
+    "closebuttontext": "",
+    "containerHeight": "",
+    "containerHeightMode": 1,
+    "containerWeight": 100,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentAlignment": 1,
+    "contentalignment": 1,
+    "enabled": false,
+    "height": "100%",
+    "id": "txtMessageContent",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "keyBoardStyle": "A",
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "89c6fd1a3968436498af53612f9f7570",
+    "left": "0dp",
+    "margin": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberOfVisibleLines": 3,
+    "numberofvisiblelines": 3,
+    "padding": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "parent": "flexMessage3",
+    "pf": "frmMessageRead",
+    "placeholder": "",
+    "render": true,
+    "secureTextEntry": false,
+    "securetextentry": false,
+    "showProgressIndicator": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "skin": "s850696bd90143f4a86bb6a550ddbb51",
+    "text": "This is a test message. Lorum Ipsom dolor sit amet.",
+    "textInputMode": "A",
+    "textinputmode": "A",
+    "toolTip": "",
+    "top": "0dp",
+    "viewType": "default",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "widgetAlignment": 5,
+    "width": "100%"
+}

@@ -22,7 +22,7 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "flexHeader",
+        "flexHeaderBG",
         "flexScrollMessages"
     ],
     "containerWeight": 100,
@@ -41,7 +41,7 @@
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
-    "id": "frmReadMessage",
+    "id": "frmMessageRead",
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
@@ -57,8 +57,6 @@
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
-                "buttonClosureLeftSideView": "",
-                "buttonClosureRightSideView": "",
                 "buttonText": "Edit",
                 "leftButtonText": "Back",
                 "leftTitle": "Back",
@@ -76,7 +74,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "894d1f475f654e3f84ef665301b358aa",
+    "kuid": "058060801a6f4ca8b7e912a406f387d6",
     "layoutType": 2,
     "layouttype": 2,
     "margin": [
@@ -99,7 +97,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "GalaxyS4",
+    "prevDevice": "GalaxyS5",
     "prevPlatform": "android",
     "render": true,
     "retainScrollPosition": false,
@@ -123,7 +121,7 @@
         "needAppMenu": false
     },
     "title": null,
-    "titleBar": true,
+    "titleBar": false,
     "titleBarModel": {
         "DNDConfig": null,
         "_margin_": [
@@ -151,7 +149,7 @@
         "containerWeight": 0,
         "containerweight": 0,
         "enabled": false,
-        "id": "frmReadMessage_titleBar",
+        "id": "frmMessageRead_titleBar",
         "ide_buttonClosureLeftSideView": "",
         "ide_buttonClosureRightSideView": "",
         "ide_titleClosureLeftSideView": "",
@@ -205,7 +203,7 @@
         "widgetAlignment": 5
     },
     "titleBarSkin": "sa749b19390843459dd43d83142f6045",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "widgetAlignment": 5,

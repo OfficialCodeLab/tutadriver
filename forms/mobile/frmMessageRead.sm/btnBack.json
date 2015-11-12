@@ -38,17 +38,18 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s58f99628a8d4415a68efcd313a67399",
+    "focusskin": "s58f99628a8d4415a68efcd313a67399",
     "height": "50dp",
     "id": "btnBack",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "40e4f12959264626ac0e2f689e4b1cc5",
+    "kuid": "4176987d4dbc4b5889f5a9e4e242edd9",
     "left": "10dp",
     "margin": [
         6,
@@ -57,16 +58,16 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_f4b4b2e0d8f841cfa6da3d26ec156598",
-    "onclick": "AS_Button_f4b4b2e0d8f841cfa6da3d26ec156598",
+    "onClick": "AS_Button_137721b80ef44482883cc144c1f78321",
+    "onclick": "AS_Button_137721b80ef44482883cc144c1f78321",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexHeader",
-    "pf": "frmReadMessage",
+    "parent": "flexHeaderBG",
+    "pf": "frmMessageRead",
     "render": true,
     "skin": "s58f99628a8d4415a68efcd313a67399",
     "text": "",
@@ -75,5 +76,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "60dp"
+    "width": "60dp",
+    "zIndex": 20,
+    "zindex": 20
 }

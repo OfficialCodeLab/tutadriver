@@ -25,7 +25,7 @@
     "_text_": "Message Sender",
     "_top_": {
         "type": "string",
-        "value": "30%"
+        "value": "25%"
     },
     "_width_": {
         "type": "string",
@@ -82,7 +82,7 @@
     "text": "Message Sender",
     "toolTip": "",
     "tooltip": "",
-    "top": "30%",
+    "top": "25%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "45%",

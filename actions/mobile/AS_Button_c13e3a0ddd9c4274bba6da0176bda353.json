@@ -6,7 +6,6 @@
 			{
 				"id": "NAVIGATE_TO_FORM___7a3e30b25ca84217939d7c3e564b6189",
 				"type": "NAVIGATE_TO_FORM",
-				"formId": "frmReadMessage",
 				"formKUID": "894d1f475f654e3f84ef665301b358aa",
 				"parentId": "",
 				"callbackType": null
