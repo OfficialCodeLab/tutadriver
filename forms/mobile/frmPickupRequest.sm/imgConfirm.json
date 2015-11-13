@@ -52,7 +52,7 @@
         "channel": "mobile",
         "formID": "frmPickupRequest",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -91,6 +91,6 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "25dp",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 2,
+    "zindex": 2
 }

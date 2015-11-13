@@ -90,6 +90,6 @@
     "widgetAlignment": 5,
     "width": "135dp",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }

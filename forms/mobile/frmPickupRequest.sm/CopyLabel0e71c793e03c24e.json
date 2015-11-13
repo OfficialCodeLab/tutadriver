@@ -91,6 +91,6 @@
     "widgetAlignment": 5,
     "width": "1px",
     "wrapping": 2,
-    "zIndex": 5,
-    "zindex": 5
+    "zIndex": 1,
+    "zindex": 1
 }

@@ -34,10 +34,10 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50.35%",
+    "centerX": "50%",
     "centerx": {
         "type": "string",
-        "value": "50.35%"
+        "value": "50%"
     },
     "containerWeight": 100,
     "containerweight": 100,
@@ -76,6 +76,6 @@
     "widgetalignment": 5,
     "width": "75.00%",
     "wrapping": 2,
-    "zIndex": 5,
-    "zindex": 5
+    "zIndex": 1,
+    "zindex": 1
 }
