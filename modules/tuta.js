@@ -40,7 +40,13 @@ function init(){
   
   frm001LoginScreen.btnSignUp.onClick = function () {frm002SignupScreen.show();};
   frm001LoginScreen.btnLogin.onClick = function() {tuta.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); tuta.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
-  frm001LoginScreen.btnLogin2.onClick = function() {frm003CheckBox.show();};
+  frm001LoginScreen.btnLogin2.onClick = function() {frm003CheckBox.show();};  
+  frm002SignupScreen.btnCheckAgree.onClick = function (){
+    if(frm002SignupScreen.imgTick.isVisible === false)
+      frm002SignupScreen.imgTick.setVisibility(true);
+    else
+      frm002SignupScreen.imgTick.setVisibility(false);
+        };
   
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
