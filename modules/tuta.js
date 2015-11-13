@@ -1,6 +1,8 @@
 var currentLocation = "";
-var star = [];
 
+//Code for handling stars in rating menu
+//Created by Courtney
+var star = [];
 var lastStarSelected = 0;
 function onStarSelect(eventobject, x , y) {
   var nostar = eventobject.id.replace("imgStar","");
@@ -19,6 +21,7 @@ function onStarSelect(eventobject, x , y) {
     star[j].src = "starunselected.png";
   }
 }
+//End of rating menu code
 
 function init(){
 
