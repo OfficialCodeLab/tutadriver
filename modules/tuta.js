@@ -58,6 +58,17 @@ function init(){
   frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
   frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
   
+  //Message List
+  frmMessageMain.btnComposeMessage.onClick = function () {frmMessageCompose.show();};
+  frmMessageMain.btnBack.onClick = function () {frm004Home.show();};
+  
+  //Read message
+  frmMessageRead.btnBack.onClick = function () {frmMessageMain.show();};
+  
+  //Booking individual
+  frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
+  frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
+  
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
