@@ -57,7 +57,10 @@ function init(){
   frmLogIssue.btnBack.onClick = function () {frm004Home.show();};
   frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
   frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
-  
+  frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
+  frmTripHistoryInfo.btnHelp.onClick = function() {frmLogIssue.show();};
+  frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
+  frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
@@ -67,6 +70,10 @@ function init(){
   frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
   frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
   frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
+  frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
+  frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
+  frmBooking.btnBack.onClick = function() {frmBookingsMain.show();};
+  frmBooking.btnHelp.onClick = function() {frmLogIssue.show();};
   frmMessageCompose.btnSend.onClick = function (){
     frmMessageCompose.txtMessage.text = "";
     frmMessageCompose.txtSendTo.text = "";

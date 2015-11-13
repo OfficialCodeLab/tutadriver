@@ -345,9 +345,9 @@
     "_orientation_": 2,
     "_padding_": [
         0,
-        1,
+        40,
         0,
-        5
+        0
     ],
     "_rowTemplateId": "bookingTemp",
     "_top_": {
@@ -742,14 +742,12 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
-    "onRowClick": "AS_Segment_11a2835bb1b64d46a0828a8104f710dc",
-    "onrowclick": "AS_Segment_11a2835bb1b64d46a0828a8104f710dc",
     "orientation": 2,
     "padding": [
         0,
-        1,
+        40,
         0,
-        5
+        0
     ],
     "paddingInPixel": false,
     "paddinginpixel": false,

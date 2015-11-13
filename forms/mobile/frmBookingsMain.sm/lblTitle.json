@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "sd7e97fee7ee44f387b8ea8342279907",
-    "_text_": "YOUR BOOKINGS",
+    "_text_": "BOOKINGS",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -78,7 +78,7 @@
     "pf": "frmBookingsMain",
     "render": true,
     "skin": "sd7e97fee7ee44f387b8ea8342279907",
-    "text": "YOUR BOOKINGS",
+    "text": "BOOKINGS",
     "toolTip": "",
     "tooltip": "",
     "vizProps": {
