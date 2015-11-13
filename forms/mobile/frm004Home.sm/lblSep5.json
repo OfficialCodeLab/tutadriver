@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_margin_": [
         1,
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "2dp",
+    "height": "1dp",
     "id": "lblSep5",
     "info": null,
     "ipad": {
@@ -54,8 +54,8 @@
             "wrapping": 2
         }
     },
-    "isVisible": false,
-    "isvisible": false,
+    "isVisible": true,
+    "isvisible": true,
     "kuid": "c003c2c5d29a45b38508420fb3b81777",
     "margin": [
         1,

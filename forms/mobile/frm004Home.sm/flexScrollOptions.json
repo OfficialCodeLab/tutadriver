@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "60dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -35,7 +35,7 @@
     "allowVerticalBounce": false,
     "allowhorizontalbounce": false,
     "allowverticalbounce": false,
-    "bottom": "60dp",
+    "bottom": "80dp",
     "bounces": false,
     "canUpdateUI": true,
     "children": [
