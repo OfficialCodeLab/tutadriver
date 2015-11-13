@@ -1,0 +1,22 @@
+{
+  "background_color": "b5b5b6ff",
+  "bg_type": "one",
+  "border_color": "979797ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "font_color": "000000ff",
+  "font_name": "Helvetica",
+  "font_size": 118,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "isForked": true
+  },
+  "iphone": {
+    "isForked": true
+  },
+  "isDefaultSkin": true,
+  "kuid": "s15eb1bb3063408a8c93f9f18d888798",
+  "wType": "Slider"
+}

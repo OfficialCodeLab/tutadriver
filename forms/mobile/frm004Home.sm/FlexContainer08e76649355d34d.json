@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -46,7 +46,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
+    "height": "80dp",
     "id": "FlexContainer08e76649355d34d",
     "info": null,
     "isVisible": true,

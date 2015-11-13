@@ -3,6 +3,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -29,6 +30,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -62,6 +64,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -84,6 +87,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -107,6 +111,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "wType": "Button"
   },
@@ -121,6 +126,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -155,6 +161,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -189,6 +196,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -223,6 +231,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -257,6 +266,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -291,6 +301,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -325,6 +336,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "shadow": {
       "br": 0,
@@ -353,6 +365,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -368,6 +381,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "wType": "Button"
   },
@@ -375,6 +389,7 @@
     "background_color": "23232300",
     "bg_type": "one",
     "font_color": "3d3d3dff",
+    "font_size": 130,
     "isForked": true,
     "wType": "Button"
   }

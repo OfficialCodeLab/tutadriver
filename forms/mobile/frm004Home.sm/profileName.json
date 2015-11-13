@@ -25,7 +25,7 @@
     "_text_": "Matthew Anderson",
     "_width_": {
         "type": "string",
-        "value": "145dp"
+        "value": "80%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -80,7 +80,7 @@
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "145dp",
+    "width": "80%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

@@ -45,7 +45,7 @@ function init(){
   
   frm001LoginScreen.btnSignUp.onClick = function () {frm002SignupScreen.show();};
   frm001LoginScreen.btnLogin.onClick = function() {tuta.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); tuta.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
-  frm001LoginScreen.btnLogin2.onClick = function() {frm003CheckBox.show();};  
+  frm001LoginScreen.btnLogin2.onClick = function () {frm003CheckBox.show();};  
   frm002SignupScreen.btnCheckAgree.onClick = function (){
     if(frm002SignupScreen.imgTick.isVisible === false)
       frm002SignupScreen.imgTick.setVisibility(true);
@@ -64,10 +64,17 @@ function init(){
   //Message List
   frmMessageMain.btnComposeMessage.onClick = function () {frmMessageCompose.show();};
   frmMessageMain.btnBack.onClick = function () {frm004Home.show();};
+	frmMessageCompose.btnSend.onClick = function (){
+	frmMessageCompose.txtMessage.text = "";
+	frmMessageCompose.txtSendTo.text = "";
+	frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
+  };
+  frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
   
   //Read message
   frmMessageRead.btnBack.onClick = function () {frmMessageMain.show();};
   
+
   //Booking individual
   frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
   frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
@@ -75,31 +82,40 @@ function init(){
   //About Tuta
   frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
   
-
+  frm004Home.btnDebugOptions.onClick = function() {
+    animateMenu(); 
+    tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "10%", null); 
+    kony.timer.schedule("darken_screen", function() {
+      frm004Home.flexDarken.setVisibility(true);}, 0.31, false); 
+  };
+  
+  frm004Home.btnCloseDebugOptions.onClick = function() {
+  frm004Home.flexDarken.setVisibility(false);
+    tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "-160%", null); 
+    
+  };
+  
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
   frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
-  frm004Home.btnLegal.onClick = function (){frmTermsConditions.show();};
-  frmTermsConditions.btnBack.onClick = function (){frm004Home.show();};
-  frm004Home.btnFlagDown.onClick = function () { frmFlagDown.show();};
+  frm004Home.btnLegal.onClick = function () {frmTermsConditions.show();};
+  frmTermsConditions.btnBack.onClick = function () {frm004Home.show();};
+  frm004Home.btnFlagDown.onClick = function () {frmFlagDown.show();};
+  frm004Home.btnTestingPickup.onClick = function () {frmPickupRequest.show();};
+
+  frmFlagDown.btnStartTrip.onClick = function () {flagDownRequest();};
   frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
-  frmFlagDown.btnStartTrip.onClick = function () {frm004Home.show();};
+
   frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
   frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
-  frmBooking.btnBack.onClick = function() {frmBookingsMain.show();};
-  frmBooking.btnHelp.onClick = function() {frmLogIssue.show();};
-  frmMessageCompose.btnSend.onClick = function (){
-    frmMessageCompose.txtMessage.text = "";
-    frmMessageCompose.txtSendTo.text = "";
-    frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
-  };
-  frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
-  frm004Home.btnDemo.onClick = function (){
-    //frm004Home.btnDemo.setVisibility(false); 
-    //frm004Home["flexDemoShadow"]["isVisible"] = false;
-    frmPickupRequest.show();
-  };
+
+
+
+
+
+
+  frm004Home.btnDemo.onClick = function () {frmPickupRequest.show();};
   
   //Button code for Checklist Form
   //Created by Carl
@@ -124,11 +140,39 @@ function init(){
   frmPickupRequest.btnRightDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
   frmPickupRequest.btnCancel.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
   
+  frm004Home.btnPickupReqCheck.onClick = function(){
+    if(frm004Home.imgPickReqCheck.isVisible === true){
+      frm004Home.imgPickReqCheck.setVisibility(false)
+    }
+    else{
+      frm004Home.imgPickReqCheck.setVisibility(true)
+    }
+  };
+  
+  frm004Home.btnFloatingConsoleCheck.onClick = function(){
+    if(frm004Home.imgFloatingConsoleCheck.isVisible === true){
+      frm004Home.imgFloatingConsoleCheck.setVisibility(false)
+    }
+    else{
+      frm004Home.imgFloatingConsoleCheck.setVisibility(true)
+    }
+  };
+  
+  frm004Home.btnTaxiActivateCheck.onClick = function(){
+    if(frm004Home.imgTaxiActivateCheck.isVisible === true){
+      frm004Home.imgTaxiActivateCheck.setVisibility(false)
+    }
+    else{
+      frm004Home.imgTaxiActivateCheck.setVisibility(true)
+    }
+  };
+  
   
   frmPickupRequest.btnDecline.onClick = function() {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
   frmPickupRequest.btnAcceptRequest.onClick = function() {
     //TODO: START TRIP
-    frm004Home.show();
+    pickupRequest();
+    //frm004Home.show();
   };
   
   frmPickupRequest.btnConfirm.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false; frm004Home.show();}
@@ -282,6 +326,24 @@ function setUpSwipes(){
       }
     });
 }
+
+function flagDownRequest (){
+  var oldState = driver_state;
+  tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
+  
+  if(oldState !== driver_state)
+    tuta.mobile.alert("STATE CHANGE", "" + driver_state);
+}
+
+function pickupRequest (){
+  var oldState = driver_state;
+  tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
+  
+  
+  if(oldState !== driver_state)
+    tuta.mobile.alert("STATE CHANGE", "" + driver_state);
+}
+
 
 function updateMap() {
   frm004Home.mapMain.zoomLevel = 15;
