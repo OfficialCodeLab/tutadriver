@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "65dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -22,7 +22,7 @@
         0
     ],
     "_render_": true,
-    "_skin_": "s993f50c5c394ae1bc27c6cc06f93f69",
+    "_skin_": "s4e1a2415c8e4aada226ed3e863d4d67",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -37,9 +37,9 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
+        "lblHeaderTitle",
         "btnBack",
-        "imgBackArrow",
-        "lblSenderTitle"
+        "imgBackArrow"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -48,12 +48,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "65dp",
-    "id": "flexHeader",
+    "height": "60dp",
+    "id": "flexHeaderBG",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "4a7ad4b5ce974341b9a2cab4d91c2762",
+    "kuid": "f1d2bc0ae99b44438577608a28e46f14",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -71,11 +71,11 @@
         0,
         0
     ],
-    "parent": "frmReadMessage",
+    "parent": "frmMessageRead",
     "percent": true,
-    "pf": "frmReadMessage",
+    "pf": "frmMessageRead",
     "render": true,
-    "skin": "s993f50c5c394ae1bc27c6cc06f93f69",
+    "skin": "s4e1a2415c8e4aada226ed3e863d4d67",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

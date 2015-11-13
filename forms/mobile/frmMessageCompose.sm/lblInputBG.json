@@ -81,5 +81,7 @@
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100%",
-    "wrapping": 2
+    "wrapping": 2,
+    "zIndex": 11,
+    "zindex": 11
 }

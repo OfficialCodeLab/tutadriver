@@ -1,36 +1,37 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2
     ],
     "_padding_": [
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2
     ],
     "_placeholder_": "",
-    "_skin_": "s7a4aae7c36749919017eb6a78592fc6",
-    "_text_": "",
+    "_skin_": "s850696bd90143f4a86bb6a550ddbb51",
+    "_text_": "This is a test message. Lorum Ipsom dolor sit amet.",
     "_top_": {
         "type": "string",
-        "value": "12dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "75%"
+        "value": "100%"
     },
     "autoCapitalize": "none",
     "autoComplete": false,
@@ -41,60 +42,61 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "channel": "mobile",
+    "closeButtonText": "",
+    "closebuttontext": "",
     "containerHeight": "",
     "containerHeightMode": 1,
     "containerWeight": 100,
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 1,
+    "contentalignment": 1,
     "enabled": false,
-    "height": "30dp",
-    "id": "txtMessage",
+    "height": "100%",
+    "id": "txtMessageContent",
     "info": null,
     "isVisible": true,
     "isvisible": true,
+    "keyBoardStyle": "A",
+    "keyboardstyle": "A",
     "keyboardtype": "A",
-    "kuid": "43567aef6b664aeab7a93380e4c67057",
-    "left": "10dp",
+    "kuid": "89c6fd1a3968436498af53612f9f7570",
+    "left": "0dp",
     "margin": [
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2
     ],
     "mode": "A",
-    "name": "kony.ui.TextBox2",
+    "name": "kony.ui.TextArea2",
+    "numberOfVisibleLines": 3,
+    "numberofvisiblelines": 3,
     "padding": [
-        0,
-        0,
-        0,
-        0
+        2,
+        2,
+        2,
+        2
     ],
-    "parent": "flexKeyboard",
-    "pf": "frmMessageCompose",
+    "parent": "flexMessage3",
+    "pf": "frmMessageRead",
     "placeholder": "",
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
-    "skin": "s7a4aae7c36749919017eb6a78592fc6",
-    "text": "",
+    "showProgressIndicator": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "skin": "s850696bd90143f4a86bb6a550ddbb51",
+    "text": "This is a test message. Lorum Ipsom dolor sit amet.",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
-    "top": "12dp",
+    "top": "0dp",
     "viewType": "default",
     "viewtype": "default",
-    "wType": "TextField",
+    "wType": "TextArea",
     "widgetAlignment": 5,
-    "width": "75%",
-    "zIndex": 12,
-    "zindex": 12
+    "width": "100%"
 }

@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "120dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -25,22 +21,21 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "s14a25f98db24fe48a2cf5086245dc89",
-    "_width_": {
+    "_right_": {
+        "type": "number",
+        "value": "20"
+    },
+    "_skin_": "sd001887591048fba52c9d88020359e3",
+    "_top_": {
         "type": "string",
-        "value": "100%"
+        "value": "18dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
     "children": [
-        "lblInputBG",
-        "txtMessage",
-        "btnSend"
+        "txtMessageContent"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -49,15 +44,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "50dp",
-    "id": "flexKeyboard",
+    "height": "120dp",
+    "id": "flexMessage3",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "cfd908f1450345f9973ab6b78ed1bcd3",
+    "kuid": "d260185a5d6146d4961d239c9dd448a6",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "20dp",
     "margin": [
         0,
         0,
@@ -72,19 +67,20 @@
         0,
         0
     ],
-    "parent": "frmMessageCompose",
+    "parent": "flexScrollMessages",
     "percent": true,
-    "pf": "frmMessageCompose",
+    "pf": "frmMessageRead",
     "render": true,
-    "skin": "s14a25f98db24fe48a2cf5086245dc89",
+    "right": 20,
+    "skin": "sd001887591048fba52c9d88020359e3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "top": "18dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 10,
-    "zindex": 10
+    "zIndex": 1,
+    "zindex": 1
 }

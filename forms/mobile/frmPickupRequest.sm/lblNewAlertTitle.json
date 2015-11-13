@@ -25,7 +25,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "72.05%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -83,7 +83,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "60%",
+    "width": "72.05%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1

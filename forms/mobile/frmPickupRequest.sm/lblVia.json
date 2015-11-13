@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "30dp"
     },
     "_margin_": [
         1,
@@ -21,18 +21,18 @@
     "_text_": "VIA:",
     "_top_": {
         "type": "string",
-        "value": "378dp"
+        "value": "367dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.00%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "channel": "mobile",
     "containerWeight": 100,
@@ -40,7 +40,7 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "20dp",
+    "height": "30dp",
     "id": "lblVia",
     "info": null,
     "ipad": {
@@ -77,10 +77,10 @@
     "text": "VIA:",
     "toolTip": "",
     "tooltip": "",
-    "top": "378dp",
+    "top": "367dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "50dp",
+    "width": "60dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

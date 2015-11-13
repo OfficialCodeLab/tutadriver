@@ -34,15 +34,15 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerY": "50%",
+    "centerX": "50.00%",
+    "centerY": "50.00%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "children": [
         "lblConfirmDeclineMessage",
