@@ -763,8 +763,6 @@
     "name": "kony.ui.SegmentedUI2",
     "needPageIndicator": true,
     "needpageindicator": true,
-    "onRowClick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
-    "onrowclick": "AS_Segment_b719060c3be8407b91c34e5207d41421",
     "orientation": 2,
     "padding": [
         0,
