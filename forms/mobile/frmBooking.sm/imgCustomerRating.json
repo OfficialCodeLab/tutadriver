@@ -31,7 +31,7 @@
     "_src_": "customerratinng.png",
     "_width_": {
         "type": "string",
-        "value": "65dp"
+        "value": "55dp"
     },
     "base64": null,
     "bottom": "5dp",
@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frmBooking",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -80,7 +80,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "65dp",
+    "width": "55dp",
     "zIndex": 2,
     "zindex": 2
 }

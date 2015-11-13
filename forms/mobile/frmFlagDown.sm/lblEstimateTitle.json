@@ -25,7 +25,7 @@
     "_text_": "Estimated trip cost:",
     "_top_": {
         "type": "string",
-        "value": "330dp"
+        "value": "320dp"
     },
     "_width_": {
         "type": "string",
@@ -82,7 +82,7 @@
     "text": "Estimated trip cost:",
     "toolTip": "",
     "tooltip": "",
-    "top": "330dp",
+    "top": "320dp",
     "vizProps": {
         "lock": true
     },

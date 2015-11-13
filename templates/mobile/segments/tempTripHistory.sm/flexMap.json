@@ -28,7 +28,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100.04%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -82,5 +82,5 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100.04%"
+    "width": "100%"
 }

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "backarrow.png",
+    "_src_": "csbackarrow.png",
     "_top_": {
         "type": "string",
         "value": "15dp"
@@ -34,6 +34,16 @@
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -41,7 +51,7 @@
         "channel": "mobile",
         "formID": "frmTripHistory",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -54,7 +64,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "b016dd0790274cb1b043ed101c7f1b47",
+    "kuid": "5cf8ce8007e54c75a7e2f292af154f1e",
     "left": "15dp",
     "margin": [
         0,
@@ -69,11 +79,11 @@
         0,
         0
     ],
-    "parent": "flexTripHeader",
+    "parent": "flexBackButton",
     "pf": "frmTripHistory",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "backarrow.png",
+    "src": "csbackarrow.png",
     "srcType": 1,
     "top": "15dp",
     "vizProps": {

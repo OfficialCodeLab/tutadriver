@@ -110,6 +110,9 @@
     "screenLevelWidget": false,
     "screenlevelwidget": false,
     "top": "0dp",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Map",
     "widgetAlignment": 5,
     "width": "100%",

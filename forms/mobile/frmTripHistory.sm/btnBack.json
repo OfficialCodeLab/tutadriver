@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -29,12 +29,22 @@
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "android": {
         "pressedSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764"
     },
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
@@ -45,12 +55,12 @@
     "enabled": false,
     "focusSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "focusskin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
-    "height": "55dp",
+    "height": "60dp",
     "id": "btnBack",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "eb1708de64ec4c508b6aba540ba8844b",
+    "kuid": "bf082b2bdd104bf296e42ccd964a113d",
     "left": "10dp",
     "margin": [
         6,
@@ -59,15 +69,15 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_f28e5c00e84b40ec9e29e140c0aa4953",
-    "onclick": "AS_Button_f28e5c00e84b40ec9e29e140c0aa4953",
+    "onClick": "AS_Button_4db21a41bbbe4fa0b9e23777b8840f01",
+    "onclick": "AS_Button_4db21a41bbbe4fa0b9e23777b8840f01",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexTripHeader",
+    "parent": "flexBackButton",
     "pf": "frmTripHistory",
     "render": true,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
@@ -75,7 +85,7 @@
     "top": "10dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "55dp",
+    "width": "60dp",
     "zIndex": 20,
     "zindex": 20
 }

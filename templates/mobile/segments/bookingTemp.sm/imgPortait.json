@@ -4,16 +4,16 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "-10dp"
     },
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "95dp"
     },
     "_left_": {
         "type": "string",
-        "value": "-6dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -29,37 +29,33 @@
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "profilepicbooking.png",
-    "_top_": {
-        "type": "string",
-        "value": "-6dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "90dp"
     },
     "base64": null,
-    "bottom": 0,
+    "bottom": "-10dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "segments",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "100dp",
+    "height": "95dp",
     "id": "imgPortait",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "imageScaleMode": 2,
+    "imagescalemode": 2,
     "info": null,
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
     "kuid": "f187499a87ee4c0a904efbc6158e31f8",
-    "left": "-6dp",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -79,12 +75,11 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "profilepicbooking.png",
     "srcType": 1,
-    "top": "-6dp",
     "vizProps": {
-        "lock": true
+        "lock": false
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100dp"
+    "width": "90dp"
 }

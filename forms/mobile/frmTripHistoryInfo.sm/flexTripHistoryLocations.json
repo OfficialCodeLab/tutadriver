@@ -41,8 +41,6 @@
     "canUpdateUI": true,
     "children": [
         "CopyimgPickUp0fbecab50215f44",
-        "CopylblPickUp015fff79424064d",
-        "CopylblDropOff0c9228c194d6a48",
         "CopyimgDropOff04256fa3e2c8349",
         "CopylblUpOffLine04b3d4459790c48",
         "CopylblPickUpLocation0000bafb9537149",

@@ -5,7 +5,7 @@
     "_base64_": null,
     "_bottom_": {
         "type": "string",
-        "value": "80dp"
+        "value": "60dp"
     },
     "_height_": {
         "type": "string",
@@ -13,7 +13,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -34,7 +34,7 @@
         "value": "140dp"
     },
     "base64": null,
-    "bottom": "80dp",
+    "bottom": "60dp",
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
@@ -42,7 +42,7 @@
         "channel": "mobile",
         "formID": "frmTripHistoryInfo",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -56,7 +56,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "5d9d6ae6f7b24a6e970d17c6c3ce6693",
-    "left": "5dp",
+    "left": "10dp",
     "margin": [
         0,
         0,

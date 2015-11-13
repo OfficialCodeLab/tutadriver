@@ -21,11 +21,11 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "190dp"
+        "value": "200dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "85%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -77,12 +77,12 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "190dp",
+    "top": "200dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "90%",
+    "width": "85%",
     "wrapping": 2
 }

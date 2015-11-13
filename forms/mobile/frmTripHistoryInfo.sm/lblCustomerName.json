@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "20dp"
+        "value": "5dp"
     },
     "_height_": {
         "type": "string",
@@ -33,7 +33,7 @@
         "value": "60dp"
     },
     "_wrapping_": 2,
-    "bottom": "20dp",
+    "bottom": "5dp",
     "canUpdateUI": true,
     "centerX": "77dp",
     "centerx": {

@@ -21,7 +21,7 @@
     "_text_": "Please enter customer details:",
     "_top_": {
         "type": "string",
-        "value": "150dp"
+        "value": "165dp"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "Please enter customer details:",
     "toolTip": "",
     "tooltip": "",
-    "top": "150dp",
+    "top": "165dp",
     "vizProps": {
         "lock": true
     },

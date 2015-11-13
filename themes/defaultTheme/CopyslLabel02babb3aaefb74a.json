@@ -13,9 +13,9 @@
   },
   "font_color": "424242ff",
   "font_name": "",
-  "font_size": 215,
+  "font_size": 180,
   "font_style": "normal",
-  "font_weight": "bold",
+  "font_weight": "normal",
   "ipad": {
     "font_name": "Helvetica"
   },

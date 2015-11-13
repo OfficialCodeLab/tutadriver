@@ -38,10 +38,9 @@
     "channel": "mobile",
     "children": [
         "lblHeaderTextTrip",
-        "btnBack",
-        "imgBackArrow",
         "imgHeadBG",
-        "imgCar"
+        "imgCar",
+        "flexBackButton"
     ],
     "clipBounds": true,
     "clipbounds": true,

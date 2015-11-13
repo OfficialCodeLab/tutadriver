@@ -24,21 +24,21 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "80dp"
+        "value": "70dp"
     },
     "_skin_": "s9e4a459f05c4401a9faa49047336014",
-    "_text_": "CUSTOMER RATING:",
+    "_text_": "CUSTOMER RATING",
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "125dp"
     },
     "_wrapping_": 2,
     "bottom": "5dp",
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 6,
+    "contentalignment": 6,
     "enabled": false,
     "height": "25dp",
     "id": "lblCustomerRating",
@@ -72,9 +72,9 @@
     "parent": "flexCustomer",
     "pf": "frmBooking",
     "render": true,
-    "right": "80dp",
+    "right": "70dp",
     "skin": "s9e4a459f05c4401a9faa49047336014",
-    "text": "CUSTOMER RATING:",
+    "text": "CUSTOMER RATING",
     "toolTip": "",
     "tooltip": "",
     "vizProps": {
@@ -82,7 +82,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "100dp",
+    "width": "125dp",
     "wrapping": 2,
     "zIndex": 2,
     "zindex": 2

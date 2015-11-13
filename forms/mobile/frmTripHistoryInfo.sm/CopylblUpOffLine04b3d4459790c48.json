@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "68dp"
+        "value": "15dp"
     },
     "_margin_": [
         1,
@@ -26,7 +26,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "11dp"
+        "value": "12dp"
     },
     "_width_": {
         "type": "string",
@@ -34,6 +34,11 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerX": "10dp",
+    "centerx": {
+        "type": "string",
+        "value": "10dp"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
@@ -55,7 +60,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "8d8efa692c40466ab351b9649e2e1c23",
-    "left": "68dp",
+    "left": "15dp",
     "margin": [
         1,
         1,
@@ -76,7 +81,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "11dp",
+    "top": "12dp",
     "vizProps": {
         "lock": true
     },
@@ -84,6 +89,6 @@
     "widgetAlignment": 5,
     "width": "2dp",
     "wrapping": 2,
-    "zIndex": 5,
-    "zindex": 5
+    "zIndex": 1,
+    "zindex": 1
 }

@@ -22,7 +22,7 @@
     "_text_": "R250 - R275",
     "_top_": {
         "type": "string",
-        "value": "368dp"
+        "value": "360dp"
     },
     "_width_": {
         "type": "ref",
@@ -79,7 +79,7 @@
     "text": "R250 - R275",
     "toolTip": "",
     "tooltip": "",
-    "top": "368dp",
+    "top": "360dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": {
