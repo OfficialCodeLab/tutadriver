@@ -4,6 +4,8 @@ var currentLocation = "";
 //Created by Courtney
 var star = [];
 var lastStarSelected = 0;
+var toggleImage;
+
 function onStarSelect(eventobject, x , y) {
   var nostar = eventobject.id.replace("imgStar","");
   if(nostar === lastStarSelected && nostar > 1)
@@ -78,6 +80,23 @@ function init(){
     //frm004Home["flexDemoShadow"]["isVisible"] = false;
     frmPickupRequest.show();
   };
+  
+  //Button code for Checklist Form
+  //Created by Carl
+  
+
+  frm003CheckBox.btnContinue.onClick = function(){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
+  
+  frm003CheckBox.btnCheck1.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
+  frm003CheckBox.btnCheck2.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
+  frm003CheckBox.btnCheck3.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick3);};
+  frm003CheckBox.btnCheck4.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick4);};
+  frm003CheckBox.btnCheck5.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
+  
+  frm003CheckBox.btnConfirmCNum.onClick = function(){frm004Home.show();};
+  
+  
+  //End of checklist form button code
   
   frmPickupRequest.btnTopDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
   frmPickupRequest.btnBottomDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
@@ -265,6 +284,19 @@ function updateMap() {
 
   frm004Home.mapMain.locationData = locationData;
 }
+
+
+  function frm003CheckboxToggle(widget){
+    //var widget = toggleImage;
+    if (widget.isVisible === false)
+    {
+      widget["isVisible"] = true;
+    }
+    else{
+      widget["isVisible"] = false;
+    }
+  }
+
 
 var menuOpen = false;
 function animateMenu(){
