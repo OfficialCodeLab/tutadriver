@@ -69,6 +69,9 @@ function init(){
   frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
   frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
   
+  //About Tuta
+  frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
+  
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
