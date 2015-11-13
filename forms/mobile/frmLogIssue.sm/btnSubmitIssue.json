@@ -60,8 +60,6 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
-    "onclick": "AS_Button_65f0d0974a014e81bfccbc76d1eb56de",
     "padding": [
         0,
         0,
@@ -78,6 +76,6 @@
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "47%",
-    "zIndex": 20,
-    "zindex": 20
+    "zIndex": 5,
+    "zindex": 5
 }

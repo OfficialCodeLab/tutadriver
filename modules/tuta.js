@@ -50,6 +50,13 @@ function init(){
     else
       frm002SignupScreen.imgTick.setVisibility(false);
         };
+  //Compose Messages
+  frmMessageCompose.btnCancel.onClick = function () {frmMessageMain.show();};
+  
+  //Help/log issue
+  frmLogIssue.btnBack.onClick = function () {frm004Home.show();};
+  frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
+  frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
   
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
