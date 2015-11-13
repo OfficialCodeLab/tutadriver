@@ -360,7 +360,7 @@
     "_orientation_": 2,
     "_padding_": [
         0,
-        4,
+        0,
         0,
         0
     ],
@@ -766,7 +766,7 @@
     "orientation": 2,
     "padding": [
         0,
-        4,
+        0,
         0,
         0
     ],
@@ -811,10 +811,10 @@
     "selectionbehaviorconfig": {},
     "separatorColor": "64646400",
     "separatorRequired": true,
-    "separatorThickness": 1,
+    "separatorThickness": 0,
     "separatorcolor": "64646400",
     "separatorrequired": true,
-    "separatorthickness": 1,
+    "separatorthickness": 0,
     "showScrollbars": false,
     "showscrollbars": false,
     "top": "0dp",

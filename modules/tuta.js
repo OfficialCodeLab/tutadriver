@@ -109,9 +109,11 @@ function init(){
 
   frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
   frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
-
-
-
+  frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
+  frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
+  frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
+  frmTripHistoryInfo.btnHelp.onClick = function() {frmLogIssue.show();};
+  
 
 
 
