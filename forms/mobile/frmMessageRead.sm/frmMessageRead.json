@@ -155,11 +155,6 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
-        "iphone": {
-            "psp": {
-                "visible": false
-            }
-        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",

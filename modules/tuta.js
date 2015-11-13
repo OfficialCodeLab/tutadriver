@@ -59,10 +59,23 @@ function init(){
   frmLogIssue.btnBack.onClick = function () {frm004Home.show();};
   frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
   frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
-  frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
-  frmTripHistoryInfo.btnHelp.onClick = function() {frmLogIssue.show();};
-  frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
-  frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
+
+  
+  //Message List
+  frmMessageMain.btnComposeMessage.onClick = function () {frmMessageCompose.show();};
+  frmMessageMain.btnBack.onClick = function () {frm004Home.show();};
+  
+  //Read message
+  frmMessageRead.btnBack.onClick = function () {frmMessageMain.show();};
+  
+  //Booking individual
+  frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
+  frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
+  
+  //About Tuta
+  frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
+  
+
   frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
   frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
