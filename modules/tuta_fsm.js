@@ -23,10 +23,11 @@ tuta.fsm.REQUESTS = {
   DROP_OFF:2, 
   VIA:3, 
   CONTINUE:4,
-  ACTIVE:5
+  ACTIVE:5,
+  BREAK:6
 };
 
-driver_state = tuta.fsm.STATES.TRAWLING;
+driver_state = tuta.fsm.STATES.IDLE;
 
 // Request a state change by sending a request
 tuta.fsm.stateChange = function (request){
@@ -58,7 +59,11 @@ tuta.fsm.stateChange = function (request){
 
       case tuta.fsm.REQUESTS.FLAG_DOWN:
         driver_state = tuta.fsm.STATES.IDLE;
-        break;        
+        break;  
+
+      case tuta.fsm.REQUESTS.BREAK:
+        driver_state = tuta.fsm.STATES.IDLE;
+        break;
     }
   }	
   else{
