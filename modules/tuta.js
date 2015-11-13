@@ -109,6 +109,7 @@ function init(){
 
   frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
   frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
+
   frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
   frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
   frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
@@ -117,11 +118,46 @@ function init(){
 
 
 
+	frm004Home.btnToggleActive.onClick = function(){
+      if(driver_state === tuta.fsm.STATES.TRAWLING)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+        frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      }
+      else if(driver_state === tuta.fsm.STATES.IDLE)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "0", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
+        frm004Home.imgSwitchBg.src = "switchbgon.png";
+      }
+    }
+
+
+
+
   frm004Home.btnDemo.onClick = function () {frmPickupRequest.show();};
   
   //Button code for Checklist Form
   //Created by Carl
-  
+  frm004Home.postShow = function (){
+    if(driver_state === tuta.fsm.STATES.TRAWLING)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "0", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
+        frm004Home.imgSwitchBg.src = "switchbgon.png";
+      }
+      else if(driver_state === tuta.fsm.STATES.IDLE)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+        frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      }
+    else
+      {
+        frm004Home.flexActive.setVisibility(false);
+      }
+  };
 
   frm003CheckBox.btnContinue.onClick = function(){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
   
@@ -162,10 +198,12 @@ function init(){
   
   frm004Home.btnTaxiActivateCheck.onClick = function(){
     if(frm004Home.imgTaxiActivateCheck.isVisible === true){
-      frm004Home.imgTaxiActivateCheck.setVisibility(false)
+      frm004Home.imgTaxiActivateCheck.setVisibility(false);
+      frm004Home.flexActive.setVisibility(false);
     }
     else{
-      frm004Home.imgTaxiActivateCheck.setVisibility(true)
+      frm004Home.imgTaxiActivateCheck.setVisibility(true);
+      frm004Home.flexActive.setVisibility(true);
     }
   };
   

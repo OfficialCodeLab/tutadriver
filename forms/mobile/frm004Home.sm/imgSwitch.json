@@ -1,10 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "27dp"
+        "value": "32dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "38"
     },
     "_margin_": [
         0,
@@ -18,24 +23,19 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "burgericon.png",
+    "_src_": "switchhandle.png",
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "32dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
+    "centerY": "55%",
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "55%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -47,15 +47,21 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "27dp",
-    "id": "imgBurgerClose",
-    "imageScaleMode": 0,
-    "imagescalemode": 0,
+    "height": "32dp",
+    "id": "imgSwitch",
+    "imageScaleMode": 1,
+    "imageWhenFailed": "switchhandle.png",
+    "imageWhileDownloading": "switchhandle.png",
+    "imagescalemode": 1,
+    "imagewhenfailed": "switchhandle.png",
+    "imagewhiledownloading": "switchhandle.png",
     "info": null,
-    "isVisible": false,
+    "invokedProperty": "imageWhenFailed",
+    "isVisible": true,
     "ispercent": true,
-    "isvisible": false,
-    "kuid": "976da96b0af54acd85f784acb05f2a0a",
+    "isvisible": true,
+    "kuid": "67e2dcdd0c2c414c9d55f86c7d9e5cd6",
+    "left": 38,
     "margin": [
         0,
         0,
@@ -63,25 +69,22 @@
         0
     ],
     "name": "kony.ui.Image2",
-    "onDownloadComplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
-    "ondownloadcomplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexTopMenu",
+    "parent": "FlexContainer08f90f992479e47",
     "pf": "frm004Home",
     "render": true,
-    "right": "20dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "burgericon.png",
+    "src": "switchhandle.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "32dp",
+    "zIndex": 69,
+    "zindex": 69
 }
