@@ -33,7 +33,6 @@ if (typeof(tuta) === "undefined") {
 var application = null; 
 
 
-
 /*
 	This is a hack so you can use this framework in
     Visualizer functional previews
@@ -589,6 +588,7 @@ tuta.init = function() {
   
   	// initialize application
  	application = new tuta.application(tuta.initCallback);
+  	new tuta.forms.frm003CheckBox();
 };
 
 /*

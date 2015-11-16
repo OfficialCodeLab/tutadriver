@@ -6,12 +6,12 @@ if (typeof(tuta.forms) === "undefined") {
 	tuta.forms = {};
 }
 
-tuta.forms.frm001LoginScreen = function() {
+tuta.forms.frm003CheckBox = function() {
 // initialize controller 
-  tuta.forms.frm001LoginScreen = new tuta.controller(frm001LoginScreen); 
+  tuta.forms.frm003CheckBox = new tuta.controller(frm003CheckBox); 
 
   // Initialize form events	
-  tuta.forms.frm001LoginScreen.onInit = function(form) {
+  tuta.forms.frm003CheckBox.onInit = function(form) {
       
     
       	
@@ -21,7 +21,7 @@ tuta.forms.frm001LoginScreen = function() {
       };*/
   };  
   
-  tuta.forms.frm001LoginScreen.onPreShow = function(form) {
+  tuta.forms.frm003CheckBox.onPreShow = function(form) {
     var self = this;
 /*
       this.leftMenu = new ssa.controls.menu(
@@ -60,10 +60,10 @@ tuta.forms.frm001LoginScreen = function() {
       this.control("btn3").onClick = function(button) {
         self.topMenu.toggle();
       };*/
-    this.control("btnLogin").onClick = function(button){tuta.forms.frm003CheckBox.show();};
+    this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };
   
-  tuta.forms.frm001LoginScreen.onPostShow = function(form) {
+  tuta.forms.frm003CheckBox.onPostShow = function(form) {
     var self = this;
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
