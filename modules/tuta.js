@@ -461,7 +461,16 @@ function flagDownRequest (){
   tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
 
   if(oldState !== driver_state)
-    tuta.mobile.alert("STATE CHANGE", "" + driver_state);
+  {
+    frm004Home.show();
+    tuta.mobile.alert("Idle", "Taxi is now idle and picking up client");
+  }
+  else{
+    frm004Home.show();
+    tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve flag down requests"); 
+    //tuta.mobile.alert("ERROR", "Cannot accept flag downs while idle");
+  }
+    //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
 }
 
 function pickupRequest (){
@@ -469,8 +478,17 @@ function pickupRequest (){
   tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
 
 
-  if(oldState !== driver_state)
-    tuta.mobile.alert("STATE CHANGE", "" + driver_state);
+  if(oldState !== driver_state){
+    frm004Home.show();
+    tuta.mobile.alert("On route", "Taxi is now on route to client");
+  }
+  else{
+    frm004Home.show();
+    tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve pickup requests");    
+  }
+    
+    
+    //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
 }
 
 
