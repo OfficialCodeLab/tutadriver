@@ -13,53 +13,12 @@ tuta.forms.frm004Home = function() {
   // Initialize form events	
   tuta.forms.frm004Home.onInit = function(form) {
       
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
   };  
   
   tuta.forms.frm004Home.onPreShow = function(form) {
     var self = this;
-/*
-      this.leftMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexMenu"), 
-          ssa.controls.position.LEFT,
-          ssa.controls.behavior.MOVE_OVER,
-          0.25
-      );	
-    
-      this.rightMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexRightMenu"), 
-          ssa.controls.position.RIGHT,
-          ssa.controls.behavior.OVERLAY,
-          0.25
-      );	
-    
-	  this.topMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexTopMenu"), 
-          ssa.controls.position.TOP,
-          ssa.controls.behavior.MOVE_OVER,
-          0.25
-      );    
-    
-      // example of onClick event on example form for btnOne
-      this.control("btnOne").onClick = function(button) {
-        self.leftMenu.toggle();
-      };
-    
-      this.control("btnTwo").onClick = function(button) {
-        self.rightMenu.toggle();
-      };	
-     	
-      this.control("btn3").onClick = function(button) {
-        self.topMenu.toggle();
-      };*/
+
+    //Initializes the cheeseburger menu
     this.leftMenu = new tuta.controls.menu(
           this.control("flexMapScreen"), 
           this.control("flexMenu"), 
@@ -68,6 +27,10 @@ tuta.forms.frm004Home = function() {
           0.3
       );	
     
+    /*
+      Checks whether the menu is open, animates the menu
+      based on current state.
+    */
     this.control("btnChs").onClick = function(button) {
       if(self.leftMenu._open === true){
         frm004Home.imgChsO.setVisibility(false);
@@ -88,13 +51,13 @@ tuta.forms.frm004Home = function() {
       self.leftMenu.toggle();
     };
     
+    //Buttons for showing other forms
     this.control("btnLegal").onClick = function (button) {tuta.forms.frmTermsConditions.show();};
     this.control("btnFlagDown").onClick = function (button) {tuta.forms.frmFlagDown.show();};
     this.control("btnTestingPickup").onClick = function (button) {tuta.forms.frmPickupRequest.show();};
-    this.control("btnSignOut").onClick = function (button) {
-    tuta.forms.frm001LoginScreen.show();
-    };
+    this.control("btnSignOut").onClick = function (button) {tuta.forms.frm001LoginScreen.show();};
 
+    //Toggles visibility for destination search bar
     this.control("txtDest").onDone = function(widget) {
       if(frm004Home.txtDest.text != null){
         frm004Home.flexFindingDest.setVisibility(true);
@@ -103,6 +66,7 @@ tuta.forms.frm004Home = function() {
       }
     };
 
+    //Handles tapping on the map
     this.control("mapMain").onClick = function(map, location) {
       frm004Home.flexAddressList.setVisibility(false);
       frm004Home.flexAddressShadow.setVisibility(false);
@@ -112,7 +76,91 @@ tuta.forms.frm004Home = function() {
       updateConsole();
     };
   };
+
+  //Handles toggling button for the debug menu
+  this.control("btnToggleActive").onClick = function(){
+    if(driver_state === tuta.fsm.STATES.TRAWLING)
+    {
+      tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+      frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      updateConsole();
+    }
+    else if(driver_state === tuta.fsm.STATES.IDLE)
+    {
+      tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "0", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
+      frm004Home.imgSwitchBg.src = "switchbgon.png";
+      updateConsole();
+    }
+  };
+
+  //Debug Menu: Demonstration button
+  this.control("btnDemo").onClick = function () {tuta.forms.frmPickupRequest.show();};
+
+  //Debug Menu: Pickup Request Checkbox
+  this.control("btnPickupReqCheck").onClick = function(){
+    if(frm004Home.imgPickReqCheck.isVisible === true){
+      frm004Home.imgPickReqCheck.setVisibility(false)
+      frm004Home.btnDemo.setVisibility(false);
+      frm004Home.flexDemoShadow.setVisibility(false);
+    }
+    else{
+      frm004Home.imgPickReqCheck.setVisibility(true)
+      frm004Home.btnDemo.setVisibility(true);
+      frm004Home.flexDemoShadow.setVisibility(true);
+    }
+  };
+
+  //Debug Menu: Handler for the floating console
+  this.control("btnFloatingConsoleCheck").onClick = function(){
+    if(frm004Home.imgFloatingConsoleCheck.isVisible === true){
+      frm004Home.imgFloatingConsoleCheck.setVisibility(false);
+      frm004Home["flexFloatingConsole"]["isVisible"] = false;
+    }
+    else{
+      frm004Home.imgFloatingConsoleCheck.setVisibility(true);
+      frm004Home["flexFloatingConsole"]["isVisible"] = true;
+      updateConsole();
+    }
+  };
+
+  //Debug Menu: Reset state button
+  this.control("btnResetState").onClick = function(){
+    tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+    tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+    frm004Home.imgSwitchBg.src = "switchbgoff.png";
+    driver_state = 0;
+    frm004Home.flexActive.setVisibility(true);
+    updateConsole();
+  };
+
+  //Show Customer Rating Button
+  this.control("btnShowCustRating").onClick = function(){    
+    frm004Home.flexDarken.setVisibility(false);
+    tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "-160%", null); 
+    kony.timer.schedule("custrate", function(){frm004Home["flexOverlay1"]["isVisible"] = true;
+                                              }, 0.35, false);
+  };
+
+  //Activate Taxi?
+  this.control("btnTaxiActivateCheck").onClick = function(){
+    if(frm004Home.imgTaxiActivateCheck.isVisible === true){
+      frm004Home.imgTaxiActivateCheck.setVisibility(false);
+      frm004Home.flexActive.setVisibility(false);
+    }
+    else{
+      frm004Home.imgTaxiActivateCheck.setVisibility(true);
+      frm004Home.flexActive.setVisibility(true);
+    }
+  };
+
+  //Sign-out button
+  this.control("btnSignOut").onClick = function () {
+    tuta.forms.frm001LoginScreen.show();
+  };
   
+  //PostShow does not work on android
   tuta.forms.frm004Home.onPostShow = function(form) {
     var self = this;
     /*this.header("btnMenu").onClick =function(button) {
