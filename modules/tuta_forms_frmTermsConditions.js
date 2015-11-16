@@ -23,6 +23,7 @@ tuta.forms.frmTermsConditions = function() {
   
   tuta.forms.frmTermsConditions.onPreShow = function(form) {
     var self = this;
+    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };

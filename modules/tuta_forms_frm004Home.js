@@ -75,10 +75,9 @@ tuta.forms.frm004Home = function() {
       searchMode = 0;
       updateConsole();
     };
-  };
 
   //Handles toggling button for the debug menu
-  this.control("btnToggleActive").onClick = function(){
+  this.control("btnToggleActive").onClick = function(button){
     if(driver_state === tuta.fsm.STATES.TRAWLING)
     {
       tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
@@ -96,10 +95,10 @@ tuta.forms.frm004Home = function() {
   };
 
   //Debug Menu: Demonstration button
-  this.control("btnDemo").onClick = function () {tuta.forms.frmPickupRequest.show();};
+  this.control("btnDemo").onClick = function (button) {tuta.forms.frmPickupRequest.show();};
 
   //Debug Menu: Pickup Request Checkbox
-  this.control("btnPickupReqCheck").onClick = function(){
+  this.control("btnPickupReqCheck").onClick = function(button){
     if(frm004Home.imgPickReqCheck.isVisible === true){
       frm004Home.imgPickReqCheck.setVisibility(false)
       frm004Home.btnDemo.setVisibility(false);
@@ -113,7 +112,7 @@ tuta.forms.frm004Home = function() {
   };
 
   //Debug Menu: Handler for the floating console
-  this.control("btnFloatingConsoleCheck").onClick = function(){
+  this.control("btnFloatingConsoleCheck").onClick = function(button){
     if(frm004Home.imgFloatingConsoleCheck.isVisible === true){
       frm004Home.imgFloatingConsoleCheck.setVisibility(false);
       frm004Home["flexFloatingConsole"]["isVisible"] = false;
@@ -126,7 +125,7 @@ tuta.forms.frm004Home = function() {
   };
 
   //Debug Menu: Reset state button
-  this.control("btnResetState").onClick = function(){
+  this.control("btnResetState").onClick = function(button){
     tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
     tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
     frm004Home.imgSwitchBg.src = "switchbgoff.png";
@@ -136,7 +135,7 @@ tuta.forms.frm004Home = function() {
   };
 
   //Show Customer Rating Button
-  this.control("btnShowCustRating").onClick = function(){    
+  this.control("btnShowCustRating").onClick = function(button){    
     frm004Home.flexDarken.setVisibility(false);
     tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "-160%", null); 
     kony.timer.schedule("custrate", function(){frm004Home["flexOverlay1"]["isVisible"] = true;
@@ -144,7 +143,7 @@ tuta.forms.frm004Home = function() {
   };
 
   //Activate Taxi?
-  this.control("btnTaxiActivateCheck").onClick = function(){
+  this.control("btnTaxiActivateCheck").onClick = function(button){
     if(frm004Home.imgTaxiActivateCheck.isVisible === true){
       frm004Home.imgTaxiActivateCheck.setVisibility(false);
       frm004Home.flexActive.setVisibility(false);
@@ -156,10 +155,10 @@ tuta.forms.frm004Home = function() {
   };
 
   //Sign-out button
-  this.control("btnSignOut").onClick = function () {
+  this.control("btnSignOut").onClick = function (button) {
     tuta.forms.frm001LoginScreen.show();
   };
-  
+};
   //PostShow does not work on android
   tuta.forms.frm004Home.onPostShow = function(form) {
     var self = this;

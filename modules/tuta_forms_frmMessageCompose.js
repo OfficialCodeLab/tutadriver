@@ -23,6 +23,7 @@ tuta.forms.frmMessageCompose = function() {
   
   tuta.forms.frmMessageCompose.onPreShow = function(form) {
     var self = this;
+    this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };

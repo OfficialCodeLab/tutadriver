@@ -23,6 +23,7 @@ tuta.forms.frmBooking = function() {
   
   tuta.forms.frmBooking.onPreShow = function(form) {
     var self = this;
+    this.control("btnBack").onClick = function(button){tuta.forms.frmBookingsMain.show();};
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };
