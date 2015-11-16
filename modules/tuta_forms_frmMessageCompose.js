@@ -24,15 +24,17 @@ tuta.forms.frmMessageCompose = function() {
   tuta.forms.frmMessageCompose.onPreShow = function(form) {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
-
-    //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    this.control("btnCancel").onClick = function (button) {tuta.forms.frmMessageMain.show();};
+    this.control("btnSend").onClick = function (button){
+      frmMessageCompose.txtMessage.text = "";
+      frmMessageCompose.txtSendTo.text = "";
+      frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
+    };
   };
   
   tuta.forms.frmMessageCompose.onPostShow = function(form) {
     var self = this;
-    /*this.header("btnMenu").onClick =function(button) {
-     	self.topMenu.toggle();
-    };*/
+
   };
 };
 

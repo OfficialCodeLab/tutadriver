@@ -12,20 +12,15 @@ tuta.forms.frmLogIssue = function() {
 
   // Initialize form events	
   tuta.forms.frmLogIssue.onInit = function(form) {
-      
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
   };  
   
   tuta.forms.frmLogIssue.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
 
-    //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnBack").onClick = function (button) {tuta.forms.frm004Home.show();};
+    this.control("btnCancel").onClick = function (button) {tuta.forms.frm004Home.show();};
+    this.control("btnSubmitIssue").onClick = function (button) {tuta.forms.frm004Home.show();};
   };
   
   tuta.forms.frmLogIssue.onPostShow = function(form) {

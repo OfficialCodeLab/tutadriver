@@ -12,19 +12,13 @@ tuta.forms.frmFlagDown = function() {
 
   // Initialize form events	
   tuta.forms.frmFlagDown.onInit = function(form) {
-      
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
   };  
   
   tuta.forms.frmFlagDown.onPreShow = function(form) {
     var self = this;
-
-    //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    this.control("btnStartTrip").onClick = function (button) {flagDownRequest();};
+    this.control("btnCancelTrip").onClick = function (button) {tuta.forms.frm004Home.show();};
+    
   };
   
   tuta.forms.frmFlagDown.onPostShow = function(form) {
@@ -35,3 +29,19 @@ tuta.forms.frmFlagDown = function() {
   };
 };
 
+function flagDownRequest (){
+  var oldState = driver_state;
+  tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
+
+  if(oldState !== driver_state)
+  {
+    frm004Home.show();
+    tuta.mobile.alert("Idle", "Taxi is now idle and picking up client");
+  }
+  else{
+    frm004Home.show();
+    tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve flag down requests"); 
+    //tuta.mobile.alert("ERROR", "Cannot accept flag downs while idle");
+  }
+    //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
+};

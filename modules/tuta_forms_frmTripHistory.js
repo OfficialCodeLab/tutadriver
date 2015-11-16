@@ -25,7 +25,7 @@ tuta.forms.frmTripHistory = function() {
     var self = this;
     
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
-
+    this.control("segTripHistoryMain").onRowClick = function(button) {tuta.forms.frmTripHistoryInfo.show();};
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };
   

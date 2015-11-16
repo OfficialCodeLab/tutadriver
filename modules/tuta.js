@@ -271,6 +271,10 @@ function initOld(){
   frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
   frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
 
+  //Bookings List
+  frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
+  frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
+
   //About Tuta
   frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
 
@@ -280,10 +284,6 @@ function initOld(){
   //Flag Down Menu
   frmFlagDown.btnStartTrip.onClick = function () {flagDownRequest();};
   frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
-
-  //Bookings List
-  frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
-  frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
 
   //Trip History
   frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
@@ -473,7 +473,7 @@ function setUpSwipes(){
   });
 }
 
-function flagDownRequest (){
+/*function flagDownRequest (){
   var oldState = driver_state;
   tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
 
@@ -488,9 +488,9 @@ function flagDownRequest (){
     //tuta.mobile.alert("ERROR", "Cannot accept flag downs while idle");
   }
     //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
-}
+};*/
 
-function pickupRequest (){
+/*function pickupRequest (){
   var oldState = driver_state;
   tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
 
@@ -506,7 +506,7 @@ function pickupRequest (){
     
     
     //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
-}
+}*/
 
 
 function updateMap() {

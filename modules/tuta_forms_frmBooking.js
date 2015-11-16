@@ -13,19 +13,13 @@ tuta.forms.frmBooking = function() {
   // Initialize form events	
   tuta.forms.frmBooking.onInit = function(form) {
       
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
+
   };  
   
   tuta.forms.frmBooking.onPreShow = function(form) {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frmBookingsMain.show();};
-
-    //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    this.control("btnHelp").onClick = function (button) {tuta.forms.frmLogIssue.show();};
   };
   
   tuta.forms.frmBooking.onPostShow = function(form) {
@@ -38,3 +32,4 @@ tuta.forms.frmBooking = function() {
 
 
 
+//This is the individual bookings item form

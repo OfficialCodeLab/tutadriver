@@ -12,20 +12,13 @@ tuta.forms.frmMessageRead = function() {
 
   // Initialize form events	
   tuta.forms.frmMessageRead.onInit = function(form) {
-      
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
   };  
   
   tuta.forms.frmMessageRead.onPreShow = function(form) {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
+    this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
 
-    //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };
   
   tuta.forms.frmMessageRead.onPostShow = function(form) {
