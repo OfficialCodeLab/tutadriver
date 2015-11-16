@@ -147,7 +147,7 @@
         "resourceId": "fd9320d1-d3d3-4c23-8a11-9a87169f96f3",
         "shareGuid": "TH9DH"
     },
-    "startupformkey": "frm001LoginScreen",
+    "startupformkey": "frmSplash",
     "supportedorientations": [
         "portrait"
     ],

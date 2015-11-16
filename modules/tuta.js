@@ -25,6 +25,24 @@ var star = [];
 var lastStarSelected = 0;
 var toggleImage;
 
+if (typeof(tuta) === "undefined") {
+	tuta = {};
+}
+
+// global reference to your app object
+var application = null; 
+
+
+
+/*
+	This is a hack so you can use this framework in
+    Visualizer functional previews
+*/
+function initApp() {
+  //ssa.util.alert("INIT");
+  tuta.init();
+}
+
 function onStarSelect(eventobject, x , y) {
   var nostar = eventobject.id.replace("imgStar","");
   if(nostar === lastStarSelected && nostar > 1)
@@ -44,7 +62,7 @@ function onStarSelect(eventobject, x , y) {
 }
 //End of rating menu code
 
-function init(){
+function initOld(){
 
   //Array of stars variables
   frm004Home.imgStar1.onTouchStart = onStarSelect;
@@ -558,6 +576,20 @@ function animateMenu(){
     menuOpen = false;
   }
 }
+
+tuta.initCallback = function(error) {
+
+};
+
+// Should be called in the App init lifecycle event
+// In Visualizer this should be call in the init event of the startup form
+tuta.init = function() {
+  	// initialize form controllers
+  	new tuta.forms.frm001LoginScreen();
+  
+  	// initialize application
+ 	application = new tuta.application(tuta.initCallback);
+};
 
 /*
 DRIVER STATES: trawling, on-route to client (ORTC), on-route to dest (ORTD), idle (picking up client or off-duty)

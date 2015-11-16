@@ -1,0 +1,15 @@
+{
+	"AS_Form_39ae7bc73f2d4471b6af750779148c2a": {
+		"id": "AS_Form_39ae7bc73f2d4471b6af750779148c2a",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__54687413f6074ac7b8d33e06ea2aa123",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "tuta.forms.frm001LoginScreen.show();",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

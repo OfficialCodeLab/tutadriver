@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
+    "_init_": "AS_Form_4971e1caf99041648c6d23855cd7c34d",
     "_margin_": [
         0,
         0,
@@ -12,23 +14,12 @@
         0,
         0
     ],
-    "_skin_": "sdfaba39f054412d9d82261bc9072939",
+    "_skin_": "s9083cdb16964e68816458976e0e7bf3",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
-    "android": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.AndroidScrollFlexFormProperty",
-        "needAppMenu": false,
-        "psp": {
-            "windowSoftInputMode": 2
-        }
-    },
-    "bounces": false,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "flexLoginMain"
-    ],
+    "children": [],
     "containerWeight": 100,
     "containerweight": 100,
     "contentOffsetX": 0,
@@ -45,10 +36,9 @@
     "enabled": false,
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
-    "footerOverlap": false,
-    "footeroverlap": false,
-    "id": "frm001LoginScreen",
+    "id": "frmSplash",
     "info": null,
+    "init": "AS_Form_4971e1caf99041648c6d23855cd7c34d",
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,
@@ -58,8 +48,6 @@
         }
     },
     "iphone": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
-        "needAppMenu": false,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
@@ -75,14 +63,14 @@
                 "titleBarRightSideView": "button",
                 "titleClosureLeftSideView": "",
                 "titleClosureRightSideView": "",
-                "visible": false
+                "visible": true
             }
         },
-        "titleBar": false
+        "titleBar": true
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "3682d40e81394724899742a8a4343d25",
+    "kuid": "2352a8f3b4ba4429b8dd32b94a7fd085",
     "layoutType": 2,
     "layouttype": 2,
     "margin": [
@@ -105,33 +93,19 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "iPhone3",
-    "prevPlatform": "android",
+    "postShow": "AS_Form_39ae7bc73f2d4471b6af750779148c2a",
+    "postshow": "AS_Form_39ae7bc73f2d4471b6af750779148c2a",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
     "shellCSS": "iOS_iPhone6",
-    "skin": "sdfaba39f054412d9d82261bc9072939",
+    "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "spaan": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPAAndroidScrollFlexFormProperty",
-        "needAppMenu": false
-    },
-    "spabb": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPABBScrollFlexFormProperty",
-        "needAppMenu": false
-    },
-    "spaip": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPAIPhoneScrollFlexFormProperty",
-        "needAppMenu": false
-    },
-    "spawinphone8": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.SPAWinPhone8ScrollFlexFormProperty",
-        "needAppMenu": false
-    },
     "title": null,
     "titleBar": true,
     "titleBarModel": {
@@ -150,7 +124,7 @@
         ],
         "_skin_": "sa749b19390843459dd43d83142f6045",
         "_text_": "",
-        "_visible_": false,
+        "_visible_": true,
         "buttonClosureLeftSideView": "",
         "buttonClosureRightSideView": "",
         "buttonText": "Edit",
@@ -161,7 +135,7 @@
         "containerWeight": 0,
         "containerweight": 0,
         "enabled": false,
-        "id": "frm001LoginScreen_titleBar",
+        "id": "frmSplash_titleBar",
         "ide_buttonClosureLeftSideView": "",
         "ide_buttonClosureRightSideView": "",
         "ide_titleClosureLeftSideView": "",
@@ -205,7 +179,7 @@
         "titlebarrightsideview": "button",
         "titleclosureleftsideview": "",
         "titleclosurerightsideview": "",
-        "visible": false,
+        "visible": true,
         "wType": "TitleBar",
         "widgetAlignment": 5
     },
@@ -213,9 +187,5 @@
     "titlebar": true,
     "type": 3,
     "wType": "Form",
-    "widgetAlignment": 5,
-    "winphone8": {
-        "@class": "com.kony.gen.viz.model.container.property.scrollflexform.WinPhone8ScrollFlexFormProperty",
-        "needAppMenu": false
-    }
+    "widgetAlignment": 5
 }
