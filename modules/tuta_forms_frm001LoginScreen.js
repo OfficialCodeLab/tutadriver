@@ -71,7 +71,7 @@ tuta.forms.frm001LoginScreen = function() {
     
     this.control("btnLogin").onClick = function(button){self.moveLoginButtons.toggle();};
     
-    this.control("btnLogin2").onClick = function(button){tuta.forms.frm003CheckBox.show();};
+    this.control("btnLogin2").onClick = function(button){self.moveLoginButtons.toggle();tuta.forms.frm003CheckBox.show();};
   };
   
   tuta.forms.frm001LoginScreen.onPostShow = function(form) {

@@ -589,6 +589,7 @@ tuta.init = function() {
   	// initialize application
  	application = new tuta.application(tuta.initCallback);
   	new tuta.forms.frm003CheckBox();
+  	new tuta.forms.frm004Home();
 };
 
 /*
