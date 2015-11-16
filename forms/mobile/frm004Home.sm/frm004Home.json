@@ -36,7 +36,8 @@
         "flexAcceptDecline",
         "flexFindingDest",
         "flexOverlay1",
-        "flexDebugOptions"
+        "flexDebugOptions",
+        "flexFloatingConsole"
     ],
     "containerWeight": 100,
     "containerweight": 100,

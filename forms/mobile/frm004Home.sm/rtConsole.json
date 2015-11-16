@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        5,
+        5,
+        5
+    ],
+    "_skin_": "s009b9674e0a4870a1afa7e80fea21df",
+    "_text_": "<strong>Floating Console:</strong><br><br>Current State:\n",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 1,
+    "contentalignment": 1,
+    "enabled": false,
+    "height": "100%",
+    "id": "rtConsole",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "ae1d50aa872a41ceae4294a23354982c",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "name": "kony.ui.RichText",
+    "padding": [
+        5,
+        5,
+        5,
+        5
+    ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "flexFloatingConsole",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s009b9674e0a4870a1afa7e80fea21df",
+    "text": "<strong>Floating Console:</strong><br><br>Current State:\n",
+    "toolTip": "",
+    "top": "0dp",
+    "wType": "RichText",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
+    "width": "100%",
+    "wrapping": 2
+}

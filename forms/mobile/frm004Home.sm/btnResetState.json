@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sc65fd316f304d9baf3a3835f75e0b1a",
-    "_text_": "Display Customer Rating",
+    "_text_": "Reset State",
     "_top_": {
         "type": "string",
-        "value": "200dp"
+        "value": "250dp"
     },
     "_width_": {
         "type": "string",
@@ -51,11 +51,11 @@
     "focusSkin": "sc65fd316f304d9baf3a3835f75e0b1a",
     "focusskin": "sc65fd316f304d9baf3a3835f75e0b1a",
     "height": "40dp",
-    "id": "Button05aa5b2ad20df4d",
+    "id": "btnResetState",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "366caecd126040968e428a0c7bd9d8a3",
+    "kuid": "79ecdc2a2ebf450ea427abec53d94e6e",
     "left": "20dp",
     "margin": [
         6,
@@ -74,8 +74,8 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "sc65fd316f304d9baf3a3835f75e0b1a",
-    "text": "Display Customer Rating",
-    "top": "200dp",
+    "text": "Reset State",
+    "top": "250dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "70%",

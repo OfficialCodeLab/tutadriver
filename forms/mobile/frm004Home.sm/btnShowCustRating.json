@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15%"
+        "value": "20dp"
     },
     "_margin_": [
         6,
@@ -22,20 +22,25 @@
         0,
         0
     ],
-    "_skin_": "s151a57943fb4ad2a1d9686715d3759a",
-    "_text_": "Pickup Request",
+    "_skin_": "sc65fd316f304d9baf3a3835f75e0b1a",
+    "_text_": "Display Customer Rating",
     "_top_": {
         "type": "string",
-        "value": "75dp"
+        "value": "200dp"
     },
     "_width_": {
         "type": "string",
         "value": "70%"
     },
     "android": {
-        "pressedSkin": "s7b7689e4f18495299bfc87260029c81"
+        "pressedSkin": "sc65fd316f304d9baf3a3835f75e0b1a"
     },
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
@@ -43,20 +48,15 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s7b7689e4f18495299bfc87260029c81",
-    "focusskin": "s7b7689e4f18495299bfc87260029c81",
-    "height": "50dp",
-    "id": "btnDemo",
+    "focusSkin": "sc65fd316f304d9baf3a3835f75e0b1a",
+    "focusskin": "sc65fd316f304d9baf3a3835f75e0b1a",
+    "height": "40dp",
+    "id": "btnShowCustRating",
     "info": null,
-    "iphone": {
-        "psp": {
-            "showProgressIndicator": true
-        }
-    },
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "a6a300a568d043fb8449c12cef1f310b",
-    "left": "15%",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "366caecd126040968e428a0c7bd9d8a3",
+    "left": "20dp",
     "margin": [
         6,
         6,
@@ -70,15 +70,15 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "flexDebugOptions",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s151a57943fb4ad2a1d9686715d3759a",
-    "text": "Pickup Request",
-    "top": "75dp",
+    "skin": "sc65fd316f304d9baf3a3835f75e0b1a",
+    "text": "Display Customer Rating",
+    "top": "200dp",
     "wType": "Button",
     "widgetAlignment": 5,
     "width": "70%",
-    "zIndex": 18,
-    "zindex": 18
+    "zIndex": 69,
+    "zindex": 69
 }
