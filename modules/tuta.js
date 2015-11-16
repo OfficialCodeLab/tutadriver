@@ -1,7 +1,26 @@
+/*=============================================================================
+  _         _           _     
+ | |_ _   _| |_ __ _   (_)___ 
+ | __| | | | __/ _` |  | / __|
+ | |_| |_| | || (_| |_ | \__ \
+  \__|\__,_|\__\__,_(_)/ |___/
+                     |__/     
+===============================================================================                     
+Main javascript file
+Version: 3.2.30cl
+
+Note: Methods in this file have to be split up into form-specific javascript
+files, when the MVC framework is implemented. For now, all javascript will
+remain in this file during testing.
+===============================================================================
+
+Variables
+
+=============================================================================*/
+
 var currentLocation = "";
 
 //Code for handling stars in rating menu
-//Created by Courtney
 var star = [];
 var lastStarSelected = 0;
 var toggleImage;
@@ -27,6 +46,7 @@ function onStarSelect(eventobject, x , y) {
 
 function init(){
 
+  //Array of stars variables
   frm004Home.imgStar1.onTouchStart = onStarSelect;
   frm004Home.imgStar2.onTouchStart = onStarSelect;
   frm004Home.imgStar3.onTouchStart = onStarSelect;
@@ -37,51 +57,67 @@ function init(){
   star.push(frm004Home.imgStar3);
   star.push(frm004Home.imgStar4);
   star.push(frm004Home.imgStar5);
+  //End of stars variables
   
+  /*=============================================================================
+       ____                           _   __  __      _   _               _     
+      / ___| ___ _ __   ___ _ __ __ _| | |  \/  | ___| |_| |__   ___   __| |___ 
+     | |  _ / _ \ '_ \ / _ \ '__/ _` | | | |\/| |/ _ \ __| '_ \ / _ \ / _` / __|
+     | |_| |  __/ | | |  __/ | | (_| | | | |  | |  __/ |_| | | | (_) | (_| \__ \
+      \____|\___|_| |_|\___|_|  \__,_|_| |_|  |_|\___|\__|_| |_|\___/ \__,_|___/
+                                                                                
+  =============================================================================*/
+
   frm004Home.btnSubmitRating.onClick = function () {frm004Home["flexOverlay1"]["isVisible"] = false;};
-  
   frmMessageMain.txtSearch.onTextChange = searchTxtChange;
   frm004Home.btnChs.onClick = animateMenu;
   
+  /*=============================================================================
+      _____                      ____                  _  __ _      
+     |  ___|__  _ __ _ __ ___   / ___| _ __   ___  ___(_)/ _(_) ___ 
+     | |_ / _ \| '__| '_ ` _ \  \___ \| '_ \ / _ \/ __| | |_| |/ __|
+     |  _| (_) | |  | | | | | |  ___) | |_) |  __/ (__| |  _| | (__ 
+     |_|  \___/|_|  |_| |_| |_| |____/| .__/ \___|\___|_|_| |_|\___|
+                                      |_|                           
+  =============================================================================*/
+
+  //Form 1: Login Screen
   frm001LoginScreen.btnSignUp.onClick = function () {frm002SignupScreen.show();};
   frm001LoginScreen.btnLogin.onClick = function() {tuta.animate.move(frm001LoginScreen.flexMainButtons, 0.25, "", "-100%", null); tuta.animate.move(frm001LoginScreen.flexLoginButtons, 0.25, "0%", "0%", null);};
   frm001LoginScreen.btnLogin2.onClick = function () {frm003CheckBox.show();};  
+
+  //Form 2: Signup Screen
   frm002SignupScreen.btnCheckAgree.onClick = function (){
     if(frm002SignupScreen.imgTick.isVisible === false)
       frm002SignupScreen.imgTick.setVisibility(true);
     else
       frm002SignupScreen.imgTick.setVisibility(false);
         };
-  //Compose Messages
-  frmMessageCompose.btnCancel.onClick = function () {frmMessageMain.show();};
-  
-  //Help/log issue
-  frmLogIssue.btnBack.onClick = function () {frm004Home.show();};
-  frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
-  frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
 
-  
-  //Message List
-  frmMessageMain.btnComposeMessage.onClick = function () {frmMessageCompose.show();};
-  frmMessageMain.btnBack.onClick = function () {frm004Home.show();};
-	frmMessageCompose.btnSend.onClick = function (){
-	frmMessageCompose.txtMessage.text = "";
-	frmMessageCompose.txtSendTo.text = "";
-	frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
+  frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
+  frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
+  frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
+  frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
+  frm002SignupScreen.btnCheckAgree.onClick = function(){
+    if((frm002SignupScreen.imgTick.isVisible===false)){
+      frm002SignupScreen.imgTick.setVisibility(true);
+    }
+    else {
+      frm002SignupScreen.imgTick.setVisibility(false);
+    }
   };
-  frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
-  
-  //Read message
-  frmMessageRead.btnBack.onClick = function () {frmMessageMain.show();};
-  
 
-  //Booking individual
-  frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
-  frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
-  
-  //About Tuta
-  frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
-  
+  //Form 3: Checklist Form
+  frm003CheckBox.btnContinue.onClick = function(){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
+  frm003CheckBox.btnCheck1.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
+  frm003CheckBox.btnCheck2.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
+  frm003CheckBox.btnCheck3.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick3);};
+  frm003CheckBox.btnCheck4.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick4);};
+  frm003CheckBox.btnCheck5.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
+  frm003CheckBox.btnConfirmCNum.onClick = function(){frm004Home.show();};
+
+
+  //Form 4: Main Map Landing Screen
   frm004Home.btnDebugOptions.onClick = function() {
     animateMenu(); 
     tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "10%", null); 
@@ -94,31 +130,11 @@ function init(){
     tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "-160%", null); 
     
   };
-  
-  frm002SignupScreen.btnNextSignup.onClick = function () {switchForms(1);};
-  frm002SignupScreen.btnPager2.onClick = function () {switchForms(1);};
-  frm002SignupScreen.btnPager1.onClick = function () {switchForms(0);};
-  frm002SignupScreen.btnFinishSignup.onClick = function () {frm004Home.show();};
+    
   frm004Home.btnLegal.onClick = function () {frmTermsConditions.show();};
-  frmTermsConditions.btnBack.onClick = function () {frm004Home.show();};
   frm004Home.btnFlagDown.onClick = function () {frmFlagDown.show();};
   frm004Home.btnTestingPickup.onClick = function () {frmPickupRequest.show();};
-
-  frmFlagDown.btnStartTrip.onClick = function () {flagDownRequest();};
-  frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
-
-  frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
-  frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
-
-  frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
-  frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
-  frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
-  frmTripHistoryInfo.btnHelp.onClick = function() {frmLogIssue.show();};
-  
-
-
-
-	frm004Home.btnToggleActive.onClick = function(){
+  frm004Home.btnToggleActive.onClick = function(){
       if(driver_state === tuta.fsm.STATES.TRAWLING)
       {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
@@ -132,52 +148,7 @@ function init(){
         frm004Home.imgSwitchBg.src = "switchbgon.png";
       }
     }
-
-
-
-
   frm004Home.btnDemo.onClick = function () {frmPickupRequest.show();};
-  
-  //Button code for Checklist Form
-  //Created by Carl
-  frm004Home.postShow = function (){
-    if(driver_state === tuta.fsm.STATES.TRAWLING)
-      {
-        tuta.animate.move(frm004Home.imgSwitch, 0, "", "0", null);
-        tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
-        frm004Home.imgSwitchBg.src = "switchbgon.png";
-      }
-      else if(driver_state === tuta.fsm.STATES.IDLE)
-      {
-        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
-        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
-        frm004Home.imgSwitchBg.src = "switchbgoff.png";
-      }
-    else
-      {
-        frm004Home.flexActive.setVisibility(false);
-      }
-  };
-
-  frm003CheckBox.btnContinue.onClick = function(){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
-  
-  frm003CheckBox.btnCheck1.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
-  frm003CheckBox.btnCheck2.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
-  frm003CheckBox.btnCheck3.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick3);};
-  frm003CheckBox.btnCheck4.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick4);};
-  frm003CheckBox.btnCheck5.onClick = function(){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
-  
-  frm003CheckBox.btnConfirmCNum.onClick = function(){frm004Home.show();};
-  
-  
-  //End of checklist form button code
-  
-  frmPickupRequest.btnTopDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-  frmPickupRequest.btnBottomDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-  frmPickupRequest.btnLeftDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-  frmPickupRequest.btnRightDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-  frmPickupRequest.btnCancel.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-  
   frm004Home.btnPickupReqCheck.onClick = function(){
     if(frm004Home.imgPickReqCheck.isVisible === true){
       frm004Home.imgPickReqCheck.setVisibility(false)
@@ -186,7 +157,7 @@ function init(){
       frm004Home.imgPickReqCheck.setVisibility(true)
     }
   };
-  
+
   frm004Home.btnFloatingConsoleCheck.onClick = function(){
     if(frm004Home.imgFloatingConsoleCheck.isVisible === true){
       frm004Home.imgFloatingConsoleCheck.setVisibility(false)
@@ -206,6 +177,87 @@ function init(){
       frm004Home.flexActive.setVisibility(true);
     }
   };
+
+  frm004Home.btnSignOut.onClick = function () {
+    frm001LoginScreen.show();
+  };
+
+  frm004Home.txtDest.onDone = function(widget) {
+    if(frm004Home.txtDest.text != null){
+      frm004Home.flexFindingDest.setVisibility(true);
+      //tuta.mobile.alert("Search", "Search Done");
+      selectDest(frm004Home);      
+    }
+  };
+  
+  frm004Home.mapMain.onClick = function(map, location) {
+    frm004Home.flexAddressList.setVisibility(false);
+    frm004Home.flexAddressShadow.setVisibility(false);
+    //kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
+    //resetSearchBar();
+    searchMode = 0;
+  };
+
+
+  //Compose Messages
+  frmMessageCompose.btnCancel.onClick = function () {frmMessageMain.show();};
+  
+  //Help | log issue
+  frmLogIssue.btnBack.onClick = function () {frm004Home.show();};
+  frmLogIssue.btnCancel.onClick = function () {frm004Home.show();};
+  frmLogIssue.btnSubmitIssue.onClick = function () {frm004Home.show();};
+
+  
+  //Message List
+  frmMessageMain.btnComposeMessage.onClick = function () {frmMessageCompose.show();};
+  frmMessageMain.btnBack.onClick = function () {frm004Home.show();};
+
+	frmMessageCompose.btnSend.onClick = function (){
+	frmMessageCompose.txtMessage.text = "";
+	frmMessageCompose.txtSendTo.text = "";
+	frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
+  };
+
+  frmMessageCompose.btnMsgPopup.onClick = function (){frmMessageCompose["flexMessageSent"]["isVisible"] = false; frmMessageMain.show();};
+  
+  //Read message
+  frmMessageRead.btnBack.onClick = function () {frmMessageMain.show();};
+  
+
+  //Booking individual
+  frmBooking.btnBack.onClick = function () {frmBookingsMain.show();};
+  frmBooking.btnHelp.onClick = function () {frmLogIssue.show();};
+  
+  //About Tuta
+  frmAboutTuta.btnBack.onClick = function () {frm004Home.show();};
+  
+  //Terms & Conditions
+  frmTermsConditions.btnBack.onClick = function () {frm004Home.show();};
+  
+  //Flag Down Menu
+  frmFlagDown.btnStartTrip.onClick = function () {flagDownRequest();};
+  frmFlagDown.btnCancelTrip.onClick = function () {frm004Home.show();};
+
+  //Bookings List
+  frmBookingsMain.btnBack.onClick = function() {frm004Home.show();};
+  frmBookingsMain.segBookings.onRowClick = function() {frmBooking.show();};
+
+  //Trip History
+  frmTripHistory.btnBack.onClick = function() {frm004Home.show();};
+  frmTripHistory.segTripHistoryMain.onRowClick = function() {frmTripHistoryInfo.show();};
+
+  //Trip History Single Item
+  frmTripHistoryInfo.CopybtnBack02c79ca66b88140.onClick = function() {frmTripHistory.show();};
+  frmTripHistoryInfo.btnHelp.onClick = function() {frmLogIssue.show();};
+  
+  //Pickup Request
+  frmPickupRequest.btnTopDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnBottomDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnLeftDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnRightDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  frmPickupRequest.btnCancel.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
+  
+  
   
   
   frmPickupRequest.btnDecline.onClick = function() {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
@@ -216,10 +268,39 @@ function init(){
   };
   
   frmPickupRequest.btnConfirm.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false; frm004Home.show();}
+
+  /*=============================================================================
+      ____           _            _                   
+     |  _ \ ___  ___| |_      ___| |__   _____      __
+     | |_) / _ \/ __| __|____/ __| '_ \ / _ \ \ /\ / /
+     |  __/ (_) \__ \ ||_____\__ \ | | | (_) \ V  V / 
+     |_|   \___/|___/\__|    |___/_| |_|\___/ \_/\_/  
+                                                      
+  =============================================================================*/
   
-  frm004Home.btnSignOut.onClick = function () {
-    frm001LoginScreen.show();
+  
+  frm004Home.postShow = function (){
+    if(driver_state === tuta.fsm.STATES.TRAWLING)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "0", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
+        frm004Home.imgSwitchBg.src = "switchbgon.png";
+      }
+      else if(driver_state === tuta.fsm.STATES.IDLE)
+      {
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+        frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      }
+    else
+      {
+        frm004Home.flexActive.setVisibility(false);
+      }
   };
+  
+  
+  
+  
   
   frm001LoginScreen.postShow = function (){   
     tuta.animate.move(frm001LoginScreen.flexMainButtons, 0, "", "0%", null); 
@@ -235,30 +316,9 @@ function init(){
   
   
   
-  frm002SignupScreen.btnCheckAgree.onClick = function(){
-    if((frm002SignupScreen.imgTick.isVisible===false)){
-      frm002SignupScreen.imgTick.setVisibility(true);
-    }
-    else {
-      frm002SignupScreen.imgTick.setVisibility(false);
-    }
-  };
   
-  frm004Home.txtDest.onDone = function(widget) {
-    if(frm004Home.txtDest.text != null){
-      frm004Home.flexFindingDest.setVisibility(true);
-      //tuta.mobile.alert("Search", "Search Done");
-      selectDest(frm004Home);      
-    }
-  };
   
-  frm004Home.mapMain.onClick = function(map, location) {
-    frm004Home.flexAddressList.setVisibility(false);
-    frm004Home.flexAddressShadow.setVisibility(false);
-   	//kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
-    //resetSearchBar();
-    searchMode = 0;
-  };
+  
   
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
   kony.timer.schedule("firstinit", function () {
@@ -285,6 +345,8 @@ function init(){
     });
   }, 4, true);*/
 }
+
+//END OF INIT FUNCTION
 
 function switchForms(bool){
   if(bool === 1){
