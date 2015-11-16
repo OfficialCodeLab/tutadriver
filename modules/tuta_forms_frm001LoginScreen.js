@@ -60,7 +60,18 @@ tuta.forms.frm001LoginScreen = function() {
       this.control("btn3").onClick = function(button) {
         self.topMenu.toggle();
       };*/
-    this.control("btnLogin").onClick = function(button){tuta.forms.frm003CheckBox.show();};
+    
+    this.moveLoginButtons = new tuta.controls.menu( 
+      this.control("flexMainButtons"),
+      this.control("flexLoginButtons"), 
+      tuta.controls.position.RIGHT, 
+      tuta.controls.behavior.MOVE_OVER, 
+      0.3
+    );
+    
+    this.control("btnLogin").onClick = function(button){self.moveLoginButtons.toggle();};
+    
+    this.control("btnLogin2").onClick = function(button){tuta.forms.frm003CheckBox.show();};
   };
   
   tuta.forms.frm001LoginScreen.onPostShow = function(form) {
