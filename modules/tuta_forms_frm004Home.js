@@ -126,32 +126,33 @@ tuta.forms.frm004Home = function() {
     kony.timer.schedule("custrate", function(){frm004Home["flexOverlay1"]["isVisible"] = true;
                                               }, 0.35, false);
   };
-    
-    this.control("btnMessage").onClick = function(button){
-      menuToggle(0, self.leftMenu._open);     
-      self.leftMenu.toggle();
-      tuta.forms.frmMessageMain.show();
-    };
-    this.control("btnBooking").onClick = function(button){
-      menuToggle(0, self.leftMenu._open);     
-      self.leftMenu.toggle();
-      tuta.forms.frmBookingsMain.show();
-    };
-    this.control("btnHelp").onClick = function(button){
-      menuToggle(0, self.leftMenu._open);     
-      self.leftMenu.toggle();
-      tuta.forms.frmLogIssue.show();
-    };
-    this.control("btnTripHistory").onClick = function(button){
-      menuToggle(0, self.leftMenu._open);     
-      self.leftMenu.toggle();
-      tuta.forms.frmTripHistory.show();
-    };
-    this.control("btnAboutMenu").onClick = function(button){
-      menuToggle(0, self.leftMenu._open);     
-      self.leftMenu.toggle();
-      tuta.forms.frmAboutTuta.show();
-    };
+  
+  //Cheeseburger Menu Items
+  this.control("btnMessage").onClick = function(button){
+    menuToggle(0, self.leftMenu._open);     
+    self.leftMenu.toggle();
+    tuta.forms.frmMessageMain.show();
+  };
+  this.control("btnBooking").onClick = function(button){
+    menuToggle(0, self.leftMenu._open);     
+    self.leftMenu.toggle();
+    tuta.forms.frmBookingsMain.show();
+  };
+  this.control("btnHelp").onClick = function(button){
+    menuToggle(0, self.leftMenu._open);     
+    self.leftMenu.toggle();
+    tuta.forms.frmLogIssue.show();
+  };
+  this.control("btnTripHistory").onClick = function(button){
+    menuToggle(0, self.leftMenu._open);     
+    self.leftMenu.toggle();
+    tuta.forms.frmTripHistory.show();
+  };
+  this.control("btnAboutMenu").onClick = function(button){
+    menuToggle(0, self.leftMenu._open);     
+    self.leftMenu.toggle();
+    tuta.forms.frmAboutTuta.show();
+  };
 
   //Activate Taxi?
   this.control("btnTaxiActivateCheck").onClick = function(button){
@@ -169,7 +170,8 @@ tuta.forms.frm004Home = function() {
   this.control("btnSignOut").onClick = function (button) {
     tuta.forms.frm001LoginScreen.show();
   };
-};
+};//End of PreShow
+
   //PostShow does not work on android
   tuta.forms.frm004Home.onPostShow = function(form) {
     var self = this;

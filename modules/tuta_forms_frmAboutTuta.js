@@ -13,12 +13,6 @@ tuta.forms.frmAboutTuta = function() {
   // Initialize form events	
   tuta.forms.frmAboutTuta.onInit = function(form) {
       
-    
-      	
-      /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
   };  
   
   tuta.forms.frmAboutTuta.onPreShow = function(form) {
