@@ -547,6 +547,25 @@ function frm003CheckboxToggle(widget){
   }
 }
 
+function menuToggle(time, bool){
+  if(bool === true){
+    frm004Home.imgChsO.setVisibility(false);
+    frm004Home.flexDarken.setVisibility(false);
+    kony.timer.schedule("chsC", function(){
+      frm004Home.imgChsC.setVisibility(true);
+      frm004Home["btnChs"]["height"] = "55dp";
+    }, time, false);      
+  }
+  else{
+    frm004Home.imgChsC.setVisibility(false);
+    frm004Home.flexDarken.setVisibility(true);
+    kony.timer.schedule("chsO", function(){
+      frm004Home.imgChsO.setVisibility(true);
+      frm004Home["btnChs"]["height"] = "100%";
+    }, time, false);  
+  }         
+}
+
 
 var menuOpen = false;
 function animateMenu(){

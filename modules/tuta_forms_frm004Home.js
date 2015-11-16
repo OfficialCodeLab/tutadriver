@@ -32,22 +32,7 @@ tuta.forms.frm004Home = function() {
       based on current state.
     */
     this.control("btnChs").onClick = function(button) {
-      if(self.leftMenu._open === true){
-        frm004Home.imgChsO.setVisibility(false);
-        frm004Home.flexDarken.setVisibility(false);
-        kony.timer.schedule("chsC", function(){
-          frm004Home.imgChsC.setVisibility(true);
-          frm004Home["btnChs"]["height"] = "55dp";
-        }, 0.3, false);      
-      }
-      else{
-        frm004Home.imgChsC.setVisibility(false);
-        frm004Home.flexDarken.setVisibility(true);
-        kony.timer.schedule("chsO", function(){
-          frm004Home.imgChsO.setVisibility(true);
-          frm004Home["btnChs"]["height"] = "100%";
-        }, 0.3, false);  
-      }      
+      menuToggle(0.3, self.leftMenu._open);     
       self.leftMenu.toggle();
     };
     
@@ -141,6 +126,32 @@ tuta.forms.frm004Home = function() {
     kony.timer.schedule("custrate", function(){frm004Home["flexOverlay1"]["isVisible"] = true;
                                               }, 0.35, false);
   };
+    
+    this.control("btnMessage").onClick = function(button){
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmMessageMain.show();
+    };
+    this.control("btnBooking").onClick = function(button){
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmBookingsMain.show();
+    };
+    this.control("btnHelp").onClick = function(button){
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmLogIssue.show();
+    };
+    this.control("btnTripHistory").onClick = function(button){
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmTripHistory.show();
+    };
+    this.control("btnAboutMenu").onClick = function(button){
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmAboutTuta.show();
+    };
 
   //Activate Taxi?
   this.control("btnTaxiActivateCheck").onClick = function(button){
