@@ -12,6 +12,7 @@ tuta.forms.frmMessageCompose = function() {
 
   // Initialize form events	
   tuta.forms.frmMessageCompose.onInit = function(form) {
+    var self = this;
       
     
       	
@@ -23,8 +24,7 @@ tuta.forms.frmMessageCompose = function() {
   
   tuta.forms.frmMessageCompose.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
-    this.control("btnCancel").onClick = function (button) {tuta.forms.frmMessageMain.show();};
+    this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
     this.control("btnSend").onClick = function (button){
       frmMessageCompose.txtMessage.text = "";
       frmMessageCompose.txtSendTo.text = "";

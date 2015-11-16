@@ -37,10 +37,18 @@ tuta.forms.frm004Home = function() {
     };
     
     //Buttons for showing other forms
-    this.control("btnLegal").onClick = function (button) {tuta.forms.frmTermsConditions.show();};
+    this.control("btnLegal").onClick = function (button) {
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frmTermsConditions.show();
+    };
     this.control("btnFlagDown").onClick = function (button) {tuta.forms.frmFlagDown.show();};
     this.control("btnTestingPickup").onClick = function (button) {tuta.forms.frmPickupRequest.show();};
-    this.control("btnSignOut").onClick = function (button) {tuta.forms.frm001LoginScreen.show();};
+    this.control("btnSignOut").onClick = function (button) {
+      menuToggle(0, self.leftMenu._open);     
+      self.leftMenu.toggle();
+      tuta.forms.frm001LoginScreen.show();
+    };
 
     //Toggles visibility for destination search bar
     this.control("txtDest").onDone = function(widget) {
@@ -59,6 +67,22 @@ tuta.forms.frm004Home = function() {
       //resetSearchBar();
       searchMode = 0;
       updateConsole();
+    };
+    
+    //Handles showing of debug menu
+    this.control("btnDebugOptions").onClick = function() {
+      menuToggle(0.3, self.leftMenu._open);    
+      self.leftMenu.toggle();
+      tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "10%", null); 
+      kony.timer.schedule("darken_screen", function() {
+        frm004Home.flexDarken.setVisibility(true);}, 0.31, false); 
+    };
+
+    //Handles hiding of debug menu
+    this.control("btnCloseDebugOptions").onClick = function() {
+      frm004Home.flexDarken.setVisibility(false);
+      tuta.animate.move(frm004Home.flexDebugOptions, 0.3, "10%", "-160%", null); 
+
     };
 
   //Handles toggling button for the debug menu
