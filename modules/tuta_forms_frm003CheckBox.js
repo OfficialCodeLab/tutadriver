@@ -23,43 +23,7 @@ tuta.forms.frm003CheckBox = function() {
   
   tuta.forms.frm003CheckBox.onPreShow = function(form) {
     var self = this;
-/*
-      this.leftMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexMenu"), 
-          ssa.controls.position.LEFT,
-          ssa.controls.behavior.MOVE_OVER,
-          0.25
-      );	
-    
-      this.rightMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexRightMenu"), 
-          ssa.controls.position.RIGHT,
-          ssa.controls.behavior.OVERLAY,
-          0.25
-      );	
-    
-	  this.topMenu = new ssa.controls.menu(
-          this.control("flexMain"), 
-          this.control("flexTopMenu"), 
-          ssa.controls.position.TOP,
-          ssa.controls.behavior.MOVE_OVER,
-          0.25
-      );    
-    
-      // example of onClick event on example form for btnOne
-      this.control("btnOne").onClick = function(button) {
-        self.leftMenu.toggle();
-      };
-    
-      this.control("btnTwo").onClick = function(button) {
-        self.rightMenu.toggle();
-      };	
-     	
-      this.control("btn3").onClick = function(button) {
-        self.topMenu.toggle();
-      };*/
+
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
     this.control("btnContinue").onClick = function(button){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
     this.control("btnCheck1").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
