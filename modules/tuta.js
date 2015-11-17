@@ -300,9 +300,6 @@ function initOld(){
   frmPickupRequest.btnRightDismiss.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
   frmPickupRequest.btnCancel.onClick = function(){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
 
-
-
-
   frmPickupRequest.btnDecline.onClick = function() {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
   frmPickupRequest.btnAcceptRequest.onClick = function() {
     //TODO: START TRIP
@@ -357,13 +354,7 @@ function initOld(){
   };
 
   setUpSwipes();
-
-
-
-
-
-
-
+  
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
   kony.timer.schedule("firstinit", function () {
 

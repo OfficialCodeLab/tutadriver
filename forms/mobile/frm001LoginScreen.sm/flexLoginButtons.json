@@ -38,8 +38,8 @@
     "channel": "mobile",
     "children": [
         "btnLogin2",
-        "txfEmail",
-        "txfPassword",
+        "txtEmail",
+        "txtPassword",
         "btnForgotPass"
     ],
     "clipBounds": true,
