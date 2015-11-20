@@ -721,6 +721,18 @@ tuta.init = function() {
   	new tuta.forms.frmTripHistoryInfo();
  	application = new tuta.application(tuta.initCallback);
   
+  tuta.location.currentPosition(function(response) {
+
+    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error){
+      currentPos = success.results[0]; 
+      updateMap();
+
+
+
+    });
+  }, function(error) {
+    tuta.util.alert("Error", error);
+  });
 
 };
 

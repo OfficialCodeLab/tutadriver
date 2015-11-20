@@ -28,29 +28,35 @@ tuta.location.init = function(callback) {
 * Retrieves the current position of the app user
 **/
 tuta.location.currentPosition = function(callback) {
-  
-	kony.location.getCurrentPosition(
-    	function success(position) {
-          //callback(position);
-          
-          var nologinrequired = true;
-          if(kony.store.getItem("user") != null) {
-            model.user = JSON.parse(kony.store.getItem("user"));
-            nologinrequired = true;
-          }
-          //frmsplash action initapp ->frm map show
-          
-          model.user.location = { lat: position.coords.latitude , long: position.coords.longitude, time: position.timestamp };
-		  
-          tuta.location.geoCode(position.coords.latitude,position.coords.longitude,callback);
-        },
+
+  kony.location.getCurrentPosition(
+    function success(position) {
+      callback(position);
+    },
+
+    function error(errorMsg) {
+      callback(null,errorMsg);
+    },
+
+    { timeout: 35000, maximumAge: 0, enableHighAccuracy : true, useBestProvider : true }
+  );  
+};
+
+/**
+* Watches the current position of the app user
+**/
+tuta.location.watchPosition = function(callback) {
+
+  kony.location.watchPosition(
+    function(position) {
       
-      	function error(errorMsg) {
-          callback(null,errorMsg);
-        },
-      
-      	{ timeout: 35000, maximumAge: 0, enableHighAccuracy : true, useBestProvider : true }
-    );  
+    },
+
+    function (errorMsg) {
+    }, 
+
+    { timeout: 35000, maximumAge: 0, enableHighAccuracy : true, useBestProvider : true }
+  );
 };
 
 /** Converts numeric degrees to radians */
@@ -159,6 +165,18 @@ tuta.location.zoomLevelFromBounds = function(bounds) {
   	var GLOBE_WIDTH = 256; // a constant in Google's map projection
 	var west = bounds.southwest.lng;
 	var east = bounds.northeast.lng;
+    var angle = east - west;
+    if (angle < 0) {
+      angle += 360;
+    }
+
+    return Math.floor(Math.log(kony.os.deviceInfo().screenWidth * 360 / angle / GLOBE_WIDTH) / Math.LN2);
+};
+
+tuta.location.zoomLevelFromLatLng = function(lat, lng) {
+  	var GLOBE_WIDTH = 256; // a constant in Google's map projection
+	var west = lng;
+	var east = lng;
     var angle = east - west;
     if (angle < 0) {
       angle += 360;
@@ -376,5 +394,3 @@ tuta.location.randomPoints = function(count, lat, lon, radius) {
   
   	return points;
 };
-
-
