@@ -597,9 +597,7 @@ tuta.init = function() {
   	new tuta.forms.frm001LoginScreen();
   
   	// initialize application
- 	application = new tuta.application(tuta.initCallback);
-  
-  	new tuta.forms.frm003CheckBox();
+    new tuta.forms.frm003CheckBox();
   	new tuta.forms.frm004Home();
   	new tuta.forms.frmAboutTuta();
   	new tuta.forms.frmBooking();
@@ -613,6 +611,9 @@ tuta.init = function() {
   	new tuta.forms.frmTermsConditions();
   	new tuta.forms.frmTripHistory();
   	new tuta.forms.frmTripHistoryInfo();
+ 	application = new tuta.application(tuta.initCallback);
+  
+
 };
 
 /*
