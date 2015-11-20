@@ -587,6 +587,38 @@ function animateMenu(){
 }
 
 tuta.initCallback = function(error) {
+  application.login("techuser@ssa.co.za","T3chpassword", function(result,error) {
+    if(error) tuta.util.alert("Login Error", error);  
+    else
+    {
+      var input = null;
+      input = kony.store.getItem("user");
+      if (input !== null){
+        try{
+          application.service("userService").invokeOperation(
+            "login", {}, JSON.parse(input),
+            function(result) {
+              //tuta.util.alert("LOGIN SUCCESS", result.value);
+              tuta.forms.frm004Home.show();
+              kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+              //tuta.forms.frm003CheckBox.show();
+            },
+            function(error) {
+              // the service returns 403 (Not Authorised) if credentials are wrong
+              tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+            }
+          );
+        }
+        catch (ex){
+          tuta.util.alert("Error", ex);
+        }
+      }  
+      else{
+        tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", "0", null);
+      }
+    }
+  });
+  
 
 };
 
