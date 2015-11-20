@@ -49,7 +49,6 @@
         "btnDemo",
         "flexDemoShadow",
         "flexActive",
-        "btnAssignBooking",
         "btnTestBookings"
     ],
     "clipBounds": true,

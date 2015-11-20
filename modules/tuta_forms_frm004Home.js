@@ -198,13 +198,13 @@ tuta.forms.frm004Home = function() {
     
     
     
-  this.control("btnTestBookings").onClick = function(button){
-   tuta.retrieveBookings(); 
-  };
+ // this.control("btnTestBookings").onClick = function(button){
+  // tuta.retrieveBookings(); 
+  //};
     
-    this.control("btnAssignBooking").onClick = function(button){
-   tuta.assignBooking(); 
-  };
+    
+    
+    
     
 };//End of PreShow
 
@@ -214,6 +214,13 @@ tuta.forms.frm004Home = function() {
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
+    
+    kony.timer.cancel("awaitBookings");
+    
+    kony.timer.schedule("awaitBookings", function(){
+      if(driver_state === 1)
+        tuta.retrieveBookings();     	
+    }, 5, true);
   };
 };
 

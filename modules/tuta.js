@@ -587,16 +587,22 @@ function animateMenu(){
 }
 
 var loggedUser = null;
-
+var currentBooking = null;
 tuta.retrieveBookings = function(){
 
-  var input = {userid : "serv8@ssa.co.za", status : "OnRoute"};
+  var input = {userid : "serv8@ssa.co.za", status : "Unconfirmed"};
   application.service("driverService").invokeOperation(
     "bookings", {}, input, 
     function(results){
-      for(var i = 0; i < results.value.length; i++){
-        tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
-      }
+      //for(var i = 0; i < results.value.length; i++){
+      //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
+     // }
+      currentBooking = results.value[0].id;
+      tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+      frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      updateConsole();
+      tuta.forms.frmPickupRequest.show();
 
     }, function(error){
 		tuta.util.alert("ERROR", error);
@@ -613,7 +619,22 @@ tuta.acceptBooking = function(bookingID){
   application.service("driverService").invokeOperation(
     "acceptBooking", {}, input, 
     function(results){
-      tuta.util.alert("TEST", JSON.stringify(results));
+      //tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+  
+};
+
+tuta.rejectBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "rejectBooking", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      currentBooking = null;
 
     }, function(error){
 		tuta.util.alert("ERROR", error);

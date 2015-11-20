@@ -45,8 +45,8 @@
     "height": "50dp",
     "id": "btnTestBookings",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "4fbcadfeeccf4625bb019693913ff820",
     "left": "54dp",
     "margin": [
