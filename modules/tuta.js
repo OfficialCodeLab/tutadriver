@@ -18,7 +18,7 @@ Variables
 
 =============================================================================*/
 
-var currentLocation = "";
+var currentLocation;
 
 //Code for handling stars in rating menu
 var star = [];
@@ -233,8 +233,8 @@ function initOld(){
   };
 
   frm004Home.mapMain.onClick = function(map, location) {
-    frm004Home.flexAddressList.setVisibility(false);
-    frm004Home.flexAddressShadow.setVisibility(false);
+  //  frm004Home.flexAddressList.setVisibility(false);
+  //  frm004Home.flexAddressShadow.setVisibility(false);
     //kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
     //resetSearchBar();
     searchMode = 0;
@@ -356,6 +356,12 @@ function initOld(){
   setUpSwipes();
   
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
+  
+  
+  
+  //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
+  
+  
   kony.timer.schedule("firstinit", function () {
 
     //ustuck.init(function(response) {
@@ -370,6 +376,10 @@ function initOld(){
     //});
 
   }, 0.1, false);
+ 
+  //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
+  
+  
 
 
   /*  kony.timer.schedule("init", function () {
@@ -501,25 +511,50 @@ function setUpSwipes(){
 
 
 function updateMap() {
-  frm004Home.mapMain.zoomLevel = 15;
-  //frmMap.mapMain.locationData
-  // setZoomLevelFromBounds();
+ // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
+
   var pickupicon = "";
   //if(frm004Home.flexAddress.isVisible == false)
-  pickupicon = "cabpin0.png";
+   // pickupicon = "pickupicon.png";
 
 
   var locationData = [];
   locationData.push(
-    {lat: "" + currentLocation.geometry.location.lat + "", 
-     lon: "" + currentLocation.geometry.location.lng + "", 
-     name:"Current Location", 
-     desc: currentLocation.formatted_address.replace(/`+/g,""), 
+    {lat: "" + currentPos.geometry.location.lat + "", 
+     lon: "" + currentPos.geometry.location.lng + "", 
+     name:"Pickup Location", 
+     desc: currentPos.formatted_address.replace(/`+/g,""), 
      image : pickupicon + ""});
 
-
-
   frm004Home.mapMain.locationData = locationData;
+
+  //frmMap.mapMain.zoomLevel = 10;
+  //frmMap.mapMain.locationData
+  // setZoomLevelFromBounds();
+  /*
+  var pickupicon = "";
+  if(frmMap.flexAddress.isVisible == false)
+  	pickupicon = "pickupicon.png";
+
+
+  var locationData = [];
+  locationData.push(
+    {lat: "" + pickupPoint.geometry.location.lat + "", 
+     lon: "" + pickupPoint.geometry.location.lng + "", 
+     name:"Pickup Location", 
+     desc: pickupPoint.formatted_address.replace(/`+/g,""), 
+     image : pickupicon + ""});
+
+  if(destination != null) {
+    locationData.push(
+      {lat: "" + destination.geometry.location.lat + "", 
+       lon: "" + destination.geometry.location.lng + "", 
+       name:"Destination", 
+       desc: destination.formatted_address.replace(/`+/g,""), 
+       image : "dropofficon.png"});  
+  }
+
+  frmMap.mapMain.locationData = locationData;*/
 }
 
 function updateConsole(){
@@ -600,7 +635,7 @@ tuta.initCallback = function(error) {
             function(result) {
               //tuta.util.alert("LOGIN SUCCESS", result.value);
               tuta.forms.frm004Home.show();
-              //kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+              kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
               //tuta.forms.frm003CheckBox.show();
             },
             function(error) {
@@ -618,9 +653,50 @@ tuta.initCallback = function(error) {
       }
     }
   });
-  
-
 };
+
+var watchID = null;
+var initialized = 0;
+tuta.startWatchLocation = function(){
+  try{
+    watchID = kony.store.getItem("watch");
+    if(watchID === null){
+      watchID = kony.location.watchPosition(
+        function(position) {
+          kony.store.removeItem("watch");
+          kony.store.setItem("watch", watchID);
+          tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
+            currentPos = s.results[0];
+            updateMap();
+          });
+
+        },
+
+        function (errorMsg) {
+          //if(errorMsg.code !==3 )
+            //tuta.util.alert("ERROR", errorMsg);
+        }, 
+
+        { timeout: 35000, maximumAge: 5000, enableHighAccuracy : true }
+      );
+
+
+      initialized = 1;
+    }
+    else
+    {
+      kony.location.clearWatch(watchID);
+      kony.store.removeItem("watch");
+      watchID = null;
+      tuta.startWatchLocation();
+    }
+  }
+  catch(ex){
+    tuta.util.alert("TEST", ex);
+  }
+};
+
+
 
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
