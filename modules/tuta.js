@@ -600,7 +600,7 @@ tuta.initCallback = function(error) {
             function(result) {
               //tuta.util.alert("LOGIN SUCCESS", result.value);
               tuta.forms.frm004Home.show();
-              kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+              //kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
               //tuta.forms.frm003CheckBox.show();
             },
             function(error) {
