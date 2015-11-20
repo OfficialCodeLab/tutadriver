@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "49dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_text_": "Assign",
+    "_top_": {
+        "type": "string",
+        "value": "262dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": "50dp",
+    "id": "btnAssignBooking",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "dbc84f2599274191971d63411776348c",
+    "left": "49dp",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMapScreen",
+    "pf": "frm004Home",
+    "render": true,
+    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "text": "Assign",
+    "top": "262dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "260dp",
+    "zIndex": 69,
+    "zindex": 69
+}

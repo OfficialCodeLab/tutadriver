@@ -192,8 +192,20 @@ tuta.forms.frm004Home = function() {
 
   //Sign-out button
   this.control("btnSignOut").onClick = function (button) {
+    loggedUser = null;
     tuta.forms.frm001LoginScreen.show();
   };
+    
+    
+    
+  this.control("btnTestBookings").onClick = function(button){
+   tuta.retrieveBookings(); 
+  };
+    
+    this.control("btnAssignBooking").onClick = function(button){
+   tuta.assignBooking(); 
+  };
+    
 };//End of PreShow
 
   //PostShow does not work on android

@@ -12,9 +12,7 @@ tuta.forms.frm001LoginScreen = function() {
 
   // Initialize form events	
   tuta.forms.frm001LoginScreen.onInit = function(form) {
-    application.login("techuser@ssa.co.za","T3chpassword",function(result,error){
-      if(error) tuta.util.alert("Login error", error);
-    })
+    
       
   };  
   
@@ -45,6 +43,7 @@ tuta.forms.frm001LoginScreen = function() {
           	"login", {}, inputs,
             function(result) {
  				//tuta.util.alert("LOGIN SUCCESS", result.value);
+              loggedUser = inputs.userName;
               self.moveLoginButtons.toggle();
               tuta.forms.frm003CheckBox.show();
             },

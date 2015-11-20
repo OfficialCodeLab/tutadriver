@@ -586,8 +586,60 @@ function animateMenu(){
   }
 }
 
-tuta.initCallback = function(error) {
+var loggedUser = null;
 
+tuta.retrieveBookings = function(){
+
+  var input = {userid : "serv8@ssa.co.za", status : "OnRoute"};
+  application.service("driverService").invokeOperation(
+    "bookings", {}, input, 
+    function(results){
+      for(var i = 0; i < results.value.length; i++){
+        tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
+      }
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+
+  
+  
+  
+};
+
+tuta.acceptBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "acceptBooking", {}, input, 
+    function(results){
+      tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+  
+};
+
+tuta.assignBooking = function(){
+  
+  var inputdata = {providerId : "serv8@ssa.co.za"};
+  var input = {data: JSON.stringify(inputdata), id : "RoDgyMotuFrY1dCb"};
+  application.service("manageService").invokeOperation(
+    "bookingUpdate", {}, input, 
+    function(results){
+      tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+};
+
+
+tuta.initCallback = function(error) {
+application.login("techuser@ssa.co.za","T3chpassword",function(result,error){
+      if(error) tuta.util.alert("Login error", error);
+    });
 };
 
 // Should be called in the App init lifecycle event
@@ -595,9 +647,6 @@ tuta.initCallback = function(error) {
 tuta.init = function() {
   	// initialize form controllers
   	new tuta.forms.frm001LoginScreen();
-  
-  	// initialize application
- 	application = new tuta.application(tuta.initCallback);
   
   	new tuta.forms.frm003CheckBox();
   	new tuta.forms.frm004Home();
@@ -613,6 +662,9 @@ tuta.init = function() {
   	new tuta.forms.frmTermsConditions();
   	new tuta.forms.frmTripHistory();
   	new tuta.forms.frmTripHistoryInfo();
+  
+  	// initialize application
+ 	application = new tuta.application(tuta.initCallback);
 };
 
 /*
