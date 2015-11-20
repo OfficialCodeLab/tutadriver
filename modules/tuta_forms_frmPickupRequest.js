@@ -26,7 +26,8 @@ tuta.forms.frmPickupRequest = function() {
     this.control("btnDecline").onClick = function(button) {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
     this.control("btnAcceptRequest").onClick = function(button) {
       tuta.acceptBooking(currentBooking);
-     	tuta.forms.frm004Home.show();
+      tuta.forms.frm004Home.show();;
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
       //TODO: START TRIP
       //pickupRequest();
       //frm004Home.show();

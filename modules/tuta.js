@@ -602,14 +602,42 @@ tuta.retrieveBookings = function(){
       tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
       frm004Home.imgSwitchBg.src = "switchbgoff.png";
       updateConsole();
-      tuta.forms.frmPickupRequest.show();
+      tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
 
     }, function(error){
 		tuta.util.alert("ERROR", error);
     });
 
-  
-  
+};
+
+function shortenText (str, len){
+  var newStr = "";
+  if(str.length > len)
+    newStr = str.substring(0, (len-1)) + "...";
+
+  return newStr;
+}
+
+tuta.pickupRequestInfo = function(userID, address){
+
+  var input = {id : userID};
+  application.service("userService").invokeOperation(
+    "user", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
+      frmPickupRequest.rtPickupLocation.text = address;
+      tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error){
+        var loc = success.results[0].formatted_address.replace(/`+/g,""); 
+        loc = shortenText(loc, 25);
+        frmPickupRequest.lblViaPath.text = loc;
+        tuta.forms.frmPickupRequest.show();
+      });
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
   
 };
 
