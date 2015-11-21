@@ -44,12 +44,13 @@ tuta.forms.frm001LoginScreen = function() {
             // tuta.util.alert("LOGIN SUCCESS", result.value);
             self.control("txtEmail").text = "";
             self.control("txtPassword").text = "";
+            loggedUser = inputs.userName;
 
             //Creates a new item, "user", in the store. 
             //User is the key / ID, and contains a JSON structure as a value
             kony.store.setItem("user", JSON.stringify(inputs));
             self.moveLoginButtons.toggle();
-            tuta.forms.frm004Home.show();
+            tuta.forms.frm003CheckBox.show();
             //tuta.forms.frm003CheckBox.show();
           },
           function(error) {
@@ -58,7 +59,6 @@ tuta.forms.frm001LoginScreen = function() {
             self.control("txtPassword").text = "";
           }
         );
-
       }
 
 

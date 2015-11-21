@@ -621,6 +621,7 @@ function animateMenu(){
   }
 }
 
+
 tuta.initCallback = function(error) {
   application.login("techuser@ssa.co.za","T3chpassword", function(result,error) {
     if(error) tuta.util.alert("Login Error", error);  
@@ -654,6 +655,30 @@ tuta.initCallback = function(error) {
     }
   });
 };
+
+var loggedUser = null;
+var currentBooking = null;
+tuta.retrieveBookings = function(){
+
+  var input = {userid : "serv8@ssa.co.za", status : "Unconfirmed"};
+  application.service("driverService").invokeOperation(
+    "bookings", {}, input, 
+    function(results){
+      //for(var i = 0; i < results.value.length; i++){
+      //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
+     // }
+      currentBooking = results.value[0].id;
+      tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+      frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      updateConsole();
+      tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+
 
 var watchID = null;
 var initialized = 0;
@@ -697,6 +722,82 @@ tuta.startWatchLocation = function(){
 };
 
 
+function shortenText (str, len){
+  var newStr = "";
+  if(str.length > len)
+    newStr = str.substring(0, (len-1)) + "...";
+
+  return newStr;
+}
+
+tuta.pickupRequestInfo = function(userID, address){
+
+  var input = {id : userID};
+  application.service("userService").invokeOperation(
+    "user", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
+      frmPickupRequest.rtPickupLocation.text = address;
+      tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error){
+        var loc = success.results[0].formatted_address.replace(/`+/g,""); 
+        loc = shortenText(loc, 25);
+        frmPickupRequest.lblViaPath.text = loc;
+        tuta.forms.frmPickupRequest.show();
+      });
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+  
+};
+
+tuta.acceptBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "acceptBooking", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+  
+};
+
+tuta.rejectBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "rejectBooking", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      currentBooking = null;
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+  
+};
+
+tuta.assignBooking = function(){
+  
+  var inputdata = {providerId : "serv8@ssa.co.za"};
+  var input = {data: JSON.stringify(inputdata), id : "RoDgyMotuFrY1dCb"};
+  application.service("manageService").invokeOperation(
+    "bookingUpdate", {}, input, 
+    function(results){
+      tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+		tuta.util.alert("ERROR", error);
+    });
+};
+
+
+
+
 
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
@@ -704,6 +805,7 @@ tuta.init = function() {
   	// initialize form controllers
   	new tuta.forms.frm001LoginScreen();
   
+
   	// initialize application
     new tuta.forms.frm003CheckBox();
   	new tuta.forms.frm004Home();
@@ -719,6 +821,7 @@ tuta.init = function() {
   	new tuta.forms.frmTermsConditions();
   	new tuta.forms.frmTripHistory();
   	new tuta.forms.frmTripHistoryInfo();
+
  	application = new tuta.application(tuta.initCallback);
   
   tuta.location.currentPosition(function(response) {
@@ -733,6 +836,7 @@ tuta.init = function() {
   }, function(error) {
     tuta.util.alert("Error", error);
   });
+
 
 };
 
