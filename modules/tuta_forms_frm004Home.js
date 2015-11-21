@@ -69,6 +69,12 @@ tuta.forms.frm004Home = function() {
       updateConsole();
     };
     
+    this.control("btnOptionDebug1").onClick = function() {
+      menuToggle(0.3, self.leftMenu._open);    
+      self.leftMenu.toggle();
+      tuta.forms.frmDebug.show();
+    };
+    
     //Handles showing of debug menu
     this.control("btnDebugOptions").onClick = function() {
       menuToggle(0.3, self.leftMenu._open);    

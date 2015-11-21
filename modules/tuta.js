@@ -739,6 +739,17 @@ function shortenText (str, len){
   return newStr;
 }
 
+function toggleImage(widget){
+  //var widget = toggleImage;
+  if (widget.isVisible === false)
+  {
+    widget["isVisible"] = true;
+  }
+  else{
+    widget["isVisible"] = false;
+  }
+}
+
 tuta.pickupRequestInfo = function(userID, address){
 
   var input = {id : userID};
@@ -816,6 +827,7 @@ tuta.init = function() {
   	new tuta.forms.frm004Home();
   	new tuta.forms.frmAboutTuta();
   	new tuta.forms.frmBooking();
+  	new tuta.forms.frmDebug();
   	new tuta.forms.frmBookingsMain();
   	new tuta.forms.frmFlagDown();
   	new tuta.forms.frmLogIssue();
