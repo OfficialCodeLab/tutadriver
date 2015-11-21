@@ -513,7 +513,7 @@ function setUpSwipes(){
 function updateMap() {
  // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
-  var pickupicon = "";
+  var pickupicon = "cabpin0.png";
   //if(frm004Home.flexAddress.isVisible == false)
    // pickupicon = "pickupicon.png";
 
@@ -627,6 +627,9 @@ tuta.initCallback = function(error) {
     if(error) tuta.util.alert("Login Error", error);  
     else
     {
+      tuta.location.loadPositionInit();
+      kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+      /*
       var input = null;
       input = kony.store.getItem("user");
       if (input !== null){
@@ -651,16 +654,18 @@ tuta.initCallback = function(error) {
       }  
       else{
         tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", "0", null);
-      }
+      }*/
     }
   });
+  
 };
 
 var loggedUser = null;
 var currentBooking = null;
 tuta.retrieveBookings = function(){
 
-  var input = {userid : "serv8@ssa.co.za", status : "Unconfirmed"};
+  var user = JSON.parse(kony.store.getItem("user"));
+  var input = {userid : user.userName, status : "Unconfirmed"};
   application.service("driverService").invokeOperation(
     "bookings", {}, input, 
     function(results){
@@ -678,6 +683,7 @@ tuta.retrieveBookings = function(){
     }, function(error){
 		tuta.util.alert("ERROR", error);
     });
+  }
 
 
 var watchID = null;
@@ -693,6 +699,8 @@ tuta.startWatchLocation = function(){
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
             currentPos = s.results[0];
             updateMap();
+            
+            tuta.location.updateLocationOnServer(s.results[0]);
           });
 
         },
@@ -720,6 +728,7 @@ tuta.startWatchLocation = function(){
     tuta.util.alert("TEST", ex);
   }
 };
+
 
 
 function shortenText (str, len){
@@ -795,10 +804,6 @@ tuta.assignBooking = function(){
     });
 };
 
-
-
-
-
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
 tuta.init = function() {
@@ -824,20 +829,6 @@ tuta.init = function() {
 
  	application = new tuta.application(tuta.initCallback);
   
-  tuta.location.currentPosition(function(response) {
-
-    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error){
-      currentPos = success.results[0]; 
-      updateMap();
-
-
-
-    });
-  }, function(error) {
-    tuta.util.alert("Error", error);
-  });
-
-
 };
 
 /*
