@@ -26,7 +26,7 @@ var lastStarSelected = 0;
 var toggleImage;
 
 if (typeof(tuta) === "undefined") {
-	tuta = {};
+  tuta = {};
 }
 
 // global reference to your app object
@@ -192,7 +192,7 @@ function initOld(){
       updateConsole();
     }
   };
-  
+
   frm004Home.btnResetState.onClick = function(){
     tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
     tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
@@ -233,8 +233,8 @@ function initOld(){
   };
 
   frm004Home.mapMain.onClick = function(map, location) {
-  //  frm004Home.flexAddressList.setVisibility(false);
-  //  frm004Home.flexAddressShadow.setVisibility(false);
+    //  frm004Home.flexAddressList.setVisibility(false);
+    //  frm004Home.flexAddressShadow.setVisibility(false);
     //kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
     //resetSearchBar();
     searchMode = 0;
@@ -354,14 +354,14 @@ function initOld(){
   };
 
   setUpSwipes();
-  
+
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
-  
-  
-  
+
+
+
   //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
-  
-  
+
+
   kony.timer.schedule("firstinit", function () {
 
     //ustuck.init(function(response) {
@@ -376,10 +376,10 @@ function initOld(){
     //});
 
   }, 0.1, false);
- 
+
   //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
-  
-  
+
+
 
 
   /*  kony.timer.schedule("init", function () {
@@ -504,18 +504,18 @@ function setUpSwipes(){
     frm004Home.show();
     tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve pickup requests");    
   }
-    
-    
+
+
     //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
 }*/
 
 
 function updateMap() {
- // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
+  // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
   var pickupicon = "cabpin0.png";
   //if(frm004Home.flexAddress.isVisible == false)
-   // pickupicon = "pickupicon.png";
+  // pickupicon = "pickupicon.png";
 
 
   var locationData = [];
@@ -657,7 +657,7 @@ tuta.initCallback = function(error) {
       }*/
     }
   });
-  
+
 };
 
 var loggedUser = null;
@@ -671,7 +671,7 @@ tuta.retrieveBookings = function(){
     function(results){
       //for(var i = 0; i < results.value.length; i++){
       //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
-     // }
+      // }
       currentBooking = results.value[0].id;
       tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
       tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
@@ -681,9 +681,9 @@ tuta.retrieveBookings = function(){
       //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
-  }
+}
 
 
 var watchID = null;
@@ -699,7 +699,7 @@ tuta.startWatchLocation = function(){
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
             currentPos = s.results[0];
             updateMap();
-            
+
             tuta.location.updateLocationOnServer(s.results[0]);
           });
 
@@ -707,7 +707,7 @@ tuta.startWatchLocation = function(){
 
         function (errorMsg) {
           //if(errorMsg.code !==3 )
-            //tuta.util.alert("ERROR", errorMsg);
+          //tuta.util.alert("ERROR", errorMsg);
         }, 
 
         { timeout: 35000, maximumAge: 5000, enableHighAccuracy : true }
@@ -767,10 +767,40 @@ tuta.pickupRequestInfo = function(userID, address){
       });
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
-  
+
 };
+
+tuta.renderRouteAndUser = function (booking){
+  tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error){
+    //tuta.util.alert("TEST", JSON.stringify(success));
+    //var route;
+    //tuta.location.directions(currentPos, success.formatted_address.replace(/`+/g,""), )
+	tuta.location.directions(currentPos,success.results[0],null,function(response) {
+      //tuta.util.alert("TEST", JSON.stringify(response));
+          tuta.location.renderDirections(frmMap.mapMain, response, "0x0000FFFF","ellipsecs.png","ellipsecs.png", "1");
+    }, "1");
+    /*
+    var input = {origin: currentPos.formatted_address, destination: success.results[0].formatted_address}        
+
+    application.service("locationService").invokeOperation(
+      "findDirections", {}, input, 
+      function(result){
+        tuta.util.alert("TEST", JSON.stringify(result));
+        tuta.location.renderDirections(frmMap.mapMain, result, "0xFF0000FF", "", "", "");
+      },
+      function (error){
+        tuta.util.alert("ERROR", error);
+
+      });*/
+
+    //renderDirections(frmMap.mapMain, finalroute, "0x0000FFFF","pickupicon.png","dropofficon.png");
+
+  });
+
+};
+
 
 tuta.acceptBooking = function(bookingID){
 
@@ -780,10 +810,12 @@ tuta.acceptBooking = function(bookingID){
     function(results){
       //tuta.util.alert("TEST", JSON.stringify(results));
 
+      tuta.renderRouteAndUser(results.value[0]);
+
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
-  
+
 };
 
 tuta.rejectBooking = function(bookingID){
@@ -796,13 +828,13 @@ tuta.rejectBooking = function(bookingID){
       currentBooking = null;
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
-  
+
 };
 
 tuta.assignBooking = function(){
-  
+
   var inputdata = {providerId : "serv8@ssa.co.za"};
   var input = {data: JSON.stringify(inputdata), id : "RoDgyMotuFrY1dCb"};
   application.service("manageService").invokeOperation(
@@ -811,36 +843,36 @@ tuta.assignBooking = function(){
       tuta.util.alert("TEST", JSON.stringify(results));
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
 };
 
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
 tuta.init = function() {
-  	// initialize form controllers
-  	new tuta.forms.frm001LoginScreen();
-  
+  // initialize form controllers
+  new tuta.forms.frm001LoginScreen();
 
-  	// initialize application
-    new tuta.forms.frm003CheckBox();
-  	new tuta.forms.frm004Home();
-  	new tuta.forms.frmAboutTuta();
-  	new tuta.forms.frmBooking();
-  	new tuta.forms.frmDebug();
-  	new tuta.forms.frmBookingsMain();
-  	new tuta.forms.frmFlagDown();
-  	new tuta.forms.frmLogIssue();
-  	new tuta.forms.frmMessageMain();
-  	new tuta.forms.frmMessageCompose();
-  	new tuta.forms.frmMessageRead();
-  	new tuta.forms.frmPickupRequest();
-  	new tuta.forms.frmTermsConditions();
-  	new tuta.forms.frmTripHistory();
-  	new tuta.forms.frmTripHistoryInfo();
 
- 	application = new tuta.application(tuta.initCallback);
-  
+  // initialize application
+  new tuta.forms.frm003CheckBox();
+  new tuta.forms.frm004Home();
+  new tuta.forms.frmAboutTuta();
+  new tuta.forms.frmBooking();
+  new tuta.forms.frmDebug();
+  new tuta.forms.frmBookingsMain();
+  new tuta.forms.frmFlagDown();
+  new tuta.forms.frmLogIssue();
+  new tuta.forms.frmMessageMain();
+  new tuta.forms.frmMessageCompose();
+  new tuta.forms.frmMessageRead();
+  new tuta.forms.frmPickupRequest();
+  new tuta.forms.frmTermsConditions();
+  new tuta.forms.frmTripHistory();
+  new tuta.forms.frmTripHistoryInfo();
+
+  application = new tuta.application(tuta.initCallback);
+
 };
 
 /*
