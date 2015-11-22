@@ -32,6 +32,9 @@ if (typeof(tuta) === "undefined") {
 // global reference to your app object
 var application = null; 
 
+//Debug Testing Variables
+var storedBookingID = null;
+//End of debug Variables
 
 /*
 	This is a hack so you can use this framework in
@@ -809,8 +812,8 @@ tuta.acceptBooking = function(bookingID){
     "acceptBooking", {}, input, 
     function(results){
       //tuta.util.alert("TEST", JSON.stringify(results));
-
-      tuta.renderRouteAndUser(results.value[0]);
+      tuta.util.alert("Test Results", results.value[0]);
+      //tuta.renderRouteAndUser(results.value[0]);
 
     }, function(error){
       tuta.util.alert("ERROR", error);

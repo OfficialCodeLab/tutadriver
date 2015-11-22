@@ -22,11 +22,12 @@ tuta.forms.frmPickupRequest = function() {
     this.control("btnLeftDismiss").onClick = function(button){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
     this.control("btnRightDismiss").onClick = function(button){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
     this.control("btnCancel").onClick = function(button){frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;}
-
+    
     this.control("btnDecline").onClick = function(button) {frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;};
+    
     this.control("btnAcceptRequest").onClick = function(button) {
       tuta.acceptBooking(currentBooking);
-      tuta.forms.frm004Home.show();;
+      tuta.forms.frm004Home.show();
       tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
       //TODO: START TRIP
       //pickupRequest();

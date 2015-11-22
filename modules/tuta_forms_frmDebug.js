@@ -26,14 +26,18 @@ tuta.forms.frmDebug = function() {
 
     this.control("btnTickPress2").onClick = function (button) {    
       toggleImage(frmDebug.imgTickIcon2);
-
     };
+    
     this.control("btnTickPress3").onClick = function (button){
       toggleImage(frmDebug.imgTickIcon3);
     };
 
     this.control("btnTickPress4").onClick = function (button){
       toggleImage(frmDebug.imgTickIcon4);
+    };
+
+    this.control("btnTickPress5").onClick = function (button){
+      
     };
 
   };//END OF PRE-SHOW
