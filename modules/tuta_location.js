@@ -249,6 +249,7 @@ tuta.location.decodePoly = function(encoded) {
 // decode the poly lines for an entire route
 tuta.location.decodeRoute = function(routes, count) {
   	var path = [];
+  var leg;
   	
     for(var i =0; i < routes[count].legs.length; i++) {
     leg = routes[count].legs[i];
@@ -265,6 +266,7 @@ tuta.location.decodeRoute = function(routes, count) {
 */
 tuta.location.decodeRouteAndInfo = function(routes, count) {
   	var route = {};
+  var leg;
   	route.path = [];
   	route.info = [];
   	route.distance = 0;
@@ -280,7 +282,7 @@ tuta.location.decodeRouteAndInfo = function(routes, count) {
           route.path = route.path.concat(tuta.location.decodePoly(step.polyline.points));
         }
   	}
-  	return path;
+  	return route.path;
 };
 
 tuta.location.renderDirections = function(object, directions, color, startpin, endpin, pid) {
@@ -290,8 +292,8 @@ tuta.location.renderDirections = function(object, directions, color, startpin, e
   var bounds = mainRoute.bounds;
   var leg = mainRoute.legs[0];
   var overView = mainRoute.overview_polyline;
-  var routePoints = tuta.location.decodeRoute(routes,0);
-
+  var routePoints = tuta.location.decodeRoute(routes, 0);
+  
   var maplines = {
         id: "polyline" +  pid,
         startLocation:{lat: leg.start_location.lat, lon: leg.start_location.lng, name:"Pickup Location",desc:leg.start_address,image:startpin,meta:{color:"green",label:"C"}
@@ -301,7 +303,9 @@ tuta.location.renderDirections = function(object, directions, color, startpin, e
         locations: routePoints,
         polylineConfig:{lineColor:color, lineWidth:"4"}
             };
-
+  
+  if(object.locationData.length > 0) object.clear();
+  tuta.util.alert(JSON.stringify(maplines));
   object.addPolyline(maplines);
 };
 

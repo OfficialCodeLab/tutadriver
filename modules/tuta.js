@@ -513,6 +513,8 @@ function setUpSwipes(){
 function updateMap() {
   // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
+  if(driver_state !== tuta.fsm.STATES.ON_ROUTE_TO_CLEINT)
+    {
   var pickupicon = "cabpin0.png";
   //if(frm004Home.flexAddress.isVisible == false)
   // pickupicon = "pickupicon.png";
@@ -527,6 +529,8 @@ function updateMap() {
      image : pickupicon + ""});
 
   frm004Home.mapMain.locationData = locationData;
+      
+    }
 
   //frmMap.mapMain.zoomLevel = 10;
   //frmMap.mapMain.locationData
@@ -772,35 +776,21 @@ tuta.pickupRequestInfo = function(userID, address){
 
 };
 
+
 tuta.renderRouteAndUser = function (booking){
   tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error){
-    //tuta.util.alert("TEST", JSON.stringify(success));
-    //var route;
-    //tuta.location.directions(currentPos, success.formatted_address.replace(/`+/g,""), )
-	tuta.location.directions(currentPos,success.results[0],null,function(response) {
-      //tuta.util.alert("TEST", JSON.stringify(response));
-          tuta.location.renderDirections(frmMap.mapMain, response, "0x0000FFFF","ellipsecs.png","ellipsecs.png", "1");
-    }, "1");
-    /*
-    var input = {origin: currentPos.formatted_address, destination: success.results[0].formatted_address}        
-
-    application.service("locationService").invokeOperation(
-      "findDirections", {}, input, 
-      function(result){
-        tuta.util.alert("TEST", JSON.stringify(result));
-        tuta.location.renderDirections(frmMap.mapMain, result, "0xFF0000FF", "", "", "");
-      },
-      function (error){
-        tuta.util.alert("ERROR", error);
-
-      });*/
-
-    //renderDirections(frmMap.mapMain, finalroute, "0x0000FFFF","pickupicon.png","dropofficon.png");
+    //tuta.util.alert("PICKUP", JSON.stringify(success));
+   // tuta.util.alert("SELF", JSON.stringify(currentPos));
+	getDirections(currentPos,success.results[0],null,function(response) {
+      ///tuta.util.alert("ROUTE", JSON.stringify(response));
+     kony.timer.schedule("renderDir", function(){
+        renderDirections(frm004Home.mapMain, response, "0x0000FFFF","","");
+      }, 2, false);
+    });
 
   });
 
 };
-
 
 tuta.acceptBooking = function(bookingID){
 
