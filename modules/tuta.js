@@ -775,6 +775,7 @@ tuta.pickupRequestInfo = function(userID, address){
     }, function(error){
       tuta.util.alert("ERROR", error);
     });
+}
 
 tuta.assignBooking = function(){
   
@@ -787,13 +788,6 @@ tuta.assignBooking = function(){
 
     }, function(error){
 		tuta.util.alert("ERROR", error);
-    });
-};
-
-
-tuta.initCallback = function(error) {
-application.login("techuser@ssa.co.za","T3chpassword",function(result,error){
-      if(error) tuta.util.alert("Login error", error);
     });
 };
 
@@ -889,6 +883,7 @@ tuta.init = function() {
   	new tuta.forms.frmAboutTuta();
   	new tuta.forms.frmBooking();
   	new tuta.forms.frmBookingsMain();
+  	new tuta.forms.frmDebug();
   	new tuta.forms.frmFlagDown();
   	new tuta.forms.frmLogIssue();
   	new tuta.forms.frmMessageMain();

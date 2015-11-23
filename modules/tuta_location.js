@@ -69,8 +69,8 @@ tuta.location.loadPositionInit = function(){
       currentPos = success.results[0]; 
       updateMap();
 
-      var userTemp = JSON.parse(kony.store.getItem("user"));
-      tuta.location.updateLocationOnServer(userTemp.userName, success.results[0]);
+      //var userTemp = JSON.parse(kony.store.getItem("user"));
+      //tuta.location.updateLocationOnServer(userTemp.userName, success.results[0]);
 
     });
   }, function(error) {
