@@ -525,7 +525,6 @@ function updateMap() {
      name:"Pickup Location", 
      desc: currentPos.formatted_address.replace(/`+/g,""), 
      image : "cabpin0.png"});
-  tuta.util.alert("SELF POSITION", currentPos.geometry.location.lat + " " + currentPos.geometry.location.lng);
   
   
   //if(frm004Home.flexAddress.isVisible == false)
@@ -539,9 +538,7 @@ function updateMap() {
            lon: "" + nearbyUsers[0].location.lng + "", 
            name: nearbyUsers[0].id, 
            desc: "", 
-           image : "pickupicon.png"});
-  tuta.util.alert("CLIENT POSITION", nearbyUsers[0].location.lat + " " + nearbyUsers[0].location.lng);
-    
+           image : "pickupicon.png"});    
   }
        // count++;
      // }
