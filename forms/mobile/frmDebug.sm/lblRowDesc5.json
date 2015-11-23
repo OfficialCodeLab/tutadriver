@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s7734615fe0846babe9fa0a92f5a31ca",
-    "_text_": "Animate Stored Route",
+    "_text_": "Compute Distance",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -74,7 +74,7 @@
     "pf": "frmDebug",
     "render": true,
     "skin": "s7734615fe0846babe9fa0a92f5a31ca",
-    "text": "Animate Stored Route",
+    "text": "Compute Distance",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",

@@ -108,6 +108,11 @@ tuta.location.distance = function(lat1,lon1,lat2,lon2) {
   var dO = (lat2-lat1).toRadians();
   var dA = (lon2-lon1).toRadians();
 
+  tuta.util.alert("Location Info", "\nLat 1 Rads: " + o1 + 
+    "\nLat 2 Rads: " + o2 +
+    "\nLat 2 - Lat 1: " + dO + 
+    "\nLon 2 - Lon 1:" + dA);
+
   var a = Math.sin(dO/2) * Math.sin(dO/2) +
           Math.cos(o1) * Math.cos(o2) *
           Math.sin(dA/2) * Math.sin(dA/2);

@@ -1,0 +1,19 @@
+{
+    "@odata.context": "http://localhost:8000/ustuck/services/$metadata#Bookings",
+    "value": [
+        {
+            "userId": "craig@ssa.com",
+            "address": {
+                "description": "90 Parel Valley Rd, Parel Vallei, Cape Town, 7130, South Africa"
+            },
+            "location": {
+                "lat": "-34.07534",
+                "long": "18.85197"
+            },
+            "status": "OnRoute",
+            "lastModified": 1448021102583,
+            "_id": "RoDgyMotuFrY1dCb",
+            "providerId": "serv8@ssa.co.za"
+        }
+    ]
+}

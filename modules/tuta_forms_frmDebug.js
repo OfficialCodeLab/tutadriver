@@ -37,6 +37,14 @@ tuta.forms.frmDebug = function() {
     };
 
     this.control("btnTickPress5").onClick = function (button){
+      try {
+        tuta.csShowDistance();
+      }
+      catch (exception){
+        tuta.util.alert("Something went wrong with showing the distance.");
+      }
+
+
       
     };
 
