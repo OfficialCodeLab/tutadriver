@@ -512,28 +512,45 @@ function setUpSwipes(){
     //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
 }*/
 
-
+var nearbyUsers = [];
 function updateMap() {
   // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
-  if(driver_state !== tuta.fsm.STATES.ON_ROUTE_TO_CLEINT)
-    {
-  var pickupicon = "cabpin0.png";
-  //if(frm004Home.flexAddress.isVisible == false)
-  // pickupicon = "pickupicon.png";
-
-
+  
+  
   var locationData = [];
   locationData.push(
     {lat: "" + currentPos.geometry.location.lat + "", 
      lon: "" + currentPos.geometry.location.lng + "", 
      name:"Pickup Location", 
      desc: currentPos.formatted_address.replace(/`+/g,""), 
-     image : pickupicon + ""});
+     image : "cabpin0.png"});
+  tuta.util.alert("SELF POSITION", currentPos.geometry.location.lat + " " + currentPos.geometry.location.lng);
+  
+  
+  //if(frm004Home.flexAddress.isVisible == false)
+  // pickupicon = "pickupicon.png";
+
+    //  var count = 0;
+    //  while(nearbyUsers !== [] && count <= nearbyUsers.length-1){
+  if(nearbyUsers.length > 0){
+        locationData.push(
+          {lat: "" + nearbyUsers[0].location.lat + "", 
+           lon: "" + nearbyUsers[0].location.lng + "", 
+           name: nearbyUsers[0].id, 
+           desc: "", 
+           image : "pickupicon.png"});
+  tuta.util.alert("CLIENT POSITION", nearbyUsers[0].location.lat + " " + nearbyUsers[0].location.lng);
+    
+  }
+       // count++;
+     // }
+
+    
 
   frm004Home.mapMain.locationData = locationData;
       
-    }
+    
 
   //frmMap.mapMain.zoomLevel = 10;
   //frmMap.mapMain.locationData
@@ -666,6 +683,7 @@ tuta.initCallback = function(error) {
 
 };
 
+
 var loggedUser = null;
 var currentBooking = null;
 tuta.retrieveBookings = function(){
@@ -695,6 +713,7 @@ tuta.retrieveBookings = function(){
 var watchID = null;
 var initialized = 0;
 tuta.startWatchLocation = function(){
+  tuta.startUpdateMapFunction();
   try{
     watchID = kony.store.getItem("watch");
     if(watchID === null){
@@ -704,9 +723,10 @@ tuta.startWatchLocation = function(){
           kony.store.setItem("watch", watchID);
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
             currentPos = s.results[0];
-            updateMap();
+            //updateMap();
 			var userTemp = JSON.parse(kony.store.getItem("user"));
             tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
+            
           });
 
         },
@@ -734,6 +754,13 @@ tuta.startWatchLocation = function(){
     tuta.util.alert("TEST", ex);
   }
 };
+
+tuta.startUpdateMapFunction = function(){
+  kony.timer.cancel("updateMapSlow");
+  kony.timer.schedule("updateMapSlow", function(){
+    updateMap();
+  }, 10, true);
+}
 
 
 
@@ -792,16 +819,29 @@ tuta.assignBooking = function(){
 };
 
 tuta.updateUserOnRoute = function (userId){
-  kony.timer.schedule("user" + userId, function(){
+  kony.timer.schedule("user", function(){
     application.service("userService").invokeOperation(
       "user", {}, {id: userId},
     function(result){
-      var userLocation = {
-        lat : result.value[0].location.lat,
-        lng : result.value[0].location.lng
+      nearbyUsers = []; //clear the array of users
+
+      var user = {
+        id: userId,
+        location: {
+          lat : result.value[0].location.lat,
+          lng : result.value[0].location.lng
+        }
       };
-      
-      tuta.location.updateLocationOnServer(userId, userLocation);
+
+      nearbyUsers.push(user);
+      //tuta.util.alert("USER LOCATION",JSON.stringify(result));
+
+      /*
+        This needs to be reworked to only 
+        update and not zoom in on current location.
+      */
+      //updateMap();
+      //tuta.location.updateLocationOnServer(userId, userLocation);
       
     }, function (error){
       
@@ -818,7 +858,7 @@ tuta.renderRouteAndUser = function (booking){
 	getDirections(currentPos,success.results[0],null,function(response) {
       ///tuta.util.alert("ROUTE", JSON.stringify(response));
      kony.timer.schedule("renderDir", function(){
-        renderDirections(frm004Home.mapMain, response, "0x0000FFFF","cabpin0.png","pickupicon.png");
+        renderDirections(frm004Home.mapMain, response, "0x0000FFFF","","");
        	tuta.updateUserOnRoute(booking.userId);
       }, 2, false);
     });
@@ -834,8 +874,8 @@ tuta.acceptBooking = function(bookingID){
     "acceptBooking", {}, input, 
     function(results){
       //tuta.util.alert("TEST", JSON.stringify(results));
-      tuta.util.alert("Test Results", results.value[0]);
-      //tuta.renderRouteAndUser(results.value[0]);
+      //tuta.util.alert("Test Results", results.value[0]);
+      tuta.renderRouteAndUser(results.value[0]);
 
     }, function(error){
       tuta.util.alert("ERROR", error);
