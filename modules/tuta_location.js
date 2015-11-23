@@ -28,7 +28,7 @@ tuta.location.currentPosition = function(callback) {
 };
 
 
-tuta.location.updateLocationOnServer = function(location){
+tuta.location.updateLocationOnServer = function(userId, location){
    //Update user's position on the server
   var inputData = {
     //id : JSON.parse(kony.store.getItem("user")).userName,
@@ -38,8 +38,8 @@ tuta.location.updateLocationOnServer = function(location){
     }
   };
 
-  var userTemp = JSON.parse(kony.store.getItem("user"));
-  var input = {data: JSON.stringify(inputData), id : userTemp.userName + ""};
+  //var userTemp = JSON.parse(kony.store.getItem("user"));
+  var input = {data: JSON.stringify(inputData), id : userId};
 
   //Popup displaying latitude and longitude,
   //on position change
@@ -69,7 +69,8 @@ tuta.location.loadPositionInit = function(){
       currentPos = success.results[0]; 
       updateMap();
 
-	  tuta.location.updateLocationOnServer(success.results[0]);
+      var userTemp = JSON.parse(kony.store.getItem("user"));
+      tuta.location.updateLocationOnServer(userTemp.userName, success.results[0]);
 
     });
   }, function(error) {

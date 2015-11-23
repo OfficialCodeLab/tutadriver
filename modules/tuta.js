@@ -703,8 +703,8 @@ tuta.startWatchLocation = function(){
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
             currentPos = s.results[0];
             updateMap();
-
-            tuta.location.updateLocationOnServer(s.results[0]);
+			var userTemp = JSON.parse(kony.store.getItem("user"));
+            tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
           });
 
         },
@@ -776,6 +776,25 @@ tuta.pickupRequestInfo = function(userID, address){
 
 };
 
+tuta.updateUserOnRoute = function (userId){
+  kony.timer.schedule("user" + userId, function(){
+    application.service("userService").invokeOperation(
+      "user", {}, {id: userId},
+    function(result){
+      var userLocation = {
+        lat : result.value[0].location.lat,
+        lng : result.value[0].location.lng
+      };
+      
+      tuta.location.updateLocationOnServer(userId, userLocation);
+      
+    }, function (error){
+      
+    });
+    
+  }, 8, true);
+}
+
 
 tuta.renderRouteAndUser = function (booking){
   tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error){
@@ -784,7 +803,8 @@ tuta.renderRouteAndUser = function (booking){
 	getDirections(currentPos,success.results[0],null,function(response) {
       ///tuta.util.alert("ROUTE", JSON.stringify(response));
      kony.timer.schedule("renderDir", function(){
-        renderDirections(frm004Home.mapMain, response, "0x0000FFFF","","");
+        renderDirections(frm004Home.mapMain, response, "0x0000FFFF","cabpin0.png","pickupicon.png");
+       	tuta.updateUserOnRoute(booking.userId);
       }, 2, false);
     });
 
