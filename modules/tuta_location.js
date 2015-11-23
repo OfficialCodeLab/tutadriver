@@ -8,50 +8,75 @@ if (typeof(tuta) === "undefined") {
 
 tuta.location = {};
 
-tuta.location.init = function(callback) {
-  
-  	//frmSplash.rtDebug.text = "<span>Initializing Services...</span>";
-  
-  	// create new service model
-  	model = new ustuck.services();
-
-  	// temporary variables
-  	model.user = {};
-	model.user.location = {};
-  
-  	// initialise model and specify init success function
-  	model.init(this.currentPosition(callback));
-  	//frmSplash.rtDebug.text = "<span>Retrieving Geocode...</span>";
-}
 
 /**
 * Retrieves the current position of the app user
 **/
 tuta.location.currentPosition = function(callback) {
-  
-	kony.location.getCurrentPosition(
-    	function success(position) {
-          //callback(position);
-          
-          var nologinrequired = true;
-          if(kony.store.getItem("user") != null) {
-            model.user = JSON.parse(kony.store.getItem("user"));
-            nologinrequired = true;
-          }
-          //frmsplash action initapp ->frm map show
-          
-          model.user.location = { lat: position.coords.latitude , long: position.coords.longitude, time: position.timestamp };
-		  
-          tuta.location.geoCode(position.coords.latitude,position.coords.longitude,callback);
-        },
-      
-      	function error(errorMsg) {
-          callback(null,errorMsg);
-        },
-      
-      	{ timeout: 35000, maximumAge: 0, enableHighAccuracy : true, useBestProvider : true }
-    );  
+
+  kony.location.getCurrentPosition(
+    function success(position) {
+      callback(position);
+    },
+
+    function error(errorMsg) {
+      callback(null,errorMsg);
+    },
+
+    { timeout: 35000, maximumAge: 0, enableHighAccuracy : true, useBestProvider : true }
+  );  
 };
+
+
+tuta.location.updateLocationOnServer = function(location){
+   //Update user's position on the server
+  var inputData = {
+    //id : JSON.parse(kony.store.getItem("user")).userName,
+    location : {
+      lat : location.geometry.location.lat,
+      long : location.geometry.location.lng
+    }
+  };
+
+  var userTemp = JSON.parse(kony.store.getItem("user"));
+  var input = {data: JSON.stringify(inputData), id : userTemp.userName + ""};
+
+  //Popup displaying latitude and longitude,
+  //on position change
+  // var testUserName = "Your username is: " + JSON.stringify(userTemp.userName + "\n");
+  // var testOutput = "Your current position is:\n" + "Latitude: " + JSON.stringify(inputData.location.lat) + "\nLongitude: " + JSON.stringify(inputData.location.long) + "";
+  // tuta.util.alert("Location Update", testUserName + testOutput);
+ 
+
+  //Updates server with user's current position
+  application.service("manageService").invokeOperation(
+    "userUpdate", {}, input,
+    function(result) {
+      //tuta.util.alert("TEST" + "Map updated with your current position");
+    },
+    function(error) {
+
+      // the service returns 403 (Not Authorised) if credentials are wrong
+      tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+    }
+  );
+};
+
+tuta.location.loadPositionInit = function(){
+  tuta.location.currentPosition(function(response) {
+
+    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error){
+      currentPos = success.results[0]; 
+      updateMap();
+
+	  tuta.location.updateLocationOnServer(success.results[0]);
+
+    });
+  }, function(error) {
+    tuta.util.alert("Error", error);
+  });
+};
+
 
 /** Converts numeric degrees to radians */
 if (typeof(Number.prototype.toRadians) === "undefined") {
@@ -159,6 +184,18 @@ tuta.location.zoomLevelFromBounds = function(bounds) {
   	var GLOBE_WIDTH = 256; // a constant in Google's map projection
 	var west = bounds.southwest.lng;
 	var east = bounds.northeast.lng;
+    var angle = east - west;
+    if (angle < 0) {
+      angle += 360;
+    }
+
+    return Math.floor(Math.log(kony.os.deviceInfo().screenWidth * 360 / angle / GLOBE_WIDTH) / Math.LN2);
+};
+
+tuta.location.zoomLevelFromLatLng = function(lat, lng) {
+  	var GLOBE_WIDTH = 256; // a constant in Google's map projection
+	var west = lng;
+	var east = lng;
     var angle = east - west;
     if (angle < 0) {
       angle += 360;
@@ -376,5 +413,3 @@ tuta.location.randomPoints = function(count, lat, lon, radius) {
   
   	return points;
 };
-
-

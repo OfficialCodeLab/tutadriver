@@ -69,6 +69,12 @@ tuta.forms.frm004Home = function() {
       updateConsole();
     };
     
+    this.control("btnOptionDebug1").onClick = function() {
+      menuToggle(0.3, self.leftMenu._open);    
+      self.leftMenu.toggle();
+      tuta.forms.frmDebug.show();
+    };
+    
     //Handles showing of debug menu
     this.control("btnDebugOptions").onClick = function() {
       menuToggle(0.3, self.leftMenu._open);    
@@ -192,8 +198,26 @@ tuta.forms.frm004Home = function() {
 
   //Sign-out button
   this.control("btnSignOut").onClick = function (button) {
+
+    tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0, "0%", "0", null);
+    kony.store.removeItem("user");
+    self.leftMenu.toggle();
+
+    loggedUser = null;
+
     tuta.forms.frm001LoginScreen.show();
   };
+    
+    
+    
+ // this.control("btnTestBookings").onClick = function(button){
+  // tuta.retrieveBookings(); 
+  //};
+    
+    
+    
+    
+    
 };//End of PreShow
 
   //PostShow does not work on android
@@ -202,6 +226,13 @@ tuta.forms.frm004Home = function() {
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
+    
+    kony.timer.cancel("awaitBookings");
+    
+    kony.timer.schedule("awaitBookings", function(){
+      if(driver_state === 1)
+        tuta.retrieveBookings();     	
+    }, 5, true);
   };
 };
 

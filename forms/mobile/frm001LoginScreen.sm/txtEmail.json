@@ -28,6 +28,11 @@
         "type": "string",
         "value": "80%"
     },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 4
+        }
+    },
     "autoCapitalize": "none",
     "autoComplete": false,
     "autoCorrect": false,
@@ -58,9 +63,17 @@
     "height": "45dp",
     "id": "txtEmail",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 4
+        }
+    },
     "isVisible": true,
     "isvisible": true,
+    "keyBoardStyle": "emailpad",
+    "keyboardActionLabel": 4,
+    "keyboardactionlabel": 4,
+    "keyboardstyle": "emailpad",
     "keyboardtype": "A",
     "kuid": "d033496a757f44f6a7c28069bc3b3665",
     "margin": [

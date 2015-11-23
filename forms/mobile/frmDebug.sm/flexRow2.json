@@ -1,7 +1,7 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
+    "_height_": {
         "type": "string",
         "value": "80dp"
     },
@@ -21,49 +21,38 @@
         0,
         0
     ],
-    "_skin_": "sf020406fdb3414f95ce77b159f712e0",
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "169dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": false,
-    "allowVerticalBounce": false,
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": false,
-    "bottom": "80dp",
-    "bounces": false,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flexBtnMessages",
-        "flexBtnBookings",
-        "flexBtnHelp",
-        "flexBtnTripHistory",
-        "flexBtnAbout",
-        "flexBtnDebug"
+        "lblRowDesc2",
+        "lblRadio2",
+        "imgTickIcon2",
+        "btnTickPress2"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "decelerat": false,
-    "decelerating": false,
-    "dragg": false,
-    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "horizontalScrollIndicator": false,
-    "horizontalscrollindicator": false,
-    "id": "flexScrollOptions",
+    "height": "80dp",
+    "id": "flexRow2",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "65317f838b824e1281d21f6988620d20",
+    "kuid": "bab30ab723fb4f128833ae69f74ae724",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -73,7 +62,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexScrollContainer",
+    "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -81,28 +70,18 @@
         0,
         0
     ],
-    "pagingEnabled": false,
-    "pagingenabled": false,
-    "parent": "flexMenu",
+    "parent": "flexScrollDebugContent",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "frmDebug",
     "render": true,
-    "scrollDirection": 2,
-    "scrolldirection": 2,
-    "skin": "sf020406fdb3414f95ce77b159f712e0",
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "169dp",
-    "track": false,
-    "tracking": false,
-    "verticalScrollIndicator": true,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "top": "0dp",
+    "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "100%"
 }

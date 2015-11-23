@@ -48,7 +48,8 @@
         "flexDriverFooter",
         "btnDemo",
         "flexDemoShadow",
-        "flexActive"
+        "flexActive",
+        "btnTestBookings"
     ],
     "clipBounds": true,
     "clipbounds": true,

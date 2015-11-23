@@ -18,7 +18,7 @@ Variables
 
 =============================================================================*/
 
-var currentLocation = "";
+var currentLocation;
 
 //Code for handling stars in rating menu
 var star = [];
@@ -26,7 +26,7 @@ var lastStarSelected = 0;
 var toggleImage;
 
 if (typeof(tuta) === "undefined") {
-	tuta = {};
+  tuta = {};
 }
 
 // global reference to your app object
@@ -192,7 +192,7 @@ function initOld(){
       updateConsole();
     }
   };
-  
+
   frm004Home.btnResetState.onClick = function(){
     tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
     tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
@@ -233,8 +233,8 @@ function initOld(){
   };
 
   frm004Home.mapMain.onClick = function(map, location) {
-    frm004Home.flexAddressList.setVisibility(false);
-    frm004Home.flexAddressShadow.setVisibility(false);
+    //  frm004Home.flexAddressList.setVisibility(false);
+    //  frm004Home.flexAddressShadow.setVisibility(false);
     //kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
     //resetSearchBar();
     searchMode = 0;
@@ -354,8 +354,14 @@ function initOld(){
   };
 
   setUpSwipes();
-  
+
   //frmSplash.rtDebug.text = "<span>Loading...<span>";
+
+
+
+  //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
+
+
   kony.timer.schedule("firstinit", function () {
 
     //ustuck.init(function(response) {
@@ -370,6 +376,10 @@ function initOld(){
     //});
 
   }, 0.1, false);
+
+  //<<<<<<<<<<<<NOT SURE WHAT THIS IS>>>>>>>>>>>>>>>>
+
+
 
 
   /*  kony.timer.schedule("init", function () {
@@ -494,32 +504,57 @@ function setUpSwipes(){
     frm004Home.show();
     tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve pickup requests");    
   }
-    
-    
+
+
     //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
 }*/
 
 
 function updateMap() {
-  frm004Home.mapMain.zoomLevel = 15;
-  //frmMap.mapMain.locationData
-  // setZoomLevelFromBounds();
-  var pickupicon = "";
+  // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
+
+  var pickupicon = "cabpin0.png";
   //if(frm004Home.flexAddress.isVisible == false)
-  pickupicon = "cabpin0.png";
+  // pickupicon = "pickupicon.png";
 
 
   var locationData = [];
   locationData.push(
-    {lat: "" + currentLocation.geometry.location.lat + "", 
-     lon: "" + currentLocation.geometry.location.lng + "", 
-     name:"Current Location", 
-     desc: currentLocation.formatted_address.replace(/`+/g,""), 
+    {lat: "" + currentPos.geometry.location.lat + "", 
+     lon: "" + currentPos.geometry.location.lng + "", 
+     name:"Pickup Location", 
+     desc: currentPos.formatted_address.replace(/`+/g,""), 
      image : pickupicon + ""});
 
-
-
   frm004Home.mapMain.locationData = locationData;
+
+  //frmMap.mapMain.zoomLevel = 10;
+  //frmMap.mapMain.locationData
+  // setZoomLevelFromBounds();
+  /*
+  var pickupicon = "";
+  if(frmMap.flexAddress.isVisible == false)
+  	pickupicon = "pickupicon.png";
+
+
+  var locationData = [];
+  locationData.push(
+    {lat: "" + pickupPoint.geometry.location.lat + "", 
+     lon: "" + pickupPoint.geometry.location.lng + "", 
+     name:"Pickup Location", 
+     desc: pickupPoint.formatted_address.replace(/`+/g,""), 
+     image : pickupicon + ""});
+
+  if(destination != null) {
+    locationData.push(
+      {lat: "" + destination.geometry.location.lat + "", 
+       lon: "" + destination.geometry.location.lng + "", 
+       name:"Destination", 
+       desc: destination.formatted_address.replace(/`+/g,""), 
+       image : "dropofficon.png"});  
+  }
+
+  frmMap.mapMain.locationData = locationData;*/
 }
 
 function updateConsole(){
@@ -586,36 +621,153 @@ function animateMenu(){
   }
 }
 
-var loggedUser = null;
+tuta.initCallback = function(error) {
+  application.login("techuser@ssa.co.za","T3chpassword", function(result,error) {
+    if(error) tuta.util.alert("Login Error", error);  
+    else
+    {
+      tuta.location.loadPositionInit();
+      kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+      /*
+      var input = null;
+      input = kony.store.getItem("user");
+      if (input !== null){
+        try{
+          application.service("userService").invokeOperation(
+            "login", {}, JSON.parse(input),
+            function(result) {
+              //tuta.util.alert("LOGIN SUCCESS", result.value);
+              tuta.forms.frm004Home.show();
+              kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
+              //tuta.forms.frm003CheckBox.show();
+            },
+            function(error) {
+              // the service returns 403 (Not Authorised) if credentials are wrong
+              tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+            }
+          );
+        }
+        catch (ex){
+          tuta.util.alert("Error", ex);
+        }
+      }  
+      else{
+        tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", "0", null);
+      }*/
+    }
+  });
 
+};
+
+var loggedUser = null;
+var currentBooking = null;
 tuta.retrieveBookings = function(){
 
-  var input = {userid : "serv8@ssa.co.za", status : "Unconfirmed"};
+  var user = JSON.parse(kony.store.getItem("user"));
+  var input = {userid : user.userName, status : "Unconfirmed"};
   application.service("driverService").invokeOperation(
     "bookings", {}, input, 
     function(results){
-      for(var i = 0; i < results.value.length; i++){
-        tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
-      }
+      //for(var i = 0; i < results.value.length; i++){
+      //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
+      // }
+      currentBooking = results.value[0].id;
+      tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+      frm004Home.imgSwitchBg.src = "switchbgoff.png";
+      updateConsole();
+      tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
+}
+
+
+var watchID = null;
+var initialized = 0;
+tuta.startWatchLocation = function(){
+  try{
+    watchID = kony.store.getItem("watch");
+    if(watchID === null){
+      watchID = kony.location.watchPosition(
+        function(position) {
+          kony.store.removeItem("watch");
+          kony.store.setItem("watch", watchID);
+          tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
+            currentPos = s.results[0];
+            updateMap();
+
+            tuta.location.updateLocationOnServer(s.results[0]);
+          });
+
+        },
+
+        function (errorMsg) {
+          //if(errorMsg.code !==3 )
+          //tuta.util.alert("ERROR", errorMsg);
+        }, 
+
+        { timeout: 35000, maximumAge: 5000, enableHighAccuracy : true }
+      );
+
+
+      initialized = 1;
+    }
+    else
+    {
+      kony.location.clearWatch(watchID);
+      kony.store.removeItem("watch");
+      watchID = null;
+      tuta.startWatchLocation();
+    }
+  }
+  catch(ex){
+    tuta.util.alert("TEST", ex);
+  }
 };
 
-tuta.acceptBooking = function(bookingID){
 
-  var input = {id : bookingID};
-  application.service("driverService").invokeOperation(
-    "acceptBooking", {}, input, 
+
+function shortenText (str, len){
+  var newStr = "";
+  if(str.length > len)
+    newStr = str.substring(0, (len-1)) + "...";
+
+  return newStr;
+}
+
+function toggleImage(widget){
+  //var widget = toggleImage;
+  if (widget.isVisible === false)
+  {
+    widget["isVisible"] = true;
+  }
+  else{
+    widget["isVisible"] = false;
+  }
+}
+
+tuta.pickupRequestInfo = function(userID, address){
+
+  var input = {id : userID};
+  application.service("userService").invokeOperation(
+    "user", {}, input, 
     function(results){
-      tuta.util.alert("TEST", JSON.stringify(results));
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
+      frmPickupRequest.rtPickupLocation.text = address;
+      tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error){
+        var loc = success.results[0].formatted_address.replace(/`+/g,""); 
+        loc = shortenText(loc, 25);
+        frmPickupRequest.lblViaPath.text = loc;
+        tuta.forms.frmPickupRequest.show();
+      });
 
     }, function(error){
-		tuta.util.alert("ERROR", error);
+      tuta.util.alert("ERROR", error);
     });
-  
-};
 
 tuta.assignBooking = function(){
   
@@ -638,9 +790,85 @@ application.login("techuser@ssa.co.za","T3chpassword",function(result,error){
     });
 };
 
+tuta.renderRouteAndUser = function (booking){
+  tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error){
+    //tuta.util.alert("TEST", JSON.stringify(success));
+    //var route;
+    //tuta.location.directions(currentPos, success.formatted_address.replace(/`+/g,""), )
+	tuta.location.directions(currentPos,success.results[0],null,function(response) {
+      //tuta.util.alert("TEST", JSON.stringify(response));
+          tuta.location.renderDirections(frmMap.mapMain, response, "0x0000FFFF","ellipsecs.png","ellipsecs.png", "1");
+    }, "1");
+    /*
+    var input = {origin: currentPos.formatted_address, destination: success.results[0].formatted_address}        
+
+    application.service("locationService").invokeOperation(
+      "findDirections", {}, input, 
+      function(result){
+        tuta.util.alert("TEST", JSON.stringify(result));
+        tuta.location.renderDirections(frmMap.mapMain, result, "0xFF0000FF", "", "", "");
+      },
+      function (error){
+        tuta.util.alert("ERROR", error);
+
+      });*/
+
+    //renderDirections(frmMap.mapMain, finalroute, "0x0000FFFF","pickupicon.png","dropofficon.png");
+
+  });
+
+};
+
+
+tuta.acceptBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "acceptBooking", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+
+      tuta.renderRouteAndUser(results.value[0]);
+
+    }, function(error){
+      tuta.util.alert("ERROR", error);
+    });
+
+};
+
+tuta.rejectBooking = function(bookingID){
+
+  var input = {id : bookingID};
+  application.service("driverService").invokeOperation(
+    "rejectBooking", {}, input, 
+    function(results){
+      //tuta.util.alert("TEST", JSON.stringify(results));
+      currentBooking = null;
+
+    }, function(error){
+      tuta.util.alert("ERROR", error);
+    });
+
+};
+
+tuta.assignBooking = function(){
+
+  var inputdata = {providerId : "serv8@ssa.co.za"};
+  var input = {data: JSON.stringify(inputdata), id : "RoDgyMotuFrY1dCb"};
+  application.service("manageService").invokeOperation(
+    "bookingUpdate", {}, input, 
+    function(results){
+      tuta.util.alert("TEST", JSON.stringify(results));
+
+    }, function(error){
+      tuta.util.alert("ERROR", error);
+    });
+};
+
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
 tuta.init = function() {
+<<<<<<< HEAD
   	// initialize form controllers
   	new tuta.forms.frm001LoginScreen();
   
@@ -661,6 +889,31 @@ tuta.init = function() {
   
   	// initialize application
  	application = new tuta.application(tuta.initCallback);
+=======
+  // initialize form controllers
+  new tuta.forms.frm001LoginScreen();
+
+
+  // initialize application
+  new tuta.forms.frm003CheckBox();
+  new tuta.forms.frm004Home();
+  new tuta.forms.frmAboutTuta();
+  new tuta.forms.frmBooking();
+  new tuta.forms.frmDebug();
+  new tuta.forms.frmBookingsMain();
+  new tuta.forms.frmFlagDown();
+  new tuta.forms.frmLogIssue();
+  new tuta.forms.frmMessageMain();
+  new tuta.forms.frmMessageCompose();
+  new tuta.forms.frmMessageRead();
+  new tuta.forms.frmPickupRequest();
+  new tuta.forms.frmTermsConditions();
+  new tuta.forms.frmTripHistory();
+  new tuta.forms.frmTripHistoryInfo();
+
+  application = new tuta.application(tuta.initCallback);
+
+>>>>>>> ad28df33e050cdb64d83a09563e758becc32f08e
 };
 
 /*
