@@ -881,7 +881,6 @@ tuta.assignBooking = function(){
 // Should be called in the App init lifecycle event
 // In Visualizer this should be call in the init event of the startup form
 tuta.init = function() {
-<<<<<<< HEAD
   	// initialize form controllers
   	new tuta.forms.frm001LoginScreen();
   
@@ -902,31 +901,6 @@ tuta.init = function() {
   
   	// initialize application
  	application = new tuta.application(tuta.initCallback);
-=======
-  // initialize form controllers
-  new tuta.forms.frm001LoginScreen();
-
-
-  // initialize application
-  new tuta.forms.frm003CheckBox();
-  new tuta.forms.frm004Home();
-  new tuta.forms.frmAboutTuta();
-  new tuta.forms.frmBooking();
-  new tuta.forms.frmDebug();
-  new tuta.forms.frmBookingsMain();
-  new tuta.forms.frmFlagDown();
-  new tuta.forms.frmLogIssue();
-  new tuta.forms.frmMessageMain();
-  new tuta.forms.frmMessageCompose();
-  new tuta.forms.frmMessageRead();
-  new tuta.forms.frmPickupRequest();
-  new tuta.forms.frmTermsConditions();
-  new tuta.forms.frmTripHistory();
-  new tuta.forms.frmTripHistoryInfo();
-
-  application = new tuta.application(tuta.initCallback);
-
->>>>>>> ad28df33e050cdb64d83a09563e758becc32f08e
 };
 
 /*
