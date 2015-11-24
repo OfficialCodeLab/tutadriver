@@ -419,7 +419,12 @@ tuta.stopWatchLocation = function() {
 }
 
 tuta.startUpdateMapFunction = function() {
+  try{
     kony.timer.cancel("updateMapSlow");
+    
+  }
+  catch(ex){
+  }
     kony.timer.schedule("updateMapSlow", function() {
         updateMap();
     }, 10, true);

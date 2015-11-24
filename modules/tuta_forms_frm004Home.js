@@ -235,7 +235,13 @@ tuta.forms.frm004Home = function() {
      	self.topMenu.toggle();
     };*/
     
+    try{
     kony.timer.cancel("awaitBookings");
+      
+    }
+    catch(ex){
+      
+    }
     
     kony.timer.schedule("awaitBookings", function(){
       if(driver_state === 1)
