@@ -34,6 +34,10 @@ var application = null;
 
 //Debug Testing Variables
 var storedBookingID = null;
+var csClientLocation = {
+  latitude: 0,
+  longitude: 0
+}
 
 //End of debug Variables
 
@@ -320,32 +324,7 @@ tuta.initCallback = function(error) {
     {
       tuta.location.loadPositionInit();
       kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
-      /*
-      var input = null;
-      input = kony.store.getItem("user");
-      if (input !== null){
-        try{
-          application.service("userService").invokeOperation(
-            "login", {}, JSON.parse(input),
-            function(result) {
-              //tuta.util.alert("LOGIN SUCCESS", result.value);
-              tuta.forms.frm004Home.show();
-              kony.timer.schedule("startwatch", function(){tuta.startWatchLocation();}, 2, false);
-              //tuta.forms.frm003CheckBox.show();
-            },
-            function(error) {
-              // the service returns 403 (Not Authorised) if credentials are wrong
-              tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
-            }
-          );
-        }
-        catch (ex){
-          tuta.util.alert("Error", ex);
-        }
-      }  
-      else{
-        tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", "0", null);
-      }*/
+
     }
   });
 
@@ -392,7 +371,7 @@ tuta.startWatchLocation = function(){
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e){
             currentPos = s.results[0];
             //updateMap();
-			var userTemp = JSON.parse(kony.store.getItem("user"));
+			      var userTemp = JSON.parse(kony.store.getItem("user"));
             tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
             
           });
@@ -422,6 +401,10 @@ tuta.startWatchLocation = function(){
     tuta.util.alert("TEST", ex);
   }
 };
+
+tuta.stopWatchLocation = function(){
+  kony.timer.cancel("updateMapSlow");
+}
 
 tuta.startUpdateMapFunction = function(){
   kony.timer.cancel("updateMapSlow");
@@ -487,6 +470,7 @@ tuta.assignBooking = function(){
 };
 
 tuta.updateUserOnRoute = function (userId){
+  // tuta.startWatchLocation();
   kony.timer.schedule("user", function(){
     application.service("userService").invokeOperation(
       "user", {}, {id: userId},
@@ -501,8 +485,30 @@ tuta.updateUserOnRoute = function (userId){
         }
       };
 
+      //Sets global variable of customer position
+      csClientLocation.latitude = user.location.lat;
+      csClientLocation.longitude = user.location.lng;
+
+
       nearbyUsers.push(user);
-      //tuta.util.alert("USER LOCATION",JSON.stringify(result));
+
+      var csCurrentPos = {
+        lat: currentPos.geometry.location.lat, 
+        lon: currentPos.geometry.location.lng 
+      }
+      var csDistanceToClient = tuta.location.distance(parseFloat(csCurrentPos.lat), 
+        parseFloat(csCurrentPos.lon), 
+        parseFloat(csClientLocation.latitude), 
+        parseFloat(csClientLocation.longitude));
+
+      // tuta.util.alert("Distance", csDistanceToClient);
+
+      if (csDistanceToClient <= 300){
+        kony.timer.cancel("user");
+        tuta.util.alert("Info", "You have arrived at the customer.");
+      }
+
+      tuta.util.alert("USER LOCATION",JSON.stringify(result));
 
       /*
         This needs to be reworked to only 
@@ -515,7 +521,7 @@ tuta.updateUserOnRoute = function (userId){
       
     });
     
-  }, 8, true);
+  }, 10, true);
 }
 
 
@@ -528,6 +534,7 @@ tuta.renderRouteAndUser = function (booking){
      kony.timer.schedule("renderDir", function(){
         renderDirections(frm004Home.mapMain, response, "0x0000FFFF","","");
        	tuta.updateUserOnRoute(booking.userId);
+        tuta.startWatchLocation();
       }, 2, false);
     });
 
