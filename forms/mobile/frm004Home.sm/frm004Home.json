@@ -37,7 +37,8 @@
         "flexFindingDest",
         "flexOverlay1",
         "flexDebugOptions",
-        "flexFloatingConsole"
+        "flexFloatingConsole",
+        "flexArrivalMessage"
     ],
     "containerWeight": 100,
     "containerweight": 100,
@@ -49,7 +50,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "GalaxyS4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -132,13 +133,13 @@
     "paddingInPixel": false,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "iphone",
-    "prevDevice": "GalaxyS4",
-    "prevPlatform": "android",
+    "platform": "android",
+    "prevDevice": "iPhone3",
+    "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "and_GalaxyS4",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,

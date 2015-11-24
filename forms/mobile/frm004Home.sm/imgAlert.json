@@ -1,14 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "90dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "107dp"
     },
     "_margin_": [
         0,
@@ -23,19 +24,22 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "profilepic.png",
+    "_src_": "bluealert.png",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "90dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
+    "centerX": "50%",
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -47,16 +51,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "70dp",
-    "id": "imgProfilePic",
+    "height": "90dp",
+    "id": "imgAlert",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "dac026ab77d540c9a22df1ffab4b61d0",
-    "left": "5dp",
+    "kuid": "166efd7c011641ed8a4c8973bd77c4df",
+    "left": "107dp",
     "margin": [
         0,
         0,
@@ -70,14 +74,17 @@
         0,
         0
     ],
-    "parent": "flexMenuProfile",
+    "parent": "flexArrivalMessage",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "profilepic.png",
+    "src": "bluealert.png",
     "srcType": 1,
+    "top": "20dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "60dp"
+    "width": "90dp",
+    "zIndex": 1,
+    "zindex": 1
 }
