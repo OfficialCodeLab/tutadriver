@@ -488,7 +488,7 @@ tuta.assignBooking = function() {
         });
 };
 
-tuta.updateUserOnRoute = function(userId) {
+tuta.updateUserOnRoute = function(userId) { //2
     // tuta.startWatchLocation();
     kony.timer.schedule("user", function() {
         application.service("userService").invokeOperation(
@@ -532,9 +532,10 @@ tuta.updateUserOnRoute = function(userId) {
                         inputBooking = {
                             id: storedBookingID.id
                         };
-                        tuta.util.alert("Test 0", "Stored Booking ID: " + storedBookingID.id);
 
-                        tuta.util.alert("Test 1", "Transit Value: " + result.value[0].status);
+                        //tuta.util.alert("Test 0", "Stored Booking ID: " + storedBookingID.id);
+                        //tuta.util.alert("Test 1", "Transit Value: " + result.value[0].status);
+                        //tuta.util.alert("Test 2", "Results Value: " + JSON.stringify(result.value[0]));
 
                         
 
@@ -542,10 +543,10 @@ tuta.updateUserOnRoute = function(userId) {
                             "booking", {}, inputBooking,
                             function(result) { //This is the default function that runs if the query is succesful, if there is a result.
                                 if (result.value[0].status === "InTransit") {
-                                  //tuta.util.alert("Refreshed Booking Info", result.value[0]);
+                                  tuta.util.alert("Refreshed Booking Info", result.value[0]);
                                     kony.timer.cancel("transitChecker");
-                                    storedBookingID = result.value[0];
-                                    tuta.renderRouteAndDriver(result.value[0]);
+                                    //storedBookingID = result.value[0];
+                                    tuta.renderRouteAndDriver();
                                     //tuta.fetchDriverInfo(result.value[0].providerId);
                                     //yourBooking = bookingID;
                                 }
@@ -575,7 +576,8 @@ tuta.updateUserOnRoute = function(userId) {
     }, 10, true);
 }
 
-tuta.updateDriverOnRoute = function() {
+tuta.updateDriverOnRoute = function() { //4
+  nearbyUsers = [];
     // tuta.startWatchLocation();
     kony.timer.schedule("user2", function() {
                 var csCurrentPos = {
@@ -595,13 +597,14 @@ tuta.updateDriverOnRoute = function() {
 
                 if (csDistanceToDestination <= 300) {
                     kony.timer.cancel("user2");
-                    tuta.util.alert("Info", "You have arrived at your destination.");
+                  	frm004Home.flexOverlay1.setVisibility(true);
+                    //tuta.util.alert("Info", "You have arrived at your destination.");
                 }
 
     }, 10, true);
 }
 
-tuta.renderRouteAndUser = function(booking) {
+tuta.renderRouteAndUser = function(booking) { //1
     storedBookingID = booking;
     tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error) {
         //tuta.util.alert("PICKUP", JSON.stringify(success));
@@ -620,18 +623,20 @@ tuta.renderRouteAndUser = function(booking) {
 };
 
 var destination = null;
-tuta.renderRouteAndDriver = function() {
-    //storedBookingID = booking;
+tuta.renderRouteAndDriver = function() { //3
+    var booking = storedBookingID;
     //tuta.util.alert("Test booking details 3", "Lat: " + booking.location.lat + 
       //"\nLong: " + booking.location.lng);
+    tuta.util.alert("Test 4", "Running 'renderRouteAndDriver'");
     findAddress(booking.address.description, function(success, error) {
         //tuta.util.alert("PICKUP", JSON.stringify(success));
         // tuta.util.alert("SELF", JSON.stringify(currentPos));
+        destination = success.results[0];
         getDirections(currentPos, success.results[0], null, function(response) {
             ///tuta.util.alert("ROUTE", JSON.stringify(response));
             kony.timer.schedule("renderDir", function() {
                 renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
-                tuta.updateUserOnRoute(booking.userId);
+                tuta.updateDriverOnRoute();
                 tuta.startWatchLocation();
             }, 2, false);
         });
