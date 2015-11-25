@@ -70,7 +70,7 @@ tuta.location.loadPositionInit = function(){
       updateMap();
 
       //var userTemp = JSON.parse(kony.store.getItem("user"));
-      //tuta.location.updateLocationOnServer(userTemp.userName, success.results[0]);
+      tuta.location.updateLocationOnServer(globalCurrentUser.userName, success.results[0]);
 
     });
   }, function(error) {

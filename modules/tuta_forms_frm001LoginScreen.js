@@ -51,6 +51,7 @@ tuta.forms.frm001LoginScreen = function() {
             //kony.store.setItem("user", JSON.stringify(inputs));
 
             globalCurrentUser = inputs;
+            tuta.loadInitialPosition();
 
 
 
