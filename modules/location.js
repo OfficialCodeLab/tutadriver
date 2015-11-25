@@ -109,7 +109,7 @@ function bearing(lat1,lng1,lat2,lng2) {
         var x = Math.cos(lat1)*Math.sin(lat2) - Math.sin(lat1)*Math.cos(lat2)*Math.cos(dLon);
         var brng = Math.atan2(y, x).toDegrees();
   		if(brng < 0) {return 360 + brng; } else {
-        return 360 - ((brng + 360) % 360);}
+        return brng;}
 }
 
 

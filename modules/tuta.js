@@ -425,13 +425,13 @@ tuta.retrieveBookings = function() {
 var currentBearing = 0;
 tuta.getBearing = function (callback){
   try{
-    var brng = Math.abs(Math.round(parseFloat(currentBearing) / 15)) * 15; 
+    var brng = parseInt(Math.abs(Math.round(currentBearing / 15)) * 15); 
 
     if(brng >= 360)
       brng = 0;
 
     if(brng !== null && brng === brng){
-          callback("cabpin" + currentBearing + ".png");
+          callback("cabpin" + brng + ".png");
         }
 
   }
@@ -449,13 +449,12 @@ tuta.startWatchLocation = function() {
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
-          currentBearing = position.coords.heading;
+          currentBearing = bearing(currentPos.geometry.location.lat, currentPos.geometry.location.lng, position.coords.latitude, position.coords.longitude);
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
             currentPos = s.results[0];
             //updateMap();
             var userTemp = globalCurrentUser;
             try{
-              tuta.util.alert("Your Bearing:", JSON.stringify(position) + "");
               tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
             }
             catch (ex){
