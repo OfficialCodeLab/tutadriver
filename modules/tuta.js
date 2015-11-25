@@ -18,7 +18,7 @@ Variables
 
 =============================================================================*/
 var currentLocation;
-var globalCurrentUser;
+var globalCurrentUser = {};
 
 var watchID = null;
 var initialized = 0;
@@ -357,12 +357,18 @@ tuta.retrieveBookings = function() {
       //for(var i = 0; i < results.value.length; i++){
       //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
       // }
-      currentBooking = results.value[0];
-      tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
-      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
-      frm004Home.imgSwitchBg.src = "switchbgoff.png";
-      updateConsole();
-      tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      try{
+        currentBooking = results.value[0];
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+        frm004Home.imgSwitchBg.src = "switchbgoff.png";
+        updateConsole();
+        tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      }
+      catch (ex){
+        
+      }
+      
       //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
 
     },
@@ -385,8 +391,12 @@ tuta.startWatchLocation = function() {
             currentPos = s.results[0];
             //updateMap();
             var userTemp = globalCurrentUser;
-            tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
-
+            try{
+              tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
+            }
+            catch (ex){
+                
+            }
           });
 
         },
