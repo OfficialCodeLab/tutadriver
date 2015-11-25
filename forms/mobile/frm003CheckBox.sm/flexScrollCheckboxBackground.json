@@ -36,6 +36,7 @@
     "allowhorizontalbounce": true,
     "allowverticalbounce": true,
     "bounces": false,
+    "bouncesZoom": false,
     "canUpdateUI": true,
     "children": [],
     "clipBounds": true,
@@ -54,6 +55,11 @@
     "horizontalscrollindicator": true,
     "id": "flexScrollCheckboxBackground",
     "info": null,
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "bb9ab06d596944e5ba76db48862a14a3",

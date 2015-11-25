@@ -43,7 +43,7 @@
         "channel": "mobile",
         "formID": "frm004Home",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

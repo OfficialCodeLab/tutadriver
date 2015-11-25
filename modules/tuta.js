@@ -156,6 +156,16 @@ function setUpSwipes() {
             }
         }
     });
+  
+  frm004Home.flexSwipePickUp.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, setupTblSwipe,  function(widget, gestureInformationSwipe) {
+    //ssa.mobile.alert("","" + gestureInformationSwipe.swipeDirection );
+    if(gestureInformationSwipe.swipeDirection == 2) { 
+      showLater(); 
+    }
+    else if (gestureInformationSwipe.swipeDirection == 1){
+      showNow();
+    }
+  });
 }
 
 /*function flagDownRequest (){

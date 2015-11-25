@@ -25,7 +25,9 @@
             "windowSoftInputMode": 2
         }
     },
-    "bounces": true,
+    "bounces": false,
+    "bouncesZoom": false,
+    "bounceszoom": false,
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -63,6 +65,7 @@
         "@class": "com.kony.gen.viz.model.container.property.scrollflexform.IPhoneScrollFlexFormProperty",
         "needAppMenu": false,
         "psp": {
+            "bouncesZoom": false,
             "inputAccessoryViewType": 4,
             "titleBarConfig": {
                 "buttonClosureLeftSideView": "",
