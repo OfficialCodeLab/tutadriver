@@ -20,6 +20,9 @@ Variables
 var currentLocation;
 var globalCurrentUser = {};
 
+var storedBooking;
+var destination = null;
+
 var watchID = null;
 var initialized = 0;
 
@@ -36,7 +39,7 @@ if (typeof(tuta) === "undefined") {
 var application = null;
 
 //Debug Testing Variables
-var storedBookingID;
+var storedBookingID = null;
 var csClientLocation = {
   latitude: 0,
   longitude: 0
@@ -46,6 +49,8 @@ var csDestination = {
   longitude: 0
 };
 var csBookingInTransit = false;
+var customerIsPickedUp = false;
+var customerIsDroppedOff = false;
 
 //End of debug Variables
 
@@ -150,6 +155,7 @@ function setUpSwipes() {
         tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {
           swipedSlider = 2;
         });
+        customerIsPickedUp = true;
       }
     } else if (gestureInformationSwipe.swipeDirection == 1) { //<---LEFT
       if (swipedSlider === 2) {
@@ -510,9 +516,52 @@ tuta.assignBooking = function() {
     });
 };
 
+tuta.acceptBooking = function(bookingID) {
+  var input = {
+    id: bookingID
+  };
 
+  //set global variable
+  storedBookingID = bookingID;
+
+  application.service("driverService").invokeOperation(
+    "acceptBooking", {}, input,
+    function(results) {
+      //tuta.util.alert("TEST", JSON.stringify(currentBooking));
+      tuta.renderRouteAndUser();
+    },
+    function(error) {
+      tuta.util.alert("ERROR", error);
+    });
+};
+
+/*  
+    Runs when the booking is accepted
+    Step number: 1
+    Recurring: No
+    Recurring sub-methods: yes
+*/
+
+tuta.renderRouteAndUser = function() { //1
+  tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response){
+
+    kony.timer.schedule("renderDir", function() {
+      renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
+      tuta.updateUserOnRoute(currentBooking.userId);
+      tuta.startWatchLocation();
+    }, 2, false);
+  });
+};
+
+
+/*
+  Checks for if customer is picked up every 5 seconds. If customer is picked up,
+  go to next stage of trip.
+*/
 tuta.updateUserOnRoute = function(userId) { //2
-  // tuta.startWatchLocation();
+
+  //Show swipe box
+  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
   kony.timer.schedule("user", function() {
     application.service("userService").invokeOperation(
       "user", {}, {
@@ -545,60 +594,87 @@ tuta.updateUserOnRoute = function(userId) { //2
                                                         parseFloat(csCurrentPos.lon),
                                                         parseFloat(csClientLocation.latitude),
                                                         parseFloat(csClientLocation.longitude));
+        /*
+          Variables:
+            var customerIsPickedUp = false;
+            var customerIsDroppedOff = false;
+        */
 
-        // tuta.util.alert("Distance", csDistanceToClient);
-
-        if (csDistanceToClient <= 300) {
+        //Pickup swipe checker
+        if (customerIsPickedUp === true){
+          //Stop the current timer
           kony.timer.cancel("user");
-          //tuta.util.alert("Info", "You have arrived.\n\nCodeLab: Starting transit checker.");
+          tuta.animate.moveBottomLeft(object, time, bottom, left, finish);
 
-          kony.timer.schedule("transitChecker", function() {
-            inputBooking = {
-              id: currentBooking.id
-            };
+          application.service("manageService").invokeOperation(
+            "bookingUpdate", {}, {id: storedBookingID, data: {status: "InTransit"}},
+            function(result){
+              tuta.util.alert("INFO", "Booking status is now IN TRANSIT");
+              tuta.renderRouteAndDriver();
+            }, function(error){
 
-            //tuta.util.alert("Test 0", "Stored Booking ID: " + storedBookingID.id);
-            //tuta.util.alert("Test 1", "Transit Value: " + result.value[0].status);
-            //tuta.util.alert("Test 2", "Results Value: " + JSON.stringify(result.value[0]));
-
-
-
-            application.service("driverService").invokeOperation(
-              "booking", {}, inputBooking,
-              function(result) { //This is the default function that runs if the query is succesful, if there is a result.
-                if (result.value[0].status === "InTransit") {
-                  //tuta.util.alert("Refreshed Booking Info", result.value[0]);
-                  kony.timer.cancel("transitChecker");
-                  //storedBookingID = result.value[0];
-                  tuta.renderRouteAndDriver();
-                  //tuta.fetchDriverInfo(result.value[0].providerId);
-                  //yourBooking = bookingID;
-                }
-              },
-              function(error) { //The second function will always run if there is an error.
-                tuta.util.alert("error", error);
-              }
-            );
-          }, 5, true);
+            });
 
         }
-
-        //tuta.util.alert("USER LOCATION", JSON.stringify(result));
-
         /*
-                  This needs to be reworked to only 
-                  update and not zoom in on current location.
-                */
-        //updateMap();
-        //tuta.location.updateLocationOnServer(userId, userLocation);
+          if (csDistanceToClient <= 300) {
+            //Stop the distance checker
+            kony.timer.cancel("user");
 
+            
+              DO NOT DELETE THIS CODE!!!!
+
+              kony.timer.schedule("transitChecker", function() {
+                inputBooking = {
+                  id: currentBooking.id
+                };
+
+                application.service("driverService").invokeOperation(
+                  "booking", {}, inputBooking,
+                  function(result) { //This is the default function that runs if the query is succesful, if there is a result.
+                    if (result.value[0].status === "InTransit") {
+                      //tuta.util.alert("Refreshed Booking Info", result.value[0]);
+                      kony.timer.cancel("transitChecker");
+                      //storedBookingID = result.value[0];
+                      tuta.renderRouteAndDriver();
+                      //tuta.fetchDriverInfo(result.value[0].providerId);
+                      //yourBooking = bookingID;
+                    }
+                  },
+                  function(error) { //The second function will always run if there is an error.
+                    tuta.util.alert("error", error);
+                  }
+                );
+              }, 5, true);
+          }
+        */
       },
       function(error) {
 
       });
 
-  }, 10, true);
+  }, 5, true);
 };
+
+//Draws the second leg of the route
+tuta.renderRouteAndDriver = function() { //3
+  findAddress(currentBooking.address.description, function(success, error) {
+    destination = success.results[0];
+    tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, destination.geometry.location.lat, destination.geometry.location.lng, function(response){
+
+
+      kony.timer.schedule("renderDir", function() {
+        renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
+        tuta.updateDriverOnRoute();
+        tuta.startWatchLocation();
+      }, 2, false);
+    });
+
+  });
+};
+
+//Checks if customer is dropped off,
+//Clears the map and resets driver state to idle
 
 tuta.updateDriverOnRoute = function() { //4
   nearbyUsers = [];
@@ -619,77 +695,33 @@ tuta.updateDriverOnRoute = function() { //4
 
     // tuta.util.alert("Distance", csDistanceToClient);
 
-    if (csDistanceToDestination <= 300) {
-      kony.timer.cancel("user2");
-      frm004Home.flexOverlay1.setVisibility(true);
-      //tuta.util.alert("Info", "You have arrived at your destination.");
-    }
+    
+    if (customerIsDroppedOff === true){
+          //Stop the current timer
+          kony.timer.cancel("user2");
+          tuta.animate.moveBottomLeft(object, time, bottom, left, finish);
+
+          application.service("manageService").invokeOperation(
+            "bookingUpdate", {}, {id: storedBookingID, data: {status: "Completed"}},
+            function(result){
+              tuta.util.alert("INFO", "Booking status is now COMPLETED");
+              driver_state = 0;
+              frm004Home.frmMap.clear();
+              updateMap();
+            }, function(error){
+
+            });
+
+        }
+    
 
   }, 10, true);
 };
 
-var storedBooking;
 
-tuta.renderRouteAndUser = function() { //1
-  //storedBookingID = booking;
-  //tuta.location.geoCode(booking.location.lat, booking.location.lng, function(success, error) {
-  //tuta.util.alert("PICKUP", JSON.stringify(success));
-  // tuta.util.alert("SELF", JSON.stringify(currentPos));
-  // getDirections(currentPos, success.results[0], null, function(response) {
-  tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response){
-    //tuta.util.alert("ROUTE", JSON.stringify(response));
-    kony.timer.schedule("renderDir", function() {
-      renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
-      tuta.updateUserOnRoute(currentBooking.userId);
-      tuta.startWatchLocation();
-    }, 2, false);
-  });
 
-  //});
 
-};
 
-var destination = null;
-tuta.renderRouteAndDriver = function() { //3
-  //var booking = storedBookingID;
-  //tuta.util.alert("Test booking details 3", "Lat: " + booking.location.lat + 
-  //"\nLong: " + booking.location.lng);
-  //tuta.util.alert("Test 4", "Running 'renderRouteAndDriver'");
-  findAddress(currentBooking.address.description, function(success, error) {
-    //tuta.util.alert("PICKUP", JSON.stringify(success));
-    // tuta.util.alert("SELF", JSON.stringify(currentPos));
-    destination = success.results[0];
-    // getDirections(currentPos, success.results[0], null, function(response) {  
-    tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, destination.geometry.location.lat, destination.geometry.location.lng, function(response){
-
-      ///tuta.util.alert("ROUTE", JSON.stringify(response));
-      kony.timer.schedule("renderDir", function() {
-        renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
-        tuta.updateDriverOnRoute();
-        tuta.startWatchLocation();
-      }, 2, false);
-    });
-
-  });
-
-};
-
-tuta.acceptBooking = function(bookingID) {
-
-  var input = {
-    id: bookingID
-  };
-  application.service("driverService").invokeOperation(
-    "acceptBooking", {}, input,
-    function(results) {
-      //tuta.util.alert("TEST", JSON.stringify(currentBooking));
-      tuta.renderRouteAndUser();
-    },
-    function(error) {
-      tuta.util.alert("ERROR", error);
-    });
-
-};
 
 //Carl
 tuta.csShowDistance = function() {
