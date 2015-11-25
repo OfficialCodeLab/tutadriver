@@ -37,7 +37,32 @@ tuta.forms.frm004Home = function() {
           tuta.controls.behavior.MOVE_OVER,
           0.3
       );	
-    
+
+
+    //Initializes the user's name
+    //frm004Home.profileName.text = globalCurrentUser.userName;
+    //tuta.util.alert("Test", globalCurrentUser);
+    var csinput = {
+        id: globalCurrentUser.userName
+      };
+    application.service("userService").invokeOperation(
+        "user", {}, csinput,
+        function(result) { 
+          var csFirstName = result.value[0].userInfo.firstName;
+          var csLastName = result.value[0].userInfo.lastName;
+          var csFullName = csFirstName + " " + csLastName;
+          //tuta.util.alert("User Information", "Name: " + csFullName);
+          frm004Home.profileName.text = csFullName;
+          
+        },
+        function(error) {
+          // the service returns 403 (Not Authorised) if credentials are wrong
+          tuta.util.alert("Error " + error);
+
+        }
+      );
+
+
     /*
       Checks whether the menu is open, animates the menu
       based on current state.
