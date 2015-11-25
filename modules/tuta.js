@@ -515,7 +515,7 @@ tuta.updateUserOnRoute = function (userId){
       
     });
     
-  }, 8, true);
+  }, 20, true);
 }
 
 
