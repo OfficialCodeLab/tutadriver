@@ -455,7 +455,7 @@ tuta.startWatchLocation = function() {
             //updateMap();
             var userTemp = globalCurrentUser;
             try{
-              tuta.util.alert("Your Bearing:", currentBearing + "");
+              tuta.util.alert("Your Bearing:", JSON.stringify(position) + "");
               tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
             }
             catch (ex){
