@@ -238,11 +238,13 @@ function setUpSwipes() {
 }*/
 
 var nearbyUsers = [];
-
+var currentPin = "cabpin0.png";
 function updateMap() {
   // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
-
+tuta.getBearing(function(response){
+      currentPin = response;
+    });
 
   var locationData = [];
   locationData.push({
@@ -250,7 +252,7 @@ function updateMap() {
     lon: "" + currentPos.geometry.location.lng + "",
     name: "Pickup Location",
     desc: currentPos.formatted_address.replace(/`+/g, ""),
-    image: tuta.getBearing()
+    image: currentPin
   });
 
 
@@ -421,19 +423,20 @@ tuta.retrieveBookings = function() {
 };
 
 var currentBearing = 0;
-tuta.getBearing = function (){
+tuta.getBearing = function (callback){
   try{
-    var brng = parseInt(Math.abs(Math.round(parseFloat(currentBearing) / 15)) * 15); 
+    var brng = Math.abs(Math.round(parseFloat(currentBearing) / 15)) * 15; 
 
     if(brng >= 360)
       brng = 0;
 
-    lastbrng = brng;
-    return "cabpin" + brng + ".png";
+    if(brng !== null && brng === brng){
+          callback("cabpin" + currentBearing + ".png");
+        }
 
   }
   catch (ex){
-    return "cabpin" + 0 + ".png";
+    callback("cabpin" + 0 + ".png");
   }
 }
 
