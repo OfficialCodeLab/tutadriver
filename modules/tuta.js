@@ -153,49 +153,47 @@ function setUpSwipes() {
   frm004Home.flexSlider.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, setupTblSwipe, function(widget, gestureInformationSwipe) {
 
 
-  //Set up slider for picking up customer
-  if (customerIsPickedUp === false){
+    //Set up slider for picking up customer
+    if (customerIsPickedUp === false) {
 
       if (gestureInformationSwipe.swipeDirection == 2) { //RIGHT--->
-      if (swipedSlider === 1) {
-        swipedSlider = 0;
-        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {
-          swipedSlider = 1;
-        });
-        customerIsPickedUp = true;
-      }
-    } else if (gestureInformationSwipe.swipeDirection == 1) { //<---LEFT
-      if (swipedSlider === 2) {
-        //swipedSlider = 0;
-        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
-          //swipedSlider = 1;
-        });
-      }
-    }
-  }
-
-  //Set up slider for dropping off customer
-  else{
-
-    if (gestureInformationSwipe.swipeDirection == 2) { //RIGHT--->
-      if (swipedSlider === 1) {
-        swipedSlider = 0;
-        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {
-          swipedSlider = 1;
-        });
-        customerIsDroppedOff = true;
-      }
-    } else if (gestureInformationSwipe.swipeDirection == 1) { //<---LEFT
-      if (swipedSlider === 2) {
-        //swipedSlider = 0;
-        tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
-          //swipedSlider = 1;
-        });
+        if (swipedSlider === 1) {
+          swipedSlider = 0;
+          tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {
+            swipedSlider = 1;
+          });
+          customerIsPickedUp = true;
+        }
+      } else if (gestureInformationSwipe.swipeDirection == 1) { //<---LEFT
+        if (swipedSlider === 2) {
+          //swipedSlider = 0;
+          tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
+            //swipedSlider = 1;
+          });
+        }
       }
     }
-  }
-  
-    
+
+    //Set up slider for dropping off customer
+    else {
+
+      if (gestureInformationSwipe.swipeDirection == 2) { //RIGHT--->
+        if (swipedSlider === 1) {
+          swipedSlider = 0;
+          tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "186dp", function() {
+            swipedSlider = 1;
+          });
+          customerIsDroppedOff = true;
+        }
+      } else if (gestureInformationSwipe.swipeDirection == 1) { //<---LEFT
+        if (swipedSlider === 2) {
+          //swipedSlider = 0;
+          tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
+            //swipedSlider = 1;
+          });
+        }
+      }
+    }
 
 
 
@@ -239,12 +237,13 @@ function setUpSwipes() {
 
 var nearbyUsers = [];
 var currentPin = "cabpin0.png";
+
 function updateMap() {
   // frm004Home.mapMain.zoomLevel = tuta.location.zoomLevelFromLatLng(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
-tuta.getBearing(function(response){
-      currentPin = response;
-    });
+  tuta.getBearing(function(response) {
+    currentPin = response;
+  });
 
   var locationData = [];
   locationData.push({
@@ -373,18 +372,18 @@ tuta.initCallback = function(error) {
   application.login("techuser@ssa.co.za", "T3chpassword", function(result, error) {
     if (error) tuta.util.alert("Login Error", error);
     else {
-      
+
 
     }
   });
 
 };
 
-tuta.loadInitialPosition = function(){
+tuta.loadInitialPosition = function() {
   tuta.location.loadPositionInit();
-    kony.timer.schedule("startwatch", function() {
-      tuta.startWatchLocation();
-    }, 2, false);
+  kony.timer.schedule("startwatch", function() {
+    tuta.startWatchLocation();
+  }, 2, false);
 }
 
 
@@ -402,18 +401,17 @@ tuta.retrieveBookings = function() {
       //for(var i = 0; i < results.value.length; i++){
       //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
       // }
-      try{
+      try {
         currentBooking = results.value[0];
         tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
         updateConsole();
         tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      } catch (ex) {
+
       }
-      catch (ex){
-        
-      }
-      
+
       //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
 
     },
@@ -423,19 +421,18 @@ tuta.retrieveBookings = function() {
 };
 
 var currentBearing = 0;
-tuta.getBearing = function (callback){
-  try{
-    var brng = parseInt(Math.abs(Math.round(currentBearing / 15)) * 15); 
+tuta.getBearing = function(callback) {
+  try {
+    var brng = parseInt(Math.abs(Math.round(currentBearing / 15)) * 15);
 
-    if(brng >= 360)
+    if (brng >= 360)
       brng = 0;
 
-    if(brng !== null && brng === brng){
-          callback("cabpin" + brng + ".png");
-        }
+    if (brng !== null && brng === brng) {
+      callback("cabpin" + brng + ".png");
+    }
 
-  }
-  catch (ex){
+  } catch (ex) {
     callback("cabpin" + 0 + ".png");
   }
 }
@@ -454,11 +451,10 @@ tuta.startWatchLocation = function() {
             currentPos = s.results[0];
             //updateMap();
             var userTemp = globalCurrentUser;
-            try{
+            try {
               tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
-            }
-            catch (ex){
-                
+            } catch (ex) {
+
             }
           });
 
@@ -490,21 +486,18 @@ tuta.startWatchLocation = function() {
 };
 
 tuta.stopWatchLocation = function() {
-  try{
+  try {
     kony.timer.cancel("updateMapSlow");
-  }
-  catch(ex){
+  } catch (ex) {
 
   }
 };
 
 tuta.startUpdateMapFunction = function() {
-  try{
+  try {
     kony.timer.cancel("updateMapSlow");
 
-  }
-  catch(ex){
-  }
+  } catch (ex) {}
   kony.timer.schedule("updateMapSlow", function() {
     updateMap();
   }, 4, true);
@@ -600,7 +593,7 @@ tuta.acceptBooking = function(bookingID) {
 */
 
 tuta.renderRouteAndUser = function() { //1
-  tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response){
+  tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
 
     kony.timer.schedule("renderDir", function() {
       renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
@@ -648,11 +641,11 @@ tuta.updateUserOnRoute = function(userId) { //2
           lat: currentPos.geometry.location.lat,
           lon: currentPos.geometry.location.lng
         };
-        
+
         var csDistanceToClient = tuta.location.distance(parseFloat(csCurrentPos.lat),
-                                                        parseFloat(csCurrentPos.lon),
-                                                        parseFloat(csClientLocation.latitude),
-                                                        parseFloat(csClientLocation.longitude));
+          parseFloat(csCurrentPos.lon),
+          parseFloat(csClientLocation.latitude),
+          parseFloat(csClientLocation.longitude));
         /*
           Variables:
             var customerIsPickedUp = false;
@@ -660,17 +653,23 @@ tuta.updateUserOnRoute = function(userId) { //2
         */
 
         //Pickup swipe checker
-        if (customerIsPickedUp === true){
+        if (customerIsPickedUp === true) {
           //Stop the current timer
           kony.timer.cancel("user");
-          
+
 
           application.service("manageService").invokeOperation(
-            "bookingUpdate", {}, {id: storedBookingID, data: {status: "InTransit"}},
-            function(result){
+            "bookingUpdate", {}, {
+              id: storedBookingID,
+              data: {
+                status: "InTransit"
+              }
+            },
+            function(result) {
               //tuta.util.alert("INFO", "Booking status is now IN TRANSIT");
               tuta.renderRouteAndDriver();
-            }, function(error){
+            },
+            function(error) {
 
             });
 
@@ -723,22 +722,21 @@ tuta.renderRouteAndDriver = function() { //3
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", 0, null);
 
 
-  kony.timer.schedule("csDelay1", function(){
+  kony.timer.schedule("csDelay1", function() {
     //Slide slider ball back
     tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
-            //swipedSlider = 1;
+      //swipedSlider = 1;
     });
 
     //Change Text in Slider
     frm004Home.Label0d72c2acc7f9d4e.text = "Swipe to drop-off";
   }, 1, false);
-  
 
 
 
   findAddress(currentBooking.address.description, function(success, error) {
     destination = success.results[0];
-    tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, destination.geometry.location.lat, destination.geometry.location.lng, function(response){
+    tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, destination.geometry.location.lat, destination.geometry.location.lng, function(response) {
 
       kony.timer.schedule("renderDir", function() {
         renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
@@ -757,7 +755,7 @@ tuta.renderRouteAndDriver = function() { //3
 var arrivedFlag = false;
 
 tuta.updateDriverOnRoute = function() { //4
-  
+
   //Animate slider back up
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
 
@@ -773,55 +771,57 @@ tuta.updateDriverOnRoute = function() { //4
       lon: destination.geometry.location.lng
     };
     var csDistanceToDestination = tuta.location.distance(parseFloat(csCurrentPos.lat),
-                                                         parseFloat(csCurrentPos.lon),
-                                                         parseFloat(csDestinationcoords.lat),
-                                                         parseFloat(csDestinationcoords.lon));
+      parseFloat(csCurrentPos.lon),
+      parseFloat(csDestinationcoords.lat),
+      parseFloat(csDestinationcoords.lon));
 
     // tuta.util.alert("Distance", csDistanceToClient);
-    if (csDistanceToDestination < 300 && arrivedFlag === false)
-    {
+    if (csDistanceToDestination < 300 && arrivedFlag === false) {
       tuta.util.alert("Alert", "You have arrived at your destination.");
       arrivedFlag = true;
     }
-    
-    if (customerIsDroppedOff === true){
-          //Stop the current timer
-          kony.timer.cancel("user2");
 
-          //Move slider away
-          tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
+    if (customerIsDroppedOff === true) {
+      //Stop the current timer
+      kony.timer.cancel("user2");
 
-          //Reset state flags
-          customerIsPickedUp = false;
-          customerIsDroppedOff = false;
-          arrivedFlag = false;
+      //Move slider away
+      tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
 
-          application.service("manageService").invokeOperation(
-            "bookingUpdate", {}, {id: storedBookingID, data: {status: "Completed"}},
-            function(result){
+      //Reset state flags
+      customerIsPickedUp = false;
+      customerIsDroppedOff = false;
+      arrivedFlag = false;
 
-              //tuta.util.alert("INFO", "Booking status is now COMPLETED");
-              driver_state = 0;
-              frm004Home.mapMain.clear();
-              updateMap();
+      application.service("manageService").invokeOperation(
+        "bookingUpdate", {}, {
+          id: storedBookingID,
+          data: {
+            status: "Completed"
+          }
+        },
+        function(result) {
 
-              //Slide slider ball back
-              tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
-                      //swipedSlider = 1;
-              });
-              frm004Home.flexOverlay1.isVisible = true;
-            }, function(error){
+          //tuta.util.alert("INFO", "Booking status is now COMPLETED");
+          driver_state = 0;
+          frm004Home.mapMain.clear();
+          updateMap();
 
-            });
+          //Slide slider ball back
+          tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
+            //swipedSlider = 1;
+          });
+          frm004Home.flexOverlay1.isVisible = true;
+        },
+        function(error) {
 
-        }
-    
+        });
+
+    }
+
 
   }, 5, true);
 };
-
-
-
 
 
 
@@ -843,11 +843,11 @@ tuta.csShowDistance = function() {
         */
 
   tuta.util.alert("Current Position", "" +
-                  "\nLatitude: " + csCurrentPos.lat +
-                  "\nLongitude: " + csCurrentPos.lon + "\n" +
-                  "\nSecond Position" +
-                  "\nLatitude: " + csDestinationPos.lat +
-                  "\nLongitude: " + csDestinationPos.lon);
+    "\nLatitude: " + csCurrentPos.lat +
+    "\nLongitude: " + csCurrentPos.lon + "\n" +
+    "\nSecond Position" +
+    "\nLatitude: " + csDestinationPos.lat +
+    "\nLongitude: " + csDestinationPos.lon);
 
   var csTestDistance = tuta.location.distance(csCurrentPos.lat, csCurrentPos.lon, csDestinationPos.lat, csDestinationPos.lon);
   //tuta.util.alert("Distance is " + csTestDistance);
