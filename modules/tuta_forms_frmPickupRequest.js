@@ -38,6 +38,7 @@ tuta.forms.frmPickupRequest = function() {
         };
 
         this.control("btnAcceptRequest").onClick = function(button) {
+            kony.timer.cancel("startwatch");
             tuta.acceptBooking(currentBooking);
             tuta.forms.frm004Home.show();
             tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);

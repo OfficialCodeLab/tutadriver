@@ -138,6 +138,12 @@ tuta.forms.frm004Home = function() {
       updateConsole();
     }
   };
+    
+    this.control("btnSubmitRating").onClick = function(button){
+
+      frm004Home.flexOverlay1.setVisibility(true);
+      driver_state = 0;
+    }
 
   //Debug Menu: Reset state button
   this.control("btnResetState").onClick = function(button){
@@ -208,6 +214,8 @@ tuta.forms.frm004Home = function() {
     tuta.forms.frm001LoginScreen.show();
   };
     
+    frm004Home.flexOverlay1.setVisibility(false);
+    
     
     
  // this.control("btnTestBookings").onClick = function(button){
@@ -227,7 +235,13 @@ tuta.forms.frm004Home = function() {
      	self.topMenu.toggle();
     };*/
     
+    try{
     kony.timer.cancel("awaitBookings");
+      
+    }
+    catch(ex){
+      
+    }
     
     kony.timer.schedule("awaitBookings", function(){
       if(driver_state === 1)
