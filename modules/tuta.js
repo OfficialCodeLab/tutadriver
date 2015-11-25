@@ -455,6 +455,7 @@ tuta.startWatchLocation = function() {
             //updateMap();
             var userTemp = globalCurrentUser;
             try{
+              tuta.util.alert("Your Bearing:", currentBearing + "");
               tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
             }
             catch (ex){
@@ -604,6 +605,7 @@ tuta.renderRouteAndUser = function() { //1
 
     kony.timer.schedule("renderDir", function() {
       renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
+      updateMap();
       tuta.updateUserOnRoute(currentBooking.userId);
       tuta.startWatchLocation();
     }, 2, false);
@@ -741,6 +743,7 @@ tuta.renderRouteAndDriver = function() { //3
 
       kony.timer.schedule("renderDir", function() {
         renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
+        updateMap();
         tuta.updateDriverOnRoute();
         tuta.startWatchLocation();
       }, 2, false);
@@ -797,10 +800,16 @@ tuta.updateDriverOnRoute = function() { //4
           application.service("manageService").invokeOperation(
             "bookingUpdate", {}, {id: storedBookingID, data: {status: "Completed"}},
             function(result){
+
               //tuta.util.alert("INFO", "Booking status is now COMPLETED");
               driver_state = 0;
               frm004Home.mapMain.clear();
               updateMap();
+
+              //Slide slider ball back
+              tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
+                      //swipedSlider = 1;
+              });
               frm004Home.flexOverlay1.isVisible = true;
             }, function(error){
 
