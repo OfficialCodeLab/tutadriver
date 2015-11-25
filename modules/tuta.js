@@ -507,7 +507,7 @@ tuta.startUpdateMapFunction = function() {
   }
   kony.timer.schedule("updateMapSlow", function() {
     updateMap();
-  }, 6, true);
+  }, 4, true);
 };
 
 
