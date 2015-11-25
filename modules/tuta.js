@@ -216,7 +216,7 @@ function updateMap() {
     lon: "" + currentPos.geometry.location.lng + "",
     name: "Pickup Location",
     desc: currentPos.formatted_address.replace(/`+/g, ""),
-    image: "cabpin0.png"
+    image: tuta.getBearing()
   });
 
 
@@ -383,7 +383,22 @@ tuta.retrieveBookings = function() {
     });
 };
 
+var currentBearing = 0;
+tuta.getBearing = function (){
+  try{
+    var brng = parseInt(Math.abs(Math.round(parseFloat(currentBearing) / 15)) * 15); 
 
+    if(brng >= 360)
+      brng = 0;
+
+    lastbrng = brng;
+    return "cabpin" + brng + ".png";
+
+  }
+  catch (ex){
+    return "cabpin" + 0 + ".png";
+  }
+}
 
 
 tuta.startWatchLocation = function() {
@@ -393,12 +408,13 @@ tuta.startWatchLocation = function() {
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
+          currentBearing = position.coords.heading;
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
             currentPos = s.results[0];
             //updateMap();
             var userTemp = globalCurrentUser;
             try{
-              tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
+              tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
             }
             catch (ex){
                 
