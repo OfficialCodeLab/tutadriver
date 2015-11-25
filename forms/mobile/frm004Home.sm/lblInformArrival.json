@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s7a347ef902c42b2b7fa2ab16ba03fd0",
-    "_text_": "YOU HAVE ARRIVED AT YOUR DESTINATION",
+    "_text_": "YOU HAVE ARRIVED AT YOUR CUSTOMER",
     "_top_": {
         "type": "string",
         "value": "135dp"
@@ -78,7 +78,7 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "s7a347ef902c42b2b7fa2ab16ba03fd0",
-    "text": "YOU HAVE ARRIVED AT YOUR DESTINATION",
+    "text": "YOU HAVE ARRIVED AT YOUR CUSTOMER",
     "toolTip": "",
     "tooltip": "",
     "top": "135dp",
