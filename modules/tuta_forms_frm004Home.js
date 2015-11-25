@@ -17,6 +17,17 @@ tuta.forms.frm004Home = function() {
   
   tuta.forms.frm004Home.onPreShow = function(form) {
     var self = this;
+    
+    this.control("imgStar1").onTouchStart = onStarSelect;
+    this.control("imgStar2").onTouchStart = onStarSelect;
+    this.control("imgStar3").onTouchStart = onStarSelect;
+    this.control("imgStar4").onTouchStart = onStarSelect;
+    this.control("imgStar5").onTouchStart = onStarSelect;
+    star.push(frm004Home.imgStar1);
+    star.push(frm004Home.imgStar2);
+    star.push(frm004Home.imgStar3);
+    star.push(frm004Home.imgStar4);
+    star.push(frm004Home.imgStar5);
 
     //Initializes the cheeseburger menu
     this.leftMenu = new tuta.controls.menu(
@@ -141,7 +152,7 @@ tuta.forms.frm004Home = function() {
     
     this.control("btnSubmitRating").onClick = function(button){
 
-      frm004Home.flexOverlay1.setVisibility(true);
+      frm004Home.flexOverlay1.setVisibility(false);
       driver_state = 0;
     }
 
