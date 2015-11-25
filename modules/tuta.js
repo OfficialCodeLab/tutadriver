@@ -18,6 +18,10 @@ Variables
 
 =============================================================================*/
 var currentLocation;
+var globalCurrentUser;
+
+var watchID = null;
+var initialized = 0;
 
 //Code for handling stars in rating menu
 var star = [];
@@ -342,7 +346,7 @@ var loggedUser = null;
 var currentBooking = null;
 tuta.retrieveBookings = function() {
 
-  var user = JSON.parse(kony.store.getItem("user"));
+  var user = globalCurrentUser;
   var input = {
     userid: user.userName,
     status: "Unconfirmed"
@@ -368,21 +372,19 @@ tuta.retrieveBookings = function() {
 };
 
 
-var watchID = null;
-var initialized = 0;
+
+
 tuta.startWatchLocation = function() {
   tuta.startUpdateMapFunction();
   try {
-    watchID = kony.store.getItem("watch");
+    watchID = null;
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
-          kony.store.removeItem("watch");
-          kony.store.setItem("watch", watchID);
           tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
             currentPos = s.results[0];
             //updateMap();
-            var userTemp = JSON.parse(kony.store.getItem("user"));
+            var userTemp = globalCurrentUser;
             tuta.location.updateLocationOnServer(userTemp.userName, s.results[0]);
 
           });
@@ -405,7 +407,7 @@ tuta.startWatchLocation = function() {
       initialized = 1;
     } else {
       kony.location.clearWatch(watchID);
-      kony.store.removeItem("watch");
+      //kony.store.removeItem("watch");
       watchID = null;
       tuta.startWatchLocation();
     }

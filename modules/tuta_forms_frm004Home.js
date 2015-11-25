@@ -217,7 +217,6 @@ tuta.forms.frm004Home = function() {
   this.control("btnSignOut").onClick = function (button) {
 
     tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0, "0%", "0", null);
-    kony.store.removeItem("user");
     self.leftMenu.toggle();
 
     loggedUser = null;

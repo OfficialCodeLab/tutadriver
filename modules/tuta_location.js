@@ -38,7 +38,7 @@ tuta.location.updateLocationOnServer = function(userId, location){
     }
   };
 
-  var userTemp = JSON.parse(kony.store.getItem("user"));
+  var userTemp = globalCurrentUser;
   var input = {data: JSON.stringify(inputData), id : userId};
 
   //Popup displaying latitude and longitude,

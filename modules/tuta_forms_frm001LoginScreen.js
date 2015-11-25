@@ -48,7 +48,12 @@ tuta.forms.frm001LoginScreen = function() {
 
             //Creates a new item, "user", in the store. 
             //User is the key / ID, and contains a JSON structure as a value
-            kony.store.setItem("user", JSON.stringify(inputs));
+            //kony.store.setItem("user", JSON.stringify(inputs));
+
+            globalCurrentUser = inputs;
+
+
+
             self.moveLoginButtons.toggle();
             tuta.forms.frm003CheckBox.show();
             //tuta.forms.frm003CheckBox.show();
