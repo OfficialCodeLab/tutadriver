@@ -28,15 +28,28 @@ tuta.location.currentPosition = function(callback) {
 };
 
 
-tuta.location.updateLocationOnServer = function(userId, location){
+tuta.location.updateLocationOnServer = function(userId, location, bearing){
    //Update user's position on the server
-  var inputData = {
-    //id : JSON.parse(kony.store.getItem("user")).userName,
-    location : {
-      lat : location.geometry.location.lat,
-      long : location.geometry.location.lng
-    }
-  };
+  var inputData;
+  if(bearing !== null && bearing !== undefined && bearing === bearing) //Ensures that bearing is not null, undefined or NaN
+  {
+    inputData = {
+      //id : JSON.parse(kony.store.getItem("user")).userName,
+      location : {
+        lat : location.geometry.location.lat,
+        long : location.geometry.location.lng,
+        direction: currentBearing
+      }
+    };
+  }
+  else{
+    inputData = {
+      location : {
+        lat : location.geometry.location.lat,
+        long : location.geometry.location.lng
+      }
+    };
+  }
 
   var userTemp = globalCurrentUser;
   var input = {data: JSON.stringify(inputData), id : userId};
