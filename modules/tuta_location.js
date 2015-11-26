@@ -33,7 +33,7 @@ tuta.location.currentPosition = function(callback) {
 };
 
 
-tuta.location.updateLocationOnServer = function(userId, location, bearing) {
+tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bearing) {
   //Update user's position on the server
   var inputData;
   if (bearing !== null && bearing !== undefined && bearing === bearing) //Ensures that bearing is not null, undefined or NaN
@@ -41,16 +41,16 @@ tuta.location.updateLocationOnServer = function(userId, location, bearing) {
     inputData = {
       //id : JSON.parse(kony.store.getItem("user")).userName,
       location: {
-        lat: location.geometry.location.lat,
-        long: location.geometry.location.lng,
+        lat: latitude,
+        long: longitude,
         direction: currentBearing
       }
     };
   } else {
     inputData = {
       location: {
-        lat: location.geometry.location.lat,
-        long: location.geometry.location.lng
+        lat: latitude,
+        long: longitude,
       }
     };
   }
@@ -85,14 +85,15 @@ tuta.location.updateLocationOnServer = function(userId, location, bearing) {
 tuta.location.loadPositionInit = function() {
   tuta.location.currentPosition(function(response) {
 
-    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
-      currentPos = success.results[0];
+    //tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
+      currentPos.geometry.location.lat = response.coords.latitude;
+      currentPos.geometry.location.lng = response.coords.longitude;
       updateMap();
 
       //var userTemp = JSON.parse(kony.store.getItem("user"));
-      tuta.location.updateLocationOnServer(globalCurrentUser.userName, success.results[0]);
+      tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);
 
-    });
+    //});
   }, function(error) {
     tuta.util.alert("Error", error);
   });
