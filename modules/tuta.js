@@ -390,34 +390,42 @@ tuta.loadInitialPosition = function() {
 
 tuta.retrieveBookings = function() {
 
-  var user = globalCurrentUser;
-  var input = {
-    userid: user.userName,
-    status: "Unconfirmed"
-  };
-  application.service("driverService").invokeOperation(
-    "bookings", {}, input,
-    function(results) {
-      //for(var i = 0; i < results.value.length; i++){
-      //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
-      // }
-      try {
-        currentBooking = results.value[0];
-        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
-        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
-        frm004Home.imgSwitchBg.src = "switchbgoff.png";
-        updateConsole();
-        tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
-      } catch (ex) {
+    var user = globalCurrentUser;
+    var input = {
+        userid: user.userName,
+        status: "Unconfirmed"
+    };
 
-      }
 
-      //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
+    try {
+        application.service("driverService").invokeOperation(
+            "bookings", {}, input,
+            function(results) {
+                //for(var i = 0; i < results.value.length; i++){
+                //  tuta.util.alert("TEST", JSON.stringify(results.value[i].id));        
+                // }
+                try {
+                    currentBooking = results.value[0];
+                    tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+                    tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+                    frm004Home.imgSwitchBg.src = "switchbgoff.png";
+                    updateConsole();
+                    tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+                } catch (ex) {
 
-    },
-    function(error) {
-      tuta.util.alert("ERROR", error);
-    });
+                }
+
+                //tuta.util.alert("TEST", JSON.stringify(results.value[0]));
+
+            },
+            function(error) {
+                //tuta.util.alert("ERROR", error);
+                //tuta.util.alert("ERROR", "Failed to retrieve bookings. Please check your internet connection, restart the app, and try again.");
+            });
+    }
+    catch(ex){
+
+    }
 };
 
 var currentBearing = 0;
@@ -527,23 +535,30 @@ tuta.pickupRequestInfo = function(userID, address) {
   var input = {
     id: userID
   };
-  application.service("userService").invokeOperation(
-    "user", {}, input,
-    function(results) {
-      //tuta.util.alert("TEST", JSON.stringify(results));
-      frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
-      frmPickupRequest.rtPickupLocation.text = address;
-      tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error) {
-        var loc = success.results[0].formatted_address.replace(/`+/g, "");
-        loc = shortenText(loc, 25);
-        frmPickupRequest.lblViaPath.text = loc;
-        tuta.forms.frmPickupRequest.show();
-      });
 
-    },
-    function(error) {
-      tuta.util.alert("ERROR", error);
-    });
+
+  try{
+    application.service("userService").invokeOperation(
+      "user", {}, input,
+      function(results) {
+        //tuta.util.alert("TEST", JSON.stringify(results));
+        frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
+        frmPickupRequest.rtPickupLocation.text = address;
+        tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error) {
+          var loc = success.results[0].formatted_address.replace(/`+/g, "");
+          loc = shortenText(loc, 25);
+          frmPickupRequest.lblViaPath.text = loc;
+          tuta.forms.frmPickupRequest.show();
+        });
+
+      },
+      function(error) {
+        //tuta.util.alert("ERROR", error);
+      });
+  }
+  catch(ex){
+
+  }
 };
 
 tuta.assignBooking = function() {
@@ -555,6 +570,8 @@ tuta.assignBooking = function() {
     data: JSON.stringify(inputdata),
     id: "RoDgyMotuFrY1dCb"
   };
+
+  try{
   application.service("manageService").invokeOperation(
     "bookingUpdate", {}, input,
     function(results) {
@@ -562,8 +579,14 @@ tuta.assignBooking = function() {
 
     },
     function(error) {
-      tuta.util.alert("ERROR", error);
+      //tuta.util.alert("ERROR", error);
     });
+  }
+  catch (ex){
+
+  }
+
+
 };
 
 tuta.acceptBooking = function(bookingID) {
@@ -574,15 +597,23 @@ tuta.acceptBooking = function(bookingID) {
   //set global variable
   storedBookingID = bookingID;
 
-  application.service("driverService").invokeOperation(
+  try{
+    application.service("driverService").invokeOperation(
     "acceptBooking", {}, input,
     function(results) {
       //tuta.util.alert("TEST", JSON.stringify(currentBooking));
       tuta.renderRouteAndUser();
     },
     function(error) {
-      tuta.util.alert("ERROR", error);
+      //tuta.util.alert("ERROR", error);
     });
+  }
+  catch (ex){
+
+  }
+  
+
+
 };
 
 /*  
@@ -615,7 +646,9 @@ tuta.updateUserOnRoute = function(userId) { //2
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
 
   kony.timer.schedule("user", function() {
-    application.service("userService").invokeOperation(
+
+    try{
+      application.service("userService").invokeOperation(
       "user", {}, {
         id: userId
       },
@@ -710,6 +743,11 @@ tuta.updateUserOnRoute = function(userId) { //2
       function(error) {
 
       });
+    }
+    catch (ex){
+
+    }
+    
 
   }, 5, true);
 };
@@ -793,7 +831,8 @@ tuta.updateDriverOnRoute = function() { //4
       customerIsDroppedOff = false;
       arrivedFlag = false;
 
-      application.service("manageService").invokeOperation(
+      try{
+        application.service("manageService").invokeOperation(
         "bookingUpdate", {}, {
           id: storedBookingID,
           data: {
@@ -816,6 +855,11 @@ tuta.updateDriverOnRoute = function() { //4
         function(error) {
 
         });
+      }
+      catch(ex){
+
+      }
+      
 
     }
 
@@ -870,7 +914,10 @@ tuta.rejectBooking = function(bookingID) {
   var input = {
     id: bookingID
   };
-  application.service("driverService").invokeOperation(
+
+
+  try{
+    application.service("driverService").invokeOperation(
     "rejectBooking", {}, input,
     function(results) {
       //tuta.util.alert("TEST", JSON.stringify(results));
@@ -878,8 +925,12 @@ tuta.rejectBooking = function(bookingID) {
 
     },
     function(error) {
-      tuta.util.alert("ERROR", error);
+      //tuta.util.alert("ERROR", error);
     });
+  }
+  catch (ex){
+
+  }
 
 };
 
