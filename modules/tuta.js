@@ -286,7 +286,13 @@ function updateMap() {
   // count++;
   // }
 
-
+  //#ifdef iphone
+	frm004Home.mapMain.zoomLevel = 14;
+  //#endif iphone
+  
+  //ifdef android
+  frm004Home.mapMain.zoomLevel = 12;
+  //#endif
 
   frm004Home.mapMain.locationData = locationData;
 
@@ -475,7 +481,7 @@ tuta.startWatchLocation = function() {
             //updateMap();
             var userTemp = globalCurrentUser;
             try {
-              tuta.location.updateLocationOnServer(userTemp.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lat, currentBearing);
+              tuta.location.updateLocationOnServer(userTemp.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBearing);
             } catch (ex) {
 
             }
