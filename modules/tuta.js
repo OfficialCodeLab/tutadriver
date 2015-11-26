@@ -26,6 +26,20 @@ var destination = null;
 var watchID = null;
 var initialized = 0;
 
+var currentPos = 
+    {
+      geometry: {
+        location: {
+          lat: 0,
+          lng: 0                 
+        }
+                  
+      },
+                  
+      formatted_address: ""
+                 
+    };
+
 var loggedUser = null;
 var currentBooking = null;
 
@@ -250,7 +264,7 @@ function updateMap() {
     lat: "" + currentPos.geometry.location.lat + "",
     lon: "" + currentPos.geometry.location.lng + "",
     name: "Pickup Location",
-    desc: currentPos.formatted_address.replace(/`+/g, ""),
+    desc: "",
     image: currentPin
   });
 
@@ -447,16 +461,17 @@ tuta.startWatchLocation = function() {
       watchID = kony.location.watchPosition(
         function(position) {
           currentBearing = bearing(currentPos.geometry.location.lat, currentPos.geometry.location.lng, position.coords.latitude, position.coords.longitude);
-          tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
-            currentPos = s.results[0];
+          //tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
+            currentPos.geometry.location.lat = position.coords.latitude;
+            currentPos.geometry.location.lng = position.coords.longitude;
             //updateMap();
             var userTemp = globalCurrentUser;
             try {
-              tuta.location.updateLocationOnServer(userTemp.userName, s.results[0], currentBearing);
+              tuta.location.updateLocationOnServer(userTemp.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lat, currentBearing);
             } catch (ex) {
 
             }
-          });
+          //});
 
         },
 
