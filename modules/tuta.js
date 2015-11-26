@@ -286,13 +286,9 @@ function updateMap() {
   // count++;
   // }
 
-  //#ifdef iphone
-	frm004Home.mapMain.zoomLevel = 14;
-  //#endif
   
-  //ifdef android
-  frm004Home.mapMain.zoomLevel = 12;
-  //#endif
+	frm004Home.mapMain.zoomLevel = 14;
+  
 
   frm004Home.mapMain.locationData = locationData;
 
