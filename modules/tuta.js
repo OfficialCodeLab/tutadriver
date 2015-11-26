@@ -288,7 +288,7 @@ function updateMap() {
 
   //#ifdef iphone
 	frm004Home.mapMain.zoomLevel = 14;
-  //#endif iphone
+  //#endif
   
   //ifdef android
   frm004Home.mapMain.zoomLevel = 12;
