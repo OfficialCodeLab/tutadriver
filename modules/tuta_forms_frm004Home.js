@@ -106,7 +106,7 @@ tuta.forms.frm004Home = function() {
       //kony.timer.schedule("showMarker", function(){frmMap["flexChangeDest"]["isVisible"] = true;}, 0.3, false);
       //resetSearchBar();
       searchMode = 0;
-      updateConsole();
+      //updateConsole();
     };
 
     this.control("btnOptionDebug1").onClick = function() {
@@ -138,12 +138,12 @@ tuta.forms.frm004Home = function() {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
-        updateConsole();
+        //updateConsole();
       } else if (driver_state === tuta.fsm.STATES.IDLE) {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "0", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
         frm004Home.imgSwitchBg.src = "switchbgon.png";
-        updateConsole();
+        //updateConsole();
       }
     };
 
@@ -173,7 +173,7 @@ tuta.forms.frm004Home = function() {
       } else {
         frm004Home.imgFloatingConsoleCheck.setVisibility(true);
         frm004Home["flexFloatingConsole"]["isVisible"] = true;
-        updateConsole();
+        //updateConsole();
       }
     };
 
@@ -190,7 +190,7 @@ tuta.forms.frm004Home = function() {
       frm004Home.imgSwitchBg.src = "switchbgoff.png";
       driver_state = 0;
       frm004Home.flexActive.setVisibility(true);
-      updateConsole();
+      //updateConsole();
     };
 
     //Show Customer Rating Button

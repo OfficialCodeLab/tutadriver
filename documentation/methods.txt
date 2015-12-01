@@ -455,3 +455,34 @@ function initOld(){
       else{
         tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", "0", null);
       }*/
+
+
+
+
+
+
+tuta.assignBooking = function() {
+
+  var inputdata = {
+    providerId: "serv8@ssa.co.za"
+  };
+  var input = {
+    data: JSON.stringify(inputdata),
+    id: "RoDgyMotuFrY1dCb"
+  };
+
+  try{
+  application.service("manageService").invokeOperation(
+    "bookingUpdate", {}, input,
+    function(results) {
+      tuta.util.alert("TEST", JSON.stringify(results));
+
+    },
+    function(error) {
+      //tuta.util.alert("ERROR", error);
+    });
+  }
+  catch (ex){
+
+  }
+};
