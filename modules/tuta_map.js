@@ -36,7 +36,8 @@ function updateMap() {
     currentPin = response;
   });
   
-  var bounds = frmMap.mapMain.getBounds();
+  var bounds = frm004Home.mapMain.getBounds();
+  var locationData = [];
   //tuta.util.alert("TEST", JSON.stringify(bounds));
 
   if (bounds !== null && mapFixed === false) {
@@ -48,7 +49,7 @@ function updateMap() {
        image : ""});      
   }
 
-  var locationData = [];
+  
   locationData.push({
     lat: "" + currentPos.geometry.location.lat + "",
     lon: "" + currentPos.geometry.location.lng + "",
@@ -66,13 +67,7 @@ function updateMap() {
       image: "pickupicon.png"
     });
   }
-  //#ifdef iphone
-  frm004Home.mapMain.zoomLevel = 14;
-  //#endif
   
-  //#ifdef android
-  frm004Home.mapMain.zoomLevel = 12;
-  //#endif
   
   frm004Home.mapMain.locationData = locationData;
 }
