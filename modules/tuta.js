@@ -49,6 +49,7 @@ var currentPin = "cabpin0.png";
 
 //Variables used by the map form
 var menuOpen = false;
+var mapFixed = false;
 
 //Used by the bearing function
 var currentBearing = 0;
