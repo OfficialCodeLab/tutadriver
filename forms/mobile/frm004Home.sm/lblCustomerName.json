@@ -3,8 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -18,20 +22,16 @@
         0,
         0
     ],
-    "_skin_": "s937319292f042dd8f16fec56db63574",
-    "_text_": "ACTIVE",
-    "_top_": {
-        "type": "number",
-        "value": "8"
-    },
+    "_skin_": "s26de0881625484c998d0a1a12cffcb3",
+    "_text_": "JAMES SMITH",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerx": {
+    "centerY": "50%",
+    "centery": {
         "type": "string",
         "value": "50%"
     },
@@ -40,11 +40,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "lblActive",
+    "height": "50%",
+    "id": "lblCustomerName",
     "info": null,
     "ipad": {
         "psp": {
@@ -58,7 +55,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "dc01c136b72c4b9ab7a1a50d29a7e51e",
+    "kuid": "41edfa84ec664ebdbf3f96540c4875ed",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -72,20 +70,16 @@
         0,
         0
     ],
-    "parent": "flexActive",
+    "parent": "flexCustomer",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s937319292f042dd8f16fec56db63574",
-    "text": "ACTIVE",
+    "skin": "s26de0881625484c998d0a1a12cffcb3",
+    "text": "JAMES SMITH",
     "toolTip": "",
     "tooltip": "",
-    "top": 8,
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "100%",
     "wrapping": 2,
     "zIndex": 69,
     "zindex": 69

@@ -36,7 +36,8 @@
     "bottom": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer056a06926945746"
+        "FlexContainer056a06926945746",
+        "flexActive"
     ],
     "clipBounds": true,
     "clipbounds": true,

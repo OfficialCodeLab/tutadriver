@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "Image069c657ef044f4c",
-        "Label0fccf483eeaea4c"
+        "lblCustomerName"
     ],
     "clipBounds": true,
     "clipbounds": true,

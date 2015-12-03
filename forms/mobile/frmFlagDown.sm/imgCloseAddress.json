@@ -5,11 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "25dp"
     },
     "_margin_": [
         0,
@@ -23,24 +19,23 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "canceliconnew.png",
+    "_src_": "cancelicon.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "25dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerX": "50%",
     "centerY": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -56,16 +51,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "30dp",
+    "height": "25dp",
     "id": "imgCloseAddress",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
     "kuid": "83f6c4adcda04a00bfdd39cbcc0ec4b7",
-    "left": "0dp",
     "margin": [
         0,
         0,
@@ -82,14 +77,15 @@
     "parent": "flexCloseAddress",
     "pf": "frmFlagDown",
     "render": true,
+    "right": 10,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "canceliconnew.png",
+    "src": "cancelicon.png",
     "srcType": 1,
     "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
+    "width": "25dp",
     "zIndex": 21,
     "zindex": 21
 }

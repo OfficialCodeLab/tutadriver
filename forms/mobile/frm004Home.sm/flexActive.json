@@ -52,7 +52,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "6c09d4202c414b3c93e78a4ccec25636",
+    "kuid": "484448a7a02e4b9881f7af084c50f71f",
     "layoutType": 2,
     "layouttype": 2,
     "margin": [
@@ -69,7 +69,7 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "flexFooter",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

@@ -320,9 +320,9 @@ tuta.rejectBooking = function(bookingID) {
 };
 
 
-tuta.createBooking = function(address){
+tuta.createBooking = function(address, user){
   currentBooking = {
-    userId: tempUser,
+    userId: user,
     providerId: globalCurrentUser.userName + "",
     address: {
       description: address.formatted_address.replace(/`+/g,"") + ""
@@ -341,10 +341,10 @@ tuta.createBooking = function(address){
   application.service("driverService").invokeOperation(
     "book", {}, input,
     function(result) {
-      tuta.util.alert("SUCCESS", JSON.stringify(currentBooking));
-      tuta.renderRouteAndDriver();
+      customerIsPickedUp = true;
       storedBookingID = result.value[0].id;
       mapFixed = true; 
+      tuta.renderRouteAndDriver();
       
     },
     function(error) {
@@ -388,6 +388,7 @@ tuta.updateUserOnRoute = function(userId) { //2
 
   //Show slider
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
+  //TODO: GET CUSTOMER NAME AND DISPLAY ON FOOTER
 
   kony.timer.schedule("user", function() {
     /*
@@ -505,7 +506,7 @@ tuta.renderRouteAndDriver = function() { //3
 tuta.updateDriverOnRoute = function() { //4
 
   //Animate slider back up
-  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
+  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-85", 0, null);
 
   nearbyUsers = [];
   // tuta.startWatchLocation();

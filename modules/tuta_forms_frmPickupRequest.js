@@ -52,9 +52,9 @@ tuta.forms.frmPickupRequest = function() {
             tuta.rejectBooking(currentBooking.id);
             tuta.forms.frm004Home.show();
         }
+  this.control("segAddressList").onRowClick = onLocationSelected;
     };
   
-  this.control("segAddressList").onRowClick = onLocationSelected;
 
 
     tuta.forms.frmPickupRequest.onPostShow = function(form) {

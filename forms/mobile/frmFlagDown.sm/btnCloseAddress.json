@@ -6,10 +6,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         6,
         6,
@@ -22,6 +18,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": "5"
+    },
     "_skin_": "s7f94279e4e64bc6b74b650acf446ad2",
     "_text_": "",
     "_top_": {
@@ -33,12 +33,7 @@
         "value": "50dp"
     },
     "canUpdateUI": true,
-    "centerX": "50%",
     "centerY": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -50,15 +45,14 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s7f94279e4e64bc6b74b650acf446ad2",
+    "focusskin": "s7f94279e4e64bc6b74b650acf446ad2",
     "height": "50dp",
     "id": "btnCloseAddress",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "260c7ad5f01c45fd973124c42a3af510",
-    "left": "0dp",
     "margin": [
         6,
         6,
@@ -75,6 +69,7 @@
     "parent": "flexCloseAddress",
     "pf": "frmFlagDown",
     "render": true,
+    "right": 5,
     "skin": "s7f94279e4e64bc6b74b650acf446ad2",
     "text": "",
     "top": "73dp",
