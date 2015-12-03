@@ -47,11 +47,11 @@ tuta.forms.frmDebug = function() {
 
     this.control("btnTickPress6").onClick = function (button){
       try {
-        tuta.forms.frm004Home.flexDriverFooter.isVisible = true;
-        tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "0dp", "0%", null);
+        tuta.util.alert("Current User", currentBooking);
+        
       }
       catch (exception){
-        tuta.util.alert("ERROR", "Something went wrong with animating the footer.");
+        tuta.util.alert("Error", "Something went wrong with showing the User ID.");
       }
     };
 

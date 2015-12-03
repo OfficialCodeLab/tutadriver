@@ -281,7 +281,7 @@ tuta.checkCancellation = function (bookingID){
   try{
     application.service("driverService").invokeOperation(
     "booking", {}, input,
-    function(results) {
+    function(result) {
       if(result.value[0].status === "Cancelled"){
         tuta.resetMap();
         try{
@@ -621,6 +621,7 @@ tuta.resetMap = function(){
   storedBookingID = null;
   destination = null;
   mapFixed = false;
+  mapAutoUpdateInterval = 5;
 };
 
 // Should be called in the App init lifecycle event
