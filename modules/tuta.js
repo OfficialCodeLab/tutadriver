@@ -413,6 +413,7 @@ tuta.updateUserOnRoute = function(userId) { //2
     Center on the driver.
   */
   mapAutoUpdateInterval = 4;
+  mapFixed = true;
   tuta.startUpdateMapFunction();
 
   //Show slider
@@ -619,6 +620,7 @@ tuta.resetMap = function(){
   nearbyUsers = [];
   storedBookingID = null;
   destination = null;
+  mapFixed = false;
 };
 
 // Should be called in the App init lifecycle event
