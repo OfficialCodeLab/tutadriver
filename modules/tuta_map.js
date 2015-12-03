@@ -54,7 +54,7 @@ function updateMap() {
        desc: "", 
        image : ""});      
   }
-
+  
   locationData.push({
     lat: "" + currentPos.geometry.location.lat + "",
     lon: "" + currentPos.geometry.location.lng + "",
