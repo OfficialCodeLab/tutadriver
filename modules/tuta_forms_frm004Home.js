@@ -251,6 +251,8 @@ tuta.forms.frm004Home = function() {
       tuta.forms.frm001LoginScreen.show();
     };
 
+    this.control("btnCancelSearch").onClick = clearDestPick;
+
     frm004Home.flexOverlay1.setVisibility(false);
 
 

@@ -1,10 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "27dp"
+        "value": "25dp"
     },
     "_margin_": [
         0,
@@ -19,14 +20,18 @@
         0
     ],
     "_right_": {
-        "type": "string",
-        "value": "20dp"
+        "type": "number",
+        "value": "8"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "burgericon.png",
+    "_src_": "canceliconnew.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "25dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -35,7 +40,6 @@
         "type": "string",
         "value": "50%"
     },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -47,15 +51,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "27dp",
-    "id": "imgBurgerClose",
-    "imageScaleMode": 0,
-    "imagescalemode": 0,
+    "height": "25dp",
+    "id": "imgCancelIcon",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
     "info": null,
-    "isVisible": false,
+    "invokedProperty": "src",
+    "isVisible": true,
     "ispercent": true,
-    "isvisible": false,
-    "kuid": "976da96b0af54acd85f784acb05f2a0a",
+    "isvisible": true,
+    "kuid": "405f0f45b20644499f20fe937cb1baed",
     "margin": [
         0,
         0,
@@ -63,25 +68,24 @@
         0
     ],
     "name": "kony.ui.Image2",
-    "onDownloadComplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
-    "ondownloadcomplete": "AS_Image_6f045cb81b05478d96ab186ba53de4b2",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexTopMenu",
+    "parent": "flexDest",
     "pf": "frm004Home",
     "render": true,
-    "right": "20dp",
+    "right": 8,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "burgericon.png",
+    "src": "canceliconnew.png",
     "srcType": 1,
+    "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
-    "zIndex": 2,
-    "zindex": 2
+    "width": "25dp",
+    "zIndex": 69,
+    "zindex": 69
 }

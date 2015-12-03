@@ -204,6 +204,10 @@ function toggleImage(widget) {
     widget["isVisible"] = false;
   }
 }
+function clearDestPick(){
+  frm004Home.txtDest.text = "";
+  frm004Home.flexDest.setVisibility(true);
+}
 
 /*===========================================================================
   ____       _                 
