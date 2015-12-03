@@ -44,7 +44,7 @@
         "lblDetailsTitle",
         "lblSep1",
         "txfCustomerName",
-        "txfFinalDestination",
+        "txtDest",
         "lblEstimateTitle",
         "lblTripPrice",
         "lblSep3",

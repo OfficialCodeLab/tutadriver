@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7f94279e4e64bc6b74b650acf446ad2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
+    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "height": "50dp",
+    "id": "btnCloseAddress",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "260c7ad5f01c45fd973124c42a3af510",
+    "left": "0dp",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexCloseAddress",
+    "pf": "frmFlagDown",
+    "render": true,
+    "skin": "s7f94279e4e64bc6b74b650acf446ad2",
+    "text": "",
+    "top": "73dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "50dp",
+    "zIndex": 30,
+    "zindex": 30
+}

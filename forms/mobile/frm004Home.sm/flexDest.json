@@ -34,10 +34,17 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "imgSearch",
         "lblDest",
-        "txtDest"
+        "txtDest",
+        "btnCancelSearch",
+        "imgCancelIcon"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -49,9 +56,9 @@
     "height": "65dp",
     "id": "flexDest",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "55e48ab042c9438fb0f2187f50a1e7b4",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "ce8b1b3ef5964abca19519ef5d6f1cc0",
     "layoutType": 2,
     "layouttype": 2,
     "left": "5%",
@@ -69,7 +76,7 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "flexSearchDestination",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

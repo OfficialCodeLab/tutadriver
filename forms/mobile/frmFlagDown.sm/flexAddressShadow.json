@@ -1,9 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "number",
-        "value": "450"
+        "value": "109"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5.70%"
     },
     "_margin_": [
         0,
@@ -17,39 +21,21 @@
         0,
         0
     ],
-    "_skin_": "s348b5dace1c4559bb521c46fb9d346e",
+    "_skin_": "s2dd73e64bfc4bf39ece32f3f767e745",
+    "_top_": {
+        "type": "string",
+        "value": "148dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": 109,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerY": "50%",
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [
-        "Label038d2249bc08945",
-        "lblTripSep",
-        "CopylblTripSep09d6f4d3c7c744b",
-        "CopylblTripSep0ab58bc69ddc24e",
-        "lblTime",
-        "CopylblTime02eab2cc2a6b14b",
-        "lblCost",
-        "Label0dc121c390cc346",
-        "mapTripSm",
-        "btnSubmitRating",
-        "flexStarRating",
-        "Label0d5c5b96c192b40"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -57,14 +43,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": 450,
-    "id": "FlexContainer0d9ce8db238ba41",
+    "id": "flexAddressShadow",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "1a6ac077971b4905a5d94de7423b038e",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "49a6243aa23d4f2cb65221e4fcfa7ff1",
     "layoutType": 2,
     "layouttype": 2,
+    "left": "5.70%",
     "margin": [
         0,
         0,
@@ -79,17 +65,20 @@
         0,
         0
     ],
-    "parent": "flexOverlay1",
+    "parent": "frmFlagDown",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "frmFlagDown",
     "render": true,
-    "skin": "s348b5dace1c4559bb521c46fb9d346e",
+    "skin": "s2dd73e64bfc4bf39ece32f3f767e745",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "top": "148dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "80%"
+    "width": "90%",
+    "zIndex": 20,
+    "zindex": 20
 }

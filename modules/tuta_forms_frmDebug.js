@@ -38,14 +38,21 @@ tuta.forms.frmDebug = function() {
 
     this.control("btnTickPress5").onClick = function (button){
       try {
-        tuta.csShowDistance();
+        tuta.events.csShowDistance();
       }
       catch (exception){
-        tuta.util.alert("Something went wrong with showing the distance.");
+        tuta.util.alert("ERROR", "Something went wrong with showing the distance.");
       }
+    };
 
-
-      
+    this.control("btnTickPress6").onClick = function (button){
+      try {
+        tuta.forms.frm004Home.flexDriverFooter.isVisible = true;
+        tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "0dp", "0%", null);
+      }
+      catch (exception){
+        tuta.util.alert("ERROR", "Something went wrong with animating the footer.");
+      }
     };
 
   };//END OF PRE-SHOW

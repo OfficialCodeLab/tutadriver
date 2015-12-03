@@ -39,7 +39,7 @@ tuta.forms.frmPickupRequest = function() {
 
         this.control("btnAcceptRequest").onClick = function(button) {
             kony.timer.cancel("startwatch");
-            tuta.acceptBooking(currentBooking);
+            tuta.acceptBooking(currentBooking.id);
             tuta.forms.frm004Home.show();
             tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
             //TODO: START TRIP
@@ -49,10 +49,13 @@ tuta.forms.frmPickupRequest = function() {
 
         this.control("btnConfirm").onClick = function(button) {
             frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;
-            tuta.rejectBooking(currentBooking);
+            tuta.rejectBooking(currentBooking.id);
             tuta.forms.frm004Home.show();
         }
     };
+  
+  this.control("segAddressList").onRowClick = onLocationSelected;
+
 
     tuta.forms.frmPickupRequest.onPostShow = function(form) {
         var self = this;

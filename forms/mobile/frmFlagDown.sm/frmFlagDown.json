@@ -29,7 +29,11 @@
     "children": [
         "flexScrollFlagDown",
         "flexFixedFooter",
-        "FlexContainer0f4595841ada443"
+        "FlexContainer0f4595841ada443",
+        "flexAddressShadow",
+        "flexAddressList",
+        "flexFindingDest",
+        "flexCloseAddress"
     ],
     "containerWeight": 100,
     "containerweight": 100,

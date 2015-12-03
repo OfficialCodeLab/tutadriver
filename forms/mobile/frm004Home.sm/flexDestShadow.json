@@ -34,6 +34,11 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerY": "50.50%",
+    "centery": {
+        "type": "string",
+        "value": "50.50%"
+    },
     "children": [],
     "clipBounds": true,
     "clipbounds": true,
@@ -45,9 +50,9 @@
     "height": "65dp",
     "id": "flexDestShadow",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
-    "kuid": "54ce0f27047a4b3e812ae099c62cf01b",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "d2102e9c78c2444cab770b26b12d537b",
     "layoutType": 2,
     "layouttype": 2,
     "left": "5.20%",
@@ -65,7 +70,7 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "flexSearchDestination",
     "percent": true,
     "pf": "frm004Home",
     "render": true,

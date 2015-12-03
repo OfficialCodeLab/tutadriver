@@ -7,10 +7,6 @@
         "type": "string",
         "value": "25dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "15dp"
-    },
     "_margin_": [
         0,
         0,
@@ -23,11 +19,15 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": "8"
+    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "searchicon.png",
+    "_src_": "canceliconnew.png",
     "_top_": {
         "type": "string",
-        "value": "2dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -52,7 +52,7 @@
     },
     "enabled": false,
     "height": "25dp",
-    "id": "imgSearch",
+    "id": "imgCancelIcon",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
@@ -60,8 +60,7 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "bd29c69affec4370a1f3e6fce842cd5f",
-    "left": "15dp",
+    "kuid": "bdaf6d1a84a2413ba99b340dd792e9d9",
     "margin": [
         0,
         0,
@@ -78,12 +77,15 @@
     "parent": "flexDest",
     "pf": "frm004Home",
     "render": true,
+    "right": 8,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "searchicon.png",
+    "src": "canceliconnew.png",
     "srcType": 1,
-    "top": "2dp",
+    "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "25dp"
+    "width": "25dp",
+    "zIndex": 69,
+    "zindex": 69
 }
