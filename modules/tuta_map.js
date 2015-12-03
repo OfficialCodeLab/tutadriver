@@ -54,6 +54,12 @@ function updateMap() {
   var bounds = frm004Home.mapMain.getBounds();
   var locationData = [];
   //tuta.util.alert("TEST", JSON.stringify(bounds));
+  
+  //#ifdef iphone
+  frm004Home.mapMain.locationData = [];
+  frm004Home.mapMain.zoomLevel = frm004Home.mapMain.zoomLevel;
+  bounds = frm004Home.mapMain.getBounds();  
+  //#endif
 
   if (bounds !== null && mapFixed === false) {
     locationData.push(
@@ -63,7 +69,6 @@ function updateMap() {
        desc: "", 
        image : ""});      
   }
-
   
   locationData.push({
     lat: "" + currentPos.geometry.location.lat + "",
@@ -82,7 +87,6 @@ function updateMap() {
       image: "pickupicon.png"
     });
   }
-  
   
   frm004Home.mapMain.locationData = locationData;
 }
