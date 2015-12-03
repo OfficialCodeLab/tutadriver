@@ -16,8 +16,21 @@ tuta.forms.frmFlagDown = function() {
   
   tuta.forms.frmFlagDown.onPreShow = function(form) {
     var self = this;
-    this.control("btnStartTrip").onClick = function (button) {flagDownRequest();};
+    this.control("btnStartTrip").onClick = function (button) {flagDownRequest(self);};
     this.control("btnCancelTrip").onClick = function (button) {tuta.forms.frm004Home.show();};
+    this.control("btnCloseAddress").onClick = function(button){
+      frmFlagDown.flexFindingDest.setVisibility(false);
+      frmFlagDown.flexAddressList.setVisibility(false);
+      frmFlagDown.flexCloseAddress.setVisibility(false);
+      
+      
+                                                              }
+    this.control("segAddressList").onRowClick = function (button) {
+      onLocationSelected(self);
+      tuta.forms.frm004Home.show();
+      tuta.mobile.alert("ADDRESS", JSON.stringify(tempDestination));
+                                                                  
+    };
     
   };
   
@@ -29,19 +42,23 @@ tuta.forms.frmFlagDown = function() {
   };
 };
 
-function flagDownRequest (){
-  var oldState = driver_state;
-  tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
-
-  if(oldState !== driver_state)
-  {
-    frm004Home.show();
-    tuta.mobile.alert("Idle", "Taxi is now idle and picking up client");
+function flagDownRequest (form){
+  //tuta.fsm.stateChange(tuta.fsm.REQUESTS.FLAG_DOWN);
+  // SHOW THE SEGMENT
+  if (frmFlagDown.txtCustomerName !== null && frmFlagDown.txtDest !== null) {
+  	selectDest(form);
   }
-  else{
-    frm004Home.show();
-    tuta.mobile.alert("ERROR", "Taxi is idle and cannot recieve flag down requests"); 
-    //tuta.mobile.alert("ERROR", "Cannot accept flag downs while idle");
+  else {
+    tuta.util.alert("Required Details", "Please fill in details");
   }
-    //tuta.mobile.alert("STATE CHANGE", "" + driver_state);
-};
+  //COPY segAddressList and the shadow flex container
+  //Change bottom text field's name to txtDest
+  //COPY flexChangeDest
+  
+  //IF STATEMENT TO CHECK TEXT FIELDS
+  
+  
+  
+  //tuta.forms.frm004Home.show();
+  //tuta.mobile.alert("Idle", "Taxi is now idle and picking up client");
+}

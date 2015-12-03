@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,18 +24,23 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "searchicon.png",
+    "_src_": "canceliconnew.png",
     "_top_": {
         "type": "string",
-        "value": "2dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "50%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -44,24 +49,23 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frm004Home",
+        "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "25dp",
-    "id": "imgSearch",
+    "height": "30dp",
+    "id": "imgCloseAddress",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "bd29c69affec4370a1f3e6fce842cd5f",
-    "left": "15dp",
+    "kuid": "83f6c4adcda04a00bfdd39cbcc0ec4b7",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -75,15 +79,17 @@
         0,
         0
     ],
-    "parent": "flexDest",
-    "pf": "frm004Home",
+    "parent": "flexCloseAddress",
+    "pf": "frmFlagDown",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "searchicon.png",
+    "src": "canceliconnew.png",
     "srcType": 1,
-    "top": "2dp",
+    "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "25dp"
+    "width": "30dp",
+    "zIndex": 21,
+    "zindex": 21
 }

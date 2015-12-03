@@ -55,7 +55,7 @@
     "focusSkin": "s0f26627b902497ab9cbe2ff74bd7900",
     "focusskin": "s0f26627b902497ab9cbe2ff74bd7900",
     "height": "40dp",
-    "id": "txfFinalDestination",
+    "id": "txtDest",
     "info": null,
     "iphone": {},
     "isVisible": true,

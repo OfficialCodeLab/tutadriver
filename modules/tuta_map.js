@@ -8,23 +8,38 @@ tuta.map.blankFunction = function(){
 
 };
 
+var tempDestination;
+function onLocationSelected(form) {
+  tempDestination = getSelectedAddress(form);
+}
+
+function getSelectedAddress(form) {
+  // hide address list
+  var selectedItem = form.segAddressList.selectedItems[0];
+  form.flexAddressList.setVisibility(false);
+  form.flexAddressShadow.setVisibility(false);
+
+  return selectedItem;
+}
+
+
 //Handles entering addresses on the map form.
 function selectDest(form) {
   var add = "";
-  add = frm004Home.txtDest.text;
+  add = form.txtDest.text;
 
   tuta.location.addressList(add, function(result) {
-    frm004Home.flexFindingDest.setVisibility(false);
+    form.flexFindingDest.setVisibility(false);
     if (result.status === "ZERO_RESULTS") {
-      frm004Home.txtDest.text = "";
+      form.txtDest.text = "";
     } else {
-      frm004Home.flexAddressList.setVisibility(true);
-      frm004Home.flexAddressShadow.setVisibility(true);
-      frm004Home.segAddressList.widgetDataMap = {
+      form.flexAddressList.setVisibility(true);
+      form.flexAddressShadow.setVisibility(true);
+      form.segAddressList.widgetDataMap = {
         lblAddress: "formatted_address"
       };
-      frm004Home.segAddressList.setData(result.results);
-      frm004Home.txtDest.text = "";
+      form.segAddressList.setData(result.results);
+      form.txtDest.text = "";
     }
   });
 }

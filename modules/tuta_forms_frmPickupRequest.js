@@ -53,6 +53,9 @@ tuta.forms.frmPickupRequest = function() {
             tuta.forms.frm004Home.show();
         }
     };
+  
+  this.control("segAddressList").onRowClick = onLocationSelected;
+
 
     tuta.forms.frmPickupRequest.onPostShow = function(form) {
         var self = this;

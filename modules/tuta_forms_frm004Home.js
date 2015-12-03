@@ -79,6 +79,9 @@ tuta.forms.frm004Home = function() {
       tuta.forms.frmTermsConditions.show();
     };
     this.control("btnFlagDown").onClick = function(button) {
+      tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+      tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+      frm004Home.imgSwitchBg.src = "switchbgoff.png";
       tuta.forms.frmFlagDown.show();
     };
     this.control("btnTestingPickup").onClick = function(button) {

@@ -38,7 +38,8 @@
         "flexOverlay1",
         "flexDebugOptions",
         "flexFloatingConsole",
-        "flexArrivalMessage"
+        "flexArrivalMessage",
+        "flexSearchDestination"
     ],
     "containerWeight": 100,
     "containerweight": 100,

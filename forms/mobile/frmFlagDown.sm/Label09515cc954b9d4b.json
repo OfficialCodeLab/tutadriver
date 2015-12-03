@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "153dp"
+        "value": "100dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "sffa938ba254485895758dd8a09db825",
-    "_text_": "SET DESTINATION",
+    "_skin_": "sf2171937149496bbe67b623171f1499",
+    "_text_": "FINDING LOCATION...",
     "_top_": {
         "type": "string",
-        "value": "6dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -44,8 +44,8 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "25dp",
-    "id": "lblDest",
+    "height": "50dp",
+    "id": "Label09515cc954b9d4b",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,8 +59,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "fdc863d09ec747b7ac49aa45141b5940",
-    "left": "153dp",
+    "kuid": "545faf3aa5c34c05bfae3c4558999c3f",
+    "left": "100dp",
     "margin": [
         1,
         1,
@@ -74,18 +74,16 @@
         0,
         0
     ],
-    "parent": "flexDest",
-    "pf": "frm004Home",
+    "parent": "flexFindingDest",
+    "pf": "frmFlagDown",
     "render": true,
-    "skin": "sffa938ba254485895758dd8a09db825",
-    "text": "SET DESTINATION",
+    "skin": "sf2171937149496bbe67b623171f1499",
+    "text": "FINDING LOCATION...",
     "toolTip": "",
     "tooltip": "",
-    "top": "6dp",
+    "top": "20dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "80%",
-    "wrapping": 2,
-    "zIndex": 69,
-    "zindex": 69
+    "width": "100%",
+    "wrapping": 2
 }
