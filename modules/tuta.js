@@ -272,6 +272,35 @@ tuta.pickupRequestInfo = function(userID, address) {
   }
 };
 
+tuta.checkCancellation = function (bookingID){
+  var input = {
+    id: bookingID
+  };
+
+  //set global variable
+  try{
+    application.service("driverService").invokeOperation(
+    "booking", {}, input,
+    function(results) {
+      if(result.value[0].status === "Cancelled"){
+        tuta.resetMap();
+        try{
+          kony.timer.cancel("user");
+        }
+        catch(ex){
+          
+        }
+      }
+    },
+    function(error) {
+
+    });
+  }
+  catch (ex){
+
+  }
+};
+
 
 //Accepts whatever booking gets passed through to the method,
 //Triggers rendering of the route on the map.
@@ -401,7 +430,6 @@ tuta.updateUserOnRoute = function(userId) { //2
       },
       function(result) {
         nearbyUsers = []; //clear the array of users
-
         var user = {
           id: userId,
           location: {
@@ -421,6 +449,8 @@ tuta.updateUserOnRoute = function(userId) { //2
           lat: currentPos.geometry.location.lat,
           lon: currentPos.geometry.location.lng
         };
+        
+        tuta.checkCancellation(storedBookingID);
 
         var csDistanceToClient = tuta.location.distance(parseFloat(csCurrentPos.lat),
           parseFloat(csCurrentPos.lon),
@@ -537,11 +567,11 @@ tuta.updateDriverOnRoute = function() { //4
       //Move slider away
       tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
 
-      //Reset state flags
+
       customerIsPickedUp = false;
       customerIsDroppedOff = false;
       arrivedFlag = false;
-
+      
       try{
         application.service("manageService").invokeOperation(
         "bookingUpdate", {}, {
@@ -576,6 +606,19 @@ tuta.updateDriverOnRoute = function() { //4
 
 
   }, 5, true);
+};
+
+tuta.resetMap = function(){
+  customerIsPickedUp = false;
+  customerIsDroppedOff = false;
+  arrivedFlag = false;
+  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
+  tuta.animate.move(frm004Home.imgSliderball, 0, "", "5dp", null);
+  frm004Home.mapMain.clear();
+  driver_state = 0;
+  nearbyUsers = [];
+  storedBookingID = null;
+  destination = null;
 };
 
 // Should be called in the App init lifecycle event
