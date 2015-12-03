@@ -24,7 +24,7 @@ var watchID = null;
 var searchMode = 0;
 
 //Map will update as per this amount of seconds
-var mapAutoUpdateInterval = 5;
+var mapAutoUpdateInterval = 4;
 
 //Variables pertaining to the current user
 var globalCurrentUser = {};
@@ -120,18 +120,10 @@ tuta.initCallback = function(error) {
 //Updates every two seconds.
 tuta.loadInitialPosition = function() {
   tuta.location.loadPositionInit();
-  try{
-    kony.timer.cancel("startwatch");
-  }
-  catch (ex){
-
-  }
   kony.timer.schedule("startwatch", function() {
     tuta.startWatchLocation();
   }, 2, false);
-  
 }
-
 
 //Retrieves unconfirmed bookings that are
 //assigned to the driver.
@@ -327,6 +319,41 @@ tuta.rejectBooking = function(bookingID) {
   }
 };
 
+
+tuta.createBooking = function(address){
+  currentBooking = {
+    userId: tempUser,
+    providerId: globalCurrentUser.userName + "",
+    address: {
+      description: address.formatted_address.replace(/`+/g,"") + ""
+    },
+    location: {
+      lat: currentPos.geometry.location.lat + "",
+      long: currentPos.geometry.location.lng + ""
+    },
+    status: "InTransit"
+  };
+  
+
+  var input = { data : JSON.stringify(currentBooking) };
+  //tuta.util.alert("TEST", input);
+
+  application.service("driverService").invokeOperation(
+    "book", {}, input,
+    function(result) {
+      tuta.util.alert("SUCCESS", JSON.stringify(currentBooking));
+      tuta.renderRouteAndDriver();
+      storedBookingID = result.value[0].id;
+      mapFixed = true; 
+      
+    },
+    function(error) {
+      // the service returns 403 (Not Authorised) if credentials are wrong
+      tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+    }
+  );
+};
+
 /*  
   Runs when the booking is accepted
   Step number: 1
@@ -357,16 +384,7 @@ tuta.updateUserOnRoute = function(userId) { //2
     Center on the driver.
   */
   mapAutoUpdateInterval = 4;
-  mapFixed = true;
   tuta.startUpdateMapFunction();
-
-  //#ifdef iphone
-  frm004Home.mapMain.zoomLevel = 14;
-  //#endif
-  
-  //#ifdef android
-  frm004Home.mapMain.zoomLevel = 16;
-  //#endif
 
   //Show slider
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
@@ -417,7 +435,6 @@ tuta.updateUserOnRoute = function(userId) { //2
         if (customerIsPickedUp === true) {
           //Stop the current timer
           kony.timer.cancel("user");
-          mapFixed = false;
 
 
           application.service("manageService").invokeOperation(
@@ -491,7 +508,6 @@ tuta.updateDriverOnRoute = function() { //4
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, 0, 0, null);
 
   nearbyUsers = [];
-  mapFixed = true;
   // tuta.startWatchLocation();
   kony.timer.schedule("user2", function() {
     var csCurrentPos = {
@@ -524,8 +540,6 @@ tuta.updateDriverOnRoute = function() { //4
       customerIsPickedUp = false;
       customerIsDroppedOff = false;
       arrivedFlag = false;
-      mapFixed = false;
-      mapAutoUpdateInterval = 5;
 
       try{
         application.service("manageService").invokeOperation(
