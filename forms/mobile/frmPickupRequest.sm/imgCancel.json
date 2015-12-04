@@ -52,7 +52,7 @@
         "channel": "mobile",
         "formID": "frmPickupRequest",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

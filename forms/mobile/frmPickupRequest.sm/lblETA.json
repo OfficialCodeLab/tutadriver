@@ -25,7 +25,7 @@
     "_text_": "7 min",
     "_top_": {
         "type": "string",
-        "value": "490dp"
+        "value": "510dp"
     },
     "_width_": {
         "type": "string",
@@ -82,7 +82,7 @@
     "text": "7 min",
     "toolTip": "",
     "tooltip": "",
-    "top": "490dp",
+    "top": "510dp",
     "vizProps": {
         "lock": false
     },

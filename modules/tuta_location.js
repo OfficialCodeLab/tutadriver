@@ -199,10 +199,12 @@ tuta.location.tripHistoryImage = function(polyline, callback){
           } else {
               if (response !== null) {
                   tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
-                  if (response.results !== null) {
-                      callback(response);
-                      tuta.util.alert("Info", "There definitely were results.");
-                  }
+
+                  // if (response.results !== null) {
+                  //     callback(response);
+                  //     tuta.util.alert("Info", "There definitely were results.");
+                  // }
+                  
               }
           }
       }

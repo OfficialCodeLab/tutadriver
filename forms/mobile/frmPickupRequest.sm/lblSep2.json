@@ -21,7 +21,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "440dp"
+        "value": "460dp"
     },
     "_width_": {
         "type": "string",
@@ -77,7 +77,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "440dp",
+    "top": "460dp",
     "vizProps": {
         "lock": true
     },

@@ -25,7 +25,7 @@
     "_text_": "ETA:",
     "_top_": {
         "type": "string",
-        "value": "450dp"
+        "value": "470dp"
     },
     "_width_": {
         "type": "string",
@@ -82,7 +82,7 @@
     "text": "ETA:",
     "toolTip": "",
     "tooltip": "",
-    "top": "450dp",
+    "top": "470dp",
     "vizProps": {
         "lock": false
     },
