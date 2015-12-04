@@ -30,7 +30,7 @@ var mapAutoUpdateInterval = 4;
 var globalCurrentUser = {};
 var loggedUser = null;
 var currentLocation;
-var country = "SA";
+var country = null;
 
 //Variables pertaining to the current booking
 var currentBooking = null;
@@ -121,10 +121,7 @@ tuta.initCallback = function(error) {
 //Updates every two seconds.
 tuta.loadInitialPosition = function() {
   tuta.location.loadPositionInit();
-  kony.timer.schedule("startwatch", function() {
-    tuta.startWatchLocation();
-  }, 2, false);
-}
+};
 
 //Retrieves bookings that are
 //assigned to the driver based on status
@@ -203,7 +200,7 @@ tuta.startWatchLocation = function() {
   tuta.startUpdateMapFunction();
   setUpSwipes();
   try {
-    watchID = null;
+    watchID = kony.store.getItem("watch");    
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
@@ -233,12 +230,11 @@ tuta.startWatchLocation = function() {
           enableHighAccuracy: true
         }
       );
-
-
+      kony.store.setItem("watch", watchID);
       initialized = 1;
     } else {
       kony.location.clearWatch(watchID);
-      //kony.store.removeItem("watch");
+      kony.store.removeItem("watch");
       watchID = null;
       tuta.startWatchLocation();
     }

@@ -88,18 +88,28 @@ tuta.location.loadPositionInit = function() {
     tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
       currentPos.geometry.location.lat = response.coords.latitude;
       currentPos.geometry.location.lng = response.coords.longitude;
-      var components = success.results[0].address_components;
-      var len = components.length;
-      
-      for(var i = 0; i < len; i++){
-        for(var j = 0; j < components[i].types.length; j++){
-          if(components[i].types[j] === "country"){
-            country = components[i];
-			}
+      try{
+        var components = success.results[0].address_components;
+        var len = components.length;
+
+        for(var i = 0; i < len; i++){
+          for(var j = 0; j < components[i].types.length; j++){
+            if(components[i].types[j] === "country"){
+              country = components[i];
+            }
+          }
         }
+
+
+      }
+      catch(ex){
+
       }
       //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
       updateMap();
+      kony.timer.schedule("startwatch", function(){
+        tuta.startWatchLocation();
+      }, 4, false);
 
       //var userTemp = JSON.parse(kony.store.getItem("user"));
       tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);
@@ -146,8 +156,8 @@ tuta.location.distance = function(lat1, lon1, lat2, lon2) {
     "\nLon 2 - Lon 1:" + dA);*/
 
   var a = Math.sin(dO / 2) * Math.sin(dO / 2) +
-    Math.cos(o1) * Math.cos(o2) *
-    Math.sin(dA / 2) * Math.sin(dA / 2);
+      Math.cos(o1) * Math.cos(o2) *
+      Math.sin(dA / 2) * Math.sin(dA / 2);
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
   return R * c;
@@ -169,8 +179,15 @@ tuta.location.bearing = function(lat1, lng1, lat2, lng2) {
 
 // get address list based on a search string
 tuta.location.addressList = function(address, callback) {
-  var url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g, "+").replace(/`+/g, "") + "&components=country:" +  country.short_name;
-	
+  var url;
+
+  if(country !== null)
+    url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g, "+").replace(/`+/g, "") + "&components=country:" +  country.short_name;
+  else
+    url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g, "+").replace(/`+/g, "");
+
+
+
   var request = new kony.net.HttpRequest();
 
   request.timeout = 30000;
@@ -203,20 +220,20 @@ tuta.location.tripHistoryImage = function(polyline, callback){
   request.timeout = 30000;
 
   request.onReadyStateChange = function() {
-      if (request.readyState == constants.HTTP_READY_STATE_DONE) {
-          var response = request.response;
-          if (response === null) {
-              tuta.mobile.alert("No Response!", JSON.stringify(request.getAllResponseHeaders()));
-          } else {
-              if (response !== null) {
-                  tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
-                  if (response.results !== null) {
-                      callback(response);
-                      tuta.util.alert("Info", "There definitely were results.");
-                  }
-              }
+    if (request.readyState == constants.HTTP_READY_STATE_DONE) {
+      var response = request.response;
+      if (response === null) {
+        tuta.mobile.alert("No Response!", JSON.stringify(request.getAllResponseHeaders()));
+      } else {
+        if (response !== null) {
+          tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
+          if (response.results !== null) {
+            callback(response);
+            tuta.util.alert("Info", "There definitely were results.");
           }
+        }
       }
+    }
   };
 
   request.open(constants.HTTP_METHOD_GET, url, true, null, null);
