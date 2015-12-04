@@ -665,6 +665,7 @@ tuta.init = function() {
   new tuta.forms.frmTermsConditions();
   new tuta.forms.frmTripHistory();
   new tuta.forms.frmTripHistoryInfo();
+  new tuta.forms.frmDebugConsole();
 
   // initialize application
   application = new tuta.application(tuta.initCallback);

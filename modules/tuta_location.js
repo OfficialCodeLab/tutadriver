@@ -199,12 +199,20 @@ tuta.location.tripHistoryImage = function(polyline, callback){
           } else {
               if (response !== null) {
                   tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
-
+                  try{
+                    //frm001LoginScreen.imgTutaLogo.src=response;
+                    //frmWebBrowser.widgetBrowser.url = response;
+                    tuta.forms.frmDebugConsole.txtConsoleEditable.text = response;
+                  }
+                  catch(ex){
+                    tuta.util.alert("Info", "Unable to set the image from the request.");
+                  }
+                  
                   // if (response.results !== null) {
                   //     callback(response);
                   //     tuta.util.alert("Info", "There definitely were results.");
                   // }
-                  
+
               }
           }
       }

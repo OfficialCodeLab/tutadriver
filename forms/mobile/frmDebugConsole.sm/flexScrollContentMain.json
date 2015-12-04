@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "sb5d701979084394926a7f14e7311676",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -31,27 +31,34 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "allowHorizontalBounce": true,
+    "allowVerticalBounce": true,
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "lblRowDesc2",
-        "btnTickPress2",
-        "imgTickIcon2"
+        "txtConsoleEditable"
     ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
+    "decelerat": false,
+    "decelerating": false,
+    "dragg": false,
+    "dragging": false,
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "80dp",
-    "id": "flexRow2",
+    "height": "100%",
+    "horizontalScrollIndicator": true,
+    "horizontalscrollindicator": true,
+    "id": "flexScrollContentMain",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "bab30ab723fb4f128833ae69f74ae724",
+    "kuid": "aeae27d059784d5eaeb5055b0f0e55c4",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -61,7 +68,7 @@
         0,
         0
     ],
-    "name": "kony.ui.FlexContainer",
+    "name": "kony.ui.FlexScrollContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -69,17 +76,25 @@
         0,
         0
     ],
-    "parent": "flexScrollDebugContent",
+    "pagingEnabled": false,
+    "pagingenabled": false,
+    "parent": "frmDebugConsole",
     "percent": true,
-    "pf": "frmDebug",
+    "pf": "frmDebugConsole",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "scrollDirection": 1,
+    "scrolldirection": 1,
+    "skin": "sb5d701979084394926a7f14e7311676",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
     "top": "0dp",
-    "wType": "FlexContainer",
+    "track": false,
+    "tracking": false,
+    "verticalScrollIndicator": true,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%"

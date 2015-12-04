@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s850696bd90143f4a86bb6a550ddbb51",
+    "_text_": "Console Text Here",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "autoCapitalize": "none",
+    "autoComplete": false,
+    "autoCorrect": false,
+    "autoFilter": false,
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closeButtonText": "",
+    "closebuttontext": "",
+    "containerHeight": "",
+    "containerHeightMode": 1,
+    "containerWeight": 100,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentAlignment": 1,
+    "contentalignment": 1,
+    "enabled": false,
+    "height": "120dp",
+    "id": "txtConsoleEditable",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "keyBoardStyle": "A",
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "767f970175584ea3b6be9150e8d6b7c4",
+    "left": "15dp",
+    "margin": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberOfVisibleLines": 3,
+    "numberofvisiblelines": 3,
+    "padding": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "parent": "flexScrollContentMain",
+    "pf": "frmDebugConsole",
+    "placeholder": "",
+    "render": true,
+    "right": "15dp",
+    "secureTextEntry": false,
+    "securetextentry": false,
+    "showProgressIndicator": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "skin": "s850696bd90143f4a86bb6a550ddbb51",
+    "text": "Console Text Here",
+    "textInputMode": "A",
+    "textinputmode": "A",
+    "toolTip": "",
+    "top": "15dp",
+    "viewType": "default",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "widgetAlignment": 5
+}

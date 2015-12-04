@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "35dp"
     },
     "_margin_": [
         0,
@@ -21,17 +21,17 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "12.80%"
+        "value": "10%"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "radiotick.png",
+    "_src_": "csmapicon.png",
     "_top_": {
         "type": "string",
         "value": "22dp"
     },
     "_width_": {
         "type": "string",
-        "value": "20dp"
+        "value": "40dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -45,22 +45,19 @@
     "context": {
         "channel": "mobile",
         "formID": "frmDebug",
-        "ispercent": true,
-        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "20dp",
+    "height": "35dp",
     "id": "imgTickIcon2",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "836cf10a378a4361907006d0965f9b0d",
+    "kuid": "49917c5e24a54926ae85544951a3dad0",
     "margin": [
         0,
         0,
@@ -77,15 +74,15 @@
     "parent": "flexRow2",
     "pf": "frmDebug",
     "render": true,
-    "right": "12.80%",
+    "right": "10%",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "radiotick.png",
+    "src": "csmapicon.png",
     "srcType": 1,
     "top": "22dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "20dp",
+    "width": "40dp",
     "zIndex": 1,
     "zindex": 1
 }

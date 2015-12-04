@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s7734615fe0846babe9fa0a92f5a31ca",
-    "_text_": "Toggle Setting 2",
+    "_text_": "Open Browser",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -74,7 +74,7 @@
     "pf": "frmDebug",
     "render": true,
     "skin": "s7734615fe0846babe9fa0a92f5a31ca",
-    "text": "Toggle Setting 2",
+    "text": "Open Browser",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
