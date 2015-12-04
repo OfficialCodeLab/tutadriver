@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "73.44%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -40,7 +40,7 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "100%",
+    "height": "50dp",
     "id": "lblAddress",
     "info": null,
     "ipad": {
@@ -81,6 +81,6 @@
     "top": "5dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "100%",
+    "width": "73.44%",
     "wrapping": 2
 }

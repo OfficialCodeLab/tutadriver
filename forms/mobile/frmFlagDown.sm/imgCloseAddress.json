@@ -46,7 +46,7 @@
         "channel": "mobile",
         "formID": "frmFlagDown",
         "ispercent": true,
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -86,6 +86,6 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "25dp",
-    "zIndex": 21,
-    "zindex": 21
+    "zIndex": 31,
+    "zindex": 31
 }
