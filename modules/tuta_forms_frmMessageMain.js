@@ -19,8 +19,19 @@ tuta.forms.frmMessageMain = function() {
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     this.control("btnComposeMessage").onClick = function(button){tuta.forms.frmMessageCompose.show();};
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
-
     
+	this.control("txtSearch").onTextChange = function(widget) {
+      
+      if (frmMessageMain.txtSearch.text.length === 0) {
+        
+        frmMessageMain.imgSearchIcon.setVisibility(true);
+        
+      }
+      else if (frmMessageMain.txtSearch.text.length > 0) {
+        
+        frmMessageMain.imgSearchIcon.setVisibility(false);
+      }
+    };
 
   };//END of OnPreShow
   

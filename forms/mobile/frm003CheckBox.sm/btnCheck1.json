@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "46dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10%"
+        "value": "0.00%"
     },
     "_margin_": [
         6,
@@ -25,11 +25,11 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "7%"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "android": {
         "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty"
@@ -48,13 +48,13 @@
     "enabled": false,
     "focusSkin": "saaf01011e5b4855bdfe9427590aee71",
     "focusskin": "saaf01011e5b4855bdfe9427590aee71",
-    "height": "30dp",
+    "height": "46dp",
     "id": "btnCheck1",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "cb175ac8be8e4a97ad0b960d758ba10b",
-    "left": "10%",
+    "left": "0.00%",
     "margin": [
         6,
         6,
@@ -73,10 +73,10 @@
     "render": true,
     "skin": "saaf01011e5b4855bdfe9427590aee71",
     "text": "",
-    "top": "10%",
+    "top": "7%",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "30dp",
+    "width": "100%",
     "zIndex": 3,
     "zindex": 3
 }
