@@ -85,15 +85,26 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
 tuta.location.loadPositionInit = function() {
   tuta.location.currentPosition(function(response) {
 
-    //tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
+    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
       currentPos.geometry.location.lat = response.coords.latitude;
       currentPos.geometry.location.lng = response.coords.longitude;
+      var components = success.results[0].address_components;
+      var len = components.length;
+      
+      for(var i = 0; i < len; i++){
+        for(var j = 0; j < components[i].types.length; j++){
+          if(components[i].types[j] === "country"){
+            country = components[i];
+			}
+        }
+      }
+      //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
       updateMap();
 
       //var userTemp = JSON.parse(kony.store.getItem("user"));
       tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);
 
-    //});
+    });
   }, function(error) {
     tuta.util.alert("Error", error);
   });
@@ -158,8 +169,8 @@ tuta.location.bearing = function(lat1, lng1, lat2, lng2) {
 
 // get address list based on a search string
 tuta.location.addressList = function(address, callback) {
-  var url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g, "+").replace(/`+/g, "");
-
+  var url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g, "+").replace(/`+/g, "") + "&components=country:" +  country.short_name;
+	
   var request = new kony.net.HttpRequest();
 
   request.timeout = 30000;

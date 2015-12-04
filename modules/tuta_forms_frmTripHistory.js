@@ -27,6 +27,20 @@ tuta.forms.frmTripHistory = function() {
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     this.control("segTripHistoryMain").onRowClick = function(button) {tuta.forms.frmTripHistoryInfo.show();};
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    this.control("segTripHistoryMain").onRowClick = function(button) {
+      var data;
+      data = frmTripHistory.segTripHistoryMain.selectedItems[0];
+      frmTripHistoryInfo.lblDateTime.text = data.date.toUpperCase();
+      frmTripHistoryInfo.lblPickUp.text = data.start;
+      frmTripHistoryInfo.lblDropoff.text = data.end;
+      frmTripHistoryInfo.lblFare.text = data.cost;
+      frmTripHistoryInfo.lblRating.text = data.rating;
+      frmTripHistoryInfo.lblCustomerName.text = data.customerName;
+      tuta.location.directions(data.start, data.end, null, function(result, id){
+        renderDirections(frmTripHistoryInfo.mapHistory,result,"0x00ff0000", "pickupicon.png", "dropofficon.png");  
+        tuta.forms.frmTripHistoryInfo.show();      
+      }, 1);
+    };
   };
   
   tuta.forms.frmTripHistory.onPostShow = function(form) {

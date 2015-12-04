@@ -30,6 +30,7 @@ var mapAutoUpdateInterval = 4;
 var globalCurrentUser = {};
 var loggedUser = null;
 var currentLocation;
+var country = "SA";
 
 //Variables pertaining to the current booking
 var currentBooking = null;
