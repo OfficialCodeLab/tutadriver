@@ -31,6 +31,12 @@ tuta.forms.frmTripHistory = function() {
   
   tuta.forms.frmTripHistory.onPostShow = function(form) {
     var self = this;
+    tuta.animate.move(frmTripHistory.flexLoading, 0, 0, 0, null);
+    tuta.events.loadTripHistory(function(response){
+      if(response === "success"){
+        tuta.animate.move(frmTripHistory.flexLoading, 0, 0, "100%", null);
+      }
+    });
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
