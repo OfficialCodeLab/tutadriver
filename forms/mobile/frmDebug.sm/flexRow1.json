@@ -36,7 +36,6 @@
     "canUpdateUI": true,
     "children": [
         "lblRowDesc1",
-        "lblRadio1",
         "imgTickIcon1",
         "btnTickPress1"
     ],

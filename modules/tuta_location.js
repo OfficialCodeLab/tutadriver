@@ -184,25 +184,28 @@ tuta.location.addressList = function(address, callback) {
 };
 
 
-tuta.location.tripHistoryImage = function(route, callback){
-  var url = "http://maps.googleapis.com/maps/api/staticmap?size=800x184&path=weight:3%7Ccolor:blue%7Cenc:"+ route;
+tuta.location.tripHistoryImage = function(polyline, callback){
+  var url = "http://maps.googleapis.com/maps/api/staticmap?size=800x184&path=weight:5%7Ccolor:red%7Cenc:" + polyline;
+  tuta.util.alert("Maps Query URL", url + "");
   var request = new kony.net.HttpRequest();
 
   request.timeout = 30000;
 
   request.onReadyStateChange = function() {
-    if (request.readyState == constants.HTTP_READY_STATE_DONE) {
-      var response = request.response;
-      if (response === null) {
-        tuta.mobile.alert("HTTP ERROR!", JSON.stringify(request.getAllResponseHeaders()));
-      } else {
-        if (response !== null) {
-          if (response.results !== null) {
-            callback(response);
+      if (request.readyState == constants.HTTP_READY_STATE_DONE) {
+          var response = request.response;
+          if (response === null) {
+              tuta.mobile.alert("No Response!", JSON.stringify(request.getAllResponseHeaders()));
+          } else {
+              if (response !== null) {
+                  tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
+                  if (response.results !== null) {
+                      callback(response);
+                      tuta.util.alert("Info", "There definitely were results.");
+                  }
+              }
           }
-        }
       }
-    }
   };
 
   request.open(constants.HTTP_METHOD_GET, url, true, null, null);

@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "35dp"
     },
     "_margin_": [
         0,
@@ -21,17 +21,17 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "12.80%"
+        "value": "10%"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "radiotick.png",
+    "_src_": "target.png",
     "_top_": {
         "type": "string",
         "value": "22dp"
     },
     "_width_": {
         "type": "string",
-        "value": "20dp"
+        "value": "40dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -51,7 +51,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "20dp",
+    "height": "35dp",
     "id": "imgTickIcon1",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -77,15 +77,15 @@
     "parent": "flexRow1",
     "pf": "frmDebug",
     "render": true,
-    "right": "12.80%",
+    "right": "10%",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "radiotick.png",
+    "src": "target.png",
     "srcType": 1,
     "top": "22dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "20dp",
+    "width": "40dp",
     "zIndex": 1,
     "zindex": 1
 }
