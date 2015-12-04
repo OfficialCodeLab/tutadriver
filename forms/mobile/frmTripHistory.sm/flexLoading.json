@@ -36,7 +36,7 @@
     "bottom": 0,
     "canUpdateUI": true,
     "children": [
-        "Label049fee8d9148942"
+        "lblStatus"
     ],
     "clipBounds": true,
     "clipbounds": true,
