@@ -5,6 +5,10 @@
         "type": "number",
         "value": "2"
     },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
     "_margin_": [
         0,
         0,
@@ -20,11 +24,11 @@
     "_skin_": "s62faee723d941ecba3b5436e955179e",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "325dp"
     },
     "_width_": {
         "type": "string",
-        "value": "98%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -53,6 +57,7 @@
     "kuid": "6b1d0ac1377f4def87e6583349e9c22a",
     "layoutType": 2,
     "layouttype": 2,
+    "left": 0,
     "margin": [
         0,
         0,
@@ -76,11 +81,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "60dp",
+    "top": "325dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "98%",
+    "width": "80%",
     "zIndex": 21,
     "zindex": 21
 }

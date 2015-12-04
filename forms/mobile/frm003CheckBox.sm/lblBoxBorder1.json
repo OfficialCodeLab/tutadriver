@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10%"
     },
     "_margin_": [
         1,
@@ -22,26 +22,25 @@
         0,
         0
     ],
-    "_skin_": "s597676beefa4847bdfe515147004421",
-    "_text_": "Label",
+    "_skin_": "s9826064f5d84d699ff88ef2119952dd",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
-        "value": "73.44%"
+        "value": "30dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "containerId": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "50dp",
-    "id": "lblAddress",
+    "height": "30dp",
+    "id": "lblBoxBorder1",
     "info": null,
     "ipad": {
         "psp": {
@@ -53,11 +52,10 @@
             "wrapping": 2
         }
     },
-    "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "3d62d763838948ef9ad5b70cf8b53093",
-    "left": "5dp",
+    "kuid": "987f6b4386b1462287aaa3f29f7d5f67",
+    "left": "10%",
     "margin": [
         1,
         1,
@@ -71,16 +69,18 @@
         0,
         0
     ],
-    "parent": "FlexContainer009615e58132b40",
-    "pf": "addressList",
+    "parent": "flexCheckboxQuestions",
+    "pf": "frm003CheckBox",
     "render": true,
-    "skin": "s597676beefa4847bdfe515147004421",
-    "text": "Label",
+    "skin": "s9826064f5d84d699ff88ef2119952dd",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "5dp",
+    "top": "10%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "73.44%",
-    "wrapping": 2
+    "width": "30dp",
+    "wrapping": 2,
+    "zIndex": 2,
+    "zindex": 2
 }

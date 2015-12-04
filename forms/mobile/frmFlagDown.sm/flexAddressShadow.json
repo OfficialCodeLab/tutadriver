@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "number",
-        "value": "0"
+        "value": "-11"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "461dp"
     },
     "_margin_": [
         0,
@@ -24,7 +24,7 @@
     "_skin_": "s309e4309b104cae82c9cd83850ac60e",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "73dp"
     },
     "_width_": {
         "type": "string",
@@ -33,7 +33,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
+    "bottom": -11,
     "canUpdateUI": true,
     "children": [],
     "clipBounds": true,
@@ -50,7 +50,7 @@
     "kuid": "49a6243aa23d4f2cb65221e4fcfa7ff1",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "461dp",
     "margin": [
         0,
         0,
@@ -74,7 +74,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "60dp",
+    "top": "73dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

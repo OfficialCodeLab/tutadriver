@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "46dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10%"
+        "value": "0%"
     },
     "_margin_": [
         6,
@@ -25,11 +25,11 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "40%"
+        "value": "38%"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "channel": "mobile",
@@ -42,13 +42,13 @@
     "enabled": false,
     "focusSkin": "saaf01011e5b4855bdfe9427590aee71",
     "focusskin": "saaf01011e5b4855bdfe9427590aee71",
-    "height": "30dp",
+    "height": "46dp",
     "id": "btnCheck3",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "kuid": "c15edc94704b4e0694e75dced68b6205",
-    "left": "10%",
+    "left": "0%",
     "margin": [
         6,
         6,
@@ -67,10 +67,10 @@
     "render": true,
     "skin": "saaf01011e5b4855bdfe9427590aee71",
     "text": "",
-    "top": "40%",
+    "top": "38%",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "30dp",
+    "width": "100%",
     "zIndex": 3,
     "zindex": 3
 }

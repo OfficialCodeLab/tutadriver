@@ -59,7 +59,12 @@
         "lblSepLine3",
         "lblSepLine4",
         "lblSepLine5",
-        "lblSepLine6"
+        "lblSepLine6",
+        "lblBoxBorder1",
+        "lblBoxBorder2",
+        "lblBoxBorder3",
+        "lblBoxBorder4",
+        "lblBoxBorder5"
     ],
     "clipBounds": true,
     "clipbounds": true,
