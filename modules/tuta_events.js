@@ -209,6 +209,67 @@ function clearDestPick(){
   frm004Home.flexDest.setVisibility(true);
 }
 
+var storedTrips = [];
+tuta.events.loadTripHistory = function(callback){
+  tuta.retrieveBookingsHistory(function(results, error){
+    if(error === undefined){
+      if(results.value.length > storedTrips.length){
+
+        storedTrips = [];
+        for (var j = 0; j < results.value.length; j++){storedTrips.push({});}
+        for (var i = 0; i < results.value.length; i++){
+          try{          
+            storedTrips[i] = {
+              "name" : results.value[i].users.customerName,
+              "start" : results.value[i].address.start,
+              "end" : results.value[i].address.end,
+              "date" : results.value[i].info.date,
+              "cost" : results.value[i].info.cost,
+              "rating" : results.value[i].info.customerRating,
+              "driverImg" : "profilepicbookingnew.png", //TODO: replace with real profile pic
+              "tripImg" : "map2.png"//TODO: QUERY STATIC MAPS API TO GET IMAGE
+            };
+
+          }
+          catch(ex){
+
+          }
+
+        }
+        frmTripHistory.segTripHistoryMain.widgetDataMap = { "lblCost"  : "cost", "lblDateTime" : "date"};
+        frmTripHistory.segTripHistoryMain.setData(storedTrips);
+        callback("success");
+
+      }
+      else{
+        //Display or handle error
+      }
+
+    }
+  });
+
+
+};
+
+/* STRUCT FOR STORED TRIPS
+storedTrips[i] = {
+  "_id" : "primary key",
+  "users" : { 
+    "customerName" : "",
+    "driverName" : "",
+  },
+  "address" : { 
+    "start" : "description of the start position",
+    "end" : "description of the end position" 
+  },
+  "info" : {
+    "date" : "possibly epoch date?",
+    "cost" : "",
+    "customerRating" : "",
+    "driverRating" : ""
+  }
+};*/
+
 /*===========================================================================
   ____       _                 
  |  _ \  ___| |__  _   _  __ _ 

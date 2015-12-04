@@ -125,13 +125,12 @@ tuta.loadInitialPosition = function() {
   }, 2, false);
 }
 
-//Retrieves unconfirmed bookings that are
-//assigned to the driver.
-tuta.retrieveBookings = function() {
-    var user = globalCurrentUser;
+//Retrieves bookings that are
+//assigned to the driver based on status
+tuta.retrieveBookings = function(status, callback) {
     var input = {
-        userid: user.userName,
-        status: "Unconfirmed"
+        userid: globalCurrentUser.userName,
+        status: status
     };
 
     try {
@@ -139,17 +138,39 @@ tuta.retrieveBookings = function() {
             "bookings", {}, input,
             function(results) {
                 try {
-                    currentBooking = results.value[0];
-                    tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
-                    tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
-                    frm004Home.imgSwitchBg.src = "switchbgoff.png";
-                    tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+                    callback(results);
                 } catch (ex) {
 
                 }
             },
             function(error) {
-                
+                callback(null, error);
+            });
+    }
+    catch(ex){
+
+    }
+};
+
+//Retrieves completed bookings that are
+//assigned to the driver based
+tuta.retrieveBookingsHistory = function(callback) {
+    var input = {
+        userid: globalCurrentUser.userName
+    };
+
+    try {
+        application.service("driverService").invokeOperation(
+            "bookingsHistory", {}, input,
+            function(results) {
+                try {
+                    callback(results);
+                } catch (ex) {
+
+                }
+            },
+            function(error) {
+                callback(null, error);
             });
     }
     catch(ex){

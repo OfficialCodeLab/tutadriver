@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "string",
-        "value": "0%"
+        "type": "number",
+        "value": "0"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,10 +21,10 @@
         0,
         0
     ],
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "s08b7fde294940cc9507cd0f6c1ed9ae",
     "_top_": {
         "type": "string",
-        "value": "150dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -33,11 +33,10 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "0%",
+    "bottom": 0,
     "canUpdateUI": true,
     "children": [
-        "segTripHistoryMain",
-        "flexLoading"
+        "Label049fee8d9148942"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -46,14 +45,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "id": "flexTripContent",
+    "id": "flexLoading",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "71ab0cf85f1b4a31842c3bc1d858351c",
+    "kuid": "9e7fba7fc75640ae94bad03104e82557",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -68,20 +67,20 @@
         0,
         0
     ],
-    "parent": "flexTripHistoryMain",
+    "parent": "flexTripContent",
     "percent": true,
     "pf": "frmTripHistory",
     "render": true,
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "skin": "s08b7fde294940cc9507cd0f6c1ed9ae",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "150dp",
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 5,
+    "zindex": 5
 }
