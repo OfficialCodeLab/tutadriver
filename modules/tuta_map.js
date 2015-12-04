@@ -46,49 +46,53 @@ function selectDest(form) {
 
 //Function to refresh the map with locations of user and driver.
 function updateMap() {
-
-  tuta.getBearing(function(response) {
-    currentPin = response;
-  });
-  
-  var bounds = frm004Home.mapMain.getBounds();
-  var locationData = [];
-  //tuta.util.alert("TEST", JSON.stringify(bounds));
-  
-  //#ifdef iphone
-  frm004Home.mapMain.locationData = [];
-  frm004Home.mapMain.zoomLevel = frm004Home.mapMain.zoomLevel;
-  bounds = frm004Home.mapMain.getBounds();  
-  //#endif
-
-  if (bounds !== null && mapFixed === false) {
-    locationData.push(
-      {lat: "" + bounds.center.lat + "", 
-       lon: "" + bounds.center.lon + "", 
-       name:"", 
-       desc: "", 
-       image : ""});      
-  }
-  
-  locationData.push({
-    lat: "" + currentPos.geometry.location.lat + "",
-    lon: "" + currentPos.geometry.location.lng + "",
-    name: "Pickup Location",
-    desc: "",
-    image: currentPin
-  });
-
-  if (nearbyUsers.length > 0) {
-    locationData.push({
-      lat: "" + nearbyUsers[0].location.lat + "",
-      lon: "" + nearbyUsers[0].location.lng + "",
-      name: nearbyUsers[0].id,
-      desc: "",
-      image: "pickupicon.png"
+  try{
+    tuta.getBearing(function(response) {
+      currentPin = response;
     });
+
+    var bounds = frm004Home.mapMain.getBounds();
+    var locationData = [];
+    //tuta.util.alert("TEST", JSON.stringify(bounds));
+
+    //#ifdef iphone
+    frm004Home.mapMain.locationData = [];
+    frm004Home.mapMain.zoomLevel = frm004Home.mapMain.zoomLevel;
+    bounds = frm004Home.mapMain.getBounds();  
+    //#endif
+
+    if (bounds !== null && mapFixed === false) {
+      locationData.push(
+        {lat: "" + bounds.center.lat + "", 
+         lon: "" + bounds.center.lon + "", 
+         name:"", 
+         desc: "", 
+         image : ""});      
+    }
+
+    locationData.push({
+      lat: "" + currentPos.geometry.location.lat + "",
+      lon: "" + currentPos.geometry.location.lng + "",
+      name: "Pickup Location",
+      desc: "",
+      image: currentPin
+    });
+
+    if (nearbyUsers.length > 0) {
+      locationData.push({
+        lat: "" + nearbyUsers[0].location.lat + "",
+        lon: "" + nearbyUsers[0].location.lng + "",
+        name: nearbyUsers[0].id,
+        desc: "",
+        image: "pickupicon.png"
+      });
+    }
+
+    frm004Home.mapMain.locationData = locationData;
   }
-  
-  frm004Home.mapMain.locationData = locationData;
+  catch(ex){
+
+  }
 }
 
 //Toggles some menu on the map form.
