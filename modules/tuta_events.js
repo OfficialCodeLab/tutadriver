@@ -255,18 +255,6 @@ tuta.events.loadTripHistory = function(callback){
 
 };
 
-tuta.location.tripHistoryImage = function(route, callback){
-  var url = "http://maps.googleapis.com/maps/api/staticmap?size=640x300&path=weight:3%7Ccolor:blue%7Cenc:"+ route;
-  //REST OF THE FUNCTION AS NORMAL
-};
-  
-  
-tuta.location.directions(addressStart, addressEnd, null, function(success, error){
-  tuta.location.tripHistoryImage(success, function(success, error){
-    img1.src = success;
-  });
-}, 1);
-
 
 /* STRUCT FOR STORED TRIPS
 storedTrips[i] = {
