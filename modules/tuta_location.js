@@ -183,6 +183,32 @@ tuta.location.addressList = function(address, callback) {
   request.send();
 };
 
+
+tuta.location.tripHistoryImage = function(route, callback){
+  var url = "http://maps.googleapis.com/maps/api/staticmap?size=800x184&path=weight:3%7Ccolor:blue%7Cenc:"+ route;
+  var request = new kony.net.HttpRequest();
+
+  request.timeout = 30000;
+
+  request.onReadyStateChange = function() {
+    if (request.readyState == constants.HTTP_READY_STATE_DONE) {
+      var response = request.response;
+      if (response === null) {
+        tuta.mobile.alert("HTTP ERROR!", JSON.stringify(request.getAllResponseHeaders()));
+      } else {
+        if (response !== null) {
+          if (response.results !== null) {
+            callback(response);
+          }
+        }
+      }
+    }
+  };
+
+  request.open(constants.HTTP_METHOD_GET, url, true, null, null);
+  request.send();
+};
+
 // get address from location data
 tuta.location.geoCode = function(lat, lng, callback) {
   var url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lng;

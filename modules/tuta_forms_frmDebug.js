@@ -55,6 +55,23 @@ tuta.forms.frmDebug = function() {
       }
     };
 
+
+
+    /*
+      var staticAddress1 = "42 Bright Street, Somerset West, South Africa";
+      var staticAddress2 = "90 Parel Vallei, Somerset West, South Africa";
+
+      
+      
+      tuta.location.directions(addressStart, addressEnd, null, function(success, error){
+        tuta.location.tripHistoryImage(success, function(success, error){
+          //img1.src = success;
+        });
+      }, 1);
+
+
+
+    */
   };//END OF PRE-SHOW
 
   tuta.forms.frmDebug.onPostShow = function(form) {
