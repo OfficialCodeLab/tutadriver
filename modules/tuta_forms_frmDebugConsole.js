@@ -18,7 +18,25 @@ tuta.forms.frmDebugConsole = function() {
   
   tuta.forms.frmDebugConsole.onPreShow = function(form) {
     var self = this;
+    self.control("txtConsoleEditable").text = staticMapImageResource + "&key=" + "AIzaSyAiiKudEobnRQW6YIOHVOcbcMxN-l0iaEA";
 
+    this.control("btnBack").onClick = function(button) {
+      tuta.forms.frmDebug.show();
+    };
+
+    this.control("btnSetImage").onClick = function(button) {
+      //self.control("imgDebugOutput").src = staticMapImageResource + ".png"; //+ "&key=" + "AIzaSyAiiKudEobnRQW6YIOHVOcbcMxN-l0iaEA";
+      self.control("imgDebugOutput").src = self.control("txtConsoleEditable").text;
+    };
+    this.control("btnApiImage").onClick = function(button) {
+      self.control("txtConsoleEditable").text = staticMapImageResource;
+      self.control("imgDebugOutput").src = staticMapImageResource;
+    };
+    this.control("btnImgurImage").onClick = function(button) {
+      self.control("txtConsoleEditable").text = "http://i.imgur.com/B5LkNwg.jpg";
+      self.control("imgDebugOutput").src = "http://i.imgur.com/B5LkNwg.jpg";
+    };
+    
   };
   
   tuta.forms.frmDebugConsole.onPostShow = function(form) {

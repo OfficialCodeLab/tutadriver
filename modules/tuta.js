@@ -73,6 +73,9 @@ var currentPos = {
   },
   formatted_address: ""
 };
+
+//Debug
+var staticMapImageResource = "HOLDER TEXT";
 /*=============================================================================
   _   _                                                
  | \ | | __ _ _ __ ___   ___  ___ _ __   __ _  ___ ___ 

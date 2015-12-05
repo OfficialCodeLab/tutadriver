@@ -20,8 +20,10 @@
     "android": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
+        "flexDebugHeader",
         "flexScrollContentMain"
     ],
     "containerWeight": 100,
@@ -97,7 +99,7 @@
     "paddinginpixel": false,
     "percent": true,
     "platform": "iphone",
-    "prevDevice": "iPhone6",
+    "prevDevice": "iPhone3",
     "prevPlatform": "iphone",
     "render": true,
     "retainScrollPosition": false,
@@ -155,11 +157,6 @@
         "ide_titleClosureLeftSideView": "",
         "ide_titleClosureRightSideView": "",
         "info": null,
-        "iphone": {
-            "psp": {
-                "visible": false
-            }
-        },
         "isVisible": true,
         "isvisible": true,
         "leftButtonText": "Back",

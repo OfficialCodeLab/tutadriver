@@ -77,7 +77,7 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
     function(error) {
 
       // the service returns 403 (Not Authorised) if credentials are wrong
-      tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+      tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
     }
   );
 };
@@ -215,41 +215,38 @@ tuta.location.addressList = function(address, callback) {
 tuta.location.tripHistoryImage = function(polyline, callback){
   var url = "http://maps.googleapis.com/maps/api/staticmap?size=800x184&path=weight:5%7Ccolor:red%7Cenc:" + polyline;
   tuta.util.alert("Maps Query URL", url + "");
-  var request = new kony.net.HttpRequest();
+  staticMapImageResource = url;
 
-  request.timeout = 30000;
+  /*
+    var request = new kony.net.HttpRequest();
+    request.timeout = 30000;
 
-  request.onReadyStateChange = function() {
-      if (request.readyState == constants.HTTP_READY_STATE_DONE) {
-          var response = request.response;
-          if (response === null) {
-              tuta.mobile.alert("No Response!", JSON.stringify(request.getAllResponseHeaders()));
-          } else {
-              if (response !== null) {
-                  tuta.util.alert("Info", "There definitely was a response.\n\n" + response);
-                  try{
-                    //frm001LoginScreen.imgTutaLogo.src=response;
-                    //frmWebBrowser.widgetBrowser.url = response;
-                    tuta.forms.frmDebugConsole.txtConsoleEditable.text = response;
-                  }
-                  catch(ex){
-                    tuta.util.alert("Info", "Unable to set the image from the request.");
-                  }
-                  
-                  // if (response.results !== null) {
-                  //     callback(response);
-                  //     tuta.util.alert("Info", "There definitely were results.");
-                  // }
+    request.onReadyStateChange = function() {
+        if (request.readyState == constants.HTTP_READY_STATE_DONE) {
+            var response = request.response;
+            if (response === null) {
+                tuta.mobile.alert("No Response!", JSON.stringify(request.getAllResponseHeaders()));
+            } else {
+                if (response !== null) {
+                    tuta.util.alert("Info", "There definitely was a response.\n\n" + JSON.stringify(request));
+                    try{
 
-              }
+                    }
+                    catch(ex){
+                      tuta.util.alert("Info", "Unable to set the image from the request.");
+                    }
+
+
+                }
+            }
           }
-        }
+        
       
-    
-  };
+    };
 
-  request.open(constants.HTTP_METHOD_GET, url, true, null, null);
-  request.send();
+    request.open(constants.HTTP_METHOD_GET, url, true, null, null);
+    request.send();
+  */
 };
 
 // get address from location data

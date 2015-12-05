@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "59dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "15"
+    },
+    "_skin_": "s8ca46ebbb6d495f938b09781a2e7758",
+    "_text_": "Set Imgur Image",
+    "_top_": {
+        "type": "string",
+        "value": "604dp"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s44b98faa7ec4297bf861f6269e49c6e",
+    "focusskin": "s44b98faa7ec4297bf861f6269e49c6e",
+    "height": "59dp",
+    "id": "btnImgurImage",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "b0d47c8d742846cc96f86eb590e46da3",
+    "left": "15dp",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexScrollContentMain",
+    "pf": "frmDebugConsole",
+    "render": true,
+    "right": 15,
+    "skin": "s8ca46ebbb6d495f938b09781a2e7758",
+    "text": "Set Imgur Image",
+    "top": "604dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "zIndex": 15,
+    "zindex": 15
+}

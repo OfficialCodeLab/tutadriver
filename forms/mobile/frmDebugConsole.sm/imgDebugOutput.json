@@ -5,7 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -21,46 +25,37 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "10%"
+        "value": "15dp"
     },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csmapicon.png",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "22dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "40dp"
+        "value": "299dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmDebug",
+        "formID": "frmDebugConsole",
         "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "35dp",
-    "id": "imgTickIcon2",
+    "height": "150dp",
+    "id": "imgDebugOutput",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "49917c5e24a54926ae85544951a3dad0",
+    "kuid": "f4b7abec9f6c432d8d887e669141af5a",
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -74,18 +69,17 @@
         0,
         0
     ],
-    "parent": "flexRow2",
-    "pf": "frmDebug",
+    "parent": "flexScrollContentMain",
+    "pf": "frmDebugConsole",
     "render": true,
-    "right": "10%",
+    "right": "15dp",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csmapicon.png",
+    "src": "imagedrag.png",
     "srcType": 1,
-    "top": "22dp",
+    "top": "299dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "40dp",
     "zIndex": 1,
     "zindex": 1
 }

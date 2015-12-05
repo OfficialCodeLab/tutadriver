@@ -5,7 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -19,15 +23,11 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "10%"
-    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csmapicon.png",
+    "_src_": "csbackarrow.png",
     "_top_": {
         "type": "string",
-        "value": "22dp"
+        "value": "12dp"
     },
     "_width_": {
         "type": "string",
@@ -44,15 +44,15 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmDebug",
+        "formID": "frmDebugConsole",
         "ispercent": true,
         "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "35dp",
-    "id": "imgTickIcon2",
+    "height": "40dp",
+    "id": "imgBackButton",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
@@ -60,7 +60,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "49917c5e24a54926ae85544951a3dad0",
+    "kuid": "82578b7917884f2cae44fae0cde0781d",
+    "left": "20dp",
     "margin": [
         0,
         0,
@@ -74,14 +75,13 @@
         0,
         0
     ],
-    "parent": "flexRow2",
-    "pf": "frmDebug",
+    "parent": "flexDebugHeader",
+    "pf": "frmDebugConsole",
     "render": true,
-    "right": "10%",
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csmapicon.png",
+    "src": "csbackarrow.png",
     "srcType": 1,
-    "top": "22dp",
+    "top": "12dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

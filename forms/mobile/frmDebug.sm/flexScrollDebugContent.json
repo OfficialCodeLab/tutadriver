@@ -31,9 +31,9 @@
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
+    "allowHorizontalBounce": false,
     "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
+    "allowhorizontalbounce": false,
     "allowverticalbounce": true,
     "bottom": 0,
     "bounces": true,

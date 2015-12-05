@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "275dp"
     },
     "_left_": {
         "type": "string",
@@ -28,7 +28,7 @@
         "value": "15dp"
     },
     "_skin_": "s850696bd90143f4a86bb6a550ddbb51",
-    "_text_": "Console Text Here",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "15dp"
@@ -53,7 +53,7 @@
     "contentAlignment": 1,
     "contentalignment": 1,
     "enabled": false,
-    "height": "120dp",
+    "height": "275dp",
     "id": "txtConsoleEditable",
     "info": null,
     "isVisible": true,
@@ -90,7 +90,7 @@
     "showoprogressindicator": false,
     "showprogressindicator": false,
     "skin": "s850696bd90143f4a86bb6a550ddbb51",
-    "text": "Console Text Here",
+    "text": "",
     "textInputMode": "A",
     "textinputmode": "A",
     "toolTip": "",
