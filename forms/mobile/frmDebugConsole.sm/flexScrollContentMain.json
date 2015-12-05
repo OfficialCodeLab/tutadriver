@@ -43,7 +43,8 @@
         "imgDebugOutput",
         "btnSetImage",
         "btnApiImage",
-        "btnImgurImage"
+        "btnImgurImage",
+        "btnGetImageID"
     ],
     "clipBounds": true,
     "clipbounds": true,
