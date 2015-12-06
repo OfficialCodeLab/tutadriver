@@ -540,6 +540,7 @@ tuta.renderRouteAndDriver = function() { //3
   actualPickupLocation.lat = currentPos.geometry.location.lat;
   actualPickupLocation.lng = currentPos.geometry.location.lng;
   timeStandingStill = 0;
+  distanceTravelled = 0;
 
   //tuta.util.alert("INFO 2", "Starting to render the second route.");
   //Animate slider back down
@@ -641,8 +642,8 @@ tuta.updateDriverOnRoute = function() { //4
           //Get end position of current booking
 
           //Get distance of booking
-          var distanceTraveled = tuta.location.distance(currentPos.geometry.location.lat, currentPos.geometry.location.lng, 
-            actualPickupLocation.lat, actualPickupLocation.lng);
+          /*var distanceTraveled = tuta.location.distance(currentPos.geometry.location.lat, currentPos.geometry.location.lng, 
+            actualPickupLocation.lat, actualPickupLocation.lng);*/
 
 
           /*
@@ -683,18 +684,18 @@ tuta.updateDriverOnRoute = function() { //4
 
 var tempPositionStart = {lat: 0, lng: 0};
 var tempPositionEnd = {lat: 0, lng: 0};
+var distanceTraveled = 0;
 tuta.addIfStandingStill = function(){
-  if (counter == 0){
+  if (counter < 8 ){
     //Set first location to compare
-    tempPositionStart.lat = currentPos.geometry.location.lat;
-    tempPositionStart.lng = currentPos.geometry.location.lng;
+    if(counter === 0 ){
+      tempPositionStart.lat = currentPos.geometry.location.lat;
+      tempPositionStart.lng = currentPos.geometry.location.lng;
+    }
     /*
     tuta.util.alert("Info", "Counter is zero\n\n" + 
       "Start position LAT: " + tempPositionStart.lat + "\n" + 
       "Start position LNG: " + tempPositionStart.lng);*/
-    counter += mapAutoUpdateInterval;
-  }
-  else if (counter < 8){
     counter += mapAutoUpdateInterval;
   }
   else {
@@ -704,8 +705,10 @@ tuta.addIfStandingStill = function(){
 
     var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
     if (tempDist <= GLOBAL_MIN_DIST){
-
       timeStandingStill += counter;
+    }
+    else{
+      distanceTraveled += tempDist;
     }
     /*
     tuta.util.alert("Info 2", "Counter is " + counter + "\n" + "Time standing still: " + timeStandingStill + "\n" + 
@@ -735,6 +738,7 @@ tuta.resetMap = function(){
   mapAutoUpdateInterval = 5;
   timeStandingStill = 0;
   counter = 0;
+  distanceTravelled = 0;
 };
 
 // Should be called in the App init lifecycle event
