@@ -423,7 +423,7 @@ tuta.renderRouteAndUser = function() { //1
             renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
             //updateMap();
             tuta.updateUserOnRoute(currentBooking.userId);
-            tuta.startWatchLocation();
+            //tuta.startWatchLocation();
         }, 2, false);
     });
 };
@@ -552,7 +552,7 @@ tuta.renderRouteAndDriver = function() { //3
         renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
         updateMap();
         tuta.updateDriverOnRoute();
-        tuta.startWatchLocation();
+        //tuta.startWatchLocation();
       }, 2, false);
     });
 

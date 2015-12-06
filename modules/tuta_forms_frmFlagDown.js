@@ -77,6 +77,7 @@ tuta.forms.frmFlagDown = function() {
       frmFlagDown.txtDest.setFocus(true);
     };
 
+      frmFlagDown.flexAddressList.setVisibility(false);
   };
 
   tuta.forms.frmFlagDown.onPostShow = function(form) {

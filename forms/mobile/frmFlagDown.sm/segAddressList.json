@@ -172,11 +172,13 @@
         "FlexContainer009615e58132b40": "FlexContainer009615e58132b40",
         "lblAddress": "lblAddress"
     },
+    "widgetSkin": "s376561a4db84128b97903839d35a4bc",
     "widgetalignment": 5,
     "widgetdatamap": {
         "FlexContainer009615e58132b40": "FlexContainer009615e58132b40",
         "lblAddress": "lblAddress"
     },
+    "widgetskin": "s376561a4db84128b97903839d35a4bc",
     "width": "100%",
     "zIndex": 30,
     "zindex": 30

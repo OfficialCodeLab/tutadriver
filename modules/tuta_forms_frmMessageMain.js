@@ -20,6 +20,7 @@ tuta.forms.frmMessageMain = function() {
     this.control("btnComposeMessage").onClick = function(button){tuta.forms.frmMessageCompose.show();};
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     
+    //#ifdef android
 	this.control("txtSearch").onTextChange = function(widget) {
       
       if (frmMessageMain.txtSearch.text.length === 0) {
@@ -32,6 +33,19 @@ tuta.forms.frmMessageMain = function() {
         frmMessageMain.imgSearchIcon.setVisibility(false);
       }
     };
+    //#endif
+    
+    
+    //#ifdef iphone
+	this.control("txtSearch").onBeginEditing = function(widget) {
+        frmMessageMain.imgSearchIcon.setVisibility(false);
+    };
+    
+    this.control("txtSearch").onEndEditing = function (widget) {
+      if(frmMessageMain.txtSearch.text.length === 0)
+      	frmMessageMain.imgSearchIcon.setVisibility(true);
+    };
+    //#endif
 
   };//END of OnPreShow
   

@@ -181,7 +181,7 @@ tuta.forms.frm004Home = function() {
     };
 
     this.control("btnSubmitRating").onClick = function(button) {
-tuta.resetMap();
+      tuta.resetMap();
       frm004Home.flexOverlay1.setVisibility(false);
       driver_state = 0;
     }
