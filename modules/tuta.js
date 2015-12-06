@@ -55,9 +55,17 @@ var mapFixed = false;
 
 //STATIC VARIABLES
 var GLOBAL_BASE_RATE = 40;
+var GLOBAL_MIN_DIST = 25;
 
 //Used by the bearing function
 var currentBearing = 0;
+
+//Snazzy variables
+var counter = 0;
+//var tempPositionStart;
+//var tempPositionEnd;
+var timeStandingStill = 0;
+var actualPickupLocation = {lat: 0, lng: 0};
 
 //These variables are structured for use in methods
 var csClientLocation = {
@@ -260,6 +268,7 @@ tuta.startUpdateMapFunction = function() {
 
   }
   kony.timer.schedule("updateMapSlow", function() {
+    tuta.addIfStandingStill();
     updateMap();
   }, mapAutoUpdateInterval, true);
 };
@@ -527,6 +536,11 @@ tuta.updateUserOnRoute = function(userId) { //2
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
 
+  //Set actual pickup location
+  actualPickupLocation.lat = currentPos.geometry.location.lat;
+  actualPickupLocation.lng = currentPos.geometry.location.lng;
+  timeStandingStill = 0;
+
   //tuta.util.alert("INFO 2", "Starting to render the second route.");
   //Animate slider back down
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-86dp", 0, null);
@@ -619,6 +633,37 @@ tuta.updateDriverOnRoute = function() { //4
           tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
             //swipedSlider = 1;
           });
+          //Populate the trip cost on flexOverlay1
+
+          //Get start position of current booking
+
+
+          //Get end position of current booking
+
+          //Get distance of booking
+          var distanceTraveled = tuta.location.distance(currentPos.geometry.location.lat, currentPos.geometry.location.lng, 
+            actualPickupLocation.lat, actualPickupLocation.lng);
+
+
+          /*
+          try{
+            tuta.util.alert("Trip Debug Info", "Distance Traveled: " + distanceTraveled + 
+            "\nTime Idle: " + timeStandingStill);
+          }
+          catch (ex){
+            tuta.util.alert("jkahgjksdfhg", ex);
+          }*/
+
+          //Add distance/1000 * 12.50 + 12.50*timeStandingStill + GLOBAL_BASE_RATE;
+          var tripCostFinal = distanceTraveled/1000 * 12.50 + 12.50*timeStandingStill/60 + GLOBAL_BASE_RATE;
+          tripCostFinal = tripCostFinal.toFixed(2);
+
+          frm004Home.lblCost.text = "R" + tripCostFinal;
+
+
+
+
+
           frm004Home.flexOverlay1.isVisible = true;
         },
         function(error) {
@@ -636,6 +681,44 @@ tuta.updateDriverOnRoute = function() { //4
   }, 5, true);
 };
 
+var tempPositionStart = {lat: 0, lng: 0};
+var tempPositionEnd = {lat: 0, lng: 0};
+tuta.addIfStandingStill = function(){
+  if (counter == 0){
+    //Set first location to compare
+    tempPositionStart.lat = currentPos.geometry.location.lat;
+    tempPositionStart.lng = currentPos.geometry.location.lng;
+    /*
+    tuta.util.alert("Info", "Counter is zero\n\n" + 
+      "Start position LAT: " + tempPositionStart.lat + "\n" + 
+      "Start position LNG: " + tempPositionStart.lng);*/
+    counter += mapAutoUpdateInterval;
+  }
+  else if (counter < 8){
+    counter += mapAutoUpdateInterval;
+  }
+  else {
+    //Set second location to compare
+    tempPositionEnd.lat = currentPos.geometry.location.lat;
+    tempPositionEnd.lng = currentPos.geometry.location.lng;
+
+    var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
+    if (tempDist <= GLOBAL_MIN_DIST){
+
+      timeStandingStill += counter;
+    }
+    /*
+    tuta.util.alert("Info 2", "Counter is " + counter + "\n" + "Time standing still: " + timeStandingStill + "\n" + 
+      "Compared Distance: " + tempDist + 
+      "Start position LAT: " + tempPositionStart.lat + "\n" + 
+      "Start position LNG: " + tempPositionStart.lng + "\n" + 
+      "End Position LAT: " + tempPositionEnd.lat + "\n" + 
+      "End Position LNG: " + tempPositionEnd.lng);*/
+    counter = 0;
+  }
+  
+};
+
 tuta.resetMap = function(){
   customerIsPickedUp = false;
   customerIsDroppedOff = false;
@@ -650,6 +733,8 @@ tuta.resetMap = function(){
   destination = null;
   mapFixed = false;
   mapAutoUpdateInterval = 5;
+  timeStandingStill = 0;
+  counter = 0;
 };
 
 // Should be called in the App init lifecycle event
