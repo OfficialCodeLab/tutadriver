@@ -83,6 +83,7 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
 };
 
 tuta.location.loadPositionInit = function() {
+  mapFixed = true;
   tuta.location.currentPosition(function(response) {
 
     tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
@@ -108,6 +109,7 @@ tuta.location.loadPositionInit = function() {
       //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
       updateMap();
       kony.timer.schedule("startwatch", function(){
+        mapFixed = false;
         tuta.startWatchLocation();
       }, 4, false);
 
