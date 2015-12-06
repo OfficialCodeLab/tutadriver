@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -24,20 +24,27 @@
     "_skin_": "sf988a303b134aab901c884eeae6f188",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "260dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "btnCloseAddress",
         "imgCloseAddress",
-        "Label0bb4d48f463d34b"
+        "CopyimgCustomerNameBackground0e28e3d2c447c41",
+        "Label0edf0f77c30f54e",
+        "btnChangeDest"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -46,12 +53,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
+    "height": "40dp",
     "id": "flexCloseAddress",
     "info": null,
     "isVisible": false,
     "isvisible": false,
-    "kuid": "28077b3f7bed4dfebd6bc8b7f3b5c2b7",
+    "kuid": "152a94c0016a492ca193b09b08405cdf",
     "layoutType": 2,
     "layouttype": 2,
     "margin": [
@@ -68,7 +75,7 @@
         0,
         0
     ],
-    "parent": "frmFlagDown",
+    "parent": "flexScrollFlagDown",
     "percent": true,
     "pf": "frmFlagDown",
     "render": true,
@@ -78,11 +85,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
+    "top": "260dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
+    "width": "80%",
     "zIndex": 21,
     "zindex": 21
 }

@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "sc223565e9834200b398c685e8bbf846",
-    "_text_": "R250 - R275",
+    "_text_": "-",
     "_top_": {
         "type": "string",
         "value": "360dp"
@@ -76,7 +76,7 @@
     "pf": "frmFlagDown",
     "render": true,
     "skin": "sc223565e9834200b398c685e8bbf846",
-    "text": "R250 - R275",
+    "text": "-",
     "toolTip": "",
     "tooltip": "",
     "top": "360dp",

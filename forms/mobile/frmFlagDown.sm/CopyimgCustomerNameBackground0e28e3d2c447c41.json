@@ -5,7 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -19,24 +23,20 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "10"
-    },
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "canceliconnew.png",
+    "_src_": "csflagdowntextbar1.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25dp"
+        "value": "100%"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
+    "centerX": "50%",
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
@@ -51,8 +51,8 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "25dp",
-    "id": "imgCloseAddress",
+    "height": "40dp",
+    "id": "CopyimgCustomerNameBackground0e28e3d2c447c41",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
@@ -60,7 +60,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "39e8f8b5764149bc9fa4fa83fc297de8",
+    "kuid": "bb7f739a269148b2ab54b6939d7f2957",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -77,15 +78,14 @@
     "parent": "flexCloseAddress",
     "pf": "frmFlagDown",
     "render": true,
-    "right": 10,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "canceliconnew.png",
+    "src": "csflagdowntextbar1.png",
     "srcType": 1,
     "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "25dp",
-    "zIndex": 31,
-    "zindex": 31
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
 }

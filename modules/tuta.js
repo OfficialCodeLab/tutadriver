@@ -37,6 +37,7 @@ var currentBooking = null;
 var storedBookingID = null;
 var storedBooking;
 var destination = null;
+var flagdownComplete = false;
 
 //Flags for state of booking process
 var csBookingInTransit = false;
@@ -51,6 +52,9 @@ var currentPin = "cabpin0.png";
 //Variables used by the map form
 var menuOpen = false;
 var mapFixed = false;
+
+//STATIC VARIABLES
+var GLOBAL_BASE_RATE = 40;
 
 //Used by the bearing function
 var currentBearing = 0;
@@ -336,6 +340,7 @@ tuta.acceptBooking = function(bookingID) {
     application.service("driverService").invokeOperation(
     "acceptBooking", {}, input,
     function(results) {
+      tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.1, "-80dp", 0, null);
       tuta.renderRouteAndUser();
     },
     function(error) {
@@ -391,6 +396,7 @@ tuta.createBooking = function(address, user){
   application.service("driverService").invokeOperation(
     "book", {}, input,
     function(result) {
+      tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.1, "-80dp", 0, null);
       customerIsPickedUp = true;
       storedBookingID = result.value[0].id;
       mapFixed = true; 
@@ -523,7 +529,7 @@ tuta.renderRouteAndDriver = function() { //3
 
   //tuta.util.alert("INFO 2", "Starting to render the second route.");
   //Animate slider back down
-  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", 0, null);
+  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-86dp", 0, null);
 
 
   kony.timer.schedule("csDelay1", function() {
@@ -558,7 +564,7 @@ tuta.renderRouteAndDriver = function() { //3
 tuta.updateDriverOnRoute = function() { //4
 
   //Animate slider back up
-  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-85", 0, null);
+  tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-86dp", 0, null);
 
   nearbyUsers = [];
   // tuta.startWatchLocation();
@@ -634,6 +640,7 @@ tuta.resetMap = function(){
   customerIsPickedUp = false;
   customerIsDroppedOff = false;
   arrivedFlag = false;
+  tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.1, "0dp", 0, null);
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
   tuta.animate.move(frm004Home.imgSliderball, 0, "", "5dp", null);
   frm004Home.mapMain.clear();

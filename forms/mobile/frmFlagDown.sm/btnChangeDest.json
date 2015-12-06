@@ -4,7 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -19,25 +23,16 @@
         0
     ],
     "_right_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "60dp"
     },
     "_skin_": "s7f94279e4e64bc6b74b650acf446ad2",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "73dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
@@ -47,12 +42,13 @@
     "enabled": false,
     "focusSkin": "s7f94279e4e64bc6b74b650acf446ad2",
     "focusskin": "s7f94279e4e64bc6b74b650acf446ad2",
-    "height": "60dp",
-    "id": "btnCloseAddress",
+    "height": "100%",
+    "id": "btnChangeDest",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "d74cd3d017d5488db2183038d925a171",
+    "kuid": "de1c6ee24534416e81fedae0f3d900d5",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -69,13 +65,12 @@
     "parent": "flexCloseAddress",
     "pf": "frmFlagDown",
     "render": true,
-    "right": 0,
+    "right": "60dp",
     "skin": "s7f94279e4e64bc6b74b650acf446ad2",
     "text": "",
-    "top": "73dp",
+    "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "50dp",
-    "zIndex": 32,
-    "zindex": 32
+    "zIndex": 21,
+    "zindex": 21
 }

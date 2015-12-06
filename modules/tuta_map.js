@@ -8,9 +8,10 @@ tuta.map.blankFunction = function(){
 
 };
 
-var tempDestination;
+//var tempDestination;
+var tempUser;
 function onLocationSelected(form) {
-  tempDestination = getSelectedAddress(form);
+  destination = getSelectedAddress(form);
 }
 
 function getSelectedAddress(form) {
@@ -31,7 +32,7 @@ function selectDest(form) {
   tuta.location.addressList(add, function(result) {
     form.flexFindingDest.setVisibility(false);
     if (result.status === "ZERO_RESULTS") {
-      form.txtDest.text = "";
+      //form.txtDest.text = "";
     } else {
       form.flexAddressList.setVisibility(true);
       form.flexAddressShadow.setVisibility(true);
@@ -39,7 +40,7 @@ function selectDest(form) {
         lblAddress: "formatted_address"
       };
       form.segAddressList.setData(result.results);
-      form.txtDest.text = "";
+      //form.txtDest.text = "";
     }
   });
 }
@@ -113,3 +114,13 @@ function menuToggle(time, bool) {
     }, time, false);
   }
 }
+
+function estimateTripCost (locationA, locationB, callback){
+  var dist = tuta.location.distance(locationA.lat, locationA.lng, locationB.lat, locationB.lng);
+  var averageCost = Math.round((dist/1000)*12.5) + GLOBAL_BASE_RATE;
+  callback(averageCost-25, averageCost+25);
+}
+
+
+
+

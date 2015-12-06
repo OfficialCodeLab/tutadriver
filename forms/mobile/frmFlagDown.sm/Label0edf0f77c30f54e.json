@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "113dp"
+        "value": "107dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "sda295e93b2e42b393de81ad313bb758",
-    "_text_": "SELECT ADDRESS",
+    "_skin_": "sf3947b1f7c844e3a8d95dda19e7979f",
+    "_text_": "Select Destination",
     "_top_": {
         "type": "string",
-        "value": "21dp"
+        "value": "4dp"
     },
     "_width_": {
         "type": "string",
@@ -49,8 +49,11 @@
     "contentAlignment": 5,
     "contentalignment": 5,
     "enabled": false,
-    "height": "100%",
-    "id": "Label0bb4d48f463d34b",
+    "height": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "id": "Label0edf0f77c30f54e",
     "info": null,
     "ipad": {
         "psp": {
@@ -64,8 +67,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "9b9562c624c147ecabd804fb4515ba10",
-    "left": "113dp",
+    "kuid": "12675e3244684c508191dc1aa0e8b8a6",
+    "left": "107dp",
     "margin": [
         1,
         1,
@@ -82,15 +85,15 @@
     "parent": "flexCloseAddress",
     "pf": "frmFlagDown",
     "render": true,
-    "skin": "sda295e93b2e42b393de81ad313bb758",
-    "text": "SELECT ADDRESS",
+    "skin": "sf3947b1f7c844e3a8d95dda19e7979f",
+    "text": "Select Destination",
     "toolTip": "",
     "tooltip": "",
-    "top": "21dp",
+    "top": "4dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100%",
     "wrapping": 2,
-    "zIndex": 30,
-    "zindex": 30
+    "zIndex": 32,
+    "zindex": 32
 }

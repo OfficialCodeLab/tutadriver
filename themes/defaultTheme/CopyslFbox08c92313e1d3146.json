@@ -1,0 +1,11 @@
+{
+  "background_image": "segflagdown2.png",
+  "bg_type": "image",
+  "border_color": "00000000",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "sbae340eb24347fabe44d92f1576fdba",
+  "wType": "FlexContainer"
+}
