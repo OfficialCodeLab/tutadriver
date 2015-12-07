@@ -116,9 +116,14 @@ function menuToggle(time, bool) {
 }
 
 function estimateTripCost (locationA, locationB, callback){
-  var dist = tuta.location.distance(locationA.lat, locationA.lng, locationB.lat, locationB.lng);
-  var averageCost = Math.round((dist/1000)*12.5) + GLOBAL_BASE_RATE;
-  callback(averageCost-25, averageCost+25);
+  //var dist = tuta.location.distance(locationA.lat, locationA.lng, locationB.lat, locationB.lng);
+  var matrixDist = tuta.location.distanceMatrix(locationA, locationB, function(response){
+    var dist = response[0].elements[0].distance.value;
+    var averageCost = (dist/1000)*GLOBAL_FEE_KM + GLOBAL_BASE_RATE;
+    var minCost = Math.round(averageCost-(averageCost*GLOBAL_FEE_DEVIATION));
+    var maxCost = Math.round(averageCost+(averageCost*GLOBAL_FEE_DEVIATION));
+    callback(minCost, maxCost); 
+  }, 1);  
 }
 
 

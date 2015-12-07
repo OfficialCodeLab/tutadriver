@@ -57,8 +57,8 @@ tuta.forms.frmFlagDown = function() {
       tempUser = frmFlagDown.txtCustomerName.text;
       flagdownComplete = true;
       var compositeCost = "";
-      var locA = {lat: currentPos.geometry.location.lat, lng: currentPos.geometry.location.lng};
-      var locB = {lat: destination.geometry.location.lat, lng: destination.geometry.location.lng};
+      var locA = [{lat: currentPos.geometry.location.lat, lon: currentPos.geometry.location.lng}];
+      var locB = [{lat: destination.geometry.location.lat, lon: destination.geometry.location.lng}];
       estimateTripCost(locA, locB, function(costMin, costMax){
 		compositeCost = "R" + costMin + " - R" + costMax;
         frmFlagDown.lblTripPrice.text = compositeCost;

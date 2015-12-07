@@ -56,6 +56,9 @@ var mapFixed = false;
 //STATIC VARIABLES
 var GLOBAL_BASE_RATE = 40;
 var GLOBAL_MIN_DIST = 25;
+var GLOBAL_FEE_KM = 12.5;
+var GLOBAL_FEE_MINUTES = 12.5;
+var GLOBAL_FEE_DEVIATION = 0.15; 
 
 //Used by the bearing function
 var currentBearing = 0;
@@ -130,7 +133,6 @@ tuta.initCallback = function(error) {
  |_|  |_|\___|\__|_| |_|\___/ \__,_|___/
                                         
 =============================================================================*/
-
 
 //Loads position of user into app (at login screen), starts watching the user's location,
 //Updates every two seconds.
@@ -634,37 +636,11 @@ tuta.updateDriverOnRoute = function() { //4
           tuta.animate.move(frm004Home.imgSliderball, 0.3, "", "5dp", function() {
             //swipedSlider = 1;
           });
-          //Populate the trip cost on flexOverlay1
-
-          //Get start position of current booking
-
-
-          //Get end position of current booking
-
-          //Get distance of booking
-          /*var distanceTraveled = tuta.location.distance(currentPos.geometry.location.lat, currentPos.geometry.location.lng, 
-            actualPickupLocation.lat, actualPickupLocation.lng);*/
-
-
-          /*
-          try{
-            tuta.util.alert("Trip Debug Info", "Distance Traveled: " + distanceTraveled + 
-            "\nTime Idle: " + timeStandingStill);
-          }
-          catch (ex){
-            tuta.util.alert("jkahgjksdfhg", ex);
-          }*/
-
-          //Add distance/1000 * 12.50 + 12.50*timeStandingStill + GLOBAL_BASE_RATE;
-          var tripCostFinal = distanceTraveled/1000 * 12.50 + 12.50*timeStandingStill/60 + GLOBAL_BASE_RATE;
+          
+          var tripCostFinal = distanceTraveled/1000 * GLOBAL_FEE_KM + GLOBAL_FEE_MINUTES*timeStandingStill/60 + GLOBAL_BASE_RATE;
           tripCostFinal = tripCostFinal.toFixed(2);
 
           frm004Home.lblCost.text = "R" + tripCostFinal;
-
-
-
-
-
           frm004Home.flexOverlay1.isVisible = true;
         },
         function(error) {
