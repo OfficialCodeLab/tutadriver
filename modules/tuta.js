@@ -443,7 +443,14 @@ tuta.renderRouteAndUser = function() { //1
             renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
             //updateMap();
             tuta.updateUserOnRoute(currentBooking.userId);
-            //tuta.startWatchLocation();
+            
+            //Remove the map centering button
+            try{
+              tuta.forms.frm004Home.flexMapCenter.setVisibility(false);
+            }
+            catch(ex){
+              //tuta.util.alert("Info", "Unable to remove the map centering button.");
+            }
         }, 2, false);
     });
 };
@@ -724,6 +731,13 @@ tuta.resetMap = function(){
   timeStandingStill = 0;
   counter = 0;
   distanceTravelled = 0;
+  //Show map center button
+  try{
+    tuta.forms.frm004Home.flexMapCenter.setVisibility(true);
+  }
+  catch(ex){
+    //tuta.util.alert("Info", "Unable to remove the map centering button.");
+  }
 };
 
 // Should be called in the App init lifecycle event
