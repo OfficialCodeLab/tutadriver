@@ -88,11 +88,11 @@ tuta.forms.frm001LoginScreen = function() {
   };
 
   tuta.forms.frm001LoginScreen.onPostShow = function(form) {
-    var self = this;
+    var self = this;  
 
     kony.timer.schedule("login", function(){
       
-    }, 0.5, false);
+    }, 1, false);
   };
   
   

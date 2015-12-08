@@ -23,12 +23,12 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "-10dp"
     },
-    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
+    "_skin_": "sa33572ab5d74905979661568415da44",
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "75dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -72,8 +72,8 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "right": "10dp",
-    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
+    "right": "-10dp",
+    "skin": "sa33572ab5d74905979661568415da44",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
@@ -81,7 +81,7 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "60dp",
+    "width": "75dp",
     "zIndex": 69,
     "zindex": 69
 }

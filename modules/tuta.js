@@ -89,6 +89,11 @@ var currentPos = {
   formatted_address: ""
 };
 
+var appState = {
+  state_string: "",
+  booking: "",
+};
+
 //Debug
 var staticMapImageResource = "HOLDER TEXT";
 /*=============================================================================
@@ -154,6 +159,31 @@ tuta.retrieveBookings = function(status, callback) {
             function(results) {
                 try {
                     callback(results);
+                } catch (ex) {
+
+                }
+            },
+            function(error) {
+                callback(null, error);
+            });
+    }
+    catch(ex){
+
+    }
+};
+
+//Retrieves booking by id
+tuta.retrieveBookings = function(id, callback) {
+    var input = {
+        id: id
+    };
+
+    try {
+        application.service("driverService").invokeOperation(
+            "booking", {}, input,
+            function(result) {
+                try {
+                    callback(result);
                 } catch (ex) {
 
                 }
