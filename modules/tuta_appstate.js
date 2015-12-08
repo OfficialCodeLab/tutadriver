@@ -2,69 +2,56 @@ if (typeof(tuta) === "undefined") {
   tuta = {};
 }
 
+//The prefix to be used before the encoded key
 var GLOBAL_ENCODING_PREFIX = "AS";
+
+//CHANGE THIS IF YOU WANT TO USE A STANDARD KEY
+var appstate_key = "";
+
+//Likely to never be used. Change this if you want to standardize a response
+var default_value = null;
 
 tuta.appstate = {};
 
+
+//Get the state in the kony store
+// @Return
+//    The state that is stored in the store will be returned
+//    If there is nothing in the store, the default value will be returned as the response
 tuta.appstate.getState = function(){  
   var state_str_key = tuta.appstate.getEncodedKey();
-  var encoded_state = kony.store.getItem(state_str_key);
-  if(encoded_state !== null && encoded_state !== undefined){
-    var state_obj = JSON.parse(Base64.decode(encoded_state));
-    appState.state_string = state_obj.state_string;
-    appState.booking = state_obj.booking;
-    return true;
+  var state_str = kony.store.getItem(state_str_key);
+  if(state_str !== null && state_str !== undefined){
+    var state_obj = JSON.parse(state_str);
+    return JSON.parse(JSON.stringify(state_obj));
   }
   
-  return false;
+  return default_value;
 };
 
-tuta.appstate.setState = function(state_str, bookingID){
-  var state_str_key = tuta.appstate.getEncodedKey();
-  appState.state_string = state_str || "NONE";
-  appState.booking = bookingID || "NONE";
-  var encoded_state = Base64.encode(JSON.stringify(appState));
-  kony.store.setItem(state_str_key, encoded_state);
+//Set the state in the kony store
+// @Params
+//    obj: The object to insert into the kony store (optional)
+// @Default
+//    The store will have the default value inserted as the value
+tuta.appstate.setState = function(obj){
+  var state_str_key = tuta.appstate.getEncodedKey();  
+  var state_str = JSON.stringify(obj) || default_value;
+  kony.store.setItem(state_str_key, state_str);
 };
 
+//Clear the kony store
 tuta.appstate.clearState = function(){
   var state_str_key = tuta.appstate.getEncodedKey();
   kony.store.removeItem(state_str_key);
 };
 
-tuta.appstate.checkState = function(callback){
-  if(tuta.appstate.getState()){
-    var current_state = appState.state_string;
-    var current_booking = appState.bookingID;
-
-    //Use the current booking and state string to retrieve booking and callback
-    if(current_booking !== "NONE"){
-      tuta.retrieveBooking(current_state, function(result){
-        storedBookingID = current_booking;
-        currentBooking = {
-          userId: result.value[0].userId,
-          providerId: result.value[0].providerId,
-          address: {
-            description: result.value[0].address.description
-          },
-          location: {
-            lat: currentPos.geometry.location.lat + "",
-            long: currentPos.geometry.location.lng + ""
-          },
-          status: current_state
-        };
-        
-        callback(current_state);
-      });
-    }
-    else if (current_state !== "NONE"){
-      //TODO: Handle other states
-    }
-  }  
-  return;
-};
-
+//Retrieve an encoded key to use in the store
+// @Params
+//    key: If a custom key is needed (optional)
+// @Default
+//    appstate_key will be used for the encoding
 tuta.appstate.getEncodedKey = function(key){
-  return GLOBAL_ENCODING_PREFIX + Base64.encode(key) || GLOBAL_ENCODING_PREFIX + Base64.encode(globalCurrentUser.userName);
+  return GLOBAL_ENCODING_PREFIX + Base64.encode(key) || GLOBAL_ENCODING_PREFIX + Base64.encode(appstate_key);
 };
 

@@ -312,7 +312,7 @@ tuta.stopUpdateMapFunction = function(){
   catch(ex){
 
   }
-}
+};
 
 //Sets the text for the pickup request form.
 //TODO: Refactor this into the pickup request form.
