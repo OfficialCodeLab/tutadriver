@@ -275,6 +275,15 @@ tuta.startUpdateMapFunction = function() {
   }, mapAutoUpdateInterval, true);
 };
 
+tuta.stopUpdateMapFunction = function(){
+  try{
+    kony.timer.cancel("updateMapSlow");
+  }
+  catch(ex){
+
+  }
+}
+
 //Sets the text for the pickup request form.
 //TODO: Refactor this into the pickup request form.
 //Difficulty: Medium

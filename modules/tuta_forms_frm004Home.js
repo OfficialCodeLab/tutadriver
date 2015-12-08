@@ -149,6 +149,25 @@ tuta.forms.frm004Home = function() {
         //updateConsole();
       }
     };
+    this.control("btnMapCenter").onClick = function (button) {
+      //Handle repeated presses
+      try{
+        kony.timer.cancel("waitForMapUpdate");
+      } catch (ex){
+
+      }
+      //Stop the watch location
+      tuta.stopUpdateMapFunction();
+
+      //Center the map on the user
+      var locationData = {lat:currentPos.geometry.location.lat,lon:currentPos.geometry.location.lng,name: "",desc: ""};
+      frm004Home.mapMain.navigateToLocation(locationData,false,false);
+
+      //Schedule the update map to start in 10 seconds
+      kony.timer.schedule("waitForMapUpdate", function(){
+        tuta.startUpdateMapFunction();
+      }, 10, false);
+    };
 
     //Debug Menu: Demonstration button
     this.control("btnDemo").onClick = function(button) {
