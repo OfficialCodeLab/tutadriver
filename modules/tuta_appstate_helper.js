@@ -57,7 +57,7 @@ tuta.appstate.helper.checkState = function(callback){
   }
 };
 
-tuta.appstate.helper.state = function(){
+tuta.appstate.helper.resumeFromState = function(){
   tuta.appstate.helper.checkState(function(booking_state){
     //THIS WILL RETURN THE BOOKING STATE IF THERE IS ONE. NULL IS RETURNED IF THERE IS NONE
     
