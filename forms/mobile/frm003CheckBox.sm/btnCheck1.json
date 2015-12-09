@@ -51,8 +51,8 @@
     "height": "46dp",
     "id": "btnCheck1",
     "info": null,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "cb175ac8be8e4a97ad0b960d758ba10b",
     "left": "0.00%",
     "margin": [
