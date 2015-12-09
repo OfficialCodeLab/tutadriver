@@ -22,7 +22,7 @@
         "value": "4%"
     },
     "_skin_": "sbc8b1c33d944a2e9a52a65507029ab0",
-    "_text_": "3",
+    "_text_": "",
     "_width_": {
         "type": "string",
         "value": "19dp"
@@ -54,8 +54,8 @@
             "wrapping": 2
         }
     },
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "df4fd59cb7bd4104872d3d06e48c2e5a",
     "margin": [
         1,
@@ -75,7 +75,7 @@
     "render": true,
     "right": "4%",
     "skin": "sbc8b1c33d944a2e9a52a65507029ab0",
-    "text": "3",
+    "text": "",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",

@@ -304,3 +304,19 @@ tuta.events.csShowDistance = function() {
 
   var csTestDistance = tuta.location.distance(csCurrentPos.lat, csCurrentPos.lon, csDestinationPos.lat, csDestinationPos.lon);
 };
+
+
+tuta.events.dateString = function(epoch){
+  var date = new Date(parseInt(epoch));
+  var hours = date.getHours();
+  var mins = date.getMinutes();
+  if (hours < 10){
+    hours = "0" + hours;    
+  }
+  
+  if (mins < 10){
+    mins = "0" + mins;    
+  }
+  
+  return hours + ":" + mins;
+};

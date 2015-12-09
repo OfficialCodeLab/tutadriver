@@ -26,9 +26,15 @@ tuta.forms.frmMessageCompose = function() {
     var self = this;
     this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
     this.control("btnSend").onClick = function (button){
-      frmMessageCompose.txtMessage.text = "";
-      frmMessageCompose.txtSendTo.text = "";
-      frmMessageCompose["flexMessageSent"]["isVisible"] = true;    
+      tuta.util.alert("Sending", "Please wait");
+      tuta.createMessage(frmMessageCompose.txtSendTo.text, frmMessageCompose.txtMessage.text, function(success, error){
+        if(error === undefined){
+          frmMessageCompose.txtMessage.text = "";
+          frmMessageCompose.txtSendTo.text = "";
+          //frmMessageCompose["flexMessageSent"]["isVisible"] = true;   
+          tuta.util.alert("Sent", "Your message has been sent.");
+        }
+      });
     };
   };
   

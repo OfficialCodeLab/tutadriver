@@ -20,7 +20,7 @@
     "_skin_": "s2748e34ec8644e5bdb2c7abef20e637",
     "_top_": {
         "type": "string",
-        "value": "68dp"
+        "value": "65dp"
     },
     "_width_": {
         "type": "string",
@@ -91,7 +91,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "68dp",
+    "top": "65dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,
