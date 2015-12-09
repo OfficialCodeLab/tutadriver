@@ -57,3 +57,20 @@ tuta.forms.frmMessageMain = function() {
   };
 };
 
+var messageList = [];
+function loadMessages(){
+  tuta.getMessages(function(success, error){
+    if(error === undefined){
+      var tempMessageList = success;
+      //Split the list by whether the message is read or not (ie status = 0)
+      
+      //Take the half of the array that contains unread messages and assign imgStatus and imgDot to the unread state and vice versa
+      
+      //Join the arrays to messageList
+      
+      frmMessageMain.segMessages.widgetDataMap = { "lblFrom"  : "sender", "lblTime" : "time", "lblTextPreview" : "textShortened", "imgMessageStatus" : "imgStatus", "imgEllipse" : "imgDot"};
+      frmMessageMain.segMessages.setData(messageList);
+    }
+  });
+}
+

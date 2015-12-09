@@ -47,8 +47,8 @@
     "id": "btnReadMsg",
     "info": null,
     "isSegmentChild": false,
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "5c519c159701482d88ae87a6eeb0624b",
     "margin": [
         6,
