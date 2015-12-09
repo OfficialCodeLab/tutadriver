@@ -42,7 +42,7 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
       //id : JSON.parse(kony.store.getItem("user")).userName,
       location: {
         lat: latitude,
-        long: longitude,
+        lng: longitude,
         direction: currentBearing
       }
     };
@@ -50,7 +50,7 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
     inputData = {
       location: {
         lat: latitude,
-        long: longitude,
+        lng: longitude,
       }
     };
   }

@@ -37,7 +37,7 @@ tuta.appstate.helper.checkState = function(callback){
           },
           location: {
             lat: currentPos.geometry.location.lat + "",
-            long: currentPos.geometry.location.lng + ""
+            lng: currentPos.geometry.location.lng + ""
           },
           status: current_state
         };

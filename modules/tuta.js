@@ -434,7 +434,7 @@ tuta.createBooking = function(address, user){
     },
     location: {
       lat: currentPos.geometry.location.lat + "",
-      long: currentPos.geometry.location.lng + ""
+      lng: currentPos.geometry.location.lng + ""
     },
     status: "InTransit"
   };
