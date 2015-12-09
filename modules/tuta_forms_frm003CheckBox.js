@@ -67,13 +67,20 @@ tuta.forms.frm003CheckBox = function() {
         
   		var btnBasic ={id:"btnCheckTest1", isVisible:true, skin:"CopyslButtonGlossBlue043984d7811364e", 
                  focusSkin:"CopyslButtonGlossBlue043984d7811364e", text:"BUTTON"};
- 		var btnLayout ={width: "100%",containerWeight: 100, padding:[0,0,0,0], margin:[0,0,0,0],
+ 		var btnLayout ={containerWeight: 100, padding:[0,0,0,0], margin:[0,0,0,0],
                         hExpand:true, vExpand:false, displayText:true, onClick: function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);}};
         
   		var btnPSP ={};
         
   		var btnCheckTest1 = new kony.ui.Button(btnBasic, btnLayout, btnPSP);
+        frm003CheckBox.btnCheckTest1.height = "46dp";
+        frm003CheckBox.btnCheckTest1.width = "100%";
+          frm003CheckBox.btnCheckTest1.top = "7%";
+          frm003CheckBox.btnCheckTest1.left = "";
         frm003CheckBox.flexCheckboxQuestions.add(btnCheckTest1);
+          
+          
+          
           
 	}
 };
