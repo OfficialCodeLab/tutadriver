@@ -12,13 +12,11 @@ tuta.forms.frm003CheckBox = function() {
 
   // Initialize form events	
   tuta.forms.frm003CheckBox.onInit = function(form) {
-      
-    
-      
       /*
-    	this.header("btnMenu").onClick = function(button) {
-        ssa.util.alert("My Header Button","Clicked!");
-      };*/
+      	this.header("btnMenu").onClick = function(button) {
+          ssa.util.alert("My Header Button","Clicked!");
+        };
+      */
   };  
 
   tuta.forms.frm003CheckBox.onPreShow = function(form) {
