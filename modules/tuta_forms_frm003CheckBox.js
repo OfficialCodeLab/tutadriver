@@ -12,17 +12,10 @@ tuta.forms.frm003CheckBox = function() {
 
   // Initialize form events	
   tuta.forms.frm003CheckBox.onInit = function(form) {
-<<<<<<< HEAD
-
-
-
-    /*
-=======
       
     
       
       /*
->>>>>>> 86139bcf1bb4bf2630d2424bf06b29594aca11f6
     	this.header("btnMenu").onClick = function(button) {
         ssa.util.alert("My Header Button","Clicked!");
       };*/
@@ -33,15 +26,9 @@ tuta.forms.frm003CheckBox = function() {
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
     //this.control("btnContinue").onClick = function(button){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
-<<<<<<< HEAD
-
-
-
-=======
     
     generateButton();
     this.control("btnCheckTest1").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
->>>>>>> 86139bcf1bb4bf2630d2424bf06b29594aca11f6
     this.control("btnCheck1").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
     this.control("btnCheck2").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
     this.control("btnCheck3").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick3);};
