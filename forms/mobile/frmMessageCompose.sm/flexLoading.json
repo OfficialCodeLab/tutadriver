@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "string",
-        "value": "10dp"
-    },
-    "_height_": {
-        "type": "string",
-        "value": "60dp"
+        "type": "number",
+        "value": "50"
     },
     "_left_": {
         "type": "string",
@@ -25,10 +21,10 @@
         0,
         0
     ],
-    "_skin_": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "_skin_": "s0fedce591ec4e86a9b1045790371ab8",
     "_top_": {
-        "type": "number",
-        "value": "55"
+        "type": "string",
+        "value": "101dp"
     },
     "_width_": {
         "type": "string",
@@ -37,15 +33,9 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "10dp",
+    "bottom": 50,
     "canUpdateUI": true,
-    "children": [
-        "CopyimgPickUp0fbecab50215f44",
-        "CopyimgDropOff04256fa3e2c8349",
-        "CopylblUpOffLine04b3d4459790c48",
-        "lblPickUp",
-        "lblDropoff"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -53,12 +43,11 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60dp",
-    "id": "flexTripHistoryLocations",
+    "id": "flexLoading",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "f4428c0a159647318c3b87a7648c1dee",
+    "kuid": "7811784fe9cf4ed7893f948ac05d9219",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -76,20 +65,20 @@
         0,
         0
     ],
-    "parent": "flexHeader",
+    "parent": "frmMessageCompose",
     "percent": true,
-    "pf": "frmTripHistoryInfo",
+    "pf": "frmMessageCompose",
     "render": true,
-    "skin": "s7344d0c3fbd45e5bd6e31c1da0838de",
+    "skin": "s0fedce591ec4e86a9b1045790371ab8",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": 55,
+    "top": "101dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 100,
+    "zindex": 100
 }

@@ -296,6 +296,7 @@ function renderDirections(object, directions, color, startpin, endpin) {
   var newZoom = setZoomLevelFromBounds(bounds);
   var lat = (bounds.southwest.lat + bounds.northeast.lat)/2;
   var lng = (bounds.southwest.lng + bounds.northeast.lng)/2;
+  object.zoomLevel = newZoom;
   
   object.navigateToLocation({ "lat" : lat, "lon": lng, name:"", desc: ""},false,false);
   //ssa.mobile.alert("ZOOM", "OLD = " + object.zoomLevel + " NEW = " + newZoom);

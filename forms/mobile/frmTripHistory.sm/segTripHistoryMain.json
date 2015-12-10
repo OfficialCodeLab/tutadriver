@@ -367,7 +367,7 @@
     "_rowTemplateId": "tempTripHistory",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -817,7 +817,7 @@
     "separatorthickness": 0,
     "showScrollbars": false,
     "showscrollbars": false,
-    "top": "0dp",
+    "top": "10dp",
     "viewType": "tableview",
     "viewtype": "tableview",
     "wType": "Segment",

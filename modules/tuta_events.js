@@ -213,38 +213,33 @@ var storedTrips = [];
 tuta.events.loadTripHistory = function(callback){
   tuta.retrieveBookingsHistory(function(results, error){
     if(error === undefined){
-      if(results.value.length > storedTrips.length){
 
-        storedTrips = [];
-        for (var j = 0; j < results.value.length; j++){storedTrips.push({});}
-        for (var i = 0; i < results.value.length; i++){
-          try{          
-            storedTrips[i] = {
-              "name" : results.value[i].users.customerName,
-              "start" : results.value[i].address.start,
-              "end" : results.value[i].address.end,
-              "date" : results.value[i].info.date,
-              "cost" : results.value[i].info.cost,
-              "rating" : results.value[i].info.customerRating,
-              "driverImg" : "profilepicbookingnew.png", //TODO: replace with real profile pic
-              "tripImg" : "map2.png"//TODO: QUERY STATIC MAPS API TO GET IMAGE
-            };
-
-          }
-          catch(ex){
-            //callback(null, "An error occurred.");
-          }
-
+      storedTrips = [];
+      for (var j = 0; j < results.value.length; j++){storedTrips.push({});}
+      for (var i = 0; i < results.value.length; i++){
+        try{     
+          var date = tuta.events.dateStringLong(results.value[i].info.date);
+          storedTrips[i] = {
+            "name" : results.value[i].userId,
+            "start" : results.value[i].address.start,
+            "end" : results.value[i].address.end,
+            "date" : date,
+            "cost" : "R" + results.value[i].info.cost,
+            "rating" : results.value[i].info.customerRating,
+            "driverImg" : "profilepicbookingnew.png", //TODO: replace with real profile pic
+            "tripImg" : "map2.png"//TODO: QUERY STATIC MAPS API TO GET IMAGE
+          };
         }
-        frmTripHistory.segTripHistoryMain.widgetDataMap = { "lblCost"  : "cost", "lblDateTime" : "date"};
-        frmTripHistory.segTripHistoryMain.setData(storedTrips);
-        callback("success");
+        catch(ex){
+          //callback(null, "An error occurred.");
+        }
 
       }
-      else{
-        callback(null, "No trip history was found.");
-        //Display or handle error
-      }
+      frmTripHistory.segTripHistoryMain.widgetDataMap = { "lblCost"  : "cost", "lblDateTime" : "date"};
+      frmTripHistory.segTripHistoryMain.setData(storedTrips);
+      callback("success");
+
+
 
     }
     else{
@@ -274,6 +269,23 @@ storedTrips[i] = {
     "driverRating" : ""
   }
 };*/
+
+
+tuta.events.getChecklistItems = function (){
+  var input = {templateId : GLOBAL_PROVIDER};
+  
+  application.service("driverService").invokeOperation(
+  "checklist", {}, input,
+  function(result){
+     checklistItems = result.value;
+     tuta.forms.frm003CheckBox.show();
+  }, function(error){
+     tuta.forms.frm004Home.show();
+  });
+  
+};
+
+
 
 /*===========================================================================
   ____       _                 
@@ -307,7 +319,8 @@ tuta.events.csShowDistance = function() {
 
 
 tuta.events.dateString = function(epoch){
-  var date = new Date(parseInt(epoch));
+  var newDate = epoch.substring(0, epoch.length-3);
+  var date = new Date(parseInt(newDate) * 1000);
   var hours = date.getHours();
   var mins = date.getMinutes();
   if (hours < 10){
@@ -319,4 +332,31 @@ tuta.events.dateString = function(epoch){
   }
   
   return hours + ":" + mins;
+};
+
+tuta.events.dateStringLong = function(epoch){
+  var newDate = epoch.substring(0, epoch.length-3);
+  var date = new Date(parseInt(newDate) * 1000);
+  var day = date.getDate();
+  var month = date.getMonth();
+  var year = date.getFullYear();
+  var hours = date.getHours();
+  var mins = date.getMinutes();
+  if (hours < 10){
+    hours = "0" + hours;    
+  }
+  
+  if (mins < 10){
+    mins = "0" + mins;    
+  }
+  
+  if (day < 10){
+    day = "0" + day;    
+  }
+  
+  if (month < 10){
+    month = "0" + month;    
+  }
+  
+  return day + "/" + month + "/" + year + "   " + hours + ":" + mins;
 };

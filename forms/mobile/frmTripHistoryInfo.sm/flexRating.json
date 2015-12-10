@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "imgRating",
-        "CopylblDriverRating0589b89f4d9544e"
+        "lblRating"
     ],
     "clipBounds": true,
     "clipbounds": true,

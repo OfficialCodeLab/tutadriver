@@ -24,15 +24,22 @@ tuta.forms.frmMessageCompose = function() {
   
   tuta.forms.frmMessageCompose.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
+    this.control("btnBack").onClick = function (button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);tuta.forms.frmMessageMain.show();};
+    this.control("btnMsgPopup").onClick = function(button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);};
     this.control("btnSend").onClick = function (button){
-      tuta.util.alert("Sending", "Please wait");
-      tuta.createMessage(frmMessageCompose.txtSendTo.text, frmMessageCompose.txtMessage.text, function(success, error){
+      var to;
+      if(frmMessageCompose.lblHeaderTitle.text === "Reply"){
+        to = frmMessageCompose.lblSender.text;        
+      }
+      else{
+        to = frmMessageCompose.txtSendTo.text;
+      }
+      tuta.createMessage(to, frmMessageCompose.txtMessage.text, function(success, error){
         if(error === undefined){
           frmMessageCompose.txtMessage.text = "";
           frmMessageCompose.txtSendTo.text = "";
           //frmMessageCompose["flexMessageSent"]["isVisible"] = true;   
-          tuta.util.alert("Sent", "Your message has been sent.");
+          tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, 0, null);
         }
       });
     };

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -24,7 +24,7 @@
     "_skin_": "s02c8dca74c44d2a90e3fe7989aee4ee",
     "_top_": {
         "type": "string",
-        "value": "110dp"
+        "value": "105dp"
     },
     "_width_": {
         "type": "string",
@@ -39,7 +39,10 @@
     "bounces": false,
     "canUpdateUI": true,
     "channel": "mobile",
-    "children": [],
+    "children": [
+        "lblTime",
+        "flexMessage"
+    ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -58,9 +61,9 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "87be6619f91641d7aa3841b90682f146",
-    "layoutType": 2,
-    "layouttype": 2,
-    "left": "0dp",
+    "layoutType": 4,
+    "layouttype": 4,
+    "left": "0%",
     "margin": [
         0,
         0,
@@ -88,7 +91,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "110dp",
+    "top": "105dp",
     "track": false,
     "tracking": false,
     "verticalScrollIndicator": true,

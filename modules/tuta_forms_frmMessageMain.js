@@ -16,9 +16,33 @@ tuta.forms.frmMessageMain = function() {
 
   tuta.forms.frmMessageMain.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
-    this.control("btnComposeMessage").onClick = function(button){tuta.forms.frmMessageCompose.show();};
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnComposeMessage").onClick = function(button){
+      frmMessageCompose.flexLoading.setVisibility(true);
+      frmMessageCompose.lblHeaderTitle.text = "New Messages";
+      frmMessageCompose.lblSender.text =  "";
+      frmMessageCompose.txtSendTo.setVisibility(true);
+      tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);
+      tuta.forms.frmMessageCompose.show();
+      tuta.animate.move(frmMessageCompose.flexScrollMessages ,0, 105, "100%", null);
+      frmMessageCompose.flexLoading.setVisibility(false);
+    };
+    this.control("btnBack").onClick = function(button){
+      tuta.forms.frm004Home.show();
+    };
+
+    this.control("segMessages").onRowClick = function (widget){
+      frmMessageCompose.flexLoading.setVisibility(true);
+      var data = frmMessageMain.segMessages.selectedItems[0];
+      frmMessageCompose.lblHeaderTitle.text = "Reply";
+      frmMessageCompose.lblSender.text = data.sender;
+      frmMessageCompose.rtMessage.text = data.text;
+      frmMessageCompose.lblTime.text = data.time;
+      frmMessageCompose.txtSendTo.setVisibility(false);
+      tuta.forms.frmMessageCompose.show();
+      tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);
+      tuta.animate.move(frmMessageCompose.flexScrollMessages ,0, 105, 0, null);
+      frmMessageCompose.flexLoading.setVisibility(false);
+    };
 
     //#ifdef android
     this.control("txtSearch").onTextChange = function(widget) {
@@ -77,18 +101,23 @@ function loadMessages(){
         }
       }
 
+      var textShort;
       var text;
       var parsedTimeStr;
       for(var j = 0; j < messagesUnread.length; j++){
         parsedTimeStr = tuta.events.dateString(messagesUnread[j].time + "");
         text = messagesUnread[j].text;
         if (text.length > 18){
-          text = shortenText(text, 15);
+          textShort = shortenText(text, 15);
+        }
+        else{
+          textShort = text;
         }
         var msgunread = {
           "sender" : messagesUnread[j].sender,
           "time" : parsedTimeStr,
           "text" : text, 
+          "textShort" : textShort, 
           "imgStatus" : "unreadbg.png",
           "imgDot" : "ellipsecs.png",
           "status" : messagesUnread[j].status,
@@ -101,12 +130,16 @@ function loadMessages(){
         parsedTimeStr = tuta.events.dateString(messagesRead[k].time + "");
         text = messagesRead[k].text;
         if (text.length > 18){
-          text = shortenText(text, 15);
+          textShort = shortenText(text, 15);
+        }
+        else{
+          textShort = text;
         }
         var msgread = {
           "sender" : messagesRead[k].sender,
           "time" :  parsedTimeStr,
           "text" : text, 
+          "textShort" : textShort, 
           "imgStatus" : "readbg.png",
           "imgDot" : "readbg.png",
           "status" : messagesRead[k].status,
@@ -129,8 +162,8 @@ function loadMessages(){
         frm004Home.lblMessageCount.text = "";
         frm004Home.lblMessageCount.setVisibility(false);        
       }
-      
-      frmMessageMain.segMessages.widgetDataMap = { "lblFrom"  : "sender", "lblTime" : "time", "lblTextPreview" : "text", "imgMessageStatus" : "imgStatus", "imgEllipse" : "imgDot"};
+
+      frmMessageMain.segMessages.widgetDataMap = { "lblFrom"  : "sender", "lblTime" : "time", "lblTextPreview" : "textShort", "imgMessageStatus" : "imgStatus", "imgEllipse" : "imgDot"};
       frmMessageMain.segMessages.setData(messageList);
     }
   });

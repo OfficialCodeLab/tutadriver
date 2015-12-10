@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -47,12 +47,12 @@
     "height": "100%",
     "id": "flexMessageSent",
     "info": null,
-    "isVisible": false,
-    "isvisible": false,
+    "isVisible": true,
+    "isvisible": true,
     "kuid": "86832a4ca5304a7d8a720d3ad279b6c7",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "100%",
     "margin": [
         0,
         0,
@@ -81,6 +81,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 1,
-    "zindex": 1
+    "zIndex": 900,
+    "zindex": 900
 }

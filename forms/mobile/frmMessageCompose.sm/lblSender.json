@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "35dp"
     },
     "_left_": {
         "type": "string",
-        "value": "30dp"
+        "value": "60dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "sbf6426b2ff6436ba75665df4a0a533f",
-    "_text_": "21 Ebury Ave Bryanston, 2191, South Africa",
+    "_skin_": "sa37aa3b654f4e11946b10cac0783f5c",
+    "_text_": "craig@ssa.com",
     "_top_": {
         "type": "string",
-        "value": "35dp"
+        "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "250dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -39,11 +39,8 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "CopylblDropOffLocation06230b8c423f84c",
+    "height": "35dp",
+    "id": "lblSender",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,8 +54,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "915b17ed7da34f528c4253ce7c6730bc",
-    "left": "30dp",
+    "kuid": "a6bd426278504f72b924b15efe55f488",
+    "left": "60dp",
     "margin": [
         1,
         1,
@@ -72,21 +69,19 @@
         0,
         0
     ],
-    "parent": "flexTripHistoryLocations",
-    "pf": "frmTripHistoryInfo",
+    "parent": "flexReply",
+    "pf": "frmMessageCompose",
     "render": true,
-    "skin": "sbf6426b2ff6436ba75665df4a0a533f",
-    "text": "21 Ebury Ave Bryanston, 2191, South Africa",
+    "skin": "sa37aa3b654f4e11946b10cac0783f5c",
+    "text": "craig@ssa.com",
     "toolTip": "",
     "tooltip": "",
-    "top": "35dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "0dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "250dp",
-    "wrapping": 2,
-    "zIndex": 1,
-    "zindex": 1
+    "width": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "wrapping": 2
 }

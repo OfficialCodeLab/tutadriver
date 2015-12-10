@@ -61,7 +61,8 @@ tuta.forms.frm001LoginScreen = function() {
 
 
             self.moveLoginButtons.toggle();
-            tuta.forms.frm003CheckBox.show();
+            tuta.events.getChecklistItems();
+            //tuta.forms.frm003CheckBox.show();
             //tuta.forms.frm003CheckBox.show();
           },
           function(error) {

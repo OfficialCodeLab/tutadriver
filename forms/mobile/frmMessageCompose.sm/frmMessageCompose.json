@@ -32,7 +32,9 @@
         "flexScrollMessages",
         "flexKeyboard",
         "flexMessageSent",
-        "flexBackground"
+        "flexBackground",
+        "flexReply",
+        "flexLoading"
     ],
     "containerWeight": 100,
     "containerweight": 100,

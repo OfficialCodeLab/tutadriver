@@ -59,12 +59,14 @@ var GLOBAL_MIN_DIST = 25;
 var GLOBAL_FEE_KM = 12.5;
 var GLOBAL_FEE_MINUTES = 12.5;
 var GLOBAL_FEE_DEVIATION = 0.15; 
+var GLOBAL_PROVIDER = "TUTA";
 
 //Used by the bearing function
 var currentBearing = 0;
 
 //Snazzy variables
 var counter = 0;
+var checklistItems = [];
 //var tempPositionStart;
 //var tempPositionEnd;
 var timeStandingStill = 0;
@@ -375,6 +377,8 @@ tuta.checkCancellation = function (bookingID){
 
   }
 };
+
+
 
 
 //Accepts whatever booking gets passed through to the method,

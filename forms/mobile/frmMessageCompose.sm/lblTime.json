@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s0c3d3c414574b6c8afb8170a1817bbd",
-    "_text_": "32 Woodlands Drive, 2191, South Africa",
+    "_skin_": "s975e12978dc4a50a67547b4dacdd2d5",
+    "_text_": "12:45",
     "_top_": {
         "type": "string",
-        "value": "12dp"
+        "value": "5dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "250dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
@@ -43,7 +43,7 @@
         "type": "ref",
         "value": "preferred"
     },
-    "id": "CopylblPickUpLocation0000bafb9537149",
+    "id": "lblTime",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,8 +57,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "6cf469a579794cff868bfad64de843ac",
-    "left": "20dp",
+    "kuid": "14b79e29a76c4e63aa00a0dd4a8f68c7",
+    "left": "25dp",
     "margin": [
         1,
         1,
@@ -72,20 +72,20 @@
         0,
         0
     ],
-    "parent": "flexTripHistoryLocations",
-    "pf": "frmTripHistoryInfo",
+    "parent": "flexScrollMessages",
+    "pf": "frmMessageCompose",
     "render": true,
-    "skin": "s0c3d3c414574b6c8afb8170a1817bbd",
-    "text": "32 Woodlands Drive, 2191, South Africa",
+    "skin": "s975e12978dc4a50a67547b4dacdd2d5",
+    "text": "12:45",
     "toolTip": "",
     "tooltip": "",
-    "top": "12dp",
-    "vizProps": {
-        "lock": true
-    },
+    "top": "5dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "250dp",
+    "width": {
+        "type": "ref",
+        "value": "preferred"
+    },
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1
