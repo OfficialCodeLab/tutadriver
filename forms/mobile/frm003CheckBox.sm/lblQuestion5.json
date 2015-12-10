@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -25,24 +25,21 @@
     "_text_": "Question 5",
     "_top_": {
         "type": "string",
-        "value": "70.50%"
+        "value": "67.50%"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "75%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 5,
-    "contentalignment": 5,
+    "contentAlignment": 4,
+    "contentalignment": 4,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "height": "45dp",
     "id": "lblQuestion5",
     "info": null,
     "ipad": {
@@ -80,10 +77,10 @@
     "text": "Question 5",
     "toolTip": "",
     "tooltip": "",
-    "top": "70.50%",
+    "top": "67.50%",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "150dp",
+    "width": "75%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1
