@@ -151,12 +151,14 @@ function resetSearch() {
 //TODO: Move this to the checkbox form.
 function frm003CheckboxToggle(widget) {
   //var widget = toggleImage;
-  if (widget.isVisible === false) {
-    widget["isVisible"] = true;
+  var w = eventobject.id.replace("btnCheckTest", "genTickImg");
+  if (w.isVisible === false) {
+    w["isVisible"] = true;
   } else {
-    widget["isVisible"] = false;
+    w["isVisible"] = false;
   }
 }
+
 
 //Used to toggle the cheeseburger menu on the map form.
 //TODO: Move this to the map form.

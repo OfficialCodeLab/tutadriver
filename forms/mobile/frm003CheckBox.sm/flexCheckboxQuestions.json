@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "60%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -21,51 +21,20 @@
         0,
         0
     ],
-    "_render_": true,
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "150dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100.00%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "autogrowMode": 1,
+    "autogrowmode": 1,
     "canUpdateUI": true,
-    "channel": "mobile",
-    "children": [
-        "btnCheck1",
-        "btnCheck2",
-        "btnCheck3",
-        "btnCheck4",
-        "btnCheck5",
-        "txtfCabNumber",
-        "lblQuestion1",
-        "lblQuestion2",
-        "lblQuestion3",
-        "lblQuestion4",
-        "lblQuestion5",
-        "lblCabNum",
-        "imgTick1",
-        "imgTick2",
-        "imgTick3",
-        "imgTick4",
-        "imgTick5",
-        "lblSepLine1",
-        "lblSepLine2",
-        "lblSepLine3",
-        "lblSepLine4",
-        "lblSepLine5",
-        "lblSepLine6",
-        "lblBoxBorder1",
-        "lblBoxBorder2",
-        "lblBoxBorder3",
-        "lblBoxBorder4",
-        "lblBoxBorder5"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -73,14 +42,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "60%",
+    "height": "220dp",
     "id": "flexCheckboxQuestions",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c17076ef461e4cceae0a6ded68256fb3",
-    "layoutType": 2,
-    "layouttype": 2,
+    "kuid": "af936c8ce0c644a794920bfe894489ba",
+    "layoutType": 4,
+    "layouttype": 4,
     "left": "0dp",
     "margin": [
         0,
@@ -105,11 +74,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "150dp",
+    "top": "10dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100.00%",
-    "zIndex": 1,
-    "zindex": 1
+    "width": "100%",
+    "zIndex": 3,
+    "zindex": 3
 }

@@ -37,9 +37,9 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "btnContinue",
         "flexCheckboxHeader",
-        "flexCheckboxQuestions"
+        "flexCheckboxQuestions",
+        "btnContinue"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -56,8 +56,8 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "d3f98e7fc0ac4baa9d456fe45215062c",
-    "layoutType": 2,
-    "layouttype": 2,
+    "layoutType": 4,
+    "layouttype": 4,
     "left": "0%",
     "margin": [
         0,
