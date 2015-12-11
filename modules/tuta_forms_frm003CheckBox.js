@@ -69,6 +69,7 @@ tuta.forms.frm003CheckBox = function() {
   
 };
 
+
 function generateButton() {
 
 
@@ -152,6 +153,7 @@ try{
       frm003CheckBox[btnCheckTestId].width = "100%";
       frm003CheckBox[btnCheckTestId].top = "7%";
       frm003CheckBox[btnCheckTestId].left = "";
+
       frm003CheckBox[btnCheckTestId].onClick = function(eventobject){        
         var clicked = eventobject.id.replace("btnCheckTest","genTickImg") ;
         if (frm003CheckBox[clicked]["isVisible"] === false) {

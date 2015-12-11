@@ -200,6 +200,7 @@ tuta.forms.frm004Home = function() {
     };
 
     this.control("btnSubmitRating").onClick = function(button) {
+      tuta.createBookingHistory(tuta.event.getRating(), frm004Home.lblCost.text);
       tuta.resetMap();
       frm004Home.flexOverlay1.setVisibility(false);
       driver_state = 0;

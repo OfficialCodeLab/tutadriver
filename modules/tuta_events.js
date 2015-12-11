@@ -105,6 +105,14 @@ function onStarSelect(eventobject, x, y) {
     star[j].src = "starunselected.png";
   }
 }
+
+tuta.events.getRating = function (){
+  for(var i = 0; i < star.length; i++){
+    if(star[i].src === "starunselected.png"){
+      return i;
+    }
+  }
+};
 //End of ratings method
 /*===========================================================================*/
 

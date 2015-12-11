@@ -38,6 +38,7 @@ var storedBookingID = null;
 var storedBooking;
 var destination = null;
 var flagdownComplete = false;
+var startAddress = null;
 
 //Flags for state of booking process
 var csBookingInTransit = false;
@@ -241,7 +242,7 @@ tuta.getBearing = function(callback) {
   } catch (ex) {
     callback("cabpin" + 0 + ".png");
   }
-}
+};
 
 //Updates the current position of the user on the server.
 //VERY IMPORTANT: Leave this here.
@@ -464,6 +465,40 @@ tuta.createBooking = function(address, user){
   );
 };
 
+tuta.createBookingHistory = function(rating, cost){
+  
+  tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
+    var data = { 
+      providerId : globalCurrentUser.userName, 
+      userId : currentBooking.userId, 
+      address : {
+        start: startAddress.formatted_address.replace(/`+/g,""),
+        end: success.results[0].formatted_address.replace(/`+/g,"")
+      },
+      info : {
+        date: (new Date()).getTime(),
+        cost: cost,
+        driverRating: rating
+      }
+    };
+    
+    var input = { data: JSON.stringify(data) };
+    
+    application.service("manageService").invokeOperation(
+      "bookingHistoryAdd", {}, input,
+      function(result) {
+      },
+      function(error) {
+        // the service returns 403 (Not Authorised) if credentials are wrong
+      }
+    );
+  });
+
+  
+};
+
+
+
 //Retrive all the provider's messages from the server
 tuta.getMessages = function(callback) {
   var input = {
@@ -495,7 +530,7 @@ tuta.createMessage = function(id, text, callback) {
     text : text,
     sender : globalCurrentUser.userName
   };
-  
+
   var data = {data: JSON.stringify(input)};
   try{
     application.service("manageService").invokeOperation(
@@ -519,6 +554,7 @@ tuta.createMessage = function(id, text, callback) {
   Recurring sub-methods: yes
 */
 tuta.renderRouteAndUser = function() { //1
+  
   tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
 
     kony.timer.schedule("renderDir", function() {
@@ -636,6 +672,9 @@ tuta.updateUserOnRoute = function(userId) { //2
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
 
+  tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
+    startAddress = success.results[0];
+  });
   //Set actual pickup location
   actualPickupLocation.lat = currentPos.geometry.location.lat;
   actualPickupLocation.lng = currentPos.geometry.location.lng;
