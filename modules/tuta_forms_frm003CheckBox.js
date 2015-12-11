@@ -138,7 +138,7 @@ try{
       var questiontxt = checklistItems[i].text;
       var lblBasic = {id:idText,
                       isVisible: true,
-                      skin:"lblQuestion2",
+                      skin:"QuestionSkin",
                       text:questiontxt};
       var lblLayout = {contentAlignment:constants.CONTENT_ALIGN_MIDDLE_LEFT,
                        displayText: true};
@@ -163,7 +163,7 @@ try{
       frm003CheckBox[idText].add(genLblBox);
 
       var genFlexId = "genFlex" + (i+1);
-      frm003CheckBox[genFlexId].height = "46dp";
+      frm003CheckBox[genFlexId].height = "50dp";
       frm003CheckBox[genFlexId].top = "7%";
 
       var testname = "genTickImg" + (i+1);
