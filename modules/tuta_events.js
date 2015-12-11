@@ -116,6 +116,10 @@ tuta.events.getRating = function (){
 //End of ratings method
 /*===========================================================================*/
 
+tuta.events.getCost = function (str){
+  return str.substring(1, str.length);
+};
+
 
 //Toggle function to switch between landing screen and login/pass screen
 //TODO: Move this to the events screen

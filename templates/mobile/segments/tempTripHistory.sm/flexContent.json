@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "160dp"
     },
     "_margin_": [
         0,
@@ -35,7 +35,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "150dp",
+    "height": "160dp",
     "id": "flexContent",
     "info": null,
     "isSegmentChild": false,

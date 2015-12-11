@@ -42,6 +42,9 @@ tuta.forms.frmMessageMain = function() {
       tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);
       tuta.animate.move(frmMessageCompose.flexScrollMessages ,0, 105, 0, null);
       frmMessageCompose.flexLoading.setVisibility(false);
+      if(data.status === "0"){
+        tuta.readMessage(data.id);
+      }
     };
 
     //#ifdef android

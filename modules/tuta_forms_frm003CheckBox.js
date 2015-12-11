@@ -66,7 +66,8 @@ tuta.forms.frm003CheckBox = function() {
         tuta.mobile.alert("Unticked Box", "All boxes must be ticked");
       }
     };
-    this.control("btnConfirmCNum").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnConfirmCNum").onClick = function(button){tuta.forms.frm004Home.show();
+    loadMessages();};
   };
 
   tuta.forms.frm003CheckBox.onPostShow = function(form) {

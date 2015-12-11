@@ -5,11 +5,11 @@
     "_base64_": null,
     "_bottom_": {
         "type": "string",
-        "value": "-10dp"
+        "value": "-5dp"
     },
     "_height_": {
         "type": "string",
-        "value": "95dp"
+        "value": "89dp"
     },
     "_left_": {
         "type": "string",
@@ -29,12 +29,16 @@
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "_src_": "profilepicbooking.png",
+    "_top_": {
+        "type": "number",
+        "value": "68"
+    },
     "_width_": {
         "type": "string",
         "value": "90dp"
     },
     "base64": null,
-    "bottom": "-10dp",
+    "bottom": "-5dp",
     "canUpdateUI": true,
     "containerId": true,
     "containerWeight": 100,
@@ -46,7 +50,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "95dp",
+    "height": "89dp",
     "id": "imgPortait",
     "imageScaleMode": 0,
     "imagescalemode": 0,
@@ -75,6 +79,7 @@
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "profilepicbooking.png",
     "srcType": 1,
+    "top": 68,
     "vizProps": {
         "lock": false
     },

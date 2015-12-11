@@ -470,7 +470,7 @@ tuta.createBookingHistory = function(rating, cost){
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
     var data = { 
       providerId : globalCurrentUser.userName, 
-      userId : currentBooking.userId, 
+      userId : currentBooking.user, 
       address : {
         start: startAddress.formatted_address.replace(/`+/g,""),
         end: success.results[0].formatted_address.replace(/`+/g,"")
@@ -546,6 +546,22 @@ tuta.createMessage = function(id, text, callback) {
   }
 };
 
+tuta.readMessage = function(id) {
+  var input = {
+    id: id
+  };
+  try{
+    application.service("manageService").invokeOperation(
+      "messageRead", {}, input,
+      function(results) {   
+      },
+      function(error) {
+        //tuta.util.alert("ERROR", error);
+      });
+  }
+  catch (ex){
+  }
+};
 
 /*  
   Runs when the booking is accepted
