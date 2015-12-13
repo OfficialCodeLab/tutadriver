@@ -37,7 +37,7 @@ tuta.forms.frm004Home = function() {
       tuta.controls.behavior.MOVE_OVER,
       0.3
     );
-
+    
 
     //Initializes the user's name
     //frm004Home.profileName.text = globalCurrentUser.userName;
@@ -200,10 +200,12 @@ tuta.forms.frm004Home = function() {
     };
 
     this.control("btnSubmitRating").onClick = function(button) {
-      tuta.createBookingHistory(tuta.events.getRating(), tuta.events.getCost(frm004Home.lblCost.text));
-      tuta.resetMap();
-      frm004Home.flexOverlay1.setVisibility(false);
-      driver_state = 0;
+      var rating = tuta.events.getRating();
+      tuta.updateBookingHistoryRating(storedBookingID, rating, function(){
+        tuta.resetMap();
+        frm004Home.flexOverlay1.setVisibility(false);
+        driver_state = 0;        
+      });      
     }
 
     //Debug Menu: Reset state button
@@ -304,7 +306,7 @@ tuta.forms.frm004Home = function() {
 
     kony.timer.schedule("awaitBookings", function() {
       if (driver_state === 1)
-        tuta.retrieveBookings("Unconfirmed", function(results, error){
+        tuta.retrieveBookingsStatus("Unconfirmed", function(results, error){
           currentBooking = results.value[0];
           tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
           tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);

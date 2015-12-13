@@ -150,7 +150,7 @@ tuta.loadInitialPosition = function() {
 
 //Retrieves bookings that are
 //assigned to the driver based on status
-tuta.retrieveBookings = function(status, callback) {
+tuta.retrieveBookingsStatus = function(status, callback) {
   var input = {
     userid: globalCurrentUser.userName,
     status: status
@@ -328,14 +328,15 @@ tuta.pickupRequestInfo = function(userID, address) {
 
 
   try{
-    application.service("userService").invokeOperation(
+    application.service("driverService").invokeOperation(
       "user", {}, input,
       function(results) {
         frmPickupRequest.lblCustomerName.text = results.value[0].userInfo.firstName + " " + results.value[0].userInfo.lastName;
         frmPickupRequest.rtPickupLocation.text = address;
         tuta.location.geoCode(results.value[0].location.lat, results.value[0].location.lng, function(success, error) {
           var loc = success.results[0].formatted_address.replace(/`+/g, "");
-          loc = shortenText(loc, 25);
+          if(loc.length > 27)
+            loc = shortenText(loc, 25);
           frmPickupRequest.lblViaPath.text = loc;
           tuta.forms.frmPickupRequest.show();
         });
@@ -465,10 +466,13 @@ tuta.createBooking = function(address, user){
   );
 };
 
-tuta.createBookingHistory = function(rating, cost){
-  
+tuta.createBookingHistory = function(bookingID, cost){
+
+  storedBookingID = bookingID;
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
+
     var data = { 
+      _id: bookingID,
       providerId : globalCurrentUser.userName, 
       userId : currentBooking.user, 
       address : {
@@ -477,13 +481,12 @@ tuta.createBookingHistory = function(rating, cost){
       },
       info : {
         date: (new Date()).getTime(),
-        cost: cost,
-        driverRating: rating
+        cost: cost
       }
     };
-    
+
     var input = { data: JSON.stringify(data) };
-    
+
     application.service("manageService").invokeOperation(
       "bookingHistoryAdd", {}, input,
       function(result) {
@@ -494,7 +497,23 @@ tuta.createBookingHistory = function(rating, cost){
     );
   });
 
-  
+
+};
+
+tuta.updateBookingHistoryRating = function(bookingID, rating, callback){
+
+  var input = { id: bookingID, user : "driver", rating : rating.toString() };
+
+  application.service("manageService").invokeOperation(
+    "bookingHistoryUpdateRating", {}, input,
+    function(result) {
+      callback();
+    },
+    function(error) {
+      // the service returns 403 (Not Authorised) if credentials are wrong
+    }
+  );
+
 };
 
 
@@ -506,7 +525,7 @@ tuta.getMessages = function(callback) {
   };
   try{
     application.service("driverService").invokeOperation(
-      "messages", {}, {providerId : globalCurrentUser.userName + ""} ,
+      "messages", {}, input ,
       function(results) {   
         callback(results.value);
       },
@@ -570,9 +589,10 @@ tuta.readMessage = function(id) {
   Recurring sub-methods: yes
 */
 tuta.renderRouteAndUser = function() { //1
-  
+
   tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
 
+    tuta.events.directionsMaps(response.results[0].routes[0].end_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
     kony.timer.schedule("renderDir", function() {
       renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
       //updateMap();
@@ -688,6 +708,7 @@ tuta.updateUserOnRoute = function(userId) { //2
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
 
+  tuta.events.directionsMaps(currentBooking.address.description);
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
     startAddress = success.results[0];
   });
@@ -795,6 +816,7 @@ tuta.updateDriverOnRoute = function() { //4
 
             frm004Home.lblCost.text = "R" + tripCostFinal;
             frm004Home.flexOverlay1.isVisible = true;
+            tuta.createBookingHistory(storedBookingID, tuta.events.getCost(frm004Home.lblCost.text));
           },
           function(error) {
 

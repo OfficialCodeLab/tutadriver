@@ -331,6 +331,11 @@ tuta.events.csShowDistance = function() {
   var csTestDistance = tuta.location.distance(csCurrentPos.lat, csCurrentPos.lon, csDestinationPos.lat, csDestinationPos.lon);
 };
 
+tuta.events.directionsMaps = function (address){
+  kony.application.openURL("http://maps.google.com/maps?f=d&daddr=" + address +
+                             "&sspn=0.2,0.1&nav=1");
+};
+
 
 tuta.events.dateString = function(epoch){
   var newDate = epoch.substring(0, epoch.length-3);

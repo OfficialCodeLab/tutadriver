@@ -117,7 +117,7 @@ function loadMessages(){
           textShort = text;
         }
         var msgunread = {
-          "sender" : messagesUnread[j].sender,
+          "sender" : messagesUnread[j].sender.replace(" ", "").toLowerCase(),
           "time" : parsedTimeStr,
           "text" : text, 
           "textShort" : textShort, 
@@ -139,7 +139,7 @@ function loadMessages(){
           textShort = text;
         }
         var msgread = {
-          "sender" : messagesRead[k].sender,
+          "sender" : messagesRead[k].sender.replace(" ", "").toLowerCase(),
           "time" :  parsedTimeStr,
           "text" : text, 
           "textShort" : textShort, 
@@ -161,7 +161,7 @@ function loadMessages(){
         frm004Home.lblMessageCount.setVisibility(true);
       }
       else{
-        frm004Home.imgMessages.src = "envelopenomsg.png";
+        frm004Home.imgMessages.src = "envelope.png";
         frm004Home.lblMessageCount.text = "";
         frm004Home.lblMessageCount.setVisibility(false);        
       }

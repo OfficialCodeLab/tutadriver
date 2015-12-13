@@ -40,7 +40,7 @@ tuta.forms.frm001LoginScreen = function() {
       }
       else{
         //Inputs stored as a JSON object temporarily
-        var inputs = { userName : self.control("txtEmail").text , password : self.control("txtPassword").text };
+        var inputs = { userName : self.control("txtEmail").text.toLowerCase() , password : self.control("txtPassword").text };
 
         // try log user in
         application.service("userService").invokeOperation(

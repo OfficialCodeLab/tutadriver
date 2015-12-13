@@ -34,6 +34,7 @@ tuta.forms.frmMessageCompose = function() {
       else{
         to = frmMessageCompose.txtSendTo.text;
       }
+      
       tuta.createMessage(to, frmMessageCompose.txtMessage.text, function(success, error){
         if(error === undefined){
           frmMessageCompose.txtMessage.text = "";
