@@ -400,11 +400,10 @@ tuta.acceptBooking = function(bookingID) {
         tuta.renderRouteAndUser();
       },
       function(error) {
-
+		
       });
   }
   catch (ex){
-
   }
 };
 
@@ -589,10 +588,15 @@ tuta.readMessage = function(id) {
   Recurring sub-methods: yes
 */
 tuta.renderRouteAndUser = function() { //1
+  
+  tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
+    //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
+    tuta.events.directionsMaps(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
+  });
 
   tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
 
-    tuta.events.directionsMaps(response.results[0].routes[0].end_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
+    //tuta.events.directionsMaps(response.legs[0].end_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
     kony.timer.schedule("renderDir", function() {
       renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
       //updateMap();
