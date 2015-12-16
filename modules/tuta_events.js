@@ -287,20 +287,20 @@ storedTrips[i] = {
 
 tuta.events.getChecklistItems = function (){
   var input = {templateId : GLOBAL_PROVIDER};
-  
+
   application.service("driverService").invokeOperation(
-  "checklist", {}, input,
-  function(result){
-     checklistItems = result.value;
-     tuta.forms.frm003CheckBox.show();
-  }, function(error){
-     tuta.forms.frm004Home.show();
-  });
-  
+    "checklist", {}, input,
+    function(result){
+      checklistItems = result.value;
+      tuta.forms.frm003CheckBox.show();
+    }, function(error){
+      tuta.forms.frm004Home.show();
+    });
+
 };
 
 tuta.events.logIssue = function (){
-  
+
   var input = {
     userId : globalCurrentUser.userName,
     providerId : GLOBAL_PROVIDER_EMAIL,
@@ -312,18 +312,18 @@ tuta.events.logIssue = function (){
     date : (new Date()).getTime(),
     status : "Pending"
   };
-  
+
   var data = { data : JSON.stringify(input) };
-  
+
   application.service("manageService").invokeOperation(
-  "logIssueAdd", {}, data,
-  function(success){
-    tuta.util.alert("Issue Logged!", "Please check your emails and keep this id as reference : " + success.value[0].id);
-  },function(error){
-    tuta.util.alert("Error", error);
-    
-  });
-  
+    "logIssueAdd", {}, data,
+    function(success){
+      tuta.util.alert("Issue Logged!", "Please check your emails and keep this id as reference : " + success.value[0].id);
+    },function(error){
+      tuta.util.alert("Error", error);
+
+    });
+
   //tuta.util.alert("TEST", JSON.stringify(input));
 };
 
@@ -349,18 +349,18 @@ tuta.events.csShowDistance = function() {
   };
 
   tuta.util.alert("Current Position", "" +
-    "\nLatitude: " + csCurrentPos.lat +
-    "\nLongitude: " + csCurrentPos.lon + "\n" +
-    "\nSecond Position" +
-    "\nLatitude: " + csDestinationPos.lat +
-    "\nLongitude: " + csDestinationPos.lon);
+                  "\nLatitude: " + csCurrentPos.lat +
+                  "\nLongitude: " + csCurrentPos.lon + "\n" +
+                  "\nSecond Position" +
+                  "\nLatitude: " + csDestinationPos.lat +
+                  "\nLongitude: " + csDestinationPos.lon);
 
   var csTestDistance = tuta.location.distance(csCurrentPos.lat, csCurrentPos.lon, csDestinationPos.lat, csDestinationPos.lon);
 };
 
 tuta.events.directionsMaps = function (address){
   kony.application.openURL("http://maps.google.com/maps?f=d&daddr=" + address +
-                             "&sspn=0.2,0.1&nav=1");
+                           "&sspn=0.2,0.1&nav=1");
 };
 
 
@@ -372,11 +372,11 @@ tuta.events.dateString = function(epoch){
   if (hours < 10){
     hours = "0" + hours;    
   }
-  
+
   if (mins < 10){
     mins = "0" + mins;    
   }
-  
+
   return hours + ":" + mins;
 };
 
@@ -391,19 +391,19 @@ tuta.events.dateStringLong = function(epoch){
   if (hours < 10){
     hours = "0" + hours;    
   }
-  
+
   if (mins < 10){
     mins = "0" + mins;    
   }
-  
+
   if (day < 10){
     day = "0" + day;    
   }
-  
+
   if (month < 10){
     month = "0" + month;    
   }
-  
+
   return day + "/" + month + "/" + year + "   " + hours + ":" + mins;
 };
 
@@ -413,4 +413,97 @@ tuta.events.routeHandler = function(){
       routePoints = [];
     });
   }, 60, true);
+};
+
+tuta.events.loadBookings = function(){
+  try {
+    kony.timer.cancel("awaitBookings");
+
+  } catch (ex) {
+
+  }
+
+  kony.timer.schedule("awaitBookings", function() {
+    if (driver_state === 1)
+      tuta.retrieveBookingsStatus("Unconfirmed", function(results, error){
+        currentBooking = results.value[0];
+        tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
+        tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
+        frm004Home.imgSwitchBg.src = "switchbgoff.png";
+        tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
+      });
+  }, 10, true);
+
+};
+
+tuta.events.loadAllBookings = function(callback){
+  tuta.retrieveBookingsStatus("Unconfirmed", function(results, error){
+    if(results.value.length !== 0){
+      currentBookings = results.value;
+      var bookingsArr = [];
+      for(var i = 0; i < currentBookings.length; i++){
+        var thisBooking = currentBookings[i];
+        if(thisBooking.time !== undefined && thisBooking.time !== null){
+          tuta.location.geoCode(thisBooking.location.lat, thisBooking.location.lng, function(s,e){
+            var startLoc = s.results[0];
+            tuta.location.findAddress("90 Parel Vallei", function(suc, err){
+              var endLoc = suc.results[0];
+              tuta.events.getUserName(thisBooking.userId, function(result){
+                var name = result;
+                var locA = {
+                  lat: startLoc.geometry.location.lat,
+                  lng: startLoc.geometry.location.lng
+                };
+                var locB = {
+                  lat: endLoc.geometry.location.lat,
+                  lng: endLoc.geometry.location.lng
+                };
+                estimateTripCost(locA, locB, function(min, max){
+                  var estFareText = "R" + min + " - R" + max;
+                  var rating = "4.1"; //TODO: get the actual rating
+                  var bookingItem = {
+                    name : name,
+                    estFare : estFareText,
+                    pickup: startLoc.formatted_address,
+                    dropoff : endLoc.formatted_address,
+                    date : /*tuta.events.dateStringLong(thisBooking.time)*/ "12:00",
+                    rating : rating
+                  };/*
+                  TODO: 
+                  - map data
+                  - fix
+                  frmTripHistory.segTripHistoryMain.widgetDataMap = { "lblCost"  : "cost", "lblDateTime" : "date"};
+                  frmTripHistory.segTripHistoryMain.setData(storedTrips);*/
+                  //callback("success");
+                  tuta.util.alert("TEST", JSON.stringify(bookingItem));
+                });
+              });
+            });
+          });
+        }
+      }
+    }
+  });
+
+};
+
+tuta.events.getUserName = function (email, callback){
+  application.service("userService").invokeOperation(
+    "user", {}, {id : email},
+    function (result){
+      callback(result.value[0].userInfo.firstName);
+    }, function(error){
+
+    });
+};
+
+tuta.events.mapFormNavigatedAway = function (){
+  try {
+    kony.timer.cancel("awaitBookings");
+
+  } catch (ex) {
+
+  }
+
+  mapAutoUpdateInterval = 45;
 };

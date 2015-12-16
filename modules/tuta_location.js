@@ -529,6 +529,36 @@ tuta.location.distanceMatrix = function(origins, destinations, callback, id) {
   request.send();
 };
 
+
+tuta.location.findAddress = function (address, callback) {
+  var url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g,"+").replace(/`+/g,"");
+
+  var request = new kony.net.HttpRequest();
+  
+  request.timeout = 30000;
+  
+  request.onReadyStateChange = function() {
+  	if(request.readyState == constants.HTTP_READY_STATE_DONE) {
+      var response = request.response;
+      //ssa.mobile.alert("RESPONSE", response1);
+  	  //ssa.mobile.alert("test", JSON.stringify(response));
+      if(response == null) {
+        //callback(request1.getAllResponseHeaders());
+        ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
+      } else {
+        if(response != null) {
+          if(response.results != null) {
+              callback(response);
+          }
+        }
+      }
+    }
+  }
+
+  request.open(constants.HTTP_METHOD_GET, url, true, null, null);
+  request.send();
+}
+
 // generate random coordinates with a specified radius around a specified coordinate
 tuta.location.randomPoints = function(count, lat, lon, radius) {
   var points = [];

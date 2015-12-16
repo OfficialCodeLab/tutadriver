@@ -39,6 +39,7 @@ var storedBooking;
 var destination = null;
 var flagdownComplete = false;
 var startAddress = null;
+var currentBookings = [];
 
 //Flags for state of booking process
 var csBookingInTransit = false;

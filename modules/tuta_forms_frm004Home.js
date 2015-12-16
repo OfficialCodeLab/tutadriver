@@ -297,23 +297,13 @@ tuta.forms.frm004Home = function() {
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
+  mapAutoUpdateInterval = 4;
 
-    try {
-      kony.timer.cancel("awaitBookings");
-
-    } catch (ex) {
-
-    }
-
-    kony.timer.schedule("awaitBookings", function() {
-      if (driver_state === 1)
-        tuta.retrieveBookingsStatus("Unconfirmed", function(results, error){
-          currentBooking = results.value[0];
-          tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
-          tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
-          frm004Home.imgSwitchBg.src = "switchbgoff.png";
-          tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
-        });
-    }, 5, true);
+    tuta.events.loadBookings();
+  };
+  
+  tuta.forms.frm004Home.onHide = function(form){
+    var self = this;
+    tuta.events.mapFormNavigatedAway();
   };
 };

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_height_": {
         "type": "string",
@@ -33,7 +33,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": "0dp",
+    "bottom": "10dp",
     "canUpdateUI": true,
     "children": [
         "imgPortait",

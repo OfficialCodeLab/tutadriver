@@ -27,6 +27,8 @@ tuta.forms.frmBookingsMain = function() {
   
   tuta.forms.frmBookingsMain.onPostShow = function(form) {
     var self = this;
+    
+    tuta.events.loadAllBookings();
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
