@@ -103,6 +103,7 @@ tuta.forms.frm004Home = function() {
     };
 
     //Handles tapping on the map
+    /*
     this.control("mapMain").onClick = function(map, location) {
       frm004Home.flexAddressList.setVisibility(false);
       frm004Home.flexAddressShadow.setVisibility(false);
@@ -110,7 +111,7 @@ tuta.forms.frm004Home = function() {
       //resetSearchBar();
       searchMode = 0;
       //updateConsole();
-    };
+    };*/
 
     this.control("btnOptionDebug1").onClick = function() {
       menuToggle(0.3, self.leftMenu._open);

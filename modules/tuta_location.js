@@ -35,6 +35,8 @@ tuta.location.currentPosition = function(callback) {
 
 tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bearing) {
   //Update user's position on the server
+  
+  try{
   var inputData;
   if (bearing !== null && bearing !== undefined && bearing === bearing) //Ensures that bearing is not null, undefined or NaN
   {
@@ -55,7 +57,6 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
     };
   }
 
-  var userTemp = globalCurrentUser;
   var input = {
     data: JSON.stringify(inputData),
     id: userId
@@ -80,9 +81,17 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
       tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
     }
   );
+    
+    
+  }
+  catch(ex){
+    tuta.util.alert("Error", ex);
+  }
 };
 
 tuta.location.loadPositionInit = function() {
+  
+  try{
   mapFixed = true;
   tuta.location.currentPosition(function(response) {
 
@@ -108,6 +117,7 @@ tuta.location.loadPositionInit = function() {
       }
       //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
       updateMap();
+      
       kony.timer.schedule("startwatch", function(){
         mapFixed = false;
         tuta.startWatchLocation();
@@ -120,6 +130,12 @@ tuta.location.loadPositionInit = function() {
   }, function(error) {
     tuta.util.alert("Error", error);
   });
+    
+    
+  }
+  catch(ex){
+    tuta.util.alert("Pos load error", ex);
+  }
 };
 
 

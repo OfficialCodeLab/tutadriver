@@ -250,21 +250,28 @@ tuta.getBearing = function(callback) {
 tuta.startWatchLocation = function() {
   tuta.startUpdateMapFunction();
   setUpSwipes();
+  
   try {
     watchID = kony.store.getItem("watch");    
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
+          try{
           currentBearing = bearing(currentPos.geometry.location.lat, currentPos.geometry.location.lng, position.coords.latitude, position.coords.longitude);
           //tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
           currentPos.geometry.location.lat = position.coords.latitude;
           currentPos.geometry.location.lng = position.coords.longitude;
           //updateMap();
-          var userTemp = globalCurrentUser;
           try {
-            tuta.location.updateLocationOnServer(userTemp.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBearing);
+            tuta.location.updateLocationOnServer(globalCurrentUser.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBearing);
           } catch (ex) {
 
+          }
+            
+            
+          }
+          catch(e){
+            tuta.util.alert("ERROR", e);
           }
           //});
 
@@ -589,6 +596,7 @@ tuta.readMessage = function(id) {
   Recurring sub-methods: yes
 */
 tuta.renderRouteAndUser = function() { //1
+  driver_state = tuta.fsm.STATES.ON_ROUTE_TO_CLEINT;
   
   tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
     //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
@@ -712,6 +720,7 @@ tuta.updateUserOnRoute = function(userId) { //2
 
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
+  driver_state = tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION;
   var point = {
     lat: currentPos.geometry.location.lat, 
     lng: currentPos.geometry.location.lng
@@ -857,40 +866,50 @@ var tempPositionStart = {lat: 0, lng: 0};
 var tempPositionEnd = {lat: 0, lng: 0};
 var distanceTraveled = 0;
 tuta.addIfStandingStill = function(){
-  if (counter < 8 ){
-    //Set first location to compare
-    if(counter === 0 ){
-      tempPositionStart.lat = currentPos.geometry.location.lat;
-      tempPositionStart.lng = currentPos.geometry.location.lng;
-    }
-    /*
+  if(driver_state === tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION){
+
+    try{
+    if (counter < 8 ){
+      //Set first location to compare
+      if(counter === 0 ){
+        tempPositionStart.lat = currentPos.geometry.location.lat;
+        tempPositionStart.lng = currentPos.geometry.location.lng;
+      }
+      /*
     tuta.util.alert("Info", "Counter is zero\n\n" + 
       "Start position LAT: " + tempPositionStart.lat + "\n" + 
       "Start position LNG: " + tempPositionStart.lng);*/
-    counter += mapAutoUpdateInterval;
-  }
-  else {
-    //Set second location to compare
-    tempPositionEnd.lat = currentPos.geometry.location.lat;
-    tempPositionEnd.lng = currentPos.geometry.location.lng;
+      counter += mapAutoUpdateInterval;
+    }
+    else {
+      //Set second location to compare
+      tempPositionEnd.lat = currentPos.geometry.location.lat;
+      tempPositionEnd.lng = currentPos.geometry.location.lng;
 
-    var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
-    if (tempDist <= GLOBAL_MIN_DIST){
-      timeStandingStill += counter;
-    }
-    else{
-      distanceTraveled += tempDist;
-    }
-    /*
+      var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
+      if (tempDist <= GLOBAL_MIN_DIST){
+        timeStandingStill += counter;
+      }
+      else{
+        distanceTraveled += tempDist;
+      }
+      /*
     tuta.util.alert("Info 2", "Counter is " + counter + "\n" + "Time standing still: " + timeStandingStill + "\n" + 
       "Compared Distance: " + tempDist + 
       "Start position LAT: " + tempPositionStart.lat + "\n" + 
       "Start position LNG: " + tempPositionStart.lng + "\n" + 
       "End Position LAT: " + tempPositionEnd.lat + "\n" + 
       "End Position LNG: " + tempPositionEnd.lng);*/
-    counter = 0;
+      counter = 0;
+    }
+    tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng); 
+      
+      
+    }
+    catch(ex){
+      
+    }
   }
-  tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
 };
 
