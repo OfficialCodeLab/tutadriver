@@ -61,6 +61,7 @@ var GLOBAL_FEE_KM = 12.5;
 var GLOBAL_FEE_MINUTES = 12.5;
 var GLOBAL_FEE_DEVIATION = 0.15; 
 var GLOBAL_PROVIDER = "TUTA";
+var GLOBAL_PROVIDER_EMAIL = "courtney@codelab.io";
 
 //Used by the bearing function
 var currentBearing = 0;
@@ -711,6 +712,12 @@ tuta.updateUserOnRoute = function(userId) { //2
 
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
+  var point = {
+    lat: currentPos.geometry.location.lat, 
+    lng: currentPos.geometry.location.lng
+  };
+  tuta.route.createRoute(storedBookingID, point);
+  tuta.events.routeHandler();
 
   tuta.events.directionsMaps(currentBooking.address.description);
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
@@ -806,6 +813,15 @@ tuta.updateDriverOnRoute = function() { //4
           function(result) {
 
             //tuta.util.alert("INFO", "Booking status is now COMPLETED");
+            
+            try{
+              kony.timer.cancel("routeHandler");
+            }
+            catch(ex){}
+            tuta.routes.addPoints(storedBookingID, routePoints, function(){
+              routePoints = [];
+            });
+            
             driver_state = 0;
             frm004Home.mapMain.clear();
             updateMap();
@@ -874,6 +890,7 @@ tuta.addIfStandingStill = function(){
       "End Position LNG: " + tempPositionEnd.lng);*/
     counter = 0;
   }
+  tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng);
 
 };
 

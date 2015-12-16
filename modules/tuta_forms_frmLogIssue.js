@@ -20,7 +20,10 @@ tuta.forms.frmLogIssue = function() {
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     this.control("btnBack").onClick = function (button) {tuta.forms.frm004Home.show();};
     this.control("btnCancel").onClick = function (button) {tuta.forms.frm004Home.show();};
-    this.control("btnSubmitIssue").onClick = function (button) {tuta.forms.frm004Home.show();};
+    this.control("btnSubmitIssue").onClick = function (button) {
+      tuta.events.logIssue();
+      tuta.forms.frm004Home.show();
+    };
   };
   
   tuta.forms.frmLogIssue.onPostShow = function(form) {

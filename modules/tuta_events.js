@@ -299,6 +299,33 @@ tuta.events.getChecklistItems = function (){
   
 };
 
+tuta.events.logIssue = function (){
+  
+  var input = {
+    userId : globalCurrentUser.userName,
+    providerId : GLOBAL_PROVIDER_EMAIL,
+    email : frmLogIssue.txtEmail.text.toLowerCase().replace(" ", ""),
+    userName : frmLogIssue.txtName.text,
+    companyName : frmLogIssue.txtCompanyName.text,
+    queryTopic : frmLogIssue.lbxQuery.selectedKeyValue[1],
+    queryFull : frmLogIssue.txtareaEditIssue.text,
+    date : (new Date()).getTime(),
+    status : "Pending"
+  };
+  
+  var data = { data : JSON.stringify(input) };
+  
+  application.service("manageService").invokeOperation(
+  "logIssueAdd", {}, data,
+  function(success){
+    tuta.util.alert("Issue Logged!", "Please check your emails and keep this id as reference : " + success.value[0].id);
+  },function(error){
+    tuta.util.alert("Error", error);
+    
+  });
+  
+  //tuta.util.alert("TEST", JSON.stringify(input));
+};
 
 
 /*===========================================================================
@@ -378,4 +405,12 @@ tuta.events.dateStringLong = function(epoch){
   }
   
   return day + "/" + month + "/" + year + "   " + hours + ":" + mins;
+};
+
+tuta.events.routeHandler = function(){
+  kony.timer.schedule("routeHandler", function(){
+    tuta.routes.addPoints(storedBookingID, routePoints, function(){
+      routePoints = [];
+    });
+  }, 60, true);
 };

@@ -1,7 +1,7 @@
 {
     "@class": "com.kony.gen.appprops.KVizAppProps",
     "APPLICATION_THEME": "default",
-    "accountCloudGuid": "b08f36f0-bacf-4157-b3b6-52c54556f965",
+    "accountCloudGuid": "a40fb97b-190e-4cb7-89d4-8c21d9a3011b",
     "appaddrkey": "",
     "appidkey": "Project01d3667530",
     "appmenu": {
@@ -138,15 +138,8 @@
     "mwhttpsportkey": "",
     "mwportkey": "",
     "project.type": "js",
-    "projectCloudGuid": "195b979c-8839-4f07-b766-a074a0264d79",
+    "projectCloudGuid": "3d0cf32e-5aa7-4885-9cb1-f3d82dd511ed",
     "project_version": "sprint21",
-    "prototype": {
-        "createdBy": "Ryan Sloane",
-        "createdById": "b08f36f0-bacf-4157-b3b6-52c54556f965",
-        "createdOn": "2015-10-26T08:56:40.113Z",
-        "resourceId": "fd9320d1-d3d3-4c23-8a11-9a87169f96f3",
-        "shareGuid": "TH9DH"
-    },
     "startupformkey": "frmSplash",
     "supportedorientations": [
         "portrait"
@@ -175,5 +168,6 @@
     "wap_spawindowstab_fontsize": "17",
     "wap_winphone320_fontsize": "12",
     "wap_winphone480_fontsize": "12",
-    "winmobileguidkey": ""
+    "winmobileguidkey": "",
+    "projectResourceCloudGuid": "47d839aa-b564-4761-a2b1-ada55843180a"
 }
