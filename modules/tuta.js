@@ -56,6 +56,7 @@ var menuOpen = false;
 var mapFixed = false;
 
 //STATIC VARIABLES
+var GLOBAL_GESTURE_FINGERS_1 = {fingers: 1};
 var GLOBAL_BASE_RATE = 40;
 var GLOBAL_MIN_DIST = 25;
 var GLOBAL_FEE_KM = 12.5;
@@ -129,10 +130,11 @@ tuta.initCallback = function(error) {
   application.login("techuser@ssa.co.za", "T3chpassword", function(result, error) {
     if (error) tuta.util.alert("Login Error", error);
     else {
-
+	
     }
   });
-
+  
+	
 };
 
 /*=============================================================================

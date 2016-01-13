@@ -8,6 +8,7 @@ if (typeof(tuta.forms) === "undefined") {
   tuta.forms = {};
 }
 
+var checkboxloaded = false;
 tuta.forms.frm003CheckBox = function() {
   // initialize controller 
   tuta.forms.frm003CheckBox = new tuta.controller(frm003CheckBox); 
@@ -28,8 +29,9 @@ tuta.forms.frm003CheckBox = function() {
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
     //this.control("btnContinue").onClick = function(button){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
-
-    generateButton();
+    if(checkboxloaded === false)
+		generateButton();
+    
     
     //this.control("btnCheck1").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
     //this.control("btnCheck2").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
@@ -198,6 +200,7 @@ try{
       frm003CheckBox[genLblBoxId].width = "30dp";
       frm003CheckBox[genLblBoxId].top = "6dp";
       frm003CheckBox[genLblBoxId].left = "10%";
+      checkboxloaded = true;
     }
 }
   catch(ex){

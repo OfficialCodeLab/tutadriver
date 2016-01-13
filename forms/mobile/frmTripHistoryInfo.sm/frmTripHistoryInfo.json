@@ -23,7 +23,8 @@
     "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "flexContent"
+        "flexContent",
+        "flexNoPanning"
     ],
     "containerWeight": 100,
     "containerweight": 100,

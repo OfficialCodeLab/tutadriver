@@ -35,7 +35,7 @@ tuta.forms.frm004Home = function() {
       this.control("flexMenu"),
       tuta.controls.position.LEFT,
       tuta.controls.behavior.MOVE_OVER,
-      0.3
+      0.15
     );
     
 
@@ -68,7 +68,7 @@ tuta.forms.frm004Home = function() {
       based on current state.
     */
     this.control("btnChs").onClick = function(button) {
-      menuToggle(0.3, self.leftMenu._open);
+      menuToggle(0.15, self.leftMenu._open);
       self.leftMenu.toggle();
     };
 

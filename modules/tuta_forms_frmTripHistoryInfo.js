@@ -12,7 +12,9 @@ tuta.forms.frmTripHistoryInfo = function() {
 
   // Initialize form events	
   tuta.forms.frmTripHistoryInfo.onInit = function(form) {
-      
+    
+  	
+   
     
       	
       /*
@@ -26,6 +28,8 @@ tuta.forms.frmTripHistoryInfo = function() {
     
     this.control("btnBack").onClick = function(button){tuta.forms.frmTripHistory.show();};
     this.control("btnHelp").onClick = function(button) {tuta.forms.frmLogIssue.show();};
+    frmTripHistoryInfo.flexNoPanning.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, GLOBAL_GESTURE_FINGERS_1,  function(widget, gestureInformationSwipe) {
+  	});
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
   };
   
