@@ -129,7 +129,7 @@ try{
       idText = "btnCheckTest" + (i+1);
       var btnBasic ={id:idText, isVisible:true, skin:"CopyslButtonGlossBlue043984d7811364e", 
                      focusSkin:"CopyslButtonGlossBlue043984d7811364e"};
-      var btnLayout = {displayText:true};
+      var btnLayout = {zIndex:4,displayText:true};
       var btnPSP ={};
 
       btnCheckTest1 = new kony.ui.Button(btnBasic, btnLayout, btnPSP);
@@ -178,7 +178,7 @@ try{
       frm003CheckBox[btnCheckTestId].height = "46dp";
       frm003CheckBox[btnCheckTestId].width = "100%";
       frm003CheckBox[btnCheckTestId].top = "7%";
-      frm003CheckBox[btnCheckTestId].left = "";
+      frm003CheckBox[btnCheckTestId].left = "0%";
 
       frm003CheckBox[btnCheckTestId].onClick = function(eventobject){        
         var clicked = eventobject.id.replace("btnCheckTest","genTickImg") ;
