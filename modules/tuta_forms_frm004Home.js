@@ -232,12 +232,12 @@ tuta.forms.frm004Home = function() {
     this.control("btnEditProfile").onClick = function(button) {
       menuToggle(0, self.leftMenu.open);
       self.leftMenu.toggle();
-      tuta.forms.frmMessageMain.show();
+      tuta.forms.frmEditProfile.show();
     };
     this.control("btnMessage").onClick = function(button) {
       menuToggle(0, self.leftMenu._open);
       self.leftMenu.toggle();
-      tuta.forms.frmEditProfile.show();
+      tuta.forms.frmMessageMain.show();
     };
     this.control("btnBooking").onClick = function(button) {
       menuToggle(0, self.leftMenu._open);

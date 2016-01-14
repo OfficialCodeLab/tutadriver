@@ -17,14 +17,13 @@ tuta.forms.frmEditProfile = function() {
   
   tuta.forms.frmEditProfile.onPreShow = function(form) {
     var self = this;
-    /*
-    // Get the name of the user
-    var userTempQuery = JSON.parse(kony.store.getItem("user"));
-    var currentUserEmail = JSON.stringify(userTempQuery.userName);
     
     // Store the user IS as variable 'input' for userService query
     var input = {
-      id: currentUserEmail
+      id: globalCurrentUser.userName
+    };
+    var input2 = {
+      userId: globalCurrentUser.userName
     };
     
     // Fill edit profile fields
@@ -41,9 +40,68 @@ tuta.forms.frmEditProfile = function() {
         tuta.util.alert("Error " + error);
       }
     );
- */
+    
+    application.service("driverService").invokeOperation(
+      "assignedVehicle", {}, input2,
+      function(result) {
+        var make = result.value[0].make;
+        var model = result.value[0].model;
+        var year = result.value[0].year;
+        var color = result.value[0].color;
+        var VRN = result.value[0].VRN;
+        frmEditProfile.txtMake.text = make;
+        frmEditProfile.txtModel.text = model;
+        frmEditProfile.txtYear.text = year;
+        frmEditProfile.txtColor.text = color;
+        frmEditProfile.txtVRN.text = VRN;
+      },
+      function(error) {
+        // the service returns 403 (Not Authorized) if credentials are wrong
+        tuta.util.alert("Error " + error);
+      }
+    );
+    
     //Back button click function
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    
+    this.control("btnSave").onClick = function(button) {
+      var inputs = {
+        data: JSON.stringify({
+          firstName : frmEditProfile.txtFirstName.text,
+          lastName : frmEditProfile.txtSurname.text
+        }),
+        id: globalCurrentUser.userName
+      };
+      
+      application.service("manageService").invokeOperation(
+        "userInfoUpdate", {}, inputs,
+        function(success) {
+          //tuta.util.alert("Success", "Name and surname info has been updated");
+          
+          var inputs2 = {
+            data: JSON.stringify({
+              make : frmEditProfile.txtMake.text,
+              model : frmEditProfile.txtModel.text,
+              year : frmEditProfile.txtYear.text,
+              color : frmEditProfile.txtColor.text,
+              VRN : frmEditProfile.txtVRN.text
+            }),
+            id: globalCurrentUser.userName
+          };
+          
+          application.service("manageService").invokeOperation(
+            "vehicleUpdate", {}, inputs2,
+            function(success) {
+              tuta.util.alert("Success", "Vehicle info has been updated");
+            }, function(error) {
+              tuta.util.alert("Error", JSON.stringify(error));
+            }
+          );
+        }, function(error) {
+          tuta.util.alert("Error", JSON.stringify(error));
+        }
+      );
+    };
   };
   
   tuta.forms.frmEditProfile.onPostShow = function(form) {
