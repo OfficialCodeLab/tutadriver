@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "65dp"
     },
     "_left_": {
         "type": "string",
-        "value": "18dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,20 +21,24 @@
         0,
         0
     ],
-    "_skin_": "sfc8d580218e48d8858d2002dde17c34",
+    "_skin_": "s1bc81f067204ab6bc40c3de0a587944",
     "_top_": {
         "type": "string",
-        "value": "43dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "18dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "btnBack",
+        "imgBackArrow",
+        "lblHeaderTitle"
+    ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -42,15 +46,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "35dp",
-    "id": "CopyFlexContainer0c9a659bdbbc249",
+    "height": "65dp",
+    "id": "flexHeader",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "2d04186c572c44dc976b573618cffb94",
+    "kuid": "4141d717136d4fc9a59f7439ff416d10",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "18dp",
+    "left": "0dp",
     "margin": [
         0,
         0,
@@ -65,20 +69,20 @@
         0,
         0
     ],
-    "parent": "flexMenu",
+    "parent": "flexMain",
     "percent": true,
-    "pf": "frm004Home",
+    "pf": "frmEditProfile",
     "render": true,
-    "skin": "sfc8d580218e48d8858d2002dde17c34",
+    "skin": "s1bc81f067204ab6bc40c3de0a587944",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "43dp",
+    "top": "0dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "18dp",
-    "zIndex": 3,
-    "zindex": 3
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
 }

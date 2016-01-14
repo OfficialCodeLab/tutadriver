@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "15dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -25,20 +21,20 @@
         0,
         0
     ],
-    "_skin_": "s7a4c9416c2b4938a145d640e2b4856f",
+    "_skin_": "sdba13d66a3f4707b0522de3d1637571",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "20dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
     "canUpdateUI": true,
-    "children": [
-        "btnLegal",
-        "Label0d6d5baad497f4f"
-    ],
+    "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -46,15 +42,15 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "80dp",
-    "id": "FlexContainer08e76649355d34d",
+    "height": "15dp",
+    "id": "flexCornerArrowConnect",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7cee2db1e7d2454cab7ad4b85a83fb7d",
+    "kuid": "b569d2c13e4345928b4fd70d1ca18dec",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0dp",
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -73,15 +69,16 @@
     "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "s7a4c9416c2b4938a145d640e2b4856f",
+    "skin": "sdba13d66a3f4707b0522de3d1637571",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "top": "50dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 69,
-    "zindex": 69
+    "width": "20dp",
+    "zIndex": 2,
+    "zindex": 2
 }

@@ -1,10 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "_margin_": [
         1,
@@ -18,33 +17,32 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "25dp"
-    },
-    "_skin_": "sc9b993e05e04fabb31c672d1278fbc9",
-    "_text_": "Legal",
+    "_skin_": "s960e6578f804f5da79a501f48a76771",
+    "_text_": "EDIT PROFILE",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "200dp"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerX": "50%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
     },
+    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "id": "Label0d6d5baad497f4f",
+    "height": "40dp",
+    "id": "lblHeaderTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,13 +50,14 @@
         }
     },
     "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
         "psp": {
             "wrapping": 2
         }
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "87f69f96263748cfab9a9dfe9e40873e",
+    "kuid": "09d11181e3fb4da7a5a6b757fef0cb26",
     "margin": [
         1,
         1,
@@ -72,21 +71,17 @@
         0,
         0
     ],
-    "parent": "flexLegal",
-    "pf": "frm004Home",
+    "parent": "flexHeader",
+    "pf": "frmEditProfile",
     "render": true,
-    "right": "25dp",
-    "skin": "sc9b993e05e04fabb31c672d1278fbc9",
-    "text": "Legal",
+    "skin": "s960e6578f804f5da79a501f48a76771",
+    "text": "EDIT PROFILE",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "width": "200dp",
     "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 4,
+    "zindex": 4
 }

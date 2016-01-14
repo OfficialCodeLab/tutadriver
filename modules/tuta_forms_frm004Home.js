@@ -225,6 +225,11 @@ tuta.forms.frm004Home = function() {
     };
 
     //Cheeseburger Menu Items
+    this.control("btnEditProfile").onClick = function(button) {
+      menuToggle(0, self.leftMenu.open);
+      self.leftMenu.toggle();
+      tuta.forms.frmMessageMain.show();
+    };
     this.control("btnMessage").onClick = function(button) {
       menuToggle(0, self.leftMenu._open);
       self.leftMenu.toggle();

@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
-        "value": "50%"
+        "value": "10dp"
     },
     "_margin_": [
         6,
@@ -18,37 +18,42 @@
     "_padding_": [
         0,
         0,
-        10,
+        0,
         0
     ],
-    "_skin_": "s8282f6721194442a1588b0007fe175c",
+    "_skin_": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "_text_": "",
     "_top_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "55dp"
     },
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
-    "contentAlignment": 9,
-    "contentalignment": 9,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sc14dfa778384d27897c8d3bcc2e5fa3",
-    "focusskin": "sc14dfa778384d27897c8d3bcc2e5fa3",
-    "height": "100%",
-    "id": "btnLegal",
+    "focusSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "focusskin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "height": "45dp",
+    "id": "btnBack",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "18455aed48c64965b805b7bd00cbb73b",
-    "left": "50%",
+    "kuid": "488057d9dbcc421ead3220b21986d972",
+    "left": "10dp",
     "margin": [
         6,
         6,
@@ -59,20 +64,21 @@
     "padding": [
         0,
         0,
-        10,
+        0,
         0
     ],
-    "paddingInPixel": false,
-    "paddinginpixel": false,
-    "parent": "flexLegal",
-    "pf": "frm004Home",
+    "parent": "flexHeader",
+    "pf": "frmEditProfile",
     "render": true,
-    "skin": "s8282f6721194442a1588b0007fe175c",
+    "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
-    "top": 0,
+    "top": "10dp",
+    "vizProps": {
+        "lock": false
+    },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "50%",
-    "zIndex": 3,
-    "zindex": 3
+    "width": "55dp",
+    "zIndex": 5,
+    "zindex": 5
 }
