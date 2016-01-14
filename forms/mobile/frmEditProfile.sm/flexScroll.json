@@ -42,7 +42,9 @@
         "lblFirstName",
         "txtFirstName",
         "lblSurname",
-        "txtSurname"
+        "txtSurname",
+        "cmrTakePhoto",
+        "btnImportPicture"
     ],
     "clipBounds": true,
     "clipbounds": true,
