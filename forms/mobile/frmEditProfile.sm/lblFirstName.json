@@ -6,6 +6,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         1,
         1,
@@ -13,28 +17,23 @@
         1
     ],
     "_padding_": [
-        0,
+        7,
         0,
         0,
         0
     ],
-    "_right_": {
+    "_skin_": "s8d35dfbdb34412eb9c6299e3a177b64",
+    "_text_": "First Name:",
+    "_top_": {
         "type": "string",
-        "value": "25dp"
+        "value": "10dp"
     },
-    "_skin_": "sc9b993e05e04fabb31c672d1278fbc9",
-    "_text_": "Legal",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerY": "50%",
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 4,
@@ -44,7 +43,7 @@
         "type": "ref",
         "value": "preferred"
     },
-    "id": "Label0d6d5baad497f4f",
+    "id": "lblFirstName",
     "info": null,
     "ipad": {
         "psp": {
@@ -58,7 +57,8 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "87f69f96263748cfab9a9dfe9e40873e",
+    "kuid": "b850f5a2d07a4be28443ea008072973e",
+    "left": "0dp",
     "margin": [
         1,
         1,
@@ -67,26 +67,23 @@
     ],
     "name": "kony.ui.Label",
     "padding": [
-        0,
+        7,
         0,
         0,
         0
     ],
-    "parent": "flexLegal",
-    "pf": "frm004Home",
+    "paddingInPixel": false,
+    "paddinginpixel": false,
+    "parent": "flexScroll",
+    "pf": "frmEditProfile",
     "render": true,
-    "right": "25dp",
-    "skin": "sc9b993e05e04fabb31c672d1278fbc9",
-    "text": "Legal",
+    "skin": "s8d35dfbdb34412eb9c6299e3a177b64",
+    "text": "First Name:",
     "toolTip": "",
     "tooltip": "",
+    "top": "10dp",
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "wrapping": 2,
-    "zIndex": 2,
-    "zindex": 2
+    "width": "100%",
+    "wrapping": 2
 }

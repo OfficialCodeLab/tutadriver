@@ -963,6 +963,7 @@ tuta.init = function() {
   new tuta.forms.frmTripHistory();
   new tuta.forms.frmTripHistoryInfo();
   new tuta.forms.frmDebugConsole();
+  new tuta.forms.frmEditProfile();
 
   // initialize application
   application = new tuta.application(tuta.initCallback);
