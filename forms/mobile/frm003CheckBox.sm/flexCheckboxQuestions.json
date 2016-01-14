@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "480dp"
     },
     "_left_": {
         "type": "string",
@@ -24,15 +24,15 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "7dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowMode": 1,
-    "autogrowmode": 1,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [],
     "clipBounds": true,
@@ -42,12 +42,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "220dp",
+    "height": "480dp",
     "id": "flexCheckboxQuestions",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "af936c8ce0c644a794920bfe894489ba",
+    "kuid": "22d0899853cb4f16bfa31ff8ea2c7717",
     "layoutType": 4,
     "layouttype": 4,
     "left": "0dp",
@@ -74,7 +74,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "10dp",
+    "top": "7dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

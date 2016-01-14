@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "630dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,58 +21,43 @@
         0,
         0
     ],
-    "_skin_": "se2fb5e4c5fa4d0b884e57620f9980a4",
+    "_skin_": "s3643d77844a451c90ee1d7dd8dd4007",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowHorizontalBounce": true,
-    "allowVerticalBounce": true,
-    "allowhorizontalbounce": true,
-    "allowverticalbounce": true,
-    "bounces": false,
-    "bouncesZoom": false,
+    "autogrowMode": 0,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "decelerat": false,
-    "decelerating": false,
-    "dragg": false,
-    "dragging": false,
-    "enableScrolling": false,
+    "enableScrolling": true,
     "enabled": false,
-    "enablescrolling": false,
-    "height": "100%",
-    "horizontalScrollIndicator": true,
-    "horizontalscrollindicator": true,
-    "id": "flexScrollCheckboxBackground",
+    "enablescrolling": true,
+    "height": "630dp",
+    "id": "flexCheckBoxBackground",
     "info": null,
-    "iphone": {
-        "psp": {
-            "bouncesZoom": false
-        }
-    },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "bb9ab06d596944e5ba76db48862a14a3",
+    "kuid": "57f471d9cced4a7dbdb20266b49a7dc6",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "0%",
+    "left": "0dp",
     "margin": [
         0,
         0,
         0,
         0
     ],
-    "name": "kony.ui.FlexScrollContainer",
+    "name": "kony.ui.FlexContainer",
     "orientation": 6,
     "padding": [
         0,
@@ -80,25 +65,17 @@
         0,
         0
     ],
-    "pagingEnabled": false,
-    "pagingenabled": false,
     "parent": "frm003CheckBox",
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
-    "scrollDirection": 1,
-    "scrolldirection": 1,
-    "skin": "se2fb5e4c5fa4d0b884e57620f9980a4",
+    "skin": "s3643d77844a451c90ee1d7dd8dd4007",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
-    "track": false,
-    "tracking": false,
-    "verticalScrollIndicator": true,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "top": "0dp",
+    "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
