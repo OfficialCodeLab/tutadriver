@@ -328,7 +328,7 @@ tuta.stopUpdateMapFunction = function(){
   }
 };
 
-//Sets the text for the pickup request form.
+//Creates a pickup request and shows it to the driver
 //TODO: Refactor this into the pickup request form.
 //Difficulty: Medium
 tuta.pickupRequestInfo = function(userID, address) {

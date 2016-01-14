@@ -40,7 +40,7 @@ tuta.forms.frmPickupRequest = function() {
         this.control("btnAcceptRequest").onClick = function(button) {
           try{
             kony.timer.cancel("startwatch");
-            
+            kony.timer.cancel("autoRejectionTimer");
           }catch(ex){}
             tuta.acceptBooking(currentBooking.id);
             tuta.forms.frm004Home.show();
@@ -50,11 +50,45 @@ tuta.forms.frmPickupRequest = function() {
             //frm004Home.show();
         };
 
+        /*  
+        TODO:
+            Schedule recursive kony timer as a while loop, counting down from 30.
+            When the timer hits 30,  cancel the timer, and automatically reject 
+            the pickup request.
+        */
+        var rejectionTimerTicker = 30;
+        frmPickupRequest.lblTimeRemaining.text = "30 second(s) remain";
+
+        kony.timer.schedule("autoRejectionTimer", function() {
+
+            frmPickupRequest.lblTimeRemaining.text = rejectionTimerTicker + " second(s) remain";
+
+            if (rejectionTimerTicker <= 0){
+                try{
+                    kony.timer.cancel("autoRejectionTimer");
+                    tuta.rejectBooking(currentBooking.id);
+                    tuta.forms.frm004Home.show();
+                }
+                catch(ex){
+
+                }
+            }
+
+        }, 1, true);
+
         this.control("btnConfirm").onClick = function(button) {
+            try{
+                kony.timer.cancel("autoRejectionTimer");
+            }
+            catch(ex){
+                
+            }
             frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;
             tuta.rejectBooking(currentBooking.id);
             tuta.forms.frm004Home.show();
         }
+
+        
         
         
     };  

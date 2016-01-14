@@ -49,7 +49,9 @@
         "lblNewAlertTitle",
         "lblSep1",
         "lblSep2",
-        "rtPickupLocation"
+        "rtPickupLocation",
+        "lblTimeRemainingDesc",
+        "lblTimeRemaining"
     ],
     "clipBounds": true,
     "clipbounds": true,
