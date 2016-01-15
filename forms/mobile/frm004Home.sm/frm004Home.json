@@ -51,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "iPhone4",
     "displayOrientation": 1,
     "displayorientation": 1,
     "enabled": false,
@@ -140,7 +140,7 @@
     "render": true,
     "retainScrollPosition": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "iOS_iPhone4",
     "skin": "s9083cdb16964e68816458976e0e7bf3",
     "snapGridSize": 10,
     "snapToGrid": true,

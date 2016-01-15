@@ -32,7 +32,7 @@ tuta.forms.frmMessageCompose = function() {
         to = frmMessageCompose.lblSender.text;        
       }
       else{
-        to = frmMessageCompose.txtSendTo.text;
+        to = trimInput(frmMessageCompose.txtSendTo.text);
       }
       
       tuta.createMessage(to, frmMessageCompose.txtMessage.text, function(success, error){
@@ -50,5 +50,10 @@ tuta.forms.frmMessageCompose = function() {
     var self = this;
 
   };
+};
+
+// Trim helper
+var trimInput = function(val) {
+  return val.replace(/^\s*|\s*$/g, "");
 };
 

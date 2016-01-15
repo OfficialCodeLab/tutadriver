@@ -43,7 +43,7 @@
         "lblMessageCount",
         "imgBurgerClose",
         "btnCloseCheeseburger",
-        "FlexContainer0af5edb3e79c248"
+        "flexBurgerMenu"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -92,6 +92,6 @@
     "widgetAlignment": 1,
     "widgetalignment": 1,
     "width": "100%",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 100,
+    "zindex": 100
 }

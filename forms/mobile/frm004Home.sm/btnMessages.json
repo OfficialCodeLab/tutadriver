@@ -19,13 +19,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "9dp"
+        "value": "3dp"
     },
     "_skin_": "s37c5209ed1a4c08803df5600dfa8077",
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "70dp"
     },
     "canUpdateUI": true,
     "centerY": "50%",
@@ -68,7 +68,7 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
-    "right": "9dp",
+    "right": "3dp",
     "skin": "s37c5209ed1a4c08803df5600dfa8077",
     "text": "",
     "vizProps": {
@@ -76,7 +76,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "60dp",
-    "zIndex": 20,
-    "zindex": 20
+    "width": "70dp",
+    "zIndex": 101,
+    "zindex": 101
 }

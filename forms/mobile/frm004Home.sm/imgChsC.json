@@ -71,7 +71,7 @@
         0,
         0
     ],
-    "parent": "FlexContainer0af5edb3e79c248",
+    "parent": "flexBurgerMenu",
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",

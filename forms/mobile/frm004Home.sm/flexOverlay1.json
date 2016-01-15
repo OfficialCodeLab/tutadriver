@@ -35,7 +35,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0d9ce8db238ba41"
+        "flexTripSummary"
     ],
     "clipBounds": true,
     "clipbounds": true,

@@ -63,7 +63,7 @@
         0,
         0
     ],
-    "parent": "FlexContainer0d9ce8db238ba41",
+    "parent": "flexTripSummary",
     "pf": "frm004Home",
     "render": true,
     "skin": "s3cf13503b9f48248cd3b2e215f9bf5d",
