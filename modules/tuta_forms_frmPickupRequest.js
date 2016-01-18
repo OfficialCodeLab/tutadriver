@@ -32,7 +32,6 @@ tuta.forms.frmPickupRequest = function() {
         this.control("btnCancel").onClick = function(button) {
             frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;
         }
-
         this.control("btnDecline").onClick = function(button) {
             frmPickupRequest["flexConfirmCancel"]["isVisible"] = true;
         };
@@ -41,13 +40,20 @@ tuta.forms.frmPickupRequest = function() {
           try{
             kony.timer.cancel("startwatch");
             kony.timer.cancel("autoRejectionTimer");
-          }catch(ex){}
+          }catch(ex){
+            
+          }
+          
+          //Try to accept the booking, catch any errors
+          try{
             tuta.acceptBooking(currentBooking.id);
-            tuta.forms.frm004Home.show();
+          }
+          catch (ex){
+            tuta.util.alert("Unable to accept booking", ex);
             tuta.fsm.stateChange(tuta.fsm.REQUESTS.PICKUP);
-            //TODO: START TRIP
-            //pickupRequest();
-            //frm004Home.show();
+          }
+            tuta.forms.frm004Home.show();
+            
         };
 
         /*  
@@ -56,36 +62,56 @@ tuta.forms.frmPickupRequest = function() {
             When the timer hits 30,  cancel the timer, and automatically reject 
             the pickup request.
         */
-        var rejectionTimerTicker = 30;
-        frmPickupRequest.lblTimeRemaining.text = "30 second(s) remain";
-
-        kony.timer.schedule("autoRejectionTimer", function() {
-
+        try {
+            var rejectionTimerTicker = 30;
             frmPickupRequest.lblTimeRemaining.text = rejectionTimerTicker + " second(s) remain";
 
-            if (rejectionTimerTicker <= 0){
-                try{
-                    kony.timer.cancel("autoRejectionTimer");
-                    tuta.rejectBooking(currentBooking.id);
-                    tuta.forms.frm004Home.show();
-                }
-                catch(ex){
+            kony.timer.schedule("autoRejectionTimer", function() {
 
-                }
-            }
+                frmPickupRequest.lblTimeRemaining.text = rejectionTimerTicker + " second(s) remain";
+                rejectionTimerTicker--;
+                //tuta.util.alert("Ticker", "Ticker: " + rejectionTimerTicker);
 
-        }, 1, true);
+                if (rejectionTimerTicker <= 0){
+                    try{
+                        
+                        kony.timer.cancel("autoRejectionTimer");
+                        //tuta.rejectBooking(currentBooking.id);
+                        tuta.forms.frm004Home.show();
+                        
+                    }
+                    catch(ex){
+
+                    }
+                }
+
+            }, 1, true);
+        }
+        catch (ex){
+            tuta.util.alert("Rejection Timer Error", ex);
+        }
+        
 
         this.control("btnConfirm").onClick = function(button) {
+          //Try cancel the timer
             try{
                 kony.timer.cancel("autoRejectionTimer");
             }
             catch(ex){
                 
             }
-            frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;
-            tuta.rejectBooking(currentBooking.id);
-            tuta.forms.frm004Home.show();
+          
+          frmPickupRequest["flexConfirmCancel"]["isVisible"] = false;
+          //try reject the booking
+          try{
+            	tuta.rejectBooking(currentBooking.id);
+          }
+          catch (ex){
+            tuta.util.alert("Unable to reject booking", ex);
+          }
+          	tuta.forms.frm004Home.show();
+            
+            
         }
 
         

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s7734615fe0846babe9fa0a92f5a31ca",
-    "_text_": "Compute Distance",
+    "_text_": "Create Fake Request",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -74,7 +74,7 @@
     "pf": "frmDebug",
     "render": true,
     "skin": "s7734615fe0846babe9fa0a92f5a31ca",
-    "text": "Compute Distance",
+    "text": "Create Fake Request",
     "toolTip": "",
     "tooltip": "",
     "wType": "Label",

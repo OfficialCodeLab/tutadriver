@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "28.13%"
     },
     "canUpdateUI": true,
     "channel": "mobile",
@@ -48,7 +48,7 @@
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "1c5344df18784445aa929468a8b7dc2c",
+    "kuid": "e7876bc26ba64a5fb8571aba5042d107",
     "left": 0,
     "margin": [
         6,
@@ -63,7 +63,7 @@
         0,
         0
     ],
-    "parent": "flexMapScreen",
+    "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
@@ -71,7 +71,7 @@
     "top": "0dp",
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "20%",
-    "zIndex": 20,
-    "zindex": 20
+    "width": "28.13%",
+    "zIndex": 30,
+    "zindex": 30
 }

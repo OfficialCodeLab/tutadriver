@@ -117,13 +117,18 @@ tuta.location.loadPositionInit = function() {
       }
       //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
       updateMap();
-      
+
       try{
-        kony.timer.schedule("startwatch", function(){
-          mapFixed = false;
-          tuta.startWatchLocation();
-        }, 4, false);
-      } catch (ex) {}
+        kony.timer.cancel("startwatch");
+      }
+      catch (ex){
+        //tuta.util.alert("Startwatch Error", ex);
+      }
+      kony.timer.schedule("startwatch", function(){
+        mapFixed = false;
+        tuta.startWatchLocation();
+      }, 4, false);
+
 
       //var userTemp = JSON.parse(kony.store.getItem("user"));
       tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);

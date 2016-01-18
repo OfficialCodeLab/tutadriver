@@ -14,6 +14,6 @@ kony.ui.createAnimation({"100":{"left":"-80%","stepConfig":{"timingFunction":kon
 {"delay":0,"iterationCount":1,"fillMode":kony.anim.FILL_MODE_FORWARDS,"duration":0.25},
  {"animationEnd" : ___onClick_956c13940ab94d81a2774bc09b386aff_Callback});
 frm004Home["btnCloseCheeseburger"]["isVisible"] = false;
-frm004Home["btnChs"]["isVisible"] = true;
+frm004Home["undefined"]["isVisible"] = true;
 
 }

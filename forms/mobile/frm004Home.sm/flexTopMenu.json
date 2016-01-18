@@ -41,6 +41,7 @@
         "btnMessages",
         "imgMessages",
         "lblMessageCount",
+        "btnChs",
         "imgBurgerClose",
         "btnCloseCheeseburger",
         "flexBurgerMenu"
