@@ -430,6 +430,7 @@ tuta.events.loadBookings = function(){
         tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
+        tuta.events.updateDriverState("Idle");
         tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
       });
   }, 10, true);
@@ -507,3 +508,47 @@ tuta.events.mapFormNavigatedAway = function (){
 
   mapAutoUpdateInterval = 45;
 };
+
+tuta.events.timedStateUpdate = function(state, time){
+  try{
+    kony.timer.cancel("UpdateState");
+  }
+  catch(ex){
+
+  }
+  kony.timer.schedule("UpdateState", function(){
+    tuta.events.updateDriverState(state);        
+  }, time, false);
+};
+
+
+tuta.events.updateDriverState = function (state){
+  var inputData = {
+    status: state
+  };
+
+  var input = {
+    data: JSON.stringify(inputData),
+    id: globalCurrentUser.userName
+  };
+
+  //Popup displaying latitude and longitude,
+  //on position change
+  // var testUserName = "Your username is: " + JSON.stringify(userTemp.userName + "\n");
+  // var testOutput = "Your current position is:\n" + "Latitude: " + JSON.stringify(inputData.location.lat) + "\nLongitude: " + JSON.stringify(inputData.location.long) + "";
+  // tuta.util.alert("Location Update", testUserName + testOutput);
+
+
+  //Updates server with user's current position
+  application.service("manageService").invokeOperation(
+    "userUpdate", {}, input,
+    function(result) {
+      //tuta.util.alert("TEST" + "Map updated with your current position");
+    },
+    function(error) {
+
+      // the service returns 403 (Not Authorised) if credentials are wrong
+      //tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
+    }
+  );
+}
