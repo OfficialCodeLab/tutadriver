@@ -64,6 +64,10 @@ tuta.forms.frmEditProfile = function() {
     //Back button click function
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     
+    this.control("cmrTakePhoto").onCapture = function() {
+      frmEditProfile.imgUser.rawBytes = frmEditProfile.cmrTakePhoto.rawBytes;
+    };   
+    
     this.control("btnSave").onClick = function(button) {
       var inputs = {
         data: JSON.stringify({
