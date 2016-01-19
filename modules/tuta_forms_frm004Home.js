@@ -142,11 +142,14 @@ tuta.forms.frm004Home = function() {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "38", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
+        tuta.events.timedStateUpdate("Idle", 1);
+        
         //updateConsole();
       } else if (driver_state === tuta.fsm.STATES.IDLE) {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "0", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.ACTIVE);
         frm004Home.imgSwitchBg.src = "switchbgon.png";
+        tuta.events.timedStateUpdate("OnDuty", 1);
         //updateConsole();
       }
     };
