@@ -397,6 +397,7 @@ tuta.checkCancellation = function (bookingID){
 //Accepts whatever booking gets passed through to the method,
 //Triggers rendering of the route on the map.
 tuta.acceptBooking = function(bookingID) {
+  tuta.events.updateDriverState("OnRoute");
   var input = {
     id: bookingID
   };
@@ -442,6 +443,7 @@ tuta.rejectBooking = function(bookingID) {
 
 
 tuta.createBooking = function(address, user){
+  tuta.events.updateDriverState("InTransit");
   currentBooking = {
     userId: user,
     providerId: globalCurrentUser.userName + "",
@@ -693,6 +695,7 @@ tuta.updateUserOnRoute = function(userId) { //2
             kony.timer.cancel("user");
 
 
+            tuta.events.updateDriverState("InTransit");
             application.service("manageService").invokeOperation(
               "bookingUpdate", {}, {
                 id: storedBookingID,
@@ -924,6 +927,7 @@ tuta.resetMap = function(){
   tuta.animate.moveBottomLeft(frm004Home.flexDriverFooter, 1, "-155dp", "0%", null);
   tuta.animate.move(frm004Home.imgSliderball, 0, "", "5dp", null);
   frm004Home.mapMain.clear();
+  tuta.events.updateDriverState("Idle");
   driver_state = 0;
   nearbyUsers = [];
   storedBookingID = null;

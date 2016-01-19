@@ -430,6 +430,7 @@ tuta.events.loadBookings = function(){
         tuta.animate.move(frm004Home.imgSwitch, 0, "", "38", null);
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
+        tuta.events.updateDriverState("Idle");
         tuta.pickupRequestInfo(results.value[0].userId, results.value[0].address.description);
       });
   }, 10, true);
