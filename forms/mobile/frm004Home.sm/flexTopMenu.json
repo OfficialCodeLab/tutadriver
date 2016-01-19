@@ -25,7 +25,7 @@
     "_skin_": "s5e435c44727459daac0ab99f1656976",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -85,7 +85,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0%",
+    "top": "0dp",
     "vizProps": {
         "lock": false
     },

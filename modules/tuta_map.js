@@ -129,8 +129,8 @@ function estimateTripCost (locationA, locationB, callback){
 var mapCenter = {
   location: 
   {
-    lat: "", 
-    lon: ""
+    lat: 0.0, 
+    lon: 0.0
   }
 };
 
@@ -162,6 +162,55 @@ tuta.map.checkRadius = function (bounds){
   return false;
 };
 
-
+var timeStill = 0;
+tuta.map.startMapListener = function (){
+  try {
+    kony.timer.cancel("MapListener");
+  }
+  catch(ex){
+    
+  }
+  
+  var hasMovedAway = false;
+  var hasMovedBack = false;
+  kony.timer.schedule("MapListener", function(){
+    var bounds = frm004Home.mapMain.getBounds();
+    if(tuta.map.checkRadius(bounds)){
+      //tuta.util.alert("MOVED");
+      if(!hasMovedAway){
+        tuta.animate.move(frm004Home.flexTopMenu, 0.2, "-55dp", "", null);
+        tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.2, "-80dp", "", null);
+        tuta.animate.moveBottomRight(frm004Home.flexMapCenter, 0.2, "90dp", "-75dp", null);
+        hasMovedAway = true;   
+        hasMovedBack = false;
+      }
+      timeStill = 0;
+      
+      
+      //TODO: Calculate time from nearest driver
+    }
+    else{
+      //tuta.util.alert("DIDN'T MOVE");
+      timeStill++;
+      
+      if(timeStill >= 2 && !hasMovedBack){
+        tuta.animate.move(frm004Home.flexTopMenu, 0.2, "0dp", "", null);
+        tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.2, "0dp", "", null);
+        tuta.animate.moveBottomRight(frm004Home.flexMapCenter, 0.2, "90dp", "-10dp", null);  
+        hasMovedBack = true;
+        hasMovedAway = false;
+      }
+      
+    }
+  }, 1, true);
+};
+tuta.map.stopMapListener = function (){
+  try {
+    kony.timer.cancel("MapListener");
+  }
+  catch(ex){
+    
+  }
+};
 
 
