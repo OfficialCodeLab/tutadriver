@@ -23,7 +23,7 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_skin_": "s6787fcac6a74fc48f2e27e1ebfa1470",
     "_src_": "profilepic.png",
     "_top_": {
         "type": "string",
@@ -31,10 +31,15 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "100dp"
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -73,14 +78,14 @@
     "parent": "flexScroll",
     "pf": "frmEditProfile",
     "render": true,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "skin": "s6787fcac6a74fc48f2e27e1ebfa1470",
     "src": "profilepic.png",
     "srcType": 1,
     "top": "280dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "100%",
+    "width": "100dp",
     "zIndex": 1,
     "zindex": 1
 }
