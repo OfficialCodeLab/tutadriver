@@ -17,18 +17,18 @@
         0,
         0
     ],
-    "_skin_": "s50f4867f8964f9199ae84c11fdc2498",
+    "_skin_": "s21de153d30b468f986d74c8f1552b94",
     "_text_": "Sign Up",
     "_width_": {
         "type": "string",
         "value": "40%"
     },
     "canUpdateUI": true,
-    "centerX": "50%",
+    "centerX": "50.00%",
     "centerY": "75%",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "centery": {
         "type": "string",
@@ -42,8 +42,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s291b6eef4ce4c2088a4a8eab198172b",
-    "focusskin": "s291b6eef4ce4c2088a4a8eab198172b",
+    "focusSkin": "s7dec67107d14936be8602ca08feedb3",
+    "focusskin": "s7dec67107d14936be8602ca08feedb3",
     "height": "50dp",
     "id": "btnSignUp",
     "info": null,
@@ -66,7 +66,7 @@
     "parent": "flexMainButtons",
     "pf": "frm001LoginScreen",
     "render": true,
-    "skin": "s50f4867f8964f9199ae84c11fdc2498",
+    "skin": "s21de153d30b468f986d74c8f1552b94",
     "text": "Sign Up",
     "wType": "Button",
     "widgetAlignment": 5,
