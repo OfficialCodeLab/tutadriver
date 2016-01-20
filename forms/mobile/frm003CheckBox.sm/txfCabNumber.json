@@ -12,7 +12,7 @@
         0
     ],
     "_padding_": [
-        0,
+        1,
         0,
         0,
         0
@@ -54,8 +54,8 @@
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentAlignment": 4,
-    "contentalignment": 4,
+    "contentAlignment": 5,
+    "contentalignment": 5,
     "enabled": false,
     "height": "40dp",
     "id": "txfCabNumber",
@@ -73,11 +73,13 @@
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "padding": [
-        0,
+        1,
         0,
         0,
         0
     ],
+    "paddingInPixel": false,
+    "paddinginpixel": false,
     "parent": "FlexContainer0ac38a3a6b70546",
     "pf": "frm003CheckBox",
     "placeholder": "",

@@ -144,7 +144,7 @@ try{
                       skin:"QuestionSkin",
                       text:questiontxt};
       var lblLayout = {contentAlignment:constants.CONTENT_ALIGN_MIDDLE_LEFT,
-                       displayText: true};
+                       displayText: true, padding:[0,0,7,0]};
       var lblPSP = {};
 
       genLabel = new kony.ui.Label(lblBasic, lblLayout, lblPSP);
