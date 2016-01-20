@@ -201,13 +201,6 @@ tuta.map.startMapListener = function (){
         hasMovedAway = false;
       }     
       
-      if(timeStill >= 4){
-        timeStill = 0;
-        tuta.events.retrieveNearestDrivers(function(){
-          tuta.events.calculateWaitTime();
-        });
-      }
-      
     }
   }, 1, true);
 };
