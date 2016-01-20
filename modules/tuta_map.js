@@ -178,9 +178,9 @@ tuta.map.startMapListener = function (){
     if(tuta.map.checkRadius(bounds)){
       //tuta.util.alert("MOVED");
       if(!hasMovedAway){
-        tuta.animate.move(frm004Home.flexTopMenu, 0.2, "-55dp", "", null);
+        tuta.animate.move(frm004Home.flexTopMenu, 0.2, "8%", "", null);
         tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.2, "-80dp", "", null);
-        tuta.animate.moveBottomRight(frm004Home.flexMapCenter, 0.2, "90dp", "-75dp", null);
+        tuta.animate.moveBottomRight(frm004Home.flexMapCenter, 0.2, "100dp", "-75dp", null);
         hasMovedAway = true;   
         hasMovedBack = false;
       }
@@ -200,13 +200,6 @@ tuta.map.startMapListener = function (){
         hasMovedBack = true;
         hasMovedAway = false;
       }     
-      
-      if(timeStill >= 4){
-        timeStill = 0;
-        tuta.events.retrieveNearestDrivers(function(){
-          tuta.events.calculateWaitTime();
-        });
-      }
       
     }
   }, 1, true);
