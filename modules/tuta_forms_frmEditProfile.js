@@ -102,6 +102,7 @@ tuta.forms.frmEditProfile = function() {
         }
       );
     };
+    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmEditProfile.onPostShow = function(form) {

@@ -20,6 +20,7 @@ tuta.forms.frmBookingsMain = function() {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     this.control("segBookings").onRowClick = function(button) {tuta.forms.frmBooking.show();};
+    tuta.map.stopMapListener();
 
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
@@ -28,7 +29,7 @@ tuta.forms.frmBookingsMain = function() {
   tuta.forms.frmBookingsMain.onPostShow = function(form) {
     var self = this;
     
-    tuta.events.loadAllBookings();
+    //tuta.events.loadAllBookings();
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/

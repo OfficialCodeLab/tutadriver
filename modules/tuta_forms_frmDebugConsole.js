@@ -36,6 +36,7 @@ tuta.forms.frmDebugConsole = function() {
       self.control("txtConsoleEditable").text = "http://i.imgur.com/B5LkNwg.jpg";
       self.control("imgDebugOutput").src = "http://i.imgur.com/B5LkNwg.jpg";
     };
+    tuta.map.stopMapListener();
     
   };
   

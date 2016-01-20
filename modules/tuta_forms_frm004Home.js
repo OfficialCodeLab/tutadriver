@@ -302,7 +302,9 @@ tuta.forms.frm004Home = function() {
       //
       try {
         kony.timer.cancel("updateMapBounds");
-      }catch(ex){}
+      }catch(ex){
+
+      }
       kony.timer.schedule("updateMapBounds", function(){
         var bds = frm004Home.mapMain.getBounds();
         tuta.map.storeCenter(bds);
@@ -312,7 +314,7 @@ tuta.forms.frm004Home = function() {
       //tuta.map.startMapListener();
     }
 
-    tuta.events.loadBookings();
+    //tuta.events.loadBookings();
 
 
   }; //End of PreShow
@@ -328,7 +330,8 @@ tuta.forms.frm004Home = function() {
   
   tuta.forms.frm004Home.onHide = function(form){
     var self = this;
-    tuta.events.mapFormNavigatedAway();
+    //tuta.events.mapFormNavigatedAway();
+    
     tuta.map.stopMapListener();
   };
 };

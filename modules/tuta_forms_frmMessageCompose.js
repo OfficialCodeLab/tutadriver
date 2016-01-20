@@ -44,6 +44,7 @@ tuta.forms.frmMessageCompose = function() {
         }
       });
     };
+    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmMessageCompose.onPostShow = function(form) {

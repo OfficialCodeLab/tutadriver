@@ -18,6 +18,7 @@ tuta.forms.frmMessageRead = function() {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
     this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
+    tuta.map.stopMapListener();
 
   };
   

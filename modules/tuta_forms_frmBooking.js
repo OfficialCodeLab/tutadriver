@@ -20,6 +20,7 @@ tuta.forms.frmBooking = function() {
     var self = this;
     this.control("btnBack").onClick = function(button){tuta.forms.frmBookingsMain.show();};
     this.control("btnHelp").onClick = function (button) {tuta.forms.frmLogIssue.show();};
+    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmBooking.onPostShow = function(form) {

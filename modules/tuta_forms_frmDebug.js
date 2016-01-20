@@ -105,6 +105,8 @@ tuta.forms.frmDebug = function() {
 
 
         */
+      
+    tuta.map.stopMapListener();
     }; //END OF PRE-SHOW
 
     tuta.forms.frmDebug.onPostShow = function(form) {

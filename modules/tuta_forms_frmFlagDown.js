@@ -78,6 +78,7 @@ tuta.forms.frmFlagDown = function() {
     };
 
       frmFlagDown.flexAddressList.setVisibility(false);
+    tuta.map.stopMapListener();
   };
 
   tuta.forms.frmFlagDown.onPostShow = function(form) {

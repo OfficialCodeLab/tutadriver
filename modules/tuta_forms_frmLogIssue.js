@@ -24,6 +24,7 @@ tuta.forms.frmLogIssue = function() {
       tuta.events.logIssue();
       tuta.forms.frm004Home.show();
     };
+    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmLogIssue.onPostShow = function(form) {

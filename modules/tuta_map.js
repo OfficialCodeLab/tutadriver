@@ -199,14 +199,7 @@ tuta.map.startMapListener = function (){
         tuta.animate.moveBottomRight(frm004Home.flexMapCenter, 0.2, "90dp", "-10dp", null);  
         hasMovedBack = true;
         hasMovedAway = false;
-      }     
-      
-      if(timeStill >= 4){
-        timeStill = 0;
-        tuta.events.retrieveNearestDrivers(function(){
-          tuta.events.calculateWaitTime();
-        });
-      }
+      }  
       
     }
   }, 1, true);
@@ -214,8 +207,12 @@ tuta.map.startMapListener = function (){
 tuta.map.stopMapListener = function (){
   try {
     kony.timer.cancel("MapListener");
+  } catch(ex){
+    
   }
-  catch(ex){
+  try {
+    kony.timer.cancel("updateMapBounds");
+  }catch(ex){
     
   }
 };

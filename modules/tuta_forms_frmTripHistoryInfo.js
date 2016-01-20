@@ -31,6 +31,7 @@ tuta.forms.frmTripHistoryInfo = function() {
     frmTripHistoryInfo.flexNoPanning.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, GLOBAL_GESTURE_FINGERS_1,  function(widget, gestureInformationSwipe) {
   	});
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
+    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmTripHistoryInfo.onPostShow = function(form) {
