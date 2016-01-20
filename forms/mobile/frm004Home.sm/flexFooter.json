@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
@@ -33,7 +33,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
-    "bottom": 0,
+    "bottom": "0dp",
     "canUpdateUI": true,
     "children": [
         "FlexContainer056a06926945746",

@@ -296,7 +296,23 @@ tuta.forms.frm004Home = function() {
     // this.control("btnTestBookings").onClick = function(button){
     // tuta.retrieveBookings(); 
     //};
+    mapAutoUpdateInterval = 4;
+    
+    if(driver_state === 0 || driver_state === 1){
+      //
+      try {
+        kony.timer.cancel("updateMapBounds");
+      }catch(ex){}
+      kony.timer.schedule("updateMapBounds", function(){
+        var bds = frm004Home.mapMain.getBounds();
+        tuta.map.storeCenter(bds);
+        tuta.map.startMapListener();
+      }, 3, false);
+      
+      //tuta.map.startMapListener();
+    }
 
+    tuta.events.loadBookings();
 
 
   }; //End of PreShow
@@ -307,13 +323,12 @@ tuta.forms.frm004Home = function() {
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
-  mapAutoUpdateInterval = 4;
-
-    tuta.events.loadBookings();
+  
   };
   
   tuta.forms.frm004Home.onHide = function(form){
     var self = this;
     tuta.events.mapFormNavigatedAway();
+    tuta.map.stopMapListener();
   };
 };

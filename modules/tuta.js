@@ -64,6 +64,7 @@ var GLOBAL_FEE_MINUTES = 12.5;
 var GLOBAL_FEE_DEVIATION = 0.15; 
 var GLOBAL_PROVIDER = "TUTA";
 var GLOBAL_PROVIDER_EMAIL = "courtney@codelab.io";
+var GLOBAL_MAX_RADIUS = 200;
 
 //Used by the bearing function
 var currentBearing = 0;
