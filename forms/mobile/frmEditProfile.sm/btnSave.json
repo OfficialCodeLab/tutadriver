@@ -37,12 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "sc2ad45a140044b19a0330b07546e329",
+    "focusskin": "sc2ad45a140044b19a0330b07546e329",
     "height": "50dp",
     "id": "btnSave",
     "info": null,

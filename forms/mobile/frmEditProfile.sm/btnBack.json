@@ -42,6 +42,7 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,

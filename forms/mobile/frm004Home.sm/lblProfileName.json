@@ -41,7 +41,7 @@
     "contentalignment": 4,
     "enabled": false,
     "height": "30dp",
-    "id": "profileName",
+    "id": "lblProfileName",
     "info": null,
     "ipad": {
         "psp": {
