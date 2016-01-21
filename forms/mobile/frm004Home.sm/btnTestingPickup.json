@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s5ce1a0635f6414e8b952db33f9c34d2",
+    "_skin_": "sdbf095717904bf7ae34bb256f8af52c",
     "_text_": "Click to show a pickup request",
     "_top_": {
         "type": "string",
@@ -37,12 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s486fb116c7942f9a41c644d2162160b"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s74a4fce0f904835ba8c1875796e27d9",
+    "focusskin": "s74a4fce0f904835ba8c1875796e27d9",
     "height": "55dp",
     "id": "btnTestingPickup",
     "info": null,
@@ -66,7 +66,7 @@
     "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s5ce1a0635f6414e8b952db33f9c34d2",
+    "skin": "sdbf095717904bf7ae34bb256f8af52c",
     "text": "Click to show a pickup request",
     "top": "83dp",
     "wType": "Button",

@@ -7,7 +7,9 @@
   "border_width": 0,
   "delinkedPltfrms": {
     "desktop": [],
-    "mobile": [],
+    "mobile": [
+      "iphone"
+    ],
     "tablet": []
   },
   "desktopweb": {

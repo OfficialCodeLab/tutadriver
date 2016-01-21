@@ -5,6 +5,13 @@
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
+  "delinkedPltfrms": {
+    "desktop": [],
+    "mobile": [
+      "iphone"
+    ],
+    "tablet": []
+  },
   "desktopweb": {
     "background_color": "ffffff00",
     "bg_type": "one",

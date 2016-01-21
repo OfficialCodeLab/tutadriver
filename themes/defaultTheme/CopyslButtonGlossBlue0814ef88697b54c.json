@@ -1,5 +1,5 @@
 {
-  "background_color": "56a9dd00",
+  "background_color": "56a9ddff",
   "bg_type": "one",
   "border_color": "ffffffff",
   "border_style": "plain",
@@ -53,7 +53,7 @@
   "ipad": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "border_color": "ffffffff",
+    "border_color": "823b82ff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -79,14 +79,14 @@
   "kiosk": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "border_color": "ffffffff",
+    "border_color": "823b82ff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
     "isForked": true,
     "wType": "Button"
   },
-  "kuid": "s37c5209ed1a4c08803df5600dfa8077",
+  "kuid": "sfd7eb85564c4fef97e36a8a538b3bc5",
   "spaandroidtablet": {
     "background_color": "ffffff00",
     "bg_type": "one",
@@ -189,7 +189,7 @@
   "tabrcandroid": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "border_color": "ffffffff",
+    "border_color": "823b82ff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -207,7 +207,7 @@
   "windows8": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "border_color": "ffffffff",
+    "border_color": "823b82ff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,

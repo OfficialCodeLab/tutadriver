@@ -37,12 +37,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s07196de88474a60a0735ec0201db8ed"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s3fa8419c3144e6a8a68b46ad9b84e28",
+    "focusskin": "s3fa8419c3144e6a8a68b46ad9b84e28",
     "height": "50dp",
     "id": "btnImportPicture",
     "info": null,

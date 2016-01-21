@@ -7,7 +7,9 @@
   "border_width": 0,
   "delinkedPltfrms": {
     "desktop": [],
-    "mobile": [],
+    "mobile": [
+      "android"
+    ],
     "tablet": []
   },
   "desktopweb": {
@@ -48,7 +50,7 @@
   },
   "font_color": "ffffffff",
   "font_name": "Helvetica",
-  "font_size": 148,
+  "font_size": 100,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
