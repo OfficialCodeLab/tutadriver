@@ -150,7 +150,12 @@ tuta.initCallback = function(error) {
 //Loads position of user into app (at login screen), starts watching the user's location,
 //Updates every two seconds.
 tuta.loadInitialPosition = function() {
-  tuta.location.loadPositionInit();
+  try {
+    tuta.location.loadPositionInit();
+  }
+  catch (ex) {
+    // This is an internet connection failed handler
+  }
 };
 
 //Retrieves bookings that are
@@ -176,7 +181,7 @@ tuta.retrieveBookingsStatus = function(status, callback) {
       });
   }
   catch(ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -201,7 +206,7 @@ tuta.retrieveBookings = function(id, callback) {
       });
   }
   catch(ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -227,7 +232,7 @@ tuta.retrieveBookingsHistory = function(callback) {
       });
   }
   catch(ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -359,7 +364,7 @@ tuta.pickupRequestInfo = function(userID, address) {
       });
   }
   catch(ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -388,7 +393,7 @@ tuta.checkCancellation = function (bookingID){
       });
   }
   catch (ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -417,6 +422,7 @@ tuta.acceptBooking = function(bookingID) {
       });
   }
   catch (ex){
+    // This is an internet connection failed handler
   }
 };
 
@@ -438,7 +444,7 @@ tuta.rejectBooking = function(bookingID) {
       });
   }
   catch (ex){
-
+	// This is an internet connection failed handler
   }
 };
 
@@ -509,24 +515,25 @@ tuta.createBookingHistory = function(bookingID, cost){
       }
     );
   });
-
-
 };
 
 tuta.updateBookingHistoryRating = function(bookingID, rating, callback){
 
   var input = { id: bookingID, user : "driver", rating : rating.toString() };
-
-  application.service("manageService").invokeOperation(
-    "bookingHistoryUpdateRating", {}, input,
-    function(result) {
-      callback();
-    },
-    function(error) {
-      // the service returns 403 (Not Authorised) if credentials are wrong
-    }
-  );
-
+	
+  try {
+    application.service("manageService").invokeOperation(
+      "bookingHistoryUpdateRating", {}, input,
+      function(result) {
+        callback();
+      },
+      function(error) {
+        // the service returns 403 (Not Authorised) if credentials are wrong
+      }
+    );   
+  } catch (ex) {
+    // This is an internet connection failed handler
+  }
 };
 
 
@@ -547,6 +554,7 @@ tuta.getMessages = function(callback) {
       });
   }
   catch (ex){
+    // This is an internet connection failed handler
   }
 };
 
@@ -575,6 +583,7 @@ tuta.createMessage = function(id, text, callback) {
       });
   }
   catch (ex){
+    // This is an internet connection failed handler
   }
 };
 
@@ -592,6 +601,7 @@ tuta.readMessage = function(id) {
       });
   }
   catch (ex){
+    // This is an internet connection failed handler
   }
 };
 
@@ -718,7 +728,7 @@ tuta.updateUserOnRoute = function(userId) { //2
         });
     }
     catch (ex){
-
+		// This is an internet connection failed handler
     }
 
 
@@ -859,13 +869,9 @@ tuta.updateDriverOnRoute = function() { //4
           });
       }
       catch(ex){
-
+		// This is an internet connection failed handler
       }
-
-
     }
-
-
   }, 5, true);
 };
 
@@ -914,7 +920,7 @@ tuta.addIfStandingStill = function(){
       
     }
     catch(ex){
-      
+      // This is an internet connection failed handler
     }
   }
 
