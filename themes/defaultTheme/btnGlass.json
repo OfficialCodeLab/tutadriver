@@ -1,10 +1,11 @@
 {
-  "background_color": "56a9ddff",
+  "background_color": "ffffff7f",
   "bg_type": "one",
-  "border_color": "ffffffff",
-  "border_style": "plain",
+  "border_color": "36bba7ff",
+  "border_radius": 4,
+  "border_style": "custom",
   "border_type": 0,
-  "border_width": 0,
+  "border_width": 2,
   "desktopweb": {
     "background_color": "ffffff7f",
     "bg_type": "one",

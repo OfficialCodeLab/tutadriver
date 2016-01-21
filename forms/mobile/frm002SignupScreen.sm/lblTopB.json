@@ -29,10 +29,10 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerX": "60%",
+    "centerX": "50%",
     "centerx": {
         "type": "string",
-        "value": "60%"
+        "value": "50%"
     },
     "channel": "mobile",
     "containerWeight": 100,
