@@ -38,12 +38,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s4fdf06726f24f8cbce3f5140a2997ff"
-    },
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
+    "focusSkin": "s64e2a24482f40f28f538b540f63fb1e",
+    "focusskin": "s64e2a24482f40f28f538b540f63fb1e",
     "height": "50dp",
     "id": "btnCloseCheeseburger",
     "info": null,

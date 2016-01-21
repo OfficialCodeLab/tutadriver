@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s30edf64d79f490084e821f55e8545eb",
+    "_skin_": "s61b903ca1404deabf59acbe9e39683a",
     "_text_": "",
     "_width_": {
         "type": "string",
@@ -41,8 +41,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s3a123bf474447b2b571393b3012a683",
+    "focusskin": "s3a123bf474447b2b571393b3012a683",
     "height": "100dp",
     "id": "btnNo",
     "info": null,
@@ -66,7 +66,7 @@
     "parent": "flexCancelConfirmButtons",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s30edf64d79f490084e821f55e8545eb",
+    "skin": "s61b903ca1404deabf59acbe9e39683a",
     "text": "",
     "wType": "Button",
     "widgetAlignment": 5,

@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_skin_": "s6dcf7f82b714e3fa45bf0618dc7729b",
     "_text_": "Test",
     "_top_": {
         "type": "string",
@@ -40,8 +40,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s84f8371a8424ab6b869568d55b204a1",
+    "focusskin": "s84f8371a8424ab6b869568d55b204a1",
     "height": "50dp",
     "id": "btnTestBookings",
     "info": null,
@@ -65,7 +65,7 @@
     "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "skin": "s6dcf7f82b714e3fa45bf0618dc7729b",
     "text": "Test",
     "top": "367dp",
     "wType": "Button",
