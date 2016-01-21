@@ -18,6 +18,8 @@ tuta.forms.frmDebugConsole = function() {
   
   tuta.forms.frmDebugConsole.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
+    
     self.control("txtConsoleEditable").text = staticMapImageResource + "&key=" + "AIzaSyAiiKudEobnRQW6YIOHVOcbcMxN-l0iaEA";
 
     this.control("btnBack").onClick = function(button) {

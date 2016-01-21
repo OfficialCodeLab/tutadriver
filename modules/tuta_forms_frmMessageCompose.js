@@ -24,6 +24,8 @@ tuta.forms.frmMessageCompose = function() {
   
   tuta.forms.frmMessageCompose.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
+    
     this.control("btnBack").onClick = function (button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);tuta.forms.frmMessageMain.show();};
     this.control("btnMsgPopup").onClick = function(button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);};
     this.control("btnSend").onClick = function (button){
@@ -44,7 +46,6 @@ tuta.forms.frmMessageCompose = function() {
         }
       });
     };
-    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmMessageCompose.onPostShow = function(form) {

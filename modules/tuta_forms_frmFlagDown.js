@@ -18,6 +18,7 @@ tuta.forms.frmFlagDown = function() {
     
     
     var self = this;
+    tuta.map.stopMapListener();
     this.control("btnStartTrip").onClick = function (button) {
       if(flagdownComplete === true){
         if (form.txtCustomerName.text  !== null && form.txtCustomerName.text) {
@@ -78,7 +79,6 @@ tuta.forms.frmFlagDown = function() {
     };
 
       frmFlagDown.flexAddressList.setVisibility(false);
-    tuta.map.stopMapListener();
   };
 
   tuta.forms.frmFlagDown.onPostShow = function(form) {

@@ -17,6 +17,8 @@ tuta.forms.frmAboutTuta = function() {
   
   tuta.forms.frmAboutTuta.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
+    
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     tuta.map.stopMapListener();
     

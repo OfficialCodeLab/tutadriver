@@ -11,7 +11,7 @@ if (typeof(tuta.forms) === "undefined") {
 var checkboxloaded = false;
 tuta.forms.frm003CheckBox = function() {
   // initialize controller 
-  tuta.forms.frm003CheckBox = new tuta.controller(frm003CheckBox); 
+  tuta.forms.frm003CheckBox = new tuta.controller(frm003CheckBox);
 
   // Initialize form events	
   tuta.forms.frm003CheckBox.onInit = function(form) {
@@ -26,6 +26,7 @@ tuta.forms.frm003CheckBox = function() {
 
   tuta.forms.frm003CheckBox.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
 
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
     //this.control("btnContinue").onClick = function(button){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};

@@ -16,6 +16,7 @@ tuta.forms.frm001LoginScreen = function() {
 
   tuta.forms.frm001LoginScreen.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
 
     this.moveLoginButtons = new tuta.controls.menu( 
       this.control("flexMainButtons"),

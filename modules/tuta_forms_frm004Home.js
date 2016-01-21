@@ -17,6 +17,7 @@ tuta.forms.frm004Home = function() {
 
   tuta.forms.frm004Home.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
 
     this.control("imgStar1").onTouchStart = onStarSelect;
     this.control("imgStar2").onTouchStart = onStarSelect;

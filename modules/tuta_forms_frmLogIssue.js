@@ -16,6 +16,7 @@ tuta.forms.frmLogIssue = function() {
   
   tuta.forms.frmLogIssue.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
 
     this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
     this.control("btnBack").onClick = function (button) {tuta.forms.frm004Home.show();};
@@ -24,7 +25,7 @@ tuta.forms.frmLogIssue = function() {
       tuta.events.logIssue();
       tuta.forms.frm004Home.show();
     };
-    tuta.map.stopMapListener();
+    
   };
   
   tuta.forms.frmLogIssue.onPostShow = function(form) {

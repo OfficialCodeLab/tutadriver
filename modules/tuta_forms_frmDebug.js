@@ -15,6 +15,7 @@ tuta.forms.frmDebug = function() {
 
     tuta.forms.frmDebug.onPreShow = function(form) {
         var self = this;
+      	tuta.map.stopMapListener();
 
         this.control("btnBack").onClick = function(button) {
             tuta.forms.frm004Home.show();
@@ -105,8 +106,6 @@ tuta.forms.frmDebug = function() {
 
 
         */
-      
-    tuta.map.stopMapListener();
     }; //END OF PRE-SHOW
 
     tuta.forms.frmDebug.onPostShow = function(form) {

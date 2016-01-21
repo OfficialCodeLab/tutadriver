@@ -17,6 +17,7 @@ tuta.forms.frmEditProfile = function() {
   
   tuta.forms.frmEditProfile.onPreShow = function(form) {
     var self = this;
+    tuta.map.stopMapListener();
     
     // Store the user IS as variable 'input' for userService query
     var input = {
