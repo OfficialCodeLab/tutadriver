@@ -81,10 +81,6 @@
     },
     "wType": "Button"
   },
-  "iphone": {
-    "font_name": "Helvetica",
-    "isForked": true
-  },
   "isDefaultSkin": false,
   "kiosk": {
     "background_color": "ffffff00",
