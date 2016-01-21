@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s50f4867f8964f9199ae84c11fdc2498",
+    "_skin_": "s291b6eef4ce4c2088a4a8eab198172b",
     "_text_": "Login",
     "_width_": {
         "type": "string",
@@ -66,7 +66,7 @@
     "parent": "flexLoginButtons",
     "pf": "frm001LoginScreen",
     "render": true,
-    "skin": "s50f4867f8964f9199ae84c11fdc2498",
+    "skin": "s291b6eef4ce4c2088a4a8eab198172b",
     "text": "Login",
     "wType": "Button",
     "widgetAlignment": 5,

@@ -169,5 +169,12 @@
     "wap_winphone320_fontsize": "12",
     "wap_winphone480_fontsize": "12",
     "winmobileguidkey": "",
-    "projectResourceCloudGuid": "47d839aa-b564-4761-a2b1-ada55843180a"
+    "projectResourceCloudGuid": "47d839aa-b564-4761-a2b1-ada55843180a",
+    "prototype": {
+        "createdOn": "2016-01-21T09:11:40.161Z",
+        "createdById": "f618eaaf-e810-4263-82ab-92210361ccbb",
+        "createdBy": "Courtney Jooste",
+        "shareGuid": "ZBP2C",
+        "resourceId": "6090a237-fb95-4663-b123-32aa79a0ab13"
+    }
 }

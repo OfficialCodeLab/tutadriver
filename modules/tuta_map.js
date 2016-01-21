@@ -136,28 +136,36 @@ var mapCenter = {
 
 
 tuta.map.storeCenter = function (bounds){
-  mapCenter.location.lat = bounds.center.lat;
-  mapCenter.location.lon = bounds.center.lon;  
+  try{
+    mapCenter.location.lat = bounds.center.lat;
+    mapCenter.location.lon = bounds.center.lon;
+  }  
+  catch (ex){}
 };
 
 
 // Checks if the point in current bounds is far enough away from the old center
 // Returns true if test is pasased, else false
 tuta.map.checkRadius = function (bounds){
-  var oldLat = mapCenter.location.lat;
-  var oldLon = mapCenter.location.lon;
-  var newLat = bounds.center.lat;
-  var newLon = bounds.center.lon;
+  try{
+    var oldLat = mapCenter.location.lat;
+    var oldLon = mapCenter.location.lon;
+    var newLat = bounds.center.lat;
+    var newLon = bounds.center.lon;
 
-  var radius = tuta.location.distance(oldLat, oldLon, newLat, newLon);
-  /*TODO FUTURE:
+    var radius = tuta.location.distance(oldLat, oldLon, newLat, newLon);
+    /*TODO FUTURE:
 	- USE LATSPAN TO DETERMINE THE MAX RADIUS
     - LATSPAN IS IN THE BOUNDS OBJECT
 */
-  if(radius > GLOBAL_MAX_RADIUS){
-    tuta.map.storeCenter(bounds);
-    return true;
+    if(radius > GLOBAL_MAX_RADIUS){
+      tuta.map.storeCenter(bounds);
+      return true;
+    }
+
   }
+  catch (ex){}
+
 
   return false;
 };
@@ -168,9 +176,9 @@ tuta.map.startMapListener = function (){
     kony.timer.cancel("MapListener");
   }
   catch(ex){
-    
+
   }
-  
+
   var hasMovedAway = false;
   var hasMovedBack = false;
   kony.timer.schedule("MapListener", function(){
@@ -185,14 +193,14 @@ tuta.map.startMapListener = function (){
         hasMovedBack = false;
       }
       timeStill = 0;
-      
-      
+
+
       //TODO: Calculate time from nearest driver
     }
     else{
       //tuta.util.alert("DIDN'T MOVE");
       timeStill++;
-      
+
       if(timeStill >= 2 && !hasMovedBack){
         tuta.animate.move(frm004Home.flexTopMenu, 0.2, "0dp", "", null);
         tuta.animate.moveBottomLeft(frm004Home.flexFooter, 0.2, "0dp", "", null);
@@ -200,7 +208,7 @@ tuta.map.startMapListener = function (){
         hasMovedBack = true;
         hasMovedAway = false;
       }  
-      
+
     }
   }, 1, true);
 };
@@ -208,12 +216,12 @@ tuta.map.stopMapListener = function (){
   try {
     kony.timer.cancel("MapListener");
   } catch(ex){
-    
+
   }
   try {
     kony.timer.cancel("updateMapBounds");
   }catch(ex){
-    
+
   }
 };
 
