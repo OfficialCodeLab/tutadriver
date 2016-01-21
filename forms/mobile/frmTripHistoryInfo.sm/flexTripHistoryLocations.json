@@ -40,9 +40,9 @@
     "bottom": "10dp",
     "canUpdateUI": true,
     "children": [
-        "CopyimgPickUp0fbecab50215f44",
-        "CopyimgDropOff04256fa3e2c8349",
-        "CopylblUpOffLine04b3d4459790c48",
+        "imgPickUp",
+        "imgDropOff",
+        "lblUpOffLine",
         "lblPickUp",
         "lblDropoff"
     ],

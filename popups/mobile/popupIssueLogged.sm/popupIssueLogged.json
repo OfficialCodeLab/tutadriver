@@ -45,6 +45,9 @@
     "enabledForIdleTimeout": false,
     "enabledforidletimeout": false,
     "id": "popupIssueLogged",
+    "inTransitionConfig": {
+        "formTransition": "None"
+    },
     "info": null,
     "initdone": false,
     "inputAccessoryViewType": 4,
@@ -65,8 +68,12 @@
         0
     ],
     "name": "kony.ui.Popup",
+    "needAppMenu": true,
     "needappmenu": true,
     "orientation": 1,
+    "outTransitionConfig": {
+        "formTransition": "None"
+    },
     "outtransitionconfig": {
         "formTransition": "None"
     },

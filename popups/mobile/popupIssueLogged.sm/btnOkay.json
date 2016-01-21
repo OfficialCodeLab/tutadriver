@@ -12,7 +12,7 @@
         4,
         4
     ],
-    "_skin_": "s07e0068c9be4996a4d4a172d24c306d",
+    "_skin_": "s30e752c50454fcfaf67c1ca1c7494eb",
     "_text_": "OK",
     "canUpdateUI": true,
     "channel": "mobile",
@@ -23,8 +23,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s486fb116c7942f9a41c644d2162160b",
-    "focusskin": "s486fb116c7942f9a41c644d2162160b",
+    "focusSkin": "s2625e9731104d888ae91a9bccb33b4a",
+    "focusskin": "s2625e9731104d888ae91a9bccb33b4a",
     "id": "btnOkay",
     "info": null,
     "isVisible": true,
@@ -48,7 +48,7 @@
     "parent": "popupIssueLogged",
     "pf": "popupIssueLogged",
     "render": true,
-    "skin": "s07e0068c9be4996a4d4a172d24c306d",
+    "skin": "s30e752c50454fcfaf67c1ca1c7494eb",
     "text": "OK",
     "wType": "Button",
     "widgetAlignment": 5

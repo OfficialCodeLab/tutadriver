@@ -1,14 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "12dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -22,25 +23,23 @@
         0,
         0
     ],
-    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csbackarrow.png",
+    "_skin_": "sfdb727a04cc47099bdc300e08b67408",
+    "_src_": "dropofficon.png",
+    "_top_": {
+        "type": "string",
+        "value": "35dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "12dp"
     },
     "base64": null,
     "canUpdateUI": true,
-    "centerX": "50%",
-    "centerY": "45%",
+    "centerX": "10dp",
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "10dp"
     },
-    "centery": {
-        "type": "string",
-        "value": "45%"
-    },
-    "channel": "mobile",
     "containerWeight": 100,
     "containerweight": 100,
     "context": {
@@ -52,17 +51,16 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "30dp",
-    "id": "CopyimgBackArrow0812b072ca40746",
+    "height": "12dp",
+    "id": "imgDropOff",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "ad000ba2a286412384a90eed400a3e0d",
-    "left": "15dp",
+    "kuid": "6cc99b5e64ae4ca99b8e005b7a39c6fc",
+    "left": "10dp",
     "margin": [
         0,
         0,
@@ -76,19 +74,20 @@
         0,
         0
     ],
-    "parent": "flexBackButton",
+    "parent": "flexTripHistoryLocations",
     "pf": "frmTripHistoryInfo",
     "render": true,
-    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csbackarrow.png",
+    "skin": "sfdb727a04cc47099bdc300e08b67408",
+    "src": "dropofficon.png",
     "srcType": 1,
+    "top": "35dp",
     "vizProps": {
         "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
-    "zIndex": 4,
-    "zindex": 4
+    "width": "12dp",
+    "zIndex": 2,
+    "zindex": 2
 }
