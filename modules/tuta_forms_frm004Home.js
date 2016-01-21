@@ -48,12 +48,14 @@ tuta.forms.frm004Home = function() {
     application.service("userService").invokeOperation(
       "user", {}, csinput,
       function(result) {
-        var csFirstName = result.value[0].userInfo.firstName;
-        var csLastName = result.value[0].userInfo.lastName;
-        var csFullName = csFirstName + " " + csLastName;
-        //tuta.util.alert("User Information", "Name: " + csFullName);
-        frm004Home.profileName.text = csFullName;
-
+        var firstName = result.value[0].userInfo.firstName;
+        var lastName = result.value[0].userInfo.lastName;
+        var fullName = firstName + " " + lastName;
+        var avatarBase64 = result.value[0].userInfo.avatarDocId;
+        frm004Home.lblProfileName.text = fullName;
+        if (avatarBase64 !== "null") {
+          frm004Home.imgProfilePic.rawBytes = kony.convertToRawBytes(avatarBase64);
+        }
       },
       function(error) {
         // the service returns 403 (Not Authorised) if credentials are wrong

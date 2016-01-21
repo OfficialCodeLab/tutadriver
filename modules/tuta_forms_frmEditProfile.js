@@ -32,15 +32,21 @@ tuta.forms.frmEditProfile = function() {
       function(result) {
         var firstName = result.value[0].userInfo.firstName;
         var surname = result.value[0].userInfo.lastName;
+        var avatarBase64 = result.value[0].userInfo.avatarDocId;
         frmEditProfile.txtFirstName.text = firstName;
         frmEditProfile.txtSurname.text = surname;
+
+        if (avatarBase64 !== "null") {
+          frmEditProfile.imgUser.rawBytes = kony.convertToRawBytes(avatarBase64);
+        }
+
       },
       function(error) {
         // the service returns 403 (Not Authorised) if credentials are wrong
         tuta.util.alert("Error " + error);
       }
     );
-    
+
     application.service("driverService").invokeOperation(
       "assignedVehicle", {}, input2,
       function(result) {
@@ -90,7 +96,8 @@ tuta.forms.frmEditProfile = function() {
       var inputs = {
         data: JSON.stringify({
           firstName : frmEditProfile.txtFirstName.text,
-          lastName : frmEditProfile.txtSurname.text
+          lastName : frmEditProfile.txtSurname.text,
+          avatarDocId: kony.convertToBase64(frmEditProfile.imgUser.rawBytes)
         }),
         id: globalCurrentUser.userName
       };
@@ -114,7 +121,7 @@ tuta.forms.frmEditProfile = function() {
           application.service("manageService").invokeOperation(
             "vehicleUpdate", {}, inputs2,
             function(success) {
-              tuta.util.alert("Success", "Vehicle info has been updated");
+              tuta.util.alert("Success", "Information has been updated");
             }, function(error) {
               tuta.util.alert("Error", JSON.stringify(error));
             }
