@@ -737,13 +737,17 @@ tuta.updateUserOnRoute = function(userId) { //2
 
 //Draws the second leg of the route
 tuta.renderRouteAndDriver = function() { //3
-  driver_state = tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION;
+
+
+  //driver_state = tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION;
   var point = {
     lat: currentPos.geometry.location.lat, 
     lng: currentPos.geometry.location.lng
   };
-  tuta.route.createRoute(storedBookingID, point);
-  tuta.events.routeHandler();
+
+  //tuta.route.createRoute(storedBookingID, point);
+
+  //tuta.events.routeHandler();
 
   tuta.events.directionsMaps(currentBooking.address.description);
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
@@ -844,9 +848,11 @@ tuta.updateDriverOnRoute = function() { //4
               kony.timer.cancel("routeHandler");
             }
             catch(ex){}
+            /*
             tuta.routes.addPoints(storedBookingID, routePoints, function(){
               routePoints = [];
             });
+            */
             
             driver_state = 0;
             frm004Home.mapMain.clear();
@@ -915,7 +921,7 @@ tuta.addIfStandingStill = function(){
       "End Position LNG: " + tempPositionEnd.lng);*/
       counter = 0;
     }
-    tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng); 
+    //tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng); 
       
       
     }
