@@ -23,6 +23,7 @@
         0,
         0
     ],
+    "_render_": true,
     "_skin_": "s6787fcac6a74fc48f2e27e1ebfa1470",
     "_src_": "profilepic.png",
     "_top_": {
@@ -32,6 +33,9 @@
     "_width_": {
         "type": "string",
         "value": "100dp"
+    },
+    "android": {
+        "render": true
     },
     "base64": null,
     "canUpdateUI": true,
@@ -53,10 +57,13 @@
     "enabled": false,
     "height": "100dp",
     "id": "imgUser",
-    "imageScaleMode": 1,
-    "imagescalemode": 1,
+    "imageScaleMode": 2,
+    "imagescalemode": 2,
     "info": null,
     "invokedProperty": "src",
+    "iphone": {
+        "render": true
+    },
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -79,6 +86,18 @@
     "pf": "frmEditProfile",
     "render": true,
     "skin": "s6787fcac6a74fc48f2e27e1ebfa1470",
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
     "src": "profilepic.png",
     "srcType": 1,
     "top": "280dp",
@@ -86,6 +105,9 @@
     "widgetAlignment": 5,
     "widgetalignment": 5,
     "width": "100dp",
+    "winphone8": {
+        "render": false
+    },
     "zIndex": 1,
     "zindex": 1
 }
