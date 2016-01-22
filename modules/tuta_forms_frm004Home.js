@@ -317,7 +317,7 @@ tuta.forms.frm004Home = function() {
       //tuta.map.startMapListener();
     }
 
-    //tuta.events.loadBookings();
+    tuta.events.loadBookings();
 
 
   }; //End of PreShow
