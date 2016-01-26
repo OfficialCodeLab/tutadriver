@@ -46,6 +46,11 @@
     "height": "45dp",
     "id": "btnSignOut",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "7392d66ef2714dd09be0002ee2fd3326",
@@ -66,6 +71,8 @@
     "pf": "frm004Home",
     "render": true,
     "right": "5dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "top": "3dp",

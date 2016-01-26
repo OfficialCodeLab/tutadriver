@@ -45,6 +45,11 @@
     "height": "100%",
     "id": "btnChangeDest",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "de1c6ee24534416e81fedae0f3d900d5",
@@ -66,6 +71,8 @@
     "pf": "frmFlagDown",
     "render": true,
     "right": "60dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s7f94279e4e64bc6b74b650acf446ad2",
     "text": "",
     "top": "0dp",

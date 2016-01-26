@@ -50,6 +50,11 @@
     "height": "65dp",
     "id": "btnSubmitIssue",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "7613a66ad8034ff395c5d6cf932ea2cc",
@@ -70,6 +75,8 @@
     "pf": "frmLogIssue",
     "render": true,
     "right": "0dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se8e6944419447b582d34790e97dbd1a",
     "text": "Submit",
     "top": "390dp",

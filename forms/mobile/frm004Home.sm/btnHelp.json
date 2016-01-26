@@ -46,6 +46,11 @@
     "height": "100%",
     "id": "btnHelp",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "2b4166adbdc04a4b88d955aa95bd6475",
@@ -68,6 +73,8 @@
     "parent": "flexBtnHelp",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Help",
     "top": "0dp",

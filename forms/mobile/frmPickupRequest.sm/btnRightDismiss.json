@@ -51,6 +51,11 @@
     "height": "280dp",
     "id": "btnRightDismiss",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "0a6afc029d134ad296b5557647f9c26f",
@@ -71,6 +76,8 @@
     "pf": "frmPickupRequest",
     "render": true,
     "right": 0,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sdca69bfe1bb405a8fdc19040a43d58c",
     "text": "",
     "top": "125dp",

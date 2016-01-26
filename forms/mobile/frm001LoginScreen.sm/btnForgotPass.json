@@ -47,6 +47,11 @@
     "height": "25dp",
     "id": "btnForgotPass",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "e7d2450388004af49fa0b088de1825cd",
@@ -66,6 +71,8 @@
     "parent": "flexLoginButtons",
     "pf": "frm001LoginScreen",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Forgot Password?",
     "wType": "Button",

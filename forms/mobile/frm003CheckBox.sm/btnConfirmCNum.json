@@ -47,6 +47,11 @@
     "height": "70dp",
     "id": "btnConfirmCNum",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "e8f2ce9ee311417fb9d79e6679f71033",
@@ -66,6 +71,8 @@
     "parent": "FlexContainer0ac38a3a6b70546",
     "pf": "frm003CheckBox",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "wType": "Button",

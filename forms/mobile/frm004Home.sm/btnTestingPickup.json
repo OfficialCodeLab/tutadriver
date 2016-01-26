@@ -46,6 +46,11 @@
     "height": "55dp",
     "id": "btnTestingPickup",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": false,
     "isvisible": false,
     "kuid": "7b1aea7c9ed740979e46482078109220",
@@ -66,6 +71,8 @@
     "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sdbf095717904bf7ae34bb256f8af52c",
     "text": "Click to show a pickup request",
     "top": "83dp",

@@ -47,6 +47,11 @@
     "height": "60dp",
     "id": "btnBack",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "fd2c08e6b4f44d82953d0019493c531d",
@@ -69,6 +74,8 @@
     "pf": "frmMessageCompose",
     "render": true,
     "right": "5dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s61aaac788a44038a5dd599cea4fd990",
     "text": "Cancel",
     "wType": "Button",

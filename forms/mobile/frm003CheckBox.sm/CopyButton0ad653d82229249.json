@@ -45,6 +45,11 @@
     "height": "20%",
     "id": "CopyButton0ad653d82229249",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "fc7284c9e6fc4d608dc9cfed5aa1dd36",
@@ -67,6 +72,8 @@
     "parent": "flexConfirmCabNumber",
     "pf": "frm003CheckBox",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s6dbb7572ddc49d092a3843f454be50c",
     "text": "",
     "top": "80%",

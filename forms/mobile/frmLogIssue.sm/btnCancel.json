@@ -50,6 +50,11 @@
     "height": "65dp",
     "id": "btnCancel",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "f9ebe036e2c9431da0047e77cf26212f",
@@ -70,6 +75,8 @@
     "parent": "flexScrollLog",
     "pf": "frmLogIssue",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s8991fb0c6d04e99aad1999f0b3a6cd1",
     "text": "Cancel",
     "top": 390,

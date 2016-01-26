@@ -52,6 +52,11 @@
     "height": "45dp",
     "id": "btnHelp",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "9571ba32a59a4f3f9fd70d2304d435dd",

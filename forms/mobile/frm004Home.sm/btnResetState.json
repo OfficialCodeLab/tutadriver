@@ -53,6 +53,11 @@
     "height": "40dp",
     "id": "btnResetState",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "79ecdc2a2ebf450ea427abec53d94e6e",
@@ -73,6 +78,8 @@
     "parent": "flexDebugOptions",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sc65fd316f304d9baf3a3835f75e0b1a",
     "text": "Reset State",
     "top": "250dp",

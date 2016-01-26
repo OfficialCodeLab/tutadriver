@@ -45,6 +45,11 @@
     "focusskin": "s67f0979378942b39ead622848b21c9f",
     "id": "btnTickPress3",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "6c4db88e2be54fadb0ec48d05bde7885",
@@ -65,6 +70,8 @@
     "parent": "flexRow3",
     "pf": "frmDebug",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s31f542d31ea453593bd8ed225cced1c",
     "text": "",
     "top": "10%",

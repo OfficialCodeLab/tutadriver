@@ -47,6 +47,11 @@
     "height": "60dp",
     "id": "btnDecline",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "52b647baee8d4240ab137eb9c42fe32d",
@@ -69,6 +74,8 @@
     "pf": "frmPickupRequest",
     "render": true,
     "right": "50%",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s0a9493b6cbb414a8e86a7de9464c3f3",
     "text": "Cancel",
     "vizProps": {

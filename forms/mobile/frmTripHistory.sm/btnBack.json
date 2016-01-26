@@ -58,6 +58,11 @@
     "height": "60dp",
     "id": "btnBack",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "bf082b2bdd104bf296e42ccd964a113d",
@@ -78,6 +83,8 @@
     "parent": "flexBackButton",
     "pf": "frmTripHistory",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
     "top": "10dp",

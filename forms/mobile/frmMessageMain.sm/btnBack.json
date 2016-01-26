@@ -47,6 +47,11 @@
     "height": "50dp",
     "id": "btnBack",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "ba18833c5aba47549c203ea2098b7774",
@@ -67,6 +72,8 @@
     "parent": "flexHeader",
     "pf": "frmMessageMain",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s58f99628a8d4415a68efcd313a67399",
     "text": "",
     "vizProps": {

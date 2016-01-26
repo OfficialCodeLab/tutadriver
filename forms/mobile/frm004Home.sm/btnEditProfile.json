@@ -47,6 +47,11 @@
     "height": "50dp",
     "id": "btnEditProfile",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "e040be0e7d454461a1caaf1171652d56",
@@ -67,6 +72,8 @@
     "pf": "frm004Home",
     "render": true,
     "right": 0,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s64ecf69e2ac4b0e9891c75747d04fef",
     "text": "",
     "wType": "Button",

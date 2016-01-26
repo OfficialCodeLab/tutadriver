@@ -47,6 +47,11 @@
     "height": "50dp",
     "id": "btnComposeMessage",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "a54ae6c3e1d44da9a6e56eadb9479e5f",
@@ -67,6 +72,8 @@
     "pf": "frmMessageMain",
     "render": true,
     "right": "10dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s4a9a05686ee4568802508a0dad262bb",
     "text": "",
     "vizProps": {

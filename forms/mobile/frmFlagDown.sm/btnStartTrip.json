@@ -56,7 +56,11 @@
     "height": "60dp",
     "id": "btnStartTrip",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "98e02c4b882a480b9915b62ac228b4aa",
@@ -80,6 +84,8 @@
     "pf": "frmFlagDown",
     "render": true,
     "right": "3%",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s4a7c581b6f14d9ea992cccc1e0fbbba",
     "text": "Confirm",
     "wType": "Button",

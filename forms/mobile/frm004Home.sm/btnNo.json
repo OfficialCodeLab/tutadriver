@@ -46,6 +46,11 @@
     "height": "100dp",
     "id": "btnNo",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "ba111a144e5e4795bb23fa6225bcc4d7",
@@ -66,6 +71,8 @@
     "parent": "flexCancelConfirmButtons",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s61b903ca1404deabf59acbe9e39683a",
     "text": "",
     "wType": "Button",

@@ -45,6 +45,11 @@
     "height": "59dp",
     "id": "btnGetImageID",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "9c4cbc776db24781858932698993aeba",
@@ -68,6 +73,8 @@
     "pf": "frmDebugConsole",
     "render": true,
     "right": 15,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s8ca46ebbb6d495f938b09781a2e7758",
     "text": "Get Image Data",
     "top": "678dp",

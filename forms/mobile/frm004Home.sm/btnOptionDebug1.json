@@ -46,6 +46,11 @@
     "height": "100%",
     "id": "btnOptionDebug1",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "0afdf27bfc6e4342a8d59be15809ed4b",
@@ -68,6 +73,8 @@
     "parent": "flexBtnDebug",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Debug",
     "top": "0dp",

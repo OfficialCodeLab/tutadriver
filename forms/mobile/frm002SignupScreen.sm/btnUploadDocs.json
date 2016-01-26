@@ -47,6 +47,11 @@
     "height": "60dp",
     "id": "btnUploadDocs",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "10fb2476a2b64632acbef59370ce0401",
@@ -68,6 +73,8 @@
     "parent": "flexUploadDocument",
     "pf": "frm002SignupScreen",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s6ceb83b29834434ba4f6f66819df2bf",
     "text": "Upload your documentation",
     "wType": "Button",

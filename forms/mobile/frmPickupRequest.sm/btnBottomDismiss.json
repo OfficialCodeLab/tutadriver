@@ -47,6 +47,11 @@
     "height": "182dp",
     "id": "btnBottomDismiss",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "790ab250f16f4ace8d742ac716a85bbf",
@@ -67,6 +72,8 @@
     "parent": "flexConfirmCancel",
     "pf": "frmPickupRequest",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s6f60b02e8564886b52bdce33a722560",
     "text": "",
     "wType": "Button",

@@ -49,6 +49,11 @@
     "height": "100%",
     "id": "btnPager2",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "3dc9972e9e734043a3f52b703a74749b",
@@ -69,6 +74,8 @@
     "parent": "FlexContainer0f82717f489ca49",
     "pf": "frm002SignupScreen",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "top": "0dp",

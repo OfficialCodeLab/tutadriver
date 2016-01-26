@@ -50,7 +50,7 @@
     "info": null,
     "iphone": {
         "psp": {
-            "showProgressIndicator": true
+            "showProgressIndicator": false
         }
     },
     "isVisible": false,
@@ -73,6 +73,8 @@
     "parent": "flexMapScreen",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s151a57943fb4ad2a1d9686715d3759a",
     "text": "Pickup Request",
     "top": "75dp",

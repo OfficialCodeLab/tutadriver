@@ -47,6 +47,11 @@
     "height": "50dp",
     "id": "btnCloseCheeseburger",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": false,
     "isvisible": false,
     "kuid": "8a7298b501d24747bc826de61e469736",
@@ -69,6 +74,8 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s1c2925ffd864ad08c5d2a5c81241823",
     "text": "",
     "wType": "Button",

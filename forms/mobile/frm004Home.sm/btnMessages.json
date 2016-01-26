@@ -47,6 +47,11 @@
     "height": "49dp",
     "id": "btnMessages",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "e76041cc9e9a4bd2bf869a21531d73c2",
@@ -69,6 +74,8 @@
     "pf": "frm004Home",
     "render": true,
     "right": "3dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s37c5209ed1a4c08803df5600dfa8077",
     "text": "",
     "vizProps": {

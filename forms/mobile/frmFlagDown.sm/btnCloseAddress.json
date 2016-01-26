@@ -50,6 +50,11 @@
     "height": "60dp",
     "id": "btnCloseAddress",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "d74cd3d017d5488db2183038d925a171",
@@ -70,6 +75,8 @@
     "pf": "frmFlagDown",
     "render": true,
     "right": 0,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s7f94279e4e64bc6b74b650acf446ad2",
     "text": "",
     "top": "73dp",

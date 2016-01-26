@@ -46,6 +46,11 @@
     "height": "59dp",
     "id": "btnCancel",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "700aee3cf8f541f7a02b717bc2b500fc",
@@ -66,6 +71,8 @@
     "parent": "flexConfirmCancelButtons",
     "pf": "frmPickupRequest",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s3d217fdda964efa9951038900304b94",
     "text": "",
     "top": "0dp",

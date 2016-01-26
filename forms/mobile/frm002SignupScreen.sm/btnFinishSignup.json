@@ -52,6 +52,11 @@
     "height": "50dp",
     "id": "btnFinishSignup",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "f7acd9956a8342f2b4d95f767f37449a",
@@ -71,6 +76,8 @@
     "parent": "scrollSignupBottomB",
     "pf": "frm002SignupScreen",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Next",
     "top": "500dp",

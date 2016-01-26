@@ -46,6 +46,11 @@
     "height": "100%",
     "id": "btnTripHistory",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "06a447b7fdbe4563a562bdb6f3c4e4fa",
@@ -68,6 +73,8 @@
     "parent": "flexBtnTripHistory",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Trip History",
     "top": "0dp",

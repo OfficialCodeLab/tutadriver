@@ -45,6 +45,11 @@
     "height": "59dp",
     "id": "btnApiImage",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "13aed7c5851c4ab98eecc0c3a0dc9be4",
@@ -66,6 +71,8 @@
     "pf": "frmDebugConsole",
     "render": true,
     "right": 15,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s8ca46ebbb6d495f938b09781a2e7758",
     "text": "Set Google Maps Image",
     "top": "530dp",

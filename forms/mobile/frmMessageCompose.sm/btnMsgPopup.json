@@ -50,6 +50,11 @@
     "height": "50dp",
     "id": "btnMsgPopup",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "2c61932648bc4a19a7adbc62f550208e",
@@ -70,6 +75,8 @@
     "parent": "FlexContainer08bb2bcff8ac641",
     "pf": "frmMessageCompose",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sa862ef46ab54f1bbe462b5164b0c8b1",
     "text": "OK",
     "top": "110dp",

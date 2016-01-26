@@ -45,6 +45,11 @@
     "height": "100%",
     "id": "btnMapCenter",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "cee4a43c30db42e09eb0ac9bd240ec58",
@@ -65,6 +70,8 @@
     "parent": "flexMapCenter",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sc93c7602eb7483c81e8d31ef1dd8c8c",
     "text": "",
     "top": "0dp",

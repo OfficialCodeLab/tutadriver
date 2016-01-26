@@ -45,6 +45,11 @@
     "height": "100%",
     "id": "btnLegal",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "18455aed48c64965b805b7bd00cbb73b",
@@ -67,6 +72,8 @@
     "parent": "flexLegal",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "s8282f6721194442a1588b0007fe175c",
     "text": "",
     "top": 0,

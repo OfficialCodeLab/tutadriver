@@ -46,6 +46,11 @@
     "height": "55dp",
     "id": "btnBack",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "7a915edc463648e0a6088afde7641a7b",

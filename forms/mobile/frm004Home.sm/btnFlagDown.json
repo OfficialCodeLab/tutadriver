@@ -45,6 +45,11 @@
     "height": "100%",
     "id": "btnFlagDown",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "58540d04df2d4d34bb4e22bcc5ec9d8a",
@@ -65,6 +70,8 @@
     "parent": "FlexContainer056a06926945746",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "top": "0dp",

@@ -46,6 +46,11 @@
     "height": "100%",
     "id": "btnBooking",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "237bae064b5f44fba6efb7a477c5e48b",
@@ -68,6 +73,8 @@
     "parent": "flexBtnBookings",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "Bookings",
     "top": "0dp",

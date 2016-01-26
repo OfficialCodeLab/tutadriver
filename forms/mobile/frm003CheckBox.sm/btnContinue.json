@@ -47,6 +47,11 @@
     "height": "50dp",
     "id": "btnContinue",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "4f4ebdf47a5f4130a812c693007a7162",
@@ -67,6 +72,8 @@
     "parent": "flexCheckBoxes",
     "pf": "frm003CheckBox",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sead72f2f01e422792e30cdc52545aef",
     "text": "Continue",
     "wType": "Button",

@@ -45,6 +45,11 @@
     "height": "38dp",
     "id": "btnSearch",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "7a2b3e3ff08e4511a884fc2fe156ee28",
@@ -65,6 +70,8 @@
     "pf": "frm002SignupScreen",
     "render": true,
     "right": "0dp",
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sd4823be9e634400829b57c1a28a3665",
     "text": "",
     "top": "5%",

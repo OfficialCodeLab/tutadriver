@@ -46,6 +46,11 @@
     "height": "55dp",
     "id": "btnChs",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isVisible": true,
     "isvisible": true,
     "kuid": "e7876bc26ba64a5fb8571aba5042d107",
@@ -66,6 +71,8 @@
     "parent": "flexTopMenu",
     "pf": "frm004Home",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "se00d1b39a6b40e991098a7a8a0efb07",
     "text": "",
     "top": "0dp",
