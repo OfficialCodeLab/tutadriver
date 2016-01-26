@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "5dp"
     },
     "_margin_": [
         6,
@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "60dp"
     },
     "canUpdateUI": true,
     "centerY": "50%",
@@ -53,7 +53,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "98d97235d9c54f55b6996d647656eada",
-    "left": "10dp",
+    "left": "5dp",
     "margin": [
         6,
         6,
@@ -78,7 +78,7 @@
     },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "40dp",
+    "width": "60dp",
     "zIndex": 20,
     "zindex": 20
 }

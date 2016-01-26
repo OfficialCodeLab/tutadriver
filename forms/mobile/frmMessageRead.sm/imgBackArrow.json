@@ -3,8 +3,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csbackarrow.png",
+    "_src_": "backmint.png",
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -47,10 +47,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": {
-        "type": "ref",
-        "value": "preferred"
-    },
+    "height": "30dp",
     "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -78,7 +75,7 @@
     "pf": "frmMessageRead",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csbackarrow.png",
+    "src": "backmint.png",
     "srcType": 1,
     "vizProps": {
         "lock": true
@@ -86,7 +83,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "40dp",
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

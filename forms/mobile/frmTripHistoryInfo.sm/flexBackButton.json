@@ -24,7 +24,7 @@
     "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
@@ -81,7 +81,7 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "50dp",
+    "width": "60dp",
     "zIndex": 4,
     "zindex": 4
 }

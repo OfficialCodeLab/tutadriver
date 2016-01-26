@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -25,7 +25,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
@@ -48,7 +48,7 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "263fa66bb66a4677abbfa3e8c5ec531e",
-    "left": "10dp",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -67,7 +67,7 @@
     "render": true,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
-    "top": "10dp",
+    "top": "5dp",
     "vizProps": {
         "lock": false
     },

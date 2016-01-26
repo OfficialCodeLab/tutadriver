@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -23,14 +23,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csbackarrow.png",
+    "_src_": "backblack.png",
     "_top_": {
         "type": "string",
         "value": "15dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -56,11 +56,12 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "40dp",
+    "height": "30dp",
     "id": "imgBackArrow",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -83,7 +84,7 @@
     "pf": "frmTripHistory",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csbackarrow.png",
+    "src": "backblack.png",
     "srcType": 1,
     "top": "15dp",
     "vizProps": {
@@ -92,7 +93,7 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "40dp",
+    "width": "30dp",
     "zIndex": 2,
     "zindex": 2
 }

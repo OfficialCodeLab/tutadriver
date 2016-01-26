@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csbackarrow.png",
+    "_src_": "backblack.png",
     "_top_": {
         "type": "string",
         "value": "20dp"
@@ -74,7 +74,7 @@
     "pf": "frmBookingsMain",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csbackarrow.png",
+    "src": "backblack.png",
     "srcType": 1,
     "top": "20dp",
     "vizProps": {

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "csbackarrow.png",
+    "_src_": "backmint.png",
     "_width_": {
         "type": "string",
         "value": "30dp"
@@ -80,7 +80,7 @@
     "pf": "frmTripHistoryInfo",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "csbackarrow.png",
+    "src": "backmint.png",
     "srcType": 1,
     "vizProps": {
         "lock": true
