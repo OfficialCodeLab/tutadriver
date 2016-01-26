@@ -34,6 +34,11 @@
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "btnBack",
         "imgBackArrow"
