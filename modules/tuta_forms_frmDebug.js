@@ -18,7 +18,7 @@ tuta.forms.frmDebug = function() {
       	tuta.map.stopMapListener();
 
         this.control("btnBack").onClick = function(button) {
-            tuta.forms.frm004Home.show();
+            kony.application.getPreviousForm().show();
         };
 
 

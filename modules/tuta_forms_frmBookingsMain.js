@@ -18,7 +18,7 @@ tuta.forms.frmBookingsMain = function() {
   
   tuta.forms.frmBookingsMain.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
     this.control("segBookings").onRowClick = function(button) {tuta.forms.frmBooking.show();};
     tuta.map.stopMapListener();
 

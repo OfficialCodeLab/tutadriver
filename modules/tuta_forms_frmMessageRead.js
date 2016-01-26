@@ -16,8 +16,8 @@ tuta.forms.frmMessageRead = function() {
   
   tuta.forms.frmMessageRead.onPreShow = function(form) {
     var self = this;
-    this.control("btnBack").onClick = function(button){tuta.forms.frmMessageMain.show();};
-    this.control("btnBack").onClick = function (button) {tuta.forms.frmMessageMain.show();};
+    this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
+    
     tuta.map.stopMapListener();
 
   };

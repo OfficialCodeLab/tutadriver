@@ -18,7 +18,7 @@ tuta.forms.frmLogIssue = function() {
     var self = this;
     tuta.map.stopMapListener();
 
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
     this.control("btnBack").onClick = function (button) {tuta.forms.frm004Home.show();};
     this.control("btnCancel").onClick = function (button) {tuta.forms.frm004Home.show();};
     this.control("btnSubmitIssue").onClick = function (button) {

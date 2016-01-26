@@ -26,7 +26,7 @@ tuta.forms.frmMessageCompose = function() {
     var self = this;
     tuta.map.stopMapListener();
     
-    this.control("btnBack").onClick = function (button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);tuta.forms.frmMessageMain.show();};
+    this.control("btnBack").onClick = function (button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);kony.application.getPreviousForm().show();};
     this.control("btnMsgPopup").onClick = function(button) {tuta.animate.move(frmMessageCompose.flexMessageSent, 0, 0, "100%", null);};
     this.control("btnSend").onClick = function (button){
       var to;

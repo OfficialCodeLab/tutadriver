@@ -69,7 +69,7 @@ tuta.forms.frmEditProfile = function() {
     );
     
     //Back button click function
-    this.control("btnBack").onClick = function(button){tuta.forms.frm004Home.show();};
+    this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
     
     this.control("cmrTakePhoto").onCapture = function() {
       frmEditProfile.imgUser.rawBytes = frmEditProfile.cmrTakePhoto.rawBytes;

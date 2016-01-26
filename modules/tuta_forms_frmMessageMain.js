@@ -27,7 +27,7 @@ tuta.forms.frmMessageMain = function() {
       frmMessageCompose.flexLoading.setVisibility(false);
     };
     this.control("btnBack").onClick = function(button){
-      tuta.forms.frm004Home.show();
+      kony.application.getPreviousForm().show();
     };
 
     this.control("segMessages").onRowClick = function (widget){

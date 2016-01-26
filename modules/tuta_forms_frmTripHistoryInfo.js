@@ -26,7 +26,7 @@ tuta.forms.frmTripHistoryInfo = function() {
   tuta.forms.frmTripHistoryInfo.onPreShow = function(form) {
     var self = this;
     
-    this.control("btnBack").onClick = function(button){tuta.forms.frmTripHistory.show();};
+    this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
     this.control("btnHelp").onClick = function(button) {tuta.forms.frmLogIssue.show();};
     frmTripHistoryInfo.flexNoPanning.addGestureRecognizer(constants.GESTURE_TYPE_SWIPE, GLOBAL_GESTURE_FINGERS_1,  function(widget, gestureInformationSwipe) {
   	});

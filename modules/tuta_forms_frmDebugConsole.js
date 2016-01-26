@@ -23,7 +23,7 @@ tuta.forms.frmDebugConsole = function() {
     self.control("txtConsoleEditable").text = staticMapImageResource + "&key=" + "AIzaSyAiiKudEobnRQW6YIOHVOcbcMxN-l0iaEA";
 
     this.control("btnBack").onClick = function(button) {
-      tuta.forms.frmDebug.show();
+      kony.application.getPreviousForm().show();
     };
 
     this.control("btnSetImage").onClick = function(button) {
