@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -21,26 +21,27 @@
         0,
         0
     ],
-    "_render_": true,
-    "_skin_": "sd11387d04e444278d6e7727cfac58dd",
+    "_skin_": "s3ca4b3cded4482a89a343a23fb1002b",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "channel": "mobile",
+    "centerY": "50%",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "imgHeaderBG",
-        "imgHeaderTick",
-        "lblTitle",
-        "flexBackButton"
+        "btnBack",
+        "imgBackArrow"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -49,12 +50,12 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "150dp",
-    "id": "flexCheckboxHeader",
+    "height": "60dp",
+    "id": "flexBackButton",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "06a3d79759da4e929b0013f3f9eb9e7c",
+    "kuid": "a13e188ad2e7428bbee6f2986b9cb0d8",
     "layoutType": 2,
     "layouttype": 2,
     "left": "0dp",
@@ -72,11 +73,11 @@
         0,
         0
     ],
-    "parent": "frm003CheckBox",
+    "parent": "flexCheckboxHeader",
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
-    "skin": "sd11387d04e444278d6e7727cfac58dd",
+    "skin": "s3ca4b3cded4482a89a343a23fb1002b",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
@@ -85,7 +86,7 @@
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "100%",
-    "zIndex": 3,
-    "zindex": 3
+    "width": "60dp",
+    "zIndex": 20,
+    "zindex": 20
 }
