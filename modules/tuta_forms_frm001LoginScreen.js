@@ -86,7 +86,7 @@ tuta.forms.frm001LoginScreen = function() {
     this.control("btnSignUp").onClick = function(button){
       tuta.forms.frmCreateAcc.show();
     };
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
 
   };
 

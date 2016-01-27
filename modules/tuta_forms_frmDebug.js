@@ -15,7 +15,7 @@ tuta.forms.frmDebug = function() {
 
     tuta.forms.frmDebug.onPreShow = function(form) {
         var self = this;
-      	tuta.map.stopMapListener();
+      	//tuta.map.stopMapListener();
 
         this.control("btnBack").onClick = function(button) {
             kony.application.getPreviousForm().show();

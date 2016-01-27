@@ -18,7 +18,7 @@ tuta.forms.frmFlagDown = function() {
     
     
     var self = this;
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
     this.control("btnStartTrip").onClick = function (button) {
       if(flagdownComplete === true){
         if (form.txtCustomerName.text  !== null && form.txtCustomerName.text) {

@@ -17,7 +17,6 @@ tuta.forms.frmEditProfile = function() {
   
   tuta.forms.frmEditProfile.onPreShow = function(form) {
     var self = this;
-    tuta.map.stopMapListener();
     
     // Store the user IS as variable 'input' for userService query
     var input = {
@@ -132,7 +131,7 @@ tuta.forms.frmEditProfile = function() {
         }
       );
     };
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
   };
   
   tuta.forms.frmEditProfile.onPostShow = function(form) {

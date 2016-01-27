@@ -75,7 +75,7 @@ tuta.forms.frmMessageMain = function() {
     //#endif
     
     loadMessages();
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
 
   };//END of OnPreShow
 

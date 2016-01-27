@@ -71,7 +71,7 @@ tuta.forms.frm003CheckBox = function() {
     };
     this.control("btnConfirmCNum").onClick = function(button){tuta.forms.frm004Home.show();
     loadMessages();};
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
   };
 
   tuta.forms.frm003CheckBox.onPostShow = function(form) {

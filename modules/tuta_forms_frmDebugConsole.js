@@ -18,7 +18,7 @@ tuta.forms.frmDebugConsole = function() {
   
   tuta.forms.frmDebugConsole.onPreShow = function(form) {
     var self = this;
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
     
     self.control("txtConsoleEditable").text = staticMapImageResource + "&key=" + "AIzaSyAiiKudEobnRQW6YIOHVOcbcMxN-l0iaEA";
 
@@ -38,7 +38,6 @@ tuta.forms.frmDebugConsole = function() {
       self.control("txtConsoleEditable").text = "http://i.imgur.com/B5LkNwg.jpg";
       self.control("imgDebugOutput").src = "http://i.imgur.com/B5LkNwg.jpg";
     };
-    tuta.map.stopMapListener();
     
   };
   

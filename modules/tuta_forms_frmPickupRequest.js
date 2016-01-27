@@ -113,7 +113,7 @@ tuta.forms.frmPickupRequest = function() {
             
             
         }
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
 
         
         

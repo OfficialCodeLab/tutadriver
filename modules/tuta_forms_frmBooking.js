@@ -18,11 +18,10 @@ tuta.forms.frmBooking = function() {
   
   tuta.forms.frmBooking.onPreShow = function(form) {
     var self = this;
-    tuta.events.stopMapListener();
+    //tuta.events.stopMapListener();
     
     this.control("btnBack").onClick = function(button){kony.application.getPreviousForm().show();};
     this.control("btnHelp").onClick = function (button) {tuta.forms.frmLogIssue.show();};
-    tuta.map.stopMapListener();
   };
   
   tuta.forms.frmBooking.onPostShow = function(form) {

@@ -17,7 +17,7 @@ tuta.forms.frm004Home = function() {
 
   tuta.forms.frm004Home.onPreShow = function(form) {
     var self = this;
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
 
     this.control("imgStar1").onTouchStart = onStarSelect;
     this.control("imgStar2").onTouchStart = onStarSelect;
@@ -300,7 +300,7 @@ tuta.forms.frm004Home = function() {
     // tuta.retrieveBookings(); 
     //};
     mapAutoUpdateInterval = 4;
-    
+    /*
     if(driver_state === 0 || driver_state === 1){
       //
       try {
@@ -315,7 +315,7 @@ tuta.forms.frm004Home = function() {
       }, 3, false);
       
       //tuta.map.startMapListener();
-    }
+    }*/
 
     tuta.events.loadBookings();
 
@@ -335,6 +335,6 @@ tuta.forms.frm004Home = function() {
     var self = this;
     //tuta.events.mapFormNavigatedAway();
     
-    tuta.map.stopMapListener();
+    //tuta.map.stopMapListener();
   };
 };
