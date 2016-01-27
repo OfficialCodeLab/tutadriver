@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -29,10 +29,18 @@
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
+    },
+    "android": {
+        "pressedSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764"
     },
     "canUpdateUI": true,
+    "centerX": "50%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -42,13 +50,12 @@
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
-    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s0bf46e3b955414d8ad4f080f78950be",
-    "focusskin": "s0bf46e3b955414d8ad4f080f78950be",
-    "height": "55dp",
+    "focusSkin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "focusskin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
+    "height": "60dp",
     "id": "btnBack",
     "info": null,
     "iphone": {
@@ -58,7 +65,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7a915edc463648e0a6088afde7641a7b",
+    "kuid": "456431d9063a4223b5a5e68d8fd24d0f",
     "left": "10dp",
     "margin": [
         6,
@@ -73,18 +80,17 @@
         0,
         0
     ],
-    "parent": "flexHeader",
-    "pf": "frmBookingsMain",
+    "parent": "flexBackButton",
+    "pf": "frm003CheckBox",
     "render": true,
+    "showProgressIndicator": false,
+    "showprogressindicator": false,
     "skin": "sc92d3fd2ec54f2ba64c8de58bc4e764",
     "text": "",
     "top": "10dp",
-    "vizProps": {
-        "lock": true
-    },
     "wType": "Button",
     "widgetAlignment": 5,
-    "width": "55dp",
+    "width": "60dp",
     "zIndex": 20,
     "zindex": 20
 }

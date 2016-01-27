@@ -40,6 +40,14 @@ tuta.forms.frm003CheckBox = function() {
     //this.control("btnCheck4").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick4);};
    // this.control("btnCheck5").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
 
+    this.control("btnBack").onClick = function(button) {
+      tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0, "0%", "0", null);
+
+      loggedUser = null;
+
+      tuta.forms.frm001LoginScreen.show();
+    };
+    
     this.control("btnContinue").onClick = function(button){
       var toContinue = false;
       toContinue = checkContinue();

@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "22dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_src_": "backblack.png",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",
@@ -34,7 +34,12 @@
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "50%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -44,9 +49,7 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmBookingsMain",
-        "ispercent": true,
-        "platform": "android",
+        "formID": "frm003CheckBox",
         "templateType": "forms",
         "topLevelBox": null
     },
@@ -58,10 +61,9 @@
     "info": null,
     "invokedProperty": "src",
     "isVisible": true,
-    "ispercent": true,
     "isvisible": true,
-    "kuid": "1e3cbe1db7d44aaeac35e785add52689",
-    "left": "22dp",
+    "kuid": "b7105f0f01b544b3961c2da721c38710",
+    "left": "15dp",
     "margin": [
         0,
         0,
@@ -75,15 +77,15 @@
         0,
         0
     ],
-    "parent": "flexHeader",
-    "pf": "frmBookingsMain",
+    "parent": "flexBackButton",
+    "pf": "frm003CheckBox",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
     "src": "backblack.png",
     "srcType": 1,
-    "top": "20dp",
+    "top": "15dp",
     "vizProps": {
-        "lock": false
+        "lock": true
     },
     "wType": "Image",
     "widgetAlignment": 5,

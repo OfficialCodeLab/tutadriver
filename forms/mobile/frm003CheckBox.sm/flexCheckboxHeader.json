@@ -39,7 +39,8 @@
     "children": [
         "imgHeaderBG",
         "imgHeaderTick",
-        "lblTitle"
+        "lblTitle",
+        "flexBackButton"
     ],
     "clipBounds": true,
     "clipbounds": true,
