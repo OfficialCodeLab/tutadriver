@@ -729,8 +729,8 @@
             "indicator": "rowselect"
         }
     },
-    "isVisible": true,
-    "isvisible": true,
+    "isVisible": false,
+    "isvisible": false,
     "kuid": "6376cc417be54becb06daa522afa501c",
     "left": "0dp",
     "margin": [

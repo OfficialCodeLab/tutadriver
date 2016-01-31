@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flexHeader",
-        "segBookings"
+        "segBookings",
+        "Label07abdd9a4c6ff4d"
     ],
     "clipBounds": true,
     "clipbounds": true,
