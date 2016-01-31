@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "45dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "12dp"
     },
     "_margin_": [
         0,
@@ -24,14 +24,14 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "mapcentericonblack.png",
+    "_src_": "mapcenter2.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "45dp"
+        "value": "40dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -51,7 +51,7 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "45dp",
+    "height": "40dp",
     "id": "imgMapCenter",
     "imageScaleMode": 1,
     "imagescalemode": 1,
@@ -61,7 +61,7 @@
     "ispercent": true,
     "isvisible": true,
     "kuid": "69220aab29ce4a63856927bbd7b9ed66",
-    "left": "10dp",
+    "left": "12dp",
     "margin": [
         0,
         0,
@@ -79,13 +79,13 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "mapcentericonblack.png",
+    "src": "mapcenter2.png",
     "srcType": 1,
     "top": "0dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "45dp",
+    "width": "40dp",
     "zIndex": 30,
     "zindex": 30
 }

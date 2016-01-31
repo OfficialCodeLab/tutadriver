@@ -131,11 +131,11 @@ tuta.initCallback = function(error) {
   application.login("techuser@ssa.co.za", "T3chpassword", function(result, error) {
     if (error) tuta.util.alert("Login Error", error);
     else {
-	
+
     }
   });
-  
-	
+
+
 };
 
 /*=============================================================================
@@ -181,7 +181,7 @@ tuta.retrieveBookingsStatus = function(status, callback) {
       });
   }
   catch(ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -206,7 +206,7 @@ tuta.retrieveBookings = function(id, callback) {
       });
   }
   catch(ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -232,7 +232,7 @@ tuta.retrieveBookingsHistory = function(callback) {
       });
   }
   catch(ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -259,25 +259,25 @@ tuta.getBearing = function(callback) {
 tuta.startWatchLocation = function() {
   tuta.startUpdateMapFunction();
   setUpSwipes();
-  
+
   try {
     watchID = kony.store.getItem("watch");    
     if (watchID === null) {
       watchID = kony.location.watchPosition(
         function(position) {
           try{
-          currentBearing = bearing(currentPos.geometry.location.lat, currentPos.geometry.location.lng, position.coords.latitude, position.coords.longitude);
-          //tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
-          currentPos.geometry.location.lat = position.coords.latitude;
-          currentPos.geometry.location.lng = position.coords.longitude;
-          //updateMap();
-          try {
-            tuta.location.updateLocationOnServer(globalCurrentUser.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBearing);
-          } catch (ex) {
+            currentBearing = bearing(currentPos.geometry.location.lat, currentPos.geometry.location.lng, position.coords.latitude, position.coords.longitude);
+            //tuta.location.geoCode(position.coords.latitude, position.coords.longitude, function(s, e) {
+            currentPos.geometry.location.lat = position.coords.latitude;
+            currentPos.geometry.location.lng = position.coords.longitude;
+            //updateMap();
+            try {
+              tuta.location.updateLocationOnServer(globalCurrentUser.userName, currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBearing);
+            } catch (ex) {
 
-          }
-            
-            
+            }
+
+
           }
           catch(e){
             tuta.util.alert("ERROR", e);
@@ -364,7 +364,7 @@ tuta.pickupRequestInfo = function(userID, address) {
       });
   }
   catch(ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -393,7 +393,7 @@ tuta.checkCancellation = function (bookingID){
       });
   }
   catch (ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -418,7 +418,7 @@ tuta.acceptBooking = function(bookingID) {
         tuta.renderRouteAndUser();
       },
       function(error) {
-		
+
       });
   }
   catch (ex){
@@ -444,7 +444,7 @@ tuta.rejectBooking = function(bookingID) {
       });
   }
   catch (ex){
-	// This is an internet connection failed handler
+    // This is an internet connection failed handler
   }
 };
 
@@ -520,7 +520,7 @@ tuta.createBookingHistory = function(bookingID, cost){
 tuta.updateBookingHistoryRating = function(bookingID, rating, callback){
 
   var input = { id: bookingID, user : "driver", rating : rating.toString() };
-	
+
   try {
     application.service("manageService").invokeOperation(
       "bookingHistoryUpdateRating", {}, input,
@@ -613,7 +613,8 @@ tuta.readMessage = function(id) {
 */
 tuta.renderRouteAndUser = function() { //1
   driver_state = tuta.fsm.STATES.ON_ROUTE_TO_CLEINT;
-  
+  tuta.forms.frm004Home.flexMapCenter.setVisibility(false);
+
   tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
     //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
     tuta.events.directionsMaps(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
@@ -728,7 +729,7 @@ tuta.updateUserOnRoute = function(userId) { //2
         });
     }
     catch (ex){
-		// This is an internet connection failed handler
+      // This is an internet connection failed handler
     }
 
 
@@ -843,7 +844,7 @@ tuta.updateDriverOnRoute = function() { //4
           function(result) {
 
             //tuta.util.alert("INFO", "Booking status is now COMPLETED");
-            
+
             try{
               kony.timer.cancel("routeHandler");
             }
@@ -853,7 +854,7 @@ tuta.updateDriverOnRoute = function() { //4
               routePoints = [];
             });
             */
-            
+
             driver_state = 0;
             frm004Home.mapMain.clear();
             updateMap();
@@ -875,7 +876,7 @@ tuta.updateDriverOnRoute = function() { //4
           });
       }
       catch(ex){
-		// This is an internet connection failed handler
+        // This is an internet connection failed handler
       }
     }
   }, 5, true);
@@ -888,42 +889,42 @@ tuta.addIfStandingStill = function(){
   if(driver_state === tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION){
 
     try{
-    if (counter < 8 ){
-      //Set first location to compare
-      if(counter === 0 ){
-        tempPositionStart.lat = currentPos.geometry.location.lat;
-        tempPositionStart.lng = currentPos.geometry.location.lng;
-      }
-      /*
+      if (counter < 8 ){
+        //Set first location to compare
+        if(counter === 0 ){
+          tempPositionStart.lat = currentPos.geometry.location.lat;
+          tempPositionStart.lng = currentPos.geometry.location.lng;
+        }
+        /*
     tuta.util.alert("Info", "Counter is zero\n\n" + 
       "Start position LAT: " + tempPositionStart.lat + "\n" + 
       "Start position LNG: " + tempPositionStart.lng);*/
-      counter += mapAutoUpdateInterval;
-    }
-    else {
-      //Set second location to compare
-      tempPositionEnd.lat = currentPos.geometry.location.lat;
-      tempPositionEnd.lng = currentPos.geometry.location.lng;
+        counter += mapAutoUpdateInterval;
+      }
+      else {
+        //Set second location to compare
+        tempPositionEnd.lat = currentPos.geometry.location.lat;
+        tempPositionEnd.lng = currentPos.geometry.location.lng;
 
-      var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
-      if (tempDist <= GLOBAL_MIN_DIST){
-        timeStandingStill += counter;
-      }
-      else{
-        distanceTraveled += tempDist;
-      }
-      /*
+        var tempDist = tuta.location.distance(tempPositionStart.lat, tempPositionStart.lng, tempPositionEnd.lat, tempPositionEnd.lng);
+        if (tempDist <= GLOBAL_MIN_DIST){
+          timeStandingStill += counter;
+        }
+        else{
+          distanceTraveled += tempDist;
+        }
+        /*
     tuta.util.alert("Info 2", "Counter is " + counter + "\n" + "Time standing still: " + timeStandingStill + "\n" + 
       "Compared Distance: " + tempDist + 
       "Start position LAT: " + tempPositionStart.lat + "\n" + 
       "Start position LNG: " + tempPositionStart.lng + "\n" + 
       "End Position LAT: " + tempPositionEnd.lat + "\n" + 
       "End Position LNG: " + tempPositionEnd.lng);*/
-      counter = 0;
-    }
-    //tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng); 
-      
-      
+        counter = 0;
+      }
+      //tuta.routes.pushPoint(currentPos.geometry.location.lat, currentPos.geometry.location.lng); 
+
+
     }
     catch(ex){
       // This is an internet connection failed handler
