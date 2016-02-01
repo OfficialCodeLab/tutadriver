@@ -613,7 +613,6 @@ tuta.readMessage = function(id) {
 */
 tuta.renderRouteAndUser = function() { //1
   driver_state = tuta.fsm.STATES.ON_ROUTE_TO_CLEINT;
-  tuta.forms.frm004Home.flexMapCenter.setVisibility(false);
 
   tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
     //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
@@ -630,7 +629,7 @@ tuta.renderRouteAndUser = function() { //1
 
       //Remove the map centering button
       try{
-        tuta.forms.frm004Home.flexMapCenter.setVisibility(false);
+        frm004Home.flexMapCenter.setVisibility(false);
       }
       catch(ex){
         //tuta.util.alert("Info", "Unable to remove the map centering button.");
@@ -866,7 +865,26 @@ tuta.updateDriverOnRoute = function() { //4
 
             var tripCostFinal = distanceTraveled/1000 * GLOBAL_FEE_KM + GLOBAL_FEE_MINUTES*timeStandingStill/60 + GLOBAL_BASE_RATE;
             tripCostFinal = tripCostFinal.toFixed(2);
+            var mmStr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            // Get different date elemetns
+            var dd = today.getDate();
+            var mm = today.getMonth(); //January is 0
+            var yyyy = today.getFullYear();
+            var hour = today.getHours();
+            var min = today.getMinutes();
+            var ampm = "AM";
 
+            // Format date elemtens
+            if (dd < 10) { dd = '0' + dd; }
+            if (hour > 12) { hour = hour - 12; ampm = "PM"; }
+            if (hour < 10) { hour = '0' + hour; }
+            if (min < 10) { min = '0' + min; }
+
+            // Cut of .0 decimal points
+            var ddtext = Math.round(dd) + "";
+            var yyyytext = Math.round(yyyy) + "";
+            frmMap.lblDateBooking.text = ddtext + " " + mm + " " + yyyytext + " AT " + hour + ":" + min + " " + ampm;
             frm004Home.lblCost.text = "R" + tripCostFinal;
             frm004Home.flexOverlay1.isVisible = true;
             tuta.createBookingHistory(storedBookingID, tuta.events.getCost(frm004Home.lblCost.text));
@@ -953,7 +971,7 @@ tuta.resetMap = function(){
   distanceTravelled = 0;
   //Show map center button
   try{
-    tuta.forms.frm004Home.flexMapCenter.setVisibility(true);
+    frm004Home.flexMapCenter.setVisibility(true);
   }
   catch(ex){
     //tuta.util.alert("Info", "Unable to remove the map centering button.");
