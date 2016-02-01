@@ -44,11 +44,9 @@
         "imgSignOut",
         "flexScrollOptions",
         "flexCornerBox",
-        "flexCornerArrowRight",
-        "flexCornerArrowLeft",
-        "flexCornerArrowConnect",
         "flexLegal",
-        "btnDebugOptions"
+        "btnDebugOptions",
+        "imgTopCornerTri"
     ],
     "clipBounds": true,
     "clipbounds": true,

@@ -1,13 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "15dp"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15dp"
+        "value": "19dp"
     },
     "_margin_": [
         0,
@@ -21,7 +23,8 @@
         0,
         0
     ],
-    "_skin_": "sdba13d66a3f4707b0522de3d1637571",
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "minttriangle.png",
     "_top_": {
         "type": "string",
         "value": "50dp"
@@ -30,35 +33,34 @@
         "type": "string",
         "value": "20dp"
     },
-    "allboxes": [],
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "base64": null,
     "canUpdateUI": true,
-    "children": [],
-    "clipBounds": true,
-    "clipbounds": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "enableScrolling": true,
+    "context": {
+        "channel": "mobile",
+        "formID": "frm004Home",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
     "enabled": false,
-    "enablescrolling": true,
-    "height": "15dp",
-    "id": "flexCornerArrowConnect",
+    "height": "20dp",
+    "id": "imgTopCornerTri",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "isvisible": true,
-    "kuid": "b569d2c13e4345928b4fd70d1ca18dec",
-    "layoutType": 2,
-    "layouttype": 2,
-    "left": "15dp",
+    "kuid": "d0267af3ae704eedbc0af18f8ef32f85",
+    "left": "19dp",
     "margin": [
         0,
         0,
         0,
         0
     ],
-    "name": "kony.ui.FlexContainer",
-    "orientation": 6,
+    "name": "kony.ui.Image2",
     "padding": [
         0,
         0,
@@ -66,19 +68,16 @@
         0
     ],
     "parent": "flexMenu",
-    "percent": true,
     "pf": "frm004Home",
     "render": true,
-    "skin": "sdba13d66a3f4707b0522de3d1637571",
-    "snapGridSize": 10,
-    "snapToGrid": true,
-    "snapgridsize": 10,
-    "snaptogrid": true,
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "minttriangle.png",
+    "srcType": 1,
     "top": "50dp",
-    "wType": "FlexContainer",
-    "widgetAlignment": 1,
-    "widgetalignment": 1,
+    "wType": "Image",
+    "widgetAlignment": 5,
+    "widgetalignment": 5,
     "width": "20dp",
-    "zIndex": 2,
-    "zindex": 2
+    "zIndex": 1,
+    "zindex": 1
 }
