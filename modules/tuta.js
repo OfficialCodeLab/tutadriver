@@ -57,7 +57,7 @@ var mapFixed = false;
 
 //STATIC VARIABLES
 var GLOBAL_GESTURE_FINGERS_1 = {fingers: 1};
-var GLOBAL_BASE_RATE = 40;
+var GLOBAL_BASE_RATE = 10;
 var GLOBAL_MIN_DIST = 25;
 var GLOBAL_FEE_KM = 12.5;
 var GLOBAL_FEE_MINUTES = 12.5;
@@ -739,7 +739,7 @@ tuta.updateUserOnRoute = function(userId) { //2
 tuta.renderRouteAndDriver = function() { //3
 
 
-  //driver_state = tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION;
+  driver_state = tuta.fsm.STATES.ON_ROUTE_TO_DESTINATION;
   var point = {
     lat: currentPos.geometry.location.lat, 
     lng: currentPos.geometry.location.lng
@@ -865,6 +865,7 @@ tuta.updateDriverOnRoute = function() { //4
 
             var tripCostFinal = distanceTraveled/1000 * GLOBAL_FEE_KM + GLOBAL_FEE_MINUTES*timeStandingStill/60 + GLOBAL_BASE_RATE;
             tripCostFinal = tripCostFinal.toFixed(2);
+            var dateTemp = new Date();
             var mmStr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
             // Get different date elemetns
@@ -884,7 +885,7 @@ tuta.updateDriverOnRoute = function() { //4
             // Cut of .0 decimal points
             var ddtext = Math.round(dd) + "";
             var yyyytext = Math.round(yyyy) + "";
-            frmMap.lblDateBooking.text = ddtext + " " + mm + " " + yyyytext + " AT " + hour + ":" + min + " " + ampm;
+            frm004Home.lblTime.text = ddtext + " " + mmStr[mm] + " " + yyyytext + " AT " + hour + ":" + min + " " + ampm;
             frm004Home.lblCost.text = "R" + tripCostFinal;
             frm004Home.flexOverlay1.isVisible = true;
             tuta.createBookingHistory(storedBookingID, tuta.events.getCost(frm004Home.lblCost.text));
