@@ -127,7 +127,7 @@ function findAddress(address, callback) {
   	  //ssa.mobile.alert("test", JSON.stringify(response));
       if(response == null) {
         //callback(request1.getAllResponseHeaders());
-        ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
+        //ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
       } else {
         if(response != null) {
           if(response.results != null) {

@@ -83,9 +83,9 @@ tuta.forms.frm001LoginScreen = function() {
       self.moveLoginButtons.toggle();
     };
 
-    this.control("btnSignUp").onClick = function(button){
-      tuta.forms.frmCreateAcc.show();
-    };
+    // this.control("btnSignUp").onClick = function(button){
+    //   tuta.forms.frmCreateAcc.show();
+    // };
     //tuta.map.stopMapListener();
 
   };

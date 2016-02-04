@@ -30,14 +30,14 @@
     "bottom": "25%",
     "canUpdateUI": true,
     "centerX": "50%",
-    "centerY": "25%",
+    "centerY": "70%",
     "centerx": {
         "type": "string",
         "value": "50%"
     },
     "centery": {
         "type": "string",
-        "value": "25%"
+        "value": "70%"
     },
     "channel": "mobile",
     "containerWeight": 100,

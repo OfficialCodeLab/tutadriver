@@ -38,10 +38,6 @@
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
-        "Label0247880d81ed14f",
-        "lblLineRight",
-        "lblLineLeft",
-        "btnSignUp",
         "btnLogin"
     ],
     "clipBounds": true,
