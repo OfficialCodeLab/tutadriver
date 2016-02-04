@@ -129,7 +129,10 @@ function initApp() {
 //Very important. Leave this here.
 tuta.initCallback = function(error) {
   application.login("techuser@ssa.co.za", "T3chpassword", function(result, error) {
-    if (error) tuta.util.alert("Login Error", error);
+    if (error) 
+    {
+      tuta.util.alert("Login Error", error);
+    }
     else {
 
     }
@@ -280,7 +283,7 @@ tuta.startWatchLocation = function() {
 
           }
           catch(e){
-            tuta.util.alert("ERROR", e);
+            //tuta.util.alert("ERROR", e);
           }
           //});
 
@@ -306,7 +309,7 @@ tuta.startWatchLocation = function() {
       tuta.startWatchLocation();
     }
   } catch (ex) {
-    tuta.util.alert("TEST", ex);
+    //tuta.util.alert("TEST", ex);
   }
 };
 
@@ -480,7 +483,7 @@ tuta.createBooking = function(address, user){
     },
     function(error) {
       // the service returns 403 (Not Authorised) if credentials are wrong
-      tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
+      //tuta.util.alert("Error " + error.httpStatusCode, error.errmsg);
     }
   );
 };

@@ -54,7 +54,7 @@ tuta.forms.frmDebug = function() {
 
 
             } catch (ex) {
-                tuta.util.alert("Trip Huuurstory", "I'M A SROFWRAE DEEVELIPPIR!\n\n" + ex);
+                //tuta.util.alert("Trip Huuurstory", "I'M A SROFWRAE DEEVELIPPIR!\n\n" + ex);
             }
         };
 
@@ -85,7 +85,7 @@ tuta.forms.frmDebug = function() {
                 tuta.util.alert("Current User", currentBooking);
 
             } catch (exception) {
-                tuta.util.alert("Error", "Something went wrong with showing the User ID.");
+                //tuta.util.alert("Error", "Something went wrong with showing the User ID.");
             }
         };
 

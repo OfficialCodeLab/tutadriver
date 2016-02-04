@@ -43,7 +43,7 @@ tuta.forms.frmEditProfile = function() {
       },
       function(error) {
         // the service returns 403 (Not Authorised) if credentials are wrong
-        tuta.util.alert("Error " + error);
+        //tuta.util.alert("Error " + error);
       }
     );
 
@@ -63,7 +63,7 @@ tuta.forms.frmEditProfile = function() {
       },
       function(error) {
         // the service returns 403 (Not Authorized) if credentials are wrong
-        tuta.util.alert("Error " + error);
+        //tuta.util.alert("Error " + error);
       }
     );
     
@@ -123,11 +123,11 @@ tuta.forms.frmEditProfile = function() {
             function(success) {
               tuta.util.alert("Success", "Information has been updated");
             }, function(error) {
-              tuta.util.alert("Error", JSON.stringify(error));
+              //tuta.util.alert("Error", JSON.stringify(error));
             }
           );
         }, function(error) {
-          tuta.util.alert("Error", JSON.stringify(error));
+          //tuta.util.alert("Error", JSON.stringify(error));
         }
       );
     };

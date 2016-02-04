@@ -320,7 +320,7 @@ tuta.events.logIssue = function (){
     function(success){
       tuta.util.alert("Issue Logged!", "Please check your emails and keep this id as reference : " + success.value[0].id);
     },function(error){
-      tuta.util.alert("Error", error);
+      //tuta.util.alert("Error", error);
 
     });
 

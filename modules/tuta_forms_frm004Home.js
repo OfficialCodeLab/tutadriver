@@ -60,7 +60,7 @@ tuta.forms.frm004Home = function() {
       },
       function(error) {
         // the service returns 403 (Not Authorised) if credentials are wrong
-        tuta.util.alert("Error " + error);
+        //tuta.util.alert("Error " + error);
 
       }
     );

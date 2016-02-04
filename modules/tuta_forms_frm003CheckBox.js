@@ -214,7 +214,7 @@ try{
     }
 }
   catch(ex){
-    tuta.util.alert("ERROR", ex);
+    //tuta.util.alert("ERROR", ex);
   }
 }
 

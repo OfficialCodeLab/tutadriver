@@ -78,7 +78,7 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
     function(error) {
 
       // the service returns 403 (Not Authorised) if credentials are wrong
-      tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
+      //tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
     }
   );
     
@@ -135,13 +135,13 @@ tuta.location.loadPositionInit = function() {
 
     });
   }, function(error) {
-    tuta.util.alert("Error", error);
+    //tuta.util.alert("Error", error);
   });
     
     
   }
   catch(ex){
-    tuta.util.alert("Pos load error", ex);
+    //tuta.util.alert("Pos load error", ex);
   }
 };
 
@@ -285,7 +285,7 @@ tuta.location.geoCode = function(lat, lng, callback) {
     if (request.readyState == constants.HTTP_READY_STATE_DONE) {
       var response = request.response;
       if (response === null) {
-        tuta.util.alert("HTTP ERROR!", JSON.stringify(request.getAllResponseHeaders()));
+        //tuta.util.alert("HTTP ERROR!", JSON.stringify(request.getAllResponseHeaders()));
       } else {
         if (response !== null) {
           if (response.results !== null) {
@@ -451,7 +451,7 @@ tuta.location.renderDirections = function(object, directions, color, startpin, e
   };
 
   if (object.locationData.length > 0) object.clear();
-  tuta.util.alert(JSON.stringify(maplines));
+  //tuta.util.alert(JSON.stringify(maplines));
   object.addPolyline(maplines);
 };
 
@@ -551,7 +551,7 @@ tuta.location.findAddress = function (address, callback) {
   	  //ssa.mobile.alert("test", JSON.stringify(response));
       if(response == null) {
         //callback(request1.getAllResponseHeaders());
-        ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
+        //ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
       } else {
         if(response != null) {
           if(response.results != null) {
