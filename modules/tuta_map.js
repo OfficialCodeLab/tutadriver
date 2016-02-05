@@ -232,17 +232,25 @@ tuta.map.navigateTo = function (location){
   } catch(ex){}
 
   var zoomlvl = 18;
-  //#ifdef iphone
-  zoomlvl = 20;
-  //#endif
+  //#ifdef android
   frm004Home.mapMain.zoomLevel = zoomlvl;
+  //#endif
   var locationData = {lat:location.lat,lon:location.lng,name: "",desc: ""};
   frm004Home.mapMain.navigateToLocation(locationData, false, false);
-  
+
   try{
     kony.timer.schedule("startMapUpdaterNavigateTo", function(){
       updateMap();
       tuta.startUpdateMapFunction();
+
+      //#ifdef iphone
+      try{
+        kony.timer.schedule("startMapUpdaterNavigateTo", function(){
+          frm004Home.mapMain.zoomLevel = zoomlvl;
+        }, 0.3, false);
+
+      } catch(e){}
+      //#endif
     }, 1.5, false);
   }
   catch(ex){

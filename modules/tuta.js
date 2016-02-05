@@ -621,6 +621,9 @@ tuta.renderRouteAndUser = function() { //1
   tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
     //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
     //tuta.events.directionsMaps(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
+    currentDest = success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"");
+
+    tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "5%", null);
   });
 
   tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {

@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "profilepic.png",
+    "_src_": "driverdefault.png",
     "_width_": {
         "type": "string",
         "value": "60dp"
@@ -50,8 +50,11 @@
     "height": "70dp",
     "id": "imgProfilePic",
     "imageScaleMode": 1,
+    "imageWhenFailed": "driverdefault.png",
     "imagescalemode": 1,
+    "imagewhenfailed": "driverdefault.png",
     "info": null,
+    "invokedProperty": "imageWhenFailed",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -74,7 +77,7 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "profilepic.png",
+    "src": "driverdefault.png",
     "srcType": 1,
     "wType": "Image",
     "widgetAlignment": 5,
