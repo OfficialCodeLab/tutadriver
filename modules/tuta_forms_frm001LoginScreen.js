@@ -26,10 +26,10 @@ tuta.forms.frm001LoginScreen = function() {
       0.3
     );
 
-    this.control("imgTutaLogo").onTouchStart = function(){
+    /*this.control("imgTutaLogo").onTouchStart = function(){
       self.control("txtEmail").text = "craig@ssa.com";
       self.control("txtPassword").text = "1";
-    };
+    };*/
 
     this.control("btnLogin2").onClick = function(button) {
       if(self.control("txtEmail").text === "" || self.control("txtEmail").text === null){

@@ -112,6 +112,7 @@ tuta.events.getRating = function (){
       return i;
     }
   }
+  return 5;
 };
 //End of ratings method
 /*===========================================================================*/
@@ -363,6 +364,11 @@ tuta.events.directionsMaps = function (address){
                            "&sspn=0.2,0.1&nav=1");
 };
 
+
+tuta.events.directionsMapsDL = function (address){
+  kony.application.openURL("comgooglemaps://?f=d&daddr=" + address +
+                           "&sspn=0.2,0.1&nav=1");
+};
 
 tuta.events.dateString = function(epoch){
   var newDate = epoch.substring(0, epoch.length-3);

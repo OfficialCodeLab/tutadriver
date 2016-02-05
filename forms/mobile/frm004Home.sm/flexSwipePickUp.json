@@ -41,8 +41,11 @@
         "value": "50%"
     },
     "children": [
-        "flexSwiper",
-        "lblSwipe"
+        "btnMapsDecline",
+        "btnMapsAccept",
+        "Image0308ee1d40c4f4b",
+        "CopyImage0e9be108207844d",
+        "lblSepButtons"
     ],
     "clipBounds": true,
     "clipbounds": true,

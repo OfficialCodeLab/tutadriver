@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s7a347ef902c42b2b7fa2ab16ba03fd0",
-    "_text_": "YOU HAVE ARRIVED AT YOUR CUSTOMER",
+    "_text_": "USE GOOGLE MAPS FOR NAVIGATION?",
     "_top_": {
         "type": "string",
         "value": "135dp"
@@ -78,7 +78,7 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "s7a347ef902c42b2b7fa2ab16ba03fd0",
-    "text": "YOU HAVE ARRIVED AT YOUR CUSTOMER",
+    "text": "USE GOOGLE MAPS FOR NAVIGATION?",
     "toolTip": "",
     "tooltip": "",
     "top": "135dp",
