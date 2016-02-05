@@ -26,7 +26,7 @@
     "_text_": "USE GOOGLE MAPS FOR NAVIGATION?",
     "_top_": {
         "type": "string",
-        "value": "135dp"
+        "value": "35%"
     },
     "_width_": {
         "type": "string",
@@ -81,7 +81,7 @@
     "text": "USE GOOGLE MAPS FOR NAVIGATION?",
     "toolTip": "",
     "tooltip": "",
-    "top": "135dp",
+    "top": "35%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "90%",

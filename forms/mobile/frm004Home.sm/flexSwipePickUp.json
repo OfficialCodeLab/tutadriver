@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -54,7 +54,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "70dp",
+    "height": "25%",
     "id": "flexSwipePickUp",
     "info": null,
     "isVisible": true,

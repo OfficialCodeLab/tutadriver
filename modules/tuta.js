@@ -129,11 +129,10 @@ function initApp() {
 //Initiates the entire app with the tech user,
 //Very important. Leave this here.
 tuta.initCallback = function(error) {
-		tuta.util.alert("TEST", "LOGGING IN");
   application.login("techuser@ssa.co.za", "T3chpassword", function(result, error) {
     if (error) tuta.util.alert("Login Error", error);
     else {
-		tuta.util.alert("TEST", "LOGGED IN");
+		tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", 0, null);
     }
   });
 

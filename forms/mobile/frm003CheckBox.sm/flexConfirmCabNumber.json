@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "100%"
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
-        "value": "100.00%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -22,14 +22,10 @@
         0
     ],
     "_render_": true,
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_skin_": "s01abdef0da34e959640b35e62311677",
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "150"
     },
     "_width_": {
         "type": "string",
@@ -38,6 +34,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "0dp",
     "canUpdateUI": true,
     "channel": "mobile",
     "children": [
@@ -54,15 +51,14 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "100%",
     "id": "flexConfirmCabNumber",
     "info": null,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7f5483402c8049aeb0737c5f6e2fbba6",
+    "kuid": "45b31a0f811d4f4aa2b8bf4723a67e39",
     "layoutType": 2,
     "layouttype": 2,
-    "left": "100.00%",
+    "left": "100%",
     "margin": [
         0,
         0,
@@ -81,13 +77,12 @@
     "percent": true,
     "pf": "frm003CheckBox",
     "render": true,
-    "right": "0dp",
     "skin": "s01abdef0da34e959640b35e62311677",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
+    "top": 150,
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

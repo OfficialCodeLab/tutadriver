@@ -22,7 +22,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "216dp"
+        "value": "65%"
     },
     "_width_": {
         "type": "string",
@@ -76,7 +76,7 @@
     "text": "",
     "toolTip": "",
     "tooltip": "",
-    "top": "216dp",
+    "top": "65%",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "80%",

@@ -71,7 +71,7 @@ tuta.forms.frm003CheckBox = function() {
       */
       
       if (toContinue === true){
-      	tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);
+      	tuta.animate.moveBottomLeft(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);
       }
       else if (toContinue === false) {
         tuta.mobile.alert("Unticked Box", "All boxes must be ticked");
