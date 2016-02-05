@@ -225,4 +225,31 @@ tuta.map.stopMapListener = function (){
   }
 };
 
+tuta.map.navigateTo = function (location){
+  tuta.stopUpdateMapFunction();
+  try{
+    kony.timer.cancel("startMapUpdaterNavigateTo");
+  } catch(ex){}
+
+  var zoomlvl = 18;
+  //#ifdef iphone
+  zoomlvl = 20;
+  //#endif
+  frm004Home.mapMain.zoomLevel = zoomlvl;
+  var locationData = {lat:location.lat,lon:location.lng,name: "",desc: ""};
+  frm004Home.mapMain.navigateToLocation(locationData, false, false);
+  
+  try{
+    kony.timer.schedule("startMapUpdaterNavigateTo", function(){
+      updateMap();
+      tuta.startUpdateMapFunction();
+    }, 1.5, false);
+  }
+  catch(ex){
+
+  }
+
+
+};
+
 

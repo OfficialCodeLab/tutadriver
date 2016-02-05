@@ -982,6 +982,9 @@ tuta.resetMap = function(){
   catch(ex){
     //tuta.util.alert("Info", "Unable to remove the map centering button.");
   }
+  
+  var loc = {lat:currentPos.geometry.location.lat,lng:currentPos.geometry.location.lng};
+  tuta.map.navigateTo(loc);
 };
 
 // Should be called in the App init lifecycle event
