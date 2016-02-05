@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -41,8 +41,11 @@
         "value": "50%"
     },
     "children": [
-        "flexSwiper",
-        "lblSwipe"
+        "btnMapsDecline",
+        "btnMapsAccept",
+        "Image0308ee1d40c4f4b",
+        "CopyImage0e9be108207844d",
+        "lblSepButtons"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -51,7 +54,7 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "70dp",
+    "height": "25%",
     "id": "flexSwipePickUp",
     "info": null,
     "isVisible": true,

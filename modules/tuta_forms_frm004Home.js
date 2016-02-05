@@ -278,6 +278,15 @@ tuta.forms.frm004Home = function() {
         frm004Home.flexActive.setVisibility(true);
       }
     };
+    
+    this.control("btnMapsAccept").onClick = function(button){
+      tuta.events.directionsMaps(currentDest);
+      tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "100%", null);
+    };
+    
+    this.control("btnMapsDecline").onClick = function(button){
+      tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "100%", null);
+    };
 
     //Sign-out button
     this.control("btnSignOut").onClick = function(button) {

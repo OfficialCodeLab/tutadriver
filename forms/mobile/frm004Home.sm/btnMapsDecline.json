@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "90%"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -22,38 +22,34 @@
         0,
         0
     ],
-    "_skin_": "s6dbb7572ddc49d092a3843f454be50c",
+    "_right_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_skin_": "s78661ce61d9446daf963293e08d4aed",
     "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "10%"
     },
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
     "contentAlignment": 5,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "s6dbb7572ddc49d092a3843f454be50c",
-    "focusskin": "s6dbb7572ddc49d092a3843f454be50c",
+    "focusSkin": "s71ffcebf36c4e28b7f029c082740e6a",
+    "focusskin": "s71ffcebf36c4e28b7f029c082740e6a",
     "height": "100%",
-    "id": "CopyButton0a114894d531743",
+    "id": "btnMapsDecline",
     "info": null,
-    "iphone": {
-        "psp": {
-            "showProgressIndicator": false
-        }
-    },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "007674cbbba74a5a97bd507f2a2d3bd9",
-    "left": "90%",
+    "kuid": "2f4ec8d7a0824422a062cfdd037d9933",
+    "left": "0dp",
     "margin": [
         6,
         6,
@@ -61,25 +57,19 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_bd9be48b42084193864641695b12937f",
-    "onclick": "AS_Button_bd9be48b42084193864641695b12937f",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flexConfirmCabNumber",
-    "pf": "frm003CheckBox",
+    "parent": "flexSwipePickUp",
+    "pf": "frm004Home",
     "render": true,
-    "showProgressIndicator": false,
-    "showprogressindicator": false,
-    "skin": "s6dbb7572ddc49d092a3843f454be50c",
+    "right": "50%",
+    "skin": "s78661ce61d9446daf963293e08d4aed",
     "text": "",
     "top": "0dp",
     "wType": "Button",
-    "widgetAlignment": 5,
-    "width": "10%",
-    "zIndex": 1,
-    "zindex": 1
+    "widgetAlignment": 5
 }

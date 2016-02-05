@@ -24,10 +24,10 @@
         0
     ],
     "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "_src_": "bluealert.png",
+    "_src_": "mapicon.png",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
@@ -56,6 +56,7 @@
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
@@ -78,9 +79,9 @@
     "pf": "frm004Home",
     "render": true,
     "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
-    "src": "bluealert.png",
+    "src": "mapicon.png",
     "srcType": 1,
-    "top": "20dp",
+    "top": "5%",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,

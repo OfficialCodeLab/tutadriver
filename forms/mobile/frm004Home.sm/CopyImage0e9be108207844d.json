@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "209dp"
     },
     "_margin_": [
         0,
@@ -23,15 +23,24 @@
         0,
         0
     ],
-    "_skin_": "s1f369f5d5e54f8c822b6c5aeeb50659",
-    "_src_": "swipelever.png",
+    "_skin_": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "_src_": "cancelicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "3dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "40dp"
     },
     "base64": null,
     "canUpdateUI": true,
+    "centerX": "25%",
     "centerY": "50%",
+    "centerx": {
+        "type": "string",
+        "value": "25%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -47,8 +56,8 @@
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "30dp",
-    "id": "imgSwipeBall",
+    "height": "40dp",
+    "id": "CopyImage0e9be108207844d",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
@@ -56,8 +65,8 @@
     "isVisible": true,
     "ispercent": true,
     "isvisible": true,
-    "kuid": "7f2c23dec95f45b980f95aa10ae08fc4",
-    "left": "5dp",
+    "kuid": "edd5b4430373492b92276c2f520be6fe",
+    "left": "209dp",
     "margin": [
         0,
         0,
@@ -71,16 +80,17 @@
         0,
         0
     ],
-    "parent": "flexSwiper",
+    "parent": "flexSwipePickUp",
     "pf": "frm004Home",
     "render": true,
-    "skin": "s1f369f5d5e54f8c822b6c5aeeb50659",
-    "src": "swipelever.png",
+    "skin": "sd72a8a509094c95942ab1e1bcfe3ed8",
+    "src": "cancelicon.png",
     "srcType": 1,
+    "top": "3dp",
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "30dp",
-    "zIndex": 69,
-    "zindex": 69
+    "width": "40dp",
+    "zIndex": 2,
+    "zindex": 2
 }

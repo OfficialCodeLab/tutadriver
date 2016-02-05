@@ -52,7 +52,7 @@
     },
     "isVisible": true,
     "isvisible": true,
-    "kuid": "fc7284c9e6fc4d608dc9cfed5aa1dd36",
+    "kuid": "d409a83cfa2e4418baeac5803b54f679",
     "left": "10%",
     "margin": [
         6,
@@ -61,8 +61,8 @@
         6
     ],
     "name": "kony.ui.Button",
-    "onClick": "AS_Button_7ed812682ee84933b989c7716db9bb7e",
-    "onclick": "AS_Button_7ed812682ee84933b989c7716db9bb7e",
+    "onClick": "AS_Button_c5a30b80087448b9ae96c54f53323992",
+    "onclick": "AS_Button_c5a30b80087448b9ae96c54f53323992",
     "padding": [
         0,
         0,

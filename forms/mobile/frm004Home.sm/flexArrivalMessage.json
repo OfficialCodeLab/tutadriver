@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "369dp"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "s98bc41869e54a20a549ad719dbcb638",
     "_top_": {
         "type": "string",
-        "value": "54dp"
+        "value": "15%"
     },
     "_width_": {
         "type": "string",
@@ -33,6 +33,7 @@
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "25%",
     "canUpdateUI": true,
     "children": [
         "imgAlert",
@@ -47,7 +48,6 @@
     "enableScrolling": true,
     "enabled": false,
     "enablescrolling": true,
-    "height": "369dp",
     "id": "flexArrivalMessage",
     "info": null,
     "isVisible": true,
@@ -79,7 +79,7 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "54dp",
+    "top": "15%",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,

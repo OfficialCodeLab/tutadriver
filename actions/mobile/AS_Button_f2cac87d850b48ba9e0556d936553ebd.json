@@ -8,7 +8,7 @@
 				"type": "MOVE_ACTION",
 				"itemType": "FORM",
 				"itemId": "frm003CheckBox",
-				"widgetId": "flexConfirmCabNumber",
+				"widgetId": "__missing_id__",
 				"itemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
 				"widgetKUID": "7f5483402c8049aeb0737c5f6e2fbba6",
 				"animationObject": {

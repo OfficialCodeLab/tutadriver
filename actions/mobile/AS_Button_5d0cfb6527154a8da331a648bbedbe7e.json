@@ -1,10 +1,16 @@
 {
-	"AS_Button_427a6bce55e44c19af3436d2d1fe0043": {
-		"id": "AS_Button_427a6bce55e44c19af3436d2d1fe0043",
+	"AS_Button_5d0cfb6527154a8da331a648bbedbe7e": {
+		"id": "AS_Button_5d0cfb6527154a8da331a648bbedbe7e",
 		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
 		"actions": [
 			{
-				"id": "MOVE_ACTION____836710f6044044d183317cb2cddd28dc",
+				"id": "___onClick_cc8898d766e74c5ca7d70c91cb4ed6c7",
 				"type": "MOVE_ACTION",
 				"itemType": "FORM",
 				"itemId": "frm003CheckBox",
@@ -12,11 +18,11 @@
 				"itemKUID": "b33c3c527b8d4d9492073d4091a32f4d",
 				"widgetKUID": "7f5483402c8049aeb0737c5f6e2fbba6",
 				"animationObject": {
+					"left": "100%",
 					"anchorPoint": {},
 					"stepConfig": {
 						"timingFunction": "kony.anim.EASE"
-					},
-					"left": "0px"
+					}
 				},
 				"config": {
 					"delay": "0",
@@ -25,10 +31,9 @@
 					"duration": "0"
 				},
 				"start": "Immediately",
-				"animationId": "MOVE_ACTION____836710f6044044d183317cb2cddd28dc",
-				"displayAnimationId": "MOVE_ACTION____836710f6044044d183317cb2cddd28dc",
+				"animationId": "MOVE_ACTION____eb794e680e834811bd145b1f71c6a9ee",
+				"displayAnimationId": "MOVE_ACTION____eb794e680e834811bd145b1f71c6a9ee",
 				"forkedPlatform": "all",
-				"parentId": null,
 				"callbackType": null
 			}
 		]

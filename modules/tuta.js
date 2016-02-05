@@ -40,6 +40,7 @@ var destination = null;
 var flagdownComplete = false;
 var startAddress = null;
 var currentBookings = [];
+var currentDest = "";
 
 //Flags for state of booking process
 var csBookingInTransit = false;
@@ -134,7 +135,7 @@ tuta.initCallback = function(error) {
       tuta.util.alert("Login Error", error);
     }
     else {
-
+		tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", 0, null);
     }
   });
 
@@ -619,7 +620,7 @@ tuta.renderRouteAndUser = function() { //1
 
   tuta.location.geoCode(currentBooking.location.lat, currentBooking.location.lng, function(success, error){
     //tuta.util.alert("TEST", JSON.stringify(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")));
-    tuta.events.directionsMaps(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
+    //tuta.events.directionsMaps(success.results[0].formatted_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
   });
 
   tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
@@ -752,7 +753,10 @@ tuta.renderRouteAndDriver = function() { //3
 
   //tuta.events.routeHandler();
 
-  tuta.events.directionsMaps(currentBooking.address.description);
+    currentDest = currentBooking.address.description;
+
+    tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "5%", null);
+  //tuta.events.directionsMaps(currentBooking.address.description);
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
     startAddress = success.results[0];
   });
@@ -870,7 +874,7 @@ tuta.updateDriverOnRoute = function() { //4
             tripCostFinal = tripCostFinal.toFixed(2);
             var dateTemp = new Date();
             var mmStr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
             // Get different date elemetns
             var dd = dateTemp.getDate();
             var mm = dateTemp.getMonth(); //January is 0
@@ -980,6 +984,9 @@ tuta.resetMap = function(){
   catch(ex){
     //tuta.util.alert("Info", "Unable to remove the map centering button.");
   }
+  
+  var loc = {lat:currentPos.geometry.location.lat,lng:currentPos.geometry.location.lng};
+  tuta.map.navigateTo(loc);
 };
 
 // Should be called in the App init lifecycle event

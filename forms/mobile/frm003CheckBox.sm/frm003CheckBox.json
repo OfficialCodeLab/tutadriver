@@ -32,9 +32,9 @@
     "channel": "mobile",
     "children": [
         "flexCheckBoxes",
-        "flexConfirmCabNumber",
         "flexCheckboxHeader",
-        "flexCheckBoxBackground"
+        "flexCheckBoxBackground",
+        "flexConfirmCabNumber"
     ],
     "containerWeight": 100,
     "containerweight": 100,
