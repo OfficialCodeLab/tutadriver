@@ -71,5 +71,7 @@
     "text": "",
     "top": "0dp",
     "wType": "Button",
-    "widgetAlignment": 5
+    "widgetAlignment": 5,
+    "zIndex": 5,
+    "zindex": 5
 }

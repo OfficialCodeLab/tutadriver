@@ -61,7 +61,7 @@ tuta.forms.frmFlagDown = function() {
       var locA = [{lat: currentPos.geometry.location.lat, lon: currentPos.geometry.location.lng}];
       var locB = [{lat: destination.geometry.location.lat, lon: destination.geometry.location.lng}];
       estimateTripCost(locA, locB, function(costMin, costMax){
-		compositeCost = "R" + costMin + " - R" + costMax;
+		compositeCost = "R" + (costMin + costMax)/2;
         frmFlagDown.lblTripPrice.text = compositeCost;
       });
       //tuta.mobile.alert("ADDRESS", JSON.stringify(tempDestination));

@@ -15,7 +15,7 @@ tuta.forms.frm003CheckBox = function() {
 
   // Initialize form events	
   tuta.forms.frm003CheckBox.onInit = function(form) {
-		
+
 
 
     /*
@@ -31,14 +31,14 @@ tuta.forms.frm003CheckBox = function() {
     //this.control("btnContinue").onClick = function(button){tuta.mobile.alert("TEST", "TEST");};
     //this.control("btnContinue").onClick = function(button){tuta.animate.move(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);};
     if(checkboxloaded === false)
-		generateButton();
-    
-    
+      generateButton();
+
+
     //this.control("btnCheck1").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick1);};
     //this.control("btnCheck2").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick2);};
     //this.control("btnCheck3").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick3);};
     //this.control("btnCheck4").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick4);};
-   // this.control("btnCheck5").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
+    // this.control("btnCheck5").onClick = function(button){frm003CheckboxToggle(frm003CheckBox.imgTick5);};
 
     this.control("btnBack").onClick = function(button) {
       tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0, "0%", "0", null);
@@ -47,7 +47,7 @@ tuta.forms.frm003CheckBox = function() {
 
       tuta.forms.frm001LoginScreen.show();
     };
-    
+
     this.control("btnContinue").onClick = function(button){
       var toContinue = false;
       toContinue = checkContinue();
@@ -69,16 +69,19 @@ tuta.forms.frm003CheckBox = function() {
         tuta.mobile.alert("Unticked Box", "All boxes must be ticked");
       }
       */
-      
+
       if (toContinue === true){
-      	tuta.animate.moveBottomLeft(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);
+        tuta.animate.moveBottomLeft(frm003CheckBox.flexConfirmCabNumber, 0, "0", "0", null);
       }
       else if (toContinue === false) {
         tuta.mobile.alert("Unticked Box", "All boxes must be ticked");
       }
     };
-    this.control("btnConfirmCNum").onClick = function(button){tuta.forms.frm004Home.show();
-    loadMessages();};
+    this.control("btnConfirmCNum").onClick = function(button){
+      tuta.animate.moveBottomLeft(frm003CheckBox.flexConfirmCabNumber, 0, "0", "100%", null);
+      tuta.forms.frm004Home.show();
+      loadMessages();
+    };
     //tuta.map.stopMapListener();
   };
 
@@ -89,31 +92,31 @@ tuta.forms.frm003CheckBox = function() {
     };*/
   };
   // Test generate one button and add to existing flexContainer.
-  
-  
+
+
 };
 
 function checkContinue() {
-  
+
   for (var i = 0; i < checklistItems.length; i++) {
     var widgetId = "genTickImg" + (i+1);
     if (frm003CheckBox[widgetId]["isVisible"] === false) {
-      
+
       return false;
     }
   } 
-  
+
   return true;
 }
-    
+
 function generateButton() {
 
 
-try{
+  try{
     //var widgets = [];
     for (var i = 0; i < checklistItems.length; i++){
       var genLblBox;
-      
+
       var idText = "genLblBox" + (i+1);
       var genBoxBasic = {id:idText,
                          isVisible:true,
@@ -212,7 +215,7 @@ try{
       frm003CheckBox[genLblBoxId].left = "10%";
       checkboxloaded = true;
     }
-}
+  }
   catch(ex){
     //tuta.util.alert("ERROR", ex);
   }

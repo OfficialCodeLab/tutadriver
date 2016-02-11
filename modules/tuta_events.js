@@ -293,9 +293,9 @@ tuta.events.getChecklistItems = function (){
     "checklist", {}, input,
     function(result){
       checklistItems = result.value;
-      tuta.forms.frm003CheckBox.show();
+      //tuta.forms.frm003CheckBox.show();
     }, function(error){
-      tuta.forms.frm004Home.show();
+      //tuta.forms.frm004Home.show();
     });
 
 };

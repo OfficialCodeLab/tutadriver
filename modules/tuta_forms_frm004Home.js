@@ -38,7 +38,7 @@ tuta.forms.frm004Home = function() {
       tuta.controls.behavior.MOVE_OVER,
       0.15
     );
-    
+
 
     //Initializes the user's name
     //frm004Home.profileName.text = globalCurrentUser.userName;
@@ -91,11 +91,6 @@ tuta.forms.frm004Home = function() {
     this.control("btnTestingPickup").onClick = function(button) {
       tuta.forms.frmPickupRequest.show();
     };
-    this.control("btnSignOut").onClick = function(button) {
-      menuToggle(0, self.leftMenu._open);
-      self.leftMenu.toggle();
-      tuta.forms.frm001LoginScreen.show();
-    };
 
     //Toggles visibility for destination search bar
     this.control("txtDest").onDone = function(widget) {
@@ -147,7 +142,7 @@ tuta.forms.frm004Home = function() {
         tuta.fsm.stateChange(tuta.fsm.REQUESTS.BREAK);
         frm004Home.imgSwitchBg.src = "switchbgoff.png";
         tuta.events.timedStateUpdate("Idle", 1);
-        
+
         //updateConsole();
       } else if (driver_state === tuta.fsm.STATES.IDLE) {
         tuta.animate.move(frm004Home.imgSwitch, 0.2, "", "0", null);
@@ -224,7 +219,7 @@ tuta.forms.frm004Home = function() {
 
     //Cheeseburger Menu Items
     this.control("btnEditProfile").onClick = function(button) {
-      menuToggle(0, self.leftMenu.open);
+      menuToggle(0, self.leftMenu._open);
       self.leftMenu.toggle();
       tuta.forms.frmEditProfile.show();
     };
@@ -264,12 +259,12 @@ tuta.forms.frm004Home = function() {
         frm004Home.flexActive.setVisibility(true);
       }
     };
-    
+
     this.control("btnMapsAccept").onClick = function(button){
       tuta.events.directionsMaps(currentDest);
       tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "100%", null);
     };
-    
+
     this.control("btnMapsDecline").onClick = function(button){
       tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "100%", null);
     };
@@ -277,6 +272,7 @@ tuta.forms.frm004Home = function() {
     //Sign-out button
     this.control("btnSignOut").onClick = function(button) {
 
+      menuToggle(0, self.leftMenu._open);
       tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0, "0%", "0", null);
       self.leftMenu.toggle();
 
@@ -308,7 +304,7 @@ tuta.forms.frm004Home = function() {
         tuta.map.storeCenter(bds);
         tuta.map.startMapListener();
       }, 3, false);
-      
+
       //tuta.map.startMapListener();
     }*/
 
@@ -323,13 +319,13 @@ tuta.forms.frm004Home = function() {
     /*this.header("btnMenu").onClick =function(button) {
      	self.topMenu.toggle();
     };*/
-  
+
   };
-  
+
   tuta.forms.frm004Home.onHide = function(form){
     var self = this;
     //tuta.events.mapFormNavigatedAway();
-    
+
     //tuta.map.stopMapListener();
   };
 };

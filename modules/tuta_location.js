@@ -35,54 +35,54 @@ tuta.location.currentPosition = function(callback) {
 
 tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bearing) {
   //Update user's position on the server
-  
+
   try{
-  var inputData;
-  if (bearing !== null && bearing !== undefined && bearing === bearing) //Ensures that bearing is not null, undefined or NaN
-  {
-    inputData = {
-      //id : JSON.parse(kony.store.getItem("user")).userName,
-      location: {
-        lat: latitude,
-        lng: longitude,
-        direction: currentBearing
-      }
-    };
-  } else {
-    inputData = {
-      location: {
-        lat: latitude,
-        lng: longitude,
-      }
-    };
-  }
-
-  var input = {
-    data: JSON.stringify(inputData),
-    id: userId
-  };
-
-  //Popup displaying latitude and longitude,
-  //on position change
-  // var testUserName = "Your username is: " + JSON.stringify(userTemp.userName + "\n");
-  // var testOutput = "Your current position is:\n" + "Latitude: " + JSON.stringify(inputData.location.lat) + "\nLongitude: " + JSON.stringify(inputData.location.long) + "";
-  // tuta.util.alert("Location Update", testUserName + testOutput);
-
-
-  //Updates server with user's current position
-  application.service("manageService").invokeOperation(
-    "userUpdate", {}, input,
-    function(result) {
-      //tuta.util.alert("TEST" + "Map updated with your current position");
-    },
-    function(error) {
-
-      // the service returns 403 (Not Authorised) if credentials are wrong
-      //tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
+    var inputData;
+    if (bearing !== null && bearing !== undefined && bearing === bearing) //Ensures that bearing is not null, undefined or NaN
+    {
+      inputData = {
+        //id : JSON.parse(kony.store.getItem("user")).userName,
+        location: {
+          lat: latitude,
+          lng: longitude,
+          direction: currentBearing
+        }
+      };
+    } else {
+      inputData = {
+        location: {
+          lat: latitude,
+          lng: longitude,
+        }
+      };
     }
-  );
-    
-    
+
+    var input = {
+      data: JSON.stringify(inputData),
+      id: userId
+    };
+
+    //Popup displaying latitude and longitude,
+    //on position change
+    // var testUserName = "Your username is: " + JSON.stringify(userTemp.userName + "\n");
+    // var testOutput = "Your current position is:\n" + "Latitude: " + JSON.stringify(inputData.location.lat) + "\nLongitude: " + JSON.stringify(inputData.location.long) + "";
+    // tuta.util.alert("Location Update", testUserName + testOutput);
+
+
+    //Updates server with user's current position
+    application.service("manageService").invokeOperation(
+      "userUpdate", {}, input,
+      function(result) {
+        //tuta.util.alert("TEST" + "Map updated with your current position");
+      },
+      function(error) {
+
+        // the service returns 403 (Not Authorised) if credentials are wrong
+        //tuta.util.alert("Error: " + error.httpStatusCode,"It looks like the server has crashed, or your location is not updating.\n\n" + error.errmsg);
+      }
+    );
+
+
   }
   catch(ex){
     tuta.util.alert("Error", ex);
@@ -90,55 +90,60 @@ tuta.location.updateLocationOnServer = function(userId, latitude, longitude, bea
 };
 
 tuta.location.loadPositionInit = function() {
-  
+
   try{
-  mapFixed = true;
-  tuta.location.currentPosition(function(response) {
+    mapFixed = true;
+    tuta.location.currentPosition(function(response) {
 
-    tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
-      currentPos.geometry.location.lat = response.coords.latitude;
-      currentPos.geometry.location.lng = response.coords.longitude;
-      try{
-        var components = success.results[0].address_components;
-        var len = components.length;
+      tuta.location.geoCode(response.coords.latitude, response.coords.longitude, function(success, error) {
+        currentPos.geometry.location.lat = response.coords.latitude;
+        currentPos.geometry.location.lng = response.coords.longitude;
+        try{
+          var components = success.results[0].address_components;
+          var len = components.length;
 
-        for(var i = 0; i < len; i++){
-          for(var j = 0; j < components[i].types.length; j++){
-            if(components[i].types[j] === "country"){
-              country = components[i];
+          for(var i = 0; i < len; i++){
+            for(var j = 0; j < components[i].types.length; j++){
+              if(components[i].types[j] === "country"){
+                country = components[i];
+              }
             }
           }
+
+
         }
+        catch(ex){
+
+        }
+        try{
+          kony.timer.schedule("loadMap", function(){
+            tuta.forms.frm003CheckBox.show();
+            updateMap();
+          }, 0.2, false);
+        } catch(e){}
+        //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
+
+        try{
+          kony.timer.cancel("startwatch");
+        }
+        catch (ex){
+          //tuta.util.alert("Startwatch Error", ex);
+        }
+        kony.timer.schedule("startwatch", function(){
+          mapFixed = false;
+          tuta.startWatchLocation();
+        }, 4, false);
 
 
-      }
-      catch(ex){
+        //var userTemp = JSON.parse(kony.store.getItem("user"));
+        tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);
 
-      }
-      //tuta.util.alert("TEST", "COUNTRY CODE: " + country.short_name);
-      updateMap();
-
-      try{
-        kony.timer.cancel("startwatch");
-      }
-      catch (ex){
-        //tuta.util.alert("Startwatch Error", ex);
-      }
-      kony.timer.schedule("startwatch", function(){
-        mapFixed = false;
-        tuta.startWatchLocation();
-      }, 4, false);
-
-
-      //var userTemp = JSON.parse(kony.store.getItem("user"));
-      tuta.location.updateLocationOnServer(globalCurrentUser.userName, response.coords.latitude, response.coords.longitude);
-
+      });
+    }, function(error) {
+      //tuta.util.alert("Error", error);
     });
-  }, function(error) {
-    //tuta.util.alert("Error", error);
-  });
-    
-    
+
+
   }
   catch(ex){
     //tuta.util.alert("Pos load error", ex);
@@ -265,8 +270,8 @@ tuta.location.tripHistoryImage = function(polyline, callback){
                 }
             }
           }
-        
-      
+
+
     };
 
     request.open(constants.HTTP_METHOD_GET, url, true, null, null);
@@ -459,6 +464,8 @@ tuta.location.directions = function(origin, destination, waypoints, callback, id
   var url = "http://maps.googleapis.com/maps/api/directions/json?";
   url = url + "origin=" + origin.formatted_address.replace(/\s+/g, "+");
   url = url + "&destination=" + destination.formatted_address.replace(/\s+/g, "+");
+  url = url + "&departure_time=now";
+  url = url + "&key=AIzaSyBbBz90hd5YDVIVtvkgcoriCRxmIWKYIug";
 
   var request = new kony.net.HttpRequest();
 
@@ -515,7 +522,7 @@ tuta.location.distanceMatrix = function(origins, destinations, callback, id) {
     if (j < destinations.length - 1) destparam += "|";
   }
 
-  var url = "http://maps.googleapis.com/maps/api/distancematrix/json?origins=" + originparam + "&destinations=" + destparam;
+  var url = "http://maps.googleapis.com/maps/api/distancematrix/json?origins=" + originparam + "&destinations=";
 
   var request = new kony.net.HttpRequest();
 
@@ -541,21 +548,21 @@ tuta.location.findAddress = function (address, callback) {
   var url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + address.replace(/\s+/g,"+").replace(/`+/g,"");
 
   var request = new kony.net.HttpRequest();
-  
+
   request.timeout = 30000;
-  
+
   request.onReadyStateChange = function() {
-  	if(request.readyState == constants.HTTP_READY_STATE_DONE) {
+    if(request.readyState == constants.HTTP_READY_STATE_DONE) {
       var response = request.response;
       //ssa.mobile.alert("RESPONSE", response1);
-  	  //ssa.mobile.alert("test", JSON.stringify(response));
+      //ssa.mobile.alert("test", JSON.stringify(response));
       if(response == null) {
         //callback(request1.getAllResponseHeaders());
         //ssa.mobile.alert("HTTP ERROR!",JSON.stringify(request.getAllResponseHeaders()));
       } else {
         if(response != null) {
           if(response.results != null) {
-              callback(response);
+            callback(response);
           }
         }
       }

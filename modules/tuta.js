@@ -58,9 +58,9 @@ var mapFixed = false;
 
 //STATIC VARIABLES
 var GLOBAL_GESTURE_FINGERS_1 = {fingers: 1};
-var GLOBAL_BASE_RATE = 10;
+var GLOBAL_BASE_RATE = 6;
 var GLOBAL_MIN_DIST = 25;
-var GLOBAL_FEE_KM = 12.5;
+var GLOBAL_FEE_KM = 12.5 * 1.05;
 var GLOBAL_FEE_MINUTES = 12.5;
 var GLOBAL_FEE_DEVIATION = 0.15; 
 var GLOBAL_PROVIDER = "TUTA";
@@ -135,7 +135,8 @@ tuta.initCallback = function(error) {
       tuta.util.alert("Login Error", error);
     }
     else {
-		tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", 0, null);
+      tuta.events.getChecklistItems();
+      tuta.animate.moveBottomLeft(frm001LoginScreen.flexMainButtons, 0.2, "0%", 0, null);
     }
   });
 
@@ -359,6 +360,21 @@ tuta.pickupRequestInfo = function(userID, address) {
           if(loc.length > 27)
             loc = shortenText(loc, 25);
           frmPickupRequest.lblViaPath.text = loc;
+          var tempTripDistance = 7;
+          try{
+            tempTripDistance = tuta.location.distance(currentPos.geometry.location.lat,currentPos.geometry.location.lng,results.value[0].location.lat,results.value[0].location.lng)/1000;
+          }
+          catch (ex){
+            //tuta.util.alert("Unable to calculate distance", ex);
+          }
+
+          var tempTripTime = Math.round(tempTripDistance * 1.4) + 2;
+          if (tempTripTime < 2){
+            frmPickupRequest.lblETA.text = tempTripTime + " Minute";
+          }
+          else{
+            frmPickupRequest.lblETA.text = tempTripTime + " Minutes";
+          }
           tuta.forms.frmPickupRequest.show();
         });
 
@@ -756,9 +772,9 @@ tuta.renderRouteAndDriver = function() { //3
 
   //tuta.events.routeHandler();
 
-    currentDest = currentBooking.address.description;
+  currentDest = currentBooking.address.description;
 
-    tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "5%", null);
+  tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "5%", null);
   //tuta.events.directionsMaps(currentBooking.address.description);
   tuta.location.geoCode(currentPos.geometry.location.lat, currentPos.geometry.location.lng, function(success, error){
     startAddress = success.results[0];
@@ -987,7 +1003,7 @@ tuta.resetMap = function(){
   catch(ex){
     //tuta.util.alert("Info", "Unable to remove the map centering button.");
   }
-  
+
   var loc = {lat:currentPos.geometry.location.lat,lng:currentPos.geometry.location.lng};
   tuta.map.navigateTo(loc);
 };
