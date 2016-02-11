@@ -41,6 +41,7 @@ var flagdownComplete = false;
 var startAddress = null;
 var currentBookings = [];
 var currentDest = "";
+var routeObj = {};
 
 //Flags for state of booking process
 var csBookingInTransit = false;
@@ -347,6 +348,7 @@ tuta.pickupRequestInfo = function(userID, address) {
   var input = {
     id: userID
   };
+  var tempTripTime = 0;
 
 
   try{
@@ -362,20 +364,34 @@ tuta.pickupRequestInfo = function(userID, address) {
           frmPickupRequest.lblViaPath.text = loc;
           var tempTripDistance = 7;
           try{
-            tempTripDistance = tuta.location.distance(currentPos.geometry.location.lat,currentPos.geometry.location.lng,results.value[0].location.lat,results.value[0].location.lng)/1000;
+            tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat,currentPos.geometry.location.lng,success.results[0].geometry.location.lat,success.results[0].geometry.location.lng, function(response){
+              routeObj.full_route = response;
+              routeObj.distance_matrix = response.routes[0].legs[0].distance.value;
+              routeObj.duration = response.routes[0].legs[0].duration.value;
+              try{
+                routeObj.duration_in_traffic = response.routes[0].legs[0].duration_in_traffic.value;
+              } catch(e){
+                routeObj.duration_in_traffic = null;
+              }
+              //TODO: Calculate time based on destination location, 1.2 mins per km
+              if(routeObj.duration_in_traffic !== null)
+                tempTripTime = Math.round(routeObj.duration_in_traffic/60) + 1;
+              else
+                tempTripTime = Math.round(routeObj.duration/60) + 1;
+
+
+              frmPickupRequest.lblETA.text = "" + tempTripTime + " min";
+              tuta.forms.frmPickupRequest.show();
+            });
+            /*tuta.util.alert("Distance Debug", "CurrentPos Lat: " + currentPos.geometry.location.lat + "\n"
+              + "CurrentPos Long: " + currentPos.geometry.location.lng + "\n" 
+              + "UserPos Lat : " + results.value[0].location.lat " +\n"
+              + "UserPos Long: " + results.value[0].location.lng);*/
+            //tempTripDistance = tuta.location.distance(currentPos.geometry.location.lat,currentPos.geometry.location.lng,success.results[0].geometry.location.lat,success.results[0].geometry.location.lng)/1000;
           }
           catch (ex){
-            //tuta.util.alert("Unable to calculate distance", ex);
+            tuta.util.alert("Unable to calculate distance", ex);
           }
-
-          var tempTripTime = Math.round(tempTripDistance * 1.4) + 2;
-          if (tempTripTime < 2){
-            frmPickupRequest.lblETA.text = tempTripTime + " Minute";
-          }
-          else{
-            frmPickupRequest.lblETA.text = tempTripTime + " Minutes";
-          }
-          tuta.forms.frmPickupRequest.show();
         });
 
       },
@@ -642,11 +658,11 @@ tuta.renderRouteAndUser = function() { //1
     tuta.animate.move(frm004Home.flexArrivalMessage, 0, frm004Home.flexArrivalMessage.top, "5%", null);
   });
 
-  tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
+  //tuta.location.directionsFromCoordinates(currentPos.geometry.location.lat, currentPos.geometry.location.lng, currentBooking.location.lat, currentBooking.location.lng, function(response) {
 
     //tuta.events.directionsMaps(response.legs[0].end_address.replace(/\s+/g,"+").replace(/`+/g,"")); 
     kony.timer.schedule("renderDir", function() {
-      renderDirections(frm004Home.mapMain, response, "0x0000FFFF", "", "");
+      renderDirections(frm004Home.mapMain, routeObj.full_route, "0x0000FFFF", "", "");
       //updateMap();
       tuta.updateUserOnRoute(currentBooking.userId);
 
@@ -658,7 +674,7 @@ tuta.renderRouteAndUser = function() { //1
         //tuta.util.alert("Info", "Unable to remove the map centering button.");
       }
     }, 2, false);
-  });
+  //});
 };
 
 /*

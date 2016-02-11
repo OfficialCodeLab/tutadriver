@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "135dp"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "bottom": "94dp",
@@ -88,7 +88,7 @@
     },
     "wType": "Label",
     "widgetAlignment": 5,
-    "width": "135dp",
+    "width": "100%",
     "wrapping": 2,
     "zIndex": 1,
     "zindex": 1
